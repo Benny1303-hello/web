@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BBC Tech - Linh kiện & Đồ công nghệ chính hãng</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="logo">
+      <span class="logo-mark">BBC</span>
+      <span class="logo-sub">TECH STORE</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Trang chủ</a>
+      <a href="#categories">Danh mục</a>
+      <a href="#products">Sản phẩm</a>
+      <a href="#promo">Khuyến mãi</a>
+      <a href="#contact">Liên hệ</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="icon-btn" aria-label="Tìm kiếm">
+        <svg viewBox="0 0 24 24" width="20" height="20"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><line x1="21" y1="21" x2="16.65" y2="16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+      <button class="icon-btn" aria-label="Giỏ hàng">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path d="M3 3h2l2.4 12.4a2 2 0 0 0 2 1.6h8.2a2 2 0 0 0 2-1.6L21 8H6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="9" cy="21" r="1.4" fill="currentColor"/><circle cx="18" cy="21" r="1.4" fill="currentColor"/></svg>
+        <span class="cart-badge">3</span>
+      </button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <span class="badge">⚡ Ưu đãi mùa hè - Giảm đến 30%</span>
+      <h1>Nâng cấp dàn máy <br><span class="highlight">mạnh mẽ hơn</span> cùng BBC Tech</h1>
+      <p>Chuyên cung cấp CPU, Card đồ họa, RAM, SSD và linh kiện PC chính hãng - bảo hành tận tâm, giá tốt mỗi ngày.</p>
+      <div class="hero-btns">
+        <a href="#products" class="btn btn-primary">Khám phá sản phẩm</a>
+        <a href="#promo" class="btn btn-outline">Xem khuyến mãi</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>10k+</strong><span>Khách hàng</span></div>
+        <div><strong>500+</strong><span>Sản phẩm</span></div>
+        <div><strong>24/7</strong><span>Hỗ trợ</span></div>
+      </div>
+    </div>
+
+    <div class="hero-art">
+      <!-- CPU illustration -->
+      <svg class="art-cpu" viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg">
+        <g class="pins">
+          <line x1="40" y1="0" x2="40" y2="30" /><line x1="70" y1="0" x2="70" y2="30" />
+          <line x1="100" y1="0" x2="100" y2="30" /><line x1="130" y1="0" x2="130" y2="30" />
+          <line x1="160" y1="0" x2="160" y2="30" /><line x1="190" y1="0" x2="190" y2="30" />
+          <line x1="220" y1="0" x2="220" y2="30" />
+          <line x1="40" y1="260" x2="40" y2="230" /><line x1="70" y1="260" x2="70" y2="230" />
+          <line x1="100" y1="260" x2="100" y2="230" /><line x1="130" y1="260" x2="130" y2="230" />
+          <line x1="160" y1="260" x2="160" y2="230" /><line x1="190" y1="260" x2="190" y2="230" />
+          <line x1="220" y1="260" x2="220" y2="230" />
+          <line x1="0" y1="40" x2="30" y2="40" /><line x1="0" y1="70" x2="30" y2="70" />
+          <line x1="0" y1="100" x2="30" y2="100" /><line x1="0" y1="130" x2="30" y2="130" />
+          <line x1="0" y1="160" x2="30" y2="160" /><line x1="0" y1="190" x2="30" y2="190" />
+          <line x1="0" y1="220" x2="30" y2="220" />
+          <line x1="260" y1="40" x2="230" y2="40" /><line x1="260" y1="70" x2="230" y2="70" />
+          <line x1="260" y1="100" x2="230" y2="100" /><line x1="260" y1="130" x2="230" y2="130" />
+          <line x1="260" y1="160" x2="230" y2="160" /><line x1="260" y1="190" x2="230" y2="190" />
+          <line x1="260" y1="220" x2="230" y2="220" />
+        </g>
+        <rect x="30" y="30" width="200" height="200" rx="10" fill="url(#cpuBody)" stroke="#8fd6ff" stroke-width="1.5"/>
+        <rect x="55" y="55" width="150" height="150" rx="6" fill="none" stroke="#5fb8e8" stroke-width="1" stroke-dasharray="4 3"/>
+        <text x="130" y="122" text-anchor="middle" fill="#eaf7ff" font-family="Segoe UI, Arial" font-size="22" font-weight="700">BBC</text>
+        <text x="130" y="146" text-anchor="middle" fill="#a9dcff" font-family="Segoe UI, Arial" font-size="11" letter-spacing="2">PROCESSOR</text>
+        <circle cx="70" cy="80" r="3" fill="#63e6ff"/>
+        <defs>
+          <linearGradient id="cpuBody" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#123a63"/>
+            <stop offset="100%" stop-color="#0a1f3d"/>
+          </linearGradient>
+        </defs>
+      </svg>
+
+      <!-- GPU illustration -->
+      <svg class="art-gpu" viewBox="0 0 320 160" xmlns="http://www.w3.org/2000/svg">
+        <rect x="10" y="20" width="300" height="95" rx="12" fill="url(#gpuBody)" stroke="#4fa3e0" stroke-width="1.5"/>
+        <rect x="10" y="20" width="300" height="18" rx="8" fill="#0e2a4d"/>
+        <circle cx="90" cy="80" r="38" fill="#0a1f3d" stroke="#67c9ff" stroke-width="2"/>
+        <circle cx="90" cy="80" r="38" fill="none" stroke="#1c4a78" stroke-width="8" stroke-dasharray="6 8"/>
+        <circle cx="90" cy="80" r="6" fill="#67c9ff"/>
+        <circle cx="200" cy="80" r="38" fill="#0a1f3d" stroke="#67c9ff" stroke-width="2"/>
+        <circle cx="200" cy="80" r="38" fill="none" stroke="#1c4a78" stroke-width="8" stroke-dasharray="6 8"/>
+        <circle cx="200" cy="80" r="6" fill="#67c9ff"/>
+        <rect x="255" y="55" width="45" height="50" rx="4" fill="#0e2a4d" stroke="#4fa3e0"/>
+        <text x="278" y="84" text-anchor="middle" fill="#8fd6ff" font-family="Segoe UI, Arial" font-size="10" font-weight="700" transform="rotate(90 278 84)">BBC RTX</text>
+        <rect x="0" y="118" width="70" height="14" rx="3" fill="#0e2a4d"/>
+        <rect x="90" y="118" width="70" height="14" rx="3" fill="#0e2a4d"/>
+        <defs>
+          <linearGradient id="gpuBody" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#173f6b"/>
+            <stop offset="100%" stop-color="#0a1f3d"/>
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+  </div>
+  <div class="hero-wave"></div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="categories" id="categories">
+  <div class="section-head">
+    <h2>Danh mục nổi bật</h2>
+    <p>Đầy đủ linh kiện để bạn build cấu hình mơ ước</p>
+  </div>
+  <div class="cat-grid">
+    <div class="cat-card">
+      <svg viewBox="0 0 64 64"><rect x="14" y="14" width="36" height="36" rx="4" fill="none" stroke="currentColor" stroke-width="2.5"/><rect x="24" y="24" width="16" height="16" fill="currentColor"/><g stroke="currentColor" stroke-width="2.5"><line x1="6" y1="22" x2="14" y2="22"/><line x1="6" y1="32" x2="14" y2="32"/><line x1="6" y1="42" x2="14" y2="42"/><line x1="50" y1="22" x2="58" y2="22"/><line x1="50" y1="32" x2="58" y2="32"/><line x1="50" y1="42" x2="58" y2="42"/><line x1="22" y1="6" x2="22" y2="14"/><line x1="32" y1="6" x2="32" y2="14"/><line x1="42" y1="6" x2="42" y2="14"/><line x1="22" y1="50" x2="22" y2="58"/><line x1="32" y1="50" x2="32" y2="58"/><line x1="42" y1="50" x2="42" y2="58"/></g></svg>
+      <h3>CPU</h3><p>Vi xử lý Intel & AMD</p>
+    </div>
+    <div class="cat-card">
+      <svg viewBox="0 0 64 64"><rect x="6" y="18" width="52" height="28" rx="4" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="22" cy="32" r="9" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="42" cy="32" r="9" fill="none" stroke="currentColor" stroke-width="2.5"/><rect x="50" y="14" width="8" height="10" fill="currentColor"/></svg>
+      <h3>Card đồ họa</h3><p>GPU hiệu năng cao</p>
+    </div>
+    <div class="cat-card">
+      <svg viewBox="0 0 64 64"><rect x="10" y="8" width="10" height="48" rx="2" fill="none" stroke="currentColor" stroke-width="2.5"/><rect x="27" y="8" width="10" height="48" rx="2" fill="none" stroke="currentColor" stroke-width="2.5"/><rect x="44" y="8" width="10" height="48" rx="2" fill="none" stroke="currentColor" stroke-width="2.5"/></svg>
+      <h3>RAM</h3><p>Bộ nhớ tốc độ cao</p>
+    </div>
+    <div class="cat-card">
+      <svg viewBox="0 0 64 64"><rect x="8" y="14" width="48" height="36" rx="6" fill="none" stroke="currentColor" stroke-width="2.5"/><line x1="8" y1="30" x2="56" y2="30" stroke="currentColor" stroke-width="2.5"/><circle cx="46" cy="22" r="2.5" fill="currentColor"/></svg>
+      <h3>SSD / Ổ cứng</h3><p>Lưu trữ tốc độ vượt trội</p>
+    </div>
+    <div class="cat-card">
+      <svg viewBox="0 0 64 64"><rect x="8" y="6" width="48" height="52" rx="4" fill="none" stroke="currentColor" stroke-width="2.5"/><line x1="16" y1="18" x2="48" y2="18" stroke="currentColor" stroke-width="2.5"/><line x1="16" y1="28" x2="48" y2="28" stroke="currentColor" stroke-width="2.5"/><circle cx="32" cy="44" r="7" fill="none" stroke="currentColor" stroke-width="2.5"/></svg>
+      <h3>Mainboard</h3><p>Bo mạch chủ đa nền tảng</p>
+    </div>
+    <div class="cat-card">
+      <svg viewBox="0 0 64 64"><rect x="10" y="10" width="44" height="44" rx="4" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="32" cy="32" r="10" fill="none" stroke="currentColor" stroke-width="2.5"/><line x1="32" y1="4" x2="32" y2="10" stroke="currentColor" stroke-width="2.5"/><line x1="32" y1="54" x2="32" y2="60" stroke="currentColor" stroke-width="2.5"/></svg>
+      <h3>Tản nhiệt</h3><p>Giải nhiệt cho hệ thống</p>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="products" id="products">
+  <div class="section-head">
+    <h2>Sản phẩm bán chạy</h2>
+    <p>Được lựa chọn nhiều nhất bởi khách hàng BBC Tech</p>
+  </div>
+
+  <div class="product-grid">
+
+    <div class="product-card">
+      <span class="tag">Mới</span>
+      <div class="product-img cpu-thumb">
+        <svg viewBox="0 0 120 120"><rect x="20" y="20" width="80" height="80" rx="8" fill="#0d2b52" stroke="#63e6ff" stroke-width="2"/><rect x="38" y="38" width="44" height="44" fill="none" stroke="#3f7fb0" stroke-width="1" stroke-dasharray="3 3"/><text x="60" y="66" text-anchor="middle" fill="#eaf7ff" font-size="14" font-weight="700" font-family="Segoe UI">BBC</text><g stroke="#63e6ff" stroke-width="2"><line x1="30" y1="10" x2="30" y2="20"/><line x1="50" y1="10" x2="50" y2="20"/><line x1="70" y1="10" x2="70" y2="20"/><line x1="90" y1="10" x2="90" y2="20"/><line x1="30" y1="100" x2="30" y2="110"/><line x1="50" y1="100" x2="50" y2="110"/><line x1="70" y1="100" x2="70" y2="110"/><line x1="90" y1="100" x2="90" y2="110"/></g></div>
+      <h3>BBC Core X9 - 16 nhân</h3>
+      <p class="desc">Hiệu năng vượt trội cho gaming & sáng tạo nội dung</p>
+      <div class="price-row"><span class="price">6.990.000₫</span><span class="old-price">8.290.000₫</span></div>
+      <button class="btn btn-primary btn-block">Thêm vào giỏ</button>
+    </div>
+
+    <div class="product-card">
+      <span class="tag hot">Hot</span>
+      <div class="product-img gpu-thumb">
+        <svg viewBox="0 0 140 100"><rect x="10" y="20" width="120" height="55" rx="8" fill="#0d2b52" stroke="#4fa3e0" stroke-width="2"/><circle cx="45" cy="47" r="20" fill="#0a1f3d" stroke="#67c9ff" stroke-width="2"/><circle cx="45" cy="47" r="4" fill="#67c9ff"/><circle cx="90" cy="47" r="20" fill="#0a1f3d" stroke="#67c9ff" stroke-width="2"/><circle cx="90" cy="47" r="4" fill="#67c9ff"/><rect x="0" y="80" width="35" height="8" fill="#0d2b52"/><rect x="45" y="80" width="35" height="8" fill="#0d2b52"/></svg>
+      </div>
+      <h3>BBC Radeon Vega 4070</h3>
+      <p class="desc">Card đồ họa mạnh mẽ, tản nhiệt kép êm ái</p>
+      <div class="price-row"><span class="price">12.490.000₫</span><span class="old-price">14.990.000₫</span></div>
+      <button class="btn btn-primary btn-block">Thêm vào giỏ</button>
+    </div>
+
+    <div class="product-card">
+      <div class="product-img ram-thumb">
+        <svg viewBox="0 0 120 100"><rect x="15" y="15" width="18" height="70" rx="2" fill="#0d2b52" stroke="#63e6ff" stroke-width="2"/><rect x="41" y="15" width="18" height="70" rx="2" fill="#0d2b52" stroke="#63e6ff" stroke-width="2"/><rect x="67" y="15" width="18" height="70" rx="2" fill="#0d2b52" stroke="#63e6ff" stroke-width="2"/><rect x="93" y="15" width="18" height="70" rx="2" fill="#0d2b52" stroke="#63e6ff" stroke-width="2"/></svg>
+      </div>
+      <h3>BBC Turbo RAM 32GB DDR5</h3>
+      <p class="desc">Tốc độ 6000MHz, ổn định cho mọi tác vụ nặng</p>
+      <div class="price-row"><span class="price">2.190.000₫</span></div>
+      <button class="btn btn-primary btn-block">Thêm vào giỏ</button>
+    </div>
+
+    <div class="product-card">
+      <span class="tag">Mới</span>
+      <div class="product-img ssd-thumb">
+        <svg viewBox="0 0 120 90"><rect x="10" y="15" width="100" height="60" rx="8" fill="#0d2b52" stroke="#4fa3e0" stroke-width="2"/><line x1="10" y1="40" x2="110" y2="40" stroke="#3f7fb0" stroke-width="1.5"/><circle cx="90" cy="27" r="4" fill="#63e6ff"/><text x="55" y="63" text-anchor="middle" fill="#a9dcff" font-size="10" font-family="Segoe UI">NVMe SSD</text></svg>
+      </div>
+      <h3>BBC SSD NVMe 1TB Gen4</h3>
+      <p class="desc">Tốc độ đọc/ghi lên đến 7000MB/s</p>
+      <div class="price-row"><span class="price">1.890.000₫</span><span class="old-price">2.290.000₫</span></div>
+      <button class="btn btn-primary btn-block">Thêm vào giỏ</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- PROMO -->
+<section class="promo" id="promo">
+  <div class="promo-inner">
+    <div>
+      <h2>Combo Build PC Gaming</h2>
+      <p>Tiết kiệm đến 3.000.000₫ khi mua combo CPU + Mainboard + RAM + Card đồ họa.</p>
+      <a href="#products" class="btn btn-light">Xem combo ngay</a>
+    </div>
+    <svg class="promo-art" viewBox="0 0 220 220">
+      <circle cx="110" cy="110" r="100" fill="rgba(255,255,255,0.08)"/>
+      <circle cx="110" cy="110" r="70" fill="rgba(255,255,255,0.12)"/>
+      <text x="110" y="120" text-anchor="middle" fill="#fff" font-size="42" font-weight="800" font-family="Segoe UI">-30%</text>
+    </svg>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="contact">
+  <div class="footer-inner">
+    <div class="footer-col">
+      <div class="logo footer-logo">
+        <span class="logo-mark">BBC</span>
+        <span class="logo-sub">TECH STORE</span>
+      </div>
+      <p>Địa chỉ tin cậy cho linh kiện máy tính & thiết bị công nghệ chính hãng.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Danh mục</h4>
+      <a href="#categories">CPU</a>
+      <a href="#categories">Card đồ họa</a>
+      <a href="#categories">RAM</a>
+      <a href="#categories">SSD</a>
+    </div>
+    <div class="footer-col">
+      <h4>Hỗ trợ</h4>
+      <a href="#">Chính sách bảo hành</a>
+      <a href="#">Hướng dẫn mua hàng</a>
+      <a href="#">Vận chuyển</a>
+    </div>
+    <div class="footer-col">
+      <h4>Liên hệ</h4>
+      <p>📍 123 Đường Công Nghệ, Q.1, TP.HCM</p>
+      <p>📞 1900 6868</p>
+      <p>✉ support@bbctech.vn</p>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 BBC Tech Store. All rights reserved.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

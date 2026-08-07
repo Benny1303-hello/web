@@ -1,0 +1,30 @@
+import Link from 'next/link';
+import { ChevronRight } from 'lucide-react';
+import Reveal from '@/components/Reveal';
+
+export default function PageHero({ eyebrow, title, description, crumb }) {
+  return (
+    <section className="relative overflow-hidden bg-hero-mesh py-20 text-white">
+      <div className="container-page relative">
+        <Reveal>
+          <div className="flex items-center gap-2 text-xs font-medium uppercase tracking-widest text-cyan-300">
+            <Link href="/" className="transition-colors hover:text-white">
+              Trang chủ
+            </Link>
+            <ChevronRight size={14} />
+            <span className="text-slate-300">{crumb}</span>
+          </div>
+          {eyebrow && (
+            <p className="mt-6 text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">{eyebrow}</p>
+          )}
+          <h1 className="mt-3 max-w-2xl text-balance font-display text-4xl font-bold leading-tight md:text-5xl">
+            {title}
+          </h1>
+          {description && (
+            <p className="mt-5 max-w-xl text-balance text-slate-300">{description}</p>
+          )}
+        </Reveal>
+      </div>
+    </section>
+  );
+}

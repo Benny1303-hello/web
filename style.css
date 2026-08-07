@@ -71,25 +71,22 @@ img, svg { display: block; max-width: 100%; }
 }
 .logo {
   display: flex;
-  align-items: baseline;
-  gap: 8px;
+  align-items: center;
   flex-shrink: 0;
+  background: var(--white);
+  padding: 6px 14px;
+  border-radius: 10px;
 }
-.logo-mark {
-  font-size: 26px;
-  font-weight: 800;
-  letter-spacing: 1px;
-  color: var(--white);
-  background: linear-gradient(135deg, var(--cyan-300), var(--blue-500));
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+.logo-img {
+  height: 34px;
+  width: auto;
+  display: block;
 }
-.logo-sub {
-  font-size: 10px;
-  letter-spacing: 2px;
-  color: var(--text-muted);
-  font-weight: 600;
+.footer-logo {
+  display: inline-flex;
+}
+.footer-logo-img {
+  height: 40px;
 }
 .nav-links {
   display: flex;

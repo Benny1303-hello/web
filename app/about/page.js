@@ -1,8 +1,9 @@
-import { Award, Compass, Heart, Users2, Zap, ShieldCheck, ThumbsUp } from 'lucide-react';
+import Image from 'next/image';
+import { Award, Compass, Heart, Users2, Zap, ShieldCheck, ThumbsUp, BadgeCheck } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
 import CtaBanner from '@/components/CtaBanner';
-import { whyChooseUs } from '@/lib/content';
+import { whyChooseUs, certifications } from '@/lib/content';
 
 export const metadata = {
   title: 'Về chúng tôi',
@@ -108,6 +109,36 @@ export default function AboutPage() {
                 </Reveal>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-mist-50 py-20">
+        <div className="container-page">
+          <Reveal className="mx-auto max-w-2xl text-center">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600 flex items-center justify-center gap-2">
+              <BadgeCheck size={16} /> Chứng nhận đối tác
+            </p>
+            <h2 className="mt-3 text-balance font-display text-3xl font-bold text-navy-900 md:text-4xl">
+              Được các hãng công nghệ hàng đầu công nhận
+            </h2>
+          </Reveal>
+
+          <div className="mt-14 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            {certifications.map((cert, i) => (
+              <Reveal key={cert.title} delay={i * 0.1}>
+                <div className="overflow-hidden rounded-2xl bg-white shadow-soft ring-1 ring-black/5">
+                  <Image
+                    src={cert.image}
+                    alt={cert.title}
+                    width={1129}
+                    height={800}
+                    className="h-auto w-full"
+                  />
+                </div>
+                <p className="mt-4 text-center text-sm font-semibold text-ink-900">{cert.title}</p>
+              </Reveal>
+            ))}
           </div>
         </div>
       </section>

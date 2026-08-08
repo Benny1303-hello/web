@@ -15,7 +15,7 @@ export default function Testimonials() {
     if (paused) return undefined;
     const id = setInterval(() => {
       setIndex((i) => (i + 1) % testimonials.length);
-    }, 6000);
+    }, 9000);
     return () => clearInterval(id);
   }, [paused]);
 
@@ -40,9 +40,7 @@ export default function Testimonials() {
           onMouseEnter={() => setPaused(true)}
           onMouseLeave={() => setPaused(false)}
         >
-          <Quote className="mx-auto mb-6 text-brand-400" size={36} />
-
-          <div className="relative min-h-[220px]">
+          <div className="relative min-h-[120px]">
             <AnimatePresence mode="wait">
               <motion.div
                 key={index}
@@ -52,22 +50,20 @@ export default function Testimonials() {
                 transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
                 className="text-center"
               >
-                <p className="text-balance text-lg leading-relaxed text-slate-200">“{current.quote}”</p>
-                <div className="mt-6 flex items-center justify-center gap-3">
-                  {current.avatar && (
-                    <Image
-                      src={current.avatar}
-                      alt={current.name}
-                      width={48}
-                      height={48}
-                      className="h-12 w-12 rounded-full object-cover ring-2 ring-white/20"
-                    />
-                  )}
-                  <div className="text-left">
-                    <p className="font-display font-bold text-white">{current.name}</p>
-                    <p className="text-sm text-cyan-300">{current.role}</p>
-                  </div>
-                </div>
+                {current.avatar && (
+                  <Image
+                    src={current.avatar}
+                    alt={current.name}
+                    width={96}
+                    height={96}
+                    className="mx-auto h-24 w-24 rounded-full object-cover ring-4 ring-white/15"
+                  />
+                )}
+                <p className="mt-4 font-display text-lg font-bold text-white">{current.name}</p>
+                <p className="text-sm text-cyan-300">{current.role}</p>
+
+                <Quote className="mx-auto mt-6 mb-4 text-brand-400" size={30} />
+                <p className="mx-auto max-w-2xl text-balance leading-relaxed text-slate-200">“{current.quote}”</p>
               </motion.div>
             </AnimatePresence>
           </div>

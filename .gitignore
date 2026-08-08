@@ -3,6 +3,7 @@ node_modules
 out
 .vercel
 .env*.local
+!.env.local.example
 npm-debug.log*
 .DS_Store
 .claude/settings.local.json

@@ -1,0 +1,36 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // users/{uid} lưu hồ sơ bổ sung (username, email, uid, createdAt).
+    // Mật khẩu KHÔNG bao giờ được lưu ở đây — Firebase Authentication tự quản lý.
+    match /users/{userId} {
+      // Chỉ chính chủ mới đọc được hồ sơ của mình.
+      allow read: if request.auth != null && request.auth.uid == userId;
+
+      // Chỉ được tạo hồ sơ của chính mình, đúng lúc đăng ký, với đúng các field cho phép.
+      allow create: if request.auth != null
+        && request.auth.uid == userId
+        && request.resource.data.uid == userId
+        && request.resource.data.email == request.auth.token.email
+        && request.resource.data.keys().hasOnly(['uid', 'email', 'username', 'createdAt'])
+        && request.resource.data.username is string
+        && request.resource.data.username.size() > 0;
+
+      // Sau khi tạo, chỉ được sửa username — không được đổi uid/email/createdAt.
+      allow update: if request.auth != null
+        && request.auth.uid == userId
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['username'])
+        && request.resource.data.username is string
+        && request.resource.data.username.size() > 0;
+
+      allow delete: if false;
+    }
+
+    // Mặc định từ chối mọi truy cập khác.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

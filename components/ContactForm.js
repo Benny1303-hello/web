@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { CheckCircle2, Send } from 'lucide-react';
+import { CheckCircle2, Send, Loader2 } from 'lucide-react';
 
 const fields = [
   { name: 'name', label: 'Họ và tên', type: 'text', placeholder: 'Nguyễn Văn A' },
@@ -19,9 +19,20 @@ export default function ContactForm() {
     setValues((v) => ({ ...v, [e.target.name]: e.target.value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setStatus('sent');
+    setStatus('sending');
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(values),
+      });
+      if (!res.ok) throw new Error('Send failed');
+      setStatus('sent');
+    } catch {
+      setStatus('error');
+    }
   };
 
   if (status === 'sent') {
@@ -78,12 +89,32 @@ export default function ContactForm() {
         </div>
       </div>
 
+      {status === 'error' && (
+        <p className="mt-4 text-sm font-medium text-red-600">
+          Gửi yêu cầu thất bại, vui lòng thử lại hoặc gọi trực tiếp {(' ')}
+          <a href="tel:+84908161313" className="underline">
+            (+84) 908 161 313
+          </a>
+          .
+        </p>
+      )}
+
       <button
         type="submit"
-        className="group mt-6 inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-brand-500 to-cyan-400 px-7 py-3 text-sm font-semibold text-navy-950 shadow-glow transition-transform duration-200 hover:scale-105 active:scale-95"
+        disabled={status === 'sending'}
+        className="group mt-6 inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-brand-500 to-cyan-400 px-7 py-3 text-sm font-semibold text-navy-950 shadow-glow transition-transform duration-200 hover:scale-105 active:scale-95 disabled:cursor-not-allowed disabled:opacity-70 disabled:hover:scale-100"
       >
-        Gửi yêu cầu
-        <Send size={16} className="transition-transform duration-200 group-hover:translate-x-1" />
+        {status === 'sending' ? (
+          <>
+            Đang gửi...
+            <Loader2 size={16} className="animate-spin" />
+          </>
+        ) : (
+          <>
+            Gửi yêu cầu
+            <Send size={16} className="transition-transform duration-200 group-hover:translate-x-1" />
+          </>
+        )}
       </button>
     </form>
   );

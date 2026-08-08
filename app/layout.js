@@ -3,7 +3,6 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import PageTransition from '@/components/PageTransition';
-import { AuthProvider } from '@/context/AuthContext';
 
 const sora = Sora({
   subsets: ['latin'],
@@ -32,13 +31,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="vi" className={`${sora.variable} ${inter.variable}`}>
       <body className="font-body antialiased">
-        <AuthProvider>
-          <Navbar />
-          <main>
-            <PageTransition>{children}</PageTransition>
-          </main>
-          <Footer />
-        </AuthProvider>
+        <Navbar />
+        <main>
+          <PageTransition>{children}</PageTransition>
+        </main>
+        <Footer />
       </body>
     </html>
   );

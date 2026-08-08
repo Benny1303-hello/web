@@ -6,6 +6,7 @@ import {
   ShieldAlert,
   Wrench,
   Phone,
+  Mail,
 } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
@@ -73,15 +74,26 @@ export default function DistributionPage() {
           <div className="mx-auto mt-12 grid max-w-3xl grid-cols-1 gap-4 sm:grid-cols-2">
             {salesContacts.map((contact, i) => (
               <Reveal key={contact.name} delay={i * 0.06}>
-                <div className="flex items-center justify-between rounded-xl bg-white px-6 py-5 shadow-soft ring-1 ring-black/5">
+                <div className="flex flex-col gap-2 rounded-xl bg-white px-6 py-5 shadow-soft ring-1 ring-black/5 sm:flex-row sm:items-center sm:justify-between">
                   <span className="font-medium text-ink-900">{contact.name}</span>
-                  <a
-                    href={`tel:${contact.phone.replace(/\s/g, '')}`}
-                    className="flex items-center gap-2 text-sm font-semibold text-brand-600 transition-colors hover:text-brand-700"
-                  >
-                    <Phone size={14} />
-                    {contact.phone}
-                  </a>
+                  <div className="flex flex-col gap-1.5 sm:items-end">
+                    <a
+                      href={`tel:${contact.phone.replace(/\s/g, '')}`}
+                      className="flex items-center gap-2 text-sm font-semibold text-brand-600 transition-colors hover:text-brand-700"
+                    >
+                      <Phone size={14} />
+                      {contact.phone}
+                    </a>
+                    {contact.email && (
+                      <a
+                        href={`mailto:${contact.email}`}
+                        className="flex items-center gap-2 text-sm text-ink-400 transition-colors hover:text-brand-600"
+                      >
+                        <Mail size={14} />
+                        {contact.email}
+                      </a>
+                    )}
+                  </div>
                 </div>
               </Reveal>
             ))}

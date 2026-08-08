@@ -54,9 +54,9 @@ export default function Testimonials() {
                   <Image
                     src={current.avatar}
                     alt={current.name}
-                    width={96}
-                    height={96}
-                    className="mx-auto h-24 w-24 rounded-full object-cover ring-4 ring-white/15"
+                    width={192}
+                    height={192}
+                    className="mx-auto h-48 w-48 rounded-full object-cover ring-4 ring-white/15"
                   />
                 )}
                 <p className="mt-4 font-display text-lg font-bold text-white">{current.name}</p>

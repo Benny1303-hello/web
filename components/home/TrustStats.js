@@ -8,7 +8,7 @@ const icons = [Zap, ShieldCheck, ThumbsUp];
 export default function TrustStats() {
   return (
     <section className="relative bg-slate-200">
-      <div className="container-page -mt-16 grid grid-cols-1 gap-8 md:grid-cols-3">
+      <div className="container-page pt-10 grid grid-cols-1 gap-8 md:grid-cols-3">
         {trustBadges.map((badge, i) => {
           const Icon = icons[i];
           return (

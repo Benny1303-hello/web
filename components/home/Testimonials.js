@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 import { AnimatePresence, motion } from 'framer-motion';
 import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 import Reveal from '@/components/Reveal';
@@ -52,8 +53,21 @@ export default function Testimonials() {
                 className="text-center"
               >
                 <p className="text-balance text-lg leading-relaxed text-slate-200">“{current.quote}”</p>
-                <p className="mt-6 font-display font-bold text-white">{current.name}</p>
-                <p className="text-sm text-cyan-300">{current.role}</p>
+                <div className="mt-6 flex items-center justify-center gap-3">
+                  {current.avatar && (
+                    <Image
+                      src={current.avatar}
+                      alt={current.name}
+                      width={48}
+                      height={48}
+                      className="h-12 w-12 rounded-full object-cover ring-2 ring-white/20"
+                    />
+                  )}
+                  <div className="text-left">
+                    <p className="font-display font-bold text-white">{current.name}</p>
+                    <p className="text-sm text-cyan-300">{current.role}</p>
+                  </div>
+                </div>
               </motion.div>
             </AnimatePresence>
           </div>

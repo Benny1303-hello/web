@@ -1,18 +1,23 @@
+'use client';
+
 import { Network, PackageSearch, Wrench, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 import Reveal from '@/components/Reveal';
 import { centers } from '@/lib/content';
+import { useLanguage } from '@/context/LanguageContext';
 
 const icons = { services: Wrench, distribution: PackageSearch, 'system-integration': Network };
 
 export default function CentersGrid() {
+  const { t } = useLanguage();
+
   return (
     <section className="bg-white py-20">
       <div className="container-page">
         <Reveal className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">TTC-Infotech</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">{t('centersSection.eyebrow')}</p>
           <h2 className="mt-3 text-balance font-display text-3xl font-bold text-navy-900 md:text-4xl">
-            Ba trung tâm, một hệ sinh thái công nghệ trọn vẹn
+            {t('centersSection.heading')}
           </h2>
         </Reveal>
 
@@ -29,13 +34,13 @@ export default function CentersGrid() {
                     <Icon size={22} />
                   </div>
                   <h3 className="font-display text-xl font-bold text-ink-900 transition-colors group-hover:text-white">
-                    {center.title}
+                    {t(`centers.${center.key}.title`)}
                   </h3>
                   <p className="mt-3 flex-1 text-sm leading-relaxed text-ink-400 transition-colors group-hover:text-slate-300">
-                    {center.short}
+                    {t(`centers.${center.key}.short`)}
                   </p>
                   <span className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-brand-600 transition-colors group-hover:text-cyan-300">
-                    Xem thêm
+                    {t('centersSection.viewMore')}
                     <ArrowRight size={16} className="transition-transform duration-300 group-hover:translate-x-1" />
                   </span>
                 </Link>

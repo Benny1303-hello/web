@@ -7,11 +7,43 @@ import { usePathname } from 'next/navigation';
 import { AnimatePresence, motion } from 'framer-motion';
 import { Menu, X, Phone } from 'lucide-react';
 import { navLinks, site } from '@/lib/content';
+import { useLanguage } from '@/context/LanguageContext';
+
+function LanguageSwitcher({ className = '' }) {
+  const { language, setLanguage } = useLanguage();
+
+  return (
+    <div className={`flex items-center gap-1 text-sm font-semibold ${className}`} role="group" aria-label="Language">
+      <button
+        type="button"
+        onClick={() => setLanguage('vi')}
+        aria-pressed={language === 'vi'}
+        className={`rounded-full px-2 py-1 transition-colors ${
+          language === 'vi' ? 'text-cyan-300' : 'text-slate-400 hover:text-white'
+        }`}
+      >
+        VI
+      </button>
+      <span className="text-slate-500">|</span>
+      <button
+        type="button"
+        onClick={() => setLanguage('en')}
+        aria-pressed={language === 'en'}
+        className={`rounded-full px-2 py-1 transition-colors ${
+          language === 'en' ? 'text-cyan-300' : 'text-slate-400 hover:text-white'
+        }`}
+      >
+        EN
+      </button>
+    </div>
+  );
+}
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const pathname = usePathname();
+  const { t } = useLanguage();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
@@ -44,7 +76,7 @@ export default function Navbar() {
                 href={link.href}
                 className="relative px-4 py-2 text-sm font-medium text-slate-200 transition-colors hover:text-cyan-300"
               >
-                {link.label}
+                {t(`nav.${link.key}`)}
                 {active && (
                   <motion.span
                     layoutId="nav-underline"
@@ -57,7 +89,9 @@ export default function Navbar() {
           })}
         </nav>
 
-        <div className="hidden shrink-0 items-center gap-3 lg:flex">
+        <div className="hidden shrink-0 items-center gap-4 lg:flex">
+          <LanguageSwitcher />
+
           <a
             href={site.phoneHref}
             className="flex items-center gap-2 text-sm font-semibold text-white"
@@ -71,18 +105,21 @@ export default function Navbar() {
             href="/contact"
             className="group relative overflow-hidden rounded-full bg-gradient-to-r from-brand-500 to-cyan-400 px-5 py-2.5 text-sm font-semibold text-navy-950 shadow-glow transition-transform duration-200 hover:scale-105 active:scale-95"
           >
-            Yêu cầu tư vấn
+            {t('nav.requestConsult')}
           </Link>
         </div>
 
-        <button
-          type="button"
-          aria-label={open ? 'Đóng menu' : 'Mở menu'}
-          className="rounded-lg p-2 text-white lg:hidden"
-          onClick={() => setOpen((v) => !v)}
-        >
-          {open ? <X size={26} /> : <Menu size={26} />}
-        </button>
+        <div className="flex items-center gap-3 lg:hidden">
+          <LanguageSwitcher />
+          <button
+            type="button"
+            aria-label={open ? t('nav.closeMenu') : t('nav.openMenu')}
+            className="rounded-lg p-2 text-white"
+            onClick={() => setOpen((v) => !v)}
+          >
+            {open ? <X size={26} /> : <Menu size={26} />}
+          </button>
+        </div>
       </div>
 
       <AnimatePresence>
@@ -105,7 +142,7 @@ export default function Navbar() {
                       : 'text-slate-200 hover:bg-white/5 hover:text-white'
                   }`}
                 >
-                  {link.label}
+                  {t(`nav.${link.key}`)}
                 </Link>
               ))}
               <a
@@ -119,7 +156,7 @@ export default function Navbar() {
                 href="/contact"
                 className="mt-1 rounded-full bg-gradient-to-r from-brand-500 to-cyan-400 px-5 py-3 text-center text-sm font-semibold text-navy-950"
               >
-                Yêu cầu tư vấn
+                {t('nav.requestConsult')}
               </Link>
             </div>
           </motion.nav>

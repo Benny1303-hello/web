@@ -1,0 +1,249 @@
+{
+  "common": {
+    "home": "Trang chủ",
+    "learnMore": "Tìm hiểu thêm",
+    "viewMore": "Xem thêm",
+    "sendRequest": "Gửi yêu cầu",
+    "contactNow": "Liên hệ ngay"
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "about": "Về chúng tôi",
+    "distribution": "Trung tâm phân phối",
+    "systemIntegration": "Tích hợp hệ thống",
+    "services": "Trung tâm dịch vụ",
+    "contact": "Liên hệ",
+    "requestConsult": "Yêu cầu tư vấn",
+    "openMenu": "Mở menu",
+    "closeMenu": "Đóng menu"
+  },
+  "hero": {
+    "tagline": "YOUR IT PARTNER",
+    "subtitle": "SYSTEM INTEGRATION · DISTRIBUTION CENTER · SERVICES CENTER",
+    "description": "Hơn 20 năm đồng hành cùng doanh nghiệp Việt Nam xây dựng hạ tầng công nghệ vững chắc — từ tư vấn, phân phối thiết bị, tích hợp hệ thống đến vận hành và bảo trì.",
+    "ctaPrimary": "Yêu cầu tư vấn",
+    "ctaSecondary": "Tìm hiểu thêm"
+  },
+  "trustBadges": [
+    { "title": "Phản hồi nhanh chóng", "desc": "Cam kết thời gian phản hồi khẩn cấp trong vòng một giờ hoặc ít hơn." },
+    { "title": "Uy tín", "desc": "Hơn 20 năm là một trong những doanh nghiệp công nghệ thông tin hàng đầu." },
+    { "title": "Đảm bảo hài lòng", "desc": "Chúng tôi làm mọi thứ cần thiết để khách hàng thực sự hài lòng." }
+  ],
+  "stats": {
+    "years": "Năm kinh nghiệm",
+    "staff": "Nhân sự",
+    "projects": "Dự án đã triển khai"
+  },
+  "companyOverview": {
+    "eyebrow": "Tổng quan công ty",
+    "heading": "Vận hành hệ thống IT không còn là gánh nặng của riêng bạn",
+    "description": "Tự xây dựng và vận hành phòng IT nội bộ vừa tốn thời gian vừa tốn kém. TTC-Infotech đồng hành cùng doanh nghiệp gánh vác trách nhiệm đó — một giải pháp phổ biến và hiệu quả, đặc biệt với các doanh nghiệp vừa và nhỏ.",
+    "points": [
+      "Đội ngũ kỹ sư giàu kinh nghiệm, chứng chỉ quốc tế",
+      "Liên minh chiến lược với các hãng công nghệ hàng đầu",
+      "Hỗ trợ kỹ thuật và giám sát chủ động 24/7"
+    ],
+    "steps": ["Tư vấn", "Phân phối", "Tích hợp", "Vận hành"],
+    "cta": "Tìm hiểu thêm"
+  },
+  "centersSection": {
+    "eyebrow": "TTC-Infotech",
+    "heading": "Ba trung tâm, một hệ sinh thái công nghệ trọn vẹn",
+    "viewMore": "Xem thêm"
+  },
+  "centers": {
+    "services": {
+      "title": "Trung tâm dịch vụ",
+      "short": "Đội ngũ kỹ thuật viên giàu kinh nghiệm, đánh giá và xử lý sự cố nhanh chóng với chi phí tối ưu nhất."
+    },
+    "distribution": {
+      "title": "Trung tâm phân phối",
+      "short": "Một trong những nhà phân phối công nghệ hàng đầu Việt Nam, tối ưu giải pháp cho từng đối tác kênh phân phối."
+    },
+    "systemIntegration": {
+      "title": "Tích hợp hệ thống",
+      "short": "Tối ưu hiệu quả hạ tầng, tái sử dụng hệ thống cũ, tiết kiệm chi phí khi tích hợp sản phẩm từ nhiều hãng khác nhau."
+    }
+  },
+  "testimonials": {
+    "eyebrow": "Khách hàng nói gì",
+    "heading": "Được tin tưởng bởi các đối tác doanh nghiệp",
+    "prev": "Trước",
+    "next": "Tiếp theo",
+    "pageLabel": "Đánh giá {n}",
+    "items": {
+      "trung": {
+        "quote": "Trong suốt nhiều năm, tôi thường xuyên liên hệ TTC-Infotech mỗi khi gặp sự cố IT. Lần nào cũng vậy, vấn đề đều được xử lý nhanh chóng, kỹ sư luôn thân thiện và chuyên nghiệp. Điều đó khiến tôi nghĩ rằng: nếu hệ thống máy tính gặp lỗi mà không tìm ra nguyên nhân, cứ gọi ngay cho TTC-Infotech, vì tôi biết nếu không làm vậy chỉ tổ mất thời gian mà vấn đề vẫn còn đó. Chỉ cần tôi muốn khắc phục, gọi đến bộ phận hỗ trợ là được xử lý ngay. Các bạn làm việc thực sự tuyệt vời."
+      },
+      "toan": {
+        "quote": "Chúng tôi muốn gửi lời cảm ơn vì dịch vụ hoàn hảo mà đội ngũ TTC-Infotech đã mang lại. Không gì có thể so sánh giữa trước và sau khi hợp tác. Trước đây, mỗi lần mất điện hay hệ thống gặp sự cố, chúng tôi mất hàng giờ năng suất làm việc, từng dùng gần sáu nhà cung cấp IT khác nhau nhưng đều phản hồi chậm trễ, buộc chúng tôi phải tự xoay xở quản lý IT. Nếu máy chủ gặp sự cố giữa đêm, người phụ trách công ty phải đích thân đến khởi động lại thủ công, khiến hạ tầng vận hành hàng ngày rối rắm và mất tập trung vào mảng kinh doanh cốt lõi. Với đội ngũ TTC-Infotech, nỗi lo về sự cố IT của chúng tôi được xoa dịu nhờ chuyên môn, những cải tiến mạng lưới, giám sát chủ động và khả năng xử lý từ xa. Bất cứ khi nào cần hỗ trợ, chúng tôi đều được phục vụ qua trung tâm vận hành 24/7 và luôn có thể tin tưởng đội ngũ sẽ phản hồi mọi cuộc gọi vào bất kỳ thời điểm nào trong ngày. Giờ đây gián đoạn hệ thống đã giảm đến mức tối thiểu, nhân viên chúng tôi có thể tập trung vào công việc hàng ngày. Cảm ơn TTC-Infotech vì dịch vụ nhanh chóng và đáng tin cậy, chúng tôi mong muốn tiếp tục đồng hành thành công cùng các bạn!"
+      },
+      "dung": {
+        "quote": "Chúng tôi muốn cảm ơn TTC-Infotech vì đã trở thành một phần mở rộng thực sự của tổ chức chúng tôi. Nhờ sự hỗ trợ của các bạn, hệ thống nhanh chóng vận hành trở lại và thời gian gián đoạn giảm đáng kể nhờ hiệu suất làm việc của đội ngũ. Nhu cầu tăng trưởng nhanh cùng yêu cầu công nghệ liên tục thay đổi đòi hỏi doanh nghiệp chúng tôi phải luôn cập nhật công nghệ mới nhất với thời gian gián đoạn tối thiểu. Trong kinh nghiệm trước đây với một nhà cung cấp IT khác, chúng tôi từng gặp sự cố hệ thống điện, hiệu suất và máy chủ mà không được xử lý dứt điểm, nên nhu cầu tìm một đối tác quản lý IT mới là điều tất yếu. Khi máy chủ gặp sự cố, may mắn thay TTC-Infotech đã can thiệp ngay lập tức để xử lý tình huống khẩn cấp. Khi tìm đến TTC-Infotech, chúng tôi biết mình đã có quyết định đúng đắn — chúng tôi không còn phải tự giám sát máy chủ và mạng lưới của mình nữa, mà có thể tin tưởng vào cả một đội ngũ chuyên gia để theo kịp những nâng cấp công nghệ phức tạp mà ngành đòi hỏi. Tôi sẵn lòng giới thiệu TTC-Infotech cho bất kỳ doanh nghiệp vừa, nhỏ hay lớn nào đang tìm kiếm dịch vụ nhanh chóng, đội ngũ chuyên gia đáng tin cậy với giải pháp tốt nhất cho từng ngành."
+      },
+      "minh": {
+        "quote": "Hợp tác với TTC-Infotech là một trải nghiệm tuyệt vời. Nhờ sự phản hồi ổn định và đáng tin cậy từ đội ngũ chuyên gia, văn phòng chúng tôi vận hành hiệu quả hơn rất nhiều. Từng làm việc với một nhà cung cấp IT khác và gặp nhiều khó khăn về dịch vụ cũng như tốc độ phản hồi, chúng tôi cần một đối tác thực sự có thể tin tưởng, có thể đáp ứng nhu cầu công nghệ luôn thay đổi và triển khai kế hoạch IT chủ động mà chúng tôi có thể dựa vào trong tương lai. Trong một lần máy chủ gặp sự cố với nhà cung cấp IT cũ, chúng tôi đã mất dữ liệu quan trọng. Đội ngũ chuyên gia của TTC-Infotech đã nỗ lực xây dựng phương án sao lưu và khôi phục dữ liệu phù hợp, đồng thời khắc phục các vấn đề đồng bộ dữ liệu mà họ phát hiện ra. TTC-Infotech giúp chúng tôi tập trung vào thế mạnh của mình — xây dựng thương hiệu cho khách hàng. Nhờ đội ngũ của họ, chúng tôi không còn phải lo lắng về việc duy trì hệ thống mạng, vì có thể hoàn toàn tin tưởng TTC-Infotech chủ động giám sát hệ thống thay chúng tôi."
+      }
+    }
+  },
+  "partnersSection": {
+    "eyebrow": "Đối tác chiến lược"
+  },
+  "whyChooseUs": {
+    "eyebrow": "Vì sao chọn chúng tôi",
+    "heading": "Cam kết chất lượng ở mọi giai đoạn hợp tác",
+    "items": [
+      { "title": "Phản hồi nhanh chóng", "desc": "Thời gian phản hồi khẩn cấp trong một giờ hoặc ít hơn. Chúng tôi có thể truy cập từ xa để xử lý ngay nhiều sự cố mà không cần chờ kỹ thuật viên di chuyển." },
+      { "title": "Uy tín", "desc": "Hơn 20 năm là một trong những doanh nghiệp công nghệ thông tin hàng đầu. Thành tựu lớn nhất là số lượng khách hàng gắn bó lâu dài ngày càng tăng." },
+      { "title": "Đảm bảo hài lòng", "desc": "Chúng tôi muốn khách hàng hoàn toàn hài lòng với dịch vụ, sẵn sàng làm mọi thứ cần thiết để bạn an tâm — không rắc rối, không phiền toái." }
+    ]
+  },
+  "certificationsSection": {
+    "eyebrow": "Chứng nhận đối tác",
+    "heading": "Được các hãng công nghệ hàng đầu công nhận"
+  },
+  "ctaBanner": {
+    "heading": "Sẵn sàng nâng cấp hạ tầng IT của doanh nghiệp bạn?",
+    "description": "Đội ngũ TTC-Infotech luôn sẵn sàng lắng nghe và tư vấn giải pháp phù hợp nhất cho hệ thống của bạn.",
+    "cta": "Liên hệ ngay"
+  },
+  "footer": {
+    "description": "Đối tác công nghệ thông tin đáng tin cậy — phân phối thiết bị, tích hợp hệ thống và dịch vụ kỹ thuật cho doanh nghiệp trên 20 năm.",
+    "navHeading": "Điều hướng",
+    "servicesHeading": "Dịch vụ",
+    "contactHeading": "Liên hệ",
+    "rights": "All rights reserved."
+  },
+  "contactForm": {
+    "fields": {
+      "name": { "label": "Họ và tên", "placeholder": "Nguyễn Văn A" },
+      "email": { "label": "Email", "placeholder": "ban@congty.com" },
+      "phone": { "label": "Số điện thoại", "placeholder": "09xx xxx xxx" },
+      "subject": { "label": "Chủ đề", "placeholder": "Yêu cầu tư vấn giải pháp..." },
+      "message": { "label": "Nội dung", "placeholder": "Mô tả nhu cầu của bạn..." }
+    },
+    "submit": "Gửi yêu cầu",
+    "sending": "Đang gửi...",
+    "successTitle": "Đã gửi yêu cầu thành công!",
+    "successDesc": "Cảm ơn bạn đã liên hệ. Đội ngũ TTC-Infotech sẽ phản hồi trong thời gian sớm nhất.",
+    "errorPrefix": "Gửi yêu cầu thất bại, vui lòng thử lại hoặc gọi trực tiếp",
+    "errors": {
+      "INVALID_BODY": "Dữ liệu gửi lên không hợp lệ.",
+      "MISSING_FIELDS": "Vui lòng điền đầy đủ thông tin bắt buộc.",
+      "INVALID_EMAIL": "Địa chỉ email không hợp lệ.",
+      "SERVER_NOT_READY": "Hệ thống gửi email chưa sẵn sàng, vui lòng thử lại sau.",
+      "SEND_FAILED": "Gửi email thất bại, vui lòng thử lại sau.",
+      "UNEXPECTED": "Có lỗi xảy ra, vui lòng thử lại sau.",
+      "NETWORK_ERROR": "Không thể kết nối tới máy chủ, vui lòng kiểm tra mạng và thử lại."
+    }
+  },
+  "pages": {
+    "about": {
+      "hero": {
+        "crumb": "Về chúng tôi",
+        "eyebrow": "TTC-Infotech",
+        "title": "Hơn 20 năm kiến tạo nền tảng công nghệ cho doanh nghiệp Việt",
+        "description": "Thành lập năm 1994, TTC-Infotech là một trong những công ty công nghệ thông tin hàng đầu tại Việt Nam."
+      },
+      "story1": {
+        "eyebrow": "Câu chuyện của chúng tôi",
+        "heading": "Liên minh chiến lược với các hãng công nghệ hàng đầu thế giới",
+        "desc": "Trải qua hơn 20 năm, TTC-Infotech đã xây dựng những mối quan hệ hợp tác chiến lược với các hãng tích hợp hệ thống IT hàng đầu thế giới, giúp chúng tôi mang đến cho khách hàng những hệ thống hiện đại nhất, nâng cao năng suất qua đào tạo và dịch vụ hỗ trợ kỹ thuật ổn định."
+      },
+      "story2": {
+        "eyebrow": "Công nghệ số",
+        "heading": "Mỗi khách hàng là một đối tác đồng hành",
+        "desc": "Chúng tôi tin rằng mỗi khách hàng là một đối tác, cùng nhau xây dựng dịch vụ IT chất lượng với chi phí hợp lý. Đội ngũ chuyên gia thân thiện, giàu kinh nghiệm luôn sẵn sàng chỉ sau một cuộc gọi, email hay tin nhắn."
+      },
+      "pillars": [
+        { "title": "Sứ mệnh", "desc": "Mang đến nền tảng vận hành số cho doanh nghiệp, đồng hành cùng Việt Nam trên hành trình trở thành nền kinh tế dựa trên khoa học công nghệ." },
+        { "title": "Khát vọng", "desc": "Luôn đặt lợi ích khách hàng lên hàng đầu, với khát khao giúp doanh nghiệp vận hành hiệu quả và nhanh chóng hơn mỗi ngày." },
+        { "title": "Con người", "desc": "Đội ngũ làm việc bằng đam mê, yêu công nghệ và không ngừng đổi mới trong từng dự án, luôn nêu cao tinh thần dẫn dắt." }
+      ]
+    },
+    "distribution": {
+      "hero": {
+        "crumb": "Trung tâm phân phối",
+        "eyebrow": "Distribution Center",
+        "title": "Nhà phân phối công nghệ hàng đầu cho hạ tầng doanh nghiệp",
+        "description": "Là mắt xích quan trọng trong chuỗi cung ứng IT, chúng tôi mang đến giải pháp tối ưu cho từng đối tác kênh phân phối."
+      },
+      "productsEyebrow": "Danh mục sản phẩm",
+      "productsHeading": "Thiết bị chính hãng từ các thương hiệu công nghệ toàn cầu",
+      "contactEyebrow": "Liên hệ đặt hàng",
+      "contactHeading": "Đội ngũ kinh doanh sẵn sàng hỗ trợ báo giá",
+      "staffGroups": {
+        "sales": "Phụ trách kinh doanh & phân phối",
+        "consulting": "Tư vấn giải pháp"
+      },
+      "staffRoles": {
+        "phuong": "Phụ trách kinh doanh & phân phối",
+        "xuan": "Phụ trách kinh doanh & phân phối",
+        "tuananh": "Phụ trách sản phẩm doanh nghiệp APC by Schneider Electric",
+        "giang": "Tư vấn giải pháp APC by Schneider Electric",
+        "duc": "Tư vấn giải pháp HPE, Aruba Networking"
+      }
+    },
+    "systemIntegration": {
+      "hero": {
+        "crumb": "Tích hợp hệ thống",
+        "eyebrow": "System Integration Center",
+        "title": "Kết nối đồng bộ mọi thành phần trong hạ tầng công nghệ của bạn",
+        "description": "Tích hợp hệ thống giúp doanh nghiệp khai thác tối đa hiệu quả hạ tầng, tái sử dụng phần mềm cũ và tiết kiệm chi phí khi triển khai đồng thời nhiều giải pháp từ các nhà sản xuất khác nhau."
+      },
+      "whyEyebrow": "Vì sao cần tích hợp hệ thống",
+      "whyHeading": "Một hệ thống đồng bộ, vận hành trơn tru",
+      "whyDesc": "Tích hợp hệ thống ngày càng trở nên quan trọng vì giúp doanh nghiệp và tổ chức khai thác hiệu quả cao nhất từ hạ tầng sẵn có, tái sử dụng phần mềm cũ, tiết kiệm chi phí và triển khai đồng thời các giải pháp mới bằng cách tích hợp sản phẩm từ nhiều nhà sản xuất khác nhau.",
+      "benefits": [
+        "Tận dụng tối đa hiệu suất hạ tầng hiện có",
+        "Tái sử dụng phần mềm và thiết bị cũ, giảm lãng phí đầu tư",
+        "Tiết kiệm chi phí vận hành dài hạn",
+        "Triển khai đồng thời nhiều giải pháp mới từ các hãng khác nhau"
+      ],
+      "processHeading": "Quy trình triển khai",
+      "process": [
+        { "title": "Khảo sát & tư vấn", "desc": "Đánh giá hiện trạng hạ tầng, thu thập yêu cầu và mục tiêu vận hành của doanh nghiệp." },
+        { "title": "Thiết kế giải pháp", "desc": "Xây dựng kiến trúc tích hợp tối ưu, kết hợp thiết bị của nhiều hãng khác nhau một cách đồng bộ." },
+        { "title": "Triển khai", "desc": "Lắp đặt, cấu hình và kiểm thử toàn diện trước khi đưa hệ thống vào vận hành chính thức." },
+        { "title": "Hỗ trợ vận hành", "desc": "Giám sát, bảo trì định kỳ và hỗ trợ kỹ thuật liên tục sau triển khai." }
+      ]
+    },
+    "services": {
+      "hero": {
+        "crumb": "Trung tâm dịch vụ",
+        "eyebrow": "Service Center",
+        "title": "Đội ngũ kỹ thuật viên sẵn sàng xử lý mọi sự cố IT",
+        "description": "Đội ngũ kỹ thuật viên máy tính giàu kinh nghiệm của chúng tôi sẽ đánh giá vấn đề và tìm giải pháp nhanh chóng, với chi phí tối ưu nhất là ưu tiên hàng đầu."
+      },
+      "items": [
+        { "title": "Sửa chữa phần cứng", "desc": "Chẩn đoán và khắc phục sự cố máy tính, máy chủ với chi phí tối ưu nhất." },
+        { "title": "Xử lý sự cố mạng", "desc": "Khắc phục sự cố kết nối, tối ưu hiệu năng hệ thống mạng doanh nghiệp." },
+        { "title": "Bảo trì máy chủ", "desc": "Kiểm tra định kỳ, phòng ngừa sự cố và duy trì hoạt động ổn định cho server." },
+        { "title": "Sao lưu & phục hồi dữ liệu", "desc": "Xây dựng phương án backup và khôi phục dữ liệu an toàn, đáng tin cậy." },
+        { "title": "Hỗ trợ từ xa", "desc": "Đăng nhập từ xa để xử lý ngay nhiều sự cố mà không cần chờ kỹ thuật viên di chuyển." },
+        { "title": "Hỗ trợ tại chỗ", "desc": "Kỹ thuật viên có mặt trực tiếp khi sự cố cần xử lý tại văn phòng khách hàng." }
+      ]
+    },
+    "contact": {
+      "hero": {
+        "crumb": "Liên hệ",
+        "eyebrow": "Kết nối với chúng tôi",
+        "title": "Hãy để TTC-Infotech đồng hành cùng hệ thống của bạn",
+        "description": "Gửi yêu cầu hoặc liên hệ trực tiếp — đội ngũ của chúng tôi luôn sẵn sàng phản hồi nhanh chóng."
+      },
+      "cards": {
+        "address": "Địa chỉ",
+        "phone": "Điện thoại",
+        "email": "Email"
+      }
+    }
+  },
+  "productCategories": [
+    { "title": "Bộ lưu điện UPS", "desc": "Giải pháp lưu điện APC Back-UPS, Easy UPS Online cho máy chủ và hệ thống mạng." },
+    { "title": "Tủ Rack & phụ kiện APC", "desc": "Tủ rack, thanh ray, phụ kiện đi kèm cho phòng máy chủ và trung tâm dữ liệu." },
+    { "title": "Digilink by Schneider Electric", "desc": "Giải pháp hạ tầng mạng cấu trúc: ổ cắm, patch panel, phụ kiện đi dây chuẩn quốc tế." },
+    { "title": "Giám sát an ninh & môi trường", "desc": "Camera, cảm biến môi trường, hệ thống giám sát cho phòng máy chủ và tòa nhà." },
+    { "title": "HPE Aruba Networking", "desc": "Switch, access point và giải pháp mạng doanh nghiệp từ HPE Aruba." },
+    { "title": "Bảo hành & dịch vụ kỹ thuật", "desc": "Dịch vụ bảo hành mở rộng, hỗ trợ kỹ thuật và bảo trì định kỳ cho thiết bị đã phân phối." }
+  ]
+}

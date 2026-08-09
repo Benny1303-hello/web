@@ -6,8 +6,10 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 import Reveal from '@/components/Reveal';
 import { testimonials } from '@/lib/content';
+import { useLanguage } from '@/context/LanguageContext';
 
 export default function Testimonials() {
+  const { t } = useLanguage();
   const [index, setIndex] = useState(0);
   const [paused, setPaused] = useState(false);
 
@@ -29,9 +31,9 @@ export default function Testimonials() {
     <section className="bg-navy-950 py-20 text-white">
       <div className="container-page">
         <Reveal className="mx-auto max-w-2xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">Khách hàng nói gì</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">{t('testimonials.eyebrow')}</p>
           <h2 className="mt-3 text-balance font-display text-3xl font-bold md:text-4xl">
-            Được tin tưởng bởi các đối tác doanh nghiệp
+            {t('testimonials.heading')}
           </h2>
         </Reveal>
 
@@ -63,7 +65,9 @@ export default function Testimonials() {
                 <p className="text-sm text-cyan-300">{current.role}</p>
 
                 <Quote className="mx-auto mt-6 mb-4 text-brand-400" size={30} />
-                <p className="mx-auto max-w-2xl text-balance leading-relaxed text-slate-200">“{current.quote}”</p>
+                <p className="mx-auto max-w-2xl text-balance leading-relaxed text-slate-200">
+                  “{t(`testimonials.items.${current.id}.quote`)}”
+                </p>
               </motion.div>
             </AnimatePresence>
           </div>
@@ -71,7 +75,7 @@ export default function Testimonials() {
           <div className="mt-10 flex items-center justify-center gap-6">
             <button
               type="button"
-              aria-label="Trước"
+              aria-label={t('testimonials.prev')}
               onClick={() => go(-1)}
               className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 text-white transition-colors hover:bg-white/10"
             >
@@ -79,10 +83,10 @@ export default function Testimonials() {
             </button>
 
             <div className="flex items-center gap-2">
-              {testimonials.map((t, i) => (
+              {testimonials.map((item, i) => (
                 <button
-                  key={t.name}
-                  aria-label={`Đánh giá ${i + 1}`}
+                  key={item.name}
+                  aria-label={t('testimonials.pageLabel', { n: i + 1 })}
                   onClick={() => setIndex(i)}
                   className={`h-2 rounded-full transition-all duration-300 ${
                     i === index ? 'w-6 bg-cyan-400' : 'w-2 bg-white/25 hover:bg-white/50'
@@ -93,7 +97,7 @@ export default function Testimonials() {
 
             <button
               type="button"
-              aria-label="Tiếp theo"
+              aria-label={t('testimonials.next')}
               onClick={() => go(1)}
               className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 text-white transition-colors hover:bg-white/10"
             >

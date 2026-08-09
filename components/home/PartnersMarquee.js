@@ -1,12 +1,17 @@
+'use client';
+
 import Reveal from '@/components/Reveal';
 import { partners } from '@/lib/content';
+import { useLanguage } from '@/context/LanguageContext';
 
 export default function PartnersMarquee() {
+  const { t } = useLanguage();
+
   return (
     <section className="bg-mist-50 py-16">
       <div className="container-page">
         <Reveal className="text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">Đối tác chiến lược</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">{t('partnersSection.eyebrow')}</p>
         </Reveal>
 
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4">

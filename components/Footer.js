@@ -1,9 +1,14 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { Facebook, Mail, MapPin, Phone } from 'lucide-react';
 import { navLinks, site, centers } from '@/lib/content';
+import { useLanguage } from '@/context/LanguageContext';
 
 export default function Footer() {
+  const { t } = useLanguage();
+
   return (
     <footer className="bg-navy-950 text-slate-300">
       <div className="container-page grid grid-cols-1 gap-12 py-16 md:grid-cols-4">
@@ -11,10 +16,7 @@ export default function Footer() {
           <div className="mb-4 inline-flex rounded-xl bg-white px-3 py-2">
             <Image src="/logo.png" alt={site.name} width={148} height={80} className="h-10 w-auto" />
           </div>
-          <p className="text-sm leading-relaxed text-slate-400">
-            Đối tác công nghệ thông tin đáng tin cậy — phân phối thiết bị, tích hợp hệ thống và dịch vụ kỹ
-            thuật cho doanh nghiệp trên 20 năm.
-          </p>
+          <p className="text-sm leading-relaxed text-slate-400">{t('footer.description')}</p>
           <a
             href={site.facebook}
             target="_blank"
@@ -27,12 +29,12 @@ export default function Footer() {
         </div>
 
         <div>
-          <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">Điều hướng</h4>
+          <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">{t('footer.navHeading')}</h4>
           <ul className="space-y-3 text-sm">
             {navLinks.map((link) => (
               <li key={link.href}>
                 <Link href={link.href} className="transition-colors hover:text-cyan-300">
-                  {link.label}
+                  {t(`nav.${link.key}`)}
                 </Link>
               </li>
             ))}
@@ -40,12 +42,12 @@ export default function Footer() {
         </div>
 
         <div>
-          <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">Dịch vụ</h4>
+          <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">{t('footer.servicesHeading')}</h4>
           <ul className="space-y-3 text-sm">
             {centers.map((center) => (
               <li key={center.slug}>
                 <Link href={`/${center.slug}`} className="transition-colors hover:text-cyan-300">
-                  {center.title}
+                  {t(`centers.${center.key}.title`)}
                 </Link>
               </li>
             ))}
@@ -53,7 +55,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">Liên hệ</h4>
+          <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">{t('footer.contactHeading')}</h4>
           <ul className="space-y-3 text-sm">
             <li className="flex items-start gap-2">
               <MapPin size={16} className="mt-0.5 shrink-0 text-cyan-300" />
@@ -73,7 +75,7 @@ export default function Footer() {
 
       <div className="border-t border-white/10 py-6">
         <p className="container-page text-center text-xs text-slate-500">
-          © {new Date().getFullYear()} {site.fullName}. All rights reserved.
+          © {new Date().getFullYear()} {site.fullName}. {t('footer.rights')}
         </p>
       </div>
     </footer>

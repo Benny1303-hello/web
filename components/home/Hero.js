@@ -2,9 +2,11 @@
 
 import { motion } from 'framer-motion';
 import Button from '@/components/Button';
-import { site } from '@/lib/content';
+import { useLanguage } from '@/context/LanguageContext';
 
 export default function Hero() {
+  const { t } = useLanguage();
+
   return (
     <section className="relative overflow-hidden bg-hero-mesh text-white">
       <div className="container-page relative flex flex-col items-center gap-14 py-24 lg:flex-row lg:py-32">
@@ -15,7 +17,7 @@ export default function Hero() {
           className="flex-1 text-center lg:text-left"
         >
           <span className="inline-flex items-center rounded-full border border-cyan-300/30 bg-cyan-400/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.25em] text-cyan-300">
-            {site.tagline}
+            {t('hero.tagline')}
           </span>
           <h1 className="mt-6 text-balance font-display text-5xl font-extrabold leading-[1.08] md:text-6xl">
             <span className="bg-gradient-to-r from-white to-cyan-200 bg-clip-text text-transparent">
@@ -23,18 +25,17 @@ export default function Hero() {
             </span>
           </h1>
           <p className="mt-4 text-sm font-semibold uppercase tracking-[0.3em] text-brand-400">
-            System Integration · Distribution Center · Services Center
+            {t('hero.subtitle')}
           </p>
           <p className="mx-auto mt-6 max-w-lg text-balance text-slate-300 lg:mx-0">
-            Hơn 20 năm đồng hành cùng doanh nghiệp Việt Nam xây dựng hạ tầng công nghệ vững chắc — từ tư
-            vấn, phân phối thiết bị, tích hợp hệ thống đến vận hành và bảo trì.
+            {t('hero.description')}
           </p>
           <div className="mt-9 flex flex-col items-center gap-4 sm:flex-row lg:justify-start">
             <Button href="/contact" variant="primary">
-              Yêu cầu tư vấn
+              {t('hero.ctaPrimary')}
             </Button>
             <Button href="/about" variant="outline" withArrow={false}>
-              Tìm hiểu thêm
+              {t('hero.ctaSecondary')}
             </Button>
           </div>
         </motion.div>

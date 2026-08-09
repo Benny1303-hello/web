@@ -1,11 +1,17 @@
+'use client';
+
 import { ShieldCheck, ThumbsUp, Zap } from 'lucide-react';
 import Reveal from '@/components/Reveal';
 import Counter from '@/components/Counter';
-import { stats, trustBadges } from '@/lib/content';
+import { stats } from '@/lib/content';
+import { useLanguage } from '@/context/LanguageContext';
 
 const icons = [Zap, ShieldCheck, ThumbsUp];
 
 export default function TrustStats() {
+  const { t } = useLanguage();
+  const trustBadges = t('trustBadges');
+
   return (
     <section className="relative bg-slate-200">
       <div className="container-page pt-10 grid grid-cols-1 gap-8 md:grid-cols-3">
@@ -27,11 +33,11 @@ export default function TrustStats() {
 
       <div className="container-page grid grid-cols-1 gap-8 py-20 sm:grid-cols-3">
         {stats.map((stat, i) => (
-          <Reveal key={stat.label} delay={i * 0.1} className="text-center">
+          <Reveal key={stat.key} delay={i * 0.1} className="text-center">
             <div className="font-display text-4xl font-extrabold text-navy-900 md:text-5xl">
               <Counter value={stat.value} suffix={stat.suffix} />
             </div>
-            <p className="mt-2 text-sm font-medium uppercase tracking-wider text-ink-400">{stat.label}</p>
+            <p className="mt-2 text-sm font-medium uppercase tracking-wider text-ink-400">{t(`stats.${stat.key}`)}</p>
           </Reveal>
         ))}
       </div>

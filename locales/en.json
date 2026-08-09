@@ -1,0 +1,249 @@
+{
+  "common": {
+    "home": "Home",
+    "learnMore": "Learn more",
+    "viewMore": "View more",
+    "sendRequest": "Send request",
+    "contactNow": "Contact now"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About us",
+    "distribution": "Distribution Center",
+    "systemIntegration": "System Integration",
+    "services": "Services Center",
+    "contact": "Contact",
+    "requestConsult": "Request a consultation",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "tagline": "YOUR IT PARTNER",
+    "subtitle": "SYSTEM INTEGRATION · DISTRIBUTION CENTER · SERVICES CENTER",
+    "description": "Over 20 years partnering with Vietnamese businesses to build resilient technology infrastructure — from consulting and equipment distribution to system integration, operations, and maintenance.",
+    "ctaPrimary": "Request a consultation",
+    "ctaSecondary": "Learn more"
+  },
+  "trustBadges": [
+    { "title": "Quick response", "desc": "Committed emergency response time within one hour or less." },
+    { "title": "Reputable", "desc": "Over 20 years as one of the leading information technology enterprises." },
+    { "title": "Satisfaction guaranteed", "desc": "We do everything necessary to make sure our customers are truly satisfied." }
+  ],
+  "stats": {
+    "years": "Years of experience",
+    "staff": "Employees",
+    "projects": "Projects delivered"
+  },
+  "companyOverview": {
+    "eyebrow": "Company overview",
+    "heading": "Running your IT infrastructure no longer has to be your own burden",
+    "description": "Building and running an in-house IT department is both time-consuming and costly. TTC-Infotech partners with businesses to carry that responsibility — a popular and effective solution, especially for small and medium-sized enterprises.",
+    "points": [
+      "Experienced engineering team with international certifications",
+      "Strategic alliances with leading technology vendors",
+      "Proactive 24/7 technical support and monitoring"
+    ],
+    "steps": ["Consult", "Distribute", "Integrate", "Operate"],
+    "cta": "Learn more"
+  },
+  "centersSection": {
+    "eyebrow": "TTC-Infotech",
+    "heading": "Three centers, one complete technology ecosystem",
+    "viewMore": "View more"
+  },
+  "centers": {
+    "services": {
+      "title": "Services Center",
+      "short": "An experienced technical team that assesses and resolves issues quickly at the most optimal cost."
+    },
+    "distribution": {
+      "title": "Distribution Center",
+      "short": "One of Vietnam's leading technology distributors, optimizing solutions for every channel partner."
+    },
+    "systemIntegration": {
+      "title": "System Integration",
+      "short": "Optimizing infrastructure efficiency, reusing legacy systems, and cutting costs when integrating products from multiple vendors."
+    }
+  },
+  "testimonials": {
+    "eyebrow": "What customers say",
+    "heading": "Trusted by business partners",
+    "prev": "Previous",
+    "next": "Next",
+    "pageLabel": "Review {n}",
+    "items": {
+      "trung": {
+        "quote": "Over the years, I've regularly reached out to TTC-Infotech whenever an IT issue came up. Every single time, the problem was resolved quickly and the engineers were friendly and professional. It made me realize: if the computer system breaks down and I can't find the cause, just call TTC-Infotech right away — because I know that if I don't, I'm only wasting time while the problem stays unsolved. As soon as I want it fixed, I call the help desk and it gets handled immediately. You guys do an awesome job."
+      },
+      "toan": {
+        "quote": "We'd like to thank the TTC-Infotech team for the impeccable service they've provided us. There's simply no comparison between before and after working together. Previously, every power outage or system failure cost us hours of lost productivity. We went through nearly six different IT providers, all slow to respond, forcing us to manage IT on our own. If our server went down in the middle of the night, someone from the company had to come in and manually reboot it — our day-to-day infrastructure was a mess that pulled focus away from our core business. With the TTC-Infotech team, our fears about IT failures were eased thanks to their expertise, network improvements, proactive monitoring, and remote remediation capabilities. Whenever we need support, we get it through their 24/7 operations center, and we can always count on the team to answer our calls at any time of day. Now that disruptions are minimal, our staff can focus on their daily work. Thank you TTC-Infotech for the fast, reliable service — we look forward to continued success together!"
+      },
+      "dung": {
+        "quote": "We want to thank TTC-Infotech for becoming a true extension of our organization. With your support, our systems were quickly back up and running, and downtime dropped significantly thanks to the team's efficiency. As you know, our fast-growing needs and constantly evolving technology requirements demand that our business stays cutting-edge with minimal downtime. In our past experience with another IT provider, we kept running into power, performance, and server issues that were never fully resolved — finding a new managed IT partner became inevitable. When our server crashed, TTC-Infotech was fortunately able to step in immediately to handle the emergency. Choosing TTC-Infotech, we knew we'd made the right call — we no longer have to monitor our own servers and network ourselves, and can instead rely on an entire team of experts to keep up with the complex technology upgrades our industry demands. I'd happily recommend TTC-Infotech to any small, medium, or large business looking for fast service and a reliable team of experts with the best solutions for their industry."
+      },
+      "minh": {
+        "quote": "Working with TTC-Infotech has been a wonderful experience. Thanks to the consistent, reliable response from their expert team, our office now operates far more efficiently. Having worked with a different IT provider before and struggled with slow service and response times, we needed a partner we could truly count on — one that could keep up with our ever-changing technology needs and implement a proactive IT plan we could rely on for the future. During a server crash with our former provider, we lost critical data. TTC-Infotech's team of professionals worked diligently to put in place a proper backup and disaster recovery plan and fixed the data-sync issues they uncovered along the way. TTC-Infotech lets us focus on what we do best — building our clients' brands. Thanks to their team, we no longer have to worry about maintaining our network, because we can fully trust TTC-Infotech to proactively monitor it for us."
+      }
+    }
+  },
+  "partnersSection": {
+    "eyebrow": "Strategic partners"
+  },
+  "whyChooseUs": {
+    "eyebrow": "Why choose us",
+    "heading": "Committed to quality at every stage of our partnership",
+    "items": [
+      { "title": "Quick response", "desc": "Emergency response within one hour or less. We can access systems remotely to resolve many issues right away without waiting for a technician to travel on-site." },
+      { "title": "Reputable", "desc": "Over 20 years as one of the leading information technology enterprises. Our greatest achievement is a growing base of long-term, loyal customers." },
+      { "title": "Satisfaction guaranteed", "desc": "We want our customers to be completely satisfied with our service, and we're ready to do whatever it takes to give you peace of mind — no hassle, no headaches." }
+    ]
+  },
+  "certificationsSection": {
+    "eyebrow": "Partner certifications",
+    "heading": "Recognized by leading technology vendors"
+  },
+  "ctaBanner": {
+    "heading": "Ready to upgrade your business's IT infrastructure?",
+    "description": "The TTC-Infotech team is always ready to listen and advise on the solution that best fits your systems.",
+    "cta": "Contact us now"
+  },
+  "footer": {
+    "description": "A trusted information technology partner — distributing equipment, integrating systems, and providing technical services to businesses for over 20 years.",
+    "navHeading": "Navigation",
+    "servicesHeading": "Services",
+    "contactHeading": "Contact",
+    "rights": "All rights reserved."
+  },
+  "contactForm": {
+    "fields": {
+      "name": { "label": "Full name", "placeholder": "John Smith" },
+      "email": { "label": "Email", "placeholder": "you@company.com" },
+      "phone": { "label": "Phone number", "placeholder": "09xx xxx xxx" },
+      "subject": { "label": "Subject", "placeholder": "Request a solution consultation..." },
+      "message": { "label": "Message", "placeholder": "Describe what you need..." }
+    },
+    "submit": "Send request",
+    "sending": "Sending...",
+    "successTitle": "Your request has been sent!",
+    "successDesc": "Thank you for reaching out. The TTC-Infotech team will get back to you as soon as possible.",
+    "errorPrefix": "Your request failed to send, please try again or call us directly at",
+    "errors": {
+      "INVALID_BODY": "The submitted data is invalid.",
+      "MISSING_FIELDS": "Please fill in all required fields.",
+      "INVALID_EMAIL": "The email address is invalid.",
+      "SERVER_NOT_READY": "The email system isn't ready yet, please try again later.",
+      "SEND_FAILED": "Failed to send the email, please try again later.",
+      "UNEXPECTED": "Something went wrong, please try again later.",
+      "NETWORK_ERROR": "Couldn't connect to the server, please check your connection and try again."
+    }
+  },
+  "pages": {
+    "about": {
+      "hero": {
+        "crumb": "About us",
+        "eyebrow": "TTC-Infotech",
+        "title": "Over 20 years building the technology foundation for Vietnamese businesses",
+        "description": "Founded in 1994, TTC-Infotech is one of the leading information technology companies in Vietnam."
+      },
+      "story1": {
+        "eyebrow": "Our story",
+        "heading": "Strategic alliances with the world's leading technology vendors",
+        "desc": "Over more than 20 years, TTC-Infotech has built strategic partnerships with the world's leading IT system integrators, allowing us to bring customers the most modern systems while improving productivity through training and stable technical support services."
+      },
+      "story2": {
+        "eyebrow": "Digital technology",
+        "heading": "Every customer is a partner we grow alongside",
+        "desc": "We believe every customer is a partner, working together to build quality IT services at a reasonable cost. Our friendly, experienced team of experts is ready to help after just one call, email, or message."
+      },
+      "pillars": [
+        { "title": "Mission", "desc": "To bring a digital operating foundation to businesses, walking alongside Vietnam on its journey toward a technology-driven economy." },
+        { "title": "Aspiration", "desc": "Always putting customers' interests first, driven by the ambition to help businesses operate more efficiently and faster every day." },
+        { "title": "People", "desc": "A team that works with passion, loves technology, and continuously innovates on every project while leading by example." }
+      ]
+    },
+    "distribution": {
+      "hero": {
+        "crumb": "Distribution Center",
+        "eyebrow": "Distribution Center",
+        "title": "A leading technology distributor for enterprise infrastructure",
+        "description": "As a vital link in the IT supply chain, we deliver optimized solutions for every distribution channel partner."
+      },
+      "productsEyebrow": "Product categories",
+      "productsHeading": "Genuine equipment from leading global technology brands",
+      "contactEyebrow": "Order enquiries",
+      "contactHeading": "Our sales team is ready to help with your quote",
+      "staffGroups": {
+        "sales": "Sales & Distribution",
+        "consulting": "Solution Consulting"
+      },
+      "staffRoles": {
+        "phuong": "Sales & Distribution",
+        "xuan": "Sales & Distribution",
+        "tuananh": "Enterprise Products Lead, APC by Schneider Electric",
+        "giang": "Solution Consulting, APC by Schneider Electric",
+        "duc": "Solution Consulting, HPE & Aruba Networking"
+      }
+    },
+    "systemIntegration": {
+      "hero": {
+        "crumb": "System Integration",
+        "eyebrow": "System Integration Center",
+        "title": "Seamlessly connecting every component of your technology infrastructure",
+        "description": "System integration helps businesses get the most out of their infrastructure, reuse legacy software, and save costs when rolling out multiple solutions from different manufacturers at once."
+      },
+      "whyEyebrow": "Why system integration matters",
+      "whyHeading": "One synchronized system, running smoothly",
+      "whyDesc": "System integration is becoming increasingly important because it helps businesses and organizations get the highest efficiency from their existing infrastructure, reuse legacy software, save costs, and roll out new solutions at the same time by integrating products from different manufacturers.",
+      "benefits": [
+        "Maximize the performance of your existing infrastructure",
+        "Reuse legacy software and equipment, reducing wasted investment",
+        "Save on long-term operating costs",
+        "Roll out multiple new solutions from different vendors at the same time"
+      ],
+      "processHeading": "Implementation process",
+      "process": [
+        { "title": "Survey & consulting", "desc": "Assess the current state of your infrastructure and gather your business's requirements and operating goals." },
+        { "title": "Solution design", "desc": "Build an optimal integration architecture, seamlessly combining equipment from different vendors." },
+        { "title": "Deployment", "desc": "Install, configure, and thoroughly test everything before bringing the system into official operation." },
+        { "title": "Operational support", "desc": "Ongoing monitoring, periodic maintenance, and continuous technical support after deployment." }
+      ]
+    },
+    "services": {
+      "hero": {
+        "crumb": "Services Center",
+        "eyebrow": "Service Center",
+        "title": "A technical team ready to handle any IT issue",
+        "description": "Our experienced computer technicians assess issues and find fast solutions, with the most optimal cost always the top priority."
+      },
+      "items": [
+        { "title": "Hardware repair", "desc": "Diagnosing and fixing computer and server issues at the most optimal cost." },
+        { "title": "Network troubleshooting", "desc": "Resolving connectivity issues and optimizing the performance of your business network." },
+        { "title": "Server maintenance", "desc": "Periodic checks, issue prevention, and stable ongoing operation for your servers." },
+        { "title": "Backup & data recovery", "desc": "Building safe, reliable backup and data recovery plans." },
+        { "title": "Remote support", "desc": "Remote access to resolve many issues right away without waiting for a technician to travel on-site." },
+        { "title": "On-site support", "desc": "Technicians available in person whenever an issue needs to be handled at your office." }
+      ]
+    },
+    "contact": {
+      "hero": {
+        "crumb": "Contact",
+        "eyebrow": "Get in touch",
+        "title": "Let TTC-Infotech be your partner for your systems",
+        "description": "Send us a request or reach out directly — our team is always ready to respond quickly."
+      },
+      "cards": {
+        "address": "Address",
+        "phone": "Phone",
+        "email": "Email"
+      }
+    }
+  },
+  "productCategories": [
+    { "title": "UPS Power Supplies", "desc": "APC Back-UPS and Easy UPS Online power solutions for servers and network systems." },
+    { "title": "APC Rack & Accessories", "desc": "Rack cabinets, rail kits, and accessories for server rooms and data centers." },
+    { "title": "Digilink by Schneider Electric", "desc": "Structured cabling infrastructure: outlets, patch panels, and internationally certified cabling accessories." },
+    { "title": "Security & Environmental Monitoring", "desc": "Cameras, environmental sensors, and monitoring systems for server rooms and buildings." },
+    { "title": "HPE Aruba Networking", "desc": "Switches, access points, and enterprise networking solutions from HPE Aruba." },
+    { "title": "Warranty & Technical Services", "desc": "Extended warranty, technical support, and periodic maintenance services for distributed equipment." }
+  ]
+}

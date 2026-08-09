@@ -1,9 +1,14 @@
+'use client';
+
 import { Mail, Phone } from 'lucide-react';
 import Reveal from '@/components/Reveal';
 import Button from '@/components/Button';
 import { site } from '@/lib/content';
+import { useLanguage } from '@/context/LanguageContext';
 
 export default function CtaBanner() {
+  const { t } = useLanguage();
+
   return (
     <section className="bg-white py-16">
       <div className="container-page">
@@ -12,12 +17,9 @@ export default function CtaBanner() {
             <div className="relative grid grid-cols-1 items-center gap-10 lg:grid-cols-[1.4fr_1fr]">
               <div>
                 <h2 className="text-balance font-display text-3xl font-bold md:text-4xl">
-                  Sẵn sàng nâng cấp hạ tầng IT của doanh nghiệp bạn?
+                  {t('ctaBanner.heading')}
                 </h2>
-                <p className="mt-4 max-w-lg text-balance text-slate-300">
-                  Đội ngũ TTC-Infotech luôn sẵn sàng lắng nghe và tư vấn giải pháp phù hợp nhất cho hệ
-                  thống của bạn.
-                </p>
+                <p className="mt-4 max-w-lg text-balance text-slate-300">{t('ctaBanner.description')}</p>
                 <div className="mt-7 flex flex-col gap-4 sm:flex-row">
                   <a href={site.phoneHref} className="flex items-center gap-2 text-sm font-semibold">
                     <Phone size={16} className="text-cyan-300" />
@@ -31,7 +33,7 @@ export default function CtaBanner() {
               </div>
               <div className="flex justify-start lg:justify-end">
                 <Button href="/contact" variant="amber">
-                  Liên hệ ngay
+                  {t('ctaBanner.cta')}
                 </Button>
               </div>
             </div>

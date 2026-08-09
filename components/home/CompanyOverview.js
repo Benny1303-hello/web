@@ -1,14 +1,15 @@
+'use client';
+
 import { CheckCircle2 } from 'lucide-react';
 import Reveal from '@/components/Reveal';
 import Button from '@/components/Button';
-
-const points = [
-  'Đội ngũ kỹ sư giàu kinh nghiệm, chứng chỉ quốc tế',
-  'Liên minh chiến lược với các hãng công nghệ hàng đầu',
-  'Hỗ trợ kỹ thuật và giám sát chủ động 24/7',
-];
+import { useLanguage } from '@/context/LanguageContext';
 
 export default function CompanyOverview() {
+  const { t } = useLanguage();
+  const points = t('companyOverview.points');
+  const steps = t('companyOverview.steps');
+
   return (
     <section className="bg-mist-50 py-20">
       <div className="container-page grid grid-cols-1 items-center gap-14 lg:grid-cols-2">
@@ -17,7 +18,7 @@ export default function CompanyOverview() {
             <div className="absolute -inset-4 -z-10 rounded-3xl bg-gradient-to-br from-brand-500/15 to-cyan-400/15 blur-2xl" />
             <div className="rounded-3xl bg-white p-8 shadow-card ring-1 ring-black/5">
               <div className="grid grid-cols-2 gap-4">
-                {['Tư vấn', 'Phân phối', 'Tích hợp', 'Vận hành'].map((label, i) => (
+                {steps.map((label, i) => (
                   <div
                     key={label}
                     className="flex flex-col items-center justify-center gap-2 rounded-2xl bg-mist-50 py-8 text-center ring-1 ring-black/5"
@@ -32,15 +33,11 @@ export default function CompanyOverview() {
         </Reveal>
 
         <Reveal delay={0.1}>
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">Tổng quan công ty</p>
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">{t('companyOverview.eyebrow')}</p>
           <h2 className="mt-3 text-balance font-display text-3xl font-bold text-navy-900 md:text-4xl">
-            Vận hành hệ thống IT không còn là gánh nặng của riêng bạn
+            {t('companyOverview.heading')}
           </h2>
-          <p className="mt-5 text-balance leading-relaxed text-ink-400">
-            Tự xây dựng và vận hành phòng IT nội bộ vừa tốn thời gian vừa tốn kém. TTC-Infotech đồng hành
-            cùng doanh nghiệp gánh vác trách nhiệm đó — một giải pháp phổ biến và hiệu quả, đặc biệt với
-            các doanh nghiệp vừa và nhỏ.
-          </p>
+          <p className="mt-5 text-balance leading-relaxed text-ink-400">{t('companyOverview.description')}</p>
           <ul className="mt-6 space-y-3">
             {points.map((point) => (
               <li key={point} className="flex items-start gap-3 text-sm text-ink-600">
@@ -51,7 +48,7 @@ export default function CompanyOverview() {
           </ul>
           <div className="mt-8">
             <Button href="/about" variant="dark">
-              Tìm hiểu thêm
+              {t('companyOverview.cta')}
             </Button>
           </div>
         </Reveal>

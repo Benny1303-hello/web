@@ -4,16 +4,15 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { CheckCircle2, Send, Loader2 } from 'lucide-react';
 import { site } from '@/lib/content';
+import { useLanguage } from '@/context/LanguageContext';
 
-const fields = [
-  { name: 'name', label: 'Họ và tên', type: 'text', placeholder: 'Nguyễn Văn A' },
-  { name: 'email', label: 'Email', type: 'email', placeholder: 'ban@congty.com' },
-  { name: 'phone', label: 'Số điện thoại', type: 'text', placeholder: '09xx xxx xxx' },
-  { name: 'subject', label: 'Chủ đề', type: 'text', placeholder: 'Yêu cầu tư vấn giải pháp...' },
-];
+const fieldNames = ['name', 'email', 'phone', 'subject'];
+const fieldTypes = { name: 'text', email: 'email', phone: 'text', subject: 'text' };
 
 export default function ContactForm() {
+  const { t } = useLanguage();
   const [status, setStatus] = useState('idle');
+  const [errorCode, setErrorCode] = useState(null);
   const [values, setValues] = useState({ name: '', email: '', phone: '', subject: '', message: '' });
 
   const handleChange = (e) => {
@@ -23,15 +22,22 @@ export default function ContactForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus('sending');
+    setErrorCode(null);
     try {
       const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(values),
       });
-      if (!res.ok) throw new Error('Send failed');
+      if (!res.ok) {
+        const data = await res.json().catch(() => null);
+        setErrorCode(data?.errorCode || 'UNEXPECTED');
+        setStatus('error');
+        return;
+      }
       setStatus('sent');
     } catch {
+      setErrorCode('NETWORK_ERROR');
       setStatus('error');
     }
   };
@@ -44,10 +50,8 @@ export default function ContactForm() {
         className="flex h-full flex-col items-center justify-center rounded-2xl bg-mist-50 p-10 text-center"
       >
         <CheckCircle2 size={44} className="text-brand-500" />
-        <h3 className="mt-4 font-display text-xl font-bold text-navy-900">Đã gửi yêu cầu thành công!</h3>
-        <p className="mt-2 max-w-sm text-sm text-ink-400">
-          Cảm ơn bạn đã liên hệ. Đội ngũ TTC-Infotech sẽ phản hồi trong thời gian sớm nhất.
-        </p>
+        <h3 className="mt-4 font-display text-xl font-bold text-navy-900">{t('contactForm.successTitle')}</h3>
+        <p className="mt-2 max-w-sm text-sm text-ink-400">{t('contactForm.successDesc')}</p>
       </motion.div>
     );
   }
@@ -55,18 +59,18 @@ export default function ContactForm() {
   return (
     <form onSubmit={handleSubmit} className="rounded-2xl bg-white p-8 shadow-card ring-1 ring-black/5">
       <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
-        {fields.map((field) => (
-          <div key={field.name} className={field.name === 'subject' ? 'sm:col-span-2' : ''}>
-            <label htmlFor={field.name} className="mb-1.5 block text-sm font-medium text-ink-600">
-              {field.label}
+        {fieldNames.map((name) => (
+          <div key={name} className={name === 'subject' ? 'sm:col-span-2' : ''}>
+            <label htmlFor={name} className="mb-1.5 block text-sm font-medium text-ink-600">
+              {t(`contactForm.fields.${name}.label`)}
             </label>
             <input
-              id={field.name}
-              name={field.name}
-              type={field.type}
+              id={name}
+              name={name}
+              type={fieldTypes[name]}
               required
-              placeholder={field.placeholder}
-              value={values[field.name]}
+              placeholder={t(`contactForm.fields.${name}.placeholder`)}
+              value={values[name]}
               onChange={handleChange}
               className="w-full rounded-lg border border-black/10 px-4 py-2.5 text-sm text-ink-900 outline-none transition-colors focus:border-brand-500"
             />
@@ -75,14 +79,14 @@ export default function ContactForm() {
 
         <div className="sm:col-span-2">
           <label htmlFor="message" className="mb-1.5 block text-sm font-medium text-ink-600">
-            Nội dung
+            {t('contactForm.fields.message.label')}
           </label>
           <textarea
             id="message"
             name="message"
             rows={4}
             required
-            placeholder="Mô tả nhu cầu của bạn..."
+            placeholder={t('contactForm.fields.message.placeholder')}
             value={values.message}
             onChange={handleChange}
             className="w-full resize-none rounded-lg border border-black/10 px-4 py-2.5 text-sm text-ink-900 outline-none transition-colors focus:border-brand-500"
@@ -92,11 +96,17 @@ export default function ContactForm() {
 
       {status === 'error' && (
         <p className="mt-4 text-sm font-medium text-red-600">
-          Gửi yêu cầu thất bại, vui lòng thử lại hoặc gọi trực tiếp {(' ')}
-          <a href={site.phoneHref} className="underline">
-            {site.phone}
-          </a>
-          .
+          {['SEND_FAILED', 'SERVER_NOT_READY', 'UNEXPECTED', 'NETWORK_ERROR'].includes(errorCode) ? (
+            <>
+              {t('contactForm.errorPrefix')} {(' ')}
+              <a href={site.phoneHref} className="underline">
+                {site.phone}
+              </a>
+              .
+            </>
+          ) : (
+            t(`contactForm.errors.${errorCode}`)
+          )}
         </p>
       )}
 
@@ -107,12 +117,12 @@ export default function ContactForm() {
       >
         {status === 'sending' ? (
           <>
-            Đang gửi...
+            {t('contactForm.sending')}
             <Loader2 size={16} className="animate-spin" />
           </>
         ) : (
           <>
-            Gửi yêu cầu
+            {t('contactForm.submit')}
             <Send size={16} className="transition-transform duration-200 group-hover:translate-x-1" />
           </>
         )}

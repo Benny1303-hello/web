@@ -10,6 +10,7 @@
     "home": "Trang chủ",
     "about": "Về chúng tôi",
     "distribution": "Trung tâm phân phối",
+    "products": "Sản phẩm",
     "systemIntegration": "Tích hợp hệ thống",
     "services": "Trung tâm dịch vụ",
     "contact": "Liên hệ",
@@ -168,10 +169,9 @@
         "title": "Nhà phân phối công nghệ hàng đầu cho hạ tầng doanh nghiệp",
         "description": "Là mắt xích quan trọng trong chuỗi cung ứng IT, chúng tôi mang đến giải pháp tối ưu cho từng đối tác kênh phân phối."
       },
-      "productsEyebrow": "Danh mục sản phẩm",
-      "productsHeading": "Thiết bị chính hãng từ các thương hiệu công nghệ toàn cầu",
       "contactEyebrow": "Liên hệ đặt hàng",
       "contactHeading": "Đội ngũ kinh doanh sẵn sàng hỗ trợ báo giá",
+      "viewProducts": "Xem toàn bộ danh mục sản phẩm",
       "staffGroups": {
         "sales": "Phụ trách kinh doanh & phân phối",
         "consulting": "Tư vấn giải pháp"
@@ -183,6 +183,17 @@
         "giang": "Tư vấn giải pháp APC by Schneider Electric",
         "duc": "Tư vấn giải pháp HPE, Aruba Networking"
       }
+    },
+    "products": {
+      "hero": {
+        "crumb": "Sản phẩm",
+        "eyebrow": "Danh mục sản phẩm",
+        "title": "Khám phá đầy đủ danh mục sản phẩm chúng tôi phân phối",
+        "description": "Thiết bị chính hãng từ các thương hiệu công nghệ hàng đầu thế giới, sẵn sàng đáp ứng mọi nhu cầu hạ tầng IT của doanh nghiệp bạn."
+      },
+      "ctaHeading": "Cần tư vấn chọn sản phẩm phù hợp?",
+      "ctaDesc": "Đội ngũ kinh doanh của chúng tôi sẵn sàng hỗ trợ báo giá và tư vấn giải pháp theo đúng nhu cầu của bạn.",
+      "ctaButton": "Liên hệ đội ngũ kinh doanh"
     },
     "systemIntegration": {
       "hero": {

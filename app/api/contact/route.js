@@ -1,4 +1,5 @@
 import { Resend } from 'resend';
+import { site } from '@/lib/content';
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -30,7 +31,7 @@ export async function POST(request) {
   try {
     const { error } = await resend.emails.send({
       from: 'TTC-Infotech Website <onboarding@resend.dev>',
-      to: 'sales@ttc-infotech.com.vn',
+      to: site.email,
       replyTo: email.trim(),
       subject: `Yêu cầu liên hệ mới - ${subject.trim()}`,
       text: [

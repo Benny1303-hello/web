@@ -1,6 +1,5 @@
-import { Network, PackageSearch, Wrench } from 'lucide-react';
+import { Network, PackageSearch, Wrench, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
-import { ArrowRight } from 'lucide-react';
 import Reveal from '@/components/Reveal';
 import { centers } from '@/lib/content';
 

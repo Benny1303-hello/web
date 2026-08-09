@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { Facebook, Mail, MapPin, Phone } from 'lucide-react';
-import { navLinks, site } from '@/lib/content';
+import { navLinks, site, centers } from '@/lib/content';
 
 export default function Footer() {
   return (
@@ -42,9 +42,13 @@ export default function Footer() {
         <div>
           <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">Dịch vụ</h4>
           <ul className="space-y-3 text-sm">
-            <li><Link href="/services" className="transition-colors hover:text-cyan-300">Trung tâm dịch vụ</Link></li>
-            <li><Link href="/distribution" className="transition-colors hover:text-cyan-300">Trung tâm phân phối</Link></li>
-            <li><Link href="/system-integration" className="transition-colors hover:text-cyan-300">Tích hợp hệ thống</Link></li>
+            {centers.map((center) => (
+              <li key={center.slug}>
+                <Link href={`/${center.slug}`} className="transition-colors hover:text-cyan-300">
+                  {center.title}
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
 

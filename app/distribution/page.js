@@ -81,9 +81,6 @@ export default function DistributionPage() {
                       <div className="h-full rounded-xl bg-white px-6 py-5 shadow-soft ring-1 ring-black/5">
                         <span className="font-medium text-ink-900">{contact.name}</span>
                         <p className="mt-1 text-xs font-medium uppercase tracking-wide text-brand-600">{contact.role}</p>
-                        {contact.scope && (
-                          <p className="mt-2 text-sm leading-relaxed text-ink-400">{contact.scope}</p>
-                        )}
                         <div className="mt-3 flex flex-col gap-1.5">
                           <a
                             href={`tel:${contact.phone.replace(/\s/g, '')}`}

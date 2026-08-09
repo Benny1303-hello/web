@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { CheckCircle2, Send, Loader2 } from 'lucide-react';
+import { site } from '@/lib/content';
 
 const fields = [
   { name: 'name', label: 'Họ và tên', type: 'text', placeholder: 'Nguyễn Văn A' },
@@ -92,8 +93,8 @@ export default function ContactForm() {
       {status === 'error' && (
         <p className="mt-4 text-sm font-medium text-red-600">
           Gửi yêu cầu thất bại, vui lòng thử lại hoặc gọi trực tiếp {(' ')}
-          <a href="tel:+84908161313" className="underline">
-            (+84) 908 161 313
+          <a href={site.phoneHref} className="underline">
+            {site.phone}
           </a>
           .
         </p>

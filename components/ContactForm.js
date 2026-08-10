@@ -98,7 +98,7 @@ export default function ContactForm() {
         <p className="mt-4 text-sm font-medium text-red-600">
           {['SEND_FAILED', 'SERVER_NOT_READY', 'UNEXPECTED', 'NETWORK_ERROR'].includes(errorCode) ? (
             <>
-              {t('contactForm.errorPrefix')} {(' ')}
+              {t('contactForm.errorPrefix')}{' '}
               <a href={site.phoneHref} className="underline">
                 {site.phone}
               </a>

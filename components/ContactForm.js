@@ -96,16 +96,16 @@ export default function ContactForm() {
 
       {status === 'error' && (
         <p className="mt-4 text-sm font-medium text-red-600">
-          {['SEND_FAILED', 'SERVER_NOT_READY', 'UNEXPECTED', 'NETWORK_ERROR'].includes(errorCode) ? (
+          {t(`contactForm.errors.${errorCode}`)}
+          {['SEND_FAILED', 'SERVER_NOT_READY', 'UNEXPECTED', 'NETWORK_ERROR'].includes(errorCode) && (
             <>
+              {' '}
               {t('contactForm.errorPrefix')}{' '}
               <a href={site.phoneHref} className="underline">
                 {site.phone}
               </a>
               .
             </>
-          ) : (
-            t(`contactForm.errors.${errorCode}`)
           )}
         </p>
       )}

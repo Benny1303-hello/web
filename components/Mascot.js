@@ -15,31 +15,35 @@ const EGG_EMOJI = ['✨', '💡', '☕', '⭐', '❤️'];
 
 export default function Mascot() {
   const [state, setState] = useState('idle');
-  const [egg, setEgg] = useState(null);
-  const [burstId, setBurstId] = useState(0);
+  const [cycleEgg, setCycleEgg] = useState(null);
+  const [burst, setBurst] = useState(null);
   const [wiggling, setWiggling] = useState(false);
   const cycleIndex = useRef(0);
-  const timeoutRef = useRef(null);
+  const cycleTimeoutRef = useRef(null);
+  const wiggleTimeoutRef = useRef(null);
 
   useEffect(() => {
     const runCycle = () => {
       const step = CYCLE[cycleIndex.current % CYCLE.length];
       setState(step.state);
       if (step.state === 'egg') {
-        setEgg(EGG_EMOJI[Math.floor(Math.random() * EGG_EMOJI.length)]);
+        setCycleEgg(EGG_EMOJI[Math.floor(Math.random() * EGG_EMOJI.length)]);
       }
       cycleIndex.current += 1;
-      timeoutRef.current = setTimeout(runCycle, step.duration);
+      cycleTimeoutRef.current = setTimeout(runCycle, step.duration);
     };
     runCycle();
-    return () => clearTimeout(timeoutRef.current);
+    return () => {
+      clearTimeout(cycleTimeoutRef.current);
+      clearTimeout(wiggleTimeoutRef.current);
+    };
   }, []);
 
   const handleClick = () => {
     setWiggling(true);
-    setEgg(EGG_EMOJI[Math.floor(Math.random() * EGG_EMOJI.length)]);
-    setBurstId((n) => n + 1);
-    setTimeout(() => setWiggling(false), 500);
+    setBurst({ id: Date.now(), emoji: EGG_EMOJI[Math.floor(Math.random() * EGG_EMOJI.length)] });
+    clearTimeout(wiggleTimeoutRef.current);
+    wiggleTimeoutRef.current = setTimeout(() => setWiggling(false), 500);
   };
 
   const isTyping = state === 'typing';
@@ -51,30 +55,29 @@ export default function Mascot() {
       type="button"
       onClick={handleClick}
       aria-label="TTC-Infotech mascot"
-      title="👋"
       className="group absolute bottom-4 right-4 z-10 hidden h-24 w-20 cursor-pointer select-none sm:block"
     >
       <div
-        className={`relative h-full w-full animate-mascot-bob ${wiggling ? 'animate-mascot-wiggle' : ''} ${
-          isReading ? 'animate-mascot-nod' : ''
+        className={`relative h-full w-full animate-mascot-bob ${
+          wiggling ? 'animate-mascot-wiggle' : isReading ? 'animate-mascot-nod' : ''
         }`}
       >
         {/* Easter-egg particle (auto cycle) */}
-        {isEgg && egg && (
+        {isEgg && cycleEgg && (
           <span
-            key={`cycle-${egg}-${state}`}
+            key="cycle-egg"
             className="pointer-events-none absolute -top-3 left-1/2 -translate-x-1/2 animate-mascot-float-fade text-lg"
           >
-            {egg}
+            {cycleEgg}
           </span>
         )}
         {/* Easter-egg particle (click burst) */}
-        {burstId > 0 && (
+        {burst && (
           <span
-            key={`burst-${burstId}`}
-            className="pointer-events-none absolute -top-3 left-1/2 -translate-x-1/2 animate-mascot-float-fade text-lg"
+            key={`burst-${burst.id}`}
+            className="pointer-events-none absolute -top-3 left-1/2 translate-x-[calc(-50%+8px)] animate-mascot-float-fade text-lg"
           >
-            {egg}
+            {burst.emoji}
           </span>
         )}
 

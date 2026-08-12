@@ -51,11 +51,11 @@ export default function DistributionContent() {
                 </h3>
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                   {group.members.map((contact, i) => (
-                    <Reveal key={contact.name} delay={i * 0.06}>
+                    <Reveal key={contact.key} delay={i * 0.06}>
                       <div className="h-full rounded-xl bg-white px-6 py-5 shadow-soft ring-1 ring-black/5">
                         <span className="font-medium text-ink-900">{contact.name}</span>
                         <p className="mt-1 text-xs font-medium uppercase tracking-wide text-brand-600">
-                          {t(`pages.distribution.staffRoles.${contact.id}`)}
+                          {t(`pages.distribution.staffRoles.${contact.key}`)}
                         </p>
                         <div className="mt-3 flex flex-col gap-1.5">
                           <a

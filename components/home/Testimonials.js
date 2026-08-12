@@ -66,7 +66,7 @@ export default function Testimonials() {
 
                 <Quote className="mx-auto mt-6 mb-4 text-brand-400" size={30} />
                 <p className="mx-auto max-w-2xl text-balance leading-relaxed text-slate-200">
-                  “{t(`testimonials.items.${current.id}.quote`)}”
+                  “{t(`testimonials.items.${current.key}.quote`)}”
                 </p>
               </motion.div>
             </AnimatePresence>
@@ -85,7 +85,7 @@ export default function Testimonials() {
             <div className="flex items-center gap-2">
               {testimonials.map((item, i) => (
                 <button
-                  key={item.name}
+                  key={item.key}
                   aria-label={t('testimonials.pageLabel', { n: i + 1 })}
                   onClick={() => setIndex(i)}
                   className={`h-2 rounded-full transition-all duration-300 ${

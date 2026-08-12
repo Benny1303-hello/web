@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 
 const CYCLE = [
   { state: 'idle', duration: 3200 },
-  { state: 'typing', duration: 3000 },
+  { state: 'typing', duration: 5500 },
   { state: 'idle', duration: 2600 },
   { state: 'reading', duration: 3200 },
   { state: 'idle', duration: 2600 },
@@ -55,7 +55,7 @@ export default function Mascot() {
       type="button"
       onClick={handleClick}
       aria-label="TTC-Infotech mascot"
-      className="group absolute bottom-4 right-4 z-10 hidden h-24 w-20 cursor-pointer select-none sm:block"
+      className="group absolute bottom-6 right-4 z-10 hidden h-24 w-20 cursor-pointer select-none sm:block"
     >
       <div
         className={`relative h-full w-full animate-mascot-bob ${
@@ -94,18 +94,47 @@ export default function Mascot() {
           </div>
         </div>
 
-        {/* Keyboard (typing state) */}
+        {/* ---- Desk scene (typing state) ---- */}
+
+        {/* Chair back, peeking out behind the character */}
         <div
-          className={`absolute left-1/2 top-[52px] h-3.5 w-11 -translate-x-1/2 rounded-[3px] bg-navy-800 shadow-soft transition-all duration-300 ${
+          className={`absolute left-1/2 top-2 h-12 w-12 -translate-x-1/2 rounded-md bg-white/10 ring-1 ring-white/10 transition-all duration-300 ${
+            isTyping ? 'animate-mascot-pop opacity-100' : 'scale-0 opacity-0'
+          }`}
+        />
+
+        {/* Monitor, standing on the desk — bright glowing screen so it pops against the dark hero */}
+        <div
+          className={`absolute left-1/2 top-9 h-4 w-5 -translate-x-1/2 rounded-[3px] bg-navy-800 p-[2px] shadow-glow transition-all duration-300 ${
             isTyping ? 'animate-mascot-pop opacity-100' : 'scale-0 opacity-0'
           }`}
         >
-          <div className="grid grid-cols-5 gap-[1.5px] p-[2px]">
-            {Array.from({ length: 10 }).map((_, i) => (
-              <span key={i} className="h-[2px] rounded-[1px] bg-cyan-300/70" />
-            ))}
-          </div>
+          <div className="h-full w-full animate-pulse rounded-[1px] bg-cyan-300" />
         </div>
+        {/* Monitor stand */}
+        <div
+          className={`absolute left-1/2 top-[52px] h-1 w-1.5 -translate-x-1/2 bg-navy-800 transition-all duration-300 ${
+            isTyping ? 'opacity-100' : 'opacity-0'
+          }`}
+        />
+
+        {/* Desk top */}
+        <div
+          className={`absolute left-1/2 top-[54px] h-1.5 w-20 -translate-x-1/2 rounded-[2px] bg-amber-500 shadow-soft transition-all duration-300 ${
+            isTyping ? 'animate-mascot-pop opacity-100' : 'scale-0 opacity-0'
+          }`}
+        />
+        {/* Desk legs */}
+        <div
+          className={`absolute left-[3px] top-[58px] h-4 w-1 bg-amber-600 transition-all duration-300 ${
+            isTyping ? 'opacity-100' : 'opacity-0'
+          }`}
+        />
+        <div
+          className={`absolute right-[3px] top-[58px] h-4 w-1 bg-amber-600 transition-all duration-300 ${
+            isTyping ? 'opacity-100' : 'opacity-0'
+          }`}
+        />
 
         {/* Left arm */}
         <div
@@ -146,8 +175,25 @@ export default function Mascot() {
           </div>
         </div>
 
-        {/* Feet */}
-        <div className="absolute left-1/2 top-[52px] flex -translate-x-1/2 gap-2">
+        {/* Keyboard, on the desk right in front of the character's hands */}
+        <div
+          className={`absolute left-1/2 top-[50px] h-3 w-10 -translate-x-1/2 rounded-[3px] bg-navy-800 shadow-soft transition-all duration-300 ${
+            isTyping ? 'animate-mascot-pop opacity-100' : 'scale-0 opacity-0'
+          }`}
+        >
+          <div className="grid grid-cols-5 gap-[1.5px] p-[2px]">
+            {Array.from({ length: 10 }).map((_, i) => (
+              <span key={i} className="h-[2px] rounded-[1px] bg-cyan-200" />
+            ))}
+          </div>
+        </div>
+
+        {/* Feet (hidden while sitting at the desk) */}
+        <div
+          className={`absolute left-1/2 top-[52px] flex -translate-x-1/2 gap-2 transition-opacity duration-300 ${
+            isTyping ? 'opacity-0' : 'opacity-100'
+          }`}
+        >
           <span className="block h-2 w-3 rounded-full bg-white/90" />
           <span className="block h-2 w-3 rounded-full bg-white/90" />
         </div>

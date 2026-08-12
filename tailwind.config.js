@@ -60,10 +60,53 @@ module.exports = {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-50%)' },
         },
+        mascotBob: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-3px)' },
+        },
+        mascotBlink: {
+          '0%, 90%, 100%': { transform: 'scaleY(1)' },
+          '95%': { transform: 'scaleY(0.15)' },
+        },
+        mascotTapL: {
+          '0%, 100%': { transform: 'rotate(0deg) translateY(0)' },
+          '50%': { transform: 'rotate(-18deg) translateY(-2px)' },
+        },
+        mascotTapR: {
+          '0%, 100%': { transform: 'rotate(0deg) translateY(0)' },
+          '50%': { transform: 'rotate(18deg) translateY(-2px)' },
+        },
+        mascotPop: {
+          '0%': { transform: 'scale(0)', opacity: '0' },
+          '60%': { transform: 'scale(1.15)', opacity: '1' },
+          '100%': { transform: 'scale(1)', opacity: '1' },
+        },
+        mascotFloatFade: {
+          '0%': { transform: 'translateY(0) scale(0.6)', opacity: '0' },
+          '20%': { opacity: '1' },
+          '100%': { transform: 'translateY(-26px) scale(1)', opacity: '0' },
+        },
+        mascotWiggle: {
+          '0%, 100%': { transform: 'rotate(0deg)' },
+          '25%': { transform: 'rotate(-8deg)' },
+          '75%': { transform: 'rotate(8deg)' },
+        },
+        mascotNod: {
+          '0%, 100%': { transform: 'rotate(0deg) translateY(0)' },
+          '50%': { transform: 'rotate(6deg) translateY(1px)' },
+        },
       },
       animation: {
         floaty: 'floaty 6s ease-in-out infinite',
         marquee: 'marquee 26s linear infinite',
+        'mascot-bob': 'mascotBob 2.4s ease-in-out infinite',
+        'mascot-blink': 'mascotBlink 4s ease-in-out infinite',
+        'mascot-tap-l': 'mascotTapL 0.5s ease-in-out infinite',
+        'mascot-tap-r': 'mascotTapR 0.5s ease-in-out infinite 0.25s',
+        'mascot-pop': 'mascotPop 0.4s cubic-bezier(0.22,1,0.36,1) both',
+        'mascot-float-fade': 'mascotFloatFade 1.6s ease-out forwards',
+        'mascot-wiggle': 'mascotWiggle 0.5s ease-in-out',
+        'mascot-nod': 'mascotNod 1.8s ease-in-out infinite',
       },
     },
   },

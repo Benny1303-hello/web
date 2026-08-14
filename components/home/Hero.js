@@ -2,7 +2,6 @@
 
 import { motion } from 'framer-motion';
 import Button from '@/components/Button';
-import Mascot from '@/components/Mascot';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function Hero() {
@@ -10,7 +9,6 @@ export default function Hero() {
 
   return (
     <section className="relative overflow-hidden bg-hero-mesh text-white">
-      <Mascot />
       <div className="container-page relative flex flex-col items-center gap-14 py-24 lg:flex-row lg:py-32">
         <motion.div
           initial={{ opacity: 0, y: 24 }}

@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 import Reveal from '@/components/Reveal';
-import Mascot from '@/components/Mascot';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function PageHero({ eyebrow, title, description, crumb }) {
@@ -11,7 +10,6 @@ export default function PageHero({ eyebrow, title, description, crumb }) {
 
   return (
     <section className="relative overflow-hidden bg-hero-mesh py-20 text-white">
-      <Mascot />
       <div className="container-page relative">
         <Reveal>
           <div className="flex items-center gap-2 text-xs font-medium uppercase tracking-widest text-cyan-300">

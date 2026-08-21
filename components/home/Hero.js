@@ -50,7 +50,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-          className="max-w-2xl text-center lg:text-left"
+          className="mx-auto max-w-2xl text-center"
         >
           <span className="inline-flex items-center rounded-full border border-cyan-300/30 bg-cyan-400/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.25em] text-cyan-300">
             {t('hero.tagline')}
@@ -63,10 +63,10 @@ export default function Hero() {
           <p className="mt-4 text-sm font-semibold uppercase tracking-[0.3em] text-brand-400">
             {t('hero.subtitle')}
           </p>
-          <p className="mx-auto mt-6 max-w-lg text-balance text-slate-300 lg:mx-0">
+          <p className="mx-auto mt-6 max-w-lg text-balance text-slate-300">
             {t('hero.description')}
           </p>
-          <div className="mt-9 flex flex-col items-center gap-4 sm:flex-row lg:justify-start">
+          <div className="mt-9 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button href="/contact" variant="primary">
               {t('hero.ctaPrimary')}
             </Button>

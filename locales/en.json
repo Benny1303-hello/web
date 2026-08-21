@@ -171,6 +171,39 @@
         { "title": "People", "desc": "A team that works with passion, loves technology, and continuously innovates on every project while leading by example." }
       ]
     },
+    "distribution": {
+      "hero": {
+        "crumb": "Distribution Center",
+        "eyebrow": "Distribution Center",
+        "title": "TTC-Infotech's end-to-end technology distribution center",
+        "description": "Nearly 20 years as a vital link in Vietnam's technology distribution channel, delivering optimized solutions for every channel partner."
+      },
+      "intro": {
+        "eyebrow": "About the Distribution Center",
+        "heading": "A strategic link in the technology distribution chain",
+        "desc": "With nearly 20 years of distribution experience, TTC-Infotech partners with leading technology brands such as Schneider Electric (APC by Schneider), HPE, Microsoft, and Telegartner. As one of Vietnam's leading end-to-end technology distributors, we put our customers' needs and goals first, acting as a true strategic partner and a vital link in the IT channel, delivering optimized solutions for every channel partner."
+      },
+      "brandsSection": {
+        "eyebrow": "Distribution portfolio",
+        "heading": "Technology brands we distribute"
+      },
+      "brands": {
+        "apc": { "name": "APC by Schneider Electric", "desc": "Elite & Premier Partner — single and three-phase UPS systems, rack solutions, precision cooling, and environmental monitoring for data centers." },
+        "hpe": { "name": "HPE Aruba Networking", "desc": "Silver Partner — enterprise networking and Wifi solutions from Aruba Networking, an HPE company." },
+        "microsoft": { "name": "Microsoft", "desc": "Silver Partner, Managed Reseller — genuine Microsoft OEM and FPP software licensing." },
+        "telegartner": { "name": "Telegartner", "desc": "Authorized Partner — structured cabling systems for enterprise network infrastructure." }
+      },
+      "valuesSection": {
+        "eyebrow": "Value to our partners",
+        "heading": "Why resellers and channel partners choose to work with TTC-Infotech"
+      },
+      "values": [
+        { "title": "Genuine Products", "desc": "Genuine, quality-assured products backed by full manufacturer certification." },
+        { "title": "Dedicated Delivery", "desc": "Fast, attentive delivery that keeps every partner order on schedule." },
+        { "title": "Installation Support", "desc": "Consulting and full installation support, from planning through to deployment." },
+        { "title": "Rapid Warranty", "desc": "On-site maintenance and warranty support for end customers, resolved quickly." }
+      ]
+    },
     "staff": {
       "hero": {
         "crumb": "Distribution Team",

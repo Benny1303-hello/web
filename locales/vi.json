@@ -171,6 +171,39 @@
         { "title": "Con người", "desc": "Đội ngũ làm việc bằng đam mê, yêu công nghệ và không ngừng đổi mới trong từng dự án, luôn nêu cao tinh thần dẫn dắt." }
       ]
     },
+    "distribution": {
+      "hero": {
+        "crumb": "Trung tâm phân phối",
+        "eyebrow": "Distribution Center",
+        "title": "Trung tâm phân phối công nghệ end-to-end của TTC-Infotech",
+        "description": "Gần 20 năm là mắt xích quan trọng trong kênh phân phối công nghệ tại Việt Nam, mang đến giải pháp tối ưu cho từng đối tác kênh phân phối."
+      },
+      "intro": {
+        "eyebrow": "Về trung tâm phân phối",
+        "heading": "Một mắt xích chiến lược trong hệ thống phân phối công nghệ",
+        "desc": "Với gần 20 năm kinh nghiệm kinh doanh phân phối, TTC-Infotech hợp tác cùng nhiều hãng công nghệ hàng đầu như Schneider Electric (APC by Schneider), HPE, Microsoft và Telegartner. Là một trong những nhà phân phối công nghệ end-to-end hàng đầu Việt Nam, chúng tôi luôn đặt nhu cầu và mục tiêu của khách hàng làm trọng tâm, đóng vai trò đối tác chiến lược thực thụ và là mắt xích quan trọng trong kênh phân phối IT, mang đến giải pháp tối ưu cho từng đối tác kênh phân phối."
+      },
+      "brandsSection": {
+        "eyebrow": "Danh mục phân phối",
+        "heading": "Các thương hiệu công nghệ chúng tôi phân phối"
+      },
+      "brands": {
+        "apc": { "name": "APC by Schneider Electric", "desc": "Elite & Premier Partner — hệ thống UPS 1 pha/3 pha, tủ rack, điều hòa chính xác và giải pháp giám sát môi trường cho trung tâm dữ liệu." },
+        "hpe": { "name": "HPE Aruba Networking", "desc": "Silver Partner — giải pháp mạng doanh nghiệp và Wifi từ Aruba Networking, thương hiệu thuộc HPE." },
+        "microsoft": { "name": "Microsoft", "desc": "Silver Partner, Managed Reseller — bản quyền phần mềm Microsoft OEM và FPP chính hãng." },
+        "telegartner": { "name": "Telegartner", "desc": "Authorized Partner — hệ thống cabling chuẩn hóa cho hạ tầng mạng doanh nghiệp." }
+      },
+      "valuesSection": {
+        "eyebrow": "Giá trị dành cho đối tác",
+        "heading": "Vì sao đại lý & channel partner chọn đồng hành cùng TTC-Infotech"
+      },
+      "values": [
+        { "title": "Sản phẩm chính hãng", "desc": "Cung cấp sản phẩm chính hãng, đảm bảo chất lượng với đầy đủ chứng nhận từ nhà sản xuất." },
+        { "title": "Giao hàng tận tâm", "desc": "Giao hàng nhanh chóng, chu đáo, đảm bảo tiến độ cho từng đơn hàng của đối tác." },
+        { "title": "Hỗ trợ lắp đặt", "desc": "Tư vấn và triển khai lắp đặt hoàn chỉnh, đồng hành cùng đối tác từ khâu tư vấn đến vận hành." },
+        { "title": "Bảo hành nhanh chóng", "desc": "Hỗ trợ bảo hành, bảo trì tận nơi cho khách hàng cuối, xử lý nhanh mọi yêu cầu bảo hành." }
+      ]
+    },
     "staff": {
       "hero": {
         "crumb": "Nhân sự phụ trách",

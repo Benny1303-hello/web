@@ -22,7 +22,7 @@ export default function Footer() {
             target="_blank"
             rel="noreferrer"
             className="mt-5 inline-flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-slate-200 transition-colors hover:bg-cyan-400 hover:text-navy-950"
-            aria-label="Facebook"
+            aria-label={t('common.facebook')}
           >
             <Facebook size={16} />
           </a>

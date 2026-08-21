@@ -4,7 +4,10 @@
     "learnMore": "Tìm hiểu thêm",
     "viewMore": "Xem thêm",
     "sendRequest": "Gửi yêu cầu",
-    "contactNow": "Liên hệ ngay"
+    "contactNow": "Liên hệ ngay",
+    "facebook": "Facebook",
+    "language": "Ngôn ngữ",
+    "mapTitle": "Vị trí TTC-Infotech"
   },
   "nav": {
     "home": "Trang chủ",
@@ -102,6 +105,11 @@
   "certificationsSection": {
     "eyebrow": "Chứng nhận đối tác",
     "heading": "Được các hãng công nghệ hàng đầu công nhận"
+  },
+  "certifications": {
+    "apcElite": "APC by Schneider Electric — Elite Partner (2020)",
+    "apcPremier": "APC by Schneider Electric — Premier Partner (2019)",
+    "microsoftSilver": "Microsoft — Silver Partner"
   },
   "ctaBanner": {
     "heading": "Sẵn sàng nâng cấp hạ tầng IT của doanh nghiệp bạn?",

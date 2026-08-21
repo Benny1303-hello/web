@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { Fragment, useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
@@ -9,32 +9,28 @@ import { Menu, X, Phone } from 'lucide-react';
 import { navLinks, site } from '@/lib/content';
 import { useLanguage } from '@/context/LanguageContext';
 
+const LANGUAGES = ['vi', 'en'];
+
 function LanguageSwitcher({ className = '' }) {
-  const { language, setLanguage } = useLanguage();
+  const { language, setLanguage, t } = useLanguage();
 
   return (
-    <div className={`flex items-center gap-1 text-sm font-semibold ${className}`} role="group" aria-label="Language">
-      <button
-        type="button"
-        onClick={() => setLanguage('vi')}
-        aria-pressed={language === 'vi'}
-        className={`rounded-full px-2 py-1 transition-colors ${
-          language === 'vi' ? 'text-cyan-300' : 'text-slate-400 hover:text-white'
-        }`}
-      >
-        VI
-      </button>
-      <span className="text-slate-500">|</span>
-      <button
-        type="button"
-        onClick={() => setLanguage('en')}
-        aria-pressed={language === 'en'}
-        className={`rounded-full px-2 py-1 transition-colors ${
-          language === 'en' ? 'text-cyan-300' : 'text-slate-400 hover:text-white'
-        }`}
-      >
-        EN
-      </button>
+    <div className={`flex items-center gap-1 text-sm font-semibold ${className}`} role="group" aria-label={t('common.language')}>
+      {LANGUAGES.map((lang, i) => (
+        <Fragment key={lang}>
+          {i > 0 && <span className="text-slate-500">|</span>}
+          <button
+            type="button"
+            onClick={() => setLanguage(lang)}
+            aria-pressed={language === lang}
+            className={`rounded-full px-2 py-1 transition-colors ${
+              language === lang ? 'text-cyan-300' : 'text-slate-400 hover:text-white'
+            }`}
+          >
+            {lang.toUpperCase()}
+          </button>
+        </Fragment>
+      ))}
     </div>
   );
 }

@@ -4,7 +4,10 @@
     "learnMore": "Learn more",
     "viewMore": "View more",
     "sendRequest": "Send request",
-    "contactNow": "Contact now"
+    "contactNow": "Contact now",
+    "facebook": "Facebook",
+    "language": "Language",
+    "mapTitle": "TTC-Infotech location"
   },
   "nav": {
     "home": "Home",
@@ -102,6 +105,11 @@
   "certificationsSection": {
     "eyebrow": "Partner certifications",
     "heading": "Recognized by leading technology vendors"
+  },
+  "certifications": {
+    "apcElite": "APC by Schneider Electric — Elite Partner (2020)",
+    "apcPremier": "APC by Schneider Electric — Premier Partner (2019)",
+    "microsoftSilver": "Microsoft — Silver Partner"
   },
   "ctaBanner": {
     "heading": "Ready to upgrade your business's IT infrastructure?",

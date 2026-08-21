@@ -106,17 +106,17 @@ export default function AboutContent() {
 
           <div className="mt-14 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {certifications.map((cert, i) => (
-              <Reveal key={cert.title} delay={i * 0.1}>
+              <Reveal key={cert.key} delay={i * 0.1}>
                 <div className="overflow-hidden rounded-2xl bg-white shadow-soft ring-1 ring-black/5">
                   <Image
                     src={cert.image}
-                    alt={cert.title}
+                    alt={t(`certifications.${cert.key}`)}
                     width={1129}
                     height={800}
                     className="h-auto w-full"
                   />
                 </div>
-                <p className="mt-4 text-center text-sm font-semibold text-ink-900">{cert.title}</p>
+                <p className="mt-4 text-center text-sm font-semibold text-ink-900">{t(`certifications.${cert.key}`)}</p>
               </Reveal>
             ))}
           </div>

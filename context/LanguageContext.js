@@ -45,12 +45,8 @@ export function LanguageProvider({ children }) {
 
   const t = useCallback(
     (key, vars) => {
-      const value = resolve(dictionaries[language], key);
-      if (value === undefined) {
-        const fallback = resolve(dictionaries[DEFAULT_LANGUAGE], key);
-        return fallback === undefined ? key : interpolate(fallback, vars);
-      }
-      return interpolate(value, vars);
+      const value = resolve(dictionaries[language], key) ?? resolve(dictionaries[DEFAULT_LANGUAGE], key);
+      return value === undefined ? key : interpolate(value, vars);
     },
     [language]
   );

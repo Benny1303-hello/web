@@ -7,14 +7,14 @@ import ContactForm from '@/components/ContactForm';
 import { site } from '@/lib/content';
 import { useLanguage } from '@/context/LanguageContext';
 
+const cards = [
+  { icon: MapPin, key: 'address', value: site.address, href: site.mapHref },
+  { icon: Phone, key: 'phone', value: site.phone, href: site.phoneHref },
+  { icon: Mail, key: 'email', value: site.email, href: `mailto:${site.email}` },
+];
+
 export default function ContactContent() {
   const { t } = useLanguage();
-
-  const cards = [
-    { icon: MapPin, key: 'address', value: site.address, href: site.mapHref },
-    { icon: Phone, key: 'phone', value: site.phone, href: site.phoneHref },
-    { icon: Mail, key: 'email', value: site.email, href: `mailto:${site.email}` },
-  ];
 
   return (
     <>
@@ -55,7 +55,7 @@ export default function ContactContent() {
             <Reveal delay={0.1}>
               <div className="h-full min-h-[320px] overflow-hidden rounded-2xl shadow-card ring-1 ring-black/5">
                 <iframe
-                  title="TTC-Infotech location"
+                  title={t('common.mapTitle')}
                   className="h-full min-h-[320px] w-full"
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"

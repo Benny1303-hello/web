@@ -2,6 +2,7 @@ import { Resend } from 'resend';
 import { site } from '@/lib/content';
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null;
 
 export async function POST(request) {
   let body;
@@ -21,12 +22,10 @@ export async function POST(request) {
     return Response.json({ errorCode: 'INVALID_EMAIL' }, { status: 400 });
   }
 
-  if (!process.env.RESEND_API_KEY) {
+  if (!resend) {
     console.error('[api/contact] Missing RESEND_API_KEY env var');
     return Response.json({ errorCode: 'SERVER_NOT_READY' }, { status: 500 });
   }
-
-  const resend = new Resend(process.env.RESEND_API_KEY);
 
   try {
     const { error } = await resend.emails.send({

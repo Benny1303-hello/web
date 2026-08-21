@@ -32,13 +32,13 @@ export default function ContactForm() {
       if (!res.ok) {
         const data = await res.json().catch(() => null);
         setErrorCode(data?.errorCode || 'UNEXPECTED');
-        setStatus('error');
+        setStatus('idle');
         return;
       }
       setStatus('sent');
     } catch {
       setErrorCode('NETWORK_ERROR');
-      setStatus('error');
+      setStatus('idle');
     }
   };
 
@@ -94,10 +94,10 @@ export default function ContactForm() {
         </div>
       </div>
 
-      {status === 'error' && (
+      {errorCode && (
         <p className="mt-4 text-sm font-medium text-red-600">
           {t(`contactForm.errors.${errorCode}`)}
-          {['SEND_FAILED', 'SERVER_NOT_READY', 'UNEXPECTED', 'NETWORK_ERROR'].includes(errorCode) && (
+          {!['INVALID_BODY', 'MISSING_FIELDS', 'INVALID_EMAIL'].includes(errorCode) && (
             <>
               {' '}
               {t('contactForm.errorPrefix')}{' '}

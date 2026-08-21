@@ -7,10 +7,10 @@ import Button from '@/components/Button';
 import { useLanguage } from '@/context/LanguageContext';
 
 const slides = [
-  { src: '/hero/rack.jpg', alt: 'Server rack' },
-  { src: '/hero/cpu.png', alt: 'CPU' },
-  { src: '/hero/switch.jpg', alt: 'Network switch' },
-  { src: '/hero/ups.jpg', alt: 'UPS power supply' },
+  { src: '/hero/slide-partner.jpg', alt: 'Your IT Partner' },
+  { src: '/hero/slide-system-integration.jpg', alt: 'System Integration' },
+  { src: '/hero/slide-distribution.jpg', alt: 'Distribution Center' },
+  { src: '/hero/slide-services.jpg', alt: 'Services Center' },
 ];
 
 const SLIDE_INTERVAL = 5000;

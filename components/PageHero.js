@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 import Reveal from '@/components/Reveal';
@@ -9,7 +10,18 @@ export default function PageHero({ eyebrow, title, description, crumb }) {
   const { t } = useLanguage();
 
   return (
-    <section className="relative overflow-hidden bg-hero-mesh py-20 text-white">
+    <section className="relative overflow-hidden bg-navy-950 py-20 text-white">
+      <div className="absolute inset-0">
+        <Image
+          src="/hero/page-header-bg.jpg"
+          alt=""
+          fill
+          sizes="100vw"
+          className="animate-kenburns object-cover"
+        />
+        <div className="absolute inset-0 bg-navy-950/70" />
+      </div>
+
       <div className="container-page relative text-center">
         <Reveal>
           <div className="flex items-center justify-center gap-2 text-xs font-medium uppercase tracking-widest text-cyan-300">

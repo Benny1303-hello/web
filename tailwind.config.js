@@ -60,10 +60,15 @@ module.exports = {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-50%)' },
         },
+        kenburns: {
+          '0%, 100%': { transform: 'scale(1) translate(0, 0)' },
+          '50%': { transform: 'scale(1.08) translate(-1%, -1%)' },
+        },
       },
       animation: {
         floaty: 'floaty 6s ease-in-out infinite',
         marquee: 'marquee 26s linear infinite',
+        kenburns: 'kenburns 20s ease-in-out infinite',
       },
     },
   },

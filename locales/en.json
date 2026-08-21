@@ -20,6 +20,9 @@
     "systemIntegrationAbout": "About System Integration",
     "systemIntegrationStaff": "Engineering Team",
     "services": "Services Center",
+    "servicesAbout": "About Services Center",
+    "servicesList": "Services",
+    "servicesStaff": "Support Team",
     "contact": "Contact",
     "requestConsult": "Request a consultation",
     "openMenu": "Open menu",
@@ -284,17 +287,58 @@
       "hero": {
         "crumb": "Services Center",
         "eyebrow": "Service Center",
-        "title": "A technical team ready to handle any IT issue",
-        "description": "Our experienced computer technicians assess issues and find fast solutions, with the most optimal cost always the top priority."
+        "title": "A trusted technical service center, 20 years alongside businesses",
+        "description": "Providing warranty, maintenance, repair, and technical support services for enterprise customers and foreign corporations in Vietnam."
+      },
+      "intro": {
+        "eyebrow": "About the Services Center",
+        "heading": "A dependable IT service partner",
+        "desc": "As one of the customer service centers serving clients for more than 20 years, TTC-Infotech's Services Center provides warranty, maintenance, repair, and support services, mostly for companies and foreign corporations operating in Vietnam. The center is authorized by Schneider (APC) to warranty 1-phase and 3-phase UPS products, with ready stock that lets us resolve warranty claims quickly and conveniently for customers."
+      },
+      "criteriaSection": {
+        "eyebrow": "Our criteria",
+        "heading": "Why customers trust TTC-Infotech's Services Center"
+      },
+      "criteria": {
+        "fastReliable": { "title": "Fast & Reliable", "desc": "Providing the fastest, most professional, and reputable service to customers." },
+        "support247": { "title": "24/7 Support", "desc": "Ready to accompany customers and resolve issues around the clock." },
+        "certifiedEngineers": { "title": "Certified Engineers", "desc": "A well-trained team of engineers holding specialized certifications from technology vendors." },
+        "loanerDevices": { "title": "Loaner Devices", "desc": "Replacement equipment on loan while repairs are underway, so customers stay up and running." }
+      }
+    },
+    "servicesList": {
+      "hero": {
+        "crumb": "Services",
+        "eyebrow": "What we offer",
+        "title": "Technical services TTC-Infotech currently provides",
+        "description": "From maintenance and repair to consulting and system design — our engineering team is ready to support your business."
       },
       "items": [
-        { "title": "Hardware repair", "desc": "Diagnosing and fixing computer and server issues at the most optimal cost." },
-        { "title": "Network troubleshooting", "desc": "Resolving connectivity issues and optimizing the performance of your business network." },
-        { "title": "Server maintenance", "desc": "Periodic checks, issue prevention, and stable ongoing operation for your servers." },
-        { "title": "Backup & data recovery", "desc": "Building safe, reliable backup and data recovery plans." },
-        { "title": "Remote support", "desc": "Remote access to resolve many issues right away without waiting for a technician to travel on-site." },
-        { "title": "On-site support", "desc": "Technicians available in person whenever an issue needs to be handled at your office." }
+        { "title": "Network & Computer Maintenance", "desc": "Periodic checks that prevent issues across enterprise networks and computers." },
+        { "title": "IT System Repair", "desc": "Fast diagnosis and troubleshooting for information technology system issues." },
+        { "title": "UPS Power System Repair", "desc": "Troubleshooting and maintenance for uninterruptible power supply systems." },
+        { "title": "System Installation", "desc": "Deploying network, computer, and UPS power installations to technical standards." },
+        { "title": "Extended Warranty", "desc": "Extended warranty coverage for UPS units, computers, servers, switches, firewalls, and routers." },
+        { "title": "IT System Relocation", "desc": "Safely relocating an entire IT system when a business moves offices." },
+        { "title": "Consulting & System Design", "desc": "Advising on solutions and designing systems suited to your business needs." }
       ]
+    },
+    "servicesStaff": {
+      "hero": {
+        "crumb": "Support Team",
+        "eyebrow": "Service Support Team",
+        "title": "Our service support team is ready for you",
+        "description": "More than 30 experienced engineers, dedicated to 24/7 customer support to get your systems back up and running as fast as possible."
+      },
+      "contactEyebrow": "Support enquiries",
+      "contactHeading": "Our engineers are ready to support your service needs",
+      "staffGroups": {
+        "consulting": "Consulting & Service Support"
+      },
+      "staffRoles": {
+        "giang": "Design consulting, maintenance, and repair support for UPS systems",
+        "duc": "Design consulting for network, server, security, and virtualization solutions"
+      }
     },
     "contact": {
       "hero": {

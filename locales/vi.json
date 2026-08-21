@@ -20,6 +20,9 @@
     "systemIntegrationAbout": "Giới thiệu Tích hợp hệ thống",
     "systemIntegrationStaff": "Đội ngũ kỹ sư",
     "services": "Trung tâm dịch vụ",
+    "servicesAbout": "Giới thiệu Trung tâm dịch vụ",
+    "servicesList": "Dịch vụ",
+    "servicesStaff": "Đội ngũ hỗ trợ",
     "contact": "Liên hệ",
     "requestConsult": "Yêu cầu tư vấn",
     "openMenu": "Mở menu",
@@ -284,17 +287,58 @@
       "hero": {
         "crumb": "Trung tâm dịch vụ",
         "eyebrow": "Service Center",
-        "title": "Đội ngũ kỹ thuật viên sẵn sàng xử lý mọi sự cố IT",
-        "description": "Đội ngũ kỹ thuật viên máy tính giàu kinh nghiệm của chúng tôi sẽ đánh giá vấn đề và tìm giải pháp nhanh chóng, với chi phí tối ưu nhất là ưu tiên hàng đầu."
+        "title": "Trung tâm dịch vụ kỹ thuật uy tín, đồng hành 20 năm cùng doanh nghiệp",
+        "description": "Cung cấp dịch vụ bảo hành, bảo trì, sửa chữa và hỗ trợ kỹ thuật cho khách hàng doanh nghiệp và tập đoàn nước ngoài tại Việt Nam."
+      },
+      "intro": {
+        "eyebrow": "Về Trung tâm dịch vụ",
+        "heading": "Đối tác dịch vụ IT đáng tin cậy",
+        "desc": "Là một trong những trung tâm dịch vụ phục vụ khách hàng hơn 20 năm qua, Trung tâm dịch vụ TTC-Infotech cung cấp các dịch vụ bảo hành, bảo trì, sửa chữa và hỗ trợ cho khách hàng, phần lớn là các công ty và tập đoàn nước ngoài đang hoạt động tại Việt Nam. Trung tâm được Schneider (APC) ủy quyền bảo hành các sản phẩm UPS 1 pha, 3 pha, với số lượng thiết bị sẵn có giúp giải quyết bảo hành nhanh chóng, thuận tiện cho khách hàng."
+      },
+      "criteriaSection": {
+        "eyebrow": "Tiêu chí hoạt động",
+        "heading": "Vì sao khách hàng tin chọn Trung tâm dịch vụ TTC-Infotech"
+      },
+      "criteria": {
+        "fastReliable": { "title": "Nhanh chóng & uy tín", "desc": "Cung cấp dịch vụ nhanh nhất, chuyên nghiệp và uy tín đến khách hàng." },
+        "support247": { "title": "Hỗ trợ 24/7", "desc": "Sẵn sàng đồng hành xử lý sự cố với thời gian phục vụ 24/7." },
+        "certifiedEngineers": { "title": "Kỹ sư có chứng chỉ", "desc": "Đội ngũ kỹ sư được đào tạo bài bản, có chứng chỉ chuyên ngành từ các hãng công nghệ." },
+        "loanerDevices": { "title": "Thiết bị mượn tạm", "desc": "Cho mượn thiết bị thay thế khi cần sửa chữa, đảm bảo hoạt động của khách hàng không bị gián đoạn." }
+      }
+    },
+    "servicesList": {
+      "hero": {
+        "crumb": "Dịch vụ",
+        "eyebrow": "Dịch vụ cung cấp",
+        "title": "Các dịch vụ kỹ thuật TTC-Infotech đang cung cấp",
+        "description": "Từ bảo trì, sửa chữa đến tư vấn thiết kế hệ thống — đội ngũ kỹ thuật viên luôn sẵn sàng đồng hành cùng doanh nghiệp."
       },
       "items": [
-        { "title": "Sửa chữa phần cứng", "desc": "Chẩn đoán và khắc phục sự cố máy tính, máy chủ với chi phí tối ưu nhất." },
-        { "title": "Xử lý sự cố mạng", "desc": "Khắc phục sự cố kết nối, tối ưu hiệu năng hệ thống mạng doanh nghiệp." },
-        { "title": "Bảo trì máy chủ", "desc": "Kiểm tra định kỳ, phòng ngừa sự cố và duy trì hoạt động ổn định cho server." },
-        { "title": "Sao lưu & phục hồi dữ liệu", "desc": "Xây dựng phương án backup và khôi phục dữ liệu an toàn, đáng tin cậy." },
-        { "title": "Hỗ trợ từ xa", "desc": "Đăng nhập từ xa để xử lý ngay nhiều sự cố mà không cần chờ kỹ thuật viên di chuyển." },
-        { "title": "Hỗ trợ tại chỗ", "desc": "Kỹ thuật viên có mặt trực tiếp khi sự cố cần xử lý tại văn phòng khách hàng." }
+        { "title": "Bảo trì hệ thống mạng, máy tính", "desc": "Kiểm tra định kỳ, phòng ngừa sự cố cho hệ thống mạng và máy tính doanh nghiệp." },
+        { "title": "Sửa chữa, khắc phục sự cố IT", "desc": "Chẩn đoán và xử lý nhanh chóng các sự cố hệ thống công nghệ thông tin." },
+        { "title": "Sửa chữa hệ thống nguồn UPS", "desc": "Khắc phục sự cố, bảo trì hệ thống nguồn lưu điện UPS." },
+        { "title": "Triển khai lắp đặt hệ thống", "desc": "Lắp đặt hệ thống mạng, máy tính và nguồn UPS theo tiêu chuẩn kỹ thuật." },
+        { "title": "Bảo hành mở rộng", "desc": "Bảo hành mở rộng cho UPS, máy tính, máy chủ, switch, firewall, router." },
+        { "title": "Di dời hệ thống IT", "desc": "Hỗ trợ di dời toàn bộ hệ thống IT an toàn khi doanh nghiệp chuyển văn phòng." },
+        { "title": "Tư vấn & thiết kế hệ thống", "desc": "Tư vấn giải pháp và thiết kế hệ thống phù hợp với nhu cầu doanh nghiệp." }
       ]
+    },
+    "servicesStaff": {
+      "hero": {
+        "crumb": "Đội ngũ hỗ trợ",
+        "eyebrow": "Service Support Team",
+        "title": "Đội ngũ hỗ trợ dịch vụ luôn sẵn sàng vì bạn",
+        "description": "Hơn 30 kỹ sư giàu kinh nghiệm, tận tâm hỗ trợ khách hàng 24/7 để hệ thống vận hành trở lại nhanh nhất."
+      },
+      "contactEyebrow": "Liên hệ hỗ trợ",
+      "contactHeading": "Đội ngũ kỹ sư sẵn sàng hỗ trợ dịch vụ",
+      "staffGroups": {
+        "consulting": "Tư vấn & hỗ trợ dịch vụ"
+      },
+      "staffRoles": {
+        "giang": "Hỗ trợ tư vấn thiết kế, bảo trì và sửa chữa hệ thống UPS",
+        "duc": "Hỗ trợ tư vấn thiết kế giải pháp mạng, máy chủ, bảo mật và ảo hóa"
+      }
     },
     "contact": {
       "hero": {

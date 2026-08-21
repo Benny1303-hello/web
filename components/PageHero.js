@@ -1,9 +1,9 @@
 'use client';
 
-import Image from 'next/image';
 import Link from 'next/link';
 import { ChevronRight } from 'lucide-react';
 import Reveal from '@/components/Reveal';
+import HeroSlideshow from '@/components/HeroSlideshow';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function PageHero({ eyebrow, title, description, crumb }) {
@@ -11,16 +11,7 @@ export default function PageHero({ eyebrow, title, description, crumb }) {
 
   return (
     <section className="relative overflow-hidden bg-navy-950 py-20 text-white">
-      <div className="absolute inset-0">
-        <Image
-          src="/hero/page-header-bg.jpg"
-          alt=""
-          fill
-          sizes="100vw"
-          className="animate-kenburns object-cover"
-        />
-        <div className="absolute inset-0 bg-navy-950/70" />
-      </div>
+      <HeroSlideshow overlayClassName="absolute inset-0 bg-navy-950/70" />
 
       <div className="container-page relative text-center">
         <Reveal>

@@ -55,12 +55,14 @@ export default function DistributionContent() {
               return (
                 <Reveal key={brand.key} delay={i * 0.08}>
                   <div className="h-full rounded-2xl bg-white p-7 shadow-soft ring-1 ring-black/5">
-                    <div className="mb-5 inline-flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-cyan-400 text-white">
-                      <Icon size={20} />
+                    <div className="flex items-center gap-3">
+                      <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-cyan-400 text-white">
+                        <Icon size={20} />
+                      </div>
+                      <h3 className="font-display text-base font-bold text-ink-900">
+                        {t(`pages.distribution.brands.${brand.key}.name`)}
+                      </h3>
                     </div>
-                    <h3 className="font-display text-base font-bold text-ink-900">
-                      {t(`pages.distribution.brands.${brand.key}.name`)}
-                    </h3>
                     <p className="mt-3 text-sm leading-relaxed text-ink-400">
                       {t(`pages.distribution.brands.${brand.key}.desc`)}
                     </p>
@@ -90,10 +92,12 @@ export default function DistributionContent() {
               return (
                 <Reveal key={value.key} delay={i * 0.08}>
                   <div className="h-full rounded-2xl border border-black/5 bg-mist-50 p-7 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-card">
-                    <div className="mb-5 inline-flex h-11 w-11 items-center justify-center rounded-xl bg-navy-900 text-cyan-300">
-                      <Icon size={20} />
+                    <div className="flex items-center gap-3">
+                      <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-navy-900 text-cyan-300">
+                        <Icon size={20} />
+                      </div>
+                      <h3 className="font-display text-base font-bold text-ink-900">{item.title}</h3>
                     </div>
-                    <h3 className="font-display text-base font-bold text-ink-900">{item.title}</h3>
                     <p className="mt-3 text-sm leading-relaxed text-ink-400">{item.desc}</p>
                   </div>
                 </Reveal>

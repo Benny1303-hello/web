@@ -30,12 +30,14 @@ export default function CentersGrid() {
                   href={center.href ?? `/${center.slug}`}
                   className="group flex h-full flex-col rounded-2xl border border-black/5 bg-mist-50 p-8 transition-all duration-300 hover:-translate-y-2 hover:border-transparent hover:bg-navy-950 hover:shadow-card"
                 >
-                  <div className="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-cyan-400 text-white transition-transform duration-300 group-hover:scale-110">
-                    <Icon size={22} />
+                  <div className="mb-3 flex items-center gap-3">
+                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-cyan-400 text-white transition-transform duration-300 group-hover:scale-110">
+                      <Icon size={22} />
+                    </div>
+                    <h3 className="font-display text-xl font-bold text-ink-900 transition-colors group-hover:text-white">
+                      {t(`centers.${center.key}.title`)}
+                    </h3>
                   </div>
-                  <h3 className="font-display text-xl font-bold text-ink-900 transition-colors group-hover:text-white">
-                    {t(`centers.${center.key}.title`)}
-                  </h3>
                   <p className="mt-3 flex-1 text-sm leading-relaxed text-ink-400 transition-colors group-hover:text-slate-300">
                     {t(`centers.${center.key}.short`)}
                   </p>

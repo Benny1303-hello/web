@@ -34,9 +34,9 @@ export default function ContactContent() {
                   href={card.href}
                   target={card.key === 'address' ? '_blank' : undefined}
                   rel="noreferrer"
-                  className="flex h-full flex-col items-start gap-3 rounded-2xl bg-mist-50 p-6 ring-1 ring-black/5 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-card"
+                  className="flex h-full items-center gap-3 rounded-2xl bg-mist-50 p-6 ring-1 ring-black/5 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-card"
                 >
-                  <div className="inline-flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-cyan-400 text-white">
+                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-cyan-400 text-white">
                     <card.icon size={20} />
                   </div>
                   <div>

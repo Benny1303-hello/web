@@ -20,11 +20,13 @@ export default function TrustStats() {
           return (
             <Reveal key={badge.title} delay={i * 0.08}>
               <div className="h-full rounded-2xl bg-white p-6 shadow-card ring-1 ring-black/15 transition-transform duration-300 hover:-translate-y-1.5">
-                <div className="mb-4 inline-flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-cyan-400 text-white">
-                  <Icon size={20} />
+                <div className="flex items-center gap-3">
+                  <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-cyan-400 text-white">
+                    <Icon size={20} />
+                  </div>
+                  <h3 className="font-display text-lg font-bold text-ink-900">{badge.title}</h3>
                 </div>
-                <h3 className="font-display text-lg font-bold text-ink-900">{badge.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-ink-400">{badge.desc}</p>
+                <p className="mt-3 text-sm leading-relaxed text-ink-400">{badge.desc}</p>
               </div>
             </Reveal>
           );

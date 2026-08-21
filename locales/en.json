@@ -17,6 +17,8 @@
     "products": "Products",
     "staff": "Distribution Team",
     "systemIntegration": "System Integration",
+    "systemIntegrationAbout": "About System Integration",
+    "systemIntegrationStaff": "Engineering Team",
     "services": "Services Center",
     "contact": "Contact",
     "requestConsult": "Request a consultation",
@@ -260,6 +262,23 @@
         { "title": "Deployment", "desc": "Install, configure, and thoroughly test everything before bringing the system into official operation." },
         { "title": "Operational support", "desc": "Ongoing monitoring, periodic maintenance, and continuous technical support after deployment." }
       ]
+    },
+    "systemIntegrationStaff": {
+      "hero": {
+        "crumb": "Engineering Team",
+        "eyebrow": "System Integration Team",
+        "title": "Our system integration engineers are ready to help you",
+        "description": "An experienced engineering team consulting on and deploying optimized technology infrastructure solutions for every business."
+      },
+      "contactEyebrow": "Consulting enquiries",
+      "contactHeading": "Our engineers are ready to advise on your solution",
+      "staffGroups": {
+        "consulting": "Consulting & Solution Deployment"
+      },
+      "staffRoles": {
+        "giang": "Design consulting for 1-phase and 3-phase UPS systems, server room environment monitoring",
+        "duc": "Design consulting for network, server, security, virtualization, and wireless network solutions"
+      }
     },
     "services": {
       "hero": {

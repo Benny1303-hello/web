@@ -38,7 +38,7 @@ function LanguageSwitcher({ className = '' }) {
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
-  const [mobileSubmenuOpen, setMobileSubmenuOpen] = useState(false);
+  const [openMobileKey, setOpenMobileKey] = useState(null);
   const pathname = usePathname();
   const { t } = useLanguage();
 
@@ -51,7 +51,7 @@ export default function Navbar() {
 
   useEffect(() => {
     setOpen(false);
-    setMobileSubmenuOpen(false);
+    setOpenMobileKey(null);
   }, [pathname]);
 
   return (
@@ -164,6 +164,7 @@ export default function Navbar() {
               {navLinks.map((link) => {
                 if (link.children) {
                   const childActive = link.children.some((child) => child.href === pathname);
+                  const submenuOpen = openMobileKey === link.key;
                   return (
                     <div key={link.key}>
                       <div
@@ -176,18 +177,18 @@ export default function Navbar() {
                         </Link>
                         <button
                           type="button"
-                          aria-expanded={mobileSubmenuOpen}
+                          aria-expanded={submenuOpen}
                           aria-label={t(`nav.${link.key}`)}
                           className="px-3 py-3"
-                          onClick={() => setMobileSubmenuOpen((v) => !v)}
+                          onClick={() => setOpenMobileKey((k) => (k === link.key ? null : link.key))}
                         >
                           <ChevronDown
                             size={18}
-                            className={`transition-transform duration-200 ${mobileSubmenuOpen ? 'rotate-180' : ''}`}
+                            className={`transition-transform duration-200 ${submenuOpen ? 'rotate-180' : ''}`}
                           />
                         </button>
                       </div>
-                      {mobileSubmenuOpen && (
+                      {submenuOpen && (
                         <div className="ml-3 mt-1 flex flex-col gap-1 border-l border-white/10 pl-3">
                           {link.children.map((child) => (
                             <Link

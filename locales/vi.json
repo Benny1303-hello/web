@@ -17,6 +17,8 @@
     "products": "Sản phẩm",
     "staff": "Nhân sự phụ trách",
     "systemIntegration": "Tích hợp hệ thống",
+    "systemIntegrationAbout": "Giới thiệu Tích hợp hệ thống",
+    "systemIntegrationStaff": "Đội ngũ kỹ sư",
     "services": "Trung tâm dịch vụ",
     "contact": "Liên hệ",
     "requestConsult": "Yêu cầu tư vấn",
@@ -260,6 +262,23 @@
         { "title": "Triển khai", "desc": "Lắp đặt, cấu hình và kiểm thử toàn diện trước khi đưa hệ thống vào vận hành chính thức." },
         { "title": "Hỗ trợ vận hành", "desc": "Giám sát, bảo trì định kỳ và hỗ trợ kỹ thuật liên tục sau triển khai." }
       ]
+    },
+    "systemIntegrationStaff": {
+      "hero": {
+        "crumb": "Đội ngũ kỹ sư",
+        "eyebrow": "System Integration Team",
+        "title": "Đội ngũ kỹ sư tích hợp hệ thống luôn sẵn sàng hỗ trợ bạn",
+        "description": "Đội ngũ kỹ sư giàu kinh nghiệm, tư vấn và triển khai giải pháp hạ tầng công nghệ tối ưu cho từng doanh nghiệp."
+      },
+      "contactEyebrow": "Liên hệ tư vấn",
+      "contactHeading": "Đội ngũ kỹ sư sẵn sàng tư vấn giải pháp",
+      "staffGroups": {
+        "consulting": "Tư vấn & triển khai giải pháp"
+      },
+      "staffRoles": {
+        "giang": "Tư vấn thiết kế, triển khai hệ thống UPS 1 pha, 3 pha, giám sát môi trường phòng máy chủ",
+        "duc": "Tư vấn thiết kế, triển khai giải pháp mạng, máy chủ, bảo mật, ảo hóa, mạng không dây"
+      }
     },
     "services": {
       "hero": {

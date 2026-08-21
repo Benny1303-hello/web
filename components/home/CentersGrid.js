@@ -27,7 +27,7 @@ export default function CentersGrid() {
             return (
               <Reveal key={center.slug} delay={i * 0.1}>
                 <Link
-                  href={`/${center.slug}`}
+                  href={center.href ?? `/${center.slug}`}
                   className="group flex h-full flex-col rounded-2xl border border-black/5 bg-mist-50 p-8 transition-all duration-300 hover:-translate-y-2 hover:border-transparent hover:bg-navy-950 hover:shadow-card"
                 >
                   <div className="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-cyan-400 text-white transition-transform duration-300 group-hover:scale-110">

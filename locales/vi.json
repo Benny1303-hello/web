@@ -14,6 +14,7 @@
     "about": "Về chúng tôi",
     "distribution": "Trung tâm phân phối",
     "products": "Sản phẩm",
+    "staff": "Nhân sự phụ trách",
     "systemIntegration": "Tích hợp hệ thống",
     "services": "Trung tâm dịch vụ",
     "contact": "Liên hệ",
@@ -170,16 +171,15 @@
         { "title": "Con người", "desc": "Đội ngũ làm việc bằng đam mê, yêu công nghệ và không ngừng đổi mới trong từng dự án, luôn nêu cao tinh thần dẫn dắt." }
       ]
     },
-    "distribution": {
+    "staff": {
       "hero": {
-        "crumb": "Trung tâm phân phối",
-        "eyebrow": "Distribution Center",
-        "title": "Nhà phân phối công nghệ hàng đầu cho hạ tầng doanh nghiệp",
-        "description": "Là mắt xích quan trọng trong chuỗi cung ứng IT, chúng tôi mang đến giải pháp tối ưu cho từng đối tác kênh phân phối."
+        "crumb": "Nhân sự phụ trách",
+        "eyebrow": "Distribution Team",
+        "title": "Đội ngũ phân phối luôn sẵn sàng hỗ trợ bạn",
+        "description": "Là mắt xích quan trọng trong chuỗi cung ứng IT, đội ngũ của chúng tôi mang đến giải pháp tối ưu cho từng đối tác kênh phân phối."
       },
       "contactEyebrow": "Liên hệ đặt hàng",
       "contactHeading": "Đội ngũ kinh doanh sẵn sàng hỗ trợ báo giá",
-      "viewProducts": "Xem toàn bộ danh mục sản phẩm",
       "staffGroups": {
         "sales": "Phụ trách kinh doanh & phân phối",
         "consulting": "Tư vấn giải pháp"

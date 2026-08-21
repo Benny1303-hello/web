@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { AnimatePresence, motion } from 'framer-motion';
-import { Menu, X, Phone } from 'lucide-react';
+import { Menu, X, Phone, ChevronDown } from 'lucide-react';
 import { navLinks, site } from '@/lib/content';
 import { useLanguage } from '@/context/LanguageContext';
 
@@ -38,6 +38,7 @@ function LanguageSwitcher({ className = '' }) {
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
+  const [mobileSubmenuOpen, setMobileSubmenuOpen] = useState(false);
   const pathname = usePathname();
   const { t } = useLanguage();
 
@@ -50,6 +51,7 @@ export default function Navbar() {
 
   useEffect(() => {
     setOpen(false);
+    setMobileSubmenuOpen(false);
   }, [pathname]);
 
   return (
@@ -65,6 +67,37 @@ export default function Navbar() {
 
         <nav className="hidden items-center xl:flex">
           {navLinks.map((link) => {
+            if (link.children) {
+              const childActive = link.children.some((child) => child.href === pathname);
+              return (
+                <div key={link.key} className="group relative">
+                  <Link
+                    href={link.href}
+                    className={`flex items-center gap-1 whitespace-nowrap px-2.5 py-2 text-sm font-medium transition-colors hover:text-cyan-300 ${
+                      childActive ? 'text-cyan-300' : 'text-slate-200'
+                    }`}
+                  >
+                    {t(`nav.${link.key}`)}
+                    <ChevronDown size={14} className="transition-transform duration-200 group-hover:rotate-180" />
+                  </Link>
+
+                  <div className="invisible absolute left-0 top-full z-50 w-56 translate-y-1 rounded-xl bg-white p-2 opacity-0 shadow-card ring-1 ring-black/5 transition-all duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
+                    {link.children.map((child) => (
+                      <Link
+                        key={child.href}
+                        href={child.href}
+                        className={`block rounded-lg px-3 py-2.5 text-sm font-medium transition-colors ${
+                          pathname === child.href ? 'bg-mist-50 text-brand-600' : 'text-ink-700 hover:bg-mist-50 hover:text-brand-600'
+                        }`}
+                      >
+                        {t(`nav.${child.key}`)}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              );
+            }
+
             const active = pathname === link.href;
             return (
               <Link
@@ -128,19 +161,67 @@ export default function Navbar() {
             className="overflow-hidden border-t border-white/10 bg-navy-950 xl:hidden"
           >
             <div className="container-page flex flex-col gap-1 py-4">
-              {navLinks.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  className={`rounded-lg px-3 py-3 text-sm font-medium transition-colors ${
-                    pathname === link.href
-                      ? 'bg-white/10 text-cyan-300'
-                      : 'text-slate-200 hover:bg-white/5 hover:text-white'
-                  }`}
-                >
-                  {t(`nav.${link.key}`)}
-                </Link>
-              ))}
+              {navLinks.map((link) => {
+                if (link.children) {
+                  const childActive = link.children.some((child) => child.href === pathname);
+                  return (
+                    <div key={link.key}>
+                      <div
+                        className={`flex items-center justify-between rounded-lg text-sm font-medium transition-colors ${
+                          childActive ? 'bg-white/10 text-cyan-300' : 'text-slate-200'
+                        }`}
+                      >
+                        <Link href={link.href} className="flex-1 px-3 py-3 hover:text-white">
+                          {t(`nav.${link.key}`)}
+                        </Link>
+                        <button
+                          type="button"
+                          aria-expanded={mobileSubmenuOpen}
+                          aria-label={t(`nav.${link.key}`)}
+                          className="px-3 py-3"
+                          onClick={() => setMobileSubmenuOpen((v) => !v)}
+                        >
+                          <ChevronDown
+                            size={18}
+                            className={`transition-transform duration-200 ${mobileSubmenuOpen ? 'rotate-180' : ''}`}
+                          />
+                        </button>
+                      </div>
+                      {mobileSubmenuOpen && (
+                        <div className="ml-3 mt-1 flex flex-col gap-1 border-l border-white/10 pl-3">
+                          {link.children.map((child) => (
+                            <Link
+                              key={child.href}
+                              href={child.href}
+                              className={`rounded-lg px-3 py-2.5 text-sm font-medium transition-colors ${
+                                pathname === child.href
+                                  ? 'text-cyan-300'
+                                  : 'text-slate-300 hover:bg-white/5 hover:text-white'
+                              }`}
+                            >
+                              {t(`nav.${child.key}`)}
+                            </Link>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  );
+                }
+
+                return (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className={`rounded-lg px-3 py-3 text-sm font-medium transition-colors ${
+                      pathname === link.href
+                        ? 'bg-white/10 text-cyan-300'
+                        : 'text-slate-200 hover:bg-white/5 hover:text-white'
+                    }`}
+                  >
+                    {t(`nav.${link.key}`)}
+                  </Link>
+                );
+              })}
               <a
                 href={site.phoneHref}
                 className="mt-2 flex items-center gap-2 rounded-lg px-3 py-3 text-sm font-semibold text-white"

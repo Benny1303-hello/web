@@ -14,6 +14,7 @@
     "about": "About us",
     "distribution": "Distribution Center",
     "products": "Products",
+    "staff": "Distribution Team",
     "systemIntegration": "System Integration",
     "services": "Services Center",
     "contact": "Contact",
@@ -170,16 +171,15 @@
         { "title": "People", "desc": "A team that works with passion, loves technology, and continuously innovates on every project while leading by example." }
       ]
     },
-    "distribution": {
+    "staff": {
       "hero": {
-        "crumb": "Distribution Center",
-        "eyebrow": "Distribution Center",
-        "title": "A leading technology distributor for enterprise infrastructure",
-        "description": "As a vital link in the IT supply chain, we deliver optimized solutions for every distribution channel partner."
+        "crumb": "Distribution Team",
+        "eyebrow": "Distribution Team",
+        "title": "Our distribution team is ready to help you",
+        "description": "As a vital link in the IT supply chain, our team delivers optimized solutions for every distribution channel partner."
       },
       "contactEyebrow": "Order enquiries",
       "contactHeading": "Our sales team is ready to help with your quote",
-      "viewProducts": "View the full product catalog",
       "staffGroups": {
         "sales": "Sales & Distribution",
         "consulting": "Solution Consulting"

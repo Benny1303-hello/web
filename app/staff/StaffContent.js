@@ -1,45 +1,30 @@
 'use client';
 
-import { Phone, Mail, ArrowRight } from 'lucide-react';
-import Link from 'next/link';
+import { Phone, Mail } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
 import CtaBanner from '@/components/CtaBanner';
 import { distributionStaff } from '@/lib/content';
 import { useLanguage } from '@/context/LanguageContext';
 
-export default function DistributionContent() {
+export default function StaffContent() {
   const { t } = useLanguage();
 
   return (
     <>
       <PageHero
-        crumb={t('pages.distribution.hero.crumb')}
-        eyebrow={t('pages.distribution.hero.eyebrow')}
-        title={t('pages.distribution.hero.title')}
-        description={t('pages.distribution.hero.description')}
+        crumb={t('pages.staff.hero.crumb')}
+        eyebrow={t('pages.staff.hero.eyebrow')}
+        title={t('pages.staff.hero.title')}
+        description={t('pages.staff.hero.description')}
       />
-
-      <section className="bg-white py-12">
-        <div className="container-page">
-          <Reveal>
-            <Link
-              href="/products"
-              className="group flex items-center justify-between gap-4 rounded-2xl bg-gradient-to-r from-brand-500 to-cyan-400 px-7 py-5 text-navy-950 shadow-glow transition-transform duration-200 hover:scale-[1.01]"
-            >
-              <span className="font-display text-lg font-bold">{t('pages.distribution.viewProducts')}</span>
-              <ArrowRight size={20} className="shrink-0 transition-transform duration-300 group-hover:translate-x-1" />
-            </Link>
-          </Reveal>
-        </div>
-      </section>
 
       <section className="bg-mist-50 py-20">
         <div className="container-page">
           <Reveal className="mx-auto max-w-2xl text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">{t('pages.distribution.contactEyebrow')}</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">{t('pages.staff.contactEyebrow')}</p>
             <h2 className="mt-3 text-balance font-display text-3xl font-bold text-navy-900">
-              {t('pages.distribution.contactHeading')}
+              {t('pages.staff.contactHeading')}
             </h2>
           </Reveal>
 
@@ -47,7 +32,7 @@ export default function DistributionContent() {
             {distributionStaff.map((group) => (
               <div key={group.groupKey}>
                 <h3 className="mb-5 font-display text-lg font-bold text-navy-900">
-                  {t(`pages.distribution.staffGroups.${group.groupKey}`)}
+                  {t(`pages.staff.staffGroups.${group.groupKey}`)}
                 </h3>
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
                   {group.members.map((contact, i) => (
@@ -55,7 +40,7 @@ export default function DistributionContent() {
                       <div className="h-full rounded-xl bg-white px-6 py-5 shadow-soft ring-1 ring-black/5">
                         <span className="font-medium text-ink-900">{contact.name}</span>
                         <p className="mt-1 text-xs font-medium uppercase tracking-wide text-brand-600">
-                          {t(`pages.distribution.staffRoles.${contact.key}`)}
+                          {t(`pages.staff.staffRoles.${contact.key}`)}
                         </p>
                         <div className="mt-3 flex flex-col gap-1.5">
                           <a

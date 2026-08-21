@@ -32,7 +32,7 @@ export default function Footer() {
           <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">{t('footer.navHeading')}</h4>
           <ul className="space-y-3 text-sm">
             {navLinks.map((link) => (
-              <li key={link.href}>
+              <li key={link.key}>
                 <Link href={link.href} className="transition-colors hover:text-cyan-300">
                   {t(`nav.${link.key}`)}
                 </Link>

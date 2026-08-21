@@ -27,14 +27,14 @@ export default function AboutContent() {
         <div className="container-page grid grid-cols-1 gap-14 lg:grid-cols-2">
           <Reveal>
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">{t('pages.about.story1.eyebrow')}</p>
-            <h2 className="mt-3 text-balance font-display text-3xl font-bold text-navy-900">
+            <h2 className="mt-3 text-balance font-display text-3xl font-bold leading-snug text-navy-900">
               {t('pages.about.story1.heading')}
             </h2>
             <p className="mt-5 leading-relaxed text-ink-400">{t('pages.about.story1.desc')}</p>
           </Reveal>
           <Reveal delay={0.1}>
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">{t('pages.about.story2.eyebrow')}</p>
-            <h2 className="mt-3 text-balance font-display text-3xl font-bold text-navy-900">
+            <h2 className="mt-3 text-balance font-display text-3xl font-bold leading-snug text-navy-900">
               {t('pages.about.story2.heading')}
             </h2>
             <p className="mt-5 leading-relaxed text-ink-400">{t('pages.about.story2.desc')}</p>
@@ -67,7 +67,7 @@ export default function AboutContent() {
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600 flex items-center justify-center gap-2">
               <Award size={16} /> {t('whyChooseUs.eyebrow')}
             </p>
-            <h2 className="mt-3 text-balance font-display text-3xl font-bold text-navy-900 md:text-4xl">
+            <h2 className="mt-3 text-balance font-display text-3xl font-bold leading-snug text-navy-900 md:text-4xl">
               {t('whyChooseUs.heading')}
             </h2>
           </Reveal>

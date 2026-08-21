@@ -22,7 +22,7 @@ export default function Hero() {
           <span className="inline-flex items-center rounded-full border border-cyan-300/30 bg-cyan-400/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.25em] text-cyan-300">
             {t('hero.tagline')}
           </span>
-          <h1 className="mt-6 text-balance font-display text-5xl font-extrabold leading-[1.08] md:text-6xl">
+          <h1 className="mt-6 text-balance font-display text-5xl font-extrabold leading-snug md:text-6xl">
             <span className="bg-gradient-to-r from-white to-cyan-200 bg-clip-text text-transparent">
               TTC-INFOTECH
             </span>

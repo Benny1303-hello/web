@@ -49,7 +49,7 @@ export default function ProductsContent() {
       <section className="bg-mist-50 py-16">
         <div className="container-page">
           <Reveal className="mx-auto flex max-w-3xl flex-col items-center gap-5 rounded-3xl bg-white p-10 text-center shadow-card ring-1 ring-black/5">
-            <h2 className="text-balance font-display text-2xl font-bold text-navy-900 md:text-3xl">
+            <h2 className="text-balance font-display text-2xl font-bold leading-snug text-navy-900 md:text-3xl">
               {t('pages.products.ctaHeading')}
             </h2>
             <p className="max-w-xl text-balance leading-relaxed text-ink-400">{t('pages.products.ctaDesc')}</p>

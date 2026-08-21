@@ -25,7 +25,7 @@ export default function PageHero({ eyebrow, title, description, crumb }) {
           {eyebrow && (
             <p className="mt-6 text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">{eyebrow}</p>
           )}
-          <h1 className="mx-auto mt-3 max-w-2xl text-balance font-display text-4xl font-bold leading-tight md:text-5xl">
+          <h1 className="mx-auto mt-3 max-w-2xl text-balance font-display text-4xl font-bold leading-snug md:text-5xl">
             {title}
           </h1>
           {description && (

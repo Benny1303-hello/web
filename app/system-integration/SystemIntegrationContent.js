@@ -26,7 +26,7 @@ export default function SystemIntegrationContent() {
         <div className="container-page grid grid-cols-1 gap-14 lg:grid-cols-2">
           <Reveal>
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">{t('pages.systemIntegration.whyEyebrow')}</p>
-            <h2 className="mt-3 text-balance font-display text-3xl font-bold text-navy-900">
+            <h2 className="mt-3 text-balance font-display text-3xl font-bold leading-snug text-navy-900">
               {t('pages.systemIntegration.whyHeading')}
             </h2>
             <p className="mt-5 leading-relaxed text-ink-400">{t('pages.systemIntegration.whyDesc')}</p>

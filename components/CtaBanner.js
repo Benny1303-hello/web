@@ -16,7 +16,7 @@ export default function CtaBanner() {
           <div className="relative overflow-hidden rounded-3xl bg-hero-mesh px-8 py-14 text-white sm:px-14">
             <div className="relative grid grid-cols-1 items-center gap-10 lg:grid-cols-[1.4fr_1fr]">
               <div>
-                <h2 className="text-balance font-display text-3xl font-bold leading-snug md:text-4xl">
+                <h2 className="text-balance font-display text-3xl font-bold !leading-relaxed md:text-4xl">
                   {t('ctaBanner.heading')}
                 </h2>
                 <p className="mt-4 max-w-lg text-balance text-slate-300">{t('ctaBanner.description')}</p>

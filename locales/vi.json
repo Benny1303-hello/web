@@ -22,6 +22,7 @@
     "solutionSmb": "Giải pháp IT cho SME",
     "solutionFirewallLoadBalancing": "Firewall & Cân bằng tải",
     "solutionCentralControl": "Điều khiển tập trung",
+    "solutionInfrastructure": "Dịch vụ hạ tầng IT",
     "systemIntegrationStaff": "Đội ngũ kỹ sư",
     "services": "Trung tâm dịch vụ",
     "servicesAbout": "Giới thiệu Trung tâm dịch vụ",
@@ -276,7 +277,7 @@
         "crumb": "Giải pháp",
         "eyebrow": "Technology Solutions",
         "title": "Giải pháp tích hợp công nghệ cho doanh nghiệp",
-        "description": "Ba nhóm giải pháp trọng tâm giúp doanh nghiệp tối ưu chi phí đầu tư, vận hành và bảo mật hệ thống IT."
+        "description": "Bốn nhóm giải pháp trọng tâm giúp doanh nghiệp tối ưu chi phí đầu tư, vận hành và bảo mật hệ thống IT."
       },
       "intro": {
         "eyebrow": "Tổng quan",
@@ -286,7 +287,8 @@
       "items": {
         "smb": { "title": "Giải pháp IT cho doanh nghiệp vừa và nhỏ", "short": "Tối ưu chi phí đầu tư, vận hành và bảo mật hạ tầng IT cho doanh nghiệp quy mô vừa và nhỏ." },
         "firewallLoadBalancing": { "title": "Giải pháp Firewall & Cân bằng tải", "short": "Bảo vệ hệ thống trước các mối đe dọa từ Internet, đồng thời cân bằng tải đường truyền và website." },
-        "centralControl": { "title": "Giải pháp điều khiển tập trung", "short": "Quản lý tập trung toàn bộ máy trạm từ một hệ thống xử lý trung tâm, tăng bảo mật và giảm chi phí vận hành." }
+        "centralControl": { "title": "Giải pháp điều khiển tập trung", "short": "Quản lý tập trung toàn bộ máy trạm từ một hệ thống xử lý trung tâm, tăng bảo mật và giảm chi phí vận hành." },
+        "infrastructure": { "title": "Dịch vụ hạ tầng công nghệ thông tin", "short": "Thi công, triển khai và hỗ trợ hạ tầng nguồn điện, mạng và máy chủ toàn diện cho doanh nghiệp." }
       }
     },
     "systemIntegrationSolutionDetail": {
@@ -394,6 +396,56 @@
           { "label": "Thời gian nâng cấp bảo mật", "col1": "4 giờ / máy trạm", "col2": "4 giờ / máy chủ xử lý trung tâm" }
         ],
         "closingNote": "Bảng so sánh cho thấy rõ lợi thế của giải pháp điều khiển tập trung: từ chi phí đầu tư, chi phí vận hành, thời gian xử lý sự cố đến nâng cấp bảo mật — vì việc nâng cấp bảo mật chỉ cần thực hiện tại máy chủ trung tâm, các máy trạm điều khiển không lưu trữ dữ liệu."
+      },
+      "infrastructure": {
+        "hero": {
+          "crumb": "Dịch vụ hạ tầng IT",
+          "eyebrow": "IT Infrastructure Services",
+          "title": "Dịch vụ hạ tầng công nghệ thông tin toàn diện",
+          "description": "Thi công, triển khai và hỗ trợ hạ tầng nguồn điện, mạng và máy chủ — từ tư vấn thiết kế đến bảo trì vận hành."
+        },
+        "overviewHeading": "Tổng quan",
+        "overview": "Nhằm đáp ứng nhu cầu thực tế của doanh nghiệp trong việc đầu tư hạ tầng công nghệ thông tin cho nhân viên, đồng thời đáp ứng yêu cầu về bảo mật, kinh phí đầu tư và chi phí vận hành.",
+        "solutionDesc": "TTC-Infotech mang đến các giải pháp thi công hạ tầng toàn diện, giúp doanh nghiệp đạt hiệu suất vận hành cao nhất với chi phí tối ưu.",
+        "sectionsHeading": "Thi công hạ tầng",
+        "categories": [
+          {
+            "title": "Hạ tầng hệ thống APC (UPS, Cooling, Sensor)",
+            "desc": "Là nhà phân phối hàng đầu các sản phẩm lưu trữ điện APC, chúng tôi mang đến giải pháp hạ tầng lưu trữ điện cao cấp, tối ưu hiệu quả và an toàn.",
+            "items": [
+              { "title": "Hệ thống lưu trữ điện cho tòa nhà & data center", "desc": "Giải pháp lưu trữ dự phòng nguồn điện công suất lớn, từ vài trăm KVA đến hàng ngàn KVA." },
+              { "title": "Hệ thống lưu trữ điện cho phòng máy chủ", "desc": "Giải pháp lưu trữ điện 1 pha đến 3 pha, đáp ứng tiêu chuẩn cao nhất theo nhu cầu riêng." },
+              { "title": "Hệ thống làm mát cho phòng máy chủ", "desc": "Giải pháp làm mát tiêu chuẩn, tối ưu chi phí và hiệu quả vận hành." },
+              { "title": "Hệ thống giám sát chuyên dụng", "desc": "Giám sát nhiệt độ, độ ẩm, chuyển động trong phòng máy chủ để phòng tránh rủi ro hư hỏng thiết bị." }
+            ]
+          },
+          {
+            "title": "Hạ tầng mạng",
+            "desc": "Kết nối mạng là yếu tố quyết định cho sự phát triển doanh nghiệp trong môi trường công nghệ hiện nay.",
+            "items": [
+              { "title": "Tư vấn thiết kế kết nối hệ thống mạng", "desc": "Tư vấn thiết kế và triển khai hạ tầng có dây và không dây đạt chất lượng tiêu chuẩn." },
+              { "title": "Hệ thống cáp mạng cho phòng máy chủ", "desc": "Triển khai hệ thống cáp mạng chuẩn hóa, đảm bảo kết nối ổn định cho phòng máy chủ." }
+            ]
+          }
+        ],
+        "servicesListHeading": "Dịch vụ hạ tầng",
+        "servicesListIntro": "Chúng tôi cung cấp dịch vụ hạ tầng công nghệ thông tin với tiêu chí tiết kiệm, hiệu quả và ổn định, bao gồm:",
+        "servicesList": [
+          "Tư vấn, thiết kế và triển khai hệ thống lưu trữ điện nguồn, hệ thống lạnh và cảm biến theo dõi cho phòng máy chủ, trung tâm dữ liệu.",
+          "Tư vấn thiết kế và triển khai hệ thống mạng doanh nghiệp (cabling, switching, routing, load balancing, network protection).",
+          "Tư vấn thiết kế và triển khai hệ thống máy chủ, lưu trữ (VMware HA, Hyper-V HA, Windows Domain Multisite, Linux, hệ thống Mail...).",
+          "Tư vấn, thiết kế và triển khai quét và vá lỗi bảo mật hệ thống (audit, pentest).",
+          "Bảo trì định kỳ onsite hoặc offsite, tổng kiểm tra thiết bị 1-2 lần mỗi tháng.",
+          "Hỗ trợ miễn phí tư vấn, thiết kế hệ thống và dò tìm lỗi hệ thống sau triển khai."
+        ],
+        "commitmentsHeading": "Cam kết từ nhà cung cấp",
+        "commitments": [
+          { "title": "Thời gian triển khai", "items": ["Tuân theo thời gian cam kết trong thiết kế."] },
+          { "title": "Hỗ trợ sau triển khai", "items": ["Hỗ trợ từ xa 24/7.", "Hỗ trợ tận nơi khi không xử lý được từ xa."] },
+          { "title": "Hỗ trợ bảo hành", "items": ["Ưu tiên bảo hành thiết bị, có thiết bị tương đương cho mượn trong thời gian bảo hành."] },
+          { "title": "Nhân lực triển khai", "items": ["Ít nhất 15 năm kinh nghiệm trong lĩnh vực công nghệ thông tin.", "Ít nhất 10 năm kinh nghiệm tư vấn và triển khai hệ thống CNTT.", "Ít nhất 5 năm kinh nghiệm tư vấn và xử lý bảo mật hệ thống."] },
+          { "title": "Khảo sát hệ thống hiện có", "items": ["Đã có máy chủ lưu dữ liệu tập trung chưa?", "Đã có hệ thống sao lưu dự phòng chưa?", "Số lượng nhân viên hiện tại?", "Số lượng nhân viên kế toán?", "Số lượng nhân viên thiết kế?", "Dung lượng lưu trữ cần thiết cho mỗi nhân viên?", "Số lượng đường truyền Internet đang sử dụng?"] }
+        ]
       }
     },
     "systemIntegrationStaff": {

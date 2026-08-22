@@ -22,6 +22,7 @@
     "solutionSmb": "SME IT Solutions",
     "solutionFirewallLoadBalancing": "Firewall & Load Balancing",
     "solutionCentralControl": "Central Control",
+    "solutionInfrastructure": "IT Infrastructure Services",
     "systemIntegrationStaff": "Engineering Team",
     "services": "Services Center",
     "servicesAbout": "About Services Center",
@@ -276,7 +277,7 @@
         "crumb": "Solutions",
         "eyebrow": "Technology Solutions",
         "title": "Technology integration solutions for your business",
-        "description": "Three core solution groups that help businesses optimize investment cost, operations, and IT system security."
+        "description": "Four core solution groups that help businesses optimize investment cost, operations, and IT system security."
       },
       "intro": {
         "eyebrow": "Overview",
@@ -286,7 +287,8 @@
       "items": {
         "smb": { "title": "IT Solutions for Small & Medium Businesses", "short": "Optimize investment, operating cost, and security for SME IT infrastructure." },
         "firewallLoadBalancing": { "title": "Firewall & Load Balancing Solution", "short": "Protect your systems from Internet threats while balancing traffic across connections and websites." },
-        "centralControl": { "title": "Central Control Solution", "short": "Manage every workstation centrally from one processing system, improving security and cutting operating cost." }
+        "centralControl": { "title": "Central Control Solution", "short": "Manage every workstation centrally from one processing system, improving security and cutting operating cost." },
+        "infrastructure": { "title": "IT Infrastructure Services", "short": "Full-service power, network, and server infrastructure deployment and support for your business." }
       }
     },
     "systemIntegrationSolutionDetail": {
@@ -394,6 +396,56 @@
           { "label": "Security upgrade time", "col1": "4 hours / workstation", "col2": "4 hours / central processing server" }
         ],
         "closingNote": "The comparison clearly shows the advantage of the central control solution: from investment cost, operating cost, and troubleshooting time to security upgrades — since security only needs to be upgraded on the central server, as the control workstations themselves store no data."
+      },
+      "infrastructure": {
+        "hero": {
+          "crumb": "IT Infrastructure Services",
+          "eyebrow": "IT Infrastructure Services",
+          "title": "Comprehensive IT infrastructure services",
+          "description": "Deployment and support for power, network, and server infrastructure — from design consulting through to ongoing maintenance."
+        },
+        "overviewHeading": "Overview",
+        "overview": "To meet a business's real-world needs when investing in IT infrastructure for employees, while meeting security requirements, investment budget, and operating cost.",
+        "solutionDesc": "TTC-Infotech delivers comprehensive infrastructure deployment solutions, helping businesses reach the highest operating efficiency at an optimized cost.",
+        "sectionsHeading": "Infrastructure Deployment",
+        "categories": [
+          {
+            "title": "APC System Infrastructure (UPS, Cooling, Sensor)",
+            "desc": "As a leading distributor of APC power storage products, we deliver premium, optimized power infrastructure solutions for efficiency and safety.",
+            "items": [
+              { "title": "Building & data center power storage", "desc": "Backup power storage solutions for large-capacity needs, from a few hundred KVA up to thousands of KVA." },
+              { "title": "Server room power storage", "desc": "Single-phase to three-phase power storage solutions, meeting the highest standards for your specific needs." },
+              { "title": "Server room cooling systems", "desc": "Standardized cooling solutions that optimize cost and operating efficiency." },
+              { "title": "Dedicated monitoring systems", "desc": "Monitoring temperature, humidity, and motion in the server room to prevent equipment damage risks." }
+            ]
+          },
+          {
+            "title": "Network Infrastructure",
+            "desc": "Network connectivity is a decisive factor for business growth in today's technology environment.",
+            "items": [
+              { "title": "Network connectivity design consulting", "desc": "Design consulting and deployment of wired and wireless infrastructure to a standard quality." },
+              { "title": "Server room network cabling", "desc": "Deploying standardized network cabling systems, ensuring stable connectivity for the server room." }
+            ]
+          }
+        ],
+        "servicesListHeading": "Infrastructure Services",
+        "servicesListIntro": "We provide IT infrastructure services built on cost savings, efficiency, and stability, including:",
+        "servicesList": [
+          "Consulting, design, and deployment of power storage, cooling, and monitoring sensor systems for server rooms and data centers.",
+          "Design consulting and deployment of enterprise network systems (cabling, switching, routing, load balancing, network protection).",
+          "Design consulting and deployment of server and storage systems (VMware HA, Hyper-V HA, Windows Domain Multisite, Linux, mail systems...).",
+          "Consulting, design, and deployment of system security scanning and patching (audit, pentest).",
+          "Periodic onsite or offsite maintenance, with a full equipment check 1-2 times per month.",
+          "Free consulting, system design, and post-deployment troubleshooting support."
+        ],
+        "commitmentsHeading": "Our Commitments",
+        "commitments": [
+          { "title": "Deployment Timeline", "items": ["Follows the timeline committed to in the design phase."] },
+          { "title": "Post-Deployment Support", "items": ["24/7 remote support.", "On-site support when an issue can't be resolved remotely."] },
+          { "title": "Warranty Support", "items": ["Priority warranty service, with equivalent loaner equipment provided during the warranty period."] },
+          { "title": "Deployment Personnel", "items": ["At least 15 years of experience in information technology.", "At least 10 years of experience consulting on and deploying IT systems.", "At least 5 years of experience in security consulting and remediation."] },
+          { "title": "Current System Survey", "items": ["Do you already have a centralized data storage server?", "Do you already have a backup system in place?", "Current number of employees?", "Number of accounting staff?", "Number of design staff?", "Storage capacity needed per employee?", "Number of Internet lines currently in use?"] }
+        ]
       }
     },
     "systemIntegrationStaff": {

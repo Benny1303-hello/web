@@ -23,7 +23,7 @@ export default function SolutionsContent() {
       />
 
       <section className="bg-white py-20">
-        <div className="container-page">
+        <div className="mx-auto w-full max-w-[1400px] px-6">
           <Reveal className="mx-auto max-w-3xl text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">
               {t('pages.systemIntegrationSolutions.intro.eyebrow')}
@@ -41,11 +41,11 @@ export default function SolutionsContent() {
                 <Reveal key={solution.key} delay={i * 0.1}>
                   <Link
                     href={`/system-integration/solutions/${solution.slug}`}
-                    className="group flex h-full flex-col rounded-2xl border border-black/5 bg-mist-50 p-8 transition-all duration-300 hover:-translate-y-2 hover:border-transparent hover:bg-navy-950 hover:shadow-card"
+                    className="group flex h-full flex-col rounded-2xl border border-black/5 bg-mist-50 p-7 transition-all duration-300 hover:-translate-y-2 hover:border-transparent hover:bg-navy-950 hover:shadow-card"
                   >
                     <div className="mb-3 flex items-center gap-3">
-                      <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-cyan-400 text-white transition-transform duration-300 group-hover:scale-110">
-                        <Icon size={22} />
+                      <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-cyan-400 text-white transition-transform duration-300 group-hover:scale-110">
+                        <Icon size={20} />
                       </div>
                       <h3 className="font-display text-lg font-bold text-ink-900 transition-colors group-hover:text-white">
                         {t(`pages.systemIntegrationSolutions.items.${solution.key}.title`)}

@@ -18,6 +18,7 @@
     "staff": "Distribution Team",
     "systemIntegration": "System Integration",
     "systemIntegrationAbout": "About System Integration",
+    "systemIntegrationSolutions": "Solutions",
     "systemIntegrationStaff": "Engineering Team",
     "services": "Services Center",
     "servicesAbout": "About Services Center",
@@ -266,6 +267,131 @@
         { "title": "Deployment", "desc": "Install, configure, and thoroughly test everything before bringing the system into official operation." },
         { "title": "Operational support", "desc": "Ongoing monitoring, periodic maintenance, and continuous technical support after deployment." }
       ]
+    },
+    "systemIntegrationSolutions": {
+      "hero": {
+        "crumb": "Solutions",
+        "eyebrow": "Technology Solutions",
+        "title": "Technology integration solutions for your business",
+        "description": "Three core solution groups that help businesses optimize investment cost, operations, and IT system security."
+      },
+      "intro": {
+        "eyebrow": "Overview",
+        "heading": "The right solution for every operating challenge",
+        "desc": "From optimizing infrastructure for small and medium businesses, to network security, to centralized control — TTC-Infotech designs solutions around real-world needs, balancing investment cost against long-term operating efficiency."
+      },
+      "items": {
+        "smb": { "title": "IT Solutions for Small & Medium Businesses", "short": "Optimize investment, operating cost, and security for SME IT infrastructure." },
+        "firewallLoadBalancing": { "title": "Firewall & Load Balancing Solution", "short": "Protect your systems from Internet threats while balancing traffic across connections and websites." },
+        "centralControl": { "title": "Central Control Solution", "short": "Manage every workstation centrally from one processing system, improving security and cutting operating cost." }
+      }
+    },
+    "systemIntegrationSolutionDetail": {
+      "backToSolutions": "View other solutions",
+      "sharedTargetsHeading": "Solution Goals",
+      "sharedTargets": [
+        "Optimize IT infrastructure investment cost (hardware, software).",
+        "Optimize IT operating cost (electricity, deployment time, repair time).",
+        "Improve system security, preventing data loss and leakage.",
+        "Simplify IT usage for employees.",
+        "Increase the business's operating capacity."
+      ],
+      "solutionHeading": "Solution",
+      "tableHeading": "Cost & Efficiency Comparison",
+      "smb": {
+        "hero": {
+          "crumb": "SME IT Solutions",
+          "eyebrow": "SME IT Solutions",
+          "title": "An optimized IT solution for small and medium businesses",
+          "description": "Meeting real-world IT infrastructure investment needs while balancing security, operating cost, and employee experience."
+        },
+        "overviewHeading": "Overview",
+        "overview": "To meet a business's real-world needs when investing in IT infrastructure for employees, while balancing security requirements, investment budget, and operating cost.",
+        "solutionDesc": "TTC-Infotech delivers technology integration solutions tailored to each business's real-world needs, aimed at improving operating efficiency.",
+        "sectionsHeading": "Solution Components",
+        "sections": [
+          { "title": "Virtualization", "desc": "Virtualization technology maximizes server capacity by splitting one physical server into multiple independent virtual servers, while enabling fast backup and recovery when hardware failures or malware strike." },
+          { "title": "Firewall System", "desc": "A firewall protects the business from outside threats, specifically blocking intrusions from the Internet into internal systems and preventing data leakage, while enabling secure branch-to-branch connections over VPN." },
+          { "title": "Central Control System", "desc": "Users work from a low-spec workstation (Windows/Linux/Android...) that connects to a high-spec, licensed central processing server to run Windows applications remotely." }
+        ],
+        "tableIntro": "Comparison for a business with 20 employees",
+        "tableCol1": "Traditional solution",
+        "tableCol2": "Business system solution",
+        "tableRows": [
+          { "label": "Server, domain", "col1": "1 machine (Core i5, 8GB RAM)", "col2": "1 machine (Core i9, 64GB RAM)" },
+          { "label": "Data backup", "col1": "NAS", "col2": "1 machine (Core i9, 64GB RAM)" },
+          { "label": "Data recovery", "col1": "6 hours for 500GB", "col2": "5 minutes for the whole system" },
+          { "label": "Bandwidth load balancing", "col1": "Draytek 2960 (2 Internet lines)", "col2": "Built into the server (Core i9, 64GB RAM)" },
+          { "label": "Firewall", "col1": "Sophos XG125", "col2": "Built into the server (Core i9, 64GB RAM)" },
+          { "label": "Website & virus filtering", "col1": "Annual vendor license subscription", "col2": "Built into the server (Core i9, 64GB RAM)" },
+          { "label": "Website advertising (store chains, malls)", "col1": "Outsourced service", "col2": "Website configuration package" },
+          { "label": "Website load balancing (2 parallel web servers)", "col1": "Barracuda Load Balancer ADC 340", "col2": "Load 1 + Load 2 configuration package" },
+          { "label": "Central workstation", "col1": "None", "col2": "Built into the server (Core i9, 64GB RAM)" },
+          { "label": "Workstations", "col1": "20 machines (Core i5, 8GB RAM)", "col2": "20 machines (Celeron, 4GB RAM)" },
+          { "label": "Monthly electricity cost", "col1": "≈ 6,688,500 VND", "col2": "≈ 2,275,000 VND" },
+          { "label": "Hardware cost", "col1": "315,000,000 VND", "col2": "280,000,000 VND" },
+          { "label": "Troubleshooting time", "col1": "1 hour / workstation", "col2": "15 seconds / workstation" },
+          { "label": "User deployment time", "col1": "3 hours / workstation", "col2": "30 seconds / workstation" }
+        ]
+      },
+      "firewallLoadBalancing": {
+        "hero": {
+          "crumb": "Firewall & Load Balancing",
+          "eyebrow": "Firewall & Load Balancing",
+          "title": "Firewall and connection load balancing solution",
+          "description": "Protecting your systems from Internet threats while optimizing connection speed and stability for your business."
+        },
+        "overviewHeading": "Overview",
+        "overview": "To meet a business's real-world needs when investing in IT infrastructure for employees, while balancing security requirements, investment budget, and operating cost.",
+        "solutionDesc": "TTC-Infotech delivers technology integration solutions tailored to each business's real-world needs, aimed at improving operating efficiency.",
+        "sectionsHeading": "Main Functions",
+        "sections": [
+          { "title": "Firewall", "desc": "Protects the business from outside threats, specifically blocking intrusions from the Internet into internal systems and preventing data leakage, while enabling flexible access control and VPN connections between branches." },
+          { "title": "Internet Load Balancing", "desc": "As Internet demand grows quickly, balancing load across multiple connections optimizes investment cost more effectively than simply upgrading connection speed alone." },
+          { "title": "Website Load Balancing", "desc": "Meets the needs of businesses running high-traffic websites, ensuring stable, healthy connections for users." },
+          { "title": "Website Filtering & User Protection", "desc": "Protects employees from malicious websites and prevents business data leakage over Internet connections." },
+          { "title": "Advertising Over the Internet", "desc": "Meets the online product advertising needs of businesses with store chains or shopping centers." },
+          { "title": "Virtualization Technology", "desc": "Lets businesses upgrade and swap hardware more proactively, while enabling fast backup and recovery when errors occur." }
+        ],
+        "tableIntro": "Comparison for a business with 50 employees",
+        "tableCol1": "Traditional solution (multiple combined products)",
+        "tableCol2": "pfSense solution (Core i5 PC, 8GB RAM, 128GB SSD)",
+        "tableRows": [
+          { "label": "Firewall", "col1": "Fortigate 101E", "col2": "TLCB-CAN-B service" },
+          { "label": "Connection load balancing", "col1": "Draytek 2960", "col2": "TLCB-CAN-B, TLCB-WAN-7, TLCB-WAN-M services" },
+          { "label": "Website load balancing (2 parallel web servers)", "col1": "Barracuda Load Balancer ADC 340", "col2": "TLCB-SRV-1, TLCB-SRV-2 services" },
+          { "label": "Website & virus filtering", "col1": "Annual vendor license subscription", "col2": "TLCB-CAN-B service" },
+          { "label": "Website advertising (store chains, malls)", "col1": "Outsourced service", "col2": "TLCB-WEB-C, TLCB-WEB-D services" }
+        ]
+      },
+      "centralControl": {
+        "hero": {
+          "crumb": "Central Control",
+          "eyebrow": "Central Control",
+          "title": "Central Control Solution",
+          "description": "Centralized user management, similar to Citrix or VMware Horizon, meeting a business's strict security requirements."
+        },
+        "overviewHeading": "Overview",
+        "overview": "To meet a business's real-world needs when investing in IT infrastructure for employees, while balancing security requirements, investment budget, and operating cost.",
+        "solutionDesc": "TTC-Infotech delivers technology integration solutions tailored to a business's real-world needs. This is also a centralized user-management solution (similar to Citrix or VMware Horizon) that meets a system's strict security requirements.",
+        "sectionsHeading": "Operating Principle",
+        "sections": [
+          { "title": "How It Works", "desc": "Users work from a low-spec control workstation (Windows/Linux/Android...) that connects to a high-spec, licensed central processing server to run Windows applications remotely from the central server." }
+        ],
+        "tableIntro": "Comparison for a business with 30 employees",
+        "tableCol1": "Traditional solution",
+        "tableCol2": "Central control solution",
+        "tableRows": [
+          { "label": "Workstations", "col1": "30 machines (Core i5, 8GB RAM)", "col2": "30 machines (Celeron, 4GB RAM)" },
+          { "label": "Central processing server", "col1": "None", "col2": "2 machines (Core i9, 64GB RAM)" },
+          { "label": "Hardware cost", "col1": "450,000,000 VND", "col2": "350,000,000 VND" },
+          { "label": "Monthly operating cost", "col1": "≈ 9,555,000 VND", "col2": "≈ 2,866,500 VND" },
+          { "label": "User deployment time", "col1": "3 hours / workstation", "col2": "30 seconds / control workstation" },
+          { "label": "Troubleshooting time", "col1": "1 hour / workstation", "col2": "15 seconds / control workstation" },
+          { "label": "Security upgrade time", "col1": "4 hours / workstation", "col2": "4 hours / central processing server" }
+        ],
+        "closingNote": "The comparison clearly shows the advantage of the central control solution: from investment cost, operating cost, and troubleshooting time to security upgrades — since security only needs to be upgraded on the central server, as the control workstations themselves store no data."
+      }
     },
     "systemIntegrationStaff": {
       "hero": {

@@ -18,6 +18,7 @@
     "staff": "Nhân sự phụ trách",
     "systemIntegration": "Tích hợp hệ thống",
     "systemIntegrationAbout": "Giới thiệu Tích hợp hệ thống",
+    "systemIntegrationSolutions": "Giải pháp",
     "systemIntegrationStaff": "Đội ngũ kỹ sư",
     "services": "Trung tâm dịch vụ",
     "servicesAbout": "Giới thiệu Trung tâm dịch vụ",
@@ -266,6 +267,131 @@
         { "title": "Triển khai", "desc": "Lắp đặt, cấu hình và kiểm thử toàn diện trước khi đưa hệ thống vào vận hành chính thức." },
         { "title": "Hỗ trợ vận hành", "desc": "Giám sát, bảo trì định kỳ và hỗ trợ kỹ thuật liên tục sau triển khai." }
       ]
+    },
+    "systemIntegrationSolutions": {
+      "hero": {
+        "crumb": "Giải pháp",
+        "eyebrow": "Technology Solutions",
+        "title": "Giải pháp tích hợp công nghệ cho doanh nghiệp",
+        "description": "Ba nhóm giải pháp trọng tâm giúp doanh nghiệp tối ưu chi phí đầu tư, vận hành và bảo mật hệ thống IT."
+      },
+      "intro": {
+        "eyebrow": "Tổng quan",
+        "heading": "Giải pháp phù hợp cho từng bài toán vận hành",
+        "desc": "Từ tối ưu hạ tầng cho doanh nghiệp vừa và nhỏ, bảo mật hệ thống mạng, đến điều khiển tập trung — TTC-Infotech thiết kế giải pháp dựa trên nhu cầu thực tế, cân bằng giữa chi phí đầu tư và hiệu quả vận hành lâu dài."
+      },
+      "items": {
+        "smb": { "title": "Giải pháp IT cho doanh nghiệp vừa và nhỏ", "short": "Tối ưu chi phí đầu tư, vận hành và bảo mật hạ tầng IT cho doanh nghiệp quy mô vừa và nhỏ." },
+        "firewallLoadBalancing": { "title": "Giải pháp Firewall & Cân bằng tải", "short": "Bảo vệ hệ thống trước các mối đe dọa từ Internet, đồng thời cân bằng tải đường truyền và website." },
+        "centralControl": { "title": "Giải pháp điều khiển tập trung", "short": "Quản lý tập trung toàn bộ máy trạm từ một hệ thống xử lý trung tâm, tăng bảo mật và giảm chi phí vận hành." }
+      }
+    },
+    "systemIntegrationSolutionDetail": {
+      "backToSolutions": "Xem các giải pháp khác",
+      "sharedTargetsHeading": "Mục tiêu giải pháp",
+      "sharedTargets": [
+        "Tối ưu chi phí đầu tư hạ tầng công nghệ thông tin (phần cứng, phần mềm).",
+        "Tối ưu chi phí vận hành công nghệ thông tin (điện năng, thời gian triển khai, thời gian sửa chữa).",
+        "Nâng cao tính bảo mật của hệ thống, tránh thất thoát và rò rỉ dữ liệu.",
+        "Đơn giản hóa việc sử dụng công nghệ thông tin cho nhân viên.",
+        "Gia tăng năng lực vận hành cho doanh nghiệp."
+      ],
+      "solutionHeading": "Giải pháp",
+      "tableHeading": "Bảng so sánh chi phí & hiệu quả",
+      "smb": {
+        "hero": {
+          "crumb": "Giải pháp IT cho SME",
+          "eyebrow": "SME IT Solutions",
+          "title": "Giải pháp IT tối ưu cho doanh nghiệp vừa và nhỏ",
+          "description": "Đáp ứng nhu cầu đầu tư hạ tầng IT thực tế, cân bằng giữa bảo mật, chi phí vận hành và trải nghiệm nhân viên."
+        },
+        "overviewHeading": "Tổng quan",
+        "overview": "Nhằm đáp ứng nhu cầu thực tế của doanh nghiệp khi đầu tư hạ tầng công nghệ thông tin cho nhân viên, đồng thời cân bằng giữa yêu cầu bảo mật, ngân sách đầu tư và chi phí vận hành.",
+        "solutionDesc": "TTC-Infotech mang đến giải pháp tích hợp công nghệ phù hợp với nhu cầu thực tế của từng doanh nghiệp, hướng đến mục tiêu nâng cao hiệu quả vận hành.",
+        "sectionsHeading": "Các thành phần giải pháp",
+        "sections": [
+          { "title": "Hệ thống ảo hóa (Virtualization)", "desc": "Công nghệ ảo hóa giúp khai thác tối đa công suất máy chủ bằng cách chia một máy chủ vật lý thành nhiều máy chủ ảo độc lập. Đồng thời cho phép sao lưu và khôi phục hệ thống nhanh chóng khi gặp sự cố phần cứng hoặc mã độc." },
+          { "title": "Hệ thống Firewall", "desc": "Firewall bảo vệ doanh nghiệp trước các mối đe dọa từ bên ngoài, đặc biệt ngăn chặn xâm nhập từ Internet vào hệ thống nội bộ và rò rỉ dữ liệu. Đồng thời hỗ trợ kết nối an toàn giữa các chi nhánh qua VPN." },
+          { "title": "Hệ thống điều khiển tập trung", "desc": "Người dùng thao tác trên máy trạm cấu hình thấp (Windows/Linux/Android...), kết nối tới máy chủ xử lý trung tâm (cấu hình cao, phần mềm bản quyền) để chạy ứng dụng công việc trên nền Windows." }
+        ],
+        "tableIntro": "So sánh trong doanh nghiệp có 20 nhân viên",
+        "tableCol1": "Giải pháp truyền thống",
+        "tableCol2": "Giải pháp hệ thống doanh nghiệp",
+        "tableRows": [
+          { "label": "Máy chủ, domain", "col1": "1 máy (Core i5, RAM 8GB)", "col2": "1 máy (Core i9, RAM 64GB)" },
+          { "label": "Sao lưu dữ liệu", "col1": "NAS", "col2": "1 máy (Core i9, RAM 64GB)" },
+          { "label": "Khôi phục dữ liệu", "col1": "6 giờ cho 500GB", "col2": "5 phút cho toàn bộ hệ thống" },
+          { "label": "Cân bằng tải băng thông", "col1": "Draytek 2960 (2 đường truyền Internet)", "col2": "Tích hợp trong máy chủ (Core i9, RAM 64GB)" },
+          { "label": "Firewall", "col1": "Sophos XG125", "col2": "Tích hợp trong máy chủ (Core i9, RAM 64GB)" },
+          { "label": "Lọc website & virus", "col1": "Thuê bao bản quyền hàng năm theo hãng", "col2": "Tích hợp trong máy chủ (Core i9, RAM 64GB)" },
+          { "label": "Quảng cáo website (chuỗi cửa hàng, TTTM)", "col1": "Thuê ngoài dịch vụ", "col2": "Gói cấu hình website" },
+          { "label": "Cân bằng tải website (2 web server song song)", "col1": "Barracuda Load Balancer ADC 340", "col2": "Gói cấu hình Load 1 + Load 2" },
+          { "label": "Máy trạm trung tâm", "col1": "Không có", "col2": "Tích hợp trong máy chủ (Core i9, RAM 64GB)" },
+          { "label": "Máy trạm", "col1": "20 máy (Core i5, RAM 8GB)", "col2": "20 máy (Celeron, RAM 4GB)" },
+          { "label": "Chi phí điện năng vận hành / tháng", "col1": "≈ 6.688.500 VNĐ", "col2": "≈ 2.275.000 VNĐ" },
+          { "label": "Chi phí phần cứng", "col1": "315.000.000 VNĐ", "col2": "280.000.000 VNĐ" },
+          { "label": "Thời gian xử lý sự cố", "col1": "1 giờ / máy trạm", "col2": "15 giây / máy trạm" },
+          { "label": "Thời gian triển khai cho người dùng", "col1": "3 giờ / máy trạm", "col2": "30 giây / máy trạm" }
+        ]
+      },
+      "firewallLoadBalancing": {
+        "hero": {
+          "crumb": "Firewall & Cân bằng tải",
+          "eyebrow": "Firewall & Load Balancing",
+          "title": "Giải pháp Firewall và cân bằng tải đường truyền",
+          "description": "Bảo vệ hệ thống trước các mối đe dọa từ Internet, đồng thời tối ưu tốc độ và độ ổn định kết nối cho doanh nghiệp."
+        },
+        "overviewHeading": "Tổng quan",
+        "overview": "Nhằm đáp ứng nhu cầu thực tế của doanh nghiệp khi đầu tư hạ tầng công nghệ thông tin cho nhân viên, đồng thời cân bằng giữa yêu cầu bảo mật, ngân sách đầu tư và chi phí vận hành.",
+        "solutionDesc": "TTC-Infotech mang đến giải pháp tích hợp công nghệ phù hợp với nhu cầu thực tế của từng doanh nghiệp, hướng đến mục tiêu nâng cao hiệu quả vận hành.",
+        "sectionsHeading": "Chức năng chính",
+        "sections": [
+          { "title": "Firewall", "desc": "Bảo vệ doanh nghiệp trước các mối đe dọa từ bên ngoài, đặc biệt ngăn chặn xâm nhập từ Internet vào hệ thống nội bộ và rò rỉ dữ liệu. Đồng thời hỗ trợ đa dạng hóa quyền truy cập, kết nối các chi nhánh qua VPN." },
+          { "title": "Cân bằng tải đường truyền Internet", "desc": "Khi nhu cầu sử dụng Internet tăng nhanh, thay vì chỉ nâng cấp tốc độ đường truyền, việc cân bằng tải nhiều đường truyền giúp tối ưu chi phí đầu tư hơn các giải pháp khác." },
+          { "title": "Cân bằng tải website", "desc": "Đáp ứng nhu cầu cho doanh nghiệp có hệ thống website lượng truy cập lớn, đảm bảo kết nối ổn định cho người dùng." },
+          { "title": "Lọc website & bảo vệ người dùng", "desc": "Bảo vệ nhân viên khỏi các website độc hại, ngăn ngừa rò rỉ dữ liệu doanh nghiệp qua kết nối Internet." },
+          { "title": "Quảng cáo qua kết nối Internet", "desc": "Đáp ứng nhu cầu quảng cáo sản phẩm trực tuyến cho doanh nghiệp có chuỗi cửa hàng, trung tâm thương mại." },
+          { "title": "Công nghệ ảo hóa", "desc": "Giúp doanh nghiệp chủ động hơn khi nâng cấp, thay thế phần cứng, đồng thời sao lưu và khôi phục hệ thống nhanh chóng khi có sự cố." }
+        ],
+        "tableIntro": "So sánh trong doanh nghiệp có 50 nhân viên",
+        "tableCol1": "Giải pháp truyền thống (kết hợp nhiều sản phẩm)",
+        "tableCol2": "Giải pháp pfSense (PC Core i5, RAM 8GB, SSD 128GB)",
+        "tableRows": [
+          { "label": "Firewall", "col1": "Fortigate 101E", "col2": "Dịch vụ TLCB-CAN-B" },
+          { "label": "Cân bằng tải đường truyền", "col1": "Draytek 2960", "col2": "Dịch vụ TLCB-CAN-B, TLCB-WAN-7, TLCB-WAN-M" },
+          { "label": "Cân bằng tải website (2 web server song song)", "col1": "Barracuda Load Balancer ADC 340", "col2": "Dịch vụ TLCB-SRV-1, TLCB-SRV-2" },
+          { "label": "Lọc website & virus", "col1": "Thuê bao bản quyền hàng năm theo hãng", "col2": "Dịch vụ TLCB-CAN-B" },
+          { "label": "Quảng cáo website (chuỗi cửa hàng, TTTM)", "col1": "Thuê ngoài dịch vụ", "col2": "Dịch vụ TLCB-WEB-C, TLCB-WEB-D" }
+        ]
+      },
+      "centralControl": {
+        "hero": {
+          "crumb": "Điều khiển tập trung",
+          "eyebrow": "Central Control",
+          "title": "Giải pháp điều khiển tập trung",
+          "description": "Quản lý người dùng tập trung, tương tự Citrix hay VMware Horizon, đáp ứng yêu cầu bảo mật khắt khe của doanh nghiệp."
+        },
+        "overviewHeading": "Tổng quan",
+        "overview": "Nhằm đáp ứng nhu cầu thực tế của doanh nghiệp khi đầu tư hạ tầng công nghệ thông tin cho nhân viên, đồng thời cân bằng giữa yêu cầu bảo mật, ngân sách đầu tư và chi phí vận hành.",
+        "solutionDesc": "TTC-Infotech mang đến giải pháp tích hợp công nghệ phù hợp với nhu cầu thực tế của doanh nghiệp. Đây cũng là giải pháp quản lý người dùng tập trung (tương tự Citrix, VMware Horizon...), đáp ứng yêu cầu bảo mật khắt khe của hệ thống.",
+        "sectionsHeading": "Nguyên lý hoạt động",
+        "sections": [
+          { "title": "Nguyên lý vận hành", "desc": "Người dùng thao tác trên máy trạm điều khiển (cấu hình thấp, hệ điều hành Windows/Linux/Android...), kết nối tới máy chủ xử lý trung tâm (cấu hình cao, phần mềm bản quyền) để chạy ứng dụng công việc trên nền Windows từ máy chủ trung tâm." }
+        ],
+        "tableIntro": "So sánh trong doanh nghiệp có 30 nhân viên",
+        "tableCol1": "Giải pháp truyền thống",
+        "tableCol2": "Giải pháp điều khiển tập trung",
+        "tableRows": [
+          { "label": "Máy trạm", "col1": "30 máy (Core i5, RAM 8GB)", "col2": "30 máy (Celeron, RAM 4GB)" },
+          { "label": "Máy chủ xử lý trung tâm", "col1": "Không có", "col2": "2 máy (Core i9, RAM 64GB)" },
+          { "label": "Chi phí phần cứng", "col1": "450.000.000 VNĐ", "col2": "350.000.000 VNĐ" },
+          { "label": "Chi phí vận hành / tháng", "col1": "≈ 9.555.000 VNĐ", "col2": "≈ 2.866.500 VNĐ" },
+          { "label": "Thời gian triển khai cho người dùng", "col1": "3 giờ / máy trạm", "col2": "30 giây / máy trạm điều khiển" },
+          { "label": "Thời gian xử lý sự cố", "col1": "1 giờ / máy trạm", "col2": "15 giây / máy trạm điều khiển" },
+          { "label": "Thời gian nâng cấp bảo mật", "col1": "4 giờ / máy trạm", "col2": "4 giờ / máy chủ xử lý trung tâm" }
+        ],
+        "closingNote": "Bảng so sánh cho thấy rõ lợi thế của giải pháp điều khiển tập trung: từ chi phí đầu tư, chi phí vận hành, thời gian xử lý sự cố đến nâng cấp bảo mật — vì việc nâng cấp bảo mật chỉ cần thực hiện tại máy chủ trung tâm, các máy trạm điều khiển không lưu trữ dữ liệu."
+      }
     },
     "systemIntegrationStaff": {
       "hero": {

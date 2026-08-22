@@ -203,12 +203,13 @@
         "eyebrow": "Giá trị dành cho đối tác",
         "heading": "Vì sao đại lý & channel partner chọn đồng hành cùng TTC-Infotech"
       },
-      "values": [
-        { "title": "Sản phẩm chính hãng", "desc": "Cung cấp sản phẩm chính hãng, đảm bảo chất lượng với đầy đủ chứng nhận từ nhà sản xuất." },
-        { "title": "Giao hàng tận tâm", "desc": "Giao hàng nhanh chóng, chu đáo, đảm bảo tiến độ cho từng đơn hàng của đối tác." },
-        { "title": "Hỗ trợ lắp đặt", "desc": "Tư vấn và triển khai lắp đặt hoàn chỉnh, đồng hành cùng đối tác từ khâu tư vấn đến vận hành." },
-        { "title": "Bảo hành nhanh chóng", "desc": "Hỗ trợ bảo hành, bảo trì tận nơi cho khách hàng cuối, xử lý nhanh mọi yêu cầu bảo hành." }
-      ]
+      "values": {
+        "genuine": { "title": "Sản phẩm chính hãng", "desc": "Cung cấp sản phẩm chính hãng, đảm bảo chất lượng với đầy đủ chứng nhận từ nhà sản xuất." },
+        "delivery": { "title": "Giao hàng tận tâm", "desc": "Giao hàng nhanh chóng, chu đáo, đảm bảo tiến độ cho từng đơn hàng của đối tác." },
+        "installation": { "title": "Hỗ trợ lắp đặt", "desc": "Tư vấn và triển khai lắp đặt hoàn chỉnh, đồng hành cùng đối tác từ khâu tư vấn đến vận hành." },
+        "warranty": { "title": "Bảo hành nhanh chóng", "desc": "Hỗ trợ bảo hành, bảo trì tận nơi cho khách hàng cuối, xử lý nhanh mọi yêu cầu bảo hành." }
+      },
+      "viewProducts": "Xem toàn bộ danh mục sản phẩm"
     },
     "staff": {
       "hero": {

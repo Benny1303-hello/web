@@ -37,6 +37,16 @@ textarea:focus-visible {
   text-wrap: balance;
 }
 
+/* Vietnamese diacritics (dau mu + dau thanh stacks) need more vertical room
+   than Tailwind's default heading line-heights allow, or they visually
+   collide across wrapped lines. !important because Tailwind's md:text-*
+   utilities bundle their own line-height and would otherwise win at that
+   breakpoint. */
+h1,
+h2 {
+  line-height: 1.625 !important;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;

@@ -1,7 +1,8 @@
 'use client';
 
 import Image from 'next/image';
-import { Zap, Wifi, MonitorSmartphone, Network, ShieldCheck, Truck, Wrench, Clock, BadgeCheck } from 'lucide-react';
+import Link from 'next/link';
+import { Zap, Wifi, MonitorSmartphone, Network, ShieldCheck, Truck, Wrench, Clock, BadgeCheck, ArrowRight } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
 import CtaBanner from '@/components/CtaBanner';
@@ -13,7 +14,6 @@ const valueIcons = { ShieldCheck, Truck, Wrench, Clock };
 
 export default function DistributionContent() {
   const { t } = useLanguage();
-  const values = t('pages.distribution.values');
 
   return (
     <>
@@ -24,13 +24,27 @@ export default function DistributionContent() {
         description={t('pages.distribution.hero.description')}
       />
 
+      <section className="bg-white py-12">
+        <div className="container-page">
+          <Reveal>
+            <Link
+              href="/products"
+              className="group flex items-center justify-between gap-4 rounded-2xl bg-gradient-to-r from-brand-500 to-cyan-400 px-7 py-5 text-navy-950 shadow-glow transition-transform duration-200 hover:scale-[1.01]"
+            >
+              <span className="font-display text-lg font-bold">{t('pages.distribution.viewProducts')}</span>
+              <ArrowRight size={20} className="shrink-0 transition-transform duration-300 group-hover:translate-x-1" />
+            </Link>
+          </Reveal>
+        </div>
+      </section>
+
       <section className="bg-white py-20">
         <div className="container-page">
           <Reveal className="mx-auto max-w-3xl text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">
               {t('pages.distribution.intro.eyebrow')}
             </p>
-            <h2 className="mt-3 text-balance font-display text-3xl font-bold !leading-relaxed text-navy-900 md:text-4xl">
+            <h2 className="mt-3 text-balance font-display text-3xl font-bold text-navy-900 md:text-4xl">
               {t('pages.distribution.intro.heading')}
             </h2>
             <p className="mt-5 leading-relaxed text-ink-400">{t('pages.distribution.intro.desc')}</p>
@@ -44,7 +58,7 @@ export default function DistributionContent() {
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">
               {t('pages.distribution.brandsSection.eyebrow')}
             </p>
-            <h2 className="mt-3 text-balance font-display text-3xl font-bold !leading-relaxed text-navy-900 md:text-4xl">
+            <h2 className="mt-3 text-balance font-display text-3xl font-bold text-navy-900 md:text-4xl">
               {t('pages.distribution.brandsSection.heading')}
             </h2>
           </Reveal>
@@ -80,7 +94,7 @@ export default function DistributionContent() {
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">
               {t('pages.distribution.valuesSection.eyebrow')}
             </p>
-            <h2 className="mt-3 text-balance font-display text-3xl font-bold !leading-relaxed text-navy-900 md:text-4xl">
+            <h2 className="mt-3 text-balance font-display text-3xl font-bold text-navy-900 md:text-4xl">
               {t('pages.distribution.valuesSection.heading')}
             </h2>
           </Reveal>
@@ -88,7 +102,6 @@ export default function DistributionContent() {
           <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {distributionValues.map((value, i) => {
               const Icon = valueIcons[value.icon];
-              const item = values[i];
               return (
                 <Reveal key={value.key} delay={i * 0.08}>
                   <div className="h-full rounded-2xl border border-black/5 bg-mist-50 p-7 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-card">
@@ -96,9 +109,13 @@ export default function DistributionContent() {
                       <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-navy-900 text-cyan-300">
                         <Icon size={20} />
                       </div>
-                      <h3 className="font-display text-base font-bold text-ink-900">{item.title}</h3>
+                      <h3 className="font-display text-base font-bold text-ink-900">
+                        {t(`pages.distribution.values.${value.key}.title`)}
+                      </h3>
                     </div>
-                    <p className="mt-3 text-sm leading-relaxed text-ink-400">{item.desc}</p>
+                    <p className="mt-3 text-sm leading-relaxed text-ink-400">
+                      {t(`pages.distribution.values.${value.key}.desc`)}
+                    </p>
                   </div>
                 </Reveal>
               );
@@ -113,7 +130,7 @@ export default function DistributionContent() {
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600 flex items-center justify-center gap-2">
               <BadgeCheck size={16} /> {t('certificationsSection.eyebrow')}
             </p>
-            <h2 className="mt-3 text-balance font-display text-3xl font-bold !leading-relaxed text-navy-900 md:text-4xl">
+            <h2 className="mt-3 text-balance font-display text-3xl font-bold text-navy-900 md:text-4xl">
               {t('certificationsSection.heading')}
             </h2>
           </Reveal>

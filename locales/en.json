@@ -203,12 +203,13 @@
         "eyebrow": "Value to our partners",
         "heading": "Why resellers and channel partners choose to work with TTC-Infotech"
       },
-      "values": [
-        { "title": "Genuine Products", "desc": "Genuine, quality-assured products backed by full manufacturer certification." },
-        { "title": "Dedicated Delivery", "desc": "Fast, attentive delivery that keeps every partner order on schedule." },
-        { "title": "Installation Support", "desc": "Consulting and full installation support, from planning through to deployment." },
-        { "title": "Rapid Warranty", "desc": "On-site maintenance and warranty support for end customers, resolved quickly." }
-      ]
+      "values": {
+        "genuine": { "title": "Genuine Products", "desc": "Genuine, quality-assured products backed by full manufacturer certification." },
+        "delivery": { "title": "Dedicated Delivery", "desc": "Fast, attentive delivery that keeps every partner order on schedule." },
+        "installation": { "title": "Installation Support", "desc": "Consulting and full installation support, from planning through to deployment." },
+        "warranty": { "title": "Rapid Warranty", "desc": "On-site maintenance and warranty support for end customers, resolved quickly." }
+      },
+      "viewProducts": "View the full product catalog"
     },
     "staff": {
       "hero": {

@@ -23,7 +23,7 @@ export default function StaffContent() {
         <div className="container-page">
           <Reveal className="mx-auto max-w-2xl text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">{t('pages.staff.contactEyebrow')}</p>
-            <h2 className="mt-3 text-balance font-display text-3xl font-bold !leading-relaxed text-navy-900">
+            <h2 className="mt-3 text-balance font-display text-3xl font-bold text-navy-900">
               {t('pages.staff.contactHeading')}
             </h2>
           </Reveal>

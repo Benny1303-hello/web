@@ -4,7 +4,7 @@ import { Phone, Mail } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
 import CtaBanner from '@/components/CtaBanner';
-import { servicesStaff } from '@/lib/content';
+import { consultingStaff } from '@/lib/content';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function StaffContent() {
@@ -23,13 +23,13 @@ export default function StaffContent() {
         <div className="container-page">
           <Reveal className="mx-auto max-w-2xl text-center">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">{t('pages.servicesStaff.contactEyebrow')}</p>
-            <h2 className="mt-3 text-balance font-display text-3xl font-bold !leading-relaxed text-navy-900">
+            <h2 className="mt-3 text-balance font-display text-3xl font-bold text-navy-900">
               {t('pages.servicesStaff.contactHeading')}
             </h2>
           </Reveal>
 
           <div className="mx-auto mt-12 max-w-4xl space-y-12">
-            {servicesStaff.map((group) => (
+            {consultingStaff.map((group) => (
               <div key={group.groupKey}>
                 <h3 className="mb-5 font-display text-lg font-bold text-navy-900">
                   {t(`pages.servicesStaff.staffGroups.${group.groupKey}`)}

@@ -25,7 +25,7 @@ export default function SolutionDetailContent({ solutionKey }) {
   const hasServicesList = Array.isArray(servicesList);
   const hasCommitments = Array.isArray(commitments);
   const hasDeploymentTable = deploymentTable && Array.isArray(deploymentTable.rows);
-  const hasClosingNote = typeof closingNote === 'string' && closingNote !== `${base}.closingNote`;
+  const hasClosingNote = Array.isArray(closingNote);
 
   return (
     <>
@@ -171,8 +171,10 @@ export default function SolutionDetailContent({ solutionKey }) {
             </Reveal>
 
             {hasClosingNote && (
-              <Reveal delay={0.15} className="mx-auto mt-8 max-w-3xl">
-                <p className="text-sm leading-relaxed text-ink-400">{closingNote}</p>
+              <Reveal delay={0.15} className="mx-auto mt-8 max-w-3xl space-y-3">
+                {closingNote.map((note, i) => (
+                  <p key={i} className="text-sm leading-relaxed text-ink-400">{note}</p>
+                ))}
               </Reveal>
             )}
           </div>

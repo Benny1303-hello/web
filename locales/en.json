@@ -339,6 +339,10 @@
           { "label": "User deployment time", "col1": "3 hours / workstation", "col2": "30 seconds / workstation" },
           { "label": "Security upgrade time on workstations", "col1": "4 hours / workstation", "col2": "4 hours / central processing server" }
         ],
+        "closingNote": [
+          "The comparison table highlights the advantages of the Business System solution across investment cost, operating cost, and incident response time through to security patching — since security updates only need to be applied on the central processing workstations, while the control workstations themselves store no data.",
+          "The two central processing workstations are configured to share the load evenly during normal operation (employee connections are split between them) and to back each other up automatically — if one fails, all employees reconnect to the remaining workstation and keep working without interruption."
+        ],
         "commitmentsHeading": "Our Commitments",
         "deploymentTable": {
           "heading": "Deployment Timeline",
@@ -389,6 +393,9 @@
           { "label": "Website advertising (store chains, malls)", "col1": "Outsourced service", "col2": "TLCB-WEB-C, TLCB-WEB-D services" },
           { "label": "Redundancy", "col1": "None (a hardware failure means downtime)", "col2": "Swap to another PC immediately, or use HA / VMware replication" }
         ],
+        "closingNote": [
+          "The comparison table clearly shows the advantages of the pfSense solution — from investment cost and operating cost to incident response time and security patching."
+        ],
         "commitmentsHeading": "Our Commitments",
         "deploymentTable": {
           "heading": "Deployment Timeline",
@@ -435,7 +442,10 @@
           { "label": "Troubleshooting time", "col1": "1 hour / workstation", "col2": "15 seconds / control workstation" },
           { "label": "Security upgrade time", "col1": "4 hours / workstation", "col2": "4 hours / central processing server" }
         ],
-        "closingNote": "The comparison clearly shows the advantage of the central control solution: from investment cost, operating cost, and troubleshooting time to security upgrades — since security only needs to be upgraded on the central server, as the control workstations themselves store no data.",
+        "closingNote": [
+          "The comparison clearly shows the advantage of the central control solution: from investment cost, operating cost, and troubleshooting time to security upgrades — since security only needs to be upgraded on the central server, as the control workstations themselves store no data.",
+          "The two central processing servers are configured to share the load evenly during normal operation (employee connections are split between them) and to back each other up automatically — if one fails, all employees reconnect to the remaining server and keep working without interruption."
+        ],
         "commitmentsHeading": "Our Commitments",
         "deploymentTable": {
           "heading": "Deployment Timeline for One Central Processing Server",

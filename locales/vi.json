@@ -339,6 +339,10 @@
           { "label": "Thời gian triển khai cho người dùng", "col1": "3 giờ / máy trạm", "col2": "30 giây / máy trạm" },
           { "label": "Thời gian nâng cấp bảo mật trên máy trạm", "col1": "4 giờ / máy trạm", "col2": "4 giờ / máy trạm xử lý trung tâm" }
         ],
+        "closingNote": [
+          "Bảng so sánh trên cho thấy rõ lợi thế của giải pháp Hệ thống doanh nghiệp: từ chi phí đầu tư, chi phí vận hành, thời gian xử lý sự cố cho đến nâng cấp bảo mật — vì việc nâng cấp bảo mật chỉ cần thực hiện trên máy trạm xử lý trung tâm, trong khi các máy trạm điều khiển hoàn toàn không lưu trữ dữ liệu.",
+          "Hai máy trạm xử lý trung tâm được cấu hình để chia đều tải khi vận hành bình thường (nhân viên kết nối được phân đều vào 2 máy) và tự động dự phòng cho nhau — nếu một máy gặp sự cố, toàn bộ nhân viên sẽ chuyển sang kết nối vào máy còn lại để tiếp tục làm việc."
+        ],
         "commitmentsHeading": "Cam kết từ nhà cung cấp",
         "deploymentTable": {
           "heading": "Thời gian triển khai",
@@ -389,6 +393,9 @@
           { "label": "Quảng cáo website (chuỗi cửa hàng, TTTM)", "col1": "Thuê ngoài dịch vụ", "col2": "Dịch vụ TLCB-WEB-C, TLCB-WEB-D" },
           { "label": "Khả năng dự phòng", "col1": "Không có (thiết bị hư phải tạm ngưng sử dụng)", "col2": "Thay ngay bằng PC khác, hoặc dùng HA / VMware replicate" }
         ],
+        "closingNote": [
+          "Bảng so sánh trên cho thấy rõ lợi thế của giải pháp pfSense: từ chi phí đầu tư, chi phí vận hành, thời gian xử lý sự cố cho đến nâng cấp bảo mật."
+        ],
         "commitmentsHeading": "Cam kết từ nhà cung cấp",
         "deploymentTable": {
           "heading": "Thời gian triển khai",
@@ -435,7 +442,10 @@
           { "label": "Thời gian xử lý sự cố", "col1": "1 giờ / máy trạm", "col2": "15 giây / máy trạm điều khiển" },
           { "label": "Thời gian nâng cấp bảo mật", "col1": "4 giờ / máy trạm", "col2": "4 giờ / máy chủ xử lý trung tâm" }
         ],
-        "closingNote": "Bảng so sánh cho thấy rõ lợi thế của giải pháp điều khiển tập trung: từ chi phí đầu tư, chi phí vận hành, thời gian xử lý sự cố đến nâng cấp bảo mật — vì việc nâng cấp bảo mật chỉ cần thực hiện tại máy chủ trung tâm, các máy trạm điều khiển không lưu trữ dữ liệu.",
+        "closingNote": [
+          "Bảng so sánh cho thấy rõ lợi thế của giải pháp điều khiển tập trung: từ chi phí đầu tư, chi phí vận hành, thời gian xử lý sự cố đến nâng cấp bảo mật — vì việc nâng cấp bảo mật chỉ cần thực hiện tại máy chủ trung tâm, các máy trạm điều khiển không lưu trữ dữ liệu.",
+          "Hai máy chủ xử lý trung tâm được cấu hình để chia đều tải khi vận hành bình thường (nhân viên kết nối được phân đều vào 2 máy) và tự động dự phòng cho nhau — nếu một máy gặp sự cố, toàn bộ nhân viên sẽ chuyển sang kết nối vào máy còn lại để tiếp tục làm việc."
+        ],
         "commitmentsHeading": "Cam kết từ nhà cung cấp",
         "deploymentTable": {
           "heading": "Thời gian triển khai cho một máy chủ xử lý trung tâm",

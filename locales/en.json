@@ -325,7 +325,7 @@
         "tableRows": [
           { "label": "Server, domain", "col1": "1 machine (Core i5, 8GB RAM)", "col2": "1 machine (Core i9, 64GB RAM)" },
           { "label": "Data backup", "col1": "NAS", "col2": "1 machine (Core i9, 64GB RAM)" },
-          { "label": "Data recovery", "col1": "6 hours for 500GB", "col2": "5 minutes for the whole system" },
+          { "label": "Data recovery", "col1": "6 hours for 500GB", "col2": "5 seconds for the whole system" },
           { "label": "Bandwidth load balancing", "col1": "Draytek 2960 (2 Internet lines)", "col2": "Built into the server (Core i9, 64GB RAM)" },
           { "label": "Firewall", "col1": "Sophos XG125", "col2": "Built into the server (Core i9, 64GB RAM)" },
           { "label": "Website & virus filtering", "col1": "Annual vendor license subscription", "col2": "Built into the server (Core i9, 64GB RAM)" },
@@ -336,7 +336,27 @@
           { "label": "Monthly electricity cost", "col1": "≈ 6,688,500 VND", "col2": "≈ 2,275,000 VND" },
           { "label": "Hardware cost", "col1": "315,000,000 VND", "col2": "280,000,000 VND" },
           { "label": "Troubleshooting time", "col1": "1 hour / workstation", "col2": "15 seconds / workstation" },
-          { "label": "User deployment time", "col1": "3 hours / workstation", "col2": "30 seconds / workstation" }
+          { "label": "User deployment time", "col1": "3 hours / workstation", "col2": "30 seconds / workstation" },
+          { "label": "Security upgrade time on workstations", "col1": "4 hours / workstation", "col2": "4 hours / central processing server" }
+        ],
+        "commitmentsHeading": "Our Commitments",
+        "deploymentTable": {
+          "heading": "Deployment Timeline",
+          "columns": ["Service", "Included Work", "Timeline"],
+          "rows": [
+            { "cells": ["HTDN-CAN-B", "– Set up a VMware virtualization environment\n– Configure pfSense (1 LAN & 2 WAN)\n– Configure LAN-to-Internet access, opening external-to-internal access (NAT & rules) as required\n– Configure connectivity to the main office (VPN site-to-site), enabling remote work (VPN client-to-site)\n– Install web filtering (LAN to Internet), set up load balancing and Internet failover\n– Set up a Windows Server 2016/2019 domain server\n– Configure the domain controller, Group Policy Security, and DNS\n– Install and domain-join the central control virtual machine (Windows 10)\n– Install requested applications on the central control machine\n– Configure control workstations to connect to the central control machine\n– Optimize applications on the central control machine\n– Prepare admin documentation", "14 days"] },
+            { "cells": ["TLCB-WAN-7", "– Expand Internet lines (up to 7 lines)\n– Set up load balancing and Internet failover\n– Admin documentation", "3 days (optional)"] },
+            { "cells": ["TLCB-WAN-M", "– Expand Internet lines (up to 4,095 lines)\n– Set up load balancing and Internet failover\n– Admin documentation", "3 days (optional)"] },
+            { "cells": ["TLCB-SRV-1", "– Set up load balancing for 1 pair of same-function servers (web/mail)\n– Admin documentation", "3 days (optional)"] },
+            { "cells": ["TLCB-SRV-2", "– Set up load balancing for 2 pairs of same-function servers (web/mail)\n– Admin documentation", "3 days (optional)"] },
+            { "cells": ["TLCB-WEB-C", "– Configure marketing web access to a fixed website\n– Admin documentation", "3 days (optional)"] },
+            { "cells": ["TLCB-WEB-D", "– Design a homepage for the marketing website\n– Configure marketing web filtering\n– Configure marketing data collection\n– Admin documentation", "1 month (optional)"] }
+          ]
+        },
+        "commitments": [
+          { "title": "Post-Deployment Support", "items": ["Remote or on-site support.", "24/7 support package.", "8/5 support package."] },
+          { "title": "Warranty Support", "items": ["Priority warranty service, with equivalent loaner equipment provided during the warranty period."] },
+          { "title": "Deployment Personnel", "items": ["Over 20 years of experience in information technology, having consulted on, supplied, and deployed many infrastructure, server, virtualization, networking, and security solutions."] }
         ]
       },
       "firewallLoadBalancing": {
@@ -366,7 +386,27 @@
           { "label": "Connection load balancing", "col1": "Draytek 2960", "col2": "TLCB-CAN-B, TLCB-WAN-7, TLCB-WAN-M services" },
           { "label": "Website load balancing (2 parallel web servers)", "col1": "Barracuda Load Balancer ADC 340", "col2": "TLCB-SRV-1, TLCB-SRV-2 services" },
           { "label": "Website & virus filtering", "col1": "Annual vendor license subscription", "col2": "TLCB-CAN-B service" },
-          { "label": "Website advertising (store chains, malls)", "col1": "Outsourced service", "col2": "TLCB-WEB-C, TLCB-WEB-D services" }
+          { "label": "Website advertising (store chains, malls)", "col1": "Outsourced service", "col2": "TLCB-WEB-C, TLCB-WEB-D services" },
+          { "label": "Redundancy", "col1": "None (a hardware failure means downtime)", "col2": "Swap to another PC immediately, or use HA / VMware replication" }
+        ],
+        "commitmentsHeading": "Our Commitments",
+        "deploymentTable": {
+          "heading": "Deployment Timeline",
+          "columns": ["Service", "Included Work", "Timeline"],
+          "rows": [
+            { "cells": ["TLCB-CAN-B", "– Set up a VMware virtualization environment\n– Configure pfSense (1 LAN & 2 WAN)\n– Configure LAN-to-Internet access, opening external-to-internal access (NAT & rules) as required\n– Configure connectivity to the main office (VPN site-to-site), enabling remote work (VPN client-to-site)\n– Install web filtering (LAN to Internet)\n– Set up load balancing and Internet failover\n– Admin documentation", "3 days"] },
+            { "cells": ["TLCB-WAN-7", "– Expand Internet lines (up to 7 lines)\n– Set up load balancing and Internet failover\n– Admin documentation", "3 days"] },
+            { "cells": ["TLCB-WAN-M", "– Expand Internet lines (up to 4,095 lines)\n– Set up load balancing and Internet failover\n– Admin documentation", "3 days"] },
+            { "cells": ["TLCB-SRV-1", "– Set up load balancing for 1 pair of same-function servers (web/mail)\n– Admin documentation", "3 days"] },
+            { "cells": ["TLCB-SRV-2", "– Set up load balancing for 2 pairs of same-function servers (web/mail)\n– Admin documentation", "3 days"] },
+            { "cells": ["TLCB-WEB-C", "– Configure marketing web access to a fixed website\n– Admin documentation", "3 days"] },
+            { "cells": ["TLCB-WEB-D", "– Design a homepage for the marketing website\n– Configure marketing web filtering\n– Configure marketing data collection\n– Admin documentation", "1 month"] }
+          ]
+        },
+        "commitments": [
+          { "title": "Post-Deployment Support", "items": ["Remote or on-site support.", "24/7 support package.", "8/5 support package."] },
+          { "title": "Warranty Support", "items": ["Priority warranty service, with equivalent loaner equipment provided during the warranty period."] },
+          { "title": "Deployment Personnel", "items": ["Over 20 years of experience in information technology, having consulted on, supplied, and deployed many infrastructure, server, virtualization, networking, and security solutions."] }
         ]
       },
       "centralControl": {
@@ -395,7 +435,28 @@
           { "label": "Troubleshooting time", "col1": "1 hour / workstation", "col2": "15 seconds / control workstation" },
           { "label": "Security upgrade time", "col1": "4 hours / workstation", "col2": "4 hours / central processing server" }
         ],
-        "closingNote": "The comparison clearly shows the advantage of the central control solution: from investment cost, operating cost, and troubleshooting time to security upgrades — since security only needs to be upgraded on the central server, as the control workstations themselves store no data."
+        "closingNote": "The comparison clearly shows the advantage of the central control solution: from investment cost, operating cost, and troubleshooting time to security upgrades — since security only needs to be upgraded on the central server, as the control workstations themselves store no data.",
+        "commitmentsHeading": "Our Commitments",
+        "deploymentTable": {
+          "heading": "Deployment Timeline for One Central Processing Server",
+          "columns": ["Working Day", "Task"],
+          "rows": [
+            { "cells": ["01", "Install the operating system and applications from the provided list."] },
+            { "cells": ["02", "Move the equipment to the office to join the domain."] },
+            { "cells": ["03", "Adjust control configuration and optimize machine performance."] },
+            { "cells": ["04", "Install individual applications (Kaspersky, etc.)."] },
+            { "cells": ["05", "Create users, test client connectivity."] },
+            { "cells": ["06", "Adjust user policy profiles (mail, data, etc.)."] },
+            { "cells": ["07", "Roll out to employees for use."] },
+            { "cells": ["08 – 10", "Prepare user and admin documentation."] }
+          ],
+          "note": "Deployment time for the control workstations themselves is already included in the comparison table above."
+        },
+        "commitments": [
+          { "title": "Post-Deployment Support", "items": ["Remote or on-site support.", "24/7 support package.", "8/5 support package."] },
+          { "title": "Warranty Support", "items": ["Priority warranty service, with equivalent loaner equipment provided during the warranty period."] },
+          { "title": "Deployment Personnel", "items": ["Over 20 years of experience in information technology, having consulted on, supplied, and deployed many infrastructure, server, virtualization, networking, and security solutions."] }
+        ]
       },
       "infrastructure": {
         "hero": {

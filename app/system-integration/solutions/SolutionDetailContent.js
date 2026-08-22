@@ -16,6 +16,7 @@ export default function SolutionDetailContent({ solutionKey }) {
   const tableRows = t(`${base}.tableRows`);
   const servicesList = t(`${base}.servicesList`);
   const commitments = t(`${base}.commitments`);
+  const deploymentTable = t(`${base}.deploymentTable`);
   const closingNote = t(`${base}.closingNote`);
 
   const hasSections = Array.isArray(sections);
@@ -23,6 +24,7 @@ export default function SolutionDetailContent({ solutionKey }) {
   const hasTable = Array.isArray(tableRows);
   const hasServicesList = Array.isArray(servicesList);
   const hasCommitments = Array.isArray(commitments);
+  const hasDeploymentTable = deploymentTable && Array.isArray(deploymentTable.rows);
   const hasClosingNote = typeof closingNote === 'string' && closingNote !== `${base}.closingNote`;
 
   return (
@@ -137,36 +139,6 @@ export default function SolutionDetailContent({ solutionKey }) {
         </section>
       )}
 
-      {hasCommitments && (
-        <section className="bg-mist-50 py-20">
-          <div className="container-page">
-            <Reveal className="mx-auto max-w-2xl text-center">
-              <h2 className="text-balance font-display text-3xl font-bold text-navy-900 md:text-4xl">
-                {t(`${base}.commitmentsHeading`)}
-              </h2>
-            </Reveal>
-
-            <div className="mx-auto mt-12 grid max-w-4xl grid-cols-1 gap-6 sm:grid-cols-2">
-              {commitments.map((commitment, i) => (
-                <Reveal key={commitment.title} delay={i * 0.08}>
-                  <div className="h-full rounded-2xl bg-white p-6 shadow-soft ring-1 ring-black/5">
-                    <h3 className="font-display text-base font-bold text-ink-900">{commitment.title}</h3>
-                    <ul className="mt-3 space-y-2">
-                      {commitment.items.map((item) => (
-                        <li key={item} className="flex items-start gap-2 text-sm leading-relaxed text-ink-400">
-                          <CheckCircle2 size={16} className="mt-0.5 shrink-0 text-brand-500" />
-                          {item}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </Reveal>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-
       {hasTable && (
         <section className="bg-white py-20">
           <div className="container-page">
@@ -207,7 +179,77 @@ export default function SolutionDetailContent({ solutionKey }) {
         </section>
       )}
 
-      <section className={hasTable ? 'bg-white pb-4' : 'bg-mist-50 py-12'}>
+      {(hasCommitments || hasDeploymentTable) && (
+        <section className="bg-mist-50 py-20">
+          <div className="container-page">
+            <Reveal className="mx-auto max-w-2xl text-center">
+              <h2 className="text-balance font-display text-3xl font-bold text-navy-900 md:text-4xl">
+                {t(`${base}.commitmentsHeading`)}
+              </h2>
+            </Reveal>
+
+            {hasDeploymentTable && (
+              <Reveal delay={0.05} className="mx-auto mt-10 max-w-4xl">
+                <h3 className="text-center font-display text-lg font-bold text-navy-900">{deploymentTable.heading}</h3>
+                <div className="mt-5 overflow-x-auto rounded-2xl shadow-soft ring-1 ring-black/5">
+                  <table className="w-full min-w-[560px] border-collapse text-left text-sm">
+                    <thead>
+                      <tr className="bg-navy-950 text-white">
+                        {deploymentTable.columns.map((col) => (
+                          <th key={col} className="px-5 py-4 font-semibold">
+                            {col}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {deploymentTable.rows.map((row, i) => (
+                        <tr key={row.cells[0]} className={i % 2 === 0 ? 'bg-white' : 'bg-mist-50'}>
+                          {row.cells.map((cell, ci) => (
+                            <td
+                              key={ci}
+                              className={`whitespace-pre-line px-5 py-4 align-top ${
+                                ci === 0 ? 'font-semibold text-ink-900' : 'text-ink-400'
+                              }`}
+                            >
+                              {cell}
+                            </td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+                {deploymentTable.note && (
+                  <p className="mt-4 text-center text-xs text-ink-400">{deploymentTable.note}</p>
+                )}
+              </Reveal>
+            )}
+
+            {hasCommitments && (
+              <div className="mx-auto mt-12 grid max-w-4xl grid-cols-1 gap-6 sm:grid-cols-2">
+                {commitments.map((commitment, i) => (
+                  <Reveal key={commitment.title} delay={i * 0.08}>
+                    <div className="h-full rounded-2xl bg-white p-6 shadow-soft ring-1 ring-black/5">
+                      <h3 className="font-display text-base font-bold text-ink-900">{commitment.title}</h3>
+                      <ul className="mt-3 space-y-2">
+                        {commitment.items.map((item) => (
+                          <li key={item} className="flex items-start gap-2 text-sm leading-relaxed text-ink-400">
+                            <CheckCircle2 size={16} className="mt-0.5 shrink-0 text-brand-500" />
+                            {item}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </Reveal>
+                ))}
+              </div>
+            )}
+          </div>
+        </section>
+      )}
+
+      <section className={hasTable || hasCommitments || hasDeploymentTable ? 'bg-white pb-4' : 'bg-mist-50 py-12'}>
         <div className="container-page text-center">
           <Link
             href="/system-integration/solutions"

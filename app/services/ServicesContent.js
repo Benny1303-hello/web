@@ -4,6 +4,7 @@ import { Zap, Clock, ShieldCheck, PackageCheck } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
 import CtaBanner from '@/components/CtaBanner';
+import ClientLogos from '@/components/ClientLogos';
 import { servicesCriteria } from '@/lib/content';
 import { useLanguage } from '@/context/LanguageContext';
 
@@ -70,6 +71,8 @@ export default function ServicesContent() {
           </div>
         </div>
       </section>
+
+      <ClientLogos />
 
       <CtaBanner />
     </>

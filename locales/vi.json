@@ -27,6 +27,13 @@
     "services": "Trung tâm dịch vụ",
     "servicesAbout": "Giới thiệu Trung tâm dịch vụ",
     "servicesList": "Dịch vụ",
+    "serviceConsulting": "Tư vấn & thiết kế hệ thống",
+    "serviceInstallation": "Triển khai lắp đặt hệ thống",
+    "serviceRepair": "Sửa chữa, khắc phục sự cố",
+    "serviceMaintenance": "Bảo trì hệ thống",
+    "serviceOutsourcing": "Dịch vụ Outsourcing IT",
+    "servicesExtendedWarranty": "Bảo hành mở rộng",
+    "servicesApcWarranty": "Bảo hành vàng từ APC",
     "servicesStaff": "Đội ngũ hỗ trợ",
     "contact": "Liên hệ",
     "requestConsult": "Yêu cầu tư vấn",
@@ -66,6 +73,10 @@
     "eyebrow": "TTC-Infotech",
     "heading": "Ba trung tâm, một hệ sinh thái công nghệ trọn vẹn",
     "viewMore": "Xem thêm"
+  },
+  "clientsSection": {
+    "eyebrow": "Khách hàng tiêu biểu",
+    "heading": "Được tin tưởng bởi nhiều doanh nghiệp, tập đoàn trong và ngoài nước"
   },
   "centers": {
     "services": {
@@ -566,15 +577,16 @@
         "title": "Các dịch vụ kỹ thuật TTC-Infotech đang cung cấp",
         "description": "Từ bảo trì, sửa chữa đến tư vấn thiết kế hệ thống — đội ngũ kỹ thuật viên luôn sẵn sàng đồng hành cùng doanh nghiệp."
       },
-      "items": [
-        { "title": "Bảo trì hệ thống mạng, máy tính", "desc": "Kiểm tra định kỳ, phòng ngừa sự cố cho hệ thống mạng và máy tính doanh nghiệp." },
-        { "title": "Sửa chữa, khắc phục sự cố IT", "desc": "Chẩn đoán và xử lý nhanh chóng các sự cố hệ thống công nghệ thông tin." },
-        { "title": "Sửa chữa hệ thống nguồn UPS", "desc": "Khắc phục sự cố, bảo trì hệ thống nguồn lưu điện UPS." },
-        { "title": "Triển khai lắp đặt hệ thống", "desc": "Lắp đặt hệ thống mạng, máy tính và nguồn UPS theo tiêu chuẩn kỹ thuật." },
-        { "title": "Bảo hành mở rộng", "desc": "Bảo hành mở rộng cho UPS, máy tính, máy chủ, switch, firewall, router." },
-        { "title": "Di dời hệ thống IT", "desc": "Hỗ trợ di dời toàn bộ hệ thống IT an toàn khi doanh nghiệp chuyển văn phòng." },
-        { "title": "Tư vấn & thiết kế hệ thống", "desc": "Tư vấn giải pháp và thiết kế hệ thống phù hợp với nhu cầu doanh nghiệp." }
-      ]
+      "items": {
+        "maintenance": { "title": "Bảo trì hệ thống mạng, máy tính", "desc": "Kiểm tra định kỳ, phòng ngừa sự cố cho hệ thống mạng và máy tính doanh nghiệp." },
+        "repair": { "title": "Sửa chữa, khắc phục sự cố IT", "desc": "Chẩn đoán và xử lý nhanh chóng các sự cố hệ thống công nghệ thông tin." },
+        "upsRepair": { "title": "Sửa chữa hệ thống nguồn UPS", "desc": "Khắc phục sự cố, bảo trì hệ thống nguồn lưu điện UPS." },
+        "installation": { "title": "Triển khai lắp đặt hệ thống", "desc": "Lắp đặt hệ thống mạng, máy tính và nguồn UPS theo tiêu chuẩn kỹ thuật." },
+        "extendedWarranty": { "title": "Bảo hành mở rộng", "desc": "Bảo hành mở rộng cho UPS, máy tính, máy chủ, switch, firewall, router." },
+        "relocation": { "title": "Di dời hệ thống IT", "desc": "Hỗ trợ di dời toàn bộ hệ thống IT an toàn khi doanh nghiệp chuyển văn phòng." },
+        "consulting": { "title": "Tư vấn & thiết kế hệ thống", "desc": "Tư vấn giải pháp và thiết kế hệ thống phù hợp với nhu cầu doanh nghiệp." },
+        "outsourcing": { "title": "Dịch vụ Outsourcing IT", "desc": "Thuê ngoài nhân sự và vận hành CNTT, giúp doanh nghiệp tập trung vào hoạt động kinh doanh cốt lõi." }
+      }
     },
     "servicesStaff": {
       "hero": {
@@ -592,6 +604,156 @@
         "giang": "Hỗ trợ tư vấn thiết kế, bảo trì và sửa chữa hệ thống UPS",
         "duc": "Hỗ trợ tư vấn thiết kế giải pháp mạng, máy chủ, bảo mật và ảo hóa"
       }
+    },
+    "serviceOfferingDetail": {
+      "backToServices": "Xem các dịch vụ khác",
+      "consulting": {
+        "hero": {
+          "crumb": "Tư vấn & thiết kế hệ thống",
+          "eyebrow": "IT Consulting & Design",
+          "title": "Tư vấn và thiết kế hệ thống CNTT",
+          "description": "Đồng hành cùng doanh nghiệp từ khâu tư vấn đến thiết kế giải pháp hạ tầng phù hợp với nhu cầu thực tế."
+        },
+        "overviewHeading": "Tổng quan",
+        "solutionDesc": "TTC-Infotech mang đến đội ngũ chuyên gia tư vấn CNTT giàu kinh nghiệm, giúp doanh nghiệp lựa chọn đúng giải pháp thay vì lạc lối giữa vô số lựa chọn trên thị trường.",
+        "overview": [
+          "Hạ tầng mạng ngày càng đóng vai trò then chốt khi công nghệ ảo hóa, di động và điện toán đám mây phát triển mạnh. Bộ phận CNTT trong doanh nghiệp phải đảm bảo hiệu suất, tính sẵn sàng và bảo mật cao trong khi khối lượng công việc không ngừng tăng — nhưng không phải doanh nghiệp nào cũng có đủ nhân lực và chuyên môn nội bộ để tự triển khai các dự án mạng quy mô lớn.",
+          "Đội ngũ tư vấn của chúng tôi giúp doanh nghiệp xác định đúng công cụ và giải pháp cần thiết, thay vì phải tự cân nhắc giữa hàng loạt lựa chọn có vẻ tương tự nhau trên thị trường. CNTT nên là hệ thống hỗ trợ thầm lặng giúp doanh nghiệp phát triển, chứ không phải một gánh nặng chi phí và rủi ro."
+        ],
+        "listHeading": "Dịch vụ tư vấn CNTT của chúng tôi bao gồm",
+        "list": [
+          "Phục hồi thảm họa (Disaster Recovery) — xác định, thiết kế và triển khai giải pháp DR phù hợp với RPO/RTO của doanh nghiệp.",
+          "Tính sẵn sàng cao (High Availability) — đảm bảo tính liên tục cho các dịch vụ và ứng dụng quan trọng.",
+          "Ảo hóa máy chủ & lưu trữ — tối ưu phần cứng với các giải pháp từ VMware, Microsoft, HPE, Lenovo, giúp giảm chi phí và tăng tính linh hoạt.",
+          "Public & Private Cloud — triển khai giải pháp đám mây từ VMware, Microsoft và dịch vụ Private Cloud riêng của TTC-Infotech.",
+          "Kết nối có dây & không dây — thiết bị chuyển mạch, bộ định tuyến và giải pháp không dây từ Dell EMC, HPE Aruba, Cisco...",
+          "Kiểm tra hệ thống mạng & máy tính — đánh giá hạ tầng, chính sách và quy trình vận hành có đang an toàn, đúng chuẩn hay không.",
+          "Office 365 — triển khai bộ ứng dụng văn phòng Microsoft kết hợp email và các công cụ làm việc cộng tác."
+        ],
+        "hasClientLogos": true
+      },
+      "installation": {
+        "hero": {
+          "crumb": "Triển khai lắp đặt hệ thống",
+          "eyebrow": "Installation Service",
+          "title": "Dịch vụ triển khai lắp đặt hệ thống",
+          "description": "Từ máy tính, máy chủ, hệ thống mạng đến nguồn UPS — đội ngũ kỹ sư đồng hành cùng bạn trong toàn bộ quá trình lắp đặt."
+        },
+        "overviewHeading": "Tổng quan",
+        "solutionDesc": "TTC-Infotech quản lý toàn bộ quá trình lắp đặt hệ thống CNTT mới, giúp doanh nghiệp sớm đưa thiết bị vào sử dụng mà không phải lo lắng về kỹ thuật.",
+        "overview": [
+          "Lắp đặt một hệ thống CNTT mới có thể là một thách thức, nhưng với sự hỗ trợ và tư vấn phù hợp, quá trình này sẽ trở nên đơn giản hơn nhiều. TTC-Infotech đảm nhận toàn bộ việc lắp đặt để doanh nghiệp có thể tập trung vào hoạt động kinh doanh hàng ngày.",
+          "Mỗi dự án đều được kiểm tra bởi các kỹ sư có trình độ và kinh nghiệm chuyên sâu, đảm bảo giải pháp không chỉ đáp ứng yêu cầu kỹ thuật mà còn phù hợp với mục tiêu thực tế của khách hàng. Chúng tôi không áp dụng giải pháp rập khuôn — mỗi doanh nghiệp đều có phương án triển khai riêng phù hợp với hạ tầng của mình."
+        ],
+        "sections": [
+          {
+            "title": "Triển khai lắp đặt hệ thống máy tính, máy chủ, mạng, ảo hóa",
+            "paragraphs": [
+              "Đội ngũ kỹ sư của chúng tôi chuyên về lắp đặt CNTT — từ máy tính để bàn, máy tính xách tay, máy chủ đến các giải pháp mạng hoàn chỉnh.",
+              "Chúng tôi hợp tác chặt chẽ với khách hàng ở từng bước, từ thiết kế ban đầu, quản lý quá trình lắp đặt cho đến hỗ trợ chăm sóc sau khi hoàn tất."
+            ]
+          },
+          {
+            "title": "Triển khai lắp đặt hệ thống nguồn UPS",
+            "paragraphs": [
+              "Với đội ngũ kỹ sư được APC đào tạo và cấp chứng chỉ, chúng tôi triển khai lắp đặt hệ thống UPS APC, tủ rack, PDU và hệ thống cáp (cabling).",
+              "TTC-Infotech được APC cấp chứng nhận Elite Partner, đủ năng lực cung cấp thiết bị và triển khai hệ thống UPS 3 pha, hệ thống làm mát (Cooling) cùng các giải pháp giám sát môi trường vật lý, từ phòng mạng đến trung tâm dữ liệu — giúp khách hàng tối ưu chi phí và thời gian triển khai."
+            ]
+          }
+        ]
+      },
+      "repair": {
+        "hero": {
+          "crumb": "Sửa chữa, khắc phục sự cố IT",
+          "eyebrow": "Repair & Troubleshooting",
+          "title": "Dịch vụ sửa chữa, khắc phục sự cố hệ thống IT",
+          "description": "Chẩn đoán và xử lý sự cố hệ thống mạng, máy tính, máy chủ và nguồn UPS, giúp doanh nghiệp vận hành trở lại nhanh nhất."
+        },
+        "overviewHeading": "Tổng quan",
+        "solutionDesc": "Đội ngũ kỹ sư của Trung tâm dịch vụ TTC-Infotech đồng hành xử lý sự cố hệ thống 24/7, đảm bảo hoạt động của doanh nghiệp không bị gián đoạn lâu.",
+        "overview": [
+          "Sự cố hệ thống mạng, máy tính, máy chủ hay nguồn UPS có thể xảy ra bất cứ lúc nào và ảnh hưởng trực tiếp đến hoạt động kinh doanh. Đội ngũ hơn 30 kỹ sư của TTC-Infotech, được đào tạo bài bản và có chứng chỉ chuyên ngành từ các hãng công nghệ, sẵn sàng tiếp nhận và xử lý sự cố qua hình thức hỗ trợ từ xa hoặc tận nơi.",
+          "Với những thiết bị hư hỏng cần thời gian sửa chữa, kỹ sư của chúng tôi có thể cho khách hàng mượn thiết bị tương đương để sử dụng tạm, đảm bảo công việc không bị gián đoạn trong lúc chờ khắc phục."
+        ]
+      },
+      "maintenance": {
+        "hero": {
+          "crumb": "Bảo trì hệ thống",
+          "eyebrow": "Maintenance Service",
+          "title": "Dịch vụ bảo trì hệ thống mạng, máy tính",
+          "description": "Kiểm tra định kỳ, phát hiện sớm rủi ro và duy trì hệ thống mạng, máy tính hoạt động ổn định."
+        },
+        "overviewHeading": "Tổng quan",
+        "solutionDesc": "Bảo trì định kỳ giúp doanh nghiệp phát hiện sớm các rủi ro tiềm ẩn, hạn chế sự cố phát sinh và kéo dài tuổi thọ thiết bị.",
+        "overview": [
+          "TTC-Infotech cung cấp dịch vụ bảo trì hệ thống mạng và máy tính cho khách hàng doanh nghiệp trong hơn 20 năm qua. Việc kiểm tra, bảo trì định kỳ giúp phát hiện sớm các dấu hiệu bất thường trước khi chúng trở thành sự cố nghiêm trọng, từ đó giảm thiểu thời gian gián đoạn và chi phí sửa chữa phát sinh.",
+          "Đội ngũ kỹ sư được đào tạo và cấp chứng chỉ từ các hãng công nghệ thực hiện bảo trì theo quy trình chuyên nghiệp, hỗ trợ khách hàng với thời gian phục vụ 24/7."
+        ]
+      },
+      "outsourcing": {
+        "hero": {
+          "crumb": "Dịch vụ Outsourcing IT",
+          "eyebrow": "IT Outsourcing",
+          "title": "Dịch vụ Outsourcing (thuê ngoài) CNTT",
+          "description": "Giải pháp tối ưu chi phí giúp doanh nghiệp vận hành CNTT hiệu quả mà không cần xây dựng đội ngũ nội bộ."
+        },
+        "overviewHeading": "Tổng quan",
+        "solutionDesc": "Thuê ngoài CNTT là giải pháp tối ưu chi phí cho doanh nghiệp muốn tinh gọn vận hành mà vẫn đảm bảo chất lượng hệ thống.",
+        "overview": [
+          "Outsourcing là hình thức chuyển giao một phần hoặc toàn bộ trách nhiệm vận hành từ bộ phận nội bộ sang một đơn vị cung cấp dịch vụ chuyên trách. Nhờ đó, doanh nghiệp có thể tiết kiệm đáng kể chi phí tuyển dụng, đào tạo và quản lý nhân sự CNTT, đồng thời giảm bớt khối lượng công việc và những vấn đề liên quan đến lương thưởng, chính sách nhân sự — để tập trung nguồn lực vào hoạt động kinh doanh cốt lõi.",
+          "TTC-Infotech cung cấp dịch vụ outsourcing CNTT toàn diện, đảm nhận vai trò của đội ngũ kỹ sư và chuyên gia CNTT thường trực, giúp khách hàng không còn phải cân nhắc tuyển dụng nhân sự IT tại chỗ."
+        ],
+        "listHeading": "Lợi ích khi thuê ngoài CNTT",
+        "list": [
+          "Giảm chi phí tuyển dụng nhân sự.",
+          "Giảm chi phí đào tạo.",
+          "Giảm chi phí quản lý nhân sự.",
+          "Giảm khối lượng công việc cho bộ phận nội bộ.",
+          "Không phải lo về chính sách lương, thưởng cho nhân sự IT.",
+          "Giúp doanh nghiệp tập trung vào hoạt động kinh doanh cốt lõi."
+        ]
+      }
+    },
+    "extendedWarranty": {
+      "hero": {
+        "crumb": "Bảo hành mở rộng",
+        "eyebrow": "Extended Warranty",
+        "title": "Dịch vụ bảo hành mở rộng",
+        "description": "Mở rộng thời gian và phạm vi bảo hành cho các thiết bị CNTT và nguồn UPS, giảm thiểu rủi ro gián đoạn cho doanh nghiệp."
+      },
+      "overviewHeading": "Tổng quan",
+      "solutionDesc": "TTC-Infotech cung cấp dịch vụ bảo hành mở rộng cho các thiết bị CNTT và nguồn UPS, giúp doanh nghiệp yên tâm vận hành lâu dài.",
+      "overview": [
+        "Sau khi hết thời hạn bảo hành tiêu chuẩn của nhà sản xuất, thiết bị vẫn có thể gặp sự cố bất ngờ và phát sinh chi phí sửa chữa ngoài kế hoạch. Dịch vụ bảo hành mở rộng của TTC-Infotech giúp doanh nghiệp tiếp tục được hỗ trợ và bảo vệ thiết bị sau mốc thời gian đó, hạn chế rủi ro gián đoạn hoạt động.",
+        "Là đối tác được Schneider Electric (APC) ủy quyền bảo hành các sản phẩm UPS 1 pha và 3 pha, cùng nguồn thiết bị sẵn có, TTC-Infotech có thể xử lý yêu cầu bảo hành nhanh chóng và thuận tiện cho khách hàng."
+      ],
+      "coverageHeading": "Phạm vi bảo hành mở rộng",
+      "coverage": ["Nguồn UPS", "Máy tính", "Máy chủ", "Switch", "Firewall", "Router"],
+      "commitmentsHeading": "Cam kết bảo hành",
+      "commitments": [
+        { "title": "Hỗ trợ bảo hành", "items": ["Ưu tiên bảo hành thiết bị, có thiết bị tương đương cho mượn trong thời gian bảo hành."] },
+        { "title": "Hỗ trợ kỹ thuật", "items": ["Hỗ trợ từ xa hoặc hỗ trợ tận nơi.", "Gói hỗ trợ 24/7.", "Gói hỗ trợ 8/5."] },
+        { "title": "Nhân lực triển khai", "items": ["Hơn 20 năm kinh nghiệm trong lĩnh vực công nghệ thông tin, đã tư vấn, cung cấp và triển khai nhiều giải pháp hạ tầng, máy chủ, ảo hóa, networking và bảo mật."] }
+      ]
+    },
+    "apcGoldWarranty": {
+      "hero": {
+        "crumb": "Bảo hành vàng từ APC",
+        "eyebrow": "APC Gold Warranty",
+        "title": "Chính sách bảo hành vàng từ APC",
+        "description": "Chính sách bảo hành mới, ưu đãi hơn dành cho các sản phẩm UPS APC 1 pha, áp dụng từ ngày 1/1/2021."
+      },
+      "effectiveDate": "Áp dụng từ ngày 01/01/2021",
+      "policyHeading": "Chính sách bảo hành mới từ APC by Schneider Electric",
+      "intro": "Từ ngày 1/1/2021, APC by Schneider Electric chính thức triển khai chính sách bảo hành mới đối với các dòng sản phẩm UPS 1 pha, nhằm mang lại trải nghiệm tốt hơn cho khách hàng.",
+      "benefits": [
+        { "title": "Bảo hành 3 năm", "desc": "Thời gian bảo hành được nâng từ 2 năm lên 3 năm kể từ ngày 1/1/2021." },
+        { "title": "1 đổi 1", "desc": "Đổi mới 100% thiết bị khi phát sinh lỗi, không cần chờ sửa chữa." },
+        { "title": "Bảo hành tận nơi", "desc": "Hỗ trợ bảo hành trực tiếp tại địa điểm của khách hàng." }
+      ],
+      "contactNote": "Liên hệ ngay để được giải đáp thắc mắc về chính sách bảo hành cũng như hỗ trợ kỹ thuật.",
+      "phone1": "(+84) 28 3824 7066 – Ext 835",
+      "phone2": "Hotline: 0933 004 576"
     },
     "contact": {
       "hero": {

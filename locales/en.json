@@ -27,6 +27,13 @@
     "services": "Services Center",
     "servicesAbout": "About Services Center",
     "servicesList": "Services",
+    "serviceConsulting": "IT Consulting & Design",
+    "serviceInstallation": "Installation Service",
+    "serviceRepair": "Repair & Troubleshooting",
+    "serviceMaintenance": "Maintenance Service",
+    "serviceOutsourcing": "IT Outsourcing",
+    "servicesExtendedWarranty": "Extended Warranty",
+    "servicesApcWarranty": "APC Gold Warranty",
     "servicesStaff": "Support Team",
     "contact": "Contact",
     "requestConsult": "Request a consultation",
@@ -66,6 +73,10 @@
     "eyebrow": "TTC-Infotech",
     "heading": "Three centers, one complete technology ecosystem",
     "viewMore": "View more"
+  },
+  "clientsSection": {
+    "eyebrow": "Featured Clients",
+    "heading": "Trusted by many local and international businesses"
   },
   "centers": {
     "services": {
@@ -566,15 +577,16 @@
         "title": "Technical services TTC-Infotech currently provides",
         "description": "From maintenance and repair to consulting and system design — our engineering team is ready to support your business."
       },
-      "items": [
-        { "title": "Network & Computer Maintenance", "desc": "Periodic checks that prevent issues across enterprise networks and computers." },
-        { "title": "IT System Repair", "desc": "Fast diagnosis and troubleshooting for information technology system issues." },
-        { "title": "UPS Power System Repair", "desc": "Troubleshooting and maintenance for uninterruptible power supply systems." },
-        { "title": "System Installation", "desc": "Deploying network, computer, and UPS power installations to technical standards." },
-        { "title": "Extended Warranty", "desc": "Extended warranty coverage for UPS units, computers, servers, switches, firewalls, and routers." },
-        { "title": "IT System Relocation", "desc": "Safely relocating an entire IT system when a business moves offices." },
-        { "title": "Consulting & System Design", "desc": "Advising on solutions and designing systems suited to your business needs." }
-      ]
+      "items": {
+        "maintenance": { "title": "Network & Computer Maintenance", "desc": "Periodic checks that prevent issues across enterprise networks and computers." },
+        "repair": { "title": "IT System Repair", "desc": "Fast diagnosis and troubleshooting for information technology system issues." },
+        "upsRepair": { "title": "UPS Power System Repair", "desc": "Troubleshooting and maintenance for uninterruptible power supply systems." },
+        "installation": { "title": "System Installation", "desc": "Deploying network, computer, and UPS power installations to technical standards." },
+        "extendedWarranty": { "title": "Extended Warranty", "desc": "Extended warranty coverage for UPS units, computers, servers, switches, firewalls, and routers." },
+        "relocation": { "title": "IT System Relocation", "desc": "Safely relocating an entire IT system when a business moves offices." },
+        "consulting": { "title": "Consulting & System Design", "desc": "Advising on solutions and designing systems suited to your business needs." },
+        "outsourcing": { "title": "IT Outsourcing", "desc": "Outsourced IT staffing and operations, so your business can focus on its core activities." }
+      }
     },
     "servicesStaff": {
       "hero": {
@@ -592,6 +604,156 @@
         "giang": "Design consulting, maintenance, and repair support for UPS systems",
         "duc": "Design consulting for network, server, security, and virtualization solutions"
       }
+    },
+    "serviceOfferingDetail": {
+      "backToServices": "View other services",
+      "consulting": {
+        "hero": {
+          "crumb": "IT Consulting & Design",
+          "eyebrow": "IT Consulting & Design",
+          "title": "IT Consulting & System Design",
+          "description": "From consulting to system design — we help you build the infrastructure your business actually needs."
+        },
+        "overviewHeading": "Overview",
+        "solutionDesc": "TTC-Infotech brings experienced IT consultants to help you choose the right solution instead of getting lost among countless similar-looking options.",
+        "overview": [
+          "Network infrastructure matters more than ever as virtualization, mobility, and cloud computing keep advancing. IT departments have to deliver high performance, availability, and security while workloads keep growing — but not every organization has the in-house expertise or resources to take on large-scale network design and deployment projects on its own.",
+          "Our consulting team helps you identify the right tools and solutions instead of having to weigh a sea of options that all promise similar results. IT should be the quiet system that supports your business, not a source of cost and risk."
+        ],
+        "listHeading": "Our IT consulting services include",
+        "list": [
+          "Disaster Recovery — identifying, designing, and deploying a DR solution that meets your RPO/RTO requirements.",
+          "High Availability — keeping your critical services and applications continuously available.",
+          "Server & storage virtualization — doing more with less hardware using proven solutions from VMware, Microsoft, HPE, and Lenovo.",
+          "Public & private cloud — cloud solutions from VMware, Microsoft, and our own private cloud service.",
+          "Wired & wireless connectivity — switches, routers, and wireless solutions from Dell EMC, HPE Aruba, Cisco, and others.",
+          "Network & computer system audits — checking whether your infrastructure, policies, and operations are secure and up to standard.",
+          "Office 365 — deploying Microsoft's office suite together with email and collaboration tools."
+        ],
+        "hasClientLogos": true
+      },
+      "installation": {
+        "hero": {
+          "crumb": "Installation Service",
+          "eyebrow": "Installation Service",
+          "title": "Installation Service",
+          "description": "From computers and servers to networking and UPS power — our engineers manage the entire installation process for you."
+        },
+        "overviewHeading": "Overview",
+        "solutionDesc": "TTC-Infotech manages the entire installation of your new IT system, so you can put new equipment to use as soon as possible without worrying about the technical details.",
+        "overview": [
+          "Installing a new IT system can feel like a challenge, but with the right support and advice it becomes much simpler. TTC-Infotech takes care of the full installation so you can stay focused on running your business day to day.",
+          "Every project is reviewed by highly qualified, experienced engineers to make sure the solution meets not just the technical requirements but your actual goals as a customer. We don't believe in a one-size-fits-all approach — every company we work with gets its own fitting deployment plan."
+        ],
+        "sections": [
+          {
+            "title": "Computer, server, network & virtualization installation",
+            "paragraphs": [
+              "Our engineers specialize in IT installations — from desktops and laptops to servers and complete network solutions.",
+              "We work closely with customers at every step, from initial design through installation management and the care that follows once the project is complete."
+            ]
+          },
+          {
+            "title": "UPS power system installation",
+            "paragraphs": [
+              "With engineers trained and certified by APC, we install APC UPS systems, server racks, PDUs, and cabling.",
+              "TTC-Infotech holds APC Elite Partner certification, giving us the capability to supply equipment and deploy 3-phase UPS systems, cooling systems, and physical threat monitoring solutions from the network room to the data center — helping customers save on both cost and deployment time."
+            ]
+          }
+        ]
+      },
+      "repair": {
+        "hero": {
+          "crumb": "Repair & Troubleshooting",
+          "eyebrow": "Repair & Troubleshooting",
+          "title": "IT System Repair & Troubleshooting",
+          "description": "Diagnosing and resolving issues across networks, computers, servers, and UPS power systems, so your business is back up and running as fast as possible."
+        },
+        "overviewHeading": "Overview",
+        "solutionDesc": "The TTC-Infotech Service Center's engineers handle system issues around the clock, keeping disruption to your business to a minimum.",
+        "overview": [
+          "Network, computer, server, and UPS power issues can happen at any time and directly affect your operations. Our team of more than 30 engineers, trained and certified by leading technology vendors, is ready to take on issues remotely or on-site.",
+          "For equipment that needs time to repair, our engineers can lend an equivalent replacement device so your work isn't interrupted while the repair is underway."
+        ]
+      },
+      "maintenance": {
+        "hero": {
+          "crumb": "Maintenance Service",
+          "eyebrow": "Maintenance Service",
+          "title": "Network & Computer Maintenance Service",
+          "description": "Periodic checks that catch risks early and keep your network and computer systems running smoothly."
+        },
+        "overviewHeading": "Overview",
+        "solutionDesc": "Regular maintenance helps catch potential risks early, cuts down on unplanned incidents, and extends the life of your equipment.",
+        "overview": [
+          "TTC-Infotech has been providing network and computer maintenance services to business customers for over 20 years. Periodic checks catch early warning signs before they turn into serious issues, reducing both downtime and unplanned repair costs.",
+          "Our vendor-trained, certified engineers follow a professional maintenance process and are available to support customers around the clock."
+        ]
+      },
+      "outsourcing": {
+        "hero": {
+          "crumb": "IT Outsourcing",
+          "eyebrow": "IT Outsourcing",
+          "title": "IT Outsourcing Services",
+          "description": "A cost-effective way to keep your IT running smoothly without building an in-house team."
+        },
+        "overviewHeading": "Overview",
+        "solutionDesc": "IT outsourcing is a cost-effective solution for companies that want to streamline operations while keeping system quality high.",
+        "overview": [
+          "Outsourcing shifts some or all operating responsibilities from an internal team to a dedicated service provider. It lets a business significantly cut recruitment, training, and HR management costs, lighten the internal workload, and stop worrying about salary and bonus policies — freeing up resources to focus on core operations.",
+          "TTC-Infotech provides comprehensive IT outsourcing, taking on the role of an on-call team of engineers and IT professionals so you never have to consider hiring on-site IT specialists again."
+        ],
+        "listHeading": "Benefits of IT outsourcing",
+        "list": [
+          "Reduce recruitment costs.",
+          "Reduce training costs.",
+          "Reduce human resource management costs.",
+          "Lessen the workload on your internal team.",
+          "No more worrying about salary and bonus policies for IT staff.",
+          "Let your business focus on its core operations."
+        ]
+      }
+    },
+    "extendedWarranty": {
+      "hero": {
+        "crumb": "Extended Warranty",
+        "eyebrow": "Extended Warranty",
+        "title": "Extended Warranty Service",
+        "description": "Extending warranty coverage and duration for IT equipment and UPS power systems, reducing the risk of costly downtime."
+      },
+      "overviewHeading": "Overview",
+      "solutionDesc": "TTC-Infotech offers extended warranty coverage for IT equipment and UPS power systems, giving your business peace of mind for the long run.",
+      "overview": [
+        "Once a manufacturer's standard warranty expires, equipment can still fail unexpectedly and create unplanned repair costs. TTC-Infotech's extended warranty service keeps your equipment supported and protected beyond that point, reducing the risk of disruption to your operations.",
+        "As an authorized warranty partner for Schneider Electric (APC) on 1-phase and 3-phase UPS products, and with equipment readily on hand, TTC-Infotech can process warranty requests quickly and conveniently."
+      ],
+      "coverageHeading": "Extended warranty coverage",
+      "coverage": ["UPS power systems", "Computers", "Servers", "Switches", "Firewalls", "Routers"],
+      "commitmentsHeading": "Our Warranty Commitments",
+      "commitments": [
+        { "title": "Warranty Support", "items": ["Priority warranty service, with equivalent loaner equipment provided during the warranty period."] },
+        { "title": "Technical Support", "items": ["Remote or on-site support.", "24/7 support package.", "8/5 support package."] },
+        { "title": "Deployment Personnel", "items": ["Over 20 years of experience in information technology, having consulted on, supplied, and deployed many infrastructure, server, virtualization, networking, and security solutions."] }
+      ]
+    },
+    "apcGoldWarranty": {
+      "hero": {
+        "crumb": "APC Gold Warranty",
+        "eyebrow": "APC Gold Warranty",
+        "title": "APC Gold Warranty Policy",
+        "description": "A new, more generous warranty policy for APC 1-phase UPS products, effective January 1, 2021."
+      },
+      "effectiveDate": "Effective January 1, 2021",
+      "policyHeading": "New Warranty Policy from APC by Schneider Electric",
+      "intro": "Starting January 1, 2021, APC by Schneider Electric officially rolled out a new warranty policy for its 1-phase UPS product line, designed to deliver a better experience for customers.",
+      "benefits": [
+        { "title": "3-Year Warranty", "desc": "Warranty coverage extended from 2 years to 3 years, effective January 1, 2021." },
+        { "title": "1-for-1 Replacement", "desc": "A full replacement unit whenever a defect occurs — no waiting on a repair." },
+        { "title": "On-Site Warranty Support", "desc": "Warranty support delivered directly at your location." }
+      ],
+      "contactNote": "Get in touch for any questions about the warranty policy or for technical support.",
+      "phone1": "(+84) 28 3824 7066 – Ext 835",
+      "phone2": "Hotline: 0933 004 576"
     },
     "contact": {
       "hero": {

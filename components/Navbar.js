@@ -63,8 +63,8 @@ export default function Navbar() {
       }`}
     >
       <div className="container-page flex h-20 items-center justify-between gap-6">
-        <Link href="/" className="flex shrink-0 items-center rounded-xl bg-white px-3 py-2 shadow-soft">
-          <Image src="/logo.png" alt={site.name} width={148} height={80} className="h-10 w-auto" priority />
+        <Link href="/" className="flex shrink-0 items-center">
+          <Image src="/logo.png" alt={site.name} width={148} height={80} className="h-12 w-auto" priority />
         </Link>
 
         <nav className="hidden items-center xl:flex">

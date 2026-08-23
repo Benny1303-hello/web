@@ -243,9 +243,13 @@ export default function SolutionDetailContent({ solutionKey }) {
             )}
 
             {hasCommitments && (
-              <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="mt-12 flex flex-wrap justify-center gap-6">
                 {commitments.map((commitment, i) => (
-                  <Reveal key={commitment.title} delay={i * 0.08}>
+                  <Reveal
+                    key={commitment.title}
+                    delay={i * 0.08}
+                    className="w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]"
+                  >
                     <div className="h-full rounded-2xl bg-white p-6 shadow-soft ring-1 ring-black/5">
                       <h3 className="font-display text-base font-bold text-ink-900">{commitment.title}</h3>
                       <ul className="mt-3 space-y-2">

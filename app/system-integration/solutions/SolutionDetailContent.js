@@ -243,7 +243,7 @@ export default function SolutionDetailContent({ solutionKey }) {
             )}
 
             {hasCommitments && (
-              <div className="mx-auto mt-12 grid max-w-4xl grid-cols-1 gap-6 sm:grid-cols-2">
+              <div className="mx-auto mt-12 grid max-w-4xl grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 {commitments.map((commitment, i) => (
                   <Reveal key={commitment.title} delay={i * 0.08}>
                     <div className="h-full rounded-2xl bg-white p-6 shadow-soft ring-1 ring-black/5">

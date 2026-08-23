@@ -205,7 +205,7 @@ export default function SolutionDetailContent({ solutionKey }) {
             </Reveal>
 
             {hasDeploymentTable && (
-              <Reveal delay={0.05} className="mx-auto mt-10 max-w-4xl">
+              <Reveal delay={0.05} className="mt-10">
                 <h3 className="text-center font-display text-lg font-bold text-navy-900">{deploymentTable.heading}</h3>
                 <div className="mt-5 overflow-x-auto rounded-2xl shadow-soft ring-1 ring-black/5">
                   <table className="w-full min-w-[560px] border-collapse text-left text-sm">
@@ -243,7 +243,7 @@ export default function SolutionDetailContent({ solutionKey }) {
             )}
 
             {hasCommitments && (
-              <div className="mx-auto mt-12 grid max-w-4xl grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
                 {commitments.map((commitment, i) => (
                   <Reveal key={commitment.title} delay={i * 0.08}>
                     <div className="h-full rounded-2xl bg-white p-6 shadow-soft ring-1 ring-black/5">

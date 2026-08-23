@@ -19,12 +19,13 @@ export default function SolutionDetailContent({ solutionKey }) {
   const deploymentTable = t(`${base}.deploymentTable`);
   const closingNote = t(`${base}.closingNote`);
 
+  const hasTargets = Array.isArray(targets);
   const hasSections = Array.isArray(sections);
   const hasCategories = Array.isArray(categories);
   const hasTable = Array.isArray(tableRows);
   const hasServicesList = Array.isArray(servicesList);
   const hasCommitments = Array.isArray(commitments);
-  const hasDeploymentTable = deploymentTable && Array.isArray(deploymentTable.rows);
+  const hasDeploymentTable = deploymentTable && Array.isArray(deploymentTable.rows) && Array.isArray(deploymentTable.columns);
   const hasClosingNote = Array.isArray(closingNote);
 
   return (
@@ -50,12 +51,13 @@ export default function SolutionDetailContent({ solutionKey }) {
                 {t('pages.systemIntegrationSolutionDetail.sharedTargetsHeading')}
               </p>
               <ul className="mt-6 space-y-3">
-                {targets.map((target) => (
-                  <li key={target} className="flex items-start gap-3 text-sm text-slate-200">
-                    <CheckCircle2 size={18} className="mt-0.5 shrink-0 text-cyan-300" />
-                    {target}
-                  </li>
-                ))}
+                {hasTargets &&
+                  targets.map((target) => (
+                    <li key={target} className="flex items-start gap-3 text-sm text-slate-200">
+                      <CheckCircle2 size={18} className="mt-0.5 shrink-0 text-cyan-300" />
+                      {target}
+                    </li>
+                  ))}
               </ul>
             </div>
           </Reveal>
@@ -181,6 +183,18 @@ export default function SolutionDetailContent({ solutionKey }) {
         </section>
       )}
 
+      {!hasTable && hasClosingNote && (
+        <section className="bg-white py-20">
+          <div className="container-page">
+            <Reveal className="mx-auto max-w-3xl space-y-3">
+              {closingNote.map((note, i) => (
+                <p key={i} className="text-sm leading-relaxed text-ink-400">{note}</p>
+              ))}
+            </Reveal>
+          </div>
+        </section>
+      )}
+
       {(hasCommitments || hasDeploymentTable) && (
         <section className="bg-mist-50 py-20">
           <div className="container-page">
@@ -251,7 +265,7 @@ export default function SolutionDetailContent({ solutionKey }) {
         </section>
       )}
 
-      <section className={hasTable || hasCommitments || hasDeploymentTable ? 'bg-white pb-4' : 'bg-mist-50 py-12'}>
+      <section className={hasTable || hasCommitments || hasDeploymentTable || hasClosingNote ? 'bg-white pb-4' : 'bg-mist-50 py-12'}>
         <div className="container-page text-center">
           <Link
             href="/system-integration/solutions"

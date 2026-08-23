@@ -3,15 +3,20 @@ import SolutionDetailContent from '../SolutionDetailContent';
 import { systemIntegrationSolutions } from '@/lib/content';
 import vi from '@/locales/vi.json';
 
+function findSolution(slug) {
+  return systemIntegrationSolutions.find((item) => item.slug === slug);
+}
+
 export function generateStaticParams() {
   return systemIntegrationSolutions.map((solution) => ({ slug: solution.slug }));
 }
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
-  const solution = systemIntegrationSolutions.find((item) => item.slug === slug);
+  const solution = findSolution(slug);
   if (!solution) return {};
   const detail = vi.pages.systemIntegrationSolutionDetail[solution.key];
+  if (!detail) return {};
   return {
     title: detail.hero.crumb,
     description: detail.solutionDesc,
@@ -20,7 +25,7 @@ export async function generateMetadata({ params }) {
 
 export default async function SolutionDetailPage({ params }) {
   const { slug } = await params;
-  const solution = systemIntegrationSolutions.find((item) => item.slug === slug);
+  const solution = findSolution(slug);
   if (!solution) notFound();
 
   return <SolutionDetailContent solutionKey={solution.key} />;

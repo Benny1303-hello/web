@@ -10,7 +10,8 @@ const icons = [Wrench, ServerCrash, Zap, Network, ShieldCheck, Truck, ClipboardL
 
 export default function ListContent() {
   const { t } = useLanguage();
-  const services = t('pages.servicesList.items');
+  const servicesRaw = t('pages.servicesList.items');
+  const services = Array.isArray(servicesRaw) ? servicesRaw : [];
 
   return (
     <>

@@ -10,8 +10,10 @@ const processIcons = [ClipboardList, Layers, Rocket, LifeBuoy];
 
 export default function SystemIntegrationContent() {
   const { t } = useLanguage();
-  const benefits = t('pages.systemIntegration.benefits');
-  const process = t('pages.systemIntegration.process');
+  const benefitsRaw = t('pages.systemIntegration.benefits');
+  const processRaw = t('pages.systemIntegration.process');
+  const benefits = Array.isArray(benefitsRaw) ? benefitsRaw : [];
+  const process = Array.isArray(processRaw) ? processRaw : [];
 
   return (
     <>

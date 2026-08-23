@@ -11,8 +11,10 @@ const whyIcons = [Zap, ShieldCheck, ThumbsUp];
 
 export default function AboutContent() {
   const { t } = useLanguage();
-  const pillars = t('pages.about.pillars');
-  const whyChooseUs = t('whyChooseUs.items');
+  const pillarsRaw = t('pages.about.pillars');
+  const whyChooseUsRaw = t('whyChooseUs.items');
+  const pillars = Array.isArray(pillarsRaw) ? pillarsRaw : [];
+  const whyChooseUs = Array.isArray(whyChooseUsRaw) ? whyChooseUsRaw : [];
 
   return (
     <>

@@ -10,7 +10,8 @@ const icons = [BatteryCharging, ServerCog, Network, ShieldAlert, Cpu, Wrench];
 
 export default function ProductsContent() {
   const { t } = useLanguage();
-  const productCategories = t('productCategories');
+  const productCategoriesRaw = t('productCategories');
+  const productCategories = Array.isArray(productCategoriesRaw) ? productCategoriesRaw : [];
 
   return (
     <>

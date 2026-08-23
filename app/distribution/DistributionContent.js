@@ -2,15 +2,13 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { Zap, Wifi, MonitorSmartphone, Network, ShieldCheck, Truck, Wrench, Clock, BadgeCheck, ArrowRight } from 'lucide-react';
+import { BadgeCheck, ArrowRight } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
 import CtaBanner from '@/components/CtaBanner';
 import { distributionBrands, distributionValues, certifications } from '@/lib/content';
+import { ICONS } from '@/lib/icons';
 import { useLanguage } from '@/context/LanguageContext';
-
-const brandIcons = { Zap, Wifi, MonitorSmartphone, Network };
-const valueIcons = { ShieldCheck, Truck, Wrench, Clock };
 
 export default function DistributionContent() {
   const { t } = useLanguage();
@@ -65,7 +63,7 @@ export default function DistributionContent() {
 
           <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {distributionBrands.map((brand, i) => {
-              const Icon = brandIcons[brand.icon];
+              const Icon = ICONS[brand.icon];
               return (
                 <Reveal key={brand.key} delay={i * 0.08}>
                   <div className="h-full rounded-2xl bg-white p-7 shadow-soft ring-1 ring-black/5">
@@ -101,7 +99,7 @@ export default function DistributionContent() {
 
           <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {distributionValues.map((value, i) => {
-              const Icon = valueIcons[value.icon];
+              const Icon = ICONS[value.icon];
               return (
                 <Reveal key={value.key} delay={i * 0.08}>
                   <div className="h-full rounded-2xl border border-black/5 bg-mist-50 p-7 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-card">

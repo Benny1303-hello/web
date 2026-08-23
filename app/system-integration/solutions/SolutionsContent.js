@@ -1,14 +1,13 @@
 'use client';
 
 import Link from 'next/link';
-import { Building2, ShieldCheck, Server, Cable, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
 import CtaBanner from '@/components/CtaBanner';
 import { systemIntegrationSolutions } from '@/lib/content';
+import { ICONS } from '@/lib/icons';
 import { useLanguage } from '@/context/LanguageContext';
-
-const icons = { Building2, ShieldCheck, Server, Cable };
 
 export default function SolutionsContent() {
   const { t } = useLanguage();
@@ -36,7 +35,7 @@ export default function SolutionsContent() {
 
           <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {systemIntegrationSolutions.map((solution, i) => {
-              const Icon = icons[solution.icon];
+              const Icon = ICONS[solution.icon];
               return (
                 <Reveal key={solution.key} delay={i * 0.1}>
                   <Link

@@ -1,12 +1,11 @@
 'use client';
 
-import { Network, PackageSearch, Wrench, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 import Reveal from '@/components/Reveal';
 import { centers } from '@/lib/content';
+import { ICONS } from '@/lib/icons';
 import { useLanguage } from '@/context/LanguageContext';
-
-const icons = { services: Wrench, distribution: PackageSearch, 'system-integration': Network };
 
 export default function CentersGrid() {
   const { t } = useLanguage();
@@ -23,7 +22,7 @@ export default function CentersGrid() {
 
         <div className="mt-14 grid grid-cols-1 gap-6 md:grid-cols-3">
           {centers.map((center, i) => {
-            const Icon = icons[center.slug];
+            const Icon = ICONS[center.icon];
             return (
               <Reveal key={center.slug} delay={i * 0.1}>
                 <Link

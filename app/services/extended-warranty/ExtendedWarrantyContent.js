@@ -1,9 +1,10 @@
 'use client';
 
-import { CheckCircle2 } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
 import CtaBanner from '@/components/CtaBanner';
+import ChecklistPanel from '@/components/ChecklistPanel';
+import CommitmentsGrid from '@/components/CommitmentsGrid';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function ExtendedWarrantyContent() {
@@ -45,19 +46,7 @@ export default function ExtendedWarrantyContent() {
 
           {hasCoverage && (
             <Reveal delay={0.1}>
-              <div className="rounded-3xl bg-hero-mesh p-8 text-white">
-                <p className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">
-                  {t('pages.extendedWarranty.coverageHeading')}
-                </p>
-                <ul className="mt-6 space-y-3">
-                  {coverage.map((item) => (
-                    <li key={item} className="flex items-start gap-3 text-sm text-slate-200">
-                      <CheckCircle2 size={18} className="mt-0.5 shrink-0 text-cyan-300" />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              <ChecklistPanel heading={t('pages.extendedWarranty.coverageHeading')} items={coverage} />
             </Reveal>
           )}
         </div>
@@ -72,27 +61,7 @@ export default function ExtendedWarrantyContent() {
               </h2>
             </Reveal>
 
-            <div className="mt-12 flex flex-wrap justify-center gap-6">
-              {commitments.map((commitment, i) => (
-                <Reveal
-                  key={commitment.title}
-                  delay={i * 0.08}
-                  className="w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]"
-                >
-                  <div className="h-full rounded-2xl bg-white p-6 shadow-soft ring-1 ring-black/5">
-                    <h3 className="font-display text-base font-bold text-ink-900">{commitment.title}</h3>
-                    <ul className="mt-3 space-y-2">
-                      {commitment.items.map((item) => (
-                        <li key={item} className="flex items-start gap-2 text-sm leading-relaxed text-ink-400">
-                          <CheckCircle2 size={16} className="mt-0.5 shrink-0 text-brand-500" />
-                          {item}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </Reveal>
-              ))}
-            </div>
+            <CommitmentsGrid commitments={commitments} />
           </div>
         </section>
       )}

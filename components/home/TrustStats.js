@@ -10,7 +10,8 @@ const icons = [Zap, ShieldCheck, ThumbsUp];
 
 export default function TrustStats() {
   const { t } = useLanguage();
-  const trustBadges = t('trustBadges');
+  const trustBadgesRaw = t('trustBadges');
+  const trustBadges = Array.isArray(trustBadgesRaw) ? trustBadgesRaw : [];
 
   return (
     <section className="relative bg-slate-200">

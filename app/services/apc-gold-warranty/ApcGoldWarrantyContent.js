@@ -72,8 +72,8 @@ export default function ApcGoldWarrantyContent() {
               <Image
                 src="/apc-gold-warranty.jpg"
                 alt={t('pages.apcGoldWarranty.hero.title')}
-                width={800}
-                height={800}
+                width={400}
+                height={400}
                 className="h-auto w-full"
               />
             </div>

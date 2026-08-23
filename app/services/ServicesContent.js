@@ -1,14 +1,12 @@
 'use client';
 
-import { Zap, Clock, ShieldCheck, PackageCheck } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
 import CtaBanner from '@/components/CtaBanner';
 import ClientLogos from '@/components/ClientLogos';
 import { servicesCriteria } from '@/lib/content';
+import { ICONS } from '@/lib/icons';
 import { useLanguage } from '@/context/LanguageContext';
-
-const criteriaIcons = { Zap, Clock, ShieldCheck, PackageCheck };
 
 export default function ServicesContent() {
   const { t } = useLanguage();
@@ -49,7 +47,7 @@ export default function ServicesContent() {
 
           <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {servicesCriteria.map((item, i) => {
-              const Icon = criteriaIcons[item.icon];
+              const Icon = ICONS[item.icon];
               return (
                 <Reveal key={item.key} delay={i * 0.08}>
                   <div className="h-full rounded-2xl bg-white p-7 shadow-soft ring-1 ring-black/5">

@@ -21,6 +21,13 @@ export default function ServiceOfferingDetailContent({ offeringKey }) {
   const hasSections = Array.isArray(sections);
   const hasList = Array.isArray(list);
 
+  // Tracks the background of whichever optional section rendered last, so the
+  // closing "back to services" section can always alternate against it —
+  // including when none of the optional sections render at all (repair,
+  // maintenance) and the overview's bg-white would otherwise repeat.
+  const lastSectionIsWhite = hasClientLogos || (hasList ? hasSections : !hasSections);
+  const backLinkBg = lastSectionIsWhite ? 'bg-mist-50' : 'bg-white';
+
   return (
     <>
       <PageHero
@@ -87,7 +94,7 @@ export default function ServiceOfferingDetailContent({ offeringKey }) {
 
       {hasClientLogos && <ClientLogos />}
 
-      <section className={hasClientLogos ? 'bg-mist-50 pb-4 pt-12' : 'bg-white pb-4 pt-12'}>
+      <section className={`${backLinkBg} pb-4 pt-12`}>
         <div className="container-page text-center">
           <Link
             href="/services/list"

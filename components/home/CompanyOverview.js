@@ -7,8 +7,10 @@ import { useLanguage } from '@/context/LanguageContext';
 
 export default function CompanyOverview() {
   const { t } = useLanguage();
-  const points = t('companyOverview.points');
-  const steps = t('companyOverview.steps');
+  const pointsRaw = t('companyOverview.points');
+  const stepsRaw = t('companyOverview.steps');
+  const points = Array.isArray(pointsRaw) ? pointsRaw : [];
+  const steps = Array.isArray(stepsRaw) ? stepsRaw : [];
 
   return (
     <section className="bg-mist-50 py-20">

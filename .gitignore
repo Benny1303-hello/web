@@ -7,3 +7,8 @@ out
 npm-debug.log*
 .DS_Store
 .claude/settings.local.json
+.env*
+
+# Raw extracted supplier price data (wholesale/dealer pricing — must never
+# reach the public repo). Produced by the product-excel-extract skill.
+data/product-imports/

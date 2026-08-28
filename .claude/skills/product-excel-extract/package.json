@@ -1,0 +1,8 @@
+{
+  "name": "product-excel-extract-tools",
+  "private": true,
+  "description": "Local dependency install for the product-excel-extract skill's read_sheet.js helper. Not published, not part of the site build.",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}

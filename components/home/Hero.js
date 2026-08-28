@@ -27,8 +27,17 @@ export default function Hero() {
               TTC-INFOTECH
             </span>
           </h1>
-          <p className="mt-4 text-sm font-semibold uppercase tracking-[0.3em] text-brand-400">
-            {t('hero.subtitle')}
+          <p className="mt-4 flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-center text-[11px] font-semibold uppercase tracking-[0.15em] text-brand-400 sm:text-sm sm:tracking-[0.2em]">
+            {t('hero.subtitle')
+              .split('·')
+              .map((part) => part.trim())
+              .filter(Boolean)
+              .map((part, i, arr) => (
+                <span key={part} className="flex items-center gap-x-2 whitespace-nowrap">
+                  {part}
+                  {i < arr.length - 1 && <span aria-hidden="true">·</span>}
+                </span>
+              ))}
           </p>
           <p className="mx-auto mt-6 max-w-lg text-balance text-slate-300">
             {t('hero.description')}

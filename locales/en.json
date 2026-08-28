@@ -51,9 +51,9 @@
     "ctaSecondary": "Learn more"
   },
   "trustBadges": [
-    { "title": "Quick response", "desc": "Committed emergency response time within one hour or less." },
+    { "title": "Quick Response", "desc": "Committed emergency response time within one hour or less." },
     { "title": "Reputable", "desc": "Over 20 years as one of the leading information technology enterprises." },
-    { "title": "Satisfaction guaranteed", "desc": "We do everything necessary to make sure our customers are truly satisfied." }
+    { "title": "Satisfaction Guaranteed", "desc": "We do everything necessary to make sure our customers are truly satisfied." }
   ],
   "stats": {
     "years": "Years of experience",
@@ -123,9 +123,9 @@
     "eyebrow": "Why choose us",
     "heading": "Committed to quality at every stage of our partnership",
     "items": [
-      { "title": "Quick response", "desc": "Emergency response within one hour or less. We can access systems remotely to resolve many issues right away without waiting for a technician to travel on-site." },
+      { "title": "Quick Response", "desc": "Emergency response within one hour or less. We can access systems remotely to resolve many issues right away without waiting for a technician to travel on-site." },
       { "title": "Reputable", "desc": "Over 20 years as one of the leading information technology enterprises. Our greatest achievement is a growing base of long-term, loyal customers." },
-      { "title": "Satisfaction guaranteed", "desc": "We want our customers to be completely satisfied with our service, and we're ready to do whatever it takes to give you peace of mind — no hassle, no headaches." }
+      { "title": "Satisfaction Guaranteed", "desc": "We want our customers to be completely satisfied with our service, and we're ready to do whatever it takes to give you peace of mind — no hassle, no headaches." }
     ]
   },
   "certificationsSection": {
@@ -280,10 +280,10 @@
       ],
       "processHeading": "Implementation process",
       "process": [
-        { "title": "Survey & consulting", "desc": "Assess the current state of your infrastructure and gather your business's requirements and operating goals." },
-        { "title": "Solution design", "desc": "Build an optimal integration architecture, seamlessly combining equipment from different vendors." },
+        { "title": "Survey & Consulting", "desc": "Assess the current state of your infrastructure and gather your business's requirements and operating goals." },
+        { "title": "Solution Design", "desc": "Build an optimal integration architecture, seamlessly combining equipment from different vendors." },
         { "title": "Deployment", "desc": "Install, configure, and thoroughly test everything before bringing the system into official operation." },
-        { "title": "Operational support", "desc": "Ongoing monitoring, periodic maintenance, and continuous technical support after deployment." }
+        { "title": "Operational Support", "desc": "Ongoing monitoring, periodic maintenance, and continuous technical support after deployment." }
       ]
     },
     "systemIntegrationSolutions": {
@@ -393,7 +393,7 @@
           { "title": "Internet Load Balancing", "desc": "As Internet demand grows quickly, balancing load across multiple connections optimizes investment cost more effectively than simply upgrading connection speed alone." },
           { "title": "Website Load Balancing", "desc": "Meets the needs of businesses running high-traffic websites, ensuring stable, healthy connections for users." },
           { "title": "Website Filtering & User Protection", "desc": "Protects employees from malicious websites and prevents business data leakage over Internet connections." },
-          { "title": "Advertising Over the Internet", "desc": "Meets the online product advertising needs of businesses with store chains or shopping centers." },
+          { "title": "Advertising over the Internet", "desc": "Meets the online product advertising needs of businesses with store chains or shopping centers." },
           { "title": "Virtualization Technology", "desc": "Lets businesses upgrade and swap hardware more proactively, while enabling fast backup and recovery when errors occur." }
         ],
         "tableIntro": "Comparison for a business with 50 employees",
@@ -498,18 +498,18 @@
             "title": "APC System Infrastructure (UPS, Cooling, Sensor)",
             "desc": "As a leading distributor of APC power storage products, we deliver premium, optimized power infrastructure solutions for efficiency and safety.",
             "items": [
-              { "title": "Building & data center power storage", "desc": "Backup power storage solutions for large-capacity needs, from a few hundred KVA up to thousands of KVA." },
-              { "title": "Server room power storage", "desc": "Single-phase to three-phase power storage solutions, meeting the highest standards for your specific needs." },
-              { "title": "Server room cooling systems", "desc": "Standardized cooling solutions that optimize cost and operating efficiency." },
-              { "title": "Dedicated monitoring systems", "desc": "Monitoring temperature, humidity, and motion in the server room to prevent equipment damage risks." }
+              { "title": "Building & Data Center Power Storage", "desc": "Backup power storage solutions for large-capacity needs, from a few hundred KVA up to thousands of KVA." },
+              { "title": "Server Room Power Storage", "desc": "Single-phase to three-phase power storage solutions, meeting the highest standards for your specific needs." },
+              { "title": "Server Room Cooling Systems", "desc": "Standardized cooling solutions that optimize cost and operating efficiency." },
+              { "title": "Dedicated Monitoring Systems", "desc": "Monitoring temperature, humidity, and motion in the server room to prevent equipment damage risks." }
             ]
           },
           {
             "title": "Network Infrastructure",
             "desc": "Network connectivity is a decisive factor for business growth in today's technology environment.",
             "items": [
-              { "title": "Network connectivity design consulting", "desc": "Design consulting and deployment of wired and wireless infrastructure to a standard quality." },
-              { "title": "Server room network cabling", "desc": "Deploying standardized network cabling systems, ensuring stable connectivity for the server room." }
+              { "title": "Network Connectivity Design Consulting", "desc": "Design consulting and deployment of wired and wireless infrastructure to a standard quality." },
+              { "title": "Server Room Network Cabling", "desc": "Deploying standardized network cabling systems, ensuring stable connectivity for the server room." }
             ]
           }
         ],
@@ -650,14 +650,14 @@
         ],
         "sections": [
           {
-            "title": "Computer, server, network & virtualization installation",
+            "title": "Computer, Server, Network & Virtualization Installation",
             "paragraphs": [
               "Our engineers specialize in IT installations — from desktops and laptops to servers and complete network solutions.",
               "We work closely with customers at every step, from initial design through installation management and the care that follows once the project is complete."
             ]
           },
           {
-            "title": "UPS power system installation",
+            "title": "UPS Power System Installation",
             "paragraphs": [
               "With engineers trained and certified by APC, we install APC UPS systems, server racks, PDUs, and cabling.",
               "TTC-Infotech holds APC Elite Partner certification, giving us the capability to supply equipment and deploy 3-phase UPS systems, cooling systems, and physical threat monitoring solutions from the network room to the data center — helping customers save on both cost and deployment time."
@@ -751,7 +751,7 @@
       "intro": "Starting January 1, 2021, APC by Schneider Electric officially rolled out a new warranty policy for its 1-phase UPS product line, designed to deliver a better experience for customers.",
       "benefits": [
         { "title": "3-Year Warranty", "desc": "Warranty coverage extended from 2 years to 3 years, effective January 1, 2021." },
-        { "title": "1-for-1 Replacement", "desc": "A full replacement unit whenever a defect occurs — no waiting on a repair." },
+        { "title": "1-For-1 Replacement", "desc": "A full replacement unit whenever a defect occurs — no waiting on a repair." },
         { "title": "On-Site Warranty Support", "desc": "Warranty support delivered directly at your location." }
       ],
       "contactNote": "Get in touch for any questions about the warranty policy or for technical support.",

@@ -51,9 +51,9 @@
     "ctaSecondary": "Tìm hiểu thêm"
   },
   "trustBadges": [
-    { "title": "Phản hồi nhanh chóng", "desc": "Cam kết thời gian phản hồi khẩn cấp trong vòng một giờ hoặc ít hơn." },
-    { "title": "Uy tín", "desc": "Hơn 20 năm là một trong những doanh nghiệp công nghệ thông tin hàng đầu." },
-    { "title": "Đảm bảo hài lòng", "desc": "Chúng tôi làm mọi thứ cần thiết để khách hàng thực sự hài lòng." }
+    { "title": "Phản Hồi Nhanh Chóng", "desc": "Cam kết thời gian phản hồi khẩn cấp trong vòng một giờ hoặc ít hơn." },
+    { "title": "Uy Tín", "desc": "Hơn 20 năm là một trong những doanh nghiệp công nghệ thông tin hàng đầu." },
+    { "title": "Đảm Bảo Hài Lòng", "desc": "Chúng tôi làm mọi thứ cần thiết để khách hàng thực sự hài lòng." }
   ],
   "stats": {
     "years": "Năm kinh nghiệm",
@@ -83,15 +83,15 @@
   },
   "centers": {
     "services": {
-      "title": "Trung tâm dịch vụ",
+      "title": "Trung Tâm Dịch Vụ",
       "short": "Đội ngũ kỹ thuật viên giàu kinh nghiệm, đánh giá và xử lý sự cố nhanh chóng với chi phí tối ưu nhất."
     },
     "distribution": {
-      "title": "Trung tâm phân phối",
+      "title": "Trung Tâm Phân Phối",
       "short": "Một trong những nhà phân phối công nghệ hàng đầu Việt Nam, tối ưu giải pháp cho từng đối tác kênh phân phối."
     },
     "systemIntegration": {
-      "title": "Tích hợp hệ thống",
+      "title": "Tích Hợp Hệ Thống",
       "short": "Tối ưu hiệu quả hạ tầng, tái sử dụng hệ thống cũ, tiết kiệm chi phí khi tích hợp sản phẩm từ nhiều hãng khác nhau."
     }
   },
@@ -123,9 +123,9 @@
     "eyebrow": "Vì sao chọn chúng tôi",
     "heading": "Cam kết chất lượng ở mọi giai đoạn hợp tác",
     "items": [
-      { "title": "Phản hồi nhanh chóng", "desc": "Thời gian phản hồi khẩn cấp trong một giờ hoặc ít hơn. Chúng tôi có thể truy cập từ xa để xử lý ngay nhiều sự cố mà không cần chờ kỹ thuật viên di chuyển." },
-      { "title": "Uy tín", "desc": "Hơn 20 năm là một trong những doanh nghiệp công nghệ thông tin hàng đầu. Thành tựu lớn nhất là số lượng khách hàng gắn bó lâu dài ngày càng tăng." },
-      { "title": "Đảm bảo hài lòng", "desc": "Chúng tôi muốn khách hàng hoàn toàn hài lòng với dịch vụ, sẵn sàng làm mọi thứ cần thiết để bạn an tâm — không rắc rối, không phiền toái." }
+      { "title": "Phản Hồi Nhanh Chóng", "desc": "Thời gian phản hồi khẩn cấp trong một giờ hoặc ít hơn. Chúng tôi có thể truy cập từ xa để xử lý ngay nhiều sự cố mà không cần chờ kỹ thuật viên di chuyển." },
+      { "title": "Uy Tín", "desc": "Hơn 20 năm là một trong những doanh nghiệp công nghệ thông tin hàng đầu. Thành tựu lớn nhất là số lượng khách hàng gắn bó lâu dài ngày càng tăng." },
+      { "title": "Đảm Bảo Hài Lòng", "desc": "Chúng tôi muốn khách hàng hoàn toàn hài lòng với dịch vụ, sẵn sàng làm mọi thứ cần thiết để bạn an tâm — không rắc rối, không phiền toái." }
     ]
   },
   "certificationsSection": {
@@ -191,9 +191,9 @@
         "desc": "Chúng tôi tin rằng mỗi khách hàng là một đối tác, cùng nhau xây dựng dịch vụ IT chất lượng với chi phí hợp lý. Đội ngũ chuyên gia thân thiện, giàu kinh nghiệm luôn sẵn sàng chỉ sau một cuộc gọi, email hay tin nhắn."
       },
       "pillars": [
-        { "title": "Sứ mệnh", "desc": "Mang đến nền tảng vận hành số cho doanh nghiệp, đồng hành cùng Việt Nam trên hành trình trở thành nền kinh tế dựa trên khoa học công nghệ." },
-        { "title": "Khát vọng", "desc": "Luôn đặt lợi ích khách hàng lên hàng đầu, với khát khao giúp doanh nghiệp vận hành hiệu quả và nhanh chóng hơn mỗi ngày." },
-        { "title": "Con người", "desc": "Đội ngũ làm việc bằng đam mê, yêu công nghệ và không ngừng đổi mới trong từng dự án, luôn nêu cao tinh thần dẫn dắt." }
+        { "title": "Sứ Mệnh", "desc": "Mang đến nền tảng vận hành số cho doanh nghiệp, đồng hành cùng Việt Nam trên hành trình trở thành nền kinh tế dựa trên khoa học công nghệ." },
+        { "title": "Khát Vọng", "desc": "Luôn đặt lợi ích khách hàng lên hàng đầu, với khát khao giúp doanh nghiệp vận hành hiệu quả và nhanh chóng hơn mỗi ngày." },
+        { "title": "Con Người", "desc": "Đội ngũ làm việc bằng đam mê, yêu công nghệ và không ngừng đổi mới trong từng dự án, luôn nêu cao tinh thần dẫn dắt." }
       ]
     },
     "distribution": {
@@ -223,10 +223,10 @@
         "heading": "Vì sao đại lý & channel partner chọn đồng hành cùng TTC-Infotech"
       },
       "values": {
-        "genuine": { "title": "Sản phẩm chính hãng", "desc": "Cung cấp sản phẩm chính hãng, đảm bảo chất lượng với đầy đủ chứng nhận từ nhà sản xuất." },
-        "delivery": { "title": "Giao hàng tận tâm", "desc": "Giao hàng nhanh chóng, chu đáo, đảm bảo tiến độ cho từng đơn hàng của đối tác." },
-        "installation": { "title": "Hỗ trợ lắp đặt", "desc": "Tư vấn và triển khai lắp đặt hoàn chỉnh, đồng hành cùng đối tác từ khâu tư vấn đến vận hành." },
-        "warranty": { "title": "Bảo hành nhanh chóng", "desc": "Hỗ trợ bảo hành, bảo trì tận nơi cho khách hàng cuối, xử lý nhanh mọi yêu cầu bảo hành." }
+        "genuine": { "title": "Sản Phẩm Chính Hãng", "desc": "Cung cấp sản phẩm chính hãng, đảm bảo chất lượng với đầy đủ chứng nhận từ nhà sản xuất." },
+        "delivery": { "title": "Giao Hàng Tận Tâm", "desc": "Giao hàng nhanh chóng, chu đáo, đảm bảo tiến độ cho từng đơn hàng của đối tác." },
+        "installation": { "title": "Hỗ Trợ Lắp Đặt", "desc": "Tư vấn và triển khai lắp đặt hoàn chỉnh, đồng hành cùng đối tác từ khâu tư vấn đến vận hành." },
+        "warranty": { "title": "Bảo Hành Nhanh Chóng", "desc": "Hỗ trợ bảo hành, bảo trì tận nơi cho khách hàng cuối, xử lý nhanh mọi yêu cầu bảo hành." }
       },
       "viewProducts": "Xem toàn bộ danh mục sản phẩm"
     },
@@ -280,10 +280,10 @@
       ],
       "processHeading": "Quy trình triển khai",
       "process": [
-        { "title": "Khảo sát & tư vấn", "desc": "Đánh giá hiện trạng hạ tầng, thu thập yêu cầu và mục tiêu vận hành của doanh nghiệp." },
-        { "title": "Thiết kế giải pháp", "desc": "Xây dựng kiến trúc tích hợp tối ưu, kết hợp thiết bị của nhiều hãng khác nhau một cách đồng bộ." },
-        { "title": "Triển khai", "desc": "Lắp đặt, cấu hình và kiểm thử toàn diện trước khi đưa hệ thống vào vận hành chính thức." },
-        { "title": "Hỗ trợ vận hành", "desc": "Giám sát, bảo trì định kỳ và hỗ trợ kỹ thuật liên tục sau triển khai." }
+        { "title": "Khảo Sát & Tư Vấn", "desc": "Đánh giá hiện trạng hạ tầng, thu thập yêu cầu và mục tiêu vận hành của doanh nghiệp." },
+        { "title": "Thiết Kế Giải Pháp", "desc": "Xây dựng kiến trúc tích hợp tối ưu, kết hợp thiết bị của nhiều hãng khác nhau một cách đồng bộ." },
+        { "title": "Triển Khai", "desc": "Lắp đặt, cấu hình và kiểm thử toàn diện trước khi đưa hệ thống vào vận hành chính thức." },
+        { "title": "Hỗ Trợ Vận Hành", "desc": "Giám sát, bảo trì định kỳ và hỗ trợ kỹ thuật liên tục sau triển khai." }
       ]
     },
     "systemIntegrationSolutions": {
@@ -299,10 +299,10 @@
         "desc": "Từ tối ưu hạ tầng cho doanh nghiệp vừa và nhỏ, bảo mật hệ thống mạng, đến điều khiển tập trung — TTC-Infotech thiết kế giải pháp dựa trên nhu cầu thực tế, cân bằng giữa chi phí đầu tư và hiệu quả vận hành lâu dài."
       },
       "items": {
-        "smb": { "title": "Giải pháp IT cho doanh nghiệp vừa và nhỏ", "short": "Tối ưu chi phí đầu tư, vận hành và bảo mật hạ tầng IT cho doanh nghiệp quy mô vừa và nhỏ." },
-        "firewallLoadBalancing": { "title": "Giải pháp Firewall & Cân bằng tải", "short": "Bảo vệ hệ thống trước các mối đe dọa từ Internet, đồng thời cân bằng tải đường truyền và website." },
-        "centralControl": { "title": "Giải pháp điều khiển tập trung", "short": "Quản lý tập trung toàn bộ máy trạm từ một hệ thống xử lý trung tâm, tăng bảo mật và giảm chi phí vận hành." },
-        "infrastructure": { "title": "Dịch vụ hạ tầng công nghệ thông tin", "short": "Thi công, triển khai và hỗ trợ hạ tầng nguồn điện, mạng và máy chủ toàn diện cho doanh nghiệp." }
+        "smb": { "title": "Giải Pháp IT Cho Doanh Nghiệp Vừa Và Nhỏ", "short": "Tối ưu chi phí đầu tư, vận hành và bảo mật hạ tầng IT cho doanh nghiệp quy mô vừa và nhỏ." },
+        "firewallLoadBalancing": { "title": "Giải Pháp Firewall & Cân Bằng Tải", "short": "Bảo vệ hệ thống trước các mối đe dọa từ Internet, đồng thời cân bằng tải đường truyền và website." },
+        "centralControl": { "title": "Giải Pháp Điều Khiển Tập Trung", "short": "Quản lý tập trung toàn bộ máy trạm từ một hệ thống xử lý trung tâm, tăng bảo mật và giảm chi phí vận hành." },
+        "infrastructure": { "title": "Dịch Vụ Hạ Tầng Công Nghệ Thông Tin", "short": "Thi công, triển khai và hỗ trợ hạ tầng nguồn điện, mạng và máy chủ toàn diện cho doanh nghiệp." }
       }
     },
     "systemIntegrationSolutionDetail": {
@@ -329,9 +329,9 @@
         "solutionDesc": "TTC-Infotech mang đến giải pháp tích hợp công nghệ phù hợp với nhu cầu thực tế của từng doanh nghiệp, hướng đến mục tiêu nâng cao hiệu quả vận hành.",
         "sectionsHeading": "Các thành phần giải pháp",
         "sections": [
-          { "title": "Hệ thống ảo hóa (Virtualization)", "desc": "Công nghệ ảo hóa giúp khai thác tối đa công suất máy chủ bằng cách chia một máy chủ vật lý thành nhiều máy chủ ảo độc lập. Đồng thời cho phép sao lưu và khôi phục hệ thống nhanh chóng khi gặp sự cố phần cứng hoặc mã độc." },
-          { "title": "Hệ thống Firewall", "desc": "Firewall bảo vệ doanh nghiệp trước các mối đe dọa từ bên ngoài, đặc biệt ngăn chặn xâm nhập từ Internet vào hệ thống nội bộ và rò rỉ dữ liệu. Đồng thời hỗ trợ kết nối an toàn giữa các chi nhánh qua VPN." },
-          { "title": "Hệ thống điều khiển tập trung", "desc": "Người dùng thao tác trên máy trạm cấu hình thấp (Windows/Linux/Android...), kết nối tới máy chủ xử lý trung tâm (cấu hình cao, phần mềm bản quyền) để chạy ứng dụng công việc trên nền Windows." }
+          { "title": "Hệ Thống Ảo Hóa (Virtualization)", "desc": "Công nghệ ảo hóa giúp khai thác tối đa công suất máy chủ bằng cách chia một máy chủ vật lý thành nhiều máy chủ ảo độc lập. Đồng thời cho phép sao lưu và khôi phục hệ thống nhanh chóng khi gặp sự cố phần cứng hoặc mã độc." },
+          { "title": "Hệ Thống Firewall", "desc": "Firewall bảo vệ doanh nghiệp trước các mối đe dọa từ bên ngoài, đặc biệt ngăn chặn xâm nhập từ Internet vào hệ thống nội bộ và rò rỉ dữ liệu. Đồng thời hỗ trợ kết nối an toàn giữa các chi nhánh qua VPN." },
+          { "title": "Hệ Thống Điều Khiển Tập Trung", "desc": "Người dùng thao tác trên máy trạm cấu hình thấp (Windows/Linux/Android...), kết nối tới máy chủ xử lý trung tâm (cấu hình cao, phần mềm bản quyền) để chạy ứng dụng công việc trên nền Windows." }
         ],
         "tableIntro": "So sánh trong doanh nghiệp có 20 nhân viên",
         "tableCol1": "Giải pháp truyền thống",
@@ -372,9 +372,9 @@
           ]
         },
         "commitments": [
-          { "title": "Hỗ trợ sau triển khai", "items": ["Hỗ trợ từ xa hoặc hỗ trợ tận nơi.", "Gói hỗ trợ 24/7.", "Gói hỗ trợ 8/5."] },
-          { "title": "Hỗ trợ bảo hành", "items": ["Ưu tiên bảo hành thiết bị, có thiết bị tương đương cho mượn trong thời gian bảo hành."] },
-          { "title": "Nhân lực triển khai", "items": ["Hơn 20 năm kinh nghiệm trong lĩnh vực công nghệ thông tin, đã tư vấn, cung cấp và triển khai nhiều giải pháp hạ tầng, máy chủ, ảo hóa, networking và bảo mật."] }
+          { "title": "Hỗ Trợ Sau Triển Khai", "items": ["Hỗ trợ từ xa hoặc hỗ trợ tận nơi.", "Gói hỗ trợ 24/7.", "Gói hỗ trợ 8/5."] },
+          { "title": "Hỗ Trợ Bảo Hành", "items": ["Ưu tiên bảo hành thiết bị, có thiết bị tương đương cho mượn trong thời gian bảo hành."] },
+          { "title": "Nhân Lực Triển Khai", "items": ["Hơn 20 năm kinh nghiệm trong lĩnh vực công nghệ thông tin, đã tư vấn, cung cấp và triển khai nhiều giải pháp hạ tầng, máy chủ, ảo hóa, networking và bảo mật."] }
         ]
       },
       "firewallLoadBalancing": {
@@ -390,11 +390,11 @@
         "sectionsHeading": "Chức năng chính",
         "sections": [
           { "title": "Firewall", "desc": "Bảo vệ doanh nghiệp trước các mối đe dọa từ bên ngoài, đặc biệt ngăn chặn xâm nhập từ Internet vào hệ thống nội bộ và rò rỉ dữ liệu. Đồng thời hỗ trợ đa dạng hóa quyền truy cập, kết nối các chi nhánh qua VPN." },
-          { "title": "Cân bằng tải đường truyền Internet", "desc": "Khi nhu cầu sử dụng Internet tăng nhanh, thay vì chỉ nâng cấp tốc độ đường truyền, việc cân bằng tải nhiều đường truyền giúp tối ưu chi phí đầu tư hơn các giải pháp khác." },
-          { "title": "Cân bằng tải website", "desc": "Đáp ứng nhu cầu cho doanh nghiệp có hệ thống website lượng truy cập lớn, đảm bảo kết nối ổn định cho người dùng." },
-          { "title": "Lọc website & bảo vệ người dùng", "desc": "Bảo vệ nhân viên khỏi các website độc hại, ngăn ngừa rò rỉ dữ liệu doanh nghiệp qua kết nối Internet." },
-          { "title": "Quảng cáo qua kết nối Internet", "desc": "Đáp ứng nhu cầu quảng cáo sản phẩm trực tuyến cho doanh nghiệp có chuỗi cửa hàng, trung tâm thương mại." },
-          { "title": "Công nghệ ảo hóa", "desc": "Giúp doanh nghiệp chủ động hơn khi nâng cấp, thay thế phần cứng, đồng thời sao lưu và khôi phục hệ thống nhanh chóng khi có sự cố." }
+          { "title": "Cân Bằng Tải Đường Truyền Internet", "desc": "Khi nhu cầu sử dụng Internet tăng nhanh, thay vì chỉ nâng cấp tốc độ đường truyền, việc cân bằng tải nhiều đường truyền giúp tối ưu chi phí đầu tư hơn các giải pháp khác." },
+          { "title": "Cân Bằng Tải Website", "desc": "Đáp ứng nhu cầu cho doanh nghiệp có hệ thống website lượng truy cập lớn, đảm bảo kết nối ổn định cho người dùng." },
+          { "title": "Lọc Website & Bảo Vệ Người Dùng", "desc": "Bảo vệ nhân viên khỏi các website độc hại, ngăn ngừa rò rỉ dữ liệu doanh nghiệp qua kết nối Internet." },
+          { "title": "Quảng Cáo Qua Kết Nối Internet", "desc": "Đáp ứng nhu cầu quảng cáo sản phẩm trực tuyến cho doanh nghiệp có chuỗi cửa hàng, trung tâm thương mại." },
+          { "title": "Công Nghệ Ảo Hóa", "desc": "Giúp doanh nghiệp chủ động hơn khi nâng cấp, thay thế phần cứng, đồng thời sao lưu và khôi phục hệ thống nhanh chóng khi có sự cố." }
         ],
         "tableIntro": "So sánh trong doanh nghiệp có 50 nhân viên",
         "tableCol1": "Giải pháp truyền thống (kết hợp nhiều sản phẩm)",
@@ -425,16 +425,16 @@
           ]
         },
         "commitments": [
-          { "title": "Hỗ trợ sau triển khai", "items": ["Hỗ trợ từ xa hoặc hỗ trợ tận nơi.", "Gói hỗ trợ 24/7.", "Gói hỗ trợ 8/5."] },
-          { "title": "Hỗ trợ bảo hành", "items": ["Ưu tiên bảo hành thiết bị, có thiết bị tương đương cho mượn trong thời gian bảo hành."] },
-          { "title": "Nhân lực triển khai", "items": ["Hơn 20 năm kinh nghiệm trong lĩnh vực công nghệ thông tin, đã tư vấn, cung cấp và triển khai nhiều giải pháp hạ tầng, máy chủ, ảo hóa, networking và bảo mật."] }
+          { "title": "Hỗ Trợ Sau Triển Khai", "items": ["Hỗ trợ từ xa hoặc hỗ trợ tận nơi.", "Gói hỗ trợ 24/7.", "Gói hỗ trợ 8/5."] },
+          { "title": "Hỗ Trợ Bảo Hành", "items": ["Ưu tiên bảo hành thiết bị, có thiết bị tương đương cho mượn trong thời gian bảo hành."] },
+          { "title": "Nhân Lực Triển Khai", "items": ["Hơn 20 năm kinh nghiệm trong lĩnh vực công nghệ thông tin, đã tư vấn, cung cấp và triển khai nhiều giải pháp hạ tầng, máy chủ, ảo hóa, networking và bảo mật."] }
         ]
       },
       "centralControl": {
         "hero": {
           "crumb": "Điều khiển tập trung",
           "eyebrow": "Central Control",
-          "title": "Giải pháp điều khiển tập trung",
+          "title": "Giải Pháp Điều Khiển Tập Trung",
           "description": "Quản lý người dùng tập trung, tương tự Citrix hay VMware Horizon, đáp ứng yêu cầu bảo mật khắt khe của doanh nghiệp."
         },
         "overviewHeading": "Tổng quan",
@@ -442,7 +442,7 @@
         "solutionDesc": "TTC-Infotech mang đến giải pháp tích hợp công nghệ phù hợp với nhu cầu thực tế của doanh nghiệp. Đây cũng là giải pháp quản lý người dùng tập trung (tương tự Citrix, VMware Horizon...), đáp ứng yêu cầu bảo mật khắt khe của hệ thống.",
         "sectionsHeading": "Nguyên lý hoạt động",
         "sections": [
-          { "title": "Nguyên lý vận hành", "desc": "Người dùng thao tác trên máy trạm điều khiển (cấu hình thấp, hệ điều hành Windows/Linux/Android...), kết nối tới máy chủ xử lý trung tâm (cấu hình cao, phần mềm bản quyền) để chạy ứng dụng công việc trên nền Windows từ máy chủ trung tâm." }
+          { "title": "Nguyên Lý Vận Hành", "desc": "Người dùng thao tác trên máy trạm điều khiển (cấu hình thấp, hệ điều hành Windows/Linux/Android...), kết nối tới máy chủ xử lý trung tâm (cấu hình cao, phần mềm bản quyền) để chạy ứng dụng công việc trên nền Windows từ máy chủ trung tâm." }
         ],
         "tableIntro": "So sánh trong doanh nghiệp có 30 nhân viên",
         "tableCol1": "Giải pháp truyền thống",
@@ -477,9 +477,9 @@
           "note": "Thời gian triển khai cho máy trạm điều khiển đã được tính trong bảng so sánh ở trên."
         },
         "commitments": [
-          { "title": "Hỗ trợ sau triển khai", "items": ["Hỗ trợ từ xa hoặc hỗ trợ tận nơi.", "Gói hỗ trợ 24/7.", "Gói hỗ trợ 8/5."] },
-          { "title": "Hỗ trợ bảo hành", "items": ["Ưu tiên bảo hành thiết bị, có thiết bị tương đương cho mượn trong thời gian bảo hành."] },
-          { "title": "Nhân lực triển khai", "items": ["Hơn 20 năm kinh nghiệm trong lĩnh vực công nghệ thông tin, đã tư vấn, cung cấp và triển khai nhiều giải pháp hạ tầng, máy chủ, ảo hóa, networking và bảo mật."] }
+          { "title": "Hỗ Trợ Sau Triển Khai", "items": ["Hỗ trợ từ xa hoặc hỗ trợ tận nơi.", "Gói hỗ trợ 24/7.", "Gói hỗ trợ 8/5."] },
+          { "title": "Hỗ Trợ Bảo Hành", "items": ["Ưu tiên bảo hành thiết bị, có thiết bị tương đương cho mượn trong thời gian bảo hành."] },
+          { "title": "Nhân Lực Triển Khai", "items": ["Hơn 20 năm kinh nghiệm trong lĩnh vực công nghệ thông tin, đã tư vấn, cung cấp và triển khai nhiều giải pháp hạ tầng, máy chủ, ảo hóa, networking và bảo mật."] }
         ]
       },
       "infrastructure": {
@@ -495,21 +495,21 @@
         "sectionsHeading": "Thi công hạ tầng",
         "categories": [
           {
-            "title": "Hạ tầng hệ thống APC (UPS, Cooling, Sensor)",
+            "title": "Hạ Tầng Hệ Thống APC (UPS, Cooling, Sensor)",
             "desc": "Là nhà phân phối hàng đầu các sản phẩm lưu trữ điện APC, chúng tôi mang đến giải pháp hạ tầng lưu trữ điện cao cấp, tối ưu hiệu quả và an toàn.",
             "items": [
-              { "title": "Hệ thống lưu trữ điện cho tòa nhà & data center", "desc": "Giải pháp lưu trữ dự phòng nguồn điện công suất lớn, từ vài trăm KVA đến hàng ngàn KVA." },
-              { "title": "Hệ thống lưu trữ điện cho phòng máy chủ", "desc": "Giải pháp lưu trữ điện 1 pha đến 3 pha, đáp ứng tiêu chuẩn cao nhất theo nhu cầu riêng." },
-              { "title": "Hệ thống làm mát cho phòng máy chủ", "desc": "Giải pháp làm mát tiêu chuẩn, tối ưu chi phí và hiệu quả vận hành." },
-              { "title": "Hệ thống giám sát chuyên dụng", "desc": "Giám sát nhiệt độ, độ ẩm, chuyển động trong phòng máy chủ để phòng tránh rủi ro hư hỏng thiết bị." }
+              { "title": "Hệ Thống Lưu Trữ Điện Cho Tòa Nhà & Data Center", "desc": "Giải pháp lưu trữ dự phòng nguồn điện công suất lớn, từ vài trăm KVA đến hàng ngàn KVA." },
+              { "title": "Hệ Thống Lưu Trữ Điện Cho Phòng Máy Chủ", "desc": "Giải pháp lưu trữ điện 1 pha đến 3 pha, đáp ứng tiêu chuẩn cao nhất theo nhu cầu riêng." },
+              { "title": "Hệ Thống Làm Mát Cho Phòng Máy Chủ", "desc": "Giải pháp làm mát tiêu chuẩn, tối ưu chi phí và hiệu quả vận hành." },
+              { "title": "Hệ Thống Giám Sát Chuyên Dụng", "desc": "Giám sát nhiệt độ, độ ẩm, chuyển động trong phòng máy chủ để phòng tránh rủi ro hư hỏng thiết bị." }
             ]
           },
           {
-            "title": "Hạ tầng mạng",
+            "title": "Hạ Tầng Mạng",
             "desc": "Kết nối mạng là yếu tố quyết định cho sự phát triển doanh nghiệp trong môi trường công nghệ hiện nay.",
             "items": [
-              { "title": "Tư vấn thiết kế kết nối hệ thống mạng", "desc": "Tư vấn thiết kế và triển khai hạ tầng có dây và không dây đạt chất lượng tiêu chuẩn." },
-              { "title": "Hệ thống cáp mạng cho phòng máy chủ", "desc": "Triển khai hệ thống cáp mạng chuẩn hóa, đảm bảo kết nối ổn định cho phòng máy chủ." }
+              { "title": "Tư Vấn Thiết Kế Kết Nối Hệ Thống Mạng", "desc": "Tư vấn thiết kế và triển khai hạ tầng có dây và không dây đạt chất lượng tiêu chuẩn." },
+              { "title": "Hệ Thống Cáp Mạng Cho Phòng Máy Chủ", "desc": "Triển khai hệ thống cáp mạng chuẩn hóa, đảm bảo kết nối ổn định cho phòng máy chủ." }
             ]
           }
         ],
@@ -525,11 +525,11 @@
         ],
         "commitmentsHeading": "Cam kết từ nhà cung cấp",
         "commitments": [
-          { "title": "Thời gian triển khai", "items": ["Tuân theo thời gian cam kết trong thiết kế."] },
-          { "title": "Hỗ trợ sau triển khai", "items": ["Hỗ trợ từ xa 24/7.", "Hỗ trợ tận nơi khi không xử lý được từ xa."] },
-          { "title": "Hỗ trợ bảo hành", "items": ["Ưu tiên bảo hành thiết bị, có thiết bị tương đương cho mượn trong thời gian bảo hành."] },
-          { "title": "Nhân lực triển khai", "items": ["Ít nhất 15 năm kinh nghiệm trong lĩnh vực công nghệ thông tin.", "Ít nhất 10 năm kinh nghiệm tư vấn và triển khai hệ thống CNTT.", "Ít nhất 5 năm kinh nghiệm tư vấn và xử lý bảo mật hệ thống."] },
-          { "title": "Khảo sát hệ thống hiện có", "items": ["Đã có máy chủ lưu dữ liệu tập trung chưa?", "Đã có hệ thống sao lưu dự phòng chưa?", "Số lượng nhân viên hiện tại?", "Số lượng nhân viên kế toán?", "Số lượng nhân viên thiết kế?", "Dung lượng lưu trữ cần thiết cho mỗi nhân viên?", "Số lượng đường truyền Internet đang sử dụng?"] }
+          { "title": "Thời Gian Triển Khai", "items": ["Tuân theo thời gian cam kết trong thiết kế."] },
+          { "title": "Hỗ Trợ Sau Triển Khai", "items": ["Hỗ trợ từ xa 24/7.", "Hỗ trợ tận nơi khi không xử lý được từ xa."] },
+          { "title": "Hỗ Trợ Bảo Hành", "items": ["Ưu tiên bảo hành thiết bị, có thiết bị tương đương cho mượn trong thời gian bảo hành."] },
+          { "title": "Nhân Lực Triển Khai", "items": ["Ít nhất 15 năm kinh nghiệm trong lĩnh vực công nghệ thông tin.", "Ít nhất 10 năm kinh nghiệm tư vấn và triển khai hệ thống CNTT.", "Ít nhất 5 năm kinh nghiệm tư vấn và xử lý bảo mật hệ thống."] },
+          { "title": "Khảo Sát Hệ Thống Hiện Có", "items": ["Đã có máy chủ lưu dữ liệu tập trung chưa?", "Đã có hệ thống sao lưu dự phòng chưa?", "Số lượng nhân viên hiện tại?", "Số lượng nhân viên kế toán?", "Số lượng nhân viên thiết kế?", "Dung lượng lưu trữ cần thiết cho mỗi nhân viên?", "Số lượng đường truyền Internet đang sử dụng?"] }
         ]
       }
     },
@@ -567,10 +567,10 @@
         "heading": "Vì sao khách hàng tin chọn Trung tâm dịch vụ TTC-Infotech"
       },
       "criteria": {
-        "fastReliable": { "title": "Nhanh chóng & uy tín", "desc": "Cung cấp dịch vụ nhanh nhất, chuyên nghiệp và uy tín đến khách hàng." },
-        "support247": { "title": "Hỗ trợ 24/7", "desc": "Sẵn sàng đồng hành xử lý sự cố với thời gian phục vụ 24/7." },
-        "certifiedEngineers": { "title": "Kỹ sư có chứng chỉ", "desc": "Đội ngũ kỹ sư được đào tạo bài bản, có chứng chỉ chuyên ngành từ các hãng công nghệ." },
-        "loanerDevices": { "title": "Thiết bị mượn tạm", "desc": "Cho mượn thiết bị thay thế khi cần sửa chữa, đảm bảo hoạt động của khách hàng không bị gián đoạn." }
+        "fastReliable": { "title": "Nhanh Chóng & Uy Tín", "desc": "Cung cấp dịch vụ nhanh nhất, chuyên nghiệp và uy tín đến khách hàng." },
+        "support247": { "title": "Hỗ Trợ 24/7", "desc": "Sẵn sàng đồng hành xử lý sự cố với thời gian phục vụ 24/7." },
+        "certifiedEngineers": { "title": "Kỹ Sư Có Chứng Chỉ", "desc": "Đội ngũ kỹ sư được đào tạo bài bản, có chứng chỉ chuyên ngành từ các hãng công nghệ." },
+        "loanerDevices": { "title": "Thiết Bị Mượn Tạm", "desc": "Cho mượn thiết bị thay thế khi cần sửa chữa, đảm bảo hoạt động của khách hàng không bị gián đoạn." }
       }
     },
     "servicesList": {
@@ -581,14 +581,14 @@
         "description": "Từ bảo trì, sửa chữa đến tư vấn thiết kế hệ thống — đội ngũ kỹ thuật viên luôn sẵn sàng đồng hành cùng doanh nghiệp."
       },
       "items": {
-        "maintenance": { "title": "Bảo trì hệ thống mạng, máy tính", "desc": "Kiểm tra định kỳ, phòng ngừa sự cố cho hệ thống mạng và máy tính doanh nghiệp." },
-        "repair": { "title": "Sửa chữa, khắc phục sự cố IT", "desc": "Chẩn đoán và xử lý nhanh chóng các sự cố hệ thống công nghệ thông tin." },
-        "upsRepair": { "title": "Sửa chữa hệ thống nguồn UPS", "desc": "Khắc phục sự cố, bảo trì hệ thống nguồn lưu điện UPS." },
-        "installation": { "title": "Triển khai lắp đặt hệ thống", "desc": "Lắp đặt hệ thống mạng, máy tính và nguồn UPS theo tiêu chuẩn kỹ thuật." },
-        "extendedWarranty": { "title": "Bảo hành mở rộng", "desc": "Bảo hành mở rộng cho UPS, máy tính, máy chủ, switch, firewall, router." },
-        "relocation": { "title": "Di dời hệ thống IT", "desc": "Hỗ trợ di dời toàn bộ hệ thống IT an toàn khi doanh nghiệp chuyển văn phòng." },
-        "consulting": { "title": "Tư vấn & thiết kế hệ thống", "desc": "Tư vấn giải pháp và thiết kế hệ thống phù hợp với nhu cầu doanh nghiệp." },
-        "outsourcing": { "title": "Dịch vụ Outsourcing IT", "desc": "Thuê ngoài nhân sự và vận hành CNTT, giúp doanh nghiệp tập trung vào hoạt động kinh doanh cốt lõi." }
+        "maintenance": { "title": "Bảo Trì Hệ Thống Mạng, Máy Tính", "desc": "Kiểm tra định kỳ, phòng ngừa sự cố cho hệ thống mạng và máy tính doanh nghiệp." },
+        "repair": { "title": "Sửa Chữa, Khắc Phục Sự Cố IT", "desc": "Chẩn đoán và xử lý nhanh chóng các sự cố hệ thống công nghệ thông tin." },
+        "upsRepair": { "title": "Sửa Chữa Hệ Thống Nguồn UPS", "desc": "Khắc phục sự cố, bảo trì hệ thống nguồn lưu điện UPS." },
+        "installation": { "title": "Triển Khai Lắp Đặt Hệ Thống", "desc": "Lắp đặt hệ thống mạng, máy tính và nguồn UPS theo tiêu chuẩn kỹ thuật." },
+        "extendedWarranty": { "title": "Bảo Hành Mở Rộng", "desc": "Bảo hành mở rộng cho UPS, máy tính, máy chủ, switch, firewall, router." },
+        "relocation": { "title": "Di Dời Hệ Thống IT", "desc": "Hỗ trợ di dời toàn bộ hệ thống IT an toàn khi doanh nghiệp chuyển văn phòng." },
+        "consulting": { "title": "Tư Vấn & Thiết Kế Hệ Thống", "desc": "Tư vấn giải pháp và thiết kế hệ thống phù hợp với nhu cầu doanh nghiệp." },
+        "outsourcing": { "title": "Dịch Vụ Outsourcing IT", "desc": "Thuê ngoài nhân sự và vận hành CNTT, giúp doanh nghiệp tập trung vào hoạt động kinh doanh cốt lõi." }
       }
     },
     "servicesStaff": {
@@ -650,14 +650,14 @@
         ],
         "sections": [
           {
-            "title": "Triển khai lắp đặt hệ thống máy tính, máy chủ, mạng, ảo hóa",
+            "title": "Triển Khai Lắp Đặt Hệ Thống Máy Tính, Máy Chủ, Mạng, Ảo Hóa",
             "paragraphs": [
               "Đội ngũ kỹ sư của chúng tôi chuyên về lắp đặt CNTT — từ máy tính để bàn, máy tính xách tay, máy chủ đến các giải pháp mạng hoàn chỉnh.",
               "Chúng tôi hợp tác chặt chẽ với khách hàng ở từng bước, từ thiết kế ban đầu, quản lý quá trình lắp đặt cho đến hỗ trợ chăm sóc sau khi hoàn tất."
             ]
           },
           {
-            "title": "Triển khai lắp đặt hệ thống nguồn UPS",
+            "title": "Triển Khai Lắp Đặt Hệ Thống Nguồn UPS",
             "paragraphs": [
               "Với đội ngũ kỹ sư được APC đào tạo và cấp chứng chỉ, chúng tôi triển khai lắp đặt hệ thống UPS APC, tủ rack, PDU và hệ thống cáp (cabling).",
               "TTC-Infotech được APC cấp chứng nhận Elite Partner, đủ năng lực cung cấp thiết bị và triển khai hệ thống UPS 3 pha, hệ thống làm mát (Cooling) cùng các giải pháp giám sát môi trường vật lý, từ phòng mạng đến trung tâm dữ liệu — giúp khách hàng tối ưu chi phí và thời gian triển khai."
@@ -734,9 +734,9 @@
       "coverage": ["Nguồn UPS", "Máy tính", "Máy chủ", "Switch", "Firewall", "Router"],
       "commitmentsHeading": "Cam kết bảo hành",
       "commitments": [
-        { "title": "Hỗ trợ bảo hành", "items": ["Ưu tiên bảo hành thiết bị, có thiết bị tương đương cho mượn trong thời gian bảo hành."] },
-        { "title": "Hỗ trợ kỹ thuật", "items": ["Hỗ trợ từ xa hoặc hỗ trợ tận nơi.", "Gói hỗ trợ 24/7.", "Gói hỗ trợ 8/5."] },
-        { "title": "Nhân lực triển khai", "items": ["Hơn 20 năm kinh nghiệm trong lĩnh vực công nghệ thông tin, đã tư vấn, cung cấp và triển khai nhiều giải pháp hạ tầng, máy chủ, ảo hóa, networking và bảo mật."] }
+        { "title": "Hỗ Trợ Bảo Hành", "items": ["Ưu tiên bảo hành thiết bị, có thiết bị tương đương cho mượn trong thời gian bảo hành."] },
+        { "title": "Hỗ Trợ Kỹ Thuật", "items": ["Hỗ trợ từ xa hoặc hỗ trợ tận nơi.", "Gói hỗ trợ 24/7.", "Gói hỗ trợ 8/5."] },
+        { "title": "Nhân Lực Triển Khai", "items": ["Hơn 20 năm kinh nghiệm trong lĩnh vực công nghệ thông tin, đã tư vấn, cung cấp và triển khai nhiều giải pháp hạ tầng, máy chủ, ảo hóa, networking và bảo mật."] }
       ]
     },
     "apcGoldWarranty": {
@@ -750,9 +750,9 @@
       "policyHeading": "Chính sách bảo hành mới từ APC by Schneider Electric",
       "intro": "Từ ngày 1/1/2021, APC by Schneider Electric chính thức triển khai chính sách bảo hành mới đối với các dòng sản phẩm UPS 1 pha, nhằm mang lại trải nghiệm tốt hơn cho khách hàng.",
       "benefits": [
-        { "title": "Bảo hành 3 năm", "desc": "Thời gian bảo hành được nâng từ 2 năm lên 3 năm kể từ ngày 1/1/2021." },
-        { "title": "1 đổi 1", "desc": "Đổi mới 100% thiết bị khi phát sinh lỗi, không cần chờ sửa chữa." },
-        { "title": "Bảo hành tận nơi", "desc": "Hỗ trợ bảo hành trực tiếp tại địa điểm của khách hàng." }
+        { "title": "Bảo Hành 3 Năm", "desc": "Thời gian bảo hành được nâng từ 2 năm lên 3 năm kể từ ngày 1/1/2021." },
+        { "title": "1 Đổi 1", "desc": "Đổi mới 100% thiết bị khi phát sinh lỗi, không cần chờ sửa chữa." },
+        { "title": "Bảo Hành Tận Nơi", "desc": "Hỗ trợ bảo hành trực tiếp tại địa điểm của khách hàng." }
       ],
       "contactNote": "Liên hệ ngay để được giải đáp thắc mắc về chính sách bảo hành cũng như hỗ trợ kỹ thuật.",
       "phone1": "(+84) 28 3824 7066 – Ext 835",

@@ -30,7 +30,12 @@
           "value": "(2) Universal Receptacle (230V)"
         }
       ],
-      "warranty": "3 years"
+      "warranty": "3 years",
+      "images": [
+        "/products/bvx650i-vn/1.jpg",
+        "/products/bvx650i-vn/2.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "bvg700i-msn",
@@ -49,7 +54,14 @@
           "value": "(4) Universal (230V)"
         }
       ],
-      "warranty": "3 years"
+      "warranty": "3 years",
+      "images": [
+        "/products/bvg700i-msn/1.jpg",
+        "/products/bvg700i-msn/2.jpg",
+        "/products/bvg700i-msn/3.jpg",
+        "/products/bvg700i-msn/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "bvx900li-ms",
@@ -68,7 +80,14 @@
           "value": "IEC 60320 C14"
         }
       ],
-      "warranty": "3 years"
+      "warranty": "3 years",
+      "images": [
+        "/products/bvx900li-ms/1.jpg",
+        "/products/bvx900li-ms/2.jpg",
+        "/products/bvx900li-ms/3.jpg",
+        "/products/bvx900li-ms/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "bv1000i-ms-thay-the-cho-bx1100li-ms",
@@ -87,7 +106,12 @@
           "value": "(4) Universal battery backup outlets"
         }
       ],
-      "warranty": "3 years"
+      "warranty": "3 years",
+      "images": [
+        "/products/bv1000i-ms-thay-the-cho-bx1100li-ms/1.jpg",
+        "/products/bv1000i-ms-thay-the-cho-bx1100li-ms/2.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "bvg1200i-msn",
@@ -106,7 +130,14 @@
           "value": "(4) Universal (230V)"
         }
       ],
-      "warranty": "3 years"
+      "warranty": "3 years",
+      "images": [
+        "/products/bvg1200i-msn/1.jpg",
+        "/products/bvg1200i-msn/2.jpg",
+        "/products/bvg1200i-msn/3.jpg",
+        "/products/bvg1200i-msn/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "bx1600mi-ms",
@@ -116,7 +147,13 @@
       "category_label": "Back-UPS & Easy UPS gia đình, văn phòng nhỏ",
       "overview": "Back UPS, 900W/1600VA, Output Connections: (1) IEC 320 C13, (4) Universal Receptacle (230V)",
       "specs": [],
-      "warranty": "3 years"
+      "warranty": "3 years",
+      "images": [
+        "/products/bx1600mi-ms/1.jpg",
+        "/products/bx1600mi-ms/2.jpg",
+        "/products/bx1600mi-ms/3.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "bx2200mi-ms",
@@ -131,7 +168,13 @@
           "value": "(1) IEC 320 C13, (4) Universal Receptacle (230V)"
         }
       ],
-      "warranty": "3 years"
+      "warranty": "3 years",
+      "images": [
+        "/products/bx2200mi-ms/1.jpg",
+        "/products/bx2200mi-ms/2.jpg",
+        "/products/bx2200mi-ms/3.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "smc1000ic",
@@ -164,7 +207,8 @@
         "/products/smc1000ic/2.jpg",
         "/products/smc1000ic/3.jpg",
         "/products/smc1000ic/4.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "smc1000i-2uc",
@@ -197,7 +241,8 @@
         "/products/smc1000i-2uc/2.jpg",
         "/products/smc1000i-2uc/3.jpg",
         "/products/smc1000i-2uc/4.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "smc1500ic",
@@ -230,7 +275,8 @@
         "/products/smc1500ic/2.jpg",
         "/products/smc1500ic/3.jpg",
         "/products/smc1500ic/4.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "smc1500i-2uc",
@@ -262,7 +308,8 @@
         "/products/smc1500i-2uc/1.jpg",
         "/products/smc1500i-2uc/2.jpg",
         "/products/smc1500i-2uc/3.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "smc2000i",
@@ -294,7 +341,8 @@
         "/products/smc2000i/1.jpg",
         "/products/smc2000i/2.jpg",
         "/products/smc2000i/3.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "smc2000i-2u",
@@ -327,7 +375,8 @@
         "/products/smc2000i-2u/2.jpg",
         "/products/smc2000i-2u/3.jpg",
         "/products/smc2000i-2u/4.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "smc3000i",
@@ -363,7 +412,8 @@
         "/products/smc3000i/1.jpg",
         "/products/smc3000i/2.jpg",
         "/products/smc3000i/3.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "smc3000rmi2u",
@@ -396,7 +446,8 @@
         "/products/smc3000rmi2u/2.jpg",
         "/products/smc3000rmi2u/3.jpg",
         "/products/smc3000rmi2u/4.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "sua5000rmi5u",
@@ -427,7 +478,14 @@
           "value": "26.7 min"
         }
       ],
-      "warranty": "2 năm"
+      "warranty": "2 năm",
+      "images": [
+        "/products/sua5000rmi5u/1.jpg",
+        "/products/sua5000rmi5u/2.jpg",
+        "/products/sua5000rmi5u/3.jpg",
+        "/products/sua5000rmi5u/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "smt1000ic",
@@ -443,7 +501,8 @@
         "/products/smt1000ic/2.jpg",
         "/products/smt1000ic/3.jpg",
         "/products/smt1000ic/4.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "smt1500ic",
@@ -453,7 +512,14 @@
       "category_label": "Smart-UPS SMT — dạng Tower (cho server)",
       "overview": "APC Smart-UPS, 1500VA/1000W, Input 230V/Output 230V, Interface Port DB-9 RS-232, SmartSlot, USB. Multi-function LCD status and control console",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/smt1500ic/1.jpg",
+        "/products/smt1500ic/2.jpg",
+        "/products/smt1500ic/3.jpg",
+        "/products/smt1500ic/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "smt2200ic",
@@ -463,7 +529,13 @@
       "category_label": "Smart-UPS SMT — dạng Tower (cho server)",
       "overview": "APC Smart-UPS, 2200VA/1980W, Input 230V/Output 230V, Interface Port DB-9 RS-232, USB, SmartSlot. Multi-function LCD status and control console",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/smt2200ic/1.jpg",
+        "/products/smt2200ic/2.jpg",
+        "/products/smt2200ic/3.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "smt3000ic",
@@ -473,7 +545,13 @@
       "category_label": "Smart-UPS SMT — dạng Tower (cho server)",
       "overview": "APC Smart-UPS, 3000VA/2700W, Input 230V/Output 230V, Interface Port DB-9 RS-232, USB, SmartSlot. Multi-function LCD status and control console",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/smt3000ic/1.jpg",
+        "/products/smt3000ic/2.jpg",
+        "/products/smt3000ic/3.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "smt1000rmi2uc",
@@ -483,7 +561,14 @@
       "category_label": "Smart-UPS SMT — dạng Rackmount (cho server)",
       "overview": "APC Smart-UPS, 1000VA/700W, Input 230V/Output 230V, Interface Port DB-9 RS-232, USB, SmartSlot, Rack Height 2U. Multi-function LCD status and control console",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/smt1000rmi2uc/1.jpg",
+        "/products/smt1000rmi2uc/2.jpg",
+        "/products/smt1000rmi2uc/3.jpg",
+        "/products/smt1000rmi2uc/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "smt1500rmi2uc",
@@ -493,7 +578,14 @@
       "category_label": "Smart-UPS SMT — dạng Rackmount (cho server)",
       "overview": "APC Smart-UPS, 1500VA/1000W, Input 230V/Output 230V, Interface Port DB-9 RS-232, USB, SmartSlot, Rack Height 2U. Multi-function LCD status and control console",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/smt1500rmi2uc/1.jpg",
+        "/products/smt1500rmi2uc/2.jpg",
+        "/products/smt1500rmi2uc/3.jpg",
+        "/products/smt1500rmi2uc/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "smt2200rmi2uc",
@@ -503,7 +595,14 @@
       "category_label": "Smart-UPS SMT — dạng Rackmount (cho server)",
       "overview": "APC Smart-UPS, 2200VA/1980W, Input 230V/Output 230V, Interface Port DB-9 RS-232, USB, SmartSlot, Rack Height 2U. Multi-function LCD status and control console",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/smt2200rmi2uc/1.jpg",
+        "/products/smt2200rmi2uc/2.jpg",
+        "/products/smt2200rmi2uc/3.jpg",
+        "/products/smt2200rmi2uc/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "smt3000rmi2uc",
@@ -513,7 +612,14 @@
       "category_label": "Smart-UPS SMT — dạng Rackmount (cho server)",
       "overview": "APC Smart-UPS, 3000VA/2700W, Input 230V/Output 230V, Interface Port DB-9 RS-232, USB, SmartSlot, Rack Height 2U. Multi-function LCD status and control console",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/smt3000rmi2uc/1.jpg",
+        "/products/smt3000rmi2uc/2.jpg",
+        "/products/smt3000rmi2uc/3.jpg",
+        "/products/smt3000rmi2uc/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srt2200xli",
@@ -529,7 +635,8 @@
         "/products/srt2200xli/2.jpg",
         "/products/srt2200xli/3.jpg",
         "/products/srt2200xli/4.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "srt2200rmxli",
@@ -544,7 +651,8 @@
         "/products/srt2200rmxli/1.jpg",
         "/products/srt2200rmxli/2.jpg",
         "/products/srt2200rmxli/3.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "srt3000xli",
@@ -560,7 +668,8 @@
         "/products/srt3000xli/2.jpg",
         "/products/srt3000xli/3.jpg",
         "/products/srt3000xli/4.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "srt3000rmxli",
@@ -573,7 +682,8 @@
       "warranty": null,
       "images": [
         "/products/srt3000rmxli/1.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "srt5kxli",
@@ -588,7 +698,8 @@
         "/products/srt5kxli/1.jpg",
         "/products/srt5kxli/2.jpg",
         "/products/srt5kxli/3.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "srt5krmxli",
@@ -604,7 +715,8 @@
         "/products/srt5krmxli/2.jpg",
         "/products/srt5krmxli/3.jpg",
         "/products/srt5krmxli/4.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "srt6kxli-tu-van-dong-srt8kxli",
@@ -614,7 +726,14 @@
       "category_label": "Smart-UPS SRT Online",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srt6kxli-tu-van-dong-srt8kxli/1.jpg",
+        "/products/srt6kxli-tu-van-dong-srt8kxli/2.jpg",
+        "/products/srt6kxli-tu-van-dong-srt8kxli/3.jpg",
+        "/products/srt6kxli-tu-van-dong-srt8kxli/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srt6krmxli-tu-van-dong-srt8krmxli",
@@ -624,7 +743,14 @@
       "category_label": "Smart-UPS SRT Online",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srt6krmxli-tu-van-dong-srt8krmxli/1.jpg",
+        "/products/srt6krmxli-tu-van-dong-srt8krmxli/2.jpg",
+        "/products/srt6krmxli-tu-van-dong-srt8krmxli/3.jpg",
+        "/products/srt6krmxli-tu-van-dong-srt8krmxli/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srt8kxli-gia-tot",
@@ -634,7 +760,14 @@
       "category_label": "Smart-UPS SRT Online",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srt8kxli-gia-tot/1.jpg",
+        "/products/srt8kxli-gia-tot/2.jpg",
+        "/products/srt8kxli-gia-tot/3.jpg",
+        "/products/srt8kxli-gia-tot/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srt8krmxli-gia-tot",
@@ -644,7 +777,14 @@
       "category_label": "Smart-UPS SRT Online",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srt8krmxli-gia-tot/1.jpg",
+        "/products/srt8krmxli-gia-tot/2.jpg",
+        "/products/srt8krmxli-gia-tot/3.jpg",
+        "/products/srt8krmxli-gia-tot/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srt10kxli",
@@ -660,7 +800,8 @@
         "/products/srt10kxli/2.jpg",
         "/products/srt10kxli/3.jpg",
         "/products/srt10kxli/4.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "srt10krmxli",
@@ -676,7 +817,8 @@
         "/products/srt10krmxli/2.jpg",
         "/products/srt10krmxli/3.jpg",
         "/products/srt10krmxli/4.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "srtg15kxli",
@@ -686,7 +828,14 @@
       "category_label": "Smart-UPS SRTG Online",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srtg15kxli/1.jpg",
+        "/products/srtg15kxli/2.jpg",
+        "/products/srtg15kxli/3.jpg",
+        "/products/srtg15kxli/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srtg20kxli",
@@ -696,7 +845,14 @@
       "category_label": "Smart-UPS SRTG Online",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srtg20kxli/1.jpg",
+        "/products/srtg20kxli/2.jpg",
+        "/products/srtg20kxli/3.jpg",
+        "/products/srtg20kxli/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srtg192xlbp2",
@@ -706,7 +862,14 @@
       "category_label": "Smart-UPS SRTG Online",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srtg192xlbp2/1.jpg",
+        "/products/srtg192xlbp2/2.jpg",
+        "/products/srtg192xlbp2/3.jpg",
+        "/products/srtg192xlbp2/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srtgrk1",
@@ -716,7 +879,11 @@
       "category_label": "Smart-UPS SRTG Online",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srtgrk1/1.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srtgrk2",
@@ -726,7 +893,11 @@
       "category_label": "Smart-UPS SRTG Online",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srtgrk2/1.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srt72bp",
@@ -747,7 +918,8 @@
         "/products/srt72bp/2.jpg",
         "/products/srt72bp/3.jpg",
         "/products/srt72bp/4.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "srt72rmbp",
@@ -765,7 +937,8 @@
       "warranty": null,
       "images": [
         "/products/srt72rmbp/1.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "srt96bp",
@@ -786,7 +959,8 @@
         "/products/srt96bp/2.jpg",
         "/products/srt96bp/3.jpg",
         "/products/srt96bp/4.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "srt96rmbp",
@@ -804,7 +978,8 @@
       "warranty": null,
       "images": [
         "/products/srt96rmbp/1.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "srt192bp",
@@ -825,7 +1000,8 @@
         "/products/srt192bp/2.jpg",
         "/products/srt192bp/3.jpg",
         "/products/srt192bp/4.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "srt192rmbp",
@@ -846,7 +1022,8 @@
         "/products/srt192rmbp/2.jpg",
         "/products/srt192rmbp/3.jpg",
         "/products/srt192rmbp/4.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "srt192bp2",
@@ -867,7 +1044,8 @@
         "/products/srt192bp2/2.jpg",
         "/products/srt192bp2/3.jpg",
         "/products/srt192bp2/4.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "srt192rmbp2",
@@ -882,7 +1060,13 @@
           "value": "SRT8KRMXLI, SRT8KXLI, SRT10KRMXLI, SRT10KXLI)"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srt192rmbp2/1.jpg",
+        "/products/srt192rmbp2/2.jpg",
+        "/products/srt192rmbp2/3.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srtrk4",
@@ -895,7 +1079,8 @@
       "warranty": null,
       "images": [
         "/products/srtrk4/1.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "srtrk2",
@@ -908,7 +1093,8 @@
       "warranty": null,
       "images": [
         "/products/srtrk2/1.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "ap9640",
@@ -918,7 +1104,13 @@
       "category_label": "Phụ kiện Smart-UPS (bình ắc quy, rail kit, PDU, card, dây nguồn)",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/ap9640/1.jpg",
+        "/products/ap9640/2.jpg",
+        "/products/ap9640/3.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "ap9641",
@@ -928,7 +1120,12 @@
       "category_label": "Phụ kiện Smart-UPS (bình ắc quy, rail kit, PDU, card, dây nguồn)",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/ap9641/1.jpg",
+        "/products/ap9641/2.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "ap4423a-new",
@@ -938,7 +1135,14 @@
       "category_label": "Phụ kiện Smart-UPS (bình ắc quy, rail kit, PDU, card, dây nguồn)",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/ap4423a-new/1.jpg",
+        "/products/ap4423a-new/2.jpg",
+        "/products/ap4423a-new/3.jpg",
+        "/products/ap4423a-new/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "ap4424a-new",
@@ -948,7 +1152,14 @@
       "category_label": "Phụ kiện Smart-UPS (bình ắc quy, rail kit, PDU, card, dây nguồn)",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/ap4424a-new/1.jpg",
+        "/products/ap4424a-new/2.jpg",
+        "/products/ap4424a-new/3.jpg",
+        "/products/ap4424a-new/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "ap9335th",
@@ -961,7 +1172,8 @@
       "warranty": null,
       "images": [
         "/products/ap9335th/1.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "rbc6",
@@ -978,7 +1190,8 @@
       ],
       "images": [
         "/products/rbc6/1.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "rbc7",
@@ -991,7 +1204,8 @@
       "warranty": null,
       "images": [
         "/products/rbc7/1.png"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "rbc55",
@@ -1001,7 +1215,12 @@
       "category_label": "Bình ắc quy thay thế — dòng SMC, SMT Tower",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/rbc55/1.jpg",
+        "/products/rbc55/2.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "apcrbc142",
@@ -1011,7 +1230,12 @@
       "category_label": "Bình ắc quy thay thế — dòng SMC, SMT Tower",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/apcrbc142/1.jpg",
+        "/products/apcrbc142/2.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "apcrbc148",
@@ -1024,7 +1248,8 @@
       "warranty": null,
       "images": [
         "/products/apcrbc148/1.png"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "apcrbc150",
@@ -1034,7 +1259,11 @@
       "category_label": "Bình ắc quy thay thế — dòng SMC, SMT Tower",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/apcrbc150/1.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "apcrbc157",
@@ -1044,7 +1273,12 @@
       "category_label": "Bình ắc quy thay thế — dòng SMC, SMT Rackmount",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/apcrbc157/1.jpg",
+        "/products/apcrbc157/2.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "apcrbc159",
@@ -1054,7 +1288,12 @@
       "category_label": "Bình ắc quy thay thế — dòng SMC, SMT Rackmount",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/apcrbc159/1.jpg",
+        "/products/apcrbc159/2.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "rbc43",
@@ -1071,7 +1310,8 @@
       ],
       "images": [
         "/products/rbc43/1.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "apcrbc124",
@@ -1081,7 +1321,12 @@
       "category_label": "Bình ắc quy thay thế — dòng SMC, SMT Rackmount",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/apcrbc124/1.jpg",
+        "/products/apcrbc124/2.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "apcrbc132",
@@ -1094,7 +1339,8 @@
       "warranty": null,
       "images": [
         "/products/apcrbc132/1.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "apcrbc151",
@@ -1104,7 +1350,12 @@
       "category_label": "Bình ắc quy thay thế — dòng SMC, SMT Rackmount",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/apcrbc151/1.jpg",
+        "/products/apcrbc151/2.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "apcrbc141",
@@ -1121,7 +1372,8 @@
       ],
       "images": [
         "/products/apcrbc141/1.png"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "apcrbc152",
@@ -1134,7 +1386,8 @@
       "warranty": null,
       "images": [
         "/products/apcrbc152/1.png"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "apcrbc140",
@@ -1151,7 +1404,8 @@
       ],
       "images": [
         "/products/apcrbc140/1.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "ar3100",
@@ -1206,7 +1460,14 @@
           "value": "Black"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/ar3100/1.jpg",
+        "/products/ar3100/2.jpg",
+        "/products/ar3100/3.jpg",
+        "/products/ar3100/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "ar203a",
@@ -1257,7 +1518,12 @@
           "value": "Black"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/ar203a/1.jpg",
+        "/products/ar203a/2.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "ar106vi",
@@ -1304,7 +1570,14 @@
           "value": "113.4kg dynamic 113.4kg static"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/ar106vi/1.jpg",
+        "/products/ar106vi/2.jpg",
+        "/products/ar106vi/3.jpg",
+        "/products/ar106vi/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "ar8105blk",
@@ -1318,7 +1591,8 @@
       "images": [
         "/products/ar8105blk/1.png",
         "/products/ar8105blk/2.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "ar8122blk",
@@ -1332,7 +1606,8 @@
       "images": [
         "/products/ar8122blk/1.jpg",
         "/products/ar8122blk/2.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "ar8123blk",
@@ -1342,7 +1617,11 @@
       "category_label": "Phụ kiện tủ rack APC",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/ar8123blk/1.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "ap9565",
@@ -1358,7 +1637,8 @@
         "/products/ap9565/2.jpg",
         "/products/ap9565/3.jpg",
         "/products/ap9565/4.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "ap9559",
@@ -1371,7 +1651,8 @@
       "warranty": null,
       "images": [
         "/products/ap9559/1.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "ap7552",
@@ -1385,7 +1666,8 @@
       "images": [
         "/products/ap7552/1.jpg",
         "/products/ap7552/2.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "ap7553",
@@ -1398,7 +1680,8 @@
       "warranty": null,
       "images": [
         "/products/ap7553/1.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "ap7920b-new",
@@ -1408,7 +1691,14 @@
       "category_label": "PDU & dây nguồn cho tủ rack APC",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/ap7920b-new/1.jpg",
+        "/products/ap7920b-new/2.jpg",
+        "/products/ap7920b-new/3.jpg",
+        "/products/ap7920b-new/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "ap9870",
@@ -1421,7 +1711,8 @@
       "warranty": null,
       "images": [
         "/products/ap9870/1.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "ap9877",
@@ -1434,7 +1725,8 @@
       "warranty": null,
       "images": [
         "/products/ap9877/1.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "srv1ki-e",
@@ -1473,7 +1765,13 @@
           "value": "Multi-function LCD status and control console"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srv1ki-e/1.jpg",
+        "/products/srv1ki-e/2.jpg",
+        "/products/srv1ki-e/3.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srv2ki-e",
@@ -1512,7 +1810,13 @@
           "value": "Multi-function LCD status and control console"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srv2ki-e/1.jpg",
+        "/products/srv2ki-e/2.jpg",
+        "/products/srv2ki-e/3.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srv3ki-e",
@@ -1551,7 +1855,13 @@
           "value": "Multi-function LCD status and control console"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srv3ki-e/1.jpg",
+        "/products/srv3ki-e/2.jpg",
+        "/products/srv3ki-e/3.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srv6ki",
@@ -1595,7 +1905,8 @@
         "/products/srv6ki/1.jpg",
         "/products/srv6ki/2.jpg",
         "/products/srv6ki/3.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "srv10ki",
@@ -1634,7 +1945,13 @@
           "value": "Multi-function LCD status and control console"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srv10ki/1.jpg",
+        "/products/srv10ki/2.jpg",
+        "/products/srv10ki/3.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srv1krirk-e-new",
@@ -1673,7 +1990,14 @@
           "value": "Multi-function LCD status and control console"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srv1krirk-e-new/1.jpg",
+        "/products/srv1krirk-e-new/2.jpg",
+        "/products/srv1krirk-e-new/3.jpg",
+        "/products/srv1krirk-e-new/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srv2krirk-e-new",
@@ -1712,7 +2036,14 @@
           "value": "Multi-function LCD status and control console"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srv2krirk-e-new/1.jpg",
+        "/products/srv2krirk-e-new/2.jpg",
+        "/products/srv2krirk-e-new/3.jpg",
+        "/products/srv2krirk-e-new/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srv3krirk-e-new",
@@ -1751,7 +2082,14 @@
           "value": "Multi-function LCD status and control console"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srv3krirk-e-new/1.jpg",
+        "/products/srv3krirk-e-new/2.jpg",
+        "/products/srv3krirk-e-new/3.jpg",
+        "/products/srv3krirk-e-new/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srv6krirk",
@@ -1795,7 +2133,8 @@
         "/products/srv6krirk/1.jpg",
         "/products/srv6krirk/2.jpg",
         "/products/srv6krirk/3.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "srv10krirk",
@@ -1839,7 +2178,8 @@
         "/products/srv10krirk/1.jpg",
         "/products/srv10krirk/2.jpg",
         "/products/srv10krirk/3.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "apv9601",
@@ -1872,7 +2212,8 @@
         "/products/apv9601/2.jpg",
         "/products/apv9601/3.jpg",
         "/products/apv9601/4.jpg"
-      ]
+      ],
+      "imageSource": "old-site"
     },
     {
       "slug": "ap9544",
@@ -1882,7 +2223,11 @@
       "category_label": "Card quản lý Easy UPS",
       "overview": "A 12-month Secure NMC Subscription, that allows the customer to access future firmware updates, is included with the purchase of the card*. Upon expiration of the provided Secure NMC Subscription the purchase of a new Secure NMC Subscription is required to access future firmware updates",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/ap9544/1.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srv1kil",
@@ -1921,7 +2266,14 @@
           "value": "Multi-function LCD status and control console"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srv1kil/1.jpg",
+        "/products/srv1kil/2.jpg",
+        "/products/srv1kil/3.jpg",
+        "/products/srv1kil/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srv3kil-e",
@@ -1960,7 +2312,14 @@
           "value": "Multi-function LCD status and control console"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srv3kil-e/1.jpg",
+        "/products/srv3kil-e/2.jpg",
+        "/products/srv3kil-e/3.jpg",
+        "/products/srv3kil-e/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srv6kil",
@@ -1999,7 +2358,14 @@
           "value": "Multi-function LCD status and control console"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srv6kil/1.jpg",
+        "/products/srv6kil/2.jpg",
+        "/products/srv6kil/3.jpg",
+        "/products/srv6kil/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srv10kil",
@@ -2038,7 +2404,14 @@
           "value": "Multi-function LCD status and control console"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srv10kil/1.jpg",
+        "/products/srv10kil/2.jpg",
+        "/products/srv10kil/3.jpg",
+        "/products/srv10kil/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srv3krilrk",
@@ -2077,7 +2450,14 @@
           "value": "Multi-function LCD status and control console"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srv3krilrk/1.jpg",
+        "/products/srv3krilrk/2.jpg",
+        "/products/srv3krilrk/3.jpg",
+        "/products/srv3krilrk/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srv6krilrk",
@@ -2116,7 +2496,14 @@
           "value": "Multi-function LCD status and control console"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srv6krilrk/1.jpg",
+        "/products/srv6krilrk/2.jpg",
+        "/products/srv6krilrk/3.jpg",
+        "/products/srv6krilrk/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srv10krilrk",
@@ -2155,7 +2542,14 @@
           "value": "Multi-function LCD status and control console"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srv10krilrk/1.jpg",
+        "/products/srv10krilrk/2.jpg",
+        "/products/srv10krilrk/3.jpg",
+        "/products/srv10krilrk/4.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srv72bp-9a",
@@ -2165,7 +2559,13 @@
       "category_label": "Bình ắc quy ngoài cho Easy UPS",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srv72bp-9a/1.jpg",
+        "/products/srv72bp-9a/2.jpg",
+        "/products/srv72bp-9a/3.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srv72rlbp-9a",
@@ -2175,7 +2575,13 @@
       "category_label": "Bình ắc quy ngoài cho Easy UPS",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srv72rlbp-9a/1.jpg",
+        "/products/srv72rlbp-9a/2.jpg",
+        "/products/srv72rlbp-9a/3.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srv240bp-9a",
@@ -2185,7 +2591,13 @@
       "category_label": "Bình ắc quy ngoài cho Easy UPS",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srv240bp-9a/1.jpg",
+        "/products/srv240bp-9a/2.jpg",
+        "/products/srv240bp-9a/3.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srv240rlbp-9a",
@@ -2195,7 +2607,13 @@
       "category_label": "Bình ắc quy ngoài cho Easy UPS",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srv240rlbp-9a/1.jpg",
+        "/products/srv240rlbp-9a/2.jpg",
+        "/products/srv240rlbp-9a/3.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srvrk1",
@@ -2205,7 +2623,11 @@
       "category_label": "PDU & dây nguồn cho Easy UPS",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srvrk1/1.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "srvrk2",
@@ -2215,7 +2637,11 @@
       "category_label": "PDU & dây nguồn cho Easy UPS",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srvrk2/1.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "er6212-tu-rack-42u-600mm-1100mm",
@@ -2274,7 +2700,11 @@
           "value": "5 years"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/er6212-tu-rack-42u-600mm-1100mm/1.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "er8212-tu-rack-42u-800mm-1100mm",
@@ -2333,7 +2763,12 @@
           "value": "5 years"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/er8212-tu-rack-42u-800mm-1100mm/1.jpg",
+        "/products/er8212-tu-rack-42u-800mm-1100mm/2.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "er7shelf-mam-de-thiet-bi",
@@ -2343,7 +2778,11 @@
       "category_label": "Thanh nguồn & phụ kiện tủ Easy",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/er7shelf-mam-de-thiet-bi/1.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "epdu1016b",
@@ -2353,7 +2792,11 @@
       "category_label": "Thanh nguồn & phụ kiện tủ Easy",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/epdu1016b/1.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "epdu1132b",
@@ -2363,7 +2806,11 @@
       "category_label": "Thanh nguồn & phụ kiện tủ Easy",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/epdu1132b/1.jpg"
+      ],
+      "imageSource": "se.com"
     },
     {
       "slug": "epdu1132m",
@@ -2373,7 +2820,11 @@
       "category_label": "Thanh nguồn & phụ kiện tủ Easy",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/epdu1132m/1.jpg"
+      ],
+      "imageSource": "se.com"
     }
   ]
 }

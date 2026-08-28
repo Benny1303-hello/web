@@ -1,17 +1,22 @@
 'use client';
 
-import { BatteryCharging, Cpu, Network, ServerCog, ShieldAlert, Wrench } from 'lucide-react';
+import Link from 'next/link';
+import { ArrowRight } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
 import Button from '@/components/Button';
+import productsCatalog from '@/lib/productsCatalog.json';
+import { ICONS } from '@/lib/icons';
 import { useLanguage } from '@/context/LanguageContext';
 
-const icons = [BatteryCharging, ServerCog, Network, ShieldAlert, Cpu, Wrench];
+const GROUP_ICONS = { ups: 'Zap', 'phu-kien-ups': 'PackageCheck', 'tu-rack': 'Server' };
 
 export default function ProductsContent() {
   const { t } = useLanguage();
-  const productCategoriesRaw = t('productCategories');
-  const productCategories = Array.isArray(productCategoriesRaw) ? productCategoriesRaw : [];
+  const countByGroup = {};
+  productsCatalog.products.forEach((p) => {
+    countByGroup[p.group] = (countByGroup[p.group] || 0) + 1;
+  });
 
   return (
     <>
@@ -24,24 +29,40 @@ export default function ProductsContent() {
 
       <section className="bg-white py-20">
         <div className="container-page">
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {productCategories.map((cat, i) => {
-              const Icon = icons[i];
+          <Reveal className="mx-auto max-w-2xl text-center">
+            <h2 className="text-balance font-display text-3xl font-bold text-navy-900 md:text-4xl">
+              {t('productCatalog.groupsHeading')}
+            </h2>
+          </Reveal>
+
+          <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {productsCatalog.groups.map((group, i) => {
+              const Icon = ICONS[GROUP_ICONS[group.key]];
               return (
-                <Reveal key={cat.title} delay={(i % 3) * 0.08}>
-                  <div className="group h-full rounded-2xl border border-black/5 bg-mist-50 p-7 transition-all duration-300 hover:-translate-y-1.5 hover:border-transparent hover:bg-navy-950 hover:shadow-card">
-                    <div className="mb-3 flex items-center gap-3">
+                <Reveal key={group.key} delay={i * 0.1}>
+                  <Link
+                    href={`/products/${group.key}`}
+                    className="group flex h-full flex-col rounded-2xl border border-black/5 bg-mist-50 p-7 transition-all duration-300 hover:-translate-y-1.5 hover:border-transparent hover:bg-navy-950 hover:shadow-card"
+                  >
+                    <div className="flex items-center gap-3">
                       <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-cyan-400 text-white transition-transform duration-300 group-hover:scale-110">
                         <Icon size={20} />
                       </div>
                       <h3 className="font-display text-lg font-bold text-ink-900 transition-colors group-hover:text-white">
-                        {cat.title}
+                        {group.title}
                       </h3>
                     </div>
-                    <p className="mt-3 text-sm leading-relaxed text-ink-400 transition-colors group-hover:text-slate-300">
-                      {cat.desc}
+                    <p className="mt-3 flex-1 text-sm leading-relaxed text-ink-400 transition-colors group-hover:text-slate-300">
+                      {group.desc}
                     </p>
-                  </div>
+                    <span className="mt-4 text-xs font-semibold uppercase tracking-wide text-brand-600 transition-colors group-hover:text-cyan-300">
+                      {countByGroup[group.key] || 0} {t('productCatalog.productsSuffix')}
+                    </span>
+                    <span className="mt-2 inline-flex items-center gap-2 text-sm font-semibold text-brand-600 transition-colors group-hover:text-cyan-300">
+                      {t('productCatalog.viewGroup')}
+                      <ArrowRight size={16} className="transition-transform duration-300 group-hover:translate-x-1" />
+                    </span>
+                  </Link>
                 </Reveal>
               );
             })}

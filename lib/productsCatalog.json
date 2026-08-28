@@ -1,0 +1,2165 @@
+{
+  "groups": [
+    {
+      "key": "ups",
+      "title": "Bộ lưu điện UPS",
+      "desc": "Các dòng UPS APC — từ văn phòng nhỏ đến trung tâm dữ liệu."
+    },
+    {
+      "key": "phu-kien-ups",
+      "title": "Phụ kiện & bình ắc quy UPS",
+      "desc": "Bình ắc quy thay thế, card quản lý, PDU và phụ kiện đi kèm UPS."
+    },
+    {
+      "key": "tu-rack",
+      "title": "Tủ Rack & phụ kiện",
+      "desc": "Tủ rack APC, phụ kiện lắp đặt và PDU cho phòng máy chủ."
+    }
+  ],
+  "products": [
+    {
+      "slug": "bvx650i-vn",
+      "group": "ups",
+      "part_number": "BVX650I-VN",
+      "name": "APC Easy UPS 650VA, 230V",
+      "category_label": "Back-UPS & Easy UPS gia đình, văn phòng nhỏ",
+      "overview": "Easy UPS, 325W/650VA",
+      "specs": [
+        {
+          "label": "Output Connections",
+          "value": "(2) Universal Receptacle (230V)"
+        }
+      ],
+      "warranty": "3 years"
+    },
+    {
+      "slug": "bvg700i-msn",
+      "group": "ups",
+      "part_number": "BVG700I-MSN",
+      "name": "APC Easy UPS 700VA, Tower, 230V, 4 NEMA UNIVERSAL Outlets, AVR",
+      "category_label": "Back-UPS & Easy UPS gia đình, văn phòng nhỏ",
+      "overview": "Easy UPS, 360W/700VA",
+      "specs": [
+        {
+          "label": "UPS type",
+          "value": "Line interactive"
+        },
+        {
+          "label": "Output Connections",
+          "value": "(4) Universal (230V)"
+        }
+      ],
+      "warranty": "3 years"
+    },
+    {
+      "slug": "bvx900li-ms",
+      "group": "ups",
+      "part_number": "BVX900LI-MS",
+      "name": "APC Easy UPS 900VA, 230V, AVR, Universal Sockets",
+      "category_label": "Back-UPS & Easy UPS gia đình, văn phòng nhỏ",
+      "overview": "Easy UPS 480W/900VA",
+      "specs": [
+        {
+          "label": "Output Connections",
+          "value": "(1) IEC 320 C13, (2) Universal Receptacle (230V)"
+        },
+        {
+          "label": "Plug standard",
+          "value": "IEC 60320 C14"
+        }
+      ],
+      "warranty": "3 years"
+    },
+    {
+      "slug": "bv1000i-ms-thay-the-cho-bx1100li-ms",
+      "group": "ups",
+      "part_number": "BV1000I-MS (Thay thế cho BX1100LI-MS)",
+      "name": "APC EASY UPS BV 1000VA, AVR, Universal Outlet, 230V",
+      "category_label": "Back-UPS & Easy UPS gia đình, văn phòng nhỏ",
+      "overview": "Easy UPS, 600W/1000VA",
+      "specs": [
+        {
+          "label": "Topology",
+          "value": "Line Interactive - Input 230V/ Output 230V"
+        },
+        {
+          "label": "Output connection",
+          "value": "(4) Universal battery backup outlets"
+        }
+      ],
+      "warranty": "3 years"
+    },
+    {
+      "slug": "bvg1200i-msn",
+      "group": "ups",
+      "part_number": "BVG1200I-MSN",
+      "name": "APC Easy UPS 1200VA, Tower, 230V, 4 NEMA UNIVERSAL Outlets, AVR",
+      "category_label": "Back-UPS & Easy UPS gia đình, văn phòng nhỏ",
+      "overview": "",
+      "specs": [
+        {
+          "label": "Easy UPS, 650W/1200VA - Topology",
+          "value": "Line interactive"
+        },
+        {
+          "label": "Output Connections",
+          "value": "(4) Universal (230V)"
+        }
+      ],
+      "warranty": "3 years"
+    },
+    {
+      "slug": "bx1600mi-ms",
+      "group": "ups",
+      "part_number": "BX1600MI-MS",
+      "name": "APC Back-UPS 1400VA, 230V, AVR, Universal and IEC Sockets",
+      "category_label": "Back-UPS & Easy UPS gia đình, văn phòng nhỏ",
+      "overview": "Back UPS, 900W/1600VA, Output Connections: (1) IEC 320 C13, (4) Universal Receptacle (230V)",
+      "specs": [],
+      "warranty": "3 years"
+    },
+    {
+      "slug": "bx2200mi-ms",
+      "group": "ups",
+      "part_number": "BX2200MI-MS",
+      "name": "APC Back-UPS 1400VA, 230V, AVR, Universal and IEC Sockets",
+      "category_label": "Back-UPS & Easy UPS gia đình, văn phòng nhỏ",
+      "overview": "Back UPS, 1200W/2200VA",
+      "specs": [
+        {
+          "label": "Output Connections",
+          "value": "(1) IEC 320 C13, (4) Universal Receptacle (230V)"
+        }
+      ],
+      "warranty": "3 years"
+    },
+    {
+      "slug": "smc1000ic",
+      "group": "ups",
+      "part_number": "SMC1000IC",
+      "name": "APC Smart-UPS C 1000VA LCD 230V with SmartConnect",
+      "category_label": "Smart-UPS SMC (bảo hành 2 năm)",
+      "overview": "APC Smart-UPS, 1000VA/600W, Input 230V/Output 230V. Interface Port USB. Multi-function LCD status and control console",
+      "specs": [
+        {
+          "label": "Topology",
+          "value": "Line Interactive"
+        },
+        {
+          "label": "Waveform Type",
+          "value": "Sine wave"
+        },
+        {
+          "label": "Output connection",
+          "value": "(8) IEC 320 C13"
+        },
+        {
+          "label": "Runtime half load",
+          "value": "16.3 min"
+        }
+      ],
+      "warranty": "2 năm"
+    },
+    {
+      "slug": "smc1000i-2uc",
+      "group": "ups",
+      "part_number": "SMC1000I-2UC",
+      "name": "APC Smart-UPS C 1000VA 2U Rack mountable LCD 230V with SmartConnect",
+      "category_label": "Smart-UPS SMC (bảo hành 2 năm)",
+      "overview": "APC Smart-UPS, 1000VA/600W, Input 230V/Output 230V. Interface Port USB, Rack Height 2U. Multi-function LCD status and control console",
+      "specs": [
+        {
+          "label": "Topology",
+          "value": "Line Interactive"
+        },
+        {
+          "label": "Waveform Type",
+          "value": "Sine wave"
+        },
+        {
+          "label": "Output connection",
+          "value": "(4) IEC 320 C13, (2) IEC Jumpers"
+        },
+        {
+          "label": "Runtime half load",
+          "value": "16.3 min"
+        }
+      ],
+      "warranty": "2 năm"
+    },
+    {
+      "slug": "smc1500ic",
+      "group": "ups",
+      "part_number": "SMC1500IC",
+      "name": "APC Smart-UPS C 1500VA LCD 230V with SmartConnect",
+      "category_label": "Smart-UPS SMC (bảo hành 2 năm)",
+      "overview": "APC Smart-UPS, 1500VA/900W, Input 230V/Output 230V. Interface Port USB. Multi-function LCD status and control console",
+      "specs": [
+        {
+          "label": "Topology",
+          "value": "Line Interactive"
+        },
+        {
+          "label": "Waveform Type",
+          "value": "Sine wave"
+        },
+        {
+          "label": "Output connection",
+          "value": "(8) IEC 320 C13"
+        },
+        {
+          "label": "Runtime half load",
+          "value": "14.1 min"
+        }
+      ],
+      "warranty": "2 năm"
+    },
+    {
+      "slug": "smc1500i-2uc",
+      "group": "ups",
+      "part_number": "SMC1500I-2UC",
+      "name": "APC Smart-UPS C 2000VA 2U Rack mountable 230V with SmartConnect",
+      "category_label": "Smart-UPS SMC (bảo hành 2 năm)",
+      "overview": "APC Smart-UPS, 1500VA/900W, Input 230V/Output 230V. Interface Port USB, Rack Height 2U. Multi-function LCD status and control console",
+      "specs": [
+        {
+          "label": "Topology",
+          "value": "Line Interactive"
+        },
+        {
+          "label": "Waveform Type",
+          "value": "Sine wave"
+        },
+        {
+          "label": "Output connection",
+          "value": "(8) IEC 320 C13"
+        },
+        {
+          "label": "Runtime half load",
+          "value": "14.1 min"
+        }
+      ],
+      "warranty": "2 năm"
+    },
+    {
+      "slug": "smc2000i",
+      "group": "ups",
+      "part_number": "SMC2000I",
+      "name": "APC Smart-UPS C 2000VA LCD 230V",
+      "category_label": "Smart-UPS SMC (bảo hành 2 năm)",
+      "overview": "APC Smart-UPS, 2000VA/1300W, Input 230V/Output 230V. Interface Port USB. Multi-function LCD status and control console",
+      "specs": [
+        {
+          "label": "Topology",
+          "value": "Line Interactive"
+        },
+        {
+          "label": "Waveform Type",
+          "value": "Sine wave"
+        },
+        {
+          "label": "Output connection",
+          "value": "(6) IEC 320 C13, (1) IEC 320 C19"
+        },
+        {
+          "label": "Runtime half load",
+          "value": "11.9 min"
+        }
+      ],
+      "warranty": "2 năm"
+    },
+    {
+      "slug": "smc2000i-2u",
+      "group": "ups",
+      "part_number": "SMC2000I-2U",
+      "name": "APC Smart-UPS C 2000VA 2U Rack mountable 230V",
+      "category_label": "Smart-UPS SMC (bảo hành 2 năm)",
+      "overview": "APC Smart-UPS, 2000VA/1300W, Input 230V/Output 230V. Interface Port USB, Rack Height 2U. Multi-function LCD status and control console",
+      "specs": [
+        {
+          "label": "Topology",
+          "value": "Line Interactive"
+        },
+        {
+          "label": "Waveform Type",
+          "value": "Sine wave"
+        },
+        {
+          "label": "Output connection",
+          "value": "(6) IEC 320 C13, (1) IEC 320 C19"
+        },
+        {
+          "label": "Runtime half load",
+          "value": "11.9 min"
+        }
+      ],
+      "warranty": "2 năm"
+    },
+    {
+      "slug": "smc3000i",
+      "group": "ups",
+      "part_number": "SMC3000I",
+      "name": "APC Smart-UPS C 3000VA LCD 230V",
+      "category_label": "Smart-UPS SMC (bảo hành 2 năm)",
+      "overview": "APC Smart-UPS, 3000VA/2100W, Input 230V/Output 230V. Multi-function LCD status and control console",
+      "specs": [
+        {
+          "label": "Topology",
+          "value": "Line Interactive"
+        },
+        {
+          "label": "Waveform Type",
+          "value": "Sine wave"
+        },
+        {
+          "label": "Interface Port",
+          "value": "USB"
+        },
+        {
+          "label": "Output connection",
+          "value": "(8) IEC 320 C13, (1) IEC 320 C19"
+        },
+        {
+          "label": "Runtime half load",
+          "value": "17 min"
+        }
+      ],
+      "warranty": "2 năm"
+    },
+    {
+      "slug": "smc3000rmi2u",
+      "group": "ups",
+      "part_number": "SMC3000RMI2U",
+      "name": "APC Smart-UPS C 3000VA Rack mount LCD 230V",
+      "category_label": "Smart-UPS SMC (bảo hành 2 năm)",
+      "overview": "APC Smart-UPS, 3000VA/2100W, Input 230V/Output 230V. Interface Port USB, Rack Height 2U. Multi-function LCD status and control console",
+      "specs": [
+        {
+          "label": "Topology",
+          "value": "Line Interactive"
+        },
+        {
+          "label": "Waveform Type",
+          "value": "Sine wave"
+        },
+        {
+          "label": "Output connection",
+          "value": "(8) IEC 320 C13, (1) IEC 320 C19"
+        },
+        {
+          "label": "Runtime half load",
+          "value": "17 min"
+        }
+      ],
+      "warranty": "2 năm"
+    },
+    {
+      "slug": "sua5000rmi5u",
+      "group": "ups",
+      "part_number": "SUA5000RMI5U",
+      "name": "APC Smart-UPS 5000VA 230V Rackmount/Tower",
+      "category_label": "Smart-UPS SUA (bảo hành 2 năm)",
+      "overview": "APC Smart-UPS, 4000W/5000VA, Input 230V/Output 230V, Rack Height 5U",
+      "specs": [
+        {
+          "label": "Topology",
+          "value": "Line Interactive"
+        },
+        {
+          "label": "Waveform Type",
+          "value": "Sine wave"
+        },
+        {
+          "label": "Interface Port",
+          "value": "DB-9 RS-232, SmartSlot"
+        },
+        {
+          "label": "Output connection",
+          "value": "(8) IEC 320 C13, (2) IEC 320 C19"
+        },
+        {
+          "label": "Runtime half load",
+          "value": "26.7 min"
+        }
+      ],
+      "warranty": "2 năm"
+    },
+    {
+      "slug": "smt1000ic",
+      "group": "ups",
+      "part_number": "SMT1000IC",
+      "name": "APC Smart-UPS 1000VA LCD 230V with SmartConnect",
+      "category_label": "Smart-UPS SMT — dạng Tower (cho server)",
+      "overview": "APC Smart-UPS, 1000VA/700W, Input 230V/Output 230V, Interface Port DB-9 RS-232, SmartSlot, USB. Multi-function LCD status and control console",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "smt1500ic",
+      "group": "ups",
+      "part_number": "SMT1500IC",
+      "name": "APC Smart-UPS 1500VA LCD 230V with SmartConnect",
+      "category_label": "Smart-UPS SMT — dạng Tower (cho server)",
+      "overview": "APC Smart-UPS, 1500VA/1000W, Input 230V/Output 230V, Interface Port DB-9 RS-232, SmartSlot, USB. Multi-function LCD status and control console",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "smt2200ic",
+      "group": "ups",
+      "part_number": "SMT2200IC",
+      "name": "APC Smart-UPS 2200VA LCD 230V with SmartConntect",
+      "category_label": "Smart-UPS SMT — dạng Tower (cho server)",
+      "overview": "APC Smart-UPS, 2200VA/1980W, Input 230V/Output 230V, Interface Port DB-9 RS-232, USB, SmartSlot. Multi-function LCD status and control console",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "smt3000ic",
+      "group": "ups",
+      "part_number": "SMT3000IC",
+      "name": "APC Smart-UPS 3000VA LCD 230V with SmartConnect",
+      "category_label": "Smart-UPS SMT — dạng Tower (cho server)",
+      "overview": "APC Smart-UPS, 3000VA/2700W, Input 230V/Output 230V, Interface Port DB-9 RS-232, USB, SmartSlot. Multi-function LCD status and control console",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "smt1000rmi2uc",
+      "group": "ups",
+      "part_number": "SMT1000RMI2UC",
+      "name": "APC Smart-UPS 1000VA LCD RM 2U 230V with SmartConnect",
+      "category_label": "Smart-UPS SMT — dạng Rackmount (cho server)",
+      "overview": "APC Smart-UPS, 1000VA/700W, Input 230V/Output 230V, Interface Port DB-9 RS-232, USB, SmartSlot, Rack Height 2U. Multi-function LCD status and control console",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "smt1500rmi2uc",
+      "group": "ups",
+      "part_number": "SMT1500RMI2UC",
+      "name": "APC Smart-UPS 1500VA LCD RM 2U 230V with SmartConnect",
+      "category_label": "Smart-UPS SMT — dạng Rackmount (cho server)",
+      "overview": "APC Smart-UPS, 1500VA/1000W, Input 230V/Output 230V, Interface Port DB-9 RS-232, USB, SmartSlot, Rack Height 2U. Multi-function LCD status and control console",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "smt2200rmi2uc",
+      "group": "ups",
+      "part_number": "SMT2200RMI2UC",
+      "name": "APC Smart-UPS 2200VA LCD RM 2U 230V with SmartConnect",
+      "category_label": "Smart-UPS SMT — dạng Rackmount (cho server)",
+      "overview": "APC Smart-UPS, 2200VA/1980W, Input 230V/Output 230V, Interface Port DB-9 RS-232, USB, SmartSlot, Rack Height 2U. Multi-function LCD status and control console",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "smt3000rmi2uc",
+      "group": "ups",
+      "part_number": "SMT3000RMI2UC",
+      "name": "APC Smart-UPS 3000VA LCD RM 2U 230V with SmartConnect",
+      "category_label": "Smart-UPS SMT — dạng Rackmount (cho server)",
+      "overview": "APC Smart-UPS, 3000VA/2700W, Input 230V/Output 230V, Interface Port DB-9 RS-232, USB, SmartSlot, Rack Height 2U. Multi-function LCD status and control console",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "srt2200xli",
+      "group": "ups",
+      "part_number": "SRT2200XLI",
+      "name": "APC Smart-UPS On-Line, 1980W/2200VA, Input 230V/Output 230V, Interface Port : RJ-45 Serial, Smart-Slot, USB, Extended runtime model.",
+      "category_label": "Smart-UPS SRT Online",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "srt2200rmxli",
+      "group": "ups",
+      "part_number": "SRT2200RMXLI",
+      "name": "APC Rackmount Smart-UPS On-Line, 1980W/2200VA, Input 230V/Output 230V, Interface Port : RJ-45 Serial, Smart-Slot, USB, Extended runtime model.",
+      "category_label": "Smart-UPS SRT Online",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "srt3000xli",
+      "group": "ups",
+      "part_number": "SRT3000XLI",
+      "name": "APC Smart-UPS On-Line, 2700 Watts /3000 VA, Input 230V/Output 230V, Interface Port : RJ-45 Serial, Smart-Slot, USB, Extended runtime model.",
+      "category_label": "Smart-UPS SRT Online",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "srt3000rmxli",
+      "group": "ups",
+      "part_number": "SRT3000RMXLI",
+      "name": "APC Rackmount Smart-UPS On-Line, 2700W/3000VA, Input 230V/Output 230V, Interface Port : RJ-45 Serial, Smart-Slot, USB, Extended runtime model.",
+      "category_label": "Smart-UPS SRT Online",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "srt5kxli",
+      "group": "ups",
+      "part_number": "SRT5KXLI",
+      "name": "APC Smart-UPS On-Line, 4500W/5000VA, Input 230V/Output 230V, Interface Port Contact Closure, RJ-45 10/100 Base-T, RJ-45 Serial, Smart-Slot, USB, Extended runtime model.",
+      "category_label": "Smart-UPS SRT Online",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "srt5krmxli",
+      "group": "ups",
+      "part_number": "SRT5KRMXLI",
+      "name": "APC Rackmount Smart-UPS On-Line, 4500W/5000VA, Input 230V/Output 230V, Interface Port Contact Closure, RJ-45 10/100 Base-T, RJ-45 Serial, Smart-Slot, USB, Extended runtime model.",
+      "category_label": "Smart-UPS SRT Online",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "srt6kxli-tu-van-dong-srt8kxli",
+      "group": "ups",
+      "part_number": "SRT6KXLI (Tư vấn dòng SRT8KXLI)",
+      "name": "APC Smart-UPS On-Line, 6000W/6000VA, Input 230V/Output 230V, Interface Port Contact Closure, RJ-45 10/100 Base-T, RJ-45 Serial, Smart-Slot, USB, Extended runtime model.",
+      "category_label": "Smart-UPS SRT Online",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "srt6krmxli-tu-van-dong-srt8krmxli",
+      "group": "ups",
+      "part_number": "SRT6KRMXLI (Tư vấn dòng SRT8KRMXLI)",
+      "name": "APC Rackmount  Smart-UPS On-Line, 6000W/6000VA, Input 230V/Output 230V, Interface Port Contact Closure, RJ-45 10/100 Base-T, RJ-45 Serial, Smart-Slot, USB, Extended runtime model.",
+      "category_label": "Smart-UPS SRT Online",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "srt8kxli-gia-tot",
+      "group": "ups",
+      "part_number": "SRT8KXLI (Giá tốt)",
+      "name": "APC Smart-UPS On-Line, 8000W/8000VA, Input 230V/Output 230V, Interface Port Contact Closure, RJ-45 10/100 Base-T, RJ-45 Serial, Smart-Slot, USB, Extended runtime model.",
+      "category_label": "Smart-UPS SRT Online",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "srt8krmxli-gia-tot",
+      "group": "ups",
+      "part_number": "SRT8KRMXLI (Giá tốt)",
+      "name": "APC Rackmount  Smart-UPS On-Line, 8000W/8000VA, Input 230V/Output 230V, Interface Port Contact Closure, RJ-45 10/100 Base-T, RJ-45 Serial, Smart-Slot, USB, Extended runtime model.",
+      "category_label": "Smart-UPS SRT Online",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "srt10kxli",
+      "group": "ups",
+      "part_number": "SRT10KXLI",
+      "name": "APC Smart-UPS On-Line, 10KW/10KVA, Input 230V, 400V 3PH /Output 230V, Interface Port Contact Closure, RJ-45 10/100 Base-T, RJ-45 Serial, Smart-Slot, USB, Extended runtime model.",
+      "category_label": "Smart-UPS SRT Online",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "srt10krmxli",
+      "group": "ups",
+      "part_number": "SRT10KRMXLI",
+      "name": "APC Rackmount  Smart-UPS On-Line, 10KW/10KVA, Input 230V, 400V 3PH/Output 230V, Interface Port Contact Closure, RJ-45 10/100 Base-T, RJ-45 Serial, Smart-Slot, USB, Extended runtime model.",
+      "category_label": "Smart-UPS SRT Online",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "srtg15kxli",
+      "group": "ups",
+      "part_number": "SRTG15KXLI",
+      "name": "APC Smart-UPS On-Line, 15KVA/15KW, Rack/Tower, 230V/380V...415V, Hard wire 5-wire(3P+N+E)+3-wire(1P+N+E), Network Card, W/O rail kit",
+      "category_label": "Smart-UPS SRTG Online",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "srtg20kxli",
+      "group": "ups",
+      "part_number": "SRTG20KXLI",
+      "name": "APC Smart-UPS On-Line, 20KVA/20KW, Rack/Tower, 230V/380V...415V, Hard wire 5-wire(3P+N+E)+3-wire(1P+N+E), Network Card, W/O rail kit",
+      "category_label": "Smart-UPS SRTG Online",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "srtg192xlbp2",
+      "group": "ups",
+      "part_number": "SRTG192XLBP2",
+      "name": "APC Smart-UPS RT Battery Pack 192V, rackmount, 4U, wo rail kit",
+      "category_label": "Smart-UPS SRTG Online",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "srtgrk1",
+      "group": "ups",
+      "part_number": "SRTGRK1",
+      "name": "APC SMART-UPS RT 19\" Rail Kit For 5/6/8/10/15/20KVA",
+      "category_label": "Smart-UPS SRTG Online",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "srtgrk2",
+      "group": "ups",
+      "part_number": "SRTGRK2",
+      "name": "APC SMART-UPS RT 19\" Rail Kit For External Battery Pack 15/20KVA",
+      "category_label": "Smart-UPS SRTG Online",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "srt72bp",
+      "group": "phu-kien-ups",
+      "part_number": "SRT72BP",
+      "name": "APC Smart-UPS SRT 72V 2.2KVA Battery Pack",
+      "category_label": "Phụ kiện Smart-UPS (bình ắc quy, rail kit, PDU, card, dây nguồn)",
+      "overview": "",
+      "specs": [
+        {
+          "label": "( Modell support",
+          "value": "SRT2200XLI, SRT2200RMXLI)"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "srt72rmbp",
+      "group": "phu-kien-ups",
+      "part_number": "SRT72RMBP",
+      "name": "APC Rackmount Smart-UPS SRT 72V 2.2KVA Battery Pack",
+      "category_label": "Phụ kiện Smart-UPS (bình ắc quy, rail kit, PDU, card, dây nguồn)",
+      "overview": "",
+      "specs": [
+        {
+          "label": "( Model support",
+          "value": "SRT2200XLI, SRT2200RMXLI)"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "srt96bp",
+      "group": "phu-kien-ups",
+      "part_number": "SRT96BP",
+      "name": "APC Smart-UPS SRT 96V 3KVA Battery Pack",
+      "category_label": "Phụ kiện Smart-UPS (bình ắc quy, rail kit, PDU, card, dây nguồn)",
+      "overview": "SRT3000RMXLI)",
+      "specs": [
+        {
+          "label": "( Model support",
+          "value": "SRT3000XLI"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "srt96rmbp",
+      "group": "phu-kien-ups",
+      "part_number": "SRT96RMBP",
+      "name": "APC Rackmount Smart-UPS SRT 96V 3KVA Battery Pack",
+      "category_label": "Phụ kiện Smart-UPS (bình ắc quy, rail kit, PDU, card, dây nguồn)",
+      "overview": "",
+      "specs": [
+        {
+          "label": "( Model support",
+          "value": "SRT3000XLI, SRT3000RMXLI)"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "srt192bp",
+      "group": "phu-kien-ups",
+      "part_number": "SRT192BP",
+      "name": "APC Smart-UPS SRT 192V 5KVA and 6KVA Battery Pack",
+      "category_label": "Phụ kiện Smart-UPS (bình ắc quy, rail kit, PDU, card, dây nguồn)",
+      "overview": "",
+      "specs": [
+        {
+          "label": "(Model Support",
+          "value": "SRT5KRMXLI, SRT5KXLI, SRT6KRMXLI, SRT6KXLI)"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "srt192rmbp",
+      "group": "phu-kien-ups",
+      "part_number": "SRT192RMBP",
+      "name": "APC Smart-UPS SRT 192V 5KVA and 6KVA RM Battery Pack",
+      "category_label": "Phụ kiện Smart-UPS (bình ắc quy, rail kit, PDU, card, dây nguồn)",
+      "overview": "",
+      "specs": [
+        {
+          "label": "(Model Support",
+          "value": "SRT5KRMXLI, SRT5KXLI, SRT6KRMXLI, SRT6KXLI)"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "srt192bp2",
+      "group": "phu-kien-ups",
+      "part_number": "SRT192BP2",
+      "name": "APC Smart-UPS SRT 192V 8kVA and 10kVA Battery Pack",
+      "category_label": "Phụ kiện Smart-UPS (bình ắc quy, rail kit, PDU, card, dây nguồn)",
+      "overview": "",
+      "specs": [
+        {
+          "label": "(Model Support",
+          "value": "SRT8KRMXLI, SRT8KXLI, SRT10KRMXLI, SRT10KXLI)"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "srt192rmbp2",
+      "group": "phu-kien-ups",
+      "part_number": "SRT192RMBP2",
+      "name": "APC Smart-UPS SRT 192V 8KVA and 10KVA RM Battery Pack",
+      "category_label": "Phụ kiện Smart-UPS (bình ắc quy, rail kit, PDU, card, dây nguồn)",
+      "overview": "",
+      "specs": [
+        {
+          "label": "(Model Support",
+          "value": "SRT8KRMXLI, SRT8KXLI, SRT10KRMXLI, SRT10KXLI)"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "srtrk4",
+      "group": "phu-kien-ups",
+      "part_number": "SRTRK4",
+      "name": "APC Smart-UPS SRT 19\" Rail Kit for SRT 2.2/3KVA",
+      "category_label": "Phụ kiện Smart-UPS (bình ắc quy, rail kit, PDU, card, dây nguồn)",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "srtrk2",
+      "group": "phu-kien-ups",
+      "part_number": "SRTRK2",
+      "name": "APC Smart-UPS SRT 19\" Rail Kit for Smart-UPS SRT 5/6/8/10KVA",
+      "category_label": "Phụ kiện Smart-UPS (bình ắc quy, rail kit, PDU, card, dây nguồn)",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "ap9640",
+      "group": "phu-kien-ups",
+      "part_number": "AP9640",
+      "name": "UPS Network Management Card 3",
+      "category_label": "Phụ kiện Smart-UPS (bình ắc quy, rail kit, PDU, card, dây nguồn)",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "ap9641",
+      "group": "phu-kien-ups",
+      "part_number": "AP9641",
+      "name": "UPS Network Management Card 3 with Environmental Monitoring",
+      "category_label": "Phụ kiện Smart-UPS (bình ắc quy, rail kit, PDU, card, dây nguồn)",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "ap4423a-new",
+      "group": "phu-kien-ups",
+      "part_number": "AP4423A (NEW)",
+      "name": "Rack ATS, 230V, 16A, C20 in, (8) C13 (1) C19 out",
+      "category_label": "Phụ kiện Smart-UPS (bình ắc quy, rail kit, PDU, card, dây nguồn)",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "ap4424a-new",
+      "group": "phu-kien-ups",
+      "part_number": "AP4424A (NEW)",
+      "name": "Rack ATS, 230V, 32A, IEC 309 in, (16) C13 (2) C19 out",
+      "category_label": "Phụ kiện Smart-UPS (bình ắc quy, rail kit, PDU, card, dây nguồn)",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "ap9335th",
+      "group": "phu-kien-ups",
+      "part_number": "AP9335TH",
+      "name": "APC Temperature & Humidity Sensor",
+      "category_label": "Phụ kiện Smart-UPS (bình ắc quy, rail kit, PDU, card, dây nguồn)",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "rbc6",
+      "group": "phu-kien-ups",
+      "part_number": "RBC6",
+      "name": "APC Replacement Battery Cartridge for SMT1000I, SMT1000IC",
+      "category_label": "Bình ắc quy thay thế — dòng SMC, SMT Tower",
+      "overview": "",
+      "specs": [],
+      "warranty": null,
+      "compatible_with": [
+        "APC Replacement Battery Cartridge for SMT1000I, SMT1000IC",
+        "APC Replacement Battery Cartridge for SMC1500I, SMC1500IC"
+      ]
+    },
+    {
+      "slug": "rbc7",
+      "group": "phu-kien-ups",
+      "part_number": "RBC7",
+      "name": "APC Replacement Battery Cartridge for SMT1500I, SMT1500IC",
+      "category_label": "Bình ắc quy thay thế — dòng SMC, SMT Tower",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "rbc55",
+      "group": "phu-kien-ups",
+      "part_number": "RBC55",
+      "name": "APC Replacement Battery Cartridge for SMT2200I, SMT2200IC",
+      "category_label": "Bình ắc quy thay thế — dòng SMC, SMT Tower",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "apcrbc142",
+      "group": "phu-kien-ups",
+      "part_number": "APCRBC142",
+      "name": "APC Replacement Battery Cartridge for SMC1000I, SMC1000IC",
+      "category_label": "Bình ắc quy thay thế — dòng SMC, SMT Tower",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "apcrbc148",
+      "group": "phu-kien-ups",
+      "part_number": "APCRBC148",
+      "name": "APC Replacement Battery Cartridge for SMC2000I",
+      "category_label": "Bình ắc quy thay thế — dòng SMC, SMT Tower",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "apcrbc150",
+      "group": "phu-kien-ups",
+      "part_number": "APCRBC150",
+      "name": "APC Replacement Battery Cartridge for SMC3000I",
+      "category_label": "Bình ắc quy thay thế — dòng SMC, SMT Tower",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "apcrbc157",
+      "group": "phu-kien-ups",
+      "part_number": "APCRBC157",
+      "name": "APC Replacement Battery Cartridge for SMT1000RMI2U, SMT1000RMI2UC, SMC1500I-2U, SMC1500I-2UC",
+      "category_label": "Bình ắc quy thay thế — dòng SMC, SMT Rackmount",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "apcrbc159",
+      "group": "phu-kien-ups",
+      "part_number": "APCRBC159",
+      "name": "APC Replacement Battery Cartridge for SMT1500RMI2U, SMT1500RMI2UC",
+      "category_label": "Bình ắc quy thay thế — dòng SMC, SMT Rackmount",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "rbc43",
+      "group": "phu-kien-ups",
+      "part_number": "RBC43",
+      "name": "APC Replacement Battery Cartridge for SMT2200RMI2U, SMT2200RMI2UC",
+      "category_label": "Bình ắc quy thay thế — dòng SMC, SMT Rackmount",
+      "overview": "",
+      "specs": [],
+      "warranty": null,
+      "compatible_with": [
+        "APC Replacement Battery Cartridge for SMT2200RMI2U, SMT2200RMI2UC",
+        "APC Replacement Battery Cartridge for SMT3000RMI2U, SMT3000RMI2UC"
+      ]
+    },
+    {
+      "slug": "apcrbc124",
+      "group": "phu-kien-ups",
+      "part_number": "APCRBC124",
+      "name": "APC Replacement Battery Cartridge for SMC1000I-2U",
+      "category_label": "Bình ắc quy thay thế — dòng SMC, SMT Rackmount",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "apcrbc132",
+      "group": "phu-kien-ups",
+      "part_number": "APCRBC132",
+      "name": "APC Replacement Battery Cartridge for SMC1500I-2U",
+      "category_label": "Bình ắc quy thay thế — dòng SMC, SMT Rackmount",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "apcrbc151",
+      "group": "phu-kien-ups",
+      "part_number": "APCRBC151",
+      "name": "APC Replacement Battery Cartridge for SMC3000RMI2U",
+      "category_label": "Bình ắc quy thay thế — dòng SMC, SMT Rackmount",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "apcrbc141",
+      "group": "phu-kien-ups",
+      "part_number": "APCRBC141",
+      "name": "APC Replacement Battery Cartridge for SRT2200XLI, SRT2200RMXLI",
+      "category_label": "Bình ắc quy thay thế — dòng SRT & bình ngoài",
+      "overview": "",
+      "specs": [],
+      "warranty": null,
+      "compatible_with": [
+        "APC Replacement Battery Cartridge for SRT2200XLI, SRT2200RMXLI",
+        "APC Replacement Battery Cartridge for SRT72BP, SRT72RMBP"
+      ]
+    },
+    {
+      "slug": "apcrbc152",
+      "group": "phu-kien-ups",
+      "part_number": "APCRBC152",
+      "name": "APC Replacement Battery Cartridge for SRT3000XLI, SRT3000RMXLI,",
+      "category_label": "Bình ắc quy thay thế — dòng SRT & bình ngoài",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "apcrbc140",
+      "group": "phu-kien-ups",
+      "part_number": "APCRBC140",
+      "name": "APC Replacement Battery Cartridge for SRT5KXLI, SRT5KRMXLI, SRT6KXLI, SRT6KRMXLI,",
+      "category_label": "Bình ắc quy thay thế — dòng SRT & bình ngoài",
+      "overview": "",
+      "specs": [],
+      "warranty": null,
+      "compatible_with": [
+        "APC Replacement Battery Cartridge for SRT5KXLI, SRT5KRMXLI, SRT6KXLI, SRT6KRMXLI,",
+        "APC Replacement Battery Cartridge for SRT8KXLI, SRT8KRMXLI, SRT10K, SRT10KRMXLI, SRT192BP2, SRT192RMBP2 ( Sử dụng 2 catridge APCRBC140)"
+      ]
+    },
+    {
+      "slug": "ar3100",
+      "group": "tu-rack",
+      "part_number": "AR3100",
+      "name": "Tủ rack APC NetShelter SX 42U 600mm Wide x 1070mm Deep Enclosure with Sides Black",
+      "category_label": "Tủ rack APC",
+      "overview": "",
+      "specs": [
+        {
+          "label": "Net Weight",
+          "value": "125.09kg"
+        },
+        {
+          "label": "Maximum Height",
+          "value": "1991mm, 199.1cm"
+        },
+        {
+          "label": "Maximum Width",
+          "value": "600mm, 60.0cm"
+        },
+        {
+          "label": "Maximum Depth",
+          "value": "1070mm, 107.0cm"
+        },
+        {
+          "label": "Weight Capacity (static load)",
+          "value": "1363kg"
+        },
+        {
+          "label": "Weight Capacity (dynamic load)",
+          "value": "1022kg"
+        },
+        {
+          "label": "Minimum Mounting Depth",
+          "value": "7.52inches"
+        },
+        {
+          "label": "Maximum Mounting Depth",
+          "value": "915.0mm, 91.49cm"
+        },
+        {
+          "label": "Rack Height",
+          "value": "42U"
+        },
+        {
+          "label": "Rack Width",
+          "value": "19\""
+        },
+        {
+          "label": "Color",
+          "value": "Black"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "ar203a",
+      "group": "tu-rack",
+      "part_number": "AR203A",
+      "name": "NetShelter 4 Post Open Frame Rack 44U Square Holes",
+      "category_label": "Tủ rack APC",
+      "overview": "",
+      "specs": [
+        {
+          "label": "Net Weight",
+          "value": "40.1kg"
+        },
+        {
+          "label": "Height",
+          "value": "213cm"
+        },
+        {
+          "label": "Width",
+          "value": "60cm"
+        },
+        {
+          "label": "Depth",
+          "value": "74.7cm"
+        },
+        {
+          "label": "Weight Capacity (static load)",
+          "value": "907.2kg"
+        },
+        {
+          "label": "Minimum Mounting Depth",
+          "value": "73.99cm"
+        },
+        {
+          "label": "Maximum Mounting Depth",
+          "value": "73.99cm"
+        },
+        {
+          "label": "Rack Height",
+          "value": "44U"
+        },
+        {
+          "label": "Rack Width",
+          "value": "19\""
+        },
+        {
+          "label": "Color",
+          "value": "Black"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "ar106vi",
+      "group": "tu-rack",
+      "part_number": "AR106VI",
+      "name": "NetShelter WX 6U Low-Profile Wallmount Enclosure 230V Fans",
+      "category_label": "Tủ rack APC",
+      "overview": "Rack Enclosure",
+      "specs": [
+        {
+          "label": "Main Input Voltage",
+          "value": "230V"
+        },
+        {
+          "label": "Input Connection Type",
+          "value": "IEC 60320 C13"
+        },
+        {
+          "label": "Number of rack unit",
+          "value": "6U"
+        },
+        {
+          "label": "Height",
+          "value": "648mm"
+        },
+        {
+          "label": "Width",
+          "value": "353mm"
+        },
+        {
+          "label": "Depth",
+          "value": "968mm"
+        },
+        {
+          "label": "Net weight",
+          "value": "36.29kg"
+        },
+        {
+          "label": "Mounting support",
+          "value": "Wall"
+        },
+        {
+          "label": "Permanent permissible load",
+          "value": "113.4kg dynamic 113.4kg static"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "ar8105blk",
+      "group": "tu-rack",
+      "part_number": "AR8105BLK",
+      "name": "Fixed Shelf 50lbs/24kg Black (AR8105BLK)",
+      "category_label": "Phụ kiện tủ rack APC",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "ar8122blk",
+      "group": "tu-rack",
+      "part_number": "AR8122BLK",
+      "name": "Fixed Shelf - 250lbs/114kg, Black (AR8122BLK)",
+      "category_label": "Phụ kiện tủ rack APC",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "ar8123blk",
+      "group": "tu-rack",
+      "part_number": "AR8123BLK",
+      "name": "Sliding Shelf 100lbs/45.5kg Black (AR8123BLK )",
+      "category_label": "Phụ kiện tủ rack APC",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "ap9565",
+      "group": "tu-rack",
+      "part_number": "AP9565",
+      "name": "Rack PDU, Basic, 1U, 16A, 208/230V, (12)C13 (AP9565)",
+      "category_label": "PDU & dây nguồn cho tủ rack APC",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "ap9559",
+      "group": "tu-rack",
+      "part_number": "AP9559",
+      "name": "Rack PDU,Basic, 1U, 16A,208&230V, (10)C13 & (2)C19 (AP9559)",
+      "category_label": "PDU & dây nguồn cho tủ rack APC",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "ap7552",
+      "group": "tu-rack",
+      "part_number": "AP7552",
+      "name": "Rack PDU,Basic, Zero U, 16A, 230V, (20) C13 & (4) C19; IEC C20 (AP7552)",
+      "category_label": "PDU & dây nguồn cho tủ rack APC",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "ap7553",
+      "group": "tu-rack",
+      "part_number": "AP7553",
+      "name": "Rack PDU, Basic, Zero U, 32A, 230V, (20)C13 & (4)C19 (AP7553)",
+      "category_label": "PDU & dây nguồn cho tủ rack APC",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "ap7920b-new",
+      "group": "tu-rack",
+      "part_number": "AP7920B New",
+      "name": "RACK PDU, SWITCHED, 1U, 12A/208V, 10A/230V, (8)C13 (AP7920B)",
+      "category_label": "PDU & dây nguồn cho tủ rack APC",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "ap9870",
+      "group": "tu-rack",
+      "part_number": "AP9870",
+      "name": "Power Cord, C13 to C14, 2.5m (AP9870)",
+      "category_label": "PDU & dây nguồn cho tủ rack APC",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "ap9877",
+      "group": "tu-rack",
+      "part_number": "AP9877",
+      "name": "Power Cord, C19 to C20, 2.0m (Dây cáp nguồn từ UPS đến Server chuẩn C19 to C20) (AP9877)",
+      "category_label": "PDU & dây nguồn cho tủ rack APC",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "srv1ki-e",
+      "group": "ups",
+      "part_number": "SRV1KI-E",
+      "name": "APC Easy UPS SRV 1000VA 230V Tower",
+      "category_label": "Easy UPS Online — dạng Tower",
+      "overview": "",
+      "specs": [
+        {
+          "label": "Output power capacity",
+          "value": "900W/1000VA"
+        },
+        {
+          "label": "Topology",
+          "value": "Double Conversion Online"
+        },
+        {
+          "label": "Waveform type",
+          "value": "Sine wave"
+        },
+        {
+          "label": "Output Connections",
+          "value": "(3) IEC 320 C13"
+        },
+        {
+          "label": "Input Connections",
+          "value": "IEC-320 C14"
+        },
+        {
+          "label": "Half load",
+          "value": "10m; full load: 3m"
+        },
+        {
+          "label": "Control panel",
+          "value": "Multi-function LCD status and control console"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "srv2ki-e",
+      "group": "ups",
+      "part_number": "SRV2KI-E",
+      "name": "APC Easy UPS SRV 2000VA 230V Tower",
+      "category_label": "Easy UPS Online — dạng Tower",
+      "overview": "",
+      "specs": [
+        {
+          "label": "Output power capacity",
+          "value": "1800W/2000VA"
+        },
+        {
+          "label": "Topology",
+          "value": "Double Conversion Online"
+        },
+        {
+          "label": "Waveform type",
+          "value": "Sine wave"
+        },
+        {
+          "label": "Output Connections",
+          "value": "(4) IEC 320 C13"
+        },
+        {
+          "label": "Input Connections",
+          "value": "IEC-320 C14"
+        },
+        {
+          "label": "Half load",
+          "value": "11m; full load: 3m"
+        },
+        {
+          "label": "Control panel",
+          "value": "Multi-function LCD status and control console"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "srv3ki-e",
+      "group": "ups",
+      "part_number": "SRV3KI-E",
+      "name": "APC Easy UPS SRV 3000VA 230V Tower",
+      "category_label": "Easy UPS Online — dạng Tower",
+      "overview": "",
+      "specs": [
+        {
+          "label": "Output power capacity",
+          "value": "2700W/3000VA"
+        },
+        {
+          "label": "Topology",
+          "value": "Double Conversion Online"
+        },
+        {
+          "label": "Waveform type",
+          "value": "Sine wave"
+        },
+        {
+          "label": "Output Connections",
+          "value": "(6) IEC 320 C13, (1) IEC 320 C19"
+        },
+        {
+          "label": "Input Connections",
+          "value": "IEC-320 C14"
+        },
+        {
+          "label": "Half load",
+          "value": "11m; full load: 3m"
+        },
+        {
+          "label": "Control panel",
+          "value": "Multi-function LCD status and control console"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "srv6ki",
+      "group": "ups",
+      "part_number": "SRV6KI",
+      "name": "APC Easy UPS SRV 6000VA 230V Tower",
+      "category_label": "Easy UPS Online — dạng Tower",
+      "overview": "",
+      "specs": [
+        {
+          "label": "Output power capacity",
+          "value": "6000W/6000VA"
+        },
+        {
+          "label": "Topology",
+          "value": "Double Conversion Online"
+        },
+        {
+          "label": "Waveform type",
+          "value": "Sine wave"
+        },
+        {
+          "label": "Output Connections",
+          "value": "optional PDU"
+        },
+        {
+          "label": "Input Connections",
+          "value": "Hard Wire 3-wire"
+        },
+        {
+          "label": "Half load",
+          "value": "12m; full load: 4m"
+        },
+        {
+          "label": "Control panel",
+          "value": "Multi-function LCD status and control console"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "srv10ki",
+      "group": "ups",
+      "part_number": "SRV10KI",
+      "name": "APC Easy UPS On-Line, 10KVA/10KW, Tower, 230V, Hard wire 3-wire (1P+N+E) outlet, Intelligent Card Slot, LCD",
+      "category_label": "Easy UPS Online — dạng Tower",
+      "overview": "",
+      "specs": [
+        {
+          "label": "Output power capacity",
+          "value": "10KW/10KVA"
+        },
+        {
+          "label": "Topology",
+          "value": "Double Conversion Online"
+        },
+        {
+          "label": "Waveform type",
+          "value": "Sine wave"
+        },
+        {
+          "label": "Output Connections",
+          "value": "optional PDU"
+        },
+        {
+          "label": "Input Connections",
+          "value": "Hard Wire 3-wire"
+        },
+        {
+          "label": "Half load",
+          "value": "9.5m; full load: 3m"
+        },
+        {
+          "label": "Control panel",
+          "value": "Multi-function LCD status and control console"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "srv1krirk-e-new",
+      "group": "ups",
+      "part_number": "SRV1KRIRK-E (NEW)",
+      "name": "APC Easy UPS On-Line SRV RM 1000 VA 230V with Rail Kit",
+      "category_label": "Easy UPS Online — dạng Rackmount",
+      "overview": "",
+      "specs": [
+        {
+          "label": "Output power capacity",
+          "value": "900W/1000VA"
+        },
+        {
+          "label": "Topology",
+          "value": "Double Conversion Online"
+        },
+        {
+          "label": "Waveform type",
+          "value": "Sine wave"
+        },
+        {
+          "label": "Output Connections",
+          "value": "(3) IEC 320 C13"
+        },
+        {
+          "label": "Input Connections",
+          "value": "IEC-320 C14"
+        },
+        {
+          "label": "Half load",
+          "value": "10m; full load: 3m"
+        },
+        {
+          "label": "Control panel",
+          "value": "Multi-function LCD status and control console"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "srv2krirk-e-new",
+      "group": "ups",
+      "part_number": "SRV2KRIRK-E (NEW)",
+      "name": "APC Easy UPS On-Line SRV RM 2000 VA 230V with Rail Kit",
+      "category_label": "Easy UPS Online — dạng Rackmount",
+      "overview": "",
+      "specs": [
+        {
+          "label": "Output power capacity",
+          "value": "1800W/2000VA"
+        },
+        {
+          "label": "Topology",
+          "value": "Double Conversion Online"
+        },
+        {
+          "label": "Waveform type",
+          "value": "Sine wave"
+        },
+        {
+          "label": "Output Connections",
+          "value": "(4) IEC 320 C13"
+        },
+        {
+          "label": "Input Connections",
+          "value": "IEC 60320 C14"
+        },
+        {
+          "label": "Half load",
+          "value": "11m; full load: 3m"
+        },
+        {
+          "label": "Control panel",
+          "value": "Multi-function LCD status and control console"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "srv3krirk-e-new",
+      "group": "ups",
+      "part_number": "SRV3KRIRK-E (NEW)",
+      "name": "APC Easy UPS On-Line SRV RM 3000 VA 230V with Rail Kit",
+      "category_label": "Easy UPS Online — dạng Rackmount",
+      "overview": "",
+      "specs": [
+        {
+          "label": "Output power capacity",
+          "value": "2700W/3000VA"
+        },
+        {
+          "label": "Topology",
+          "value": "Double Conversion Online"
+        },
+        {
+          "label": "Waveform type",
+          "value": "Sine wave"
+        },
+        {
+          "label": "Output Connections",
+          "value": "(6) IEC 320 C13, (1) IEC 320 C19"
+        },
+        {
+          "label": "Input Connections",
+          "value": "IEC-320 C20"
+        },
+        {
+          "label": "Half load",
+          "value": "11m; full load: 3m"
+        },
+        {
+          "label": "Control panel",
+          "value": "Multi-function LCD status and control console"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "srv6krirk",
+      "group": "ups",
+      "part_number": "SRV6KRIRK",
+      "name": "APC Easy UPS On-Line SRV RM 6000 VA 230V with Rail Kit",
+      "category_label": "Easy UPS Online — dạng Rackmount",
+      "overview": "",
+      "specs": [
+        {
+          "label": "Output power capacity",
+          "value": "6000W/6000VA"
+        },
+        {
+          "label": "Topology",
+          "value": "Double Conversion Online"
+        },
+        {
+          "label": "Waveform type",
+          "value": "Sine wave"
+        },
+        {
+          "label": "Output Connections",
+          "value": "optional PDU"
+        },
+        {
+          "label": "Input Connections",
+          "value": "Hard Wire 3-wire"
+        },
+        {
+          "label": "Half load",
+          "value": "12m; full load: 4m"
+        },
+        {
+          "label": "Control panel",
+          "value": "Multi-function LCD status and control console"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "srv10krirk",
+      "group": "ups",
+      "part_number": "SRV10KRIRK",
+      "name": "APC Easy UPS On-Line SRV RM 10000 VA 230V with Rail Kit",
+      "category_label": "Easy UPS Online — dạng Rackmount",
+      "overview": "",
+      "specs": [
+        {
+          "label": "Output power capacity",
+          "value": "10KW/10KVA"
+        },
+        {
+          "label": "Topology",
+          "value": "Double Conversion Online"
+        },
+        {
+          "label": "Waveform type",
+          "value": "Sine wave"
+        },
+        {
+          "label": "Output Connections",
+          "value": "optional PDU"
+        },
+        {
+          "label": "Input Connections",
+          "value": "Hard Wire 3-wire"
+        },
+        {
+          "label": "Half load",
+          "value": "9.5m; full load: 3m"
+        },
+        {
+          "label": "Control panel",
+          "value": "Multi-function LCD status and control console - Extended Run Options"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "apv9601",
+      "group": "phu-kien-ups",
+      "part_number": "APV9601",
+      "name": "APC SNMP Card for Management",
+      "category_label": "Card quản lý Easy UPS",
+      "overview": "",
+      "specs": [
+        {
+          "label": "UPS status",
+          "value": "load, battery charge, voltage"
+        },
+        {
+          "label": "Battery status",
+          "value": "healthy & capacity & runtime"
+        },
+        {
+          "label": "Environmental status",
+          "value": "temperature & humidity"
+        },
+        {
+          "label": "Shutdown Wizard",
+          "value": "ability to remotely shut down and reboot server"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "ap9544",
+      "group": "phu-kien-ups",
+      "part_number": "AP9544",
+      "name": "APC Device monitoring and management",
+      "category_label": "Card quản lý Easy UPS",
+      "overview": "A 12-month Secure NMC Subscription, that allows the customer to access future firmware updates, is included with the purchase of the card*. Upon expiration of the provided Secure NMC Subscription the purchase of a new Secure NMC Subscription is required to access future firmware updates",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "srv1kil",
+      "group": "ups",
+      "part_number": "SRV1KIL",
+      "name": "APC Easy UPS On-Line SRV Ext. Runtime 1000VA 230V with External Battery Pack",
+      "category_label": "Easy UPS Online có bình ắc quy ngoài",
+      "overview": "Extended Run Options. Optional external battery (SRV36BP-9A)",
+      "specs": [
+        {
+          "label": "Output power capacity",
+          "value": "800W/1000VA"
+        },
+        {
+          "label": "Topology",
+          "value": "Double Conversion Online"
+        },
+        {
+          "label": "Waveform type",
+          "value": "Sine wave"
+        },
+        {
+          "label": "Output Connections",
+          "value": "(3) IEC 320 C13"
+        },
+        {
+          "label": "Input Connections",
+          "value": "IEC-320 C14"
+        },
+        {
+          "label": "Half load",
+          "value": "52m; full load: 23m"
+        },
+        {
+          "label": "Control panel",
+          "value": "Multi-function LCD status and control console"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "srv3kil-e",
+      "group": "ups",
+      "part_number": "SRV3KIL-E",
+      "name": "APC Easy UPS On-Line, 3000VA/2700W, Tower, 230V, 6x IEC C13 + 1x IEC C19 outlets, Intelligent Card Slot, LCD, Extended runtime",
+      "category_label": "Easy UPS Online có bình ắc quy ngoài",
+      "overview": "Extended Run Options. Optional external battery (SRV72BP-9A)",
+      "specs": [
+        {
+          "label": "Output power capacity",
+          "value": "2700W/3000VA"
+        },
+        {
+          "label": "Topology",
+          "value": "Double Conversion Online"
+        },
+        {
+          "label": "Waveform type",
+          "value": "Sine wave"
+        },
+        {
+          "label": "Output Connections",
+          "value": "(6) IEC 320 C13, (1) IEC 320 C19"
+        },
+        {
+          "label": "Input Connections",
+          "value": "IEC 60320 C20"
+        },
+        {
+          "label": "Half load",
+          "value": "34m; full load: 14m"
+        },
+        {
+          "label": "Control panel",
+          "value": "Multi-function LCD status and control console"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "srv6kil",
+      "group": "ups",
+      "part_number": "SRV6KIL",
+      "name": "APC Easy UPS On-Line SRV Ext. Runtime 6000VA 230V with External Battery Pack",
+      "category_label": "Easy UPS Online có bình ắc quy ngoài",
+      "overview": "Extended Run Options. Optional external battery (SRV240RBP-9A)",
+      "specs": [
+        {
+          "label": "Output power capacity",
+          "value": "6000W/6000VA"
+        },
+        {
+          "label": "Topology",
+          "value": "Double Conversion Online"
+        },
+        {
+          "label": "Waveform type",
+          "value": "Sine wave"
+        },
+        {
+          "label": "Output Connections",
+          "value": "optional PDU"
+        },
+        {
+          "label": "Input Connections",
+          "value": "Hard Wire 3-wire"
+        },
+        {
+          "label": "Half load",
+          "value": "18m; full load: 6m"
+        },
+        {
+          "label": "Control panel",
+          "value": "Multi-function LCD status and control console"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "srv10kil",
+      "group": "ups",
+      "part_number": "SRV10KIL",
+      "name": "APC Easy UPS On-Line, 10KVA/10KW, Tower, 230V, Hard wire 3-wire(1P+N+E) outlet, Intelligent Card Slot, LCD, Extended Runtime",
+      "category_label": "Easy UPS Online có bình ắc quy ngoài",
+      "overview": "Extended Run Options. Optional external battery (SRV240RBP-9A)",
+      "specs": [
+        {
+          "label": "Output power capacity",
+          "value": "10KW/10KVA"
+        },
+        {
+          "label": "Topology",
+          "value": "Double Conversion Online"
+        },
+        {
+          "label": "Waveform type",
+          "value": "Sine wave"
+        },
+        {
+          "label": "Output Connections",
+          "value": "Hard wire 3-wire (1P + N + E) 1"
+        },
+        {
+          "label": "Input Connections",
+          "value": "1 hard wire 3-wire (1P + N + E)"
+        },
+        {
+          "label": "Half load",
+          "value": "9m; full load: 2.5m"
+        },
+        {
+          "label": "Control panel",
+          "value": "Multi-function LCD status and control console"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "srv3krilrk",
+      "group": "ups",
+      "part_number": "SRV3KRILRK",
+      "name": "APC Easy UPS On-Line SRV Ext. Runtime 3000VA 230V with External Battery Pack, with Rail Kit (Rackmountable)",
+      "category_label": "Easy UPS Online Rackmount có bình ắc quy ngoài",
+      "overview": "Extended Run Options. Optional external battery (SRV72BP-9A)",
+      "specs": [
+        {
+          "label": "Output power capacity",
+          "value": "2400W/3000VA"
+        },
+        {
+          "label": "Topology",
+          "value": "Double Conversion Online"
+        },
+        {
+          "label": "Waveform type",
+          "value": "Sine wave"
+        },
+        {
+          "label": "Output Connections",
+          "value": "(6) IEC 320 C13, (1) IEC 320 C19"
+        },
+        {
+          "label": "Input Connections",
+          "value": "IEC-320 C14"
+        },
+        {
+          "label": "Half load",
+          "value": "30m; full load: 13m"
+        },
+        {
+          "label": "Control panel",
+          "value": "Multi-function LCD status and control console"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "srv6krilrk",
+      "group": "ups",
+      "part_number": "SRV6KRILRK",
+      "name": "APC Easy UPS SRV RM 6000VA 230V with External Battery Pack,with RailKit",
+      "category_label": "Easy UPS Online Rackmount có bình ắc quy ngoài",
+      "overview": "Optional external battery (SRV240RBP-9A)",
+      "specs": [
+        {
+          "label": "Output power capacity",
+          "value": "6000W/6000VA"
+        },
+        {
+          "label": "Topology",
+          "value": "Double Conversion Online"
+        },
+        {
+          "label": "Waveform type",
+          "value": "Sine wave"
+        },
+        {
+          "label": "Output Connections",
+          "value": "optional PDU"
+        },
+        {
+          "label": "Input Connections",
+          "value": "Hard Wire 3-wire"
+        },
+        {
+          "label": "Half load",
+          "value": "18m; full load: 7m"
+        },
+        {
+          "label": "Control panel",
+          "value": "Multi-function LCD status and control console"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "srv10krilrk",
+      "group": "ups",
+      "part_number": "SRV10KRILRK",
+      "name": "APC Easy UPS SRV RM 10000VA 230V with External Battery Pack,with RailKit",
+      "category_label": "Easy UPS Online Rackmount có bình ắc quy ngoài",
+      "overview": "Optional external battery (SRV240RBP-9A)",
+      "specs": [
+        {
+          "label": "Output power capacity",
+          "value": "10KW/10KVA"
+        },
+        {
+          "label": "Topology",
+          "value": "Double Conversion Online"
+        },
+        {
+          "label": "Waveform type",
+          "value": "Sine wave"
+        },
+        {
+          "label": "Output Connections",
+          "value": "optional PDU"
+        },
+        {
+          "label": "Input Connections",
+          "value": "Hard Wire 3-wire"
+        },
+        {
+          "label": "Half load",
+          "value": "9m; full load: 2.5m"
+        },
+        {
+          "label": "Control panel",
+          "value": "Multi-function LCD status and control console"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "srv72bp-9a",
+      "group": "phu-kien-ups",
+      "part_number": "SRV72BP-9A",
+      "name": "APC external battery pack for SRV2KIL, SRV3KIL (Tower)",
+      "category_label": "Bình ắc quy ngoài cho Easy UPS",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "srv72rlbp-9a",
+      "group": "phu-kien-ups",
+      "part_number": "SRV72RLBP-9A",
+      "name": "APC external battery pack for SRV2KRILRK, SRV3KRILRK (Rackmountable, dùng gắn tủ rack thì cần thêm rail kit SRVRK1)",
+      "category_label": "Bình ắc quy ngoài cho Easy UPS",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "srv240bp-9a",
+      "group": "phu-kien-ups",
+      "part_number": "SRV240BP-9A",
+      "name": "APC external battery pack for SRV6KIL, SRV10KIL (Tower)",
+      "category_label": "Bình ắc quy ngoài cho Easy UPS",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "srv240rlbp-9a",
+      "group": "phu-kien-ups",
+      "part_number": "SRV240RLBP-9A",
+      "name": "APC external battery pack for SRV6KRILRK, SRV10KRILRK (Rackmountable, dùng gắn tủ rack thì cần thêm raiil kit SRVRK2)",
+      "category_label": "Bình ắc quy ngoài cho Easy UPS",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "srvrk1",
+      "group": "phu-kien-ups",
+      "part_number": "SRVRK1",
+      "name": "APC Easy UPS On-Line RAIL KIT, 700mm (for SRV72RLBP-9A)",
+      "category_label": "PDU & dây nguồn cho Easy UPS",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "srvrk2",
+      "group": "phu-kien-ups",
+      "part_number": "SRVRK2",
+      "name": "APC Easy UPS On-Line RAIL KIT, 900mm (for SRV240RLBP-9A)",
+      "category_label": "PDU & dây nguồn cho Easy UPS",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "er6212-tu-rack-42u-600mm-1100mm",
+      "group": "tu-rack",
+      "part_number": "ER6212 (Tủ rack 42U- 600mm/1100mm)",
+      "name": "Tủ rack Easy 600mm/42U/1100mm with Roof, Side panel,castors,feet and 4 Brackets, No Bottom, black",
+      "category_label": "Tủ rack Easy",
+      "overview": "",
+      "specs": [
+        {
+          "label": "Net Weight",
+          "value": "105.2kg"
+        },
+        {
+          "label": "Maximum Height",
+          "value": "1991mm"
+        },
+        {
+          "label": "Maximum Width",
+          "value": "600mm"
+        },
+        {
+          "label": "Maximum Depth",
+          "value": "1100mm"
+        },
+        {
+          "label": "Weight Capacity (static load)",
+          "value": "1199.75kg"
+        },
+        {
+          "label": "Weight Capacity (dynamic load)",
+          "value": "600kg"
+        },
+        {
+          "label": "Minimum Mounting Depth",
+          "value": "242mm"
+        },
+        {
+          "label": "Maximum Mounting Depth",
+          "value": "940mm"
+        },
+        {
+          "label": "Rack Height",
+          "value": "42U"
+        },
+        {
+          "label": "Rack Width",
+          "value": "19\""
+        },
+        {
+          "label": "Color",
+          "value": "Black"
+        },
+        {
+          "label": "Warranty",
+          "value": "5 years"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "er8212-tu-rack-42u-800mm-1100mm",
+      "group": "tu-rack",
+      "part_number": "ER8212 (Tủ rack 42U- 800mm/1100mm)",
+      "name": "Tủ rack Easy 800mm/42U/1100mm with Roof, Side panel,castors,feet and 4 Brackets, No Bottom, black",
+      "category_label": "Tủ rack Easy",
+      "overview": "",
+      "specs": [
+        {
+          "label": "Net Weight",
+          "value": "131.2kg"
+        },
+        {
+          "label": "Maximum Height",
+          "value": "1991mm"
+        },
+        {
+          "label": "Maximum Width",
+          "value": "800mm"
+        },
+        {
+          "label": "Maximum Depth",
+          "value": "1100mm"
+        },
+        {
+          "label": "Weight Capacity (static load)",
+          "value": "1199.75kg"
+        },
+        {
+          "label": "Weight Capacity (dynamic load)",
+          "value": "599.65kg"
+        },
+        {
+          "label": "Minimum Mounting Depth",
+          "value": "242mm"
+        },
+        {
+          "label": "Maximum Mounting Depth",
+          "value": "940.0mm"
+        },
+        {
+          "label": "Rack Height",
+          "value": "42U"
+        },
+        {
+          "label": "Rack Width",
+          "value": "19\""
+        },
+        {
+          "label": "Color",
+          "value": "Black"
+        },
+        {
+          "label": "Warranty",
+          "value": "5 years"
+        }
+      ],
+      "warranty": null
+    },
+    {
+      "slug": "er7shelf-mam-de-thiet-bi",
+      "group": "tu-rack",
+      "part_number": "ER7SHELF (Mâm để thiết bị)",
+      "name": "Easy Rack Adjustable shelf ,50kg",
+      "category_label": "Thanh nguồn & phụ kiện tủ Easy",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "epdu1016b",
+      "group": "tu-rack",
+      "part_number": "EPDU1016B",
+      "name": "Easy PDU, Basic, 1U, 16A, 230V, (8)C13",
+      "category_label": "Thanh nguồn & phụ kiện tủ Easy",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "epdu1132b",
+      "group": "tu-rack",
+      "part_number": "EPDU1132B",
+      "name": "Easy PDU, Basic, Zero U, 32A, 230V, (20)C13 & (4)C19 IEC309",
+      "category_label": "Thanh nguồn & phụ kiện tủ Easy",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    },
+    {
+      "slug": "epdu1132m",
+      "group": "tu-rack",
+      "part_number": "EPDU1132M",
+      "name": "Easy PDU Metered Zero U 32A 230V (20)C13 (4)C19 IEC309",
+      "category_label": "Thanh nguồn & phụ kiện tủ Easy",
+      "overview": "",
+      "specs": [],
+      "warranty": null
+    }
+  ]
+}

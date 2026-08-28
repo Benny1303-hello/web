@@ -769,12 +769,19 @@
       }
     }
   },
-  "productCategories": [
-    { "title": "UPS Power Supplies", "desc": "APC Back-UPS and Easy UPS Online power solutions for servers and network systems." },
-    { "title": "APC Rack & Accessories", "desc": "Rack cabinets, rail kits, and accessories for server rooms and data centers." },
-    { "title": "Digilink by Schneider Electric", "desc": "Structured cabling infrastructure: outlets, patch panels, and internationally certified cabling accessories." },
-    { "title": "Security & Environmental Monitoring", "desc": "Cameras, environmental sensors, and monitoring systems for server rooms and buildings." },
-    { "title": "HPE Aruba Networking", "desc": "Switches, access points, and enterprise networking solutions from HPE Aruba." },
-    { "title": "Warranty & Technical Services", "desc": "Extended warranty, technical support, and periodic maintenance services for distributed equipment." }
-  ]
+  "productCatalog": {
+    "groupsHeading": "Choose a product group",
+    "viewGroup": "View products",
+    "backToGroups": "View all product groups",
+    "backToGroup": "View all products in this group",
+    "specsHeading": "Technical specifications",
+    "compatibleHeading": "Compatible with",
+    "warrantyLabel": "Warranty",
+    "contactHeading": "Contact our sales team",
+    "contactDesc": "Our sales team is ready to quote and advise on this product in detail.",
+    "imagePending": "Product image will be added soon.",
+    "noSpecs": "No detailed specifications available for this product yet.",
+    "productsSuffix": "products",
+    "partNumberLabel": "Part number"
+  }
 }

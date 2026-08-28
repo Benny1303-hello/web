@@ -769,12 +769,19 @@
       }
     }
   },
-  "productCategories": [
-    { "title": "Bộ lưu điện UPS", "desc": "Giải pháp lưu điện APC Back-UPS, Easy UPS Online cho máy chủ và hệ thống mạng." },
-    { "title": "Tủ Rack & phụ kiện APC", "desc": "Tủ rack, thanh ray, phụ kiện đi kèm cho phòng máy chủ và trung tâm dữ liệu." },
-    { "title": "Digilink by Schneider Electric", "desc": "Giải pháp hạ tầng mạng cấu trúc: ổ cắm, patch panel, phụ kiện đi dây chuẩn quốc tế." },
-    { "title": "Giám sát an ninh & môi trường", "desc": "Camera, cảm biến môi trường, hệ thống giám sát cho phòng máy chủ và tòa nhà." },
-    { "title": "HPE Aruba Networking", "desc": "Switch, access point và giải pháp mạng doanh nghiệp từ HPE Aruba." },
-    { "title": "Bảo hành & dịch vụ kỹ thuật", "desc": "Dịch vụ bảo hành mở rộng, hỗ trợ kỹ thuật và bảo trì định kỳ cho thiết bị đã phân phối." }
-  ]
+  "productCatalog": {
+    "groupsHeading": "Chọn nhóm sản phẩm",
+    "viewGroup": "Xem sản phẩm",
+    "backToGroups": "Xem tất cả nhóm sản phẩm",
+    "backToGroup": "Xem tất cả sản phẩm trong nhóm này",
+    "specsHeading": "Thông số kỹ thuật",
+    "compatibleHeading": "Tương thích với các model",
+    "warrantyLabel": "Bảo hành",
+    "contactHeading": "Liên hệ mua hàng",
+    "contactDesc": "Đội ngũ kinh doanh sẵn sàng báo giá và tư vấn chi tiết cho sản phẩm này.",
+    "imagePending": "Hình ảnh sản phẩm sẽ được cập nhật sau.",
+    "noSpecs": "Chưa có thông số chi tiết cho sản phẩm này.",
+    "productsSuffix": "sản phẩm",
+    "partNumberLabel": "Mã sản phẩm"
+  }
 }

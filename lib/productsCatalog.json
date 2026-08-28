@@ -158,7 +158,13 @@
           "value": "16.3 min"
         }
       ],
-      "warranty": "2 năm"
+      "warranty": "2 năm",
+      "images": [
+        "/products/smc1000ic/1.jpg",
+        "/products/smc1000ic/2.jpg",
+        "/products/smc1000ic/3.jpg",
+        "/products/smc1000ic/4.jpg"
+      ]
     },
     {
       "slug": "smc1000i-2uc",
@@ -185,7 +191,13 @@
           "value": "16.3 min"
         }
       ],
-      "warranty": "2 năm"
+      "warranty": "2 năm",
+      "images": [
+        "/products/smc1000i-2uc/1.jpg",
+        "/products/smc1000i-2uc/2.jpg",
+        "/products/smc1000i-2uc/3.jpg",
+        "/products/smc1000i-2uc/4.jpg"
+      ]
     },
     {
       "slug": "smc1500ic",
@@ -212,7 +224,13 @@
           "value": "14.1 min"
         }
       ],
-      "warranty": "2 năm"
+      "warranty": "2 năm",
+      "images": [
+        "/products/smc1500ic/1.jpg",
+        "/products/smc1500ic/2.jpg",
+        "/products/smc1500ic/3.jpg",
+        "/products/smc1500ic/4.jpg"
+      ]
     },
     {
       "slug": "smc1500i-2uc",
@@ -239,7 +257,12 @@
           "value": "14.1 min"
         }
       ],
-      "warranty": "2 năm"
+      "warranty": "2 năm",
+      "images": [
+        "/products/smc1500i-2uc/1.jpg",
+        "/products/smc1500i-2uc/2.jpg",
+        "/products/smc1500i-2uc/3.jpg"
+      ]
     },
     {
       "slug": "smc2000i",
@@ -266,7 +289,12 @@
           "value": "11.9 min"
         }
       ],
-      "warranty": "2 năm"
+      "warranty": "2 năm",
+      "images": [
+        "/products/smc2000i/1.jpg",
+        "/products/smc2000i/2.jpg",
+        "/products/smc2000i/3.jpg"
+      ]
     },
     {
       "slug": "smc2000i-2u",
@@ -293,7 +321,13 @@
           "value": "11.9 min"
         }
       ],
-      "warranty": "2 năm"
+      "warranty": "2 năm",
+      "images": [
+        "/products/smc2000i-2u/1.jpg",
+        "/products/smc2000i-2u/2.jpg",
+        "/products/smc2000i-2u/3.jpg",
+        "/products/smc2000i-2u/4.jpg"
+      ]
     },
     {
       "slug": "smc3000i",
@@ -324,7 +358,12 @@
           "value": "17 min"
         }
       ],
-      "warranty": "2 năm"
+      "warranty": "2 năm",
+      "images": [
+        "/products/smc3000i/1.jpg",
+        "/products/smc3000i/2.jpg",
+        "/products/smc3000i/3.jpg"
+      ]
     },
     {
       "slug": "smc3000rmi2u",
@@ -351,7 +390,13 @@
           "value": "17 min"
         }
       ],
-      "warranty": "2 năm"
+      "warranty": "2 năm",
+      "images": [
+        "/products/smc3000rmi2u/1.jpg",
+        "/products/smc3000rmi2u/2.jpg",
+        "/products/smc3000rmi2u/3.jpg",
+        "/products/smc3000rmi2u/4.jpg"
+      ]
     },
     {
       "slug": "sua5000rmi5u",
@@ -392,7 +437,13 @@
       "category_label": "Smart-UPS SMT — dạng Tower (cho server)",
       "overview": "APC Smart-UPS, 1000VA/700W, Input 230V/Output 230V, Interface Port DB-9 RS-232, SmartSlot, USB. Multi-function LCD status and control console",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/smt1000ic/1.jpg",
+        "/products/smt1000ic/2.jpg",
+        "/products/smt1000ic/3.jpg",
+        "/products/smt1000ic/4.jpg"
+      ]
     },
     {
       "slug": "smt1500ic",
@@ -472,7 +523,13 @@
       "category_label": "Smart-UPS SRT Online",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srt2200xli/1.jpg",
+        "/products/srt2200xli/2.jpg",
+        "/products/srt2200xli/3.jpg",
+        "/products/srt2200xli/4.jpg"
+      ]
     },
     {
       "slug": "srt2200rmxli",
@@ -482,7 +539,12 @@
       "category_label": "Smart-UPS SRT Online",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srt2200rmxli/1.jpg",
+        "/products/srt2200rmxli/2.jpg",
+        "/products/srt2200rmxli/3.jpg"
+      ]
     },
     {
       "slug": "srt3000xli",
@@ -492,7 +554,13 @@
       "category_label": "Smart-UPS SRT Online",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srt3000xli/1.jpg",
+        "/products/srt3000xli/2.jpg",
+        "/products/srt3000xli/3.jpg",
+        "/products/srt3000xli/4.jpg"
+      ]
     },
     {
       "slug": "srt3000rmxli",
@@ -502,7 +570,10 @@
       "category_label": "Smart-UPS SRT Online",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srt3000rmxli/1.jpg"
+      ]
     },
     {
       "slug": "srt5kxli",
@@ -512,7 +583,12 @@
       "category_label": "Smart-UPS SRT Online",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srt5kxli/1.jpg",
+        "/products/srt5kxli/2.jpg",
+        "/products/srt5kxli/3.jpg"
+      ]
     },
     {
       "slug": "srt5krmxli",
@@ -522,7 +598,13 @@
       "category_label": "Smart-UPS SRT Online",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srt5krmxli/1.jpg",
+        "/products/srt5krmxli/2.jpg",
+        "/products/srt5krmxli/3.jpg",
+        "/products/srt5krmxli/4.jpg"
+      ]
     },
     {
       "slug": "srt6kxli-tu-van-dong-srt8kxli",
@@ -572,7 +654,13 @@
       "category_label": "Smart-UPS SRT Online",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srt10kxli/1.jpg",
+        "/products/srt10kxli/2.jpg",
+        "/products/srt10kxli/3.jpg",
+        "/products/srt10kxli/4.jpg"
+      ]
     },
     {
       "slug": "srt10krmxli",
@@ -582,7 +670,13 @@
       "category_label": "Smart-UPS SRT Online",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srt10krmxli/1.jpg",
+        "/products/srt10krmxli/2.jpg",
+        "/products/srt10krmxli/3.jpg",
+        "/products/srt10krmxli/4.jpg"
+      ]
     },
     {
       "slug": "srtg15kxli",
@@ -647,7 +741,13 @@
           "value": "SRT2200XLI, SRT2200RMXLI)"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srt72bp/1.jpg",
+        "/products/srt72bp/2.jpg",
+        "/products/srt72bp/3.jpg",
+        "/products/srt72bp/4.jpg"
+      ]
     },
     {
       "slug": "srt72rmbp",
@@ -662,7 +762,10 @@
           "value": "SRT2200XLI, SRT2200RMXLI)"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srt72rmbp/1.jpg"
+      ]
     },
     {
       "slug": "srt96bp",
@@ -677,7 +780,13 @@
           "value": "SRT3000XLI"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srt96bp/1.jpg",
+        "/products/srt96bp/2.jpg",
+        "/products/srt96bp/3.jpg",
+        "/products/srt96bp/4.jpg"
+      ]
     },
     {
       "slug": "srt96rmbp",
@@ -692,7 +801,10 @@
           "value": "SRT3000XLI, SRT3000RMXLI)"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srt96rmbp/1.jpg"
+      ]
     },
     {
       "slug": "srt192bp",
@@ -707,7 +819,13 @@
           "value": "SRT5KRMXLI, SRT5KXLI, SRT6KRMXLI, SRT6KXLI)"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srt192bp/1.jpg",
+        "/products/srt192bp/2.jpg",
+        "/products/srt192bp/3.jpg",
+        "/products/srt192bp/4.jpg"
+      ]
     },
     {
       "slug": "srt192rmbp",
@@ -722,7 +840,13 @@
           "value": "SRT5KRMXLI, SRT5KXLI, SRT6KRMXLI, SRT6KXLI)"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srt192rmbp/1.jpg",
+        "/products/srt192rmbp/2.jpg",
+        "/products/srt192rmbp/3.jpg",
+        "/products/srt192rmbp/4.jpg"
+      ]
     },
     {
       "slug": "srt192bp2",
@@ -737,7 +861,13 @@
           "value": "SRT8KRMXLI, SRT8KXLI, SRT10KRMXLI, SRT10KXLI)"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srt192bp2/1.png",
+        "/products/srt192bp2/2.jpg",
+        "/products/srt192bp2/3.jpg",
+        "/products/srt192bp2/4.jpg"
+      ]
     },
     {
       "slug": "srt192rmbp2",
@@ -762,7 +892,10 @@
       "category_label": "Phụ kiện Smart-UPS (bình ắc quy, rail kit, PDU, card, dây nguồn)",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srtrk4/1.jpg"
+      ]
     },
     {
       "slug": "srtrk2",
@@ -772,7 +905,10 @@
       "category_label": "Phụ kiện Smart-UPS (bình ắc quy, rail kit, PDU, card, dây nguồn)",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srtrk2/1.jpg"
+      ]
     },
     {
       "slug": "ap9640",
@@ -822,7 +958,10 @@
       "category_label": "Phụ kiện Smart-UPS (bình ắc quy, rail kit, PDU, card, dây nguồn)",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/ap9335th/1.jpg"
+      ]
     },
     {
       "slug": "rbc6",
@@ -836,6 +975,9 @@
       "compatible_with": [
         "APC Replacement Battery Cartridge for SMT1000I, SMT1000IC",
         "APC Replacement Battery Cartridge for SMC1500I, SMC1500IC"
+      ],
+      "images": [
+        "/products/rbc6/1.jpg"
       ]
     },
     {
@@ -846,7 +988,10 @@
       "category_label": "Bình ắc quy thay thế — dòng SMC, SMT Tower",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/rbc7/1.png"
+      ]
     },
     {
       "slug": "rbc55",
@@ -876,7 +1021,10 @@
       "category_label": "Bình ắc quy thay thế — dòng SMC, SMT Tower",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/apcrbc148/1.png"
+      ]
     },
     {
       "slug": "apcrbc150",
@@ -920,6 +1068,9 @@
       "compatible_with": [
         "APC Replacement Battery Cartridge for SMT2200RMI2U, SMT2200RMI2UC",
         "APC Replacement Battery Cartridge for SMT3000RMI2U, SMT3000RMI2UC"
+      ],
+      "images": [
+        "/products/rbc43/1.jpg"
       ]
     },
     {
@@ -940,7 +1091,10 @@
       "category_label": "Bình ắc quy thay thế — dòng SMC, SMT Rackmount",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/apcrbc132/1.jpg"
+      ]
     },
     {
       "slug": "apcrbc151",
@@ -964,6 +1118,9 @@
       "compatible_with": [
         "APC Replacement Battery Cartridge for SRT2200XLI, SRT2200RMXLI",
         "APC Replacement Battery Cartridge for SRT72BP, SRT72RMBP"
+      ],
+      "images": [
+        "/products/apcrbc141/1.png"
       ]
     },
     {
@@ -974,7 +1131,10 @@
       "category_label": "Bình ắc quy thay thế — dòng SRT & bình ngoài",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/apcrbc152/1.png"
+      ]
     },
     {
       "slug": "apcrbc140",
@@ -988,6 +1148,9 @@
       "compatible_with": [
         "APC Replacement Battery Cartridge for SRT5KXLI, SRT5KRMXLI, SRT6KXLI, SRT6KRMXLI,",
         "APC Replacement Battery Cartridge for SRT8KXLI, SRT8KRMXLI, SRT10K, SRT10KRMXLI, SRT192BP2, SRT192RMBP2 ( Sử dụng 2 catridge APCRBC140)"
+      ],
+      "images": [
+        "/products/apcrbc140/1.jpg"
       ]
     },
     {
@@ -1151,7 +1314,11 @@
       "category_label": "Phụ kiện tủ rack APC",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/ar8105blk/1.png",
+        "/products/ar8105blk/2.jpg"
+      ]
     },
     {
       "slug": "ar8122blk",
@@ -1161,7 +1328,11 @@
       "category_label": "Phụ kiện tủ rack APC",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/ar8122blk/1.jpg",
+        "/products/ar8122blk/2.jpg"
+      ]
     },
     {
       "slug": "ar8123blk",
@@ -1181,7 +1352,13 @@
       "category_label": "PDU & dây nguồn cho tủ rack APC",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/ap9565/1.png",
+        "/products/ap9565/2.jpg",
+        "/products/ap9565/3.jpg",
+        "/products/ap9565/4.jpg"
+      ]
     },
     {
       "slug": "ap9559",
@@ -1191,7 +1368,10 @@
       "category_label": "PDU & dây nguồn cho tủ rack APC",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/ap9559/1.jpg"
+      ]
     },
     {
       "slug": "ap7552",
@@ -1201,7 +1381,11 @@
       "category_label": "PDU & dây nguồn cho tủ rack APC",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/ap7552/1.jpg",
+        "/products/ap7552/2.jpg"
+      ]
     },
     {
       "slug": "ap7553",
@@ -1211,7 +1395,10 @@
       "category_label": "PDU & dây nguồn cho tủ rack APC",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/ap7553/1.jpg"
+      ]
     },
     {
       "slug": "ap7920b-new",
@@ -1231,7 +1418,10 @@
       "category_label": "PDU & dây nguồn cho tủ rack APC",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/ap9870/1.jpg"
+      ]
     },
     {
       "slug": "ap9877",
@@ -1241,7 +1431,10 @@
       "category_label": "PDU & dây nguồn cho tủ rack APC",
       "overview": "",
       "specs": [],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/ap9877/1.jpg"
+      ]
     },
     {
       "slug": "srv1ki-e",
@@ -1397,7 +1590,12 @@
           "value": "Multi-function LCD status and control console"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srv6ki/1.jpg",
+        "/products/srv6ki/2.jpg",
+        "/products/srv6ki/3.jpg"
+      ]
     },
     {
       "slug": "srv10ki",
@@ -1592,7 +1790,12 @@
           "value": "Multi-function LCD status and control console"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srv6krirk/1.jpg",
+        "/products/srv6krirk/2.jpg",
+        "/products/srv6krirk/3.jpg"
+      ]
     },
     {
       "slug": "srv10krirk",
@@ -1631,7 +1834,12 @@
           "value": "Multi-function LCD status and control console - Extended Run Options"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/srv10krirk/1.jpg",
+        "/products/srv10krirk/2.jpg",
+        "/products/srv10krirk/3.jpg"
+      ]
     },
     {
       "slug": "apv9601",
@@ -1658,7 +1866,13 @@
           "value": "ability to remotely shut down and reboot server"
         }
       ],
-      "warranty": null
+      "warranty": null,
+      "images": [
+        "/products/apv9601/1.jpg",
+        "/products/apv9601/2.jpg",
+        "/products/apv9601/3.jpg",
+        "/products/apv9601/4.jpg"
+      ]
     },
     {
       "slug": "ap9544",

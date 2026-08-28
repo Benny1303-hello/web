@@ -1,6 +1,8 @@
 'use client';
 
+import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowLeft, PackageSearch, ShieldCheck, Phone, Mail } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
@@ -14,6 +16,8 @@ export default function ProductDetailContent({ groupKey, slug }) {
   const group = productsCatalog.groups.find((g) => g.key === groupKey);
   const product = productsCatalog.products.find((p) => p.group === groupKey && p.slug === slug);
   const salesTeam = distributionStaff.find((g) => g.groupKey === 'sales')?.members || [];
+  const images = Array.isArray(product.images) ? product.images : [];
+  const [activeImage, setActiveImage] = useState(images[0]);
 
   const hasOverview = Boolean(product.overview);
   const hasSpecs = Array.isArray(product.specs) && product.specs.length > 0;
@@ -43,10 +47,40 @@ export default function ProductDetailContent({ groupKey, slug }) {
       <section className="bg-white pb-20">
         <div className="container-page grid grid-cols-1 gap-12 lg:grid-cols-[1fr_1.3fr]">
           <Reveal>
-            <div className="flex aspect-square w-full flex-col items-center justify-center gap-3 rounded-3xl bg-mist-50 text-ink-300 ring-1 ring-black/5">
-              <PackageSearch size={56} />
-              <p className="max-w-[220px] text-center text-xs text-ink-400">{t('productCatalog.imagePending')}</p>
-            </div>
+            {images.length > 0 ? (
+              <>
+                <div className="relative aspect-square w-full overflow-hidden rounded-3xl bg-white ring-1 ring-black/5">
+                  <Image
+                    src={activeImage}
+                    alt={product.name}
+                    fill
+                    sizes="(min-width: 1024px) 40vw, 90vw"
+                    className="object-contain p-6"
+                  />
+                </div>
+                {images.length > 1 && (
+                  <div className="mt-3 grid grid-cols-4 gap-3">
+                    {images.map((src) => (
+                      <button
+                        key={src}
+                        type="button"
+                        onClick={() => setActiveImage(src)}
+                        className={`relative aspect-square overflow-hidden rounded-xl bg-white ring-1 transition-all ${
+                          activeImage === src ? 'ring-2 ring-brand-500' : 'ring-black/5 hover:ring-brand-300'
+                        }`}
+                      >
+                        <Image src={src} alt={product.name} fill sizes="120px" className="object-contain p-2" />
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </>
+            ) : (
+              <div className="flex aspect-square w-full flex-col items-center justify-center gap-3 rounded-3xl bg-mist-50 text-ink-300 ring-1 ring-black/5">
+                <PackageSearch size={56} />
+                <p className="max-w-[220px] text-center text-xs text-ink-400">{t('productCatalog.imagePending')}</p>
+              </div>
+            )}
 
             <div className="mt-6 space-y-3">
               <div className="flex items-center justify-between rounded-xl bg-mist-50 px-4 py-3 text-sm ring-1 ring-black/5">

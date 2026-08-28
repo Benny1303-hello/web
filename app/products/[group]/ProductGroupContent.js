@@ -45,23 +45,23 @@ export default function ProductGroupContent({ groupKey }) {
               <h2 className="font-display text-xl font-bold text-navy-900">{section.label}</h2>
             </Reveal>
 
-            <div className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
               {section.products.map((p, i) => (
                 <Reveal key={`${p.group}-${p.slug}`} delay={(i % 6) * 0.05}>
                   <Link
                     href={`/products/${p.group}/${p.slug}`}
-                    className="group flex h-full flex-col rounded-2xl border border-black/5 bg-mist-50 p-6 transition-all duration-300 hover:-translate-y-1 hover:border-transparent hover:bg-navy-950 hover:shadow-card"
+                    className="group flex h-full flex-col rounded-2xl border border-black/5 bg-mist-50 p-8 transition-all duration-300 hover:-translate-y-1 hover:border-transparent hover:bg-navy-950 hover:shadow-card"
                   >
-                    <div className="flex h-24 w-full items-center justify-center rounded-xl bg-white text-ink-300 ring-1 ring-black/5 transition-colors group-hover:bg-white/10 group-hover:text-white/40">
-                      <PackageSearch size={28} />
+                    <div className="flex h-32 w-full items-center justify-center rounded-xl bg-white text-ink-300 ring-1 ring-black/5 transition-colors group-hover:bg-white/10 group-hover:text-white/40">
+                      <PackageSearch size={32} />
                     </div>
-                    <p className="mt-4 text-xs font-semibold uppercase tracking-wide text-brand-600 transition-colors group-hover:text-cyan-300">
+                    <h3 className="mt-5 font-display text-xl font-bold leading-snug text-ink-900 transition-colors group-hover:text-white">
                       {p.part_number}
-                    </p>
-                    <h3 className="mt-1 font-display text-base font-bold leading-snug text-ink-900 transition-colors group-hover:text-white">
-                      {p.name}
                     </h3>
-                    <span className="mt-3 inline-flex items-center gap-1.5 text-xs font-semibold text-brand-600 transition-colors group-hover:text-cyan-300">
+                    <p className="mt-2 text-sm leading-relaxed text-ink-400 transition-colors group-hover:text-slate-300">
+                      {p.name}
+                    </p>
+                    <span className="mt-4 inline-flex items-center gap-1.5 text-xs font-semibold text-brand-600 transition-colors group-hover:text-cyan-300">
                       {t('centersSection.viewMore')}
                       <ArrowRight size={14} className="transition-transform duration-300 group-hover:translate-x-1" />
                     </span>

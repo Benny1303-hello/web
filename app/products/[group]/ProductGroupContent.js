@@ -46,9 +46,13 @@ export default function ProductGroupContent({ groupKey }) {
               <h2 className="font-display text-xl font-bold text-navy-900">{section.label}</h2>
             </Reveal>
 
-            <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3">
+            <div className="mt-6 flex flex-wrap justify-center gap-6">
               {section.products.map((p, i) => (
-                <Reveal key={`${p.group}-${p.slug}`} delay={(i % 6) * 0.05}>
+                <Reveal
+                  key={`${p.group}-${p.slug}`}
+                  delay={(i % 6) * 0.05}
+                  className="w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]"
+                >
                   <Link
                     href={`/products/${p.group}/${p.slug}`}
                     className="group flex h-full flex-col rounded-2xl border border-black/5 bg-mist-50 p-8 transition-all duration-300 hover:-translate-y-1 hover:border-transparent hover:bg-navy-950 hover:shadow-card"

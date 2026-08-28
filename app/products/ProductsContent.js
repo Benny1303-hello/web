@@ -9,8 +9,6 @@ import productsCatalog from '@/lib/productsCatalog.json';
 import { ICONS } from '@/lib/icons';
 import { useLanguage } from '@/context/LanguageContext';
 
-const GROUP_ICONS = { ups: 'Zap', 'phu-kien-ups': 'PackageCheck', 'tu-rack': 'Server' };
-
 export default function ProductsContent() {
   const { t } = useLanguage();
   const countByGroup = {};
@@ -37,7 +35,7 @@ export default function ProductsContent() {
 
           <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {productsCatalog.groups.map((group, i) => {
-              const Icon = ICONS[GROUP_ICONS[group.key]];
+              const Icon = ICONS[group.icon];
               return (
                 <Reveal key={group.key} delay={i * 0.1}>
                   <Link

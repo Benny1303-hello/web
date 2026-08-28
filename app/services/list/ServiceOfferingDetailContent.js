@@ -62,7 +62,7 @@ export default function ServiceOfferingDetailContent({ offeringKey }) {
               <Reveal key={section.title} delay={i * 0.1}>
                 <h3 className="font-display text-xl font-bold text-navy-900">{section.title}</h3>
                 <div className="mt-3 space-y-3">
-                  {section.paragraphs.map((para, pi) => (
+                  {Array.isArray(section.paragraphs) && section.paragraphs.map((para, pi) => (
                     <p key={pi} className="text-sm leading-relaxed text-ink-400">
                       {para}
                     </p>

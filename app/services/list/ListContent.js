@@ -23,7 +23,7 @@ export default function ListContent() {
 
       <section className="bg-white py-20">
         <div className="container-page">
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="flex flex-wrap justify-center gap-6">
             {serviceCapabilities.map((service, i) => {
               const Icon = ICONS[service.icon];
               const href = service.href || (service.slug ? `/services/list/${service.slug}` : null);
@@ -54,7 +54,11 @@ export default function ListContent() {
               );
 
               return (
-                <Reveal key={service.key} delay={(i % 3) * 0.08}>
+                <Reveal
+                  key={service.key}
+                  delay={(i % 3) * 0.08}
+                  className="w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]"
+                >
                   {href ? (
                     <Link href={href} className={`flex flex-col ${cardClass}`}>
                       {content}

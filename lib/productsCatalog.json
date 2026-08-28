@@ -3,17 +3,20 @@
     {
       "key": "ups",
       "title": "Bộ lưu điện UPS",
-      "desc": "Các dòng UPS APC — từ văn phòng nhỏ đến trung tâm dữ liệu."
+      "desc": "Các dòng UPS APC — từ văn phòng nhỏ đến trung tâm dữ liệu.",
+      "icon": "Zap"
     },
     {
       "key": "phu-kien-ups",
       "title": "Phụ kiện & bình ắc quy UPS",
-      "desc": "Bình ắc quy thay thế, card quản lý, PDU và phụ kiện đi kèm UPS."
+      "desc": "Bình ắc quy thay thế, card quản lý, PDU và phụ kiện đi kèm UPS.",
+      "icon": "PackageCheck"
     },
     {
       "key": "tu-rack",
       "title": "Tủ Rack & phụ kiện",
-      "desc": "Tủ rack APC, phụ kiện lắp đặt và PDU cho phòng máy chủ."
+      "desc": "Tủ rack APC, phụ kiện lắp đặt và PDU cho phòng máy chủ.",
+      "icon": "Server"
     }
   ],
   "products": [

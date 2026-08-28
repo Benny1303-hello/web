@@ -1,13 +1,11 @@
 'use client';
 
-import { Award, Compass, Heart, Users2, Zap, ShieldCheck, ThumbsUp } from 'lucide-react';
+import { Award } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
 import CtaBanner from '@/components/CtaBanner';
+import { ICONS } from '@/lib/icons';
 import { useLanguage } from '@/context/LanguageContext';
-
-const pillarIcons = [Compass, Heart, Users2];
-const whyIcons = [Zap, ShieldCheck, ThumbsUp];
 
 export default function AboutContent() {
   const { t } = useLanguage();
@@ -47,7 +45,7 @@ export default function AboutContent() {
       <section className="bg-mist-50 py-20">
         <div className="container-page grid grid-cols-1 gap-6 md:grid-cols-3">
           {pillars.map((pillar, i) => {
-            const Icon = pillarIcons[i];
+            const Icon = ICONS[pillar.icon];
             return (
               <Reveal key={pillar.title} delay={i * 0.1}>
                 <div className="h-full rounded-2xl bg-white p-8 shadow-soft ring-1 ring-black/5">
@@ -78,7 +76,7 @@ export default function AboutContent() {
 
           <div className="mt-14 grid grid-cols-1 gap-6 md:grid-cols-3">
             {whyChooseUs.map((item, i) => {
-              const Icon = whyIcons[i];
+              const Icon = ICONS[item.icon];
               return (
                 <Reveal key={item.title} delay={i * 0.1}>
                   <div className="h-full rounded-2xl border border-black/5 bg-mist-50 p-8 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-card">

@@ -53,9 +53,9 @@
     "ctaSecondary": "Tìm hiểu thêm"
   },
   "trustBadges": [
-    { "title": "Phản Hồi Nhanh Chóng", "desc": "Cam kết thời gian phản hồi khẩn cấp trong vòng một giờ hoặc ít hơn." },
-    { "title": "Uy Tín", "desc": "Hơn 20 năm là một trong những doanh nghiệp công nghệ thông tin hàng đầu." },
-    { "title": "Đảm Bảo Hài Lòng", "desc": "Chúng tôi làm mọi thứ cần thiết để khách hàng thực sự hài lòng." }
+    { "title": "Phản Hồi Nhanh Chóng", "icon": "Zap", "desc": "Cam kết thời gian phản hồi khẩn cấp trong vòng một giờ hoặc ít hơn." },
+    { "title": "Uy Tín", "icon": "ShieldCheck", "desc": "Hơn 20 năm là một trong những doanh nghiệp công nghệ thông tin hàng đầu." },
+    { "title": "Đảm Bảo Hài Lòng", "icon": "ThumbsUp", "desc": "Chúng tôi làm mọi thứ cần thiết để khách hàng thực sự hài lòng." }
   ],
   "stats": {
     "years": "Năm kinh nghiệm",
@@ -125,9 +125,9 @@
     "eyebrow": "Vì sao chọn chúng tôi",
     "heading": "Cam kết chất lượng ở mọi giai đoạn hợp tác",
     "items": [
-      { "title": "Phản Hồi Nhanh Chóng", "desc": "Thời gian phản hồi khẩn cấp trong một giờ hoặc ít hơn. Chúng tôi có thể truy cập từ xa để xử lý ngay nhiều sự cố mà không cần chờ kỹ thuật viên di chuyển." },
-      { "title": "Uy Tín", "desc": "Hơn 20 năm là một trong những doanh nghiệp công nghệ thông tin hàng đầu. Thành tựu lớn nhất là số lượng khách hàng gắn bó lâu dài ngày càng tăng." },
-      { "title": "Đảm Bảo Hài Lòng", "desc": "Chúng tôi muốn khách hàng hoàn toàn hài lòng với dịch vụ, sẵn sàng làm mọi thứ cần thiết để bạn an tâm — không rắc rối, không phiền toái." }
+      { "title": "Phản Hồi Nhanh Chóng", "icon": "Zap", "desc": "Thời gian phản hồi khẩn cấp trong một giờ hoặc ít hơn. Chúng tôi có thể truy cập từ xa để xử lý ngay nhiều sự cố mà không cần chờ kỹ thuật viên di chuyển." },
+      { "title": "Uy Tín", "icon": "ShieldCheck", "desc": "Hơn 20 năm là một trong những doanh nghiệp công nghệ thông tin hàng đầu. Thành tựu lớn nhất là số lượng khách hàng gắn bó lâu dài ngày càng tăng." },
+      { "title": "Đảm Bảo Hài Lòng", "icon": "ThumbsUp", "desc": "Chúng tôi muốn khách hàng hoàn toàn hài lòng với dịch vụ, sẵn sàng làm mọi thứ cần thiết để bạn an tâm — không rắc rối, không phiền toái." }
     ]
   },
   "certificationsSection": {
@@ -193,9 +193,9 @@
         "desc": "Chúng tôi tin rằng mỗi khách hàng là một đối tác, cùng nhau xây dựng dịch vụ IT chất lượng với chi phí hợp lý. Đội ngũ chuyên gia thân thiện, giàu kinh nghiệm luôn sẵn sàng chỉ sau một cuộc gọi, email hay tin nhắn."
       },
       "pillars": [
-        { "title": "Sứ Mệnh", "desc": "Mang đến nền tảng vận hành số cho doanh nghiệp, đồng hành cùng Việt Nam trên hành trình trở thành nền kinh tế dựa trên khoa học công nghệ." },
-        { "title": "Khát Vọng", "desc": "Luôn đặt lợi ích khách hàng lên hàng đầu, với khát khao giúp doanh nghiệp vận hành hiệu quả và nhanh chóng hơn mỗi ngày." },
-        { "title": "Con Người", "desc": "Đội ngũ làm việc bằng đam mê, yêu công nghệ và không ngừng đổi mới trong từng dự án, luôn nêu cao tinh thần dẫn dắt." }
+        { "title": "Sứ Mệnh", "icon": "Compass", "desc": "Mang đến nền tảng vận hành số cho doanh nghiệp, đồng hành cùng Việt Nam trên hành trình trở thành nền kinh tế dựa trên khoa học công nghệ." },
+        { "title": "Khát Vọng", "icon": "Heart", "desc": "Luôn đặt lợi ích khách hàng lên hàng đầu, với khát khao giúp doanh nghiệp vận hành hiệu quả và nhanh chóng hơn mỗi ngày." },
+        { "title": "Con Người", "icon": "Users2", "desc": "Đội ngũ làm việc bằng đam mê, yêu công nghệ và không ngừng đổi mới trong từng dự án, luôn nêu cao tinh thần dẫn dắt." }
       ]
     },
     "distribution": {
@@ -282,10 +282,10 @@
       ],
       "processHeading": "Quy trình triển khai",
       "process": [
-        { "title": "Khảo Sát & Tư Vấn", "desc": "Đánh giá hiện trạng hạ tầng, thu thập yêu cầu và mục tiêu vận hành của doanh nghiệp." },
-        { "title": "Thiết Kế Giải Pháp", "desc": "Xây dựng kiến trúc tích hợp tối ưu, kết hợp thiết bị của nhiều hãng khác nhau một cách đồng bộ." },
-        { "title": "Triển Khai", "desc": "Lắp đặt, cấu hình và kiểm thử toàn diện trước khi đưa hệ thống vào vận hành chính thức." },
-        { "title": "Hỗ Trợ Vận Hành", "desc": "Giám sát, bảo trì định kỳ và hỗ trợ kỹ thuật liên tục sau triển khai." }
+        { "title": "Khảo Sát & Tư Vấn", "icon": "ClipboardList", "desc": "Đánh giá hiện trạng hạ tầng, thu thập yêu cầu và mục tiêu vận hành của doanh nghiệp." },
+        { "title": "Thiết Kế Giải Pháp", "icon": "Layers", "desc": "Xây dựng kiến trúc tích hợp tối ưu, kết hợp thiết bị của nhiều hãng khác nhau một cách đồng bộ." },
+        { "title": "Triển Khai", "icon": "Rocket", "desc": "Lắp đặt, cấu hình và kiểm thử toàn diện trước khi đưa hệ thống vào vận hành chính thức." },
+        { "title": "Hỗ Trợ Vận Hành", "icon": "LifeBuoy", "desc": "Giám sát, bảo trì định kỳ và hỗ trợ kỹ thuật liên tục sau triển khai." }
       ]
     },
     "systemIntegrationSolutions": {

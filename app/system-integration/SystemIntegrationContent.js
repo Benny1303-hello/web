@@ -1,12 +1,11 @@
 'use client';
 
-import { ClipboardList, Layers, Rocket, LifeBuoy, CheckCircle2 } from 'lucide-react';
+import { CheckCircle2 } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
 import CtaBanner from '@/components/CtaBanner';
+import { ICONS } from '@/lib/icons';
 import { useLanguage } from '@/context/LanguageContext';
-
-const processIcons = [ClipboardList, Layers, Rocket, LifeBuoy];
 
 export default function SystemIntegrationContent() {
   const { t } = useLanguage();
@@ -47,7 +46,7 @@ export default function SystemIntegrationContent() {
               <p className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">{t('pages.systemIntegration.processHeading')}</p>
               <div className="mt-6 space-y-6">
                 {process.map((step, i) => {
-                  const Icon = processIcons[i];
+                  const Icon = ICONS[step.icon];
                   return (
                     <div key={step.title} className="flex gap-4">
                       <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white/10 text-cyan-300">

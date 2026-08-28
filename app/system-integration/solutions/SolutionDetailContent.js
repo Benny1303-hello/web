@@ -30,6 +30,16 @@ export default function SolutionDetailContent({ solutionKey }) {
   const hasDeploymentTable = deploymentTable && Array.isArray(deploymentTable.rows) && Array.isArray(deploymentTable.columns);
   const hasClosingNote = Array.isArray(closingNote);
 
+  // Derived from whichever optional section actually rendered last (in render
+  // order below), not a fixed flag — otherwise a solution with fewer optional
+  // sections than expected gets two adjacent same-colored sections in a row.
+  const lastSectionIsWhite =
+    hasCommitments || hasDeploymentTable
+      ? false
+      : hasTable || hasClosingNote || hasServicesList
+        ? true
+        : !(hasSections || hasCategories);
+
   return (
     <>
       <PageHero
@@ -92,7 +102,7 @@ export default function SolutionDetailContent({ solutionKey }) {
                       <h3 className="font-display text-xl font-bold text-navy-900">{category.title}</h3>
                       <p className="mt-2 text-sm leading-relaxed text-ink-400">{category.desc}</p>
                       <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
-                        {category.items.map((item) => (
+                        {Array.isArray(category.items) && category.items.map((item) => (
                           <div key={item.title} className="rounded-2xl bg-white p-6 shadow-soft ring-1 ring-black/5">
                             <h4 className="font-display text-base font-bold text-ink-900">{item.title}</h4>
                             <p className="mt-2 text-sm leading-relaxed text-ink-400">{item.desc}</p>
@@ -210,8 +220,9 @@ export default function SolutionDetailContent({ solutionKey }) {
                       </tr>
                     </thead>
                     <tbody>
-                      {deploymentTable.rows.map((row, i) => (
-                        <tr key={row.cells[0]} className={i % 2 === 0 ? 'bg-white' : 'bg-mist-50'}>
+                      {deploymentTable.rows.map((row, i) =>
+                        Array.isArray(row.cells) ? (
+                        <tr key={row.cells[0] ?? i} className={i % 2 === 0 ? 'bg-white' : 'bg-mist-50'}>
                           {row.cells.map((cell, ci) => (
                             <td
                               key={ci}
@@ -223,7 +234,8 @@ export default function SolutionDetailContent({ solutionKey }) {
                             </td>
                           ))}
                         </tr>
-                      ))}
+                        ) : null
+                      )}
                     </tbody>
                   </table>
                 </div>
@@ -238,7 +250,7 @@ export default function SolutionDetailContent({ solutionKey }) {
         </section>
       )}
 
-      <section className={hasTable || hasCommitments || hasDeploymentTable || hasClosingNote ? 'bg-white pb-4' : 'bg-mist-50 py-12'}>
+      <section className={lastSectionIsWhite ? 'bg-mist-50 py-12' : 'bg-white pb-4'}>
         <div className="container-page text-center">
           <Link
             href="/system-integration/solutions"

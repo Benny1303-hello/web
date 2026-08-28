@@ -73,9 +73,9 @@ const LABEL_MAP = {
 };
 
 const GROUPS = {
-  ups: { title: 'Bộ lưu điện UPS', desc: 'Các dòng UPS APC — từ văn phòng nhỏ đến trung tâm dữ liệu.' },
-  'phu-kien-ups': { title: 'Phụ kiện & bình ắc quy UPS', desc: 'Bình ắc quy thay thế, card quản lý, PDU và phụ kiện đi kèm UPS.' },
-  'tu-rack': { title: 'Tủ Rack & phụ kiện', desc: 'Tủ rack APC, phụ kiện lắp đặt và PDU cho phòng máy chủ.' },
+  ups: { title: 'Bộ lưu điện UPS', desc: 'Các dòng UPS APC — từ văn phòng nhỏ đến trung tâm dữ liệu.', icon: 'Zap' },
+  'phu-kien-ups': { title: 'Phụ kiện & bình ắc quy UPS', desc: 'Bình ắc quy thay thế, card quản lý, PDU và phụ kiện đi kèm UPS.', icon: 'PackageCheck' },
+  'tu-rack': { title: 'Tủ Rack & phụ kiện', desc: 'Tủ rack APC, phụ kiện lắp đặt và PDU cho phòng máy chủ.', icon: 'Server' },
 };
 
 function slugify(s) {

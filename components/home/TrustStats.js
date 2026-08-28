@@ -1,12 +1,10 @@
 'use client';
 
-import { ShieldCheck, ThumbsUp, Zap } from 'lucide-react';
 import Reveal from '@/components/Reveal';
 import Counter from '@/components/Counter';
 import { stats } from '@/lib/content';
+import { ICONS } from '@/lib/icons';
 import { useLanguage } from '@/context/LanguageContext';
-
-const icons = [Zap, ShieldCheck, ThumbsUp];
 
 export default function TrustStats() {
   const { t } = useLanguage();
@@ -17,7 +15,7 @@ export default function TrustStats() {
     <section className="relative bg-slate-200">
       <div className="container-page pt-10 grid grid-cols-1 gap-8 md:grid-cols-3">
         {trustBadges.map((badge, i) => {
-          const Icon = icons[i];
+          const Icon = ICONS[badge.icon];
           return (
             <Reveal key={badge.title} delay={i * 0.08}>
               <div className="h-full rounded-2xl bg-white p-6 shadow-card ring-1 ring-black/15 transition-transform duration-300 hover:-translate-y-1.5">

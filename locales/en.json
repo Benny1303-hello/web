@@ -53,9 +53,9 @@
     "ctaSecondary": "Learn more"
   },
   "trustBadges": [
-    { "title": "Quick Response", "desc": "Committed emergency response time within one hour or less." },
-    { "title": "Reputable", "desc": "Over 20 years as one of the leading information technology enterprises." },
-    { "title": "Satisfaction Guaranteed", "desc": "We do everything necessary to make sure our customers are truly satisfied." }
+    { "title": "Quick Response", "icon": "Zap", "desc": "Committed emergency response time within one hour or less." },
+    { "title": "Reputable", "icon": "ShieldCheck", "desc": "Over 20 years as one of the leading information technology enterprises." },
+    { "title": "Satisfaction Guaranteed", "icon": "ThumbsUp", "desc": "We do everything necessary to make sure our customers are truly satisfied." }
   ],
   "stats": {
     "years": "Years of experience",
@@ -125,9 +125,9 @@
     "eyebrow": "Why choose us",
     "heading": "Committed to quality at every stage of our partnership",
     "items": [
-      { "title": "Quick Response", "desc": "Emergency response within one hour or less. We can access systems remotely to resolve many issues right away without waiting for a technician to travel on-site." },
-      { "title": "Reputable", "desc": "Over 20 years as one of the leading information technology enterprises. Our greatest achievement is a growing base of long-term, loyal customers." },
-      { "title": "Satisfaction Guaranteed", "desc": "We want our customers to be completely satisfied with our service, and we're ready to do whatever it takes to give you peace of mind — no hassle, no headaches." }
+      { "title": "Quick Response", "icon": "Zap", "desc": "Emergency response within one hour or less. We can access systems remotely to resolve many issues right away without waiting for a technician to travel on-site." },
+      { "title": "Reputable", "icon": "ShieldCheck", "desc": "Over 20 years as one of the leading information technology enterprises. Our greatest achievement is a growing base of long-term, loyal customers." },
+      { "title": "Satisfaction Guaranteed", "icon": "ThumbsUp", "desc": "We want our customers to be completely satisfied with our service, and we're ready to do whatever it takes to give you peace of mind — no hassle, no headaches." }
     ]
   },
   "certificationsSection": {
@@ -193,9 +193,9 @@
         "desc": "We believe every customer is a partner, working together to build quality IT services at a reasonable cost. Our friendly, experienced team of experts is ready to help after just one call, email, or message."
       },
       "pillars": [
-        { "title": "Mission", "desc": "To bring a digital operating foundation to businesses, walking alongside Vietnam on its journey toward a technology-driven economy." },
-        { "title": "Aspiration", "desc": "Always putting customers' interests first, driven by the ambition to help businesses operate more efficiently and faster every day." },
-        { "title": "People", "desc": "A team that works with passion, loves technology, and continuously innovates on every project while leading by example." }
+        { "title": "Mission", "icon": "Compass", "desc": "To bring a digital operating foundation to businesses, walking alongside Vietnam on its journey toward a technology-driven economy." },
+        { "title": "Aspiration", "icon": "Heart", "desc": "Always putting customers' interests first, driven by the ambition to help businesses operate more efficiently and faster every day." },
+        { "title": "People", "icon": "Users2", "desc": "A team that works with passion, loves technology, and continuously innovates on every project while leading by example." }
       ]
     },
     "distribution": {
@@ -282,10 +282,10 @@
       ],
       "processHeading": "Implementation process",
       "process": [
-        { "title": "Survey & Consulting", "desc": "Assess the current state of your infrastructure and gather your business's requirements and operating goals." },
-        { "title": "Solution Design", "desc": "Build an optimal integration architecture, seamlessly combining equipment from different vendors." },
-        { "title": "Deployment", "desc": "Install, configure, and thoroughly test everything before bringing the system into official operation." },
-        { "title": "Operational Support", "desc": "Ongoing monitoring, periodic maintenance, and continuous technical support after deployment." }
+        { "title": "Survey & Consulting", "icon": "ClipboardList", "desc": "Assess the current state of your infrastructure and gather your business's requirements and operating goals." },
+        { "title": "Solution Design", "icon": "Layers", "desc": "Build an optimal integration architecture, seamlessly combining equipment from different vendors." },
+        { "title": "Deployment", "icon": "Rocket", "desc": "Install, configure, and thoroughly test everything before bringing the system into official operation." },
+        { "title": "Operational Support", "icon": "LifeBuoy", "desc": "Ongoing monitoring, periodic maintenance, and continuous technical support after deployment." }
       ]
     },
     "systemIntegrationSolutions": {

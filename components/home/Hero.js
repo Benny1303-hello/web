@@ -22,12 +22,12 @@ export default function Hero() {
           <span className="inline-flex items-center rounded-full border border-cyan-300/30 bg-cyan-400/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.25em] text-cyan-300">
             {t('hero.tagline')}
           </span>
-          <h1 className="mt-6 text-balance font-display text-5xl font-extrabold md:text-6xl">
+          <h1 className="mt-6 whitespace-nowrap font-display text-4xl font-extrabold sm:text-5xl md:text-6xl">
             <span className="bg-gradient-to-r from-white to-cyan-200 bg-clip-text text-transparent">
               TTC-INFOTECH
             </span>
           </h1>
-          <p className="mt-4 flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-center text-[11px] font-semibold uppercase tracking-[0.15em] text-brand-400 sm:text-sm sm:tracking-[0.2em]">
+          <p className="mt-4 flex flex-col items-center gap-y-1 text-center text-[11px] font-semibold uppercase tracking-[0.15em] text-brand-400 sm:flex-row sm:flex-wrap sm:justify-center sm:gap-x-2 sm:text-sm sm:tracking-[0.2em]">
             {t('hero.subtitle')
               .split('·')
               .map((part) => part.trim())
@@ -35,7 +35,7 @@ export default function Hero() {
               .map((part, i, arr) => (
                 <span key={part} className="flex items-center gap-x-2 whitespace-nowrap">
                   {part}
-                  {i < arr.length - 1 && <span aria-hidden="true">·</span>}
+                  {i < arr.length - 1 && <span aria-hidden="true" className="hidden sm:inline">·</span>}
                 </span>
               ))}
           </p>

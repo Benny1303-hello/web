@@ -16,12 +16,13 @@ export default function PartnersMarquee() {
 
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
           {partners.map((partner) => (
-            <span
-              key={partner}
-              className="flex items-center whitespace-nowrap rounded-full bg-white px-6 py-3 text-sm font-semibold text-ink-600 shadow-soft ring-1 ring-black/5"
+            <div
+              key={partner.name}
+              className="flex h-16 w-36 items-center justify-center rounded-2xl bg-white px-5 py-3 shadow-soft ring-1 ring-black/5"
             >
-              {partner}
-            </span>
+              {/* eslint-disable-next-line @next/next/no-img-element -- small static SVG logos, no benefit from next/image optimization */}
+              <img src={partner.logo} alt={partner.name} className="max-h-full max-w-full object-contain" />
+            </div>
           ))}
         </div>
       </div>

@@ -50,7 +50,7 @@ export default function SystemIntegrationContent() {
                   return (
                     <div key={step.title} className="flex gap-4">
                       <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-white/10 text-cyan-300">
-                        <Icon size={18} />
+                        {Icon && <Icon size={18} />}
                       </div>
                       <div>
                         <p className="font-display font-bold">

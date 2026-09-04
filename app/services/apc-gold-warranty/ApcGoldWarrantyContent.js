@@ -5,12 +5,17 @@ import { CheckCircle2, Phone } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
 import CtaBanner from '@/components/CtaBanner';
+import { consultingStaff } from '@/lib/content';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function ApcGoldWarrantyContent() {
   const { t } = useLanguage();
   const benefits = t('pages.apcGoldWarranty.benefits');
   const hasBenefits = Array.isArray(benefits);
+  // Hotline below is Giang's number — sourced from the shared staff record
+  // so it can't drift out of sync if it ever changes there.
+  const giang = consultingStaff[0].members.find((m) => m.key === 'giang');
+  const giangTelHref = `tel:+84${giang.phone.replace(/\D/g, '').replace(/^0/, '')}`;
 
   return (
     <>
@@ -57,7 +62,7 @@ export default function ApcGoldWarrantyContent() {
                   {t('pages.apcGoldWarranty.phone1')}
                 </a>
                 <a
-                  href="tel:+84933004576"
+                  href={giangTelHref}
                   className="flex items-center gap-2 text-sm font-semibold text-brand-600 transition-colors hover:text-brand-700"
                 >
                   <Phone size={16} />

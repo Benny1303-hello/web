@@ -1,15 +1,12 @@
 import { notFound } from 'next/navigation';
 import ProductDetailContent from './ProductDetailContent';
 import productsCatalog from '@/lib/productsCatalog.json';
+import { findProduct, findGroup } from '@/lib/products';
 
 // Falls back to the current known production URL; override with
 // NEXT_PUBLIC_SITE_URL once a custom domain is pointed at this deployment,
 // no code change needed.
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://web-vxfh.vercel.app';
-
-function findProduct(groupKey, slug) {
-  return productsCatalog.products.find((p) => p.group === groupKey && p.slug === slug);
-}
 
 function buildProductJsonLd(product, groupKey, slug) {
   // No `offers`/price: this is a B2B contact-for-quote catalog with no public
@@ -21,7 +18,10 @@ function buildProductJsonLd(product, groupKey, slug) {
     sku: product.part_number,
     description: product.overview || product.name,
     category: product.category_label,
-    brand: { '@type': 'Brand', name: 'APC' },
+    // Falls back to APC (every product today is APC) — reads product.brand
+    // so a future non-APC vendor import (HPE, Microsoft, Telegartner) isn't
+    // silently mislabeled once that field is populated.
+    brand: { '@type': 'Brand', name: product.brand || 'APC' },
     url: `${SITE_URL}/products/${groupKey}/${slug}`,
     ...(Array.isArray(product.images) && product.images.length > 0
       ? { image: product.images.map((src) => `${SITE_URL}${src}`) }
@@ -47,7 +47,8 @@ export default async function ProductDetailPage({ params }) {
   const { group: groupKey, slug } = await params;
   const product = findProduct(groupKey, slug);
   if (!product) notFound();
-  const group = productsCatalog.groups.find((g) => g.key === groupKey);
+  const group = findGroup(groupKey);
+  if (!group) notFound();
 
   const jsonLd = buildProductJsonLd(product, groupKey, slug);
 

@@ -1,10 +1,7 @@
 import { notFound } from 'next/navigation';
 import ProductGroupContent from './ProductGroupContent';
 import productsCatalog from '@/lib/productsCatalog.json';
-
-function findGroup(key) {
-  return productsCatalog.groups.find((g) => g.key === key);
-}
+import { findGroup } from '@/lib/products';
 
 export function generateStaticParams() {
   return productsCatalog.groups.map((g) => ({ group: g.key }));

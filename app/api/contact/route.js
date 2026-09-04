@@ -4,11 +4,16 @@ import { site } from '@/lib/content';
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 const smtpReady = process.env.SMTP_HOST && process.env.SMTP_USER && process.env.SMTP_PASS;
+const smtpPort = Number(process.env.SMTP_PORT) || 465;
+// Implicit TLS on 465 vs STARTTLS on 587 (or a proxied port) can't always be
+// inferred from the port number alone — SMTP_SECURE lets ops override it
+// without a redeploy; unset falls back to the port-465 heuristic.
+const smtpSecure = process.env.SMTP_SECURE ? process.env.SMTP_SECURE === 'true' : smtpPort === 465;
 const transporter = smtpReady
   ? nodemailer.createTransport({
       host: process.env.SMTP_HOST,
-      port: Number(process.env.SMTP_PORT) || 465,
-      secure: (Number(process.env.SMTP_PORT) || 465) === 465,
+      port: smtpPort,
+      secure: smtpSecure,
       auth: {
         user: process.env.SMTP_USER,
         pass: process.env.SMTP_PASS,

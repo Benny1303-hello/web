@@ -20,7 +20,8 @@ export default function ProductDetailContent({ groupKey, slug }) {
   const [activeImage, setActiveImage] = useState(images[0]);
 
   const hasOverview = Boolean(product.overview);
-  const hasSpecs = Array.isArray(product.specs) && product.specs.length > 0;
+  const hasSpecGroups = Array.isArray(product.specGroups) && product.specGroups.length > 0;
+  const hasSpecs = hasSpecGroups || (Array.isArray(product.specs) && product.specs.length > 0);
   const hasCompatible = Array.isArray(product.compatible_with) && product.compatible_with.length > 0;
 
   return (
@@ -105,14 +106,32 @@ export default function ProductDetailContent({ groupKey, slug }) {
             {hasSpecs && (
               <div className="mt-6">
                 <h2 className="font-display text-lg font-bold text-navy-900">{t('productCatalog.specsHeading')}</h2>
-                <dl className="mt-4 divide-y divide-black/5 rounded-2xl bg-mist-50 ring-1 ring-black/5">
-                  {product.specs.map((spec) => (
-                    <div key={spec.label} className="flex flex-col gap-1 px-5 py-3 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4">
-                      <dt className="text-sm font-medium text-ink-600">{spec.label}</dt>
-                      <dd className="text-sm text-ink-900 sm:text-right">{spec.value}</dd>
-                    </div>
-                  ))}
-                </dl>
+                {hasSpecGroups ? (
+                  <div className="mt-4 space-y-5">
+                    {product.specGroups.map((group, gi) => (
+                      <div key={`${group.group}-${gi}`}>
+                        <h3 className="text-xs font-semibold uppercase tracking-wide text-brand-600">{group.group}</h3>
+                        <dl className="mt-2 divide-y divide-black/5 rounded-2xl bg-mist-50 ring-1 ring-black/5">
+                          {group.items.map((spec, i) => (
+                            <div key={`${spec.label}-${i}`} className="flex flex-col gap-1 px-5 py-3 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4">
+                              <dt className="text-sm font-medium text-ink-600">{spec.label}</dt>
+                              <dd className="text-sm text-ink-900 sm:text-right">{spec.value}</dd>
+                            </div>
+                          ))}
+                        </dl>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <dl className="mt-4 divide-y divide-black/5 rounded-2xl bg-mist-50 ring-1 ring-black/5">
+                    {product.specs.map((spec, i) => (
+                      <div key={`${spec.label}-${i}`} className="flex flex-col gap-1 px-5 py-3 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4">
+                        <dt className="text-sm font-medium text-ink-600">{spec.label}</dt>
+                        <dd className="text-sm text-ink-900 sm:text-right">{spec.value}</dd>
+                      </div>
+                    ))}
+                  </dl>
+                )}
               </div>
             )}
             {!hasSpecs && !hasOverview && <p className="text-sm text-ink-400">{t('productCatalog.noSpecs')}</p>}

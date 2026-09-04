@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowLeft, PackageSearch, ShieldCheck, Phone, Mail } from 'lucide-react';
+import { ArrowLeft, ChevronDown, PackageSearch, ShieldCheck, Phone, Mail } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
 import CtaBanner from '@/components/CtaBanner';
@@ -41,6 +41,15 @@ export default function ProductDetailContent({ groupKey, slug }) {
   const salesTeam = distributionStaff.find((g) => g.groupKey === 'sales')?.members || [];
   const images = Array.isArray(product.images) ? product.images : [];
   const [activeImage, setActiveImage] = useState(images[0]);
+  const [openGroups, setOpenGroups] = useState(() => new Set([0]));
+  const toggleGroup = (i) => {
+    setOpenGroups((prev) => {
+      const next = new Set(prev);
+      if (next.has(i)) next.delete(i);
+      else next.add(i);
+      return next;
+    });
+  };
 
   const hasOverview = Boolean(product.overview);
   const hasSpecGroups = Array.isArray(product.specGroups) && product.specGroups.length > 0;
@@ -69,8 +78,8 @@ export default function ProductDetailContent({ groupKey, slug }) {
       </section>
 
       <section className="bg-white pb-20">
-        <div className="container-page grid grid-cols-1 gap-12 lg:grid-cols-[1fr_1.3fr]">
-          <Reveal>
+        <div className="container-page grid grid-cols-1 gap-12 lg:grid-cols-[1fr_1.3fr] lg:items-start">
+          <Reveal className="lg:sticky lg:top-24">
             {images.length > 0 ? (
               <>
                 <div className="relative aspect-square w-full overflow-hidden rounded-3xl bg-white ring-1 ring-black/5">
@@ -130,22 +139,37 @@ export default function ProductDetailContent({ groupKey, slug }) {
               <div className="mt-6">
                 <h2 className="font-display text-lg font-bold text-navy-900">{t('productCatalog.specsHeading')}</h2>
                 {hasSpecGroups ? (
-                  <div className="mt-4 space-y-5">
-                    {product.specGroups.map((group, gi) => (
-                      <div key={`${group.group}-${gi}`}>
-                        <h3 className="text-xs font-semibold uppercase tracking-wide text-brand-600">
-                          {language === 'vi' ? SPEC_GROUP_LABELS_VI[group.group] || group.group : group.group}
-                        </h3>
-                        <dl className="mt-2 divide-y divide-black/5 rounded-2xl bg-mist-50 ring-1 ring-black/5">
-                          {group.items.map((spec, i) => (
-                            <div key={`${spec.label}-${i}`} className="flex flex-col gap-1 px-5 py-3 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4">
-                              <dt className="text-sm font-medium text-ink-600">{spec.label}</dt>
-                              <dd className="text-sm text-ink-900 sm:text-right">{spec.value}</dd>
-                            </div>
-                          ))}
-                        </dl>
-                      </div>
-                    ))}
+                  <div className="mt-4 space-y-2">
+                    {product.specGroups.map((group, gi) => {
+                      const isOpen = openGroups.has(gi);
+                      return (
+                        <div key={`${group.group}-${gi}`} className="overflow-hidden rounded-2xl bg-mist-50 ring-1 ring-black/5">
+                          <button
+                            type="button"
+                            onClick={() => toggleGroup(gi)}
+                            className="flex w-full items-center justify-between px-5 py-3 text-left"
+                          >
+                            <span className="text-xs font-semibold uppercase tracking-wide text-brand-600">
+                              {language === 'vi' ? SPEC_GROUP_LABELS_VI[group.group] || group.group : group.group}
+                            </span>
+                            <ChevronDown
+                              size={16}
+                              className={`shrink-0 text-ink-400 transition-transform ${isOpen ? 'rotate-180' : ''}`}
+                            />
+                          </button>
+                          {isOpen && (
+                            <dl className="divide-y divide-black/5 border-t border-black/5">
+                              {group.items.map((spec, i) => (
+                                <div key={`${spec.label}-${i}`} className="flex flex-col gap-1 px-5 py-3 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4">
+                                  <dt className="text-sm font-medium text-ink-600">{spec.label}</dt>
+                                  <dd className="text-sm text-ink-900 sm:text-right">{spec.value}</dd>
+                                </div>
+                              ))}
+                            </dl>
+                          )}
+                        </div>
+                      );
+                    })}
                   </div>
                 ) : (
                   <dl className="mt-4 divide-y divide-black/5 rounded-2xl bg-mist-50 ring-1 ring-black/5">

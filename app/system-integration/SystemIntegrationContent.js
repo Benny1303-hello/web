@@ -4,15 +4,19 @@ import { CheckCircle2 } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
 import CtaBanner from '@/components/CtaBanner';
+import ClientLogos from '@/components/ClientLogos';
 import { ICONS } from '@/lib/icons';
+import { systemIntegrationClients, systemIntegrationPartnerBrands } from '@/lib/content';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function SystemIntegrationContent() {
   const { t } = useLanguage();
   const benefitsRaw = t('pages.systemIntegration.benefits');
   const processRaw = t('pages.systemIntegration.process');
+  const criteriaRaw = t('pages.systemIntegration.criteria');
   const benefits = Array.isArray(benefitsRaw) ? benefitsRaw : [];
   const process = Array.isArray(processRaw) ? processRaw : [];
+  const criteria = Array.isArray(criteriaRaw) ? criteriaRaw : [];
 
   return (
     <>
@@ -66,6 +70,43 @@ export default function SystemIntegrationContent() {
           </Reveal>
         </div>
       </section>
+
+      <section className="bg-mist-50 py-20">
+        <div className="container-page grid grid-cols-1 gap-14 lg:grid-cols-2">
+          <Reveal>
+            <h2 className="text-balance font-display text-2xl font-bold text-navy-900 md:text-3xl">
+              {t('pages.systemIntegration.criteriaHeading')}
+            </h2>
+            <ul className="mt-6 space-y-3">
+              {criteria.map((c) => (
+                <li key={c} className="flex items-start gap-3 text-sm text-ink-600">
+                  <CheckCircle2 size={18} className="mt-0.5 shrink-0 text-brand-500" />
+                  {c}
+                </li>
+              ))}
+            </ul>
+          </Reveal>
+
+          <Reveal delay={0.1}>
+            <h2 className="text-balance font-display text-2xl font-bold text-navy-900 md:text-3xl">
+              {t('pages.systemIntegration.partnersHeading')}
+            </h2>
+            <p className="mt-3 text-sm leading-relaxed text-ink-400">{t('pages.systemIntegration.partnersDesc')}</p>
+            <div className="mt-6 flex flex-wrap gap-3">
+              {systemIntegrationPartnerBrands.map((brand) => (
+                <span
+                  key={brand}
+                  className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-ink-900 ring-1 ring-black/10"
+                >
+                  {brand}
+                </span>
+              ))}
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      <ClientLogos clients={systemIntegrationClients} />
 
       <CtaBanner />
     </>

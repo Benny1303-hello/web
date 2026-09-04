@@ -273,7 +273,7 @@
       },
       "whyEyebrow": "Why system integration matters",
       "whyHeading": "One synchronized system, running smoothly",
-      "whyDesc": "System integration is becoming increasingly important because it helps businesses and organizations get the highest efficiency from their existing infrastructure, reuse legacy software, save costs, and roll out new solutions at the same time by integrating products from different manufacturers.",
+      "whyDesc": "System integration is becoming increasingly important because it helps businesses and organizations get the highest efficiency from their existing infrastructure, reuse legacy software, save costs, and roll out new solutions at the same time by integrating products from different manufacturers. With more than 20 years of experience, TTC-Infotech's engineering team has consulted on and delivered comprehensive IT solutions for many clients — especially large organizations in banking, logistics, education, manufacturing, oil & gas, energy, and foreign corporations.",
       "benefits": [
         "Maximize the performance of your existing infrastructure",
         "Reuse legacy software and equipment, reducing wasted investment",
@@ -286,7 +286,15 @@
         { "title": "Solution Design", "icon": "Layers", "desc": "Build an optimal integration architecture, seamlessly combining equipment from different vendors." },
         { "title": "Deployment", "icon": "Rocket", "desc": "Install, configure, and thoroughly test everything before bringing the system into official operation." },
         { "title": "Operational Support", "icon": "LifeBuoy", "desc": "Ongoing monitoring, periodic maintenance, and continuous technical support after deployment." }
-      ]
+      ],
+      "criteriaHeading": "Our criteria",
+      "criteria": [
+        "Consulting and designing solutions that are effective and suited to each client, using the latest technology.",
+        "24/7 customer support throughout system operation after deployment.",
+        "A well-trained engineering team, certified through technology vendors' own training programs."
+      ],
+      "partnersHeading": "Technology partners",
+      "partnersDesc": "TTC-Infotech's System Integration Center is a partner of major technology brands, regularly taking part in their training programs to stay current with the latest technology."
     },
     "systemIntegrationSolutions": {
       "hero": {

@@ -5,7 +5,7 @@ import Reveal from '@/components/Reveal';
 import { serviceClients } from '@/lib/content';
 import { useLanguage } from '@/context/LanguageContext';
 
-export default function ClientLogos() {
+export default function ClientLogos({ clients = serviceClients }) {
   const { t } = useLanguage();
 
   return (
@@ -21,7 +21,7 @@ export default function ClientLogos() {
         </Reveal>
 
         <div className="mt-14 grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-6">
-          {serviceClients.map((client, i) => (
+          {clients.map((client, i) => (
             <Reveal key={client.name} delay={i * 0.04}>
               <div className="flex h-24 items-center justify-center rounded-2xl bg-mist-50 p-5 ring-1 ring-black/5">
                 <Image

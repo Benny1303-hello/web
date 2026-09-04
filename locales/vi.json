@@ -273,7 +273,7 @@
       },
       "whyEyebrow": "Vì sao cần tích hợp hệ thống",
       "whyHeading": "Một hệ thống đồng bộ, vận hành trơn tru",
-      "whyDesc": "Tích hợp hệ thống ngày càng trở nên quan trọng vì giúp doanh nghiệp và tổ chức khai thác hiệu quả cao nhất từ hạ tầng sẵn có, tái sử dụng phần mềm cũ, tiết kiệm chi phí và triển khai đồng thời các giải pháp mới bằng cách tích hợp sản phẩm từ nhiều nhà sản xuất khác nhau.",
+      "whyDesc": "Tích hợp hệ thống ngày càng trở nên quan trọng vì giúp doanh nghiệp và tổ chức khai thác hiệu quả cao nhất từ hạ tầng sẵn có, tái sử dụng phần mềm cũ, tiết kiệm chi phí và triển khai đồng thời các giải pháp mới bằng cách tích hợp sản phẩm từ nhiều nhà sản xuất khác nhau. Với hơn 20 năm kinh nghiệm, đội ngũ kỹ sư TTC-Infotech đã tư vấn và triển khai các giải pháp IT toàn diện cho nhiều khách hàng, đặc biệt là các doanh nghiệp lớn thuộc lĩnh vực ngân hàng, logistics, giáo dục, sản xuất, dầu khí, năng lượng và các tập đoàn nước ngoài.",
       "benefits": [
         "Tận dụng tối đa hiệu suất hạ tầng hiện có",
         "Tái sử dụng phần mềm và thiết bị cũ, giảm lãng phí đầu tư",
@@ -286,7 +286,15 @@
         { "title": "Thiết Kế Giải Pháp", "icon": "Layers", "desc": "Xây dựng kiến trúc tích hợp tối ưu, kết hợp thiết bị của nhiều hãng khác nhau một cách đồng bộ." },
         { "title": "Triển Khai", "icon": "Rocket", "desc": "Lắp đặt, cấu hình và kiểm thử toàn diện trước khi đưa hệ thống vào vận hành chính thức." },
         { "title": "Hỗ Trợ Vận Hành", "icon": "LifeBuoy", "desc": "Giám sát, bảo trì định kỳ và hỗ trợ kỹ thuật liên tục sau triển khai." }
-      ]
+      ],
+      "criteriaHeading": "Tiêu chí của Trung tâm",
+      "criteria": [
+        "Tư vấn, thiết kế giải pháp phù hợp và hiệu quả cho khách hàng với công nghệ mới nhất.",
+        "Hỗ trợ khách hàng 24/7 trong suốt quá trình vận hành hệ thống sau khi triển khai.",
+        "Đội ngũ kỹ sư được đào tạo bài bản, đã hoàn thành các khóa đào tạo của hãng công nghệ và có chứng chỉ chuyên ngành."
+      ],
+      "partnersHeading": "Đối tác công nghệ",
+      "partnersDesc": "Trung tâm tích hợp hệ thống TTC-Infotech là đối tác của các hãng công nghệ lớn, thường xuyên tham gia các khóa đào tạo và cập nhật công nghệ mới nhất."
     },
     "systemIntegrationSolutions": {
       "hero": {

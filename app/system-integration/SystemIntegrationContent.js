@@ -94,12 +94,13 @@ export default function SystemIntegrationContent() {
             <p className="mt-3 text-sm leading-relaxed text-ink-400">{t('pages.systemIntegration.partnersDesc')}</p>
             <div className="mt-6 flex flex-wrap gap-3">
               {systemIntegrationPartnerBrands.map((brand) => (
-                <span
-                  key={brand}
-                  className="rounded-full bg-white px-4 py-2 text-sm font-semibold text-ink-900 ring-1 ring-black/10"
+                <div
+                  key={brand.name}
+                  className="flex h-14 items-center justify-center rounded-xl bg-white px-5 ring-1 ring-black/10"
                 >
-                  {brand}
-                </span>
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img src={brand.logo} alt={brand.name} className="h-6 w-auto max-w-[100px] object-contain" />
+                </div>
               ))}
             </div>
           </Reveal>

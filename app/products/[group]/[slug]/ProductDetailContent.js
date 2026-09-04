@@ -7,7 +7,6 @@ import { ArrowLeft, ChevronDown, PackageSearch, ShieldCheck, Phone, Mail } from 
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
 import CtaBanner from '@/components/CtaBanner';
-import productsCatalog from '@/lib/productsCatalog.json';
 import { distributionStaff } from '@/lib/content';
 import { useLanguage } from '@/context/LanguageContext';
 
@@ -34,10 +33,8 @@ const SPEC_GROUP_LABELS_VI = {
   'Contractual warranty': 'Bảo hành',
 };
 
-export default function ProductDetailContent({ groupKey, slug }) {
+export default function ProductDetailContent({ product, group }) {
   const { t, language } = useLanguage();
-  const group = productsCatalog.groups.find((g) => g.key === groupKey);
-  const product = productsCatalog.products.find((p) => p.group === groupKey && p.slug === slug);
   const salesTeam = distributionStaff.find((g) => g.groupKey === 'sales')?.members || [];
   const images = Array.isArray(product.images) ? product.images : [];
   const [activeImage, setActiveImage] = useState(images[0]);
@@ -68,7 +65,7 @@ export default function ProductDetailContent({ groupKey, slug }) {
       <section className="bg-white py-12">
         <div className="container-page">
           <Link
-            href={`/products/${groupKey}`}
+            href={`/products/${product.group}`}
             className="inline-flex items-center gap-2 text-sm font-semibold text-brand-600 transition-colors hover:text-brand-700"
           >
             <ArrowLeft size={16} />
@@ -140,17 +137,17 @@ export default function ProductDetailContent({ groupKey, slug }) {
                 <h2 className="font-display text-lg font-bold text-navy-900">{t('productCatalog.specsHeading')}</h2>
                 {hasSpecGroups ? (
                   <div className="mt-4 space-y-2">
-                    {product.specGroups.map((group, gi) => {
+                    {product.specGroups.map((specGroup, gi) => {
                       const isOpen = openGroups.has(gi);
                       return (
-                        <div key={`${group.group}-${gi}`} className="overflow-hidden rounded-2xl bg-mist-50 ring-1 ring-black/5">
+                        <div key={`${specGroup.group}-${gi}`} className="overflow-hidden rounded-2xl bg-mist-50 ring-1 ring-black/5">
                           <button
                             type="button"
                             onClick={() => toggleGroup(gi)}
                             className="flex w-full items-center justify-between px-5 py-3 text-left"
                           >
                             <span className="text-xs font-semibold uppercase tracking-wide text-brand-600">
-                              {language === 'vi' ? SPEC_GROUP_LABELS_VI[group.group] || group.group : group.group}
+                              {language === 'vi' ? SPEC_GROUP_LABELS_VI[specGroup.group] || specGroup.group : specGroup.group}
                             </span>
                             <ChevronDown
                               size={16}
@@ -159,7 +156,7 @@ export default function ProductDetailContent({ groupKey, slug }) {
                           </button>
                           {isOpen && (
                             <dl className="divide-y divide-black/5 border-t border-black/5">
-                              {group.items.map((spec, i) => (
+                              {specGroup.items.map((spec, i) => (
                                 <div key={`${spec.label}-${i}`} className="flex flex-col gap-1 px-5 py-3 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4">
                                   <dt className="text-sm font-medium text-ink-600">{spec.label}</dt>
                                   <dd className="text-sm text-ink-900 sm:text-right">{spec.value}</dd>

@@ -1,5 +1,6 @@
 import ProductsContent from './ProductsContent';
 import vi from '@/locales/vi.json';
+import productsCatalog from '@/lib/productsCatalog.json';
 
 export const metadata = {
   title: vi.pages.products.hero.crumb,
@@ -7,5 +8,19 @@ export const metadata = {
 };
 
 export default function ProductsPage() {
-  return <ProductsContent />;
+  // Only the fields the search box and group-count tiles actually render —
+  // leaves every product's much larger specGroups/overview/images out of
+  // this page's client bundle.
+  const searchIndex = productsCatalog.products.map((p) => ({
+    group: p.group,
+    slug: p.slug,
+    part_number: p.part_number,
+    name: p.name,
+  }));
+  const countByGroup = {};
+  for (const p of searchIndex) {
+    countByGroup[p.group] = (countByGroup[p.group] || 0) + 1;
+  }
+
+  return <ProductsContent groups={productsCatalog.groups} searchIndex={searchIndex} countByGroup={countByGroup} />;
 }

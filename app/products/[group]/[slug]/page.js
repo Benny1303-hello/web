@@ -47,6 +47,7 @@ export default async function ProductDetailPage({ params }) {
   const { group: groupKey, slug } = await params;
   const product = findProduct(groupKey, slug);
   if (!product) notFound();
+  const group = productsCatalog.groups.find((g) => g.key === groupKey);
 
   const jsonLd = buildProductJsonLd(product, groupKey, slug);
 
@@ -56,7 +57,7 @@ export default async function ProductDetailPage({ params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }}
       />
-      <ProductDetailContent groupKey={groupKey} slug={slug} />
+      <ProductDetailContent product={product} group={group} />
     </>
   );
 }

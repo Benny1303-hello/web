@@ -3,22 +3,21 @@
 import { useMemo, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { ArrowLeft, ArrowRight, PackageSearch, Search } from 'lucide-react';
+import { ArrowLeft, ArrowRight, PackageSearch } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
-import productsCatalog from '@/lib/productsCatalog.json';
+import ProductSearchInput from '@/components/ProductSearchInput';
 import { useLanguage } from '@/context/LanguageContext';
+import { matchesProductQuery } from '@/lib/productSearch';
 
-export default function ProductGroupContent({ groupKey }) {
+export default function ProductGroupContent({ group, products: allProducts }) {
   const { t } = useLanguage();
   const [query, setQuery] = useState('');
-  const group = productsCatalog.groups.find((g) => g.key === groupKey);
-  const allProducts = productsCatalog.products.filter((p) => p.group === groupKey);
 
   const products = useMemo(() => {
     const q = query.trim().toLowerCase();
     if (!q) return allProducts;
-    return allProducts.filter((p) => p.part_number.toLowerCase().includes(q) || p.name.toLowerCase().includes(q));
+    return allProducts.filter((p) => matchesProductQuery(p, q));
   }, [allProducts, query]);
 
   const sections = [];
@@ -46,16 +45,7 @@ export default function ProductGroupContent({ groupKey }) {
           </Link>
 
           <Reveal className="mx-auto mt-8 max-w-xl">
-            <div className="relative">
-              <Search size={18} className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-ink-300" />
-              <input
-                type="text"
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-                placeholder={t('productCatalog.searchPlaceholder')}
-                className="w-full rounded-full border border-black/10 bg-mist-50 py-3 pl-11 pr-4 text-sm text-ink-900 placeholder:text-ink-300 focus:border-brand-400 focus:outline-none focus:ring-2 focus:ring-brand-200"
-              />
-            </div>
+            <ProductSearchInput value={query} onChange={setQuery} placeholder={t('productCatalog.searchPlaceholder')} />
           </Reveal>
         </div>
       </section>

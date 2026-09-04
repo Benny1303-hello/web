@@ -20,10 +20,18 @@ export async function generateMetadata({ params }) {
   };
 }
 
+// Only the fields ProductGroupContent actually renders — leaves each
+// product's much larger specGroups/overview/warranty/compatible_with out of
+// this page's client bundle entirely.
+function toCardProduct(p) {
+  return { group: p.group, slug: p.slug, part_number: p.part_number, name: p.name, category_label: p.category_label, images: p.images };
+}
+
 export default async function ProductGroupPage({ params }) {
   const { group: groupKey } = await params;
   const group = findGroup(groupKey);
   if (!group) notFound();
+  const products = productsCatalog.products.filter((p) => p.group === groupKey).map(toCardProduct);
 
-  return <ProductGroupContent groupKey={groupKey} />;
+  return <ProductGroupContent group={group} products={products} />;
 }

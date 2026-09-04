@@ -2,32 +2,27 @@
 
 import { useMemo, useState } from 'react';
 import Link from 'next/link';
-import { ArrowRight, Search } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
 import Button from '@/components/Button';
-import productsCatalog from '@/lib/productsCatalog.json';
+import ProductSearchInput from '@/components/ProductSearchInput';
 import { ICONS } from '@/lib/icons';
+import { matchesProductQuery } from '@/lib/productSearch';
 import { useLanguage } from '@/context/LanguageContext';
 
 const MAX_SEARCH_RESULTS = 8;
 
-export default function ProductsContent() {
+export default function ProductsContent({ groups, searchIndex, countByGroup }) {
   const { t } = useLanguage();
   const [query, setQuery] = useState('');
-  const countByGroup = {};
-  productsCatalog.products.forEach((p) => {
-    countByGroup[p.group] = (countByGroup[p.group] || 0) + 1;
-  });
 
   const searchResults = useMemo(() => {
     const q = query.trim().toLowerCase();
     if (!q) return { matches: [], total: 0 };
-    const all = productsCatalog.products.filter(
-      (p) => p.part_number.toLowerCase().includes(q) || p.name.toLowerCase().includes(q)
-    );
+    const all = searchIndex.filter((p) => matchesProductQuery(p, q));
     return { matches: all.slice(0, MAX_SEARCH_RESULTS), total: all.length };
-  }, [query]);
+  }, [searchIndex, query]);
   const isSearching = query.trim().length > 0;
 
   return (
@@ -42,16 +37,7 @@ export default function ProductsContent() {
       <section className="bg-white pt-16">
         <div className="container-page">
           <Reveal className="relative mx-auto max-w-xl">
-            <div className="relative">
-              <Search size={18} className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-ink-300" />
-              <input
-                type="text"
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-                placeholder={t('productCatalog.searchPlaceholder')}
-                className="w-full rounded-full border border-black/10 bg-mist-50 py-3 pl-11 pr-4 text-sm text-ink-900 placeholder:text-ink-300 focus:border-brand-400 focus:outline-none focus:ring-2 focus:ring-brand-200"
-              />
-            </div>
+            <ProductSearchInput value={query} onChange={setQuery} placeholder={t('productCatalog.searchPlaceholder')} />
 
             {isSearching && (
               <div className="absolute inset-x-0 top-full z-20 mt-2 overflow-hidden rounded-2xl bg-white shadow-card ring-1 ring-black/5">
@@ -94,7 +80,7 @@ export default function ProductsContent() {
           </Reveal>
 
           <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {productsCatalog.groups.map((group, i) => {
+            {groups.map((group, i) => {
               const Icon = ICONS[group.icon];
               return (
                 <Reveal key={group.key} delay={i * 0.1}>

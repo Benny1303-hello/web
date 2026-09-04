@@ -787,6 +787,9 @@
     "imagePending": "Product image will be added soon.",
     "noSpecs": "No detailed specifications available for this product yet.",
     "productsSuffix": "products",
-    "partNumberLabel": "Part number"
+    "partNumberLabel": "Part number",
+    "searchPlaceholder": "Search by part number or name...",
+    "searchNoResults": "No matching products found.",
+    "searchMoreResults": "and {n} more results..."
   }
 }

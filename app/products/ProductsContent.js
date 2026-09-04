@@ -1,7 +1,8 @@
 'use client';
 
+import { useMemo, useState } from 'react';
 import Link from 'next/link';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Search } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
 import Button from '@/components/Button';
@@ -9,12 +10,25 @@ import productsCatalog from '@/lib/productsCatalog.json';
 import { ICONS } from '@/lib/icons';
 import { useLanguage } from '@/context/LanguageContext';
 
+const MAX_SEARCH_RESULTS = 8;
+
 export default function ProductsContent() {
   const { t } = useLanguage();
+  const [query, setQuery] = useState('');
   const countByGroup = {};
   productsCatalog.products.forEach((p) => {
     countByGroup[p.group] = (countByGroup[p.group] || 0) + 1;
   });
+
+  const searchResults = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    if (!q) return { matches: [], total: 0 };
+    const all = productsCatalog.products.filter(
+      (p) => p.part_number.toLowerCase().includes(q) || p.name.toLowerCase().includes(q)
+    );
+    return { matches: all.slice(0, MAX_SEARCH_RESULTS), total: all.length };
+  }, [query]);
+  const isSearching = query.trim().length > 0;
 
   return (
     <>
@@ -25,7 +39,53 @@ export default function ProductsContent() {
         description={t('pages.products.hero.description')}
       />
 
-      <section className="bg-white py-20">
+      <section className="bg-white pt-16">
+        <div className="container-page">
+          <Reveal className="relative mx-auto max-w-xl">
+            <div className="relative">
+              <Search size={18} className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-ink-300" />
+              <input
+                type="text"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                placeholder={t('productCatalog.searchPlaceholder')}
+                className="w-full rounded-full border border-black/10 bg-mist-50 py-3 pl-11 pr-4 text-sm text-ink-900 placeholder:text-ink-300 focus:border-brand-400 focus:outline-none focus:ring-2 focus:ring-brand-200"
+              />
+            </div>
+
+            {isSearching && (
+              <div className="absolute inset-x-0 top-full z-20 mt-2 overflow-hidden rounded-2xl bg-white shadow-card ring-1 ring-black/5">
+                {searchResults.matches.length > 0 ? (
+                  <>
+                    <ul className="divide-y divide-black/5">
+                      {searchResults.matches.map((p) => (
+                        <li key={`${p.group}-${p.slug}`}>
+                          <Link
+                            href={`/products/${p.group}/${p.slug}`}
+                            className="flex flex-col gap-0.5 px-5 py-3 transition-colors hover:bg-mist-50"
+                          >
+                            <span className="text-sm font-bold text-ink-900">{p.part_number}</span>
+                            <span className="text-xs text-ink-400">{p.name}</span>
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                    {searchResults.total > MAX_SEARCH_RESULTS && (
+                      <p className="border-t border-black/5 px-5 py-2.5 text-xs text-ink-400">
+                        {t('productCatalog.searchMoreResults', { n: searchResults.total - MAX_SEARCH_RESULTS })}
+                      </p>
+                    )}
+                  </>
+                ) : (
+                  <p className="px-5 py-4 text-sm text-ink-400">{t('productCatalog.searchNoResults')}</p>
+                )}
+              </div>
+            )}
+          </Reveal>
+        </div>
+      </section>
+
+      <section className="bg-white pb-20 pt-16">
         <div className="container-page">
           <Reveal className="mx-auto max-w-2xl text-center">
             <h2 className="text-balance font-display text-3xl font-bold text-navy-900 md:text-4xl">

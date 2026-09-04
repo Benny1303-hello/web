@@ -787,6 +787,9 @@
     "imagePending": "Hình ảnh sản phẩm sẽ được cập nhật sau.",
     "noSpecs": "Chưa có thông số chi tiết cho sản phẩm này.",
     "productsSuffix": "sản phẩm",
-    "partNumberLabel": "Mã sản phẩm"
+    "partNumberLabel": "Mã sản phẩm",
+    "searchPlaceholder": "Tìm theo mã sản phẩm hoặc tên...",
+    "searchNoResults": "Không tìm thấy sản phẩm phù hợp.",
+    "searchMoreResults": "và {n} kết quả khác..."
   }
 }

@@ -11,8 +11,31 @@ import productsCatalog from '@/lib/productsCatalog.json';
 import { distributionStaff } from '@/lib/content';
 import { useLanguage } from '@/context/LanguageContext';
 
+// Spec-group category headings translated to Vietnamese; the detailed field
+// labels/values underneath stay in English (standard for technical UPS/rack
+// datasheets, and the source data spans two different vendor taxonomies that
+// aren't worth force-translating line by line without real accuracy risk).
+const SPEC_GROUP_LABELS_VI = {
+  Overview: 'Tổng quan',
+  General: 'Thông tin chung',
+  Main: 'Thông số chính',
+  Physical: 'Kích thước & Vật lý',
+  Input: 'Đầu vào',
+  Output: 'Đầu ra',
+  Conformance: 'Chứng nhận & Tiêu chuẩn',
+  Environment: 'Môi trường',
+  Environmental: 'Môi trường',
+  'Batteries & Runtime': 'Pin & Thời gian hoạt động',
+  'Communications & Management': 'Kết nối & Quản lý',
+  Complementary: 'Thông số bổ sung',
+  'Surge Protection and Filtering': 'Chống sét lan truyền & Lọc nhiễu',
+  'Packing Units': 'Đóng gói',
+  'Offer Sustainability': 'Phát triển bền vững',
+  'Contractual warranty': 'Bảo hành',
+};
+
 export default function ProductDetailContent({ groupKey, slug }) {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const group = productsCatalog.groups.find((g) => g.key === groupKey);
   const product = productsCatalog.products.find((p) => p.group === groupKey && p.slug === slug);
   const salesTeam = distributionStaff.find((g) => g.groupKey === 'sales')?.members || [];
@@ -110,7 +133,9 @@ export default function ProductDetailContent({ groupKey, slug }) {
                   <div className="mt-4 space-y-5">
                     {product.specGroups.map((group, gi) => (
                       <div key={`${group.group}-${gi}`}>
-                        <h3 className="text-xs font-semibold uppercase tracking-wide text-brand-600">{group.group}</h3>
+                        <h3 className="text-xs font-semibold uppercase tracking-wide text-brand-600">
+                          {language === 'vi' ? SPEC_GROUP_LABELS_VI[group.group] || group.group : group.group}
+                        </h3>
                         <dl className="mt-2 divide-y divide-black/5 rounded-2xl bg-mist-50 ring-1 ring-black/5">
                           {group.items.map((spec, i) => (
                             <div key={`${spec.label}-${i}`} className="flex flex-col gap-1 px-5 py-3 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4">

@@ -687,7 +687,24 @@
         "overview": [
           "Sự cố hệ thống mạng, máy tính, máy chủ hay nguồn UPS có thể xảy ra bất cứ lúc nào và ảnh hưởng trực tiếp đến hoạt động kinh doanh. Đội ngũ hơn 30 kỹ sư của TTC-Infotech, được đào tạo bài bản và có chứng chỉ chuyên ngành từ các hãng công nghệ, sẵn sàng tiếp nhận và xử lý sự cố qua hình thức hỗ trợ từ xa hoặc tận nơi.",
           "Với những thiết bị hư hỏng cần thời gian sửa chữa, kỹ sư của chúng tôi có thể cho khách hàng mượn thiết bị tương đương để sử dụng tạm, đảm bảo công việc không bị gián đoạn trong lúc chờ khắc phục."
-        ]
+        ],
+        "sections": [
+          {
+            "title": "Thiết Bị Chúng Tôi Sửa Chữa",
+            "paragraphs": [
+              "Đội ngũ kỹ sư có thể đến tận nơi kiểm tra và sửa chữa hầu hết thiết bị CNTT của doanh nghiệp: máy tính, laptop, máy in, máy POS, máy scan, máy in sơ đồ (plotter), cùng hạ tầng mạng như switch, router, firewall và máy chủ.",
+              "Sửa chữa các hãng phổ biến như Dell, HP/HPE, Lenovo, Samsung, Apple, Sony — kể cả các linh kiện laptop như pin, bàn phím, ổ cứng."
+            ]
+          },
+          {
+            "title": "Hình Thức Hỗ Trợ",
+            "paragraphs": [
+              "Hỗ trợ từ xa (remote desktop) cho các sự cố liên quan phần mềm, hỗ trợ qua điện thoại khi cần tư vấn nhanh, hoặc cử kỹ sư đến tận nơi tùy mức độ khẩn cấp và vị trí của khách hàng.",
+              "Khách hàng có thể đặt lịch sửa chữa trước qua hình thức online hoặc offline để kỹ sư sắp xếp thời gian phù hợp."
+            ]
+          }
+        ],
+        "hasClientLogos": true
       },
       "maintenance": {
         "hero": {

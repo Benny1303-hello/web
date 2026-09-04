@@ -687,7 +687,24 @@
         "overview": [
           "Network, computer, server, and UPS power issues can happen at any time and directly affect your operations. Our team of more than 30 engineers, trained and certified by leading technology vendors, is ready to take on issues remotely or on-site.",
           "For equipment that needs time to repair, our engineers can lend an equivalent replacement device so your work isn't interrupted while the repair is underway."
-        ]
+        ],
+        "sections": [
+          {
+            "title": "What We Repair",
+            "paragraphs": [
+              "Our engineers can visit your office to inspect and repair most of your IT equipment: computers, laptops, printers, POS devices, scanners, and plotters, as well as network infrastructure like switches, routers, firewalls, and servers.",
+              "We service major brands including Dell, HP/HPE, Lenovo, Samsung, Apple, and Sony — including laptop components such as batteries, keyboards, and hard drives."
+            ]
+          },
+          {
+            "title": "Support Options",
+            "paragraphs": [
+              "We offer remote desktop support for software-related issues, phone support for quick advice, or on-site technician dispatch depending on urgency and your location.",
+              "You can schedule a repair in advance, online or offline, so our engineers can arrange the right time for you."
+            ]
+          }
+        ],
+        "hasClientLogos": true
       },
       "maintenance": {
         "hero": {

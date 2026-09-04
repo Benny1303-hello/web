@@ -1,8 +1,20 @@
-import { Resend } from 'resend';
+import nodemailer from 'nodemailer';
 import { site } from '@/lib/content';
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-const resend = process.env.RESEND_API_KEY ? new Resend(process.env.RESEND_API_KEY) : null;
+
+const smtpReady = process.env.SMTP_HOST && process.env.SMTP_USER && process.env.SMTP_PASS;
+const transporter = smtpReady
+  ? nodemailer.createTransport({
+      host: process.env.SMTP_HOST,
+      port: Number(process.env.SMTP_PORT) || 465,
+      secure: (Number(process.env.SMTP_PORT) || 465) === 465,
+      auth: {
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASS,
+      },
+    })
+  : null;
 
 export async function POST(request) {
   let body;
@@ -22,14 +34,14 @@ export async function POST(request) {
     return Response.json({ errorCode: 'INVALID_EMAIL' }, { status: 400 });
   }
 
-  if (!resend) {
-    console.error('[api/contact] Missing RESEND_API_KEY env var');
+  if (!transporter) {
+    console.error('[api/contact] Missing SMTP_HOST/SMTP_USER/SMTP_PASS env vars');
     return Response.json({ errorCode: 'SERVER_NOT_READY' }, { status: 500 });
   }
 
   try {
-    const { error } = await resend.emails.send({
-      from: 'TTC-Infotech Website <onboarding@resend.dev>',
+    await transporter.sendMail({
+      from: `TTC-Infotech Website <${process.env.SMTP_USER}>`,
       to: site.email,
       replyTo: email.trim(),
       subject: `Yêu cầu liên hệ mới - ${subject.trim()}`,
@@ -44,14 +56,9 @@ export async function POST(request) {
       ].join('\n'),
     });
 
-    if (error) {
-      console.error('[api/contact] Resend error:', error);
-      return Response.json({ errorCode: 'SEND_FAILED' }, { status: 502 });
-    }
-
     return Response.json({ ok: true });
   } catch (err) {
-    console.error('[api/contact] Unexpected error:', err);
-    return Response.json({ errorCode: 'UNEXPECTED' }, { status: 500 });
+    console.error('[api/contact] SMTP send error:', err);
+    return Response.json({ errorCode: 'SEND_FAILED' }, { status: 502 });
   }
 }

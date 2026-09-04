@@ -26,14 +26,14 @@ export default function AboutContent() {
       <section className="bg-white py-20">
         <div className="container-page grid grid-cols-1 gap-14 lg:grid-cols-2">
           <Reveal>
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">{t('pages.about.story1.eyebrow')}</p>
+            <p className="text-xl font-bold uppercase tracking-[0.05em] text-brand-600">{t('pages.about.story1.eyebrow')}</p>
             <h2 className="mt-3 text-balance font-display text-3xl font-bold text-navy-900">
               {t('pages.about.story1.heading')}
             </h2>
             <p className="mt-5 leading-relaxed text-ink-400">{t('pages.about.story1.desc')}</p>
           </Reveal>
           <Reveal delay={0.1}>
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">{t('pages.about.story2.eyebrow')}</p>
+            <p className="text-xl font-bold uppercase tracking-[0.05em] text-brand-600">{t('pages.about.story2.eyebrow')}</p>
             <h2 className="mt-3 text-balance font-display text-3xl font-bold text-navy-900">
               {t('pages.about.story2.heading')}
             </h2>
@@ -66,7 +66,7 @@ export default function AboutContent() {
       <section className="bg-white py-20">
         <div className="container-page">
           <Reveal className="mx-auto max-w-2xl text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600 flex items-center justify-center gap-2">
+            <p className="text-xl font-bold uppercase tracking-[0.05em] text-brand-600 flex items-center justify-center gap-2">
               <Award size={16} /> {t('whyChooseUs.eyebrow')}
             </p>
             <h2 className="mt-3 text-balance font-display text-3xl font-bold text-navy-900 md:text-4xl">

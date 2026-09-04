@@ -40,7 +40,7 @@ export default function ServiceOfferingDetailContent({ offeringKey }) {
       <section className="bg-white py-20">
         <div className="container-page mx-auto max-w-3xl">
           <Reveal>
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">{t(`${base}.overviewHeading`)}</p>
+            <p className="text-xl font-bold uppercase tracking-[0.05em] text-brand-600">{t(`${base}.overviewHeading`)}</p>
             <h2 className="mt-3 text-balance font-display text-3xl font-bold text-navy-900">{t(`${base}.solutionDesc`)}</h2>
             {hasOverview && (
               <div className="mt-5 space-y-4">

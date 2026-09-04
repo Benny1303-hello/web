@@ -52,7 +52,7 @@ export default function SolutionDetailContent({ solutionKey }) {
       <section className="bg-white py-20">
         <div className="container-page grid grid-cols-1 gap-14 lg:grid-cols-2">
           <Reveal>
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">{t(`${base}.overviewHeading`)}</p>
+            <p className="text-xl font-bold uppercase tracking-[0.05em] text-brand-600">{t(`${base}.overviewHeading`)}</p>
             <h2 className="mt-3 text-balance font-display text-3xl font-bold text-navy-900">{t(`${base}.solutionDesc`)}</h2>
             <p className="mt-5 leading-relaxed text-ink-400">{t(`${base}.overview`)}</p>
           </Reveal>

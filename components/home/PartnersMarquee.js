@@ -11,7 +11,7 @@ export default function PartnersMarquee() {
     <section className="bg-mist-50 py-16">
       <div className="container-page">
         <Reveal className="text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">{t('partnersSection.eyebrow')}</p>
+          <p className="text-xl font-bold uppercase tracking-[0.05em] text-brand-600">{t('partnersSection.eyebrow')}</p>
         </Reveal>
 
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4">

@@ -26,7 +26,7 @@ export default function SystemIntegrationContent() {
       <section className="bg-white py-20">
         <div className="container-page grid grid-cols-1 gap-14 lg:grid-cols-2">
           <Reveal>
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">{t('pages.systemIntegration.whyEyebrow')}</p>
+            <p className="text-xl font-bold uppercase tracking-[0.05em] text-brand-600">{t('pages.systemIntegration.whyEyebrow')}</p>
             <h2 className="mt-3 text-balance font-display text-3xl font-bold text-navy-900">
               {t('pages.systemIntegration.whyHeading')}
             </h2>
@@ -43,7 +43,7 @@ export default function SystemIntegrationContent() {
 
           <Reveal delay={0.1}>
             <div className="rounded-3xl bg-hero-mesh p-8 text-white">
-              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-300">{t('pages.systemIntegration.processHeading')}</p>
+              <p className="text-xl font-bold uppercase tracking-[0.05em] text-cyan-300">{t('pages.systemIntegration.processHeading')}</p>
               <div className="mt-6 space-y-6">
                 {process.map((step, i) => {
                   const Icon = ICONS[step.icon];

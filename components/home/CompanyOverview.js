@@ -35,7 +35,7 @@ export default function CompanyOverview() {
         </Reveal>
 
         <Reveal delay={0.1}>
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">{t('companyOverview.eyebrow')}</p>
+          <p className="text-xl font-bold uppercase tracking-[0.05em] text-brand-600">{t('companyOverview.eyebrow')}</p>
           <h2 className="mt-3 text-balance font-display text-3xl font-bold text-navy-900 md:text-4xl">
             {t('companyOverview.heading')}
           </h2>

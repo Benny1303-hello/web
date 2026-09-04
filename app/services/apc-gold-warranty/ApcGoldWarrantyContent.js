@@ -24,7 +24,7 @@ export default function ApcGoldWarrantyContent() {
       <section className="bg-white py-20">
         <div className="container-page grid grid-cols-1 items-center gap-14 lg:grid-cols-2">
           <Reveal>
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-600">
+            <p className="text-xl font-bold uppercase tracking-[0.05em] text-brand-600">
               {t('pages.apcGoldWarranty.effectiveDate')}
             </p>
             <h2 className="mt-3 text-balance font-display text-3xl font-bold text-navy-900">

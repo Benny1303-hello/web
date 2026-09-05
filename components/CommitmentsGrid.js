@@ -4,6 +4,8 @@ import { CheckCircle2 } from 'lucide-react';
 import Reveal from '@/components/Reveal';
 
 export default function CommitmentsGrid({ commitments }) {
+  if (!Array.isArray(commitments)) return null;
+
   return (
     <div className="mt-12 flex flex-wrap justify-center gap-6">
       {commitments.map((commitment, i) => (

@@ -31,7 +31,7 @@ export default function CentersGrid() {
                 >
                   <div className="flex items-center gap-3">
                     <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-cyan-400 text-white transition-transform duration-300 group-hover:scale-110">
-                      <Icon size={22} />
+                      {Icon && <Icon size={22} />}
                     </div>
                     <h3 className="font-display text-xl font-bold text-ink-900 transition-colors group-hover:text-white">
                       {t(`centers.${center.key}.title`)}

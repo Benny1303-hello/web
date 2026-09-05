@@ -14,8 +14,8 @@ export default function ApcGoldWarrantyContent() {
   const hasBenefits = Array.isArray(benefits);
   // Hotline below is Giang's number — sourced from the shared staff record
   // so it can't drift out of sync if it ever changes there.
-  const giang = consultingStaff[0].members.find((m) => m.key === 'giang');
-  const giangTelHref = `tel:+84${giang.phone.replace(/\D/g, '').replace(/^0/, '')}`;
+  const giang = consultingStaff.flatMap((g) => g.members).find((m) => m.key === 'giang');
+  const giangTelHref = giang ? `tel:+84${giang.phone.replace(/\D/g, '').replace(/^0/, '')}` : 'tel:+84933004576';
 
   return (
     <>

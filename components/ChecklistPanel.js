@@ -3,6 +3,8 @@
 import { CheckCircle2 } from 'lucide-react';
 
 export default function ChecklistPanel({ heading, items }) {
+  if (!Array.isArray(items)) return null;
+
   return (
     <div className="rounded-3xl bg-hero-mesh p-8 text-white">
       <p className="text-xl font-bold uppercase tracking-[0.05em] text-cyan-300">{heading}</p>

@@ -20,15 +20,14 @@ export default function ProductGroupContent({ group, products: allProducts }) {
     return allProducts.filter((p) => matchesProductQuery(p, q));
   }, [allProducts, query]);
 
-  const sections = [];
-  const sectionIndex = {};
-  for (const p of products) {
-    if (!(p.category_label in sectionIndex)) {
-      sectionIndex[p.category_label] = sections.length;
-      sections.push({ label: p.category_label, products: [] });
+  const sections = useMemo(() => {
+    const grouped = new Map();
+    for (const p of products) {
+      if (!grouped.has(p.category_label)) grouped.set(p.category_label, []);
+      grouped.get(p.category_label).push(p);
     }
-    sections[sectionIndex[p.category_label]].products.push(p);
-  }
+    return [...grouped].map(([label, sectionProducts]) => ({ label, products: sectionProducts }));
+  }, [products]);
 
   return (
     <>

@@ -33,9 +33,9 @@ export default function StaffDirectory({ tPrefix, groups }) {
                 <h3 className="mb-5 font-display text-lg font-bold text-navy-900">
                   {t(`${tPrefix}.staffGroups.${group.groupKey}`)}
                 </h3>
-                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                <div className="flex flex-wrap justify-center gap-4">
                   {group.members.map((contact, i) => (
-                    <Reveal key={contact.key} delay={i * 0.06}>
+                    <Reveal key={contact.key} delay={i * 0.06} className="w-full sm:w-[calc(50%-8px)]">
                       <div className="h-full rounded-xl bg-white px-6 py-5 shadow-soft ring-1 ring-black/5">
                         <span className="font-medium text-ink-900">{contact.name}</span>
                         <p className="mt-1 text-xs font-medium uppercase tracking-wide text-brand-600">

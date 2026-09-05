@@ -20,9 +20,13 @@ export default function ClientLogos({ clients = serviceClients }) {
           </h2>
         </Reveal>
 
-        <div className="mt-14 grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-6">
+        <div className="mt-14 flex flex-wrap justify-center gap-6">
           {clients.map((client, i) => (
-            <Reveal key={client.name} delay={i * 0.04}>
+            <Reveal
+              key={client.name}
+              delay={i * 0.04}
+              className="w-[calc(50%-12px)] sm:w-[calc(33.333%-16px)] lg:w-[calc(16.666%-20px)]"
+            >
               <div className="flex h-24 items-center justify-center rounded-2xl bg-mist-50 p-5 ring-1 ring-black/5">
                 <Image
                   src={client.image}

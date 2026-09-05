@@ -69,7 +69,7 @@ export default function DistributionContent() {
                   <div className="h-full rounded-2xl bg-white p-7 shadow-soft ring-1 ring-black/5">
                     <div className="flex items-center gap-3">
                       <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-cyan-400 text-white">
-                        <Icon size={20} />
+                        {Icon && <Icon size={20} />}
                       </div>
                       <h3 className="font-display text-base font-bold text-ink-900">
                         {t(`pages.distribution.brands.${brand.key}.name`)}
@@ -105,7 +105,7 @@ export default function DistributionContent() {
                   <div className="h-full rounded-2xl border border-black/5 bg-mist-50 p-7 transition-all duration-300 hover:-translate-y-1.5 hover:shadow-card">
                     <div className="flex items-center gap-3">
                       <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-navy-900 text-cyan-300">
-                        <Icon size={20} />
+                        {Icon && <Icon size={20} />}
                       </div>
                       <h3 className="font-display text-base font-bold text-ink-900">
                         {t(`pages.distribution.values.${value.key}.title`)}

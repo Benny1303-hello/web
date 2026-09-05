@@ -53,7 +53,7 @@ export default function ServicesContent() {
                   <div className="h-full rounded-2xl bg-white p-7 shadow-soft ring-1 ring-black/5">
                     <div className="flex items-center gap-3">
                       <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-cyan-400 text-white">
-                        <Icon size={20} />
+                        {Icon && <Icon size={20} />}
                       </div>
                       <h3 className="font-display text-base font-bold text-ink-900">
                         {t(`pages.services.criteria.${item.key}.title`)}

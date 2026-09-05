@@ -154,7 +154,7 @@ export default function ProductDetailContent({ product, group }) {
                               className={`shrink-0 text-ink-400 transition-transform ${isOpen ? 'rotate-180' : ''}`}
                             />
                           </button>
-                          {isOpen && (
+                          {isOpen && Array.isArray(specGroup.items) && (
                             <dl className="divide-y divide-black/5 border-t border-black/5">
                               {specGroup.items.map((spec, i) => (
                                 <div key={`${spec.label}-${i}`} className="flex flex-col gap-1 px-5 py-3 sm:flex-row sm:items-baseline sm:justify-between sm:gap-4">

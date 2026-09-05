@@ -79,18 +79,18 @@ export default function ProductsContent({ groups, searchIndex, countByGroup }) {
             </h2>
           </Reveal>
 
-          <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-14 flex flex-wrap justify-center gap-6">
             {groups.map((group, i) => {
               const Icon = ICONS[group.icon];
               return (
-                <Reveal key={group.key} delay={i * 0.1}>
+                <Reveal key={group.key} delay={i * 0.1} className="w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]">
                   <Link
                     href={`/products/${group.key}`}
                     className="group flex h-full flex-col rounded-2xl border border-black/5 bg-mist-50 p-7 transition-all duration-300 hover:-translate-y-1.5 hover:border-transparent hover:bg-navy-950 hover:shadow-card"
                   >
                     <div className="flex items-center gap-3">
                       <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-cyan-400 text-white transition-transform duration-300 group-hover:scale-110">
-                        <Icon size={20} />
+                        {Icon && <Icon size={20} />}
                       </div>
                       <h3 className="font-display text-lg font-bold text-ink-900 transition-colors group-hover:text-white">
                         {group.title}

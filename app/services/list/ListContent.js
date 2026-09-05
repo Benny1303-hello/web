@@ -35,7 +35,7 @@ export default function ListContent() {
                 <>
                   <div className="flex items-center gap-3">
                     <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-cyan-400 text-white transition-transform duration-300 group-hover:scale-110">
-                      <Icon size={20} />
+                      {Icon && <Icon size={20} />}
                     </div>
                     <h3 className="font-display text-lg font-bold text-ink-900 transition-colors group-hover:text-white">
                       {t(`pages.servicesList.items.${service.key}.title`)}

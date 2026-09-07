@@ -17,6 +17,18 @@
       "title": "Tủ Rack & phụ kiện",
       "desc": "Tủ rack APC, phụ kiện lắp đặt và PDU cho phòng máy chủ.",
       "icon": "Server"
+    },
+    {
+      "key": "eaton-ups",
+      "title": "Bộ lưu điện UPS EATON",
+      "desc": "Các dòng UPS Eaton — line-interactive đến online double-conversion, văn phòng nhỏ đến trung tâm dữ liệu.",
+      "icon": "Zap"
+    },
+    {
+      "key": "eaton-phu-kien-ups",
+      "title": "Phụ kiện & bình ắc quy UPS EATON",
+      "desc": "Bình ắc quy mở rộng (EBM) chính hãng Eaton cho các dòng UPS 9A/9SX/5PX/DX RT.",
+      "icon": "PackageCheck"
     }
   ],
   "products": [
@@ -28501,6 +28513,543 @@
         }
       ],
       "specSource": "se.com"
+    },
+    {
+      "slug": "5a700i-nema",
+      "group": "eaton-ups",
+      "part_number": "5A700I-NEMA",
+      "name": "Bộ Lưu Điện (UPS) Eaton 5A700I Line Interactive/ 700VA/360W",
+      "category_label": "Eaton 5A Series (Line Interactive)",
+      "brand": "EATON",
+      "warranty": "3 years",
+      "specs": [
+        {
+          "label": "Capacity",
+          "value": "700 VA / 360 W"
+        }
+      ]
+    },
+    {
+      "slug": "5a900i-nema",
+      "group": "eaton-ups",
+      "part_number": "5A900I-NEMA",
+      "name": "Bộ Lưu Điện (UPS) Eaton 5A900I Line Interactive/ 900VA/480W",
+      "category_label": "Eaton 5A Series (Line Interactive)",
+      "brand": "EATON",
+      "warranty": "3 years",
+      "specs": [
+        {
+          "label": "Capacity",
+          "value": "900 VA / 480 W"
+        }
+      ]
+    },
+    {
+      "slug": "5a1200i-nema",
+      "group": "eaton-ups",
+      "part_number": "5A1200I-NEMA",
+      "name": "Bộ Lưu Điện (UPS) Eaton 5A1200I Line Interactive/ 1200VA/650W",
+      "category_label": "Eaton 5A Series (Line Interactive)",
+      "brand": "EATON",
+      "warranty": "3 years",
+      "specs": [
+        {
+          "label": "Capacity",
+          "value": "1200 VA / 650 W"
+        }
+      ]
+    },
+    {
+      "slug": "5a1500i-nema",
+      "group": "eaton-ups",
+      "part_number": "5A1500I-NEMA",
+      "name": "Bộ Lưu Điện (UPS) Eaton 5A1500I Line Interactive/ 1500VA/900W",
+      "category_label": "Eaton 5A Series (Line Interactive)",
+      "brand": "EATON",
+      "warranty": "3 years",
+      "specs": [
+        {
+          "label": "Capacity",
+          "value": "1500 VA / 900 W"
+        }
+      ]
+    },
+    {
+      "slug": "5a2200i-nema",
+      "group": "eaton-ups",
+      "part_number": "5A2200I-NEMA",
+      "name": "Bộ Lưu Điện (UPS) Eaton 5A2200I Line Interactive/ 2200VA/1200W",
+      "category_label": "Eaton 5A Series (Line Interactive)",
+      "brand": "EATON",
+      "warranty": "3 years",
+      "specs": [
+        {
+          "label": "Capacity",
+          "value": "2200 VA / 1200 W"
+        }
+      ]
+    },
+    {
+      "slug": "5sc1000i",
+      "group": "eaton-ups",
+      "part_number": "5SC1000i",
+      "name": "Bộ Lưu Điện (UPS) Eaton 5SC /1000VA/700W",
+      "category_label": "Eaton 5SC Series",
+      "brand": "EATON",
+      "warranty": "3 years",
+      "specs": [
+        {
+          "label": "Capacity",
+          "value": "1000 VA / 700 W"
+        }
+      ]
+    },
+    {
+      "slug": "5sc1000ir",
+      "group": "eaton-ups",
+      "part_number": "5SC1000iR",
+      "name": "Bộ Lưu Điện (UPS) Eaton  5SC 1000i Rack2U/ 1000VA/700W",
+      "category_label": "Eaton 5SC Series",
+      "brand": "EATON",
+      "warranty": "3 years",
+      "specs": [
+        {
+          "label": "Capacity",
+          "value": "1000 VA / 700 W"
+        }
+      ]
+    },
+    {
+      "slug": "5sc1500i",
+      "group": "eaton-ups",
+      "part_number": "5SC1500i",
+      "name": "Bộ Lưu Điện (UPS) Eaton 5SC /1500VA/1050W",
+      "category_label": "Eaton 5SC Series",
+      "brand": "EATON",
+      "warranty": "3 years",
+      "specs": [
+        {
+          "label": "Capacity",
+          "value": "1500 VA / 1050 W"
+        }
+      ]
+    },
+    {
+      "slug": "5sc1500ir",
+      "group": "eaton-ups",
+      "part_number": "5SC1500iR",
+      "name": "Bộ Lưu Điện (UPS) Eaton 5SC 1500i Rack2U/ 1500VA/1050W",
+      "category_label": "Eaton 5SC Series",
+      "brand": "EATON",
+      "warranty": "3 years",
+      "specs": [
+        {
+          "label": "Capacity",
+          "value": "1500 VA / 1050 W"
+        }
+      ]
+    },
+    {
+      "slug": "5sc2200irt",
+      "group": "eaton-ups",
+      "part_number": "5SC2200IRT",
+      "name": "Bộ Lưu Điện (UPS) Eaton 5SC 2200i RT2U/2200VA/1980W",
+      "category_label": "Eaton 5SC Series",
+      "brand": "EATON",
+      "warranty": "3 years",
+      "specs": [
+        {
+          "label": "Capacity",
+          "value": "2200 VA / 1980 W"
+        }
+      ]
+    },
+    {
+      "slug": "5sc3000irt",
+      "group": "eaton-ups",
+      "part_number": "5SC3000IRT",
+      "name": "Bộ Lưu Điện (UPS) Eaton 5SC 3000i RT2U/3000VA/2700W",
+      "category_label": "Eaton 5SC Series",
+      "brand": "EATON",
+      "warranty": "3 years",
+      "specs": [
+        {
+          "label": "Capacity",
+          "value": "3000 VA / 2700 W"
+        }
+      ]
+    },
+    {
+      "slug": "5p650ig2",
+      "group": "eaton-ups",
+      "part_number": "5P650IG2",
+      "name": "Bộ Lưu Điện (UPS) Eaton 5P 650i Gen 2 Tower /650VA/520W",
+      "category_label": "Eaton 5P Series",
+      "brand": "EATON",
+      "warranty": "3 years",
+      "specs": [
+        {
+          "label": "Capacity",
+          "value": "650 VA / 520 W"
+        }
+      ]
+    },
+    {
+      "slug": "5p1150ig2",
+      "group": "eaton-ups",
+      "part_number": "5P1150IG2",
+      "name": "Bộ Lưu Điện (UPS) Eaton 5P 1150i G2/1150VA/770W",
+      "category_label": "Eaton 5P Series",
+      "brand": "EATON",
+      "warranty": "3 years",
+      "specs": [
+        {
+          "label": "Capacity",
+          "value": "1150 VA / 770 W"
+        }
+      ]
+    },
+    {
+      "slug": "5p1550ig2",
+      "group": "eaton-ups",
+      "part_number": "5P1550IG2",
+      "name": "Bộ Lưu Điện (UPS) Eaton 5P 1550i G2/1550VA/1100W",
+      "category_label": "Eaton 5P Series",
+      "brand": "EATON",
+      "warranty": "3 years",
+      "specs": [
+        {
+          "label": "Capacity",
+          "value": "1550 VA / 1100 W"
+        }
+      ]
+    },
+    {
+      "slug": "5px1000irt2ug2",
+      "group": "eaton-ups",
+      "part_number": "5PX1000IRT2UG2",
+      "name": "Bộ Lưu Điện (UPS) Eaton 5PX 1000i RT2U G2/1000VA/1000W",
+      "category_label": "Eaton 5PX Series",
+      "brand": "EATON",
+      "warranty": "3 years",
+      "specs": [
+        {
+          "label": "Capacity",
+          "value": "1000 VA / 1000 W"
+        }
+      ]
+    },
+    {
+      "slug": "5px1500irt2ug2",
+      "group": "eaton-ups",
+      "part_number": "5PX1500IRT2UG2",
+      "name": "Bộ Lưu Điện (UPS) Eaton 5PX 1500i RT2U G2/1500VA/1500W",
+      "category_label": "Eaton 5PX Series",
+      "brand": "EATON",
+      "warranty": "3 years",
+      "specs": [
+        {
+          "label": "Capacity",
+          "value": "1500 VA / 1500 W"
+        }
+      ]
+    },
+    {
+      "slug": "5px2200irt2ug2",
+      "group": "eaton-ups",
+      "part_number": "5PX2200IRT2UG2",
+      "name": "Bộ Lưu Điện (UPS) Eaton 5PX 2200i RT2U G2/2200VA/2200W",
+      "category_label": "Eaton 5PX Series",
+      "brand": "EATON",
+      "warranty": "3 years",
+      "specs": [
+        {
+          "label": "Capacity",
+          "value": "2200 VA / 2200 W"
+        }
+      ]
+    },
+    {
+      "slug": "5px2200irt3ug2",
+      "group": "eaton-ups",
+      "part_number": "5PX2200IRT3UG2",
+      "name": "Bộ Lưu Điện (UPS) Eaton 5PX 2200i RT3U G2/2200VA/2200W",
+      "category_label": "Eaton 5PX Series",
+      "brand": "EATON",
+      "warranty": "3 years",
+      "specs": [
+        {
+          "label": "Capacity",
+          "value": "2200 VA / 2200 W"
+        }
+      ]
+    },
+    {
+      "slug": "5px3000irt2ug2",
+      "group": "eaton-ups",
+      "part_number": "5PX3000IRT2UG2",
+      "name": "Bộ Lưu Điện (UPS) Eaton 5PX 3000i RT2U G2/3000VA/3000W",
+      "category_label": "Eaton 5PX Series",
+      "brand": "EATON",
+      "warranty": "3 years",
+      "specs": [
+        {
+          "label": "Capacity",
+          "value": "3000 VA / 3000 W"
+        }
+      ]
+    },
+    {
+      "slug": "5pxebm72rt2ug2",
+      "group": "eaton-phu-kien-ups",
+      "part_number": "5PXEBM72RT2UG2",
+      "name": "ẮCQUY CHO BỘ LƯU ĐIỆN (BATTERY) EATON 5PX EBM 72V RT2U G2",
+      "category_label": "Eaton 5PX Series",
+      "brand": "EATON",
+      "warranty": "3 years"
+    },
+    {
+      "slug": "9a1000i",
+      "group": "eaton-ups",
+      "part_number": "9A1000I",
+      "name": "Bộ Lưu Điện (UPS) 1053T EATON IEC 1KVA 220/230/240 9A",
+      "category_label": "Eaton 9A Series",
+      "brand": "EATON",
+      "warranty": "3 years"
+    },
+    {
+      "slug": "9a2000i",
+      "group": "eaton-ups",
+      "part_number": "9A2000I",
+      "name": "Bộ Lưu Điện (UPS) 1073T EATON IEC 2KVA 220/230/240 9A",
+      "category_label": "Eaton 9A Series",
+      "brand": "EATON",
+      "warranty": "3 years"
+    },
+    {
+      "slug": "9a3000i",
+      "group": "eaton-ups",
+      "part_number": "9A3000I",
+      "name": "Bộ Lưu Điện (UPS) 1083T EATON IEC 3KVA 220/230/240 9A",
+      "category_label": "Eaton 9A Series",
+      "brand": "EATON",
+      "warranty": "3 years"
+    },
+    {
+      "slug": "9aebm24",
+      "group": "eaton-phu-kien-ups",
+      "part_number": "9AEBM24",
+      "name": "ẮCQUY CHO BỘ LƯU ĐIỆN (BATTERY) BT090230 EATON W/T BAT 1K 9AEBM24 TOWER",
+      "category_label": "Eaton 9A Series",
+      "brand": "EATON",
+      "warranty": "3 years"
+    },
+    {
+      "slug": "9aebm48",
+      "group": "eaton-phu-kien-ups",
+      "part_number": "9AEBM48",
+      "name": "ẮCQUY CHO BỘ LƯU ĐIỆN (BATTERY) BT090430 EATON W/T BAT 2K 9AEBM48 TOWER",
+      "category_label": "Eaton 9A Series",
+      "brand": "EATON",
+      "warranty": "3 years"
+    },
+    {
+      "slug": "9aebm72",
+      "group": "eaton-phu-kien-ups",
+      "part_number": "9AEBM72",
+      "name": "ẮCQUY CHO BỘ LƯU ĐIỆN (BATTERY) BT090620 EATON W/T BAT 3K 9AEBM72 TOWER",
+      "category_label": "Eaton 9A Series",
+      "brand": "EATON",
+      "warranty": "3 years"
+    },
+    {
+      "slug": "9a1000ir",
+      "group": "eaton-ups",
+      "part_number": "9A1000IR",
+      "name": "Bộ Lưu Điện (UPS) 1053R EATON IEC 1KVA 220/230/240 9A",
+      "category_label": "Eaton 9A Series",
+      "brand": "EATON",
+      "warranty": "3 years"
+    },
+    {
+      "slug": "9a2000ir",
+      "group": "eaton-ups",
+      "part_number": "9A2000IR",
+      "name": "Bộ Lưu Điện (UPS) 1073R EATON IEC 2KVA 220/230/240 9A",
+      "category_label": "Eaton 9A Series",
+      "brand": "EATON",
+      "warranty": "3 years"
+    },
+    {
+      "slug": "9a3000ir",
+      "group": "eaton-ups",
+      "part_number": "9A3000IR",
+      "name": "Bộ Lưu Điện (UPS) 1083R EATON IEC 3KVA 220/230/240 9A",
+      "category_label": "Eaton 9A Series",
+      "brand": "EATON",
+      "warranty": "2 years"
+    },
+    {
+      "slug": "9aebm24r",
+      "group": "eaton-phu-kien-ups",
+      "part_number": "9AEBM24R",
+      "name": "ẮCQUY CHO BỘ LƯU ĐIỆN (BATTERY) BT090230 EATON W/T BAT 1K 9AEBM24 RACK",
+      "category_label": "Eaton 9A Series",
+      "brand": "EATON",
+      "warranty": "3 years"
+    },
+    {
+      "slug": "9aebm48r",
+      "group": "eaton-phu-kien-ups",
+      "part_number": "9AEBM48R",
+      "name": "ẮCQUY CHO BỘ LƯU ĐIỆN (BATTERY) BT090420 EATON W/T BAT 2K 9AEBM48 RACK",
+      "category_label": "Eaton 9A Series",
+      "brand": "EATON",
+      "warranty": "3 years"
+    },
+    {
+      "slug": "9aebm72r",
+      "group": "eaton-phu-kien-ups",
+      "part_number": "9AEBM72R",
+      "name": "ẮCQUY CHO BỘ LƯU ĐIỆN (BATTERY) BT090620 EATON W/T BAT 3K 9AEBM72 RACK",
+      "category_label": "Eaton 9A Series",
+      "brand": "EATON",
+      "warranty": "3 years"
+    },
+    {
+      "slug": "dxrt6ki-ap2",
+      "group": "eaton-ups",
+      "part_number": "DXRT6KI-AP2",
+      "name": "Bộ Lưu Điện (UPS) 1112RT ETN TB 6KVA 220/220 DXRT AP2",
+      "category_label": "Eaton DX RT Series",
+      "brand": "EATON",
+      "warranty": "3 years"
+    },
+    {
+      "slug": "dxrt10ki-ap2",
+      "group": "eaton-ups",
+      "part_number": "DXRT10KI-AP2",
+      "name": "Bộ Lưu Điện (UPS) 1132RT ETN TB 10KVA 220/220 DXRT AP1",
+      "category_label": "Eaton DX RT Series",
+      "brand": "EATON",
+      "warranty": "3 years"
+    },
+    {
+      "slug": "dxrt6kixl-ap",
+      "group": "eaton-ups",
+      "part_number": "DXRT6KIXL-AP",
+      "name": "Bộ Lưu Điện (UPS) 1112SRT ETN(DRG) TB 6KVA 220/220 DXRT AP",
+      "category_label": "Eaton DX RT Series",
+      "brand": "EATON",
+      "warranty": "3 years"
+    },
+    {
+      "slug": "dxrt10kixl-ap",
+      "group": "eaton-ups",
+      "part_number": "DXRT10KIXL-AP",
+      "name": "Bộ Lưu Điện (UPS) 1132SRT ETN(DRG)TB 10KVA 220/220 DXRT AP",
+      "category_label": "Eaton DX RT Series",
+      "brand": "EATON",
+      "warranty": "3 years"
+    },
+    {
+      "slug": "dxrtebm192-09-ap",
+      "group": "eaton-phu-kien-ups",
+      "part_number": "DXRTEBM192-09-AP",
+      "name": "ẮCQUY CHO BỘ LƯU ĐIỆN (BATTERY) BT091610 ETN(DRG) W/T BAT 6-10K DXRT AP",
+      "category_label": "Eaton DX RT Series",
+      "brand": "EATON",
+      "warranty": "3 years"
+    },
+    {
+      "slug": "9sx15kpm",
+      "group": "eaton-ups",
+      "part_number": "9SX15KPM",
+      "name": "Bộ Lưu Điện (UPS ) Eaton 9SX UPS, Rack 3U, 15000VA, 15000W",
+      "category_label": "Eaton 9SX Series",
+      "brand": "EATON",
+      "warranty": "3 years"
+    },
+    {
+      "slug": "9sx20kpm",
+      "group": "eaton-ups",
+      "part_number": "9SX20KPM",
+      "name": "Bộ Lưu Điện (UPS) Eaton 9SX UPS, Rack 3U, 20000VA, 20000W",
+      "category_label": "Eaton 9SX Series",
+      "brand": "EATON",
+      "warranty": "3 years"
+    },
+    {
+      "slug": "9sxebm384rt6u",
+      "group": "eaton-phu-kien-ups",
+      "part_number": "9SXEBM384RT6U",
+      "name": "ẮCQUY CHO BỘ LƯU ĐIỆN (BATTERY) BT09161RT EATON W/T BAT 1352L",
+      "category_label": "Eaton 9SX Series",
+      "brand": "EATON",
+      "warranty": "3 years"
+    },
+    {
+      "slug": "9sxebm480rt6u",
+      "group": "eaton-phu-kien-ups",
+      "part_number": "9SXEBM480RT6U",
+      "name": "ẮCQUY CHO BỘ LƯU ĐIỆN (BATTERY) BT09201RT EATON W/T BAT 1352L",
+      "category_label": "Eaton 9SX Series",
+      "brand": "EATON",
+      "warranty": "3 years"
+    },
+    {
+      "slug": "9sx3000ir",
+      "group": "eaton-ups",
+      "part_number": "9SX3000IR",
+      "name": "Bộ Lưu Điện (UPS) Eaton 9SX 3000i Rack2U",
+      "category_label": "Eaton 9SX Series",
+      "brand": "EATON",
+      "warranty": "2 years"
+    },
+    {
+      "slug": "9sxebm72r",
+      "group": "eaton-phu-kien-ups",
+      "part_number": "9SXEBM72R",
+      "name": "ẮC QUY CHO BỘ LƯU ĐIỆN (BATTERY) Eaton 9SX EBM 72V Rack2U",
+      "category_label": "Eaton 9SX Series",
+      "brand": "EATON",
+      "warranty": "2 years"
+    },
+    {
+      "slug": "9sx5kirt3ug2",
+      "group": "eaton-ups",
+      "part_number": "9SX5KIRT3UG2",
+      "name": "Bộ Lưu Điện (UPS) Eaton 9SX 5000i RT3U G2",
+      "category_label": "Eaton 9SX Series",
+      "brand": "EATON",
+      "warranty": "2 years"
+    },
+    {
+      "slug": "9sx6kirt3ug2",
+      "group": "eaton-ups",
+      "part_number": "9SX6KIRT3UG2",
+      "name": "Bộ Lưu Điện (UPS) Eaton 9SX 6000i RT3U G2",
+      "category_label": "Eaton 9SX Series",
+      "brand": "EATON",
+      "warranty": "2 years"
+    },
+    {
+      "slug": "9sx8kig2",
+      "group": "eaton-ups",
+      "part_number": "9SX8KIG2",
+      "name": "Bộ Lưu Điện (UPS) Eaton 9SX 8000i G2",
+      "category_label": "Eaton 9SX Series",
+      "brand": "EATON",
+      "warranty": "2 years"
+    },
+    {
+      "slug": "9sx11kig2",
+      "group": "eaton-ups",
+      "part_number": "9SX11KIG2",
+      "name": "Bộ Lưu Điện (UPS) Eaton 9SX 11000i G2",
+      "category_label": "Eaton 9SX Series",
+      "brand": "EATON",
+      "warranty": "3 years"
     }
   ]
 }

@@ -93,7 +93,7 @@ export default function Navbar() {
                   <div className="invisible absolute left-0 top-full z-50 w-60 translate-y-1 rounded-xl bg-white p-2 opacity-0 shadow-card ring-1 ring-black/5 transition-all duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
                     {link.children.map((child) =>
                       child.children ? (
-                        <div key={child.href} className="group/nested relative">
+                        <div key={child.key} className="group/nested relative">
                           <Link
                             href={child.href}
                             className={`flex items-center justify-between gap-2 rounded-lg px-3 py-2.5 text-sm font-medium transition-colors ${
@@ -109,7 +109,7 @@ export default function Navbar() {
                           <div className="invisible absolute left-full top-0 z-50 ml-1 w-60 rounded-xl bg-white p-2 opacity-0 shadow-card ring-1 ring-black/5 transition-all duration-200 group-hover/nested:visible group-hover/nested:opacity-100">
                             {child.children.map((grandchild) =>
                               grandchild.children ? (
-                                <div key={grandchild.href} className="group/nested2 relative">
+                                <div key={grandchild.key} className="group/nested2 relative">
                                   <Link
                                     href={grandchild.href}
                                     className={`flex items-center justify-between gap-2 rounded-lg px-3 py-2.5 text-sm font-medium transition-colors ${
@@ -271,7 +271,7 @@ export default function Navbar() {
                               const subOpen = openMobileSubKey === child.key;
                               const grandchildActive = child.children.some((c) => hasActiveDescendant(c, pathname));
                               return (
-                                <div key={child.href}>
+                                <div key={child.key}>
                                   <div
                                     className={`flex items-center justify-between rounded-lg text-sm font-medium transition-colors ${
                                       grandchildActive ? 'text-cyan-300' : 'text-slate-300'
@@ -302,7 +302,7 @@ export default function Navbar() {
                                             (g) => g.href === pathname
                                           );
                                           return (
-                                            <div key={grandchild.href}>
+                                            <div key={grandchild.key}>
                                               <div
                                                 className={`flex items-center justify-between rounded-lg text-sm font-medium transition-colors ${
                                                   greatGrandchildActive ? 'text-cyan-300' : 'text-slate-300'

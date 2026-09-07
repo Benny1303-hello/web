@@ -28596,13 +28596,88 @@
       "name": "Bộ Lưu Điện (UPS) Eaton 5SC /1000VA/700W",
       "category_label": "Eaton 5SC Series",
       "brand": "EATON",
+      "overview": "Eaton 5SC UPS, 1000 VA, 700 W, Input: C14, Outputs: (8) C13, Tower",
       "warranty": "3 years",
-      "specs": [
+      "images": ["/products/5sc1000i/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
         {
-          "label": "Capacity",
-          "value": "1000 VA / 700 W"
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "Eaton 5SC 1000i" },
+            { "label": "Topology", "value": "Line-interactive" },
+            { "label": "VA rating", "value": "1000 VA" },
+            { "label": "Wattage", "value": "700 W" },
+            { "label": "Construction type", "value": "Free standing model" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Product Length/Depth", "value": "150 mm" },
+            { "label": "Product Height", "value": "210 mm" },
+            { "label": "Product Width", "value": "340 mm" },
+            { "label": "Product Weight", "value": "11.1 kg" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input connection", "value": "C14" },
+            { "label": "Input Nominal Voltage", "value": "230V default (220/230/240V)" },
+            { "label": "Nominal frequency", "value": "50-60 Hz" },
+            { "label": "Input frequency range", "value": "45-55 Hz (50 Hz system), 55-65 Hz (60 Hz system)" },
+            { "label": "Input voltage range", "value": "184-276 V" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Receptacle", "value": "(8) C13" },
+            { "label": "Output waveform", "value": "Sine wave" },
+            { "label": "Output nominal voltage", "value": "230V default (220/230/240V)" },
+            { "label": "Output voltage range", "value": "230 V (+6%/-10%)" },
+            { "label": "Output power factor", "value": "0.7" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery replacement", "value": "User replaceable" },
+            { "label": "Battery rating", "value": "12 V / 9 Ah" },
+            { "label": "Battery type", "value": "Lead-acid maintenance-free (replaceable)" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Communication", "value": "USB port (HID compliant), Serial port (RS232)" },
+            { "label": "User interface", "value": "LCD Display" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Altitude", "value": "2000 m" },
+            { "label": "Noise level", "value": "<40 dB at 1 meter" },
+            { "label": "Relative humidity", "value": "0-90% non-condensing" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Compliances", "value": "CE Marked TUV" },
+            { "label": "Certifications", "value": "IEC/EN 62040-1 UL 1778 IEC/EN 62040-2 CE EAC cTUVus" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Auto shutdown function", "value": "Yes" }
+          ]
         }
-      ]
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "5sc1000ir",
@@ -28611,13 +28686,92 @@
       "name": "Bộ Lưu Điện (UPS) Eaton  5SC 1000i Rack2U/ 1000VA/700W",
       "category_label": "Eaton 5SC Series",
       "brand": "EATON",
+      "overview": "Eaton 5SC UPS, 1000 VA, 700 W, Input: C14, Outputs: (8) C13, Rack, 2U",
       "warranty": "3 years",
-      "specs": [
+      "images": ["/products/5sc1000ir/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
         {
-          "label": "Capacity",
-          "value": "1000 VA / 700 W"
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "Eaton 5SC UPS" },
+            { "label": "Topology", "value": "Line-interactive" },
+            { "label": "VA rating", "value": "1000 VA" },
+            { "label": "Wattage", "value": "700 W" },
+            { "label": "Color", "value": "Black" },
+            { "label": "Construction type", "value": "482.6 mm (19 inch) device" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Product Length/Depth", "value": "405 mm" },
+            { "label": "Product Height", "value": "86.2 mm" },
+            { "label": "Product Width", "value": "440 mm" },
+            { "label": "Product Weight", "value": "14.96 kg" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input connection", "value": "C14" },
+            { "label": "Input Nominal Voltage", "value": "230V default (220/230/240V)" },
+            { "label": "Nominal frequency", "value": "50-60 Hz" },
+            { "label": "Input frequency range", "value": "45-55 Hz (50 Hz system), 55-65 Hz (60 Hz system)" },
+            { "label": "Input voltage range", "value": "184-276 V" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Receptacle", "value": "(8) C13" },
+            { "label": "Output waveform", "value": "Sine wave" },
+            { "label": "Output nominal voltage", "value": "230V default (220/230/240V)" },
+            { "label": "Output voltage range", "value": "230 V (+6%/-10%)" },
+            { "label": "Output power factor", "value": "0.7" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery replacement", "value": "User replaceable" },
+            { "label": "Battery rating", "value": "12 V / 9 Ah" },
+            { "label": "Battery type", "value": "Lead-acid maintenance-free (replaceable)" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Communication", "value": "USB port (HID compliant), Serial port (RS232), Mini-terminal block for remote On/Off and Remote Power Off, Dry contacts (2 outputs, optocoupler, RJ)" },
+            { "label": "Expansion slots", "value": "One slot for optional communication card" },
+            { "label": "User interface", "value": "LCD Display" },
+            { "label": "Potential free switch contact", "value": "Yes" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Altitude", "value": "3000 m" },
+            { "label": "Noise level", "value": "<40 dB at 1 meter" },
+            { "label": "Relative humidity", "value": "0-90% non-condensing" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Compliances", "value": "CE Marked TUV" },
+            { "label": "Certifications", "value": "UL 1778 IEC/EN 62040-1 IEC/EN 62040-2 CE EAC cTUVus" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Auto shutdown function", "value": "Yes" },
+            { "label": "Rack mounting kit", "value": "Yes" }
+          ]
         }
-      ]
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "5sc1500i",
@@ -28626,13 +28780,89 @@
       "name": "Bộ Lưu Điện (UPS) Eaton 5SC /1500VA/1050W",
       "category_label": "Eaton 5SC Series",
       "brand": "EATON",
+      "overview": "Eaton 5SC UPS, 1500 VA, 1050 W, Input: C14, Outputs: (8) C13, Tower",
       "warranty": "3 years",
-      "specs": [
+      "images": ["/products/5sc1500i/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
         {
-          "label": "Capacity",
-          "value": "1500 VA / 1050 W"
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "Eaton 5SC UPS" },
+            { "label": "Topology", "value": "Line-interactive" },
+            { "label": "VA rating", "value": "1500 VA" },
+            { "label": "Wattage", "value": "1050 W" },
+            { "label": "Color", "value": "Black" },
+            { "label": "Construction type", "value": "Free standing model" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Product Length/Depth", "value": "410 mm" },
+            { "label": "Product Height", "value": "210 mm" },
+            { "label": "Product Width", "value": "150 mm" },
+            { "label": "Product Weight", "value": "15.2 kg" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input connection", "value": "C14" },
+            { "label": "Input Nominal Voltage", "value": "230V default (220/230/240V)" },
+            { "label": "Nominal frequency", "value": "50-60 Hz" },
+            { "label": "Input frequency range", "value": "45-55 Hz (50 Hz system), 55-65 Hz (60 Hz system)" },
+            { "label": "Input voltage range", "value": "184-276 V" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Receptacle", "value": "(8) C13" },
+            { "label": "Output waveform", "value": "Sine wave" },
+            { "label": "Output nominal voltage", "value": "230V default (220/230/240V)" },
+            { "label": "Output voltage range", "value": "230 V (+6%/-10%)" },
+            { "label": "Output power factor", "value": "0.7" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery replacement", "value": "User replaceable" },
+            { "label": "Battery rating", "value": "12 V / 9 Ah" },
+            { "label": "Battery type", "value": "Lead-acid maintenance-free (replaceable)" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Communication", "value": "USB port (HID compliant), Serial port (RS232)" },
+            { "label": "User interface", "value": "LCD Display" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Altitude", "value": "2000 m" },
+            { "label": "Noise level", "value": "<40 dB at 1 meter" },
+            { "label": "Relative humidity", "value": "0-90% non-condensing" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Compliances", "value": "CE Marked TUV" },
+            { "label": "Certifications", "value": "IEC/EN 62040-1 UL 1778 IEC/EN 62040-2 CE EAC cTUVus" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Auto shutdown function", "value": "Yes" }
+          ]
         }
-      ]
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "5sc1500ir",
@@ -28641,13 +28871,92 @@
       "name": "Bộ Lưu Điện (UPS) Eaton 5SC 1500i Rack2U/ 1500VA/1050W",
       "category_label": "Eaton 5SC Series",
       "brand": "EATON",
+      "overview": "Eaton 5SC UPS, 1500 VA, 1050 W, Input: C14, Outputs: (8) C13, Rack, 2U",
       "warranty": "3 years",
-      "specs": [
+      "images": ["/products/5sc1500ir/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
         {
-          "label": "Capacity",
-          "value": "1500 VA / 1050 W"
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "Eaton 5SC UPS" },
+            { "label": "Topology", "value": "Line-interactive" },
+            { "label": "VA rating", "value": "1500 VA" },
+            { "label": "Wattage", "value": "1050 W" },
+            { "label": "Color", "value": "Black" },
+            { "label": "Construction type", "value": "482.6 mm (19 inch) device" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Product Length/Depth", "value": "405 mm" },
+            { "label": "Product Height", "value": "86.2 mm" },
+            { "label": "Product Width", "value": "440 mm" },
+            { "label": "Product Weight", "value": "17.78 kg" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input connection", "value": "C14" },
+            { "label": "Input Nominal Voltage", "value": "230V default (220/230/240V)" },
+            { "label": "Nominal frequency", "value": "50-60 Hz" },
+            { "label": "Input frequency range", "value": "45-55 Hz (50 Hz system), 55-65 Hz (60 Hz system)" },
+            { "label": "Input voltage range", "value": "184-276 V" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Receptacle", "value": "(8) C13" },
+            { "label": "Output waveform", "value": "Sine wave" },
+            { "label": "Output nominal voltage", "value": "230V default (220/230/240V)" },
+            { "label": "Output voltage range", "value": "230 V (+6%/-10%)" },
+            { "label": "Output power factor", "value": "0.7" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery replacement", "value": "User replaceable" },
+            { "label": "Battery rating", "value": "12 V / 9 Ah" },
+            { "label": "Battery type", "value": "Lead-acid maintenance-free (replaceable)" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Communication", "value": "USB port (HID compliant), Serial port (RS232), Mini-terminal block for remote On/Off and Remote Power Off, Dry contacts (2 outputs, optocoupler, RJ)" },
+            { "label": "Expansion slots", "value": "One slot for optional communication card" },
+            { "label": "User interface", "value": "LCD Display" },
+            { "label": "Potential free switch contact", "value": "Yes" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Altitude", "value": "3000 m" },
+            { "label": "Noise level", "value": "<40 dB at 1 meter" },
+            { "label": "Relative humidity", "value": "0-90% non-condensing" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Compliances", "value": "CE Marked TUV" },
+            { "label": "Certifications", "value": "UL 1778 IEC/EN 62040-1 IEC/EN 62040-2 CE EAC cTUVus" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Auto shutdown function", "value": "Yes" },
+            { "label": "Rack mounting kit", "value": "Yes" }
+          ]
         }
-      ]
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "5sc2200irt",
@@ -28656,13 +28965,93 @@
       "name": "Bộ Lưu Điện (UPS) Eaton 5SC 2200i RT2U/2200VA/1980W",
       "category_label": "Eaton 5SC Series",
       "brand": "EATON",
+      "overview": "Eaton 5SC UPS, 2200 VA, 1980 W, Input: C20, Outputs: (8) C13, (1) C19, Rack/tower, 2U",
       "warranty": "3 years",
-      "specs": [
+      "images": ["/products/5sc2200irt/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
         {
-          "label": "Capacity",
-          "value": "2200 VA / 1980 W"
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "Eaton 5SC UPS" },
+            { "label": "Topology", "value": "Line-interactive" },
+            { "label": "VA rating", "value": "2200 VA" },
+            { "label": "Wattage", "value": "1980 W" },
+            { "label": "Color", "value": "Black" },
+            { "label": "Construction type", "value": "482.6 mm (19 inch) device" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Product Length/Depth", "value": "522 mm" },
+            { "label": "Product Height", "value": "86.2 mm" },
+            { "label": "Product Width", "value": "441 mm" },
+            { "label": "Product Weight", "value": "26.5 kg" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input connection", "value": "C20" },
+            { "label": "Input Nominal Voltage", "value": "230V default (220/230/240V)" },
+            { "label": "Nominal frequency", "value": "50-60 Hz" },
+            { "label": "Input cord length", "value": "1.8m" },
+            { "label": "Input frequency range", "value": "45-55 Hz (50 Hz system), 55-65 Hz (60 Hz system)" },
+            { "label": "Input voltage range", "value": "184-276 V" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Receptacle", "value": "(8) C13, (1) C19" },
+            { "label": "Output waveform", "value": "Sine wave" },
+            { "label": "Output nominal voltage", "value": "230V default (220/230/240V)" },
+            { "label": "Output voltage range", "value": "230 V (+6%/-10%)" },
+            { "label": "Output power factor", "value": "0.9" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery replacement", "value": "User replaceable" },
+            { "label": "Battery rating", "value": "12 V / 9 Ah" },
+            { "label": "Battery type", "value": "Lead-acid maintenance-free (replaceable)" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Communication", "value": "USB port (HID compliant), Serial port (RS232), Mini-terminal block for remote On/Off and Remote Power Off, Dry contacts (2 outputs, optocoupler, RJ)" },
+            { "label": "Expansion slots", "value": "One slot for optional communication card" },
+            { "label": "User interface", "value": "LCD Display" },
+            { "label": "Potential free switch contact", "value": "Yes" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Altitude", "value": "3000 m" },
+            { "label": "Noise level", "value": "<40 dB at 1 meter" },
+            { "label": "Relative humidity", "value": "0-90% non-condensing" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Compliances", "value": "CE Marked TUV" },
+            { "label": "Certifications", "value": "IEC/EN 62040-1 UL 1778 IEC/EN 62040-2 CE EAC cTUVus" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Auto shutdown function", "value": "Yes" },
+            { "label": "Rack mounting kit", "value": "Yes" }
+          ]
         }
-      ]
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "5sc3000irt",
@@ -28671,13 +29060,93 @@
       "name": "Bộ Lưu Điện (UPS) Eaton 5SC 3000i RT2U/3000VA/2700W",
       "category_label": "Eaton 5SC Series",
       "brand": "EATON",
+      "overview": "Eaton 5SC UPS, 3000 VA, 2700 W, Input: C20, Outputs: (8) C13, (1) C19, Rack/tower, 2U",
       "warranty": "3 years",
-      "specs": [
+      "images": ["/products/5sc3000irt/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
         {
-          "label": "Capacity",
-          "value": "3000 VA / 2700 W"
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "Eaton 5SC UPS" },
+            { "label": "Topology", "value": "Line-interactive" },
+            { "label": "VA rating", "value": "3000 VA" },
+            { "label": "Wattage", "value": "2700 W" },
+            { "label": "Color", "value": "Black" },
+            { "label": "Construction type", "value": "482.6 mm (19 inch) device" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Product Length/Depth", "value": "647 mm" },
+            { "label": "Product Height", "value": "86.2 mm" },
+            { "label": "Product Width", "value": "441 mm" },
+            { "label": "Product Weight", "value": "35.3 kg" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input connection", "value": "C20" },
+            { "label": "Input Nominal Voltage", "value": "230V default (220/230/240V)" },
+            { "label": "Nominal frequency", "value": "50-60 Hz" },
+            { "label": "Input cord length", "value": "1.8m" },
+            { "label": "Input frequency range", "value": "45-55 Hz (50 Hz system), 55-65 Hz (60 Hz system)" },
+            { "label": "Input voltage range", "value": "184-276 V" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Receptacle", "value": "(8) C13, (1) C19" },
+            { "label": "Output waveform", "value": "Sine wave" },
+            { "label": "Output nominal voltage", "value": "230V default (220/230/240V)" },
+            { "label": "Output voltage range", "value": "230 V (+6%/-10%)" },
+            { "label": "Output power factor", "value": "0.9" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery replacement", "value": "User replaceable" },
+            { "label": "Battery rating", "value": "12 V / 9 Ah" },
+            { "label": "Battery type", "value": "Lead-acid maintenance-free (replaceable)" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Communication", "value": "USB port (HID compliant), Serial port (RS232), Mini-terminal block for remote On/Off and Remote Power Off, Dry contacts (2 outputs, optocoupler, RJ)" },
+            { "label": "Expansion slots", "value": "One slot for optional communication card" },
+            { "label": "User interface", "value": "LCD Display" },
+            { "label": "Potential free switch contact", "value": "Yes" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Altitude", "value": "3000 m" },
+            { "label": "Noise level", "value": "<40 dB at 1 meter" },
+            { "label": "Relative humidity", "value": "0-90% non-condensing" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Compliances", "value": "CE Marked TUV" },
+            { "label": "Certifications", "value": "IEC/EN 62040-1 UL 1778 IEC/EN 62040-2 CE EAC cTUVus" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Auto shutdown function", "value": "Yes" },
+            { "label": "Rack mounting kit", "value": "Yes" }
+          ]
         }
-      ]
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "5p650ig2",
@@ -28686,13 +29155,95 @@
       "name": "Bộ Lưu Điện (UPS) Eaton 5P 650i Gen 2 Tower /650VA/520W",
       "category_label": "Eaton 5P Series",
       "brand": "EATON",
+      "overview": "Eaton 5P Gen2 UPS, 650 VA, 520 W, Input: C14, Outputs: (4) C13, Tower",
       "warranty": "3 years",
-      "specs": [
+      "images": ["/products/5p650ig2/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
         {
-          "label": "Capacity",
-          "value": "650 VA / 520 W"
+          "group": "Main",
+          "items": [
+            { "label": "Topology", "value": "Line-interactive" },
+            { "label": "VA rating", "value": "650 VA" },
+            { "label": "Wattage", "value": "520 W" },
+            { "label": "Color", "value": "Black/silver" },
+            { "label": "Construction type", "value": "Free standing model" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Product Length/Depth", "value": "345 mm" },
+            { "label": "Product Height", "value": "233 mm" },
+            { "label": "Product Width", "value": "150 mm" },
+            { "label": "Product Weight", "value": "7.9 kg" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input connection", "value": "C14" },
+            { "label": "Input Nominal Voltage", "value": "230V default (200/208/220/230/240V)" },
+            { "label": "Nominal frequency", "value": "50-60 Hz" },
+            { "label": "Input frequency range", "value": "47-70 Hz (50 Hz system), 56.5-70 Hz (60 Hz system), 40 Hz in low sensitivity mode" },
+            { "label": "Input voltage range", "value": "160-294 V (adjustable to 150 V-294 V)" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Receptacle", "value": "(4) C13" },
+            { "label": "Output waveform", "value": "Sine wave" },
+            { "label": "Output nominal voltage", "value": "230V default (200/208/220/230/240V)" },
+            { "label": "Output voltage range", "value": "230 V (+6%/-10%)" },
+            { "label": "Output frequency", "value": "50/60 Hz" },
+            { "label": "Output power factor", "value": "0.8" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery replacement", "value": "User replaceable" },
+            { "label": "Battery rating", "value": "12 V / 9 Ah" },
+            { "label": "Battery type", "value": "Lead-acid maintenance-free (replaceable)" },
+            { "label": "Runtime at half load", "value": "9 min" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Communication", "value": "USB port (HID compliant), Serial port (RS232), Mini-terminal block for remote On/Off and Remote Power Off, Dry contacts (2 outputs, optocoupler, RJ)" },
+            { "label": "Expansion slots", "value": "One slot for optional communication card" },
+            { "label": "User interface", "value": "Multilingual graphical LCD display" },
+            { "label": "Potential free switch contact", "value": "Yes" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Altitude", "value": "3000 m" },
+            { "label": "Noise level", "value": "<35 dB at 1 meter" },
+            { "label": "Relative humidity", "value": "0-90% non-condensing" },
+            { "label": "Temperature range", "value": "0° to 40°C (32° to 104°F)" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Compliances", "value": "LVD Directive (CB), EMC Directive, RoHS Directive, WEEE Directive, Packaging Directive, Batteries Directive" },
+            { "label": "Certifications", "value": "IEC/EN 62040-1, IEC/EN 62040-2, IEC/EN 62040-3, UL 1778, CSA-C22.2, CE, UKCA, Cm, Ukr, KCC, cTUVus, BIS" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Power consumption", "value": "16 W" },
+            { "label": "Auto shutdown function", "value": "Yes" },
+            { "label": "BTU Rating", "value": "Online: 53, Battery: 461 BTU/hr" }
+          ]
         }
-      ]
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "5p1150ig2",
@@ -28701,13 +29252,96 @@
       "name": "Bộ Lưu Điện (UPS) Eaton 5P 1150i G2/1150VA/770W",
       "category_label": "Eaton 5P Series",
       "brand": "EATON",
+      "overview": "Eaton 5P Gen2 UPS, 1150 VA, 920 W, Input: C14, Outputs: (8) C13, Tower",
       "warranty": "3 years",
-      "specs": [
+      "images": ["/products/5p1150ig2/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
         {
-          "label": "Capacity",
-          "value": "1150 VA / 770 W"
+          "group": "Main",
+          "items": [
+            { "label": "Topology", "value": "Line-interactive" },
+            { "label": "VA rating", "value": "1150 VA" },
+            { "label": "Wattage", "value": "920 W" },
+            { "label": "Color", "value": "Black/silver" },
+            { "label": "Construction type", "value": "Free standing model" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Product Length/Depth", "value": "345 mm" },
+            { "label": "Product Height", "value": "233 mm" },
+            { "label": "Product Width", "value": "150 mm" },
+            { "label": "Product Weight", "value": "11 kg" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input connection", "value": "C14" },
+            { "label": "Input Nominal Voltage", "value": "230V default (200/208/220/230/240V)" },
+            { "label": "Nominal frequency", "value": "50-60 Hz" },
+            { "label": "Input frequency range", "value": "47-70 Hz (50 Hz system), 56.5-70 Hz (60 Hz system), 40 Hz in low sensitivity mode" },
+            { "label": "Input voltage range", "value": "160-294 V (adjustable to 150 V-294 V)" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Receptacle", "value": "(8) C13" },
+            { "label": "Output waveform", "value": "Sine wave" },
+            { "label": "Output nominal voltage", "value": "230V default (200/208/220/230/240V)" },
+            { "label": "Output voltage range", "value": "230 V (+6%/-10%)" },
+            { "label": "Output frequency", "value": "50/60 Hz" },
+            { "label": "Output power factor", "value": "0.8" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery replacement", "value": "User replaceable" },
+            { "label": "Battery rating", "value": "12 V / 9 Ah" },
+            { "label": "Battery type", "value": "Lead-acid maintenance-free (replaceable)" },
+            { "label": "Runtime at half load", "value": "11 min" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Communication", "value": "USB port (HID compliant), Serial port (RS232), Mini-terminal block for remote On/Off and Remote Power Off, Dry contacts (2 outputs, optocoupler, RJ)" },
+            { "label": "Expansion slots", "value": "One slot for optional communication card" },
+            { "label": "User interface", "value": "Multilingual graphical LCD display" },
+            { "label": "Potential free switch contact", "value": "Yes" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Altitude", "value": "3000 m" },
+            { "label": "Noise level", "value": "<35 dB at 1 meter" },
+            { "label": "Relative humidity", "value": "0-90% non-condensing" },
+            { "label": "Temperature range", "value": "0° to 40°C (32° to 104°F)" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Compliances", "value": "LVD Directive (CB), EMC Directive, RoHS Directive, WEEE Directive, Packaging Directive, Batteries Directive" },
+            { "label": "Certifications", "value": "IEC/EN 62040-1, IEC/EN 62040-2, IEC/EN 62040-3, UL 1778, CSA-C22.2, CE, UKCA, Cm, Ukr, KCC, cTUVus, BIS" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Power consumption", "value": "17 W" },
+            { "label": "Auto shutdown function", "value": "Yes" },
+            { "label": "Efficiency at max. load", "value": "98.2%" },
+            { "label": "BTU Rating", "value": "Online: 63, Battery: 465 BTU/hr" }
+          ]
         }
-      ]
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "5p1550ig2",
@@ -28716,13 +29350,96 @@
       "name": "Bộ Lưu Điện (UPS) Eaton 5P 1550i G2/1550VA/1100W",
       "category_label": "Eaton 5P Series",
       "brand": "EATON",
+      "overview": "Eaton 5P Gen2 UPS, 1550 VA, 1350 W, Input: C14, Outputs: (8) C13, Tower",
       "warranty": "3 years",
-      "specs": [
+      "images": ["/products/5p1550ig2/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
         {
-          "label": "Capacity",
-          "value": "1550 VA / 1100 W"
+          "group": "Main",
+          "items": [
+            { "label": "Topology", "value": "Line-interactive" },
+            { "label": "VA rating", "value": "1550 VA" },
+            { "label": "Wattage", "value": "1350 W" },
+            { "label": "Color", "value": "Black/silver" },
+            { "label": "Construction type", "value": "Free standing model" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Product Length/Depth", "value": "445 mm" },
+            { "label": "Product Height", "value": "233 mm" },
+            { "label": "Product Width", "value": "150 mm" },
+            { "label": "Product Weight", "value": "15.1 kg" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input connection", "value": "C14" },
+            { "label": "Input Nominal Voltage", "value": "230V default (200/208/220/230/240V)" },
+            { "label": "Nominal frequency", "value": "50-60 Hz" },
+            { "label": "Input frequency range", "value": "47-70 Hz (50 Hz system), 56.5-70 Hz (60 Hz system), 40 Hz in low sensitivity mode" },
+            { "label": "Input voltage range", "value": "160-294 V (adjustable to 150 V-294 V)" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Receptacle", "value": "(8) C13" },
+            { "label": "Output waveform", "value": "Sine wave" },
+            { "label": "Output nominal voltage", "value": "230V default (200/208/220/230/240V)" },
+            { "label": "Output voltage range", "value": "230 V (+6%/-10%)" },
+            { "label": "Output frequency", "value": "50/60 Hz" },
+            { "label": "Output power factor", "value": "0.9" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery replacement", "value": "User replaceable" },
+            { "label": "Battery rating", "value": "12 V / 9 Ah" },
+            { "label": "Battery type", "value": "Lead-acid maintenance-free (replaceable)" },
+            { "label": "Runtime at half load", "value": "11.5 min" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Communication", "value": "USB port (HID compliant), Serial port (RS232), Mini-terminal block for remote On/Off and Remote Power Off, Dry contacts (2 outputs, optocoupler, RJ)" },
+            { "label": "Expansion slots", "value": "One slot for optional communication card" },
+            { "label": "User interface", "value": "Multilingual graphical LCD display" },
+            { "label": "Potential free switch contact", "value": "Yes" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Altitude", "value": "3000 m" },
+            { "label": "Noise level", "value": "<35 dB at 1 meter" },
+            { "label": "Relative humidity", "value": "0-90% non-condensing" },
+            { "label": "Temperature range", "value": "0° to 40°C (32° to 104°F)" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Compliances", "value": "LVD Directive (CB), EMC Directive, RoHS Directive, WEEE Directive, Packaging Directive, Batteries Directive" },
+            { "label": "Certifications", "value": "IEC/EN 62040-1, IEC/EN 62040-2, IEC/EN 62040-3, UL 1778, CSA-C22.2, CE, UKCA, Cm, Ukr, KCC, cTUVus, BIS" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Power consumption", "value": "24 W" },
+            { "label": "Auto shutdown function", "value": "Yes" },
+            { "label": "Efficiency at max. load", "value": "98.2%" },
+            { "label": "BTU Rating", "value": "Online: 92, Battery: 654 BTU/hr" }
+          ]
         }
-      ]
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "5px1000irt2ug2",
@@ -28731,13 +29448,95 @@
       "name": "Bộ Lưu Điện (UPS) Eaton 5PX 1000i RT2U G2/1000VA/1000W",
       "category_label": "Eaton 5PX Series",
       "brand": "EATON",
+      "overview": "Eaton 5PX Gen2 UPS, 1000 VA, 1000 W, Input: C14, Output: (8) C13, Rack/tower, 2U",
       "warranty": "3 years",
-      "specs": [
+      "images": ["/products/5px1000irt2ug2/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
         {
-          "label": "Capacity",
-          "value": "1000 VA / 1000 W"
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "Eaton 5PX 1000i RT2U G2" },
+            { "label": "Topology", "value": "Line-interactive" },
+            { "label": "VA rating", "value": "1000 VA" },
+            { "label": "Wattage", "value": "1000 W" },
+            { "label": "Color", "value": "Black/silver" },
+            { "label": "Construction type", "value": "482.6 mm (19 inch) device" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Product Length/Depth", "value": "448 mm" },
+            { "label": "Product Height", "value": "85.5 mm" },
+            { "label": "Product Width", "value": "438 mm" },
+            { "label": "Product Weight", "value": "19.6 kg" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input connection", "value": "C14" },
+            { "label": "Nominal frequency", "value": "50-60 Hz" },
+            { "label": "Input frequency range", "value": "47-70 Hz (50 Hz system), 56.5-70 Hz (60 Hz system), 40 Hz in low sensitivity mode" },
+            { "label": "Input voltage range", "value": "160-294 V (adjustable to 150 V-294 V)" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Receptacle", "value": "(8) C13" },
+            { "label": "Output waveform", "value": "Sine wave" },
+            { "label": "Output nominal voltage", "value": "230V default (200/208/220/230/240V)" },
+            { "label": "Output voltage range", "value": "230 V (+6%/-10%)" },
+            { "label": "Output frequency", "value": "50/60 Hz" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery replacement", "value": "User replaceable" },
+            { "label": "Battery rating", "value": "12 V / 7 Ah" },
+            { "label": "Battery type", "value": "Lead-acid maintenance-free (replaceable)" },
+            { "label": "Extended battery capability", "value": "Yes" },
+            { "label": "Runtime at half load", "value": "17 min" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Communication", "value": "USB port (HID compliant), Serial port (RS232), Mini-terminal block for remote On/Off and Remote Power Off" },
+            { "label": "Expansion slots", "value": "One slot for optional communication card" },
+            { "label": "User interface", "value": "Multilingual graphical LCD display" },
+            { "label": "Potential free switch contact", "value": "Yes" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Altitude", "value": "3000 m" },
+            { "label": "Noise level", "value": "<40 dB at 1 meter" },
+            { "label": "Relative humidity", "value": "0-90% non-condensing" },
+            { "label": "Temperature range", "value": "0° to 40°C (32° to 104°F), batteries recommended max. 25°C (77°F)" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Compliances", "value": "IEC/EN 62040-1, IEC/EN 62040-2, IEC/EN 62040-3, RoHS Compliant, REACH, UL 1778, CSA 22.2" },
+            { "label": "Certifications", "value": "CE, cTUVus, EAC, Cm, UKCA, Ukr, ENERGY STAR certified" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Power consumption", "value": "20 W" },
+            { "label": "Auto shutdown function", "value": "Yes" },
+            { "label": "Rack mounting kit", "value": "Yes" }
+          ]
         }
-      ]
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "5px1500irt2ug2",
@@ -28746,13 +29545,96 @@
       "name": "Bộ Lưu Điện (UPS) Eaton 5PX 1500i RT2U G2/1500VA/1500W",
       "category_label": "Eaton 5PX Series",
       "brand": "EATON",
+      "overview": "Eaton 5PX Gen2 UPS, 1500 VA, 1500 W, Input: C14, Output: (8) C13, Rack/tower, 2U",
       "warranty": "3 years",
-      "specs": [
+      "images": ["/products/5px1500irt2ug2/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
         {
-          "label": "Capacity",
-          "value": "1500 VA / 1500 W"
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "Eaton 5PX 1500i RT2U G2" },
+            { "label": "Topology", "value": "Line-interactive" },
+            { "label": "VA rating", "value": "1500 VA" },
+            { "label": "Wattage", "value": "1500 W" },
+            { "label": "Color", "value": "Black/silver" },
+            { "label": "Construction type", "value": "482.6 mm (19 inch) device" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Product Length/Depth", "value": "448 mm" },
+            { "label": "Product Height", "value": "85.5 mm" },
+            { "label": "Product Width", "value": "438 mm" },
+            { "label": "Product Weight", "value": "22.4 kg" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input connection", "value": "C14" },
+            { "label": "Input Nominal Voltage", "value": "230V default (200/208/220/230/240V)" },
+            { "label": "Nominal frequency", "value": "50-60 Hz" },
+            { "label": "Input frequency range", "value": "47-70 Hz (50 Hz system), 56.5-70 Hz (60 Hz system), 40 Hz in low sensitivity mode" },
+            { "label": "Input voltage range", "value": "160-294 V (adjustable to 150 V-294 V)" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Receptacle", "value": "(8) C13" },
+            { "label": "Output waveform", "value": "Sine wave" },
+            { "label": "Output nominal voltage", "value": "230V default (200/208/220/230/240V)" },
+            { "label": "Output voltage range", "value": "230 V (+6%/-10%)" },
+            { "label": "Output frequency", "value": "50/60 Hz" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery replacement", "value": "User replaceable" },
+            { "label": "Battery rating", "value": "12 V / 9 Ah" },
+            { "label": "Battery type", "value": "Lead-acid maintenance-free (replaceable)" },
+            { "label": "Extended battery capability", "value": "Yes" },
+            { "label": "Runtime at half load", "value": "14 min" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Communication", "value": "USB port (HID compliant), Serial port (RS232), Mini-terminal block for remote On/Off and Remote Power Off, Mini-terminal block for output relay, Dry contacts (3 outputs, 1 input, optocoupler, DB9)" },
+            { "label": "Expansion slots", "value": "One slot for optional communication card" },
+            { "label": "User interface", "value": "Multilingual graphical LCD display" },
+            { "label": "Potential free switch contact", "value": "Yes" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Altitude", "value": "3000 m" },
+            { "label": "Noise level", "value": "<40 dB at 1 meter" },
+            { "label": "Relative humidity", "value": "0-90% non-condensing" },
+            { "label": "Temperature range", "value": "0° to 40°C (32° to 104°F), batteries recommended max. 25°C (77°F)" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Compliances", "value": "IEC/EN 62040-1, IEC/EN 62040-2, IEC/EN 62040-3, RoHS Compliant, REACH, UL 1778, CSA 22.2" },
+            { "label": "Certifications", "value": "CE, cTUVus, EAC, Cm, UKCA, Ukr, KCC, ENERGY STAR certified" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Power consumption", "value": "31 W" },
+            { "label": "Auto shutdown function", "value": "Yes" },
+            { "label": "Rack mounting kit", "value": "Yes" }
+          ]
         }
-      ]
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "5px2200irt2ug2",
@@ -28761,13 +29643,97 @@
       "name": "Bộ Lưu Điện (UPS) Eaton 5PX 2200i RT2U G2/2200VA/2200W",
       "category_label": "Eaton 5PX Series",
       "brand": "EATON",
+      "overview": "Eaton 5PX Gen2 UPS, 2200 VA, 2200 W, Input: C20, Output: (8) C13, (2) C19, Rack/tower, 2U",
       "warranty": "3 years",
-      "specs": [
+      "images": ["/products/5px2200irt2ug2/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
         {
-          "label": "Capacity",
-          "value": "2200 VA / 2200 W"
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "Eaton 5PX 2200i RT2U G2" },
+            { "label": "Topology", "value": "Line-interactive" },
+            { "label": "VA rating", "value": "2200 VA" },
+            { "label": "Wattage", "value": "2200 W" },
+            { "label": "Color", "value": "Black/silver" },
+            { "label": "Construction type", "value": "482.6 mm (19 inch) device" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Product Length/Depth", "value": "603 mm" },
+            { "label": "Product Height", "value": "85.5 mm" },
+            { "label": "Product Width", "value": "438 mm" },
+            { "label": "Product Weight", "value": "28.2 kg" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input connection", "value": "C20" },
+            { "label": "Input Nominal Voltage", "value": "230V default (200/208/220/230/240V)" },
+            { "label": "Nominal frequency", "value": "50-60 Hz" },
+            { "label": "Input cord length", "value": "1.8m" },
+            { "label": "Input frequency range", "value": "47-70 Hz (50 Hz system), 56.5-70 Hz (60 Hz system), 40 Hz in low sensitivity mode" },
+            { "label": "Input voltage range", "value": "160-294 V (adjustable to 150 V-294 V)" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Receptacle", "value": "(8) C13, (2) C19" },
+            { "label": "Output waveform", "value": "Sine wave" },
+            { "label": "Output nominal voltage", "value": "230V default (200/208/220/230/240V)" },
+            { "label": "Output voltage range", "value": "230 V (+6%/-10%)" },
+            { "label": "Output frequency", "value": "50/60 Hz" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery replacement", "value": "User replaceable" },
+            { "label": "Battery rating", "value": "12 V / 7 Ah" },
+            { "label": "Battery type", "value": "Lead-acid maintenance-free (replaceable)" },
+            { "label": "Extended battery capability", "value": "Yes" },
+            { "label": "Runtime at half load", "value": "10 min" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Communication", "value": "USB port (HID compliant), Serial port (RS232), Mini-terminal block for remote On/Off and Remote Power Off, Mini-terminal block for output relay, Dry contacts (3 outputs, 1 input, optocoupler, DB9)" },
+            { "label": "Expansion slots", "value": "One slot for optional communication card" },
+            { "label": "User interface", "value": "Multilingual graphical LCD display" },
+            { "label": "Potential free switch contact", "value": "Yes" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Altitude", "value": "3000 m" },
+            { "label": "Noise level", "value": "<40 dB at 1 meter" },
+            { "label": "Relative humidity", "value": "0-90% non-condensing" },
+            { "label": "Temperature range", "value": "0° to 40°C (32° to 104°F), batteries recommended max. 25°C (77°F)" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Compliances", "value": "IEC/EN 62040-1, IEC/EN 62040-2, IEC/EN 62040-3, RoHS Compliant, REACH, UL 1778, CSA 22.2" },
+            { "label": "Certifications", "value": "CE, cTUVus, EAC, Cm, UKCA, Ukr, KCC, ENERGY STAR certified" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Power consumption", "value": "45 W" },
+            { "label": "Auto shutdown function", "value": "Yes" },
+            { "label": "Rack mounting kit", "value": "Yes" }
+          ]
         }
-      ]
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "5px2200irt3ug2",
@@ -28776,13 +29742,97 @@
       "name": "Bộ Lưu Điện (UPS) Eaton 5PX 2200i RT3U G2/2200VA/2200W",
       "category_label": "Eaton 5PX Series",
       "brand": "EATON",
+      "overview": "Eaton 5PX Gen2 UPS, 2200 VA, 2200 W, Input: C20, Output: (8) C13, (2) C19, Rack/tower, 3U",
       "warranty": "3 years",
-      "specs": [
+      "images": ["/products/5px2200irt3ug2/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
         {
-          "label": "Capacity",
-          "value": "2200 VA / 2200 W"
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "Eaton 5PX 2200i RT3U G2" },
+            { "label": "Topology", "value": "Line-interactive" },
+            { "label": "VA rating", "value": "2200 VA" },
+            { "label": "Wattage", "value": "2200 W" },
+            { "label": "Color", "value": "Black/silver" },
+            { "label": "Construction type", "value": "482.6 mm (19 inch) device" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Product Length/Depth", "value": "483 mm" },
+            { "label": "Product Height", "value": "129 mm" },
+            { "label": "Product Width", "value": "438 mm" },
+            { "label": "Product Weight", "value": "27.5 kg" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input connection", "value": "C20" },
+            { "label": "Input Nominal Voltage", "value": "230V default (200/208/220/230/240V)" },
+            { "label": "Nominal frequency", "value": "50-60 Hz" },
+            { "label": "Input cord length", "value": "1.8m" },
+            { "label": "Input frequency range", "value": "47-70 Hz (50 Hz system), 56.5-70 Hz (60 Hz system), 40 Hz in low sensitivity mode" },
+            { "label": "Input voltage range", "value": "160-294 V (adjustable to 150 V-294 V)" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Receptacle", "value": "(8) C13, (2) C19" },
+            { "label": "Output waveform", "value": "Sine wave" },
+            { "label": "Output nominal voltage", "value": "230V default (200/208/220/230/240V)" },
+            { "label": "Output voltage range", "value": "230 V (+6%/-10%)" },
+            { "label": "Output frequency", "value": "50/60 Hz" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery replacement", "value": "User replaceable" },
+            { "label": "Battery rating", "value": "12 V / 7 Ah" },
+            { "label": "Battery type", "value": "Lead-acid maintenance-free (replaceable)" },
+            { "label": "Extended battery capability", "value": "Yes" },
+            { "label": "Runtime at half load", "value": "10 min" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Communication", "value": "USB port (HID compliant), Serial port (RS232), Mini-terminal block for remote On/Off and Remote Power Off, Mini-terminal block for output relay, Dry contacts (3 outputs, 1 input, optocoupler, DB9)" },
+            { "label": "Expansion slots", "value": "One slot for optional communication card" },
+            { "label": "User interface", "value": "Multilingual graphical LCD display" },
+            { "label": "Potential free switch contact", "value": "Yes" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Altitude", "value": "3000 m" },
+            { "label": "Noise level", "value": "<40 dB at 1 meter" },
+            { "label": "Relative humidity", "value": "0-90% non-condensing" },
+            { "label": "Temperature range", "value": "0° to 40°C (32° to 104°F), batteries recommended max. 25°C (77°F)" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Compliances", "value": "IEC/EN 62040-1, IEC/EN 62040-2, IEC/EN 62040-3, RoHS Compliant, REACH, UL 1778, CSA 22.2" },
+            { "label": "Certifications", "value": "CE, cTUVus, EAC, Cm, UKCA, Ukr, ENERGY STAR certified" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Power consumption", "value": "45 W" },
+            { "label": "Auto shutdown function", "value": "Yes" },
+            { "label": "Rack mounting kit", "value": "Yes" }
+          ]
         }
-      ]
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "5px3000irt2ug2",
@@ -28791,13 +29841,97 @@
       "name": "Bộ Lưu Điện (UPS) Eaton 5PX 3000i RT2U G2/3000VA/3000W",
       "category_label": "Eaton 5PX Series",
       "brand": "EATON",
+      "overview": "Eaton 5PX Gen2 UPS, 3000 VA, 3000 W, Input: C20, Output: (8) C13, (2) C19, Rack/tower, 2U",
       "warranty": "3 years",
-      "specs": [
+      "images": ["/products/5px3000irt2ug2/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
         {
-          "label": "Capacity",
-          "value": "3000 VA / 3000 W"
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "Eaton 5PX 3000i RT2U G2" },
+            { "label": "Topology", "value": "Line-interactive" },
+            { "label": "VA rating", "value": "3000 VA" },
+            { "label": "Wattage", "value": "3000 W" },
+            { "label": "Color", "value": "Black/silver" },
+            { "label": "Construction type", "value": "482.6 mm (19 inch) device" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Product Length/Depth", "value": "603 mm" },
+            { "label": "Product Height", "value": "85.5 mm" },
+            { "label": "Product Width", "value": "438 mm" },
+            { "label": "Product Weight", "value": "31.7 kg" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input connection", "value": "C20" },
+            { "label": "Input Nominal Voltage", "value": "230V default (200/208/220/230/240V)" },
+            { "label": "Nominal frequency", "value": "50-60 Hz" },
+            { "label": "Input cord length", "value": "1.8m" },
+            { "label": "Input frequency range", "value": "47-70 Hz (50 Hz system), 56.5-70 Hz (60 Hz system), 40 Hz in low sensitivity mode" },
+            { "label": "Input voltage range", "value": "160-294 V (adjustable to 150 V-294 V)" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Receptacle", "value": "(8) C13, (2) C19" },
+            { "label": "Output waveform", "value": "Sine wave" },
+            { "label": "Output nominal voltage", "value": "230V default (200/208/220/230/240V)" },
+            { "label": "Output voltage range", "value": "230 V (+6%/-10%)" },
+            { "label": "Output frequency", "value": "50/60 Hz" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery replacement", "value": "User replaceable" },
+            { "label": "Battery rating", "value": "12 V / 9 Ah" },
+            { "label": "Battery type", "value": "Lead-acid maintenance-free (replaceable)" },
+            { "label": "Extended battery capability", "value": "Yes" },
+            { "label": "Runtime at half load", "value": "9 min" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Communication", "value": "USB port (HID compliant), Serial port (RS232), Mini-terminal block for remote On/Off and Remote Power Off, Mini-terminal block for output relay, Dry contacts (3 outputs, 1 input, optocoupler, DB9)" },
+            { "label": "Expansion slots", "value": "One slot for optional communication card" },
+            { "label": "User interface", "value": "Multilingual graphical LCD display" },
+            { "label": "Potential free switch contact", "value": "Yes" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Altitude", "value": "3000 m" },
+            { "label": "Noise level", "value": "<40 dB at 1 meter" },
+            { "label": "Relative humidity", "value": "0-90% non-condensing" },
+            { "label": "Temperature range", "value": "0° to 40°C (32° to 104°F), batteries recommended max. 25°C (77°F)" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Compliances", "value": "IEC/EN 62040-1, IEC/EN 62040-2, IEC/EN 62040-3, RoHS Compliant, REACH, UL 1778, CSA 22.2" },
+            { "label": "Certifications", "value": "CE, cTUVus, EAC, Cm, UKCA, Ukr, KCC, ENERGY STAR certified" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Power consumption", "value": "61 W" },
+            { "label": "Auto shutdown function", "value": "Yes" },
+            { "label": "Rack mounting kit", "value": "Yes" }
+          ]
         }
-      ]
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "5pxebm72rt2ug2",
@@ -28806,7 +29940,52 @@
       "name": "ẮCQUY CHO BỘ LƯU ĐIỆN (BATTERY) EATON 5PX EBM 72V RT2U G2",
       "category_label": "Eaton 5PX Series",
       "brand": "EATON",
-      "warranty": "3 years"
+      "overview": "Eaton 5PX Gen2 extended battery module (EBM), 72 V, Rack/tower, 2U",
+      "warranty": "3 years",
+      "images": ["/products/5pxebm72rt2ug2/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "Eaton 5PX EBM 72V RT2U G2" },
+            { "label": "Color", "value": "Black/silver" },
+            { "label": "Construction type", "value": "482.6 mm (19 inch) device, 2U" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Product Length/Depth", "value": "603 mm" },
+            { "label": "Product Height", "value": "85.5 mm" },
+            { "label": "Product Width", "value": "438 mm" },
+            { "label": "Product Weight", "value": "40.4 kg" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery rating", "value": "12 V / 9 Ah" },
+            { "label": "Battery type", "value": "Sealed, lead-acid" },
+            { "label": "Battery quantity", "value": "12" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Compliances", "value": "IEC/EN 62040-1, IEC/EN 62040-2, IEC/EN 62040-3, RoHS Compliant, REACH, UL 1778, CSA 22.2" },
+            { "label": "Certifications", "value": "CE, cTUVus, EAC, Cm, UKCA, Ukr, RCM" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Product Type", "value": "Extended Battery Module" },
+            { "label": "Rack mounting kit", "value": "Yes" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "9a1000i",
@@ -29004,7 +30183,103 @@
       "name": "Bộ Lưu Điện (UPS) Eaton 9SX 3000i Rack2U",
       "category_label": "Eaton 9SX Series",
       "brand": "EATON",
-      "warranty": "2 years"
+      "overview": "Eaton 9SX UPS, 3000 VA, 2700 W, Input: C20, Outputs: (8) C13, (1) C19, Rack, 2U",
+      "warranty": "2 years",
+      "images": ["/products/9sx3000ir/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Topology", "value": "Online/Double-conversion" },
+            { "label": "VA rating", "value": "3000 VA" },
+            { "label": "Wattage", "value": "2700 W" },
+            { "label": "Color", "value": "Black" },
+            { "label": "Construction type", "value": "482.6 mm (19 inch) device, 2U" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Product Length/Depth", "value": "608 mm" },
+            { "label": "Product Height", "value": "86.5 mm" },
+            { "label": "Product Width", "value": "438 mm" },
+            { "label": "Product Weight", "value": "26.5 kg" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input connection", "value": "C20" },
+            { "label": "Input Nominal Voltage", "value": "230V default (200/208/220/230/240/250V)" },
+            { "label": "Nominal frequency", "value": "50/60 Hz" },
+            { "label": "Input cord length", "value": "1.8m" },
+            { "label": "Input frequency range", "value": "40-70 Hz" },
+            { "label": "Input voltage range", "value": "200-276 Vac without derating (up to 140-276 Vac with derating)" },
+            { "label": "Input power factor", "value": ">.99" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Receptacle", "value": "(8) C13, (1) C19" },
+            { "label": "Output waveform", "value": "Sine wave" },
+            { "label": "Output nominal voltage", "value": "230V default (200/208/220/230/240V)" },
+            { "label": "Output voltage range", "value": "200/208/220/230/240 V +/- 2%" },
+            { "label": "Output frequency", "value": "50/60 Hz" },
+            { "label": "Output power factor", "value": "0.9" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery replacement", "value": "Hot-swappable internal batteries and extended battery modules (EBMs)" },
+            { "label": "Battery rating", "value": "12 V / 9 Ah" },
+            { "label": "Battery type", "value": "Sealed, lead-acid" },
+            { "label": "Extended battery capability", "value": "Yes" },
+            { "label": "Runtime at half load", "value": "10.5 min" },
+            { "label": "Runtime at full load", "value": "3.5 min" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Communication", "value": "USB port (HID compliant), Serial port (RS232), Mini-terminal block for remote power off, Mini-terminal block for output relay, Dry contacts (2 outputs, 1 input, optocoupler, DB9)" },
+            { "label": "Expansion slots", "value": "One slot for optional communication card" },
+            { "label": "User interface", "value": "Multilingual graphical LCD display" },
+            { "label": "Potential free switch contact", "value": "Yes" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Altitude", "value": "3000 m" },
+            { "label": "Noise level", "value": "<45 dB at 1 meter" },
+            { "label": "Relative humidity", "value": "0-96% non-condensing" },
+            { "label": "Temperature range", "value": "0° to 40°C (32° to 104°F)" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Compliances", "value": "FCC part 15 Class B" },
+            { "label": "Certifications", "value": "IEC/EN 62040-1" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Power consumption", "value": "240 W" },
+            { "label": "Auto shutdown function", "value": "Yes" },
+            { "label": "Internal bypass", "value": "Yes" },
+            { "label": "Rack mounting kit", "value": "Yes" },
+            { "label": "Efficiency at max. load", "value": "92%" },
+            { "label": "Efficiency (eco-mode)", "value": "97.5%" },
+            { "label": "BTU Rating", "value": "Online: 818" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "9sxebm72r",
@@ -29013,7 +30288,52 @@
       "name": "ẮC QUY CHO BỘ LƯU ĐIỆN (BATTERY) Eaton 9SX EBM 72V Rack2U",
       "category_label": "Eaton 9SX Series",
       "brand": "EATON",
-      "warranty": "2 years"
+      "overview": "Eaton 9SX extended battery module (EBM), 72V, Rack, 2U",
+      "warranty": "2 years",
+      "images": ["/products/9sxebm72r/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Color", "value": "Black" },
+            { "label": "Construction type", "value": "482.6 mm (19 inch) device, 2U" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Product Length/Depth", "value": "608 mm" },
+            { "label": "Product Height", "value": "86.5 mm" },
+            { "label": "Product Width", "value": "438 mm" },
+            { "label": "Product Weight", "value": "40.5 kg" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery rating", "value": "12 V / 9 Ah" },
+            { "label": "Battery type", "value": "Sealed, lead-acid" },
+            { "label": "Battery quantity", "value": "12" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Compliances", "value": "CE Marked, TUV, cULus Listed, CSA 22.2, FCC part 15 Class B, CISPR22 Class B" },
+            { "label": "Certifications", "value": "IEC/EN 62040-1, UL 1778, IEC/EN 62040-2, CE, cULus Listed, EAC" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Type of Accessory", "value": "Battery/accumulator" },
+            { "label": "Used with", "value": "9SX2000IR, 9SX3000IR" },
+            { "label": "Rack mounting kit", "value": "Yes" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "9sx5kirt3ug2",
@@ -29022,7 +30342,94 @@
       "name": "Bộ Lưu Điện (UPS) Eaton 9SX 5000i RT3U G2",
       "category_label": "Eaton 9SX Series",
       "brand": "EATON",
-      "warranty": "2 years"
+      "overview": "Eaton 9SX Gen2 UPS, 5000 VA, 5000 W, Input: Hardwired, Outputs: (8) C13, (3) C19, Hardwired, Rack/tower, 3U, Rack-mounting kit included",
+      "warranty": "2 years",
+      "images": ["/products/9sx5kirt3ug2/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "Eaton 9SX 5000i RT3U G2" },
+            { "label": "Topology", "value": "Online/Double-conversion" },
+            { "label": "VA rating", "value": "5000 VA" },
+            { "label": "Wattage", "value": "5000W" },
+            { "label": "Color", "value": "Black" },
+            { "label": "Construction type", "value": "482.6 mm (19 inch) device" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Product Length/Depth", "value": "684 mm" },
+            { "label": "Product Height", "value": "130 mm" },
+            { "label": "Product Width", "value": "440 mm" },
+            { "label": "Product Weight", "value": "43.1 kg" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Nominal frequency", "value": "50/60 Hz" },
+            { "label": "Input frequency range", "value": "40-70 Hz" },
+            { "label": "Input voltage range", "value": "176-276 V (100-276 V with derating)" },
+            { "label": "Input power factor", "value": ">.99" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Receptacle", "value": "(8) C13, (3) C19, Hardwired" },
+            { "label": "Output waveform", "value": "Sine wave" },
+            { "label": "Output nominal voltage", "value": "230V default (200/208/220/230/240V)" },
+            { "label": "Output power factor", "value": "1" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery replacement", "value": "Hot-swappable internal batteries and extended battery modules (EBMs)" },
+            { "label": "Battery rating", "value": "12 V / 5 Ah" },
+            { "label": "Battery type", "value": "Sealed, lead-acid" },
+            { "label": "Extended battery capability", "value": "Yes" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Communication", "value": "USB port (HID compliant), Serial port (RS232), Mini terminal block for remote On/Off, Mini-terminal block for remote power off, Mini-terminal block for dry contacts outputs (2 contacts)" },
+            { "label": "Expansion slots", "value": "One slot" },
+            { "label": "User interface", "value": "Multilingual graphical LCD display" },
+            { "label": "Potential free switch contact", "value": "Yes" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Altitude", "value": "3000 m" },
+            { "label": "Noise level", "value": "<40 dB at 1 meter" },
+            { "label": "Relative humidity", "value": "0-95% non-condensing" },
+            { "label": "Temperature range", "value": "0° to 40°C (32° to 104°F)" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Compliances", "value": "LVD Directive (CB), EMC Directive, RoHS Directive, REACH, WEEE Directive, Packaging Directive, Batteries Directive" },
+            { "label": "Certifications", "value": "IEC/EN 62040-1, IEC/EN 62040-2, IEC/EN 62040-3, ENERGY STAR certified, CE, cULus, UKCA, Cm, Ukr, RCM, KCC, BSMI" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Auto shutdown function", "value": "Yes" },
+            { "label": "Internal bypass", "value": "Yes" },
+            { "label": "Rack mounting kit", "value": "Yes" },
+            { "label": "Efficiency at max. load", "value": "96.7%" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "9sx6kirt3ug2",
@@ -29031,7 +30438,94 @@
       "name": "Bộ Lưu Điện (UPS) Eaton 9SX 6000i RT3U G2",
       "category_label": "Eaton 9SX Series",
       "brand": "EATON",
-      "warranty": "2 years"
+      "overview": "Eaton 9SX Gen2 UPS, 6000 VA, 6000 W, Input: Hardwired, Outputs: (8) C13, (3) C19, Hardwired, Rack/tower, 3U, Rack-mounting kit included",
+      "warranty": "2 years",
+      "images": ["/products/9sx6kirt3ug2/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "Eaton 9SX 6000i RT3U G2" },
+            { "label": "Topology", "value": "Online/Double-conversion" },
+            { "label": "VA rating", "value": "6000 VA" },
+            { "label": "Wattage", "value": "6000W" },
+            { "label": "Color", "value": "Black" },
+            { "label": "Construction type", "value": "482.6 mm (19 inch) device" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Product Length/Depth", "value": "684 mm" },
+            { "label": "Product Height", "value": "130 mm" },
+            { "label": "Product Width", "value": "440 mm" },
+            { "label": "Product Weight", "value": "43.1 kg" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Nominal frequency", "value": "50/60 Hz" },
+            { "label": "Input frequency range", "value": "40-70 Hz" },
+            { "label": "Input voltage range", "value": "176-276 V (100-276 V with derating)" },
+            { "label": "Input power factor", "value": ">.99" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Receptacle", "value": "(8) C13, (3) C19, Hardwired" },
+            { "label": "Output waveform", "value": "Sine wave" },
+            { "label": "Output nominal voltage", "value": "230V default (200/208/220/230/240V)" },
+            { "label": "Output power factor", "value": "1" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery replacement", "value": "Hot-swappable internal batteries and extended battery modules (EBMs)" },
+            { "label": "Battery rating", "value": "12 V / 5 Ah" },
+            { "label": "Battery type", "value": "Sealed, lead-acid" },
+            { "label": "Extended battery capability", "value": "Yes" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Communication", "value": "USB port (HID compliant), Serial port (RS232), Mini terminal block for remote On/Off, Mini-terminal block for remote power off, Mini-terminal block for dry contacts outputs (2 contacts)" },
+            { "label": "Expansion slots", "value": "One slot" },
+            { "label": "User interface", "value": "Multilingual graphical LCD display" },
+            { "label": "Potential free switch contact", "value": "Yes" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Altitude", "value": "3000 m" },
+            { "label": "Noise level", "value": "<40 dB at 1 meter" },
+            { "label": "Relative humidity", "value": "0-95% non-condensing" },
+            { "label": "Temperature range", "value": "0° to 40°C (32° to 104°F)" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Compliances", "value": "LVD Directive (CB), EMC Directive, RoHS Directive, REACH, WEEE Directive, Packaging Directive, Batteries Directive" },
+            { "label": "Certifications", "value": "IEC/EN 62040-1, IEC/EN 62040-2, IEC/EN 62040-3, ENERGY STAR certified, CE, cULus, UKCA, Cm, Ukr, RCM, KCC, BSMI" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Auto shutdown function", "value": "Yes" },
+            { "label": "Internal bypass", "value": "Yes" },
+            { "label": "Rack mounting kit", "value": "Yes" },
+            { "label": "Efficiency at max. load", "value": "96.5%" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "9sx8kig2",
@@ -29040,7 +30534,94 @@
       "name": "Bộ Lưu Điện (UPS) Eaton 9SX 8000i G2",
       "category_label": "Eaton 9SX Series",
       "brand": "EATON",
-      "warranty": "2 years"
+      "overview": "Eaton 9SX Gen2 UPS, 8000 VA, 8000 W, Input: Hardwired, Outputs: (8) C13, (4) C19, Hardwired, Rack/tower, 4U",
+      "warranty": "2 years",
+      "images": ["/products/9sx8kig2/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "Eaton 9SX 8000i G2" },
+            { "label": "Topology", "value": "Online/Double-conversion" },
+            { "label": "VA rating", "value": "8 kVA" },
+            { "label": "Wattage", "value": "8 kW" },
+            { "label": "Color", "value": "Black" },
+            { "label": "Construction type", "value": "Free standing model" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Product Length/Depth", "value": "724 mm" },
+            { "label": "Product Height", "value": "174 mm" },
+            { "label": "Product Width", "value": "440 mm" },
+            { "label": "Product Weight", "value": "78.8 kg" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Nominal frequency", "value": "50/60 Hz" },
+            { "label": "Input frequency range", "value": "40-70 Hz" },
+            { "label": "Input voltage range", "value": "176-276 V (100-276 V with derating)" },
+            { "label": "Input power factor", "value": ">.99" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Receptacle", "value": "(8) C13, (4) C19, Hardwired" },
+            { "label": "Output waveform", "value": "Sine wave" },
+            { "label": "Output nominal voltage", "value": "230V default (200/208/220/230/240V)" },
+            { "label": "Output power factor", "value": "1" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery replacement", "value": "Hot-swappable internal batteries and extended battery modules (EBMs)" },
+            { "label": "Battery rating", "value": "12 V / 7 Ah" },
+            { "label": "Battery type", "value": "Sealed, lead-acid" },
+            { "label": "Extended battery capability", "value": "Yes" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Communication", "value": "USB port (HID compliant), Serial port (RS232), Mini terminal block for remote On/Off, Mini-terminal block for remote power off, Mini-terminal block for dry contacts outputs (2 contacts)" },
+            { "label": "Expansion slots", "value": "One slot" },
+            { "label": "User interface", "value": "Multilingual graphical LCD display" },
+            { "label": "Potential free switch contact", "value": "Yes" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Altitude", "value": "3000 m" },
+            { "label": "Noise level", "value": "<37 dB at 1 meter" },
+            { "label": "Relative humidity", "value": "0-95% non-condensing" },
+            { "label": "Temperature range", "value": "0° to 40°C (32° to 104°F)" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Compliances", "value": "LVD Directive (CB), EMC Directive, RoHS Directive, REACH, WEEE Directive, Packaging Directive, Batteries Directive" },
+            { "label": "Certifications", "value": "IEC/EN 62040-1, IEC/EN 62040-2, IEC/EN 62040-3, ENERGY STAR certified, CE, cULus, UKCA, Cm, Ukr, RCM, KCC, BSMI" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Auto shutdown function", "value": "Yes" },
+            { "label": "Internal bypass", "value": "Yes" },
+            { "label": "Rack mounting kit", "value": "No" },
+            { "label": "Efficiency at max. load", "value": "97.3%" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "9sx11kig2",
@@ -29049,7 +30630,94 @@
       "name": "Bộ Lưu Điện (UPS) Eaton 9SX 11000i G2",
       "category_label": "Eaton 9SX Series",
       "brand": "EATON",
-      "warranty": "3 years"
+      "overview": "Eaton 9SX Gen2 UPS, 11000 VA, 11000 W, Input: Hardwired, Outputs: (8) C13, (4) C19, Hardwired, Rack/tower, 4U",
+      "warranty": "3 years",
+      "images": ["/products/9sx11kig2/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "Eaton 9SX 11000i G2" },
+            { "label": "Topology", "value": "Online/Double-conversion" },
+            { "label": "VA rating", "value": "11 kVA" },
+            { "label": "Wattage", "value": "11 kW" },
+            { "label": "Color", "value": "Black" },
+            { "label": "Construction type", "value": "Free standing model" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Product Length/Depth", "value": "724 mm" },
+            { "label": "Product Height", "value": "174 mm" },
+            { "label": "Product Width", "value": "440 mm" },
+            { "label": "Product Weight", "value": "78.8 kg" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Nominal frequency", "value": "50/60 Hz" },
+            { "label": "Input frequency range", "value": "40-70 Hz" },
+            { "label": "Input voltage range", "value": "176-276 V (100-276 V with derating)" },
+            { "label": "Input power factor", "value": ">.99" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Receptacle", "value": "(8) C13, (4) C19, Hardwired" },
+            { "label": "Output waveform", "value": "Sine wave" },
+            { "label": "Output nominal voltage", "value": "230V default (200/208/220/230/240V)" },
+            { "label": "Output power factor", "value": "1" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery replacement", "value": "Hot-swappable internal batteries and extended battery modules (EBMs)" },
+            { "label": "Battery rating", "value": "12 V / 7 Ah" },
+            { "label": "Battery type", "value": "Sealed, lead-acid" },
+            { "label": "Extended battery capability", "value": "Yes" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Communication", "value": "USB port (HID compliant), Serial port (RS232), Mini terminal block for remote On/Off, Mini-terminal block for remote power off, Mini-terminal block for dry contacts outputs (2 contacts)" },
+            { "label": "Expansion slots", "value": "One slot" },
+            { "label": "User interface", "value": "Multilingual graphical LCD display" },
+            { "label": "Potential free switch contact", "value": "Yes" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Altitude", "value": "3000 m" },
+            { "label": "Noise level", "value": "<37 dB at 1 meter" },
+            { "label": "Relative humidity", "value": "0-95% non-condensing" },
+            { "label": "Temperature range", "value": "0° to 40°C (32° to 104°F)" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Compliances", "value": "LVD Directive (CB), EMC Directive, RoHS Directive, REACH, WEEE Directive, Packaging Directive, Batteries Directive" },
+            { "label": "Certifications", "value": "IEC/EN 62040-1, IEC/EN 62040-2, IEC/EN 62040-3, ENERGY STAR certified, CE, cULus, UKCA, Cm, Ukr, RCM, KCC, BSMI" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Auto shutdown function", "value": "Yes" },
+            { "label": "Internal bypass", "value": "Yes" },
+            { "label": "Rack mounting kit", "value": "No" },
+            { "label": "Efficiency at max. load", "value": "97%" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     }
   ]
 }

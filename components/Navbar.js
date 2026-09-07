@@ -11,6 +11,11 @@ import { useLanguage } from '@/context/LanguageContext';
 
 const LANGUAGES = ['vi', 'en'];
 
+function hasActiveDescendant(item, pathname) {
+  if (item.href === pathname) return true;
+  return item.children?.some((child) => hasActiveDescendant(child, pathname)) ?? false;
+}
+
 function LanguageSwitcher({ className = '' }) {
   const { language, setLanguage, t } = useLanguage();
 
@@ -40,6 +45,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [openMobileKey, setOpenMobileKey] = useState(null);
   const [openMobileSubKey, setOpenMobileSubKey] = useState(null);
+  const [openMobileGrandKey, setOpenMobileGrandKey] = useState(null);
   const pathname = usePathname();
   const { t } = useLanguage();
 
@@ -54,6 +60,7 @@ export default function Navbar() {
     setOpen(false);
     setOpenMobileKey(null);
     setOpenMobileSubKey(null);
+    setOpenMobileGrandKey(null);
   }, [pathname]);
 
   return (
@@ -70,9 +77,7 @@ export default function Navbar() {
         <nav className="hidden items-center xl:flex">
           {navLinks.map((link) => {
             if (link.children) {
-              const childActive = link.children.some(
-                (child) => child.href === pathname || child.children?.some((c) => c.href === pathname)
-              );
+              const childActive = link.children.some((child) => hasActiveDescendant(child, pathname));
               return (
                 <div key={link.key} className="group relative">
                   <Link
@@ -92,7 +97,7 @@ export default function Navbar() {
                           <Link
                             href={child.href}
                             className={`flex items-center justify-between gap-2 rounded-lg px-3 py-2.5 text-sm font-medium transition-colors ${
-                              pathname === child.href || child.children.some((c) => c.href === pathname)
+                              hasActiveDescendant(child, pathname)
                                 ? 'bg-mist-50 text-brand-600'
                                 : 'text-ink-700 hover:bg-mist-50 hover:text-brand-600'
                             }`}
@@ -102,19 +107,51 @@ export default function Navbar() {
                           </Link>
 
                           <div className="invisible absolute left-full top-0 z-50 ml-1 w-60 rounded-xl bg-white p-2 opacity-0 shadow-card ring-1 ring-black/5 transition-all duration-200 group-hover/nested:visible group-hover/nested:opacity-100">
-                            {child.children.map((grandchild) => (
-                              <Link
-                                key={grandchild.href}
-                                href={grandchild.href}
-                                className={`block rounded-lg px-3 py-2.5 text-sm font-medium transition-colors ${
-                                  pathname === grandchild.href
-                                    ? 'bg-mist-50 text-brand-600'
-                                    : 'text-ink-700 hover:bg-mist-50 hover:text-brand-600'
-                                }`}
-                              >
-                                {t(`nav.${grandchild.key}`)}
-                              </Link>
-                            ))}
+                            {child.children.map((grandchild) =>
+                              grandchild.children ? (
+                                <div key={grandchild.href} className="group/nested2 relative">
+                                  <Link
+                                    href={grandchild.href}
+                                    className={`flex items-center justify-between gap-2 rounded-lg px-3 py-2.5 text-sm font-medium transition-colors ${
+                                      hasActiveDescendant(grandchild, pathname)
+                                        ? 'bg-mist-50 text-brand-600'
+                                        : 'text-ink-700 hover:bg-mist-50 hover:text-brand-600'
+                                    }`}
+                                  >
+                                    {t(`nav.${grandchild.key}`)}
+                                    <ChevronRight size={14} className="shrink-0" />
+                                  </Link>
+
+                                  <div className="invisible absolute left-full top-0 z-50 ml-1 w-60 rounded-xl bg-white p-2 opacity-0 shadow-card ring-1 ring-black/5 transition-all duration-200 group-hover/nested2:visible group-hover/nested2:opacity-100">
+                                    {grandchild.children.map((greatGrandchild) => (
+                                      <Link
+                                        key={greatGrandchild.href}
+                                        href={greatGrandchild.href}
+                                        className={`block rounded-lg px-3 py-2.5 text-sm font-medium transition-colors ${
+                                          pathname === greatGrandchild.href
+                                            ? 'bg-mist-50 text-brand-600'
+                                            : 'text-ink-700 hover:bg-mist-50 hover:text-brand-600'
+                                        }`}
+                                      >
+                                        {t(`nav.${greatGrandchild.key}`)}
+                                      </Link>
+                                    ))}
+                                  </div>
+                                </div>
+                              ) : (
+                                <Link
+                                  key={grandchild.href}
+                                  href={grandchild.href}
+                                  className={`block rounded-lg px-3 py-2.5 text-sm font-medium transition-colors ${
+                                    pathname === grandchild.href
+                                      ? 'bg-mist-50 text-brand-600'
+                                      : 'text-ink-700 hover:bg-mist-50 hover:text-brand-600'
+                                  }`}
+                                >
+                                  {t(`nav.${grandchild.key}`)}
+                                </Link>
+                              )
+                            )}
                           </div>
                         </div>
                       ) : (
@@ -199,9 +236,7 @@ export default function Navbar() {
             <div className="container-page flex flex-col gap-1 py-4">
               {navLinks.map((link) => {
                 if (link.children) {
-                  const childActive = link.children.some(
-                    (child) => child.href === pathname || child.children?.some((c) => c.href === pathname)
-                  );
+                  const childActive = link.children.some((child) => hasActiveDescendant(child, pathname));
                   const submenuOpen = openMobileKey === link.key;
                   return (
                     <div key={link.key}>
@@ -234,7 +269,7 @@ export default function Navbar() {
                           {link.children.map((child) => {
                             if (child.children) {
                               const subOpen = openMobileSubKey === child.key;
-                              const grandchildActive = child.children.some((c) => c.href === pathname);
+                              const grandchildActive = child.children.some((c) => hasActiveDescendant(c, pathname));
                               return (
                                 <div key={child.href}>
                                   <div
@@ -260,19 +295,72 @@ export default function Navbar() {
                                   </div>
                                   {subOpen && (
                                     <div className="ml-3 mt-1 flex flex-col gap-1 border-l border-white/10 pl-3">
-                                      {child.children.map((grandchild) => (
-                                        <Link
-                                          key={grandchild.href}
-                                          href={grandchild.href}
-                                          className={`rounded-lg px-3 py-2.5 text-sm font-medium transition-colors ${
-                                            pathname === grandchild.href
-                                              ? 'text-cyan-300'
-                                              : 'text-slate-300 hover:bg-white/5 hover:text-white'
-                                          }`}
-                                        >
-                                          {t(`nav.${grandchild.key}`)}
-                                        </Link>
-                                      ))}
+                                      {child.children.map((grandchild) => {
+                                        if (grandchild.children) {
+                                          const grandOpen = openMobileGrandKey === grandchild.key;
+                                          const greatGrandchildActive = grandchild.children.some(
+                                            (g) => g.href === pathname
+                                          );
+                                          return (
+                                            <div key={grandchild.href}>
+                                              <div
+                                                className={`flex items-center justify-between rounded-lg text-sm font-medium transition-colors ${
+                                                  greatGrandchildActive ? 'text-cyan-300' : 'text-slate-300'
+                                                }`}
+                                              >
+                                                <Link href={grandchild.href} className="flex-1 px-3 py-2.5 hover:text-white">
+                                                  {t(`nav.${grandchild.key}`)}
+                                                </Link>
+                                                <button
+                                                  type="button"
+                                                  aria-expanded={grandOpen}
+                                                  aria-label={t(`nav.${grandchild.key}`)}
+                                                  className="px-3 py-2.5"
+                                                  onClick={() =>
+                                                    setOpenMobileGrandKey((k) => (k === grandchild.key ? null : grandchild.key))
+                                                  }
+                                                >
+                                                  <ChevronDown
+                                                    size={16}
+                                                    className={`transition-transform duration-200 ${grandOpen ? 'rotate-180' : ''}`}
+                                                  />
+                                                </button>
+                                              </div>
+                                              {grandOpen && (
+                                                <div className="ml-3 mt-1 flex flex-col gap-1 border-l border-white/10 pl-3">
+                                                  {grandchild.children.map((greatGrandchild) => (
+                                                    <Link
+                                                      key={greatGrandchild.href}
+                                                      href={greatGrandchild.href}
+                                                      className={`rounded-lg px-3 py-2.5 text-sm font-medium transition-colors ${
+                                                        pathname === greatGrandchild.href
+                                                          ? 'text-cyan-300'
+                                                          : 'text-slate-300 hover:bg-white/5 hover:text-white'
+                                                      }`}
+                                                    >
+                                                      {t(`nav.${greatGrandchild.key}`)}
+                                                    </Link>
+                                                  ))}
+                                                </div>
+                                              )}
+                                            </div>
+                                          );
+                                        }
+
+                                        return (
+                                          <Link
+                                            key={grandchild.href}
+                                            href={grandchild.href}
+                                            className={`rounded-lg px-3 py-2.5 text-sm font-medium transition-colors ${
+                                              pathname === grandchild.href
+                                                ? 'text-cyan-300'
+                                                : 'text-slate-300 hover:bg-white/5 hover:text-white'
+                                            }`}
+                                          >
+                                            {t(`nav.${grandchild.key}`)}
+                                          </Link>
+                                        );
+                                      })}
                                     </div>
                                   )}
                                 </div>

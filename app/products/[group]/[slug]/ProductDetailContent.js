@@ -36,6 +36,8 @@ const SPEC_GROUP_LABELS_VI = {
 export default function ProductDetailContent({ product, group }) {
   const { t, language } = useLanguage();
   const salesTeam = distributionStaff.find((g) => g.groupKey === 'sales')?.members || [];
+  const salesTeam1Phase = salesTeam.filter((person) => person.phase === '1');
+  const salesTeam3Phase = salesTeam.filter((person) => person.phase === '3');
   const images = Array.isArray(product.images) ? product.images : [];
   const [activeImage, setActiveImage] = useState(images[0]);
   const [openGroups, setOpenGroups] = useState(() => new Set([0]));
@@ -198,20 +200,51 @@ export default function ProductDetailContent({ product, group }) {
             <div className="mt-8 rounded-2xl bg-hero-mesh p-6 text-white">
               <h3 className="font-display text-base font-bold">{t('productCatalog.contactHeading')}</h3>
               <p className="mt-1 text-sm text-slate-300">{t('productCatalog.contactDesc')}</p>
-              <div className="mt-4 space-y-3">
-                {salesTeam.map((person) => (
-                  <div key={person.key} className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm">
-                    <span className="font-semibold text-white">{person.name}</span>
-                    <a href={`tel:${person.phone.replace(/\s/g, '')}`} className="flex items-center gap-1.5 text-cyan-300 hover:text-cyan-200">
-                      <Phone size={14} />
-                      {person.phone}
-                    </a>
-                    <a href={`mailto:${person.email}`} className="flex items-center gap-1.5 text-slate-300 hover:text-white">
-                      <Mail size={14} />
-                      {person.email}
-                    </a>
+              <div className="mt-4 space-y-5">
+                {salesTeam1Phase.length > 0 && (
+                  <div>
+                    <p className="text-xs font-semibold uppercase tracking-wide text-cyan-300">
+                      {t('productCatalog.contact1Phase')}
+                    </p>
+                    <div className="mt-2 space-y-3">
+                      {salesTeam1Phase.map((person) => (
+                        <div key={person.key} className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm">
+                          <span className="font-semibold text-white">{person.name}</span>
+                          <a href={`tel:${person.phone.replace(/\s/g, '')}`} className="flex items-center gap-1.5 text-cyan-300 hover:text-cyan-200">
+                            <Phone size={14} />
+                            {person.phone}
+                          </a>
+                          <a href={`mailto:${person.email}`} className="flex items-center gap-1.5 text-slate-300 hover:text-white">
+                            <Mail size={14} />
+                            {person.email}
+                          </a>
+                        </div>
+                      ))}
+                    </div>
                   </div>
-                ))}
+                )}
+                {salesTeam3Phase.length > 0 && (
+                  <div>
+                    <p className="text-xs font-semibold uppercase tracking-wide text-cyan-300">
+                      {t('productCatalog.contact3Phase')}
+                    </p>
+                    <div className="mt-2 space-y-3">
+                      {salesTeam3Phase.map((person) => (
+                        <div key={person.key} className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm">
+                          <span className="font-semibold text-white">{person.name}</span>
+                          <a href={`tel:${person.phone.replace(/\s/g, '')}`} className="flex items-center gap-1.5 text-cyan-300 hover:text-cyan-200">
+                            <Phone size={14} />
+                            {person.phone}
+                          </a>
+                          <a href={`mailto:${person.email}`} className="flex items-center gap-1.5 text-slate-300 hover:text-white">
+                            <Mail size={14} />
+                            {person.email}
+                          </a>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
           </Reveal>

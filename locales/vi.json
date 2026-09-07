@@ -38,7 +38,6 @@
     "serviceMaintenance": "Bảo trì hệ thống",
     "serviceOutsourcing": "Dịch vụ Outsourcing IT",
     "servicesExtendedWarranty": "Bảo hành mở rộng",
-    "servicesApcWarranty": "Bảo hành vàng từ APC",
     "servicesStaff": "Đội ngũ hỗ trợ",
     "contact": "Liên hệ",
     "requestConsult": "Yêu cầu tư vấn",
@@ -765,25 +764,6 @@
         { "title": "Hỗ Trợ Kỹ Thuật", "items": ["Hỗ trợ từ xa hoặc hỗ trợ tận nơi.", "Gói hỗ trợ 24/7.", "Gói hỗ trợ 8/5."] },
         { "title": "Nhân Lực Triển Khai", "items": ["Hơn 20 năm kinh nghiệm trong lĩnh vực công nghệ thông tin, đã tư vấn, cung cấp và triển khai nhiều giải pháp hạ tầng, máy chủ, ảo hóa, networking và bảo mật."] }
       ]
-    },
-    "apcGoldWarranty": {
-      "hero": {
-        "crumb": "Bảo hành vàng từ APC",
-        "eyebrow": "APC Gold Warranty",
-        "title": "Chính sách bảo hành vàng từ APC",
-        "description": "Chính sách bảo hành mới, ưu đãi hơn dành cho các sản phẩm UPS APC 1 pha, áp dụng từ ngày 1/1/2021."
-      },
-      "effectiveDate": "Áp dụng từ ngày 01/01/2021",
-      "policyHeading": "Chính sách bảo hành mới từ APC by Schneider Electric",
-      "intro": "Từ ngày 1/1/2021, APC by Schneider Electric chính thức triển khai chính sách bảo hành mới đối với các dòng sản phẩm UPS 1 pha, nhằm mang lại trải nghiệm tốt hơn cho khách hàng.",
-      "benefits": [
-        { "title": "Bảo Hành 3 Năm", "desc": "Thời gian bảo hành được nâng từ 2 năm lên 3 năm kể từ ngày 1/1/2021." },
-        { "title": "1 Đổi 1", "desc": "Đổi mới 100% thiết bị khi phát sinh lỗi, không cần chờ sửa chữa." },
-        { "title": "Bảo Hành Tận Nơi", "desc": "Hỗ trợ bảo hành trực tiếp tại địa điểm của khách hàng." }
-      ],
-      "contactNote": "Liên hệ ngay để được giải đáp thắc mắc về chính sách bảo hành cũng như hỗ trợ kỹ thuật.",
-      "phone1": "(+84) 28 3824 7066 – Ext 835",
-      "phone2": "Hotline: 0933 004 576"
     },
     "contact": {
       "hero": {

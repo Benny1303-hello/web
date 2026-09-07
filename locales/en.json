@@ -38,7 +38,6 @@
     "serviceMaintenance": "Maintenance Service",
     "serviceOutsourcing": "IT Outsourcing",
     "servicesExtendedWarranty": "Extended Warranty",
-    "servicesApcWarranty": "APC Gold Warranty",
     "servicesStaff": "Support Team",
     "contact": "Contact",
     "requestConsult": "Request a consultation",
@@ -765,25 +764,6 @@
         { "title": "Technical Support", "items": ["Remote or on-site support.", "24/7 support package.", "8/5 support package."] },
         { "title": "Deployment Personnel", "items": ["Over 20 years of experience in information technology, having consulted on, supplied, and deployed many infrastructure, server, virtualization, networking, and security solutions."] }
       ]
-    },
-    "apcGoldWarranty": {
-      "hero": {
-        "crumb": "APC Gold Warranty",
-        "eyebrow": "APC Gold Warranty",
-        "title": "APC Gold Warranty Policy",
-        "description": "A new, more generous warranty policy for APC 1-phase UPS products, effective January 1, 2021."
-      },
-      "effectiveDate": "Effective January 1, 2021",
-      "policyHeading": "New Warranty Policy from APC by Schneider Electric",
-      "intro": "Starting January 1, 2021, APC by Schneider Electric officially rolled out a new warranty policy for its 1-phase UPS product line, designed to deliver a better experience for customers.",
-      "benefits": [
-        { "title": "3-Year Warranty", "desc": "Warranty coverage extended from 2 years to 3 years, effective January 1, 2021." },
-        { "title": "1-For-1 Replacement", "desc": "A full replacement unit whenever a defect occurs — no waiting on a repair." },
-        { "title": "On-Site Warranty Support", "desc": "Warranty support delivered directly at your location." }
-      ],
-      "contactNote": "Get in touch for any questions about the warranty policy or for technical support.",
-      "phone1": "(+84) 28 3824 7066 – Ext 835",
-      "phone2": "Hotline: 0933 004 576"
     },
     "contact": {
       "hero": {

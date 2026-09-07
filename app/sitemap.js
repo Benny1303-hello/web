@@ -13,7 +13,6 @@ const staticRoutes = [
   { path: '/services', priority: 0.8, changeFrequency: 'monthly' },
   { path: '/services/list', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/services/extended-warranty', priority: 0.6, changeFrequency: 'monthly' },
-  { path: '/services/apc-gold-warranty', priority: 0.6, changeFrequency: 'monthly' },
   { path: '/services/staff', priority: 0.4, changeFrequency: 'monthly' },
   { path: '/system-integration', priority: 0.8, changeFrequency: 'monthly' },
   { path: '/system-integration/solutions', priority: 0.7, changeFrequency: 'monthly' },

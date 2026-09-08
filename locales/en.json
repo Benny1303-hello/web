@@ -779,7 +779,8 @@
         "address": "Address",
         "phone": "Phone",
         "email": "Email"
-      }
+      },
+      "addressValue": "58 Mac Dinh Chi Street, Tan Dinh Ward, Ho Chi Minh City, Viet Nam"
     }
   },
   "productCatalog": {

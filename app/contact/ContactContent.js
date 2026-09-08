@@ -7,14 +7,14 @@ import ContactForm from '@/components/ContactForm';
 import { site } from '@/lib/content';
 import { useLanguage } from '@/context/LanguageContext';
 
-const cards = [
-  { icon: MapPin, key: 'address', value: site.address, href: site.mapHref },
-  { icon: Phone, key: 'phone', value: site.phone, href: site.phoneHref },
-  { icon: Mail, key: 'email', value: site.email, href: `mailto:${site.email}` },
-];
-
 export default function ContactContent() {
   const { t } = useLanguage();
+
+  const cards = [
+    { icon: MapPin, key: 'address', value: t('pages.contact.addressValue'), href: site.mapHref },
+    { icon: Phone, key: 'phone', value: site.phone, href: site.phoneHref },
+    { icon: Mail, key: 'email', value: site.email, href: `mailto:${site.email}` },
+  ];
 
   return (
     <>
@@ -59,7 +59,7 @@ export default function ContactContent() {
                   className="h-full min-h-[320px] w-full"
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  src="https://maps.google.com/maps?q=58%20Mac%20Dinh%20Chi%20Street%2C%20District%201%2C%20Ho%20Chi%20Minh%20City&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  src="https://maps.google.com/maps?q=58%20Mac%20Dinh%20Chi%20Street%2C%20Tan%20Dinh%20Ward%2C%20Ho%20Chi%20Minh%20City%2C%20Viet%20Nam&t=&z=15&ie=UTF8&iwloc=&output=embed"
                 />
               </div>
             </Reveal>

@@ -777,9 +777,10 @@
       },
       "cards": {
         "address": "Địa chỉ",
-        "phone": "Điện thoại",
+        "phone": "Điện Thoại",
         "email": "Email"
-      }
+      },
+      "addressValue": "58 Mạc Đỉnh Chi, Phường Tân Định, Thành Phố Hồ Chí Minh, Việt Nam"
     }
   },
   "productCatalog": {

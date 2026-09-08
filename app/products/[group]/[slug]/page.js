@@ -2,11 +2,9 @@ import { notFound } from 'next/navigation';
 import ProductDetailContent from './ProductDetailContent';
 import productsCatalog from '@/lib/productsCatalog.json';
 import { findProduct, findGroup } from '@/lib/products';
+import { site } from '@/lib/content';
 
-// Falls back to the current known production URL; override with
-// NEXT_PUBLIC_SITE_URL once a custom domain is pointed at this deployment,
-// no code change needed.
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://web-vxfh.vercel.app';
+const SITE_URL = site.url;
 
 function buildProductJsonLd(product, groupKey, slug) {
   // No `offers`/price: this is a B2B contact-for-quote catalog with no public

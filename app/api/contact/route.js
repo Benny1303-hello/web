@@ -1,5 +1,6 @@
 import nodemailer from 'nodemailer';
 import { site } from '@/lib/content';
+import { CONTACT_ERROR_CODES } from '@/lib/contactErrors';
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -26,22 +27,22 @@ export async function POST(request) {
   try {
     body = await request.json();
   } catch {
-    return Response.json({ errorCode: 'INVALID_BODY' }, { status: 400 });
+    return Response.json({ errorCode: CONTACT_ERROR_CODES.INVALID_BODY }, { status: 400 });
   }
 
   const { name, email, phone, subject, message } = body ?? {};
 
   if (!name?.trim() || !email?.trim() || !phone?.trim() || !subject?.trim() || !message?.trim()) {
-    return Response.json({ errorCode: 'MISSING_FIELDS' }, { status: 400 });
+    return Response.json({ errorCode: CONTACT_ERROR_CODES.MISSING_FIELDS }, { status: 400 });
   }
 
   if (!EMAIL_RE.test(email.trim())) {
-    return Response.json({ errorCode: 'INVALID_EMAIL' }, { status: 400 });
+    return Response.json({ errorCode: CONTACT_ERROR_CODES.INVALID_EMAIL }, { status: 400 });
   }
 
   if (!transporter) {
     console.error('[api/contact] Missing SMTP_HOST/SMTP_USER/SMTP_PASS env vars');
-    return Response.json({ errorCode: 'SERVER_NOT_READY' }, { status: 500 });
+    return Response.json({ errorCode: CONTACT_ERROR_CODES.SERVER_NOT_READY }, { status: 500 });
   }
 
   try {
@@ -64,6 +65,6 @@ export async function POST(request) {
     return Response.json({ ok: true });
   } catch (err) {
     console.error('[api/contact] SMTP send error:', err);
-    return Response.json({ errorCode: 'SEND_FAILED' }, { status: 502 });
+    return Response.json({ errorCode: CONTACT_ERROR_CODES.SEND_FAILED }, { status: 502 });
   }
 }

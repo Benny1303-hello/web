@@ -4,6 +4,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import PageTransition from '@/components/PageTransition';
 import { LanguageProvider } from '@/context/LanguageContext';
+import { site } from '@/lib/content';
 
 const sora = Sora({
   subsets: ['latin'],
@@ -21,8 +22,8 @@ const inter = Inter({
 
 export const metadata = {
   title: {
-    default: 'TTC-Infotech | Your IT Partner',
-    template: '%s | TTC-Infotech',
+    default: `${site.name} | ${site.tagline}`,
+    template: `%s | ${site.name}`,
   },
   description:
     'TTC-Infotech - Đối tác công nghệ thông tin: phân phối thiết bị, tích hợp hệ thống và dịch vụ kỹ thuật cho doanh nghiệp trên 20 năm.',

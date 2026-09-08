@@ -1,7 +1,7 @@
 import productsCatalog from '@/lib/productsCatalog.json';
-import { serviceOfferings, systemIntegrationSolutions } from '@/lib/content';
+import { site, serviceOfferings, systemIntegrationSolutions } from '@/lib/content';
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://web-vxfh.vercel.app';
+const SITE_URL = site.url;
 
 const staticRoutes = [
   { path: '/', priority: 1, changeFrequency: 'weekly' },

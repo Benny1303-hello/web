@@ -22,6 +22,9 @@ function ZaloIcon(props) {
   );
 }
 
+const FOOTER_NAV_EXCLUDED_KEYS = ['distribution', 'systemIntegration', 'services'];
+const footerNavLinks = navLinks.filter((link) => !FOOTER_NAV_EXCLUDED_KEYS.includes(link.key));
+
 export default function Footer() {
   const { t } = useLanguage();
 
@@ -65,7 +68,7 @@ export default function Footer() {
         <div>
           <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">{t('footer.navHeading')}</h4>
           <ul className="space-y-3 text-sm">
-            {navLinks.map((link) => (
+            {footerNavLinks.map((link) => (
               <li key={link.key}>
                 <Link href={link.href} className="transition-colors hover:text-cyan-300">
                   {t(`nav.${link.key}`)}
@@ -109,7 +112,7 @@ export default function Footer() {
 
       <div className="border-t border-white/10 py-6">
         <p className="container-page text-center text-xs text-slate-500">
-          © {new Date().getFullYear()} {site.fullName}. {t('footer.rights')}
+          © {new Date().getFullYear()} {t('footer.companyFullName')}. {t('footer.rights')}
         </p>
       </div>
     </footer>

@@ -56,7 +56,7 @@
   },
   "trustBadges": [
     { "title": "Quick Response", "icon": "Zap", "desc": "Committed emergency response time within one hour or less." },
-    { "title": "Reputable", "icon": "ShieldCheck", "desc": "Over 20 years as one of the leading information technology enterprises." },
+    { "title": "Reputable", "icon": "ShieldCheck", "desc": "Over 25 years as one of the leading information technology enterprises." },
     { "title": "Satisfaction Guaranteed", "icon": "ThumbsUp", "desc": "We do everything necessary to make sure our customers are truly satisfied." }
   ],
   "stats": {
@@ -135,7 +135,7 @@
     "heading": "TTC-Infotech doesn't just provide IT products and services – we partner with our customers to solve problems, optimize operations, and create long-term value",
     "items": [
       { "title": "Quick Response", "icon": "Zap", "desc": "Emergency response within one hour or less. We can access systems remotely to resolve many issues right away without waiting for a technician to travel on-site." },
-      { "title": "Reputable", "icon": "ShieldCheck", "desc": "Over 20 years as one of the leading information technology enterprises. Our greatest achievement is a growing base of long-term, loyal customers." },
+      { "title": "Reputable", "icon": "ShieldCheck", "desc": "Over 25 years as one of the leading information technology enterprises. Our greatest achievement is a growing base of long-term, loyal customers." },
       { "title": "Satisfaction Guaranteed", "icon": "ThumbsUp", "desc": "We want our customers to be completely satisfied with our service, and we're ready to do whatever it takes to give you peace of mind — no hassle, no headaches." }
     ]
   },
@@ -154,7 +154,7 @@
     "cta": "Contact us now"
   },
   "footer": {
-    "description": "A trusted information technology partner — distributing equipment, integrating systems, and providing technical services to businesses for over 20 years.",
+    "description": "A trusted information technology partner — distributing equipment, integrating systems, and providing technical services to businesses for over 25 years.",
     "navHeading": "Our Company",
     "servicesHeading": "Our Centers",
     "contactHeading": "Contact",
@@ -189,13 +189,13 @@
       "hero": {
         "crumb": "About us",
         "eyebrow": "TTC-Infotech",
-        "title": "Over 20 years building the technology foundation for Vietnamese businesses",
+        "title": "Over 25 years building the technology foundation for Vietnamese businesses",
         "description": "Founded in 1994, TTC-Infotech is one of the leading information technology companies in Vietnam."
       },
       "story1": {
         "eyebrow": "Our story",
         "heading": "Strategic alliances with the world's leading technology vendors",
-        "desc": "Over more than 20 years, TTC-Infotech has built strategic partnerships with the world's leading IT system integrators, allowing us to bring customers the most modern systems while improving productivity through training and stable technical support services."
+        "desc": "Over more than 25 years, TTC-Infotech has built strategic partnerships with the world's leading IT system integrators, allowing us to bring customers the most modern systems while improving productivity through training and stable technical support services."
       },
       "story2": {
         "eyebrow": "Digital technology",
@@ -246,12 +246,12 @@
         "crumb": "Distribution Center",
         "eyebrow": "Distribution Center",
         "title": "TTC-Infotech's end‑to‑end technology distribution center",
-        "description": "Nearly 20 years as a vital link in Vietnam's technology distribution channel, delivering optimized solutions for every channel partner."
+        "description": "Nearly 25 years as a vital link in Vietnam's technology distribution channel, delivering optimized solutions for every channel partner."
       },
       "intro": {
         "eyebrow": "About the Distribution Center",
         "heading": "A strategic link in the technology distribution chain",
-        "desc": "With nearly 20 years of distribution experience, TTC-Infotech partners with leading technology brands such as Schneider Electric (APC by Schneider), HPE, Microsoft, and Telegartner. As one of Vietnam's leading end‑to‑end technology distributors, we put our customers' needs and goals first, acting as a true strategic partner and a vital link in the IT channel, delivering optimized solutions for every channel partner."
+        "desc": "With nearly 25 years of distribution experience, TTC-Infotech partners with leading technology brands such as Schneider Electric (APC by Schneider), HPE, Microsoft, and Telegartner. As one of Vietnam's leading end‑to‑end technology distributors, we put our customers' needs and goals first, acting as a true strategic partner and a vital link in the IT channel, delivering optimized solutions for every channel partner."
       },
       "brandsSection": {
         "eyebrow": "Distribution portfolio",
@@ -317,7 +317,7 @@
       },
       "whyEyebrow": "Why system integration matters",
       "whyHeading": "One synchronized system, running smoothly",
-      "whyDesc": "System integration is becoming increasingly important because it helps businesses and organizations get the highest efficiency from their existing infrastructure, reuse legacy software, save costs, and roll out new solutions at the same time by integrating products from different manufacturers. With more than 20 years of experience, TTC-Infotech's engineering team has consulted on and delivered comprehensive IT solutions for many clients — especially large organizations in banking, logistics, education, manufacturing, oil & gas, energy, and foreign corporations.",
+      "whyDesc": "System integration is becoming increasingly important because it helps businesses and organizations get the highest efficiency from their existing infrastructure, reuse legacy software, save costs, and roll out new solutions at the same time by integrating products from different manufacturers. With more than 25 years of experience, TTC-Infotech's engineering team has consulted on and delivered comprehensive IT solutions for many clients — especially large organizations in banking, logistics, education, manufacturing, oil & gas, energy, and foreign corporations.",
       "benefits": [
         "Maximize the performance of your existing infrastructure",
         "Reuse legacy software and equipment, reducing wasted investment",
@@ -428,7 +428,7 @@
         "commitments": [
           { "title": "Post-Deployment Support", "items": ["Remote or on-site support.", "24/7 support package.", "8/5 support package."] },
           { "title": "Warranty Support", "items": ["Priority warranty service, with equivalent loaner equipment provided during the warranty period."] },
-          { "title": "Deployment Personnel", "items": ["Over 20 years of experience in information technology, having consulted on, supplied, and deployed many infrastructure, server, virtualization, networking, and security solutions."] }
+          { "title": "Deployment Personnel", "items": ["Over 25 years of experience in information technology, having consulted on, supplied, and deployed many infrastructure, server, virtualization, networking, and security solutions."] }
         ]
       },
       "firewallLoadBalancing": {
@@ -481,7 +481,7 @@
         "commitments": [
           { "title": "Post-Deployment Support", "items": ["Remote or on-site support.", "24/7 support package.", "8/5 support package."] },
           { "title": "Warranty Support", "items": ["Priority warranty service, with equivalent loaner equipment provided during the warranty period."] },
-          { "title": "Deployment Personnel", "items": ["Over 20 years of experience in information technology, having consulted on, supplied, and deployed many infrastructure, server, virtualization, networking, and security solutions."] }
+          { "title": "Deployment Personnel", "items": ["Over 25 years of experience in information technology, having consulted on, supplied, and deployed many infrastructure, server, virtualization, networking, and security solutions."] }
         ]
       },
       "centralControl": {
@@ -533,7 +533,7 @@
         "commitments": [
           { "title": "Post-Deployment Support", "items": ["Remote or on-site support.", "24/7 support package.", "8/5 support package."] },
           { "title": "Warranty Support", "items": ["Priority warranty service, with equivalent loaner equipment provided during the warranty period."] },
-          { "title": "Deployment Personnel", "items": ["Over 20 years of experience in information technology, having consulted on, supplied, and deployed many infrastructure, server, virtualization, networking, and security solutions."] }
+          { "title": "Deployment Personnel", "items": ["Over 25 years of experience in information technology, having consulted on, supplied, and deployed many infrastructure, server, virtualization, networking, and security solutions."] }
         ]
       },
       "infrastructure": {
@@ -608,13 +608,13 @@
       "hero": {
         "crumb": "Services Center",
         "eyebrow": "Service Center",
-        "title": "A trusted technical service center, 20 years alongside businesses",
+        "title": "A trusted technical service center, 25 years alongside businesses",
         "description": "Providing warranty, maintenance, repair, and technical support services for enterprise customers and foreign corporations in Vietnam."
       },
       "intro": {
         "eyebrow": "About the Services Center",
         "heading": "A dependable IT service partner",
-        "desc": "As one of the customer service centers serving clients for more than 20 years, TTC-Infotech's Services Center provides warranty, maintenance, repair, and support services, mostly for companies and foreign corporations operating in Vietnam. The center is authorized by Schneider (APC) to warranty 1-phase and 3-phase UPS products, with ready stock that lets us resolve warranty claims quickly and conveniently for customers."
+        "desc": "As one of the customer service centers serving clients for more than 25 years, TTC-Infotech's Services Center provides warranty, maintenance, repair, and support services, mostly for companies and foreign corporations operating in Vietnam. The center is authorized by Schneider (APC) to warranty 1-phase and 3-phase UPS products, with ready stock that lets us resolve warranty claims quickly and conveniently for customers."
       },
       "criteriaSection": {
         "eyebrow": "Our criteria",
@@ -760,7 +760,7 @@
         "overviewHeading": "Overview",
         "solutionDesc": "Regular maintenance helps catch potential risks early, cuts down on unplanned incidents, and extends the life of your equipment.",
         "overview": [
-          "TTC-Infotech has been providing network and computer maintenance services to business customers for over 20 years. Periodic checks catch early warning signs before they turn into serious issues, reducing both downtime and unplanned repair costs.",
+          "TTC-Infotech has been providing network and computer maintenance services to business customers for over 25 years. Periodic checks catch early warning signs before they turn into serious issues, reducing both downtime and unplanned repair costs.",
           "Our vendor-trained, certified engineers follow a professional maintenance process and are available to support customers around the clock."
         ]
       },
@@ -807,7 +807,7 @@
       "commitments": [
         { "title": "Warranty Support", "items": ["Priority warranty service, with equivalent loaner equipment provided during the warranty period."] },
         { "title": "Technical Support", "items": ["Remote or on-site support.", "24/7 support package.", "8/5 support package."] },
-        { "title": "Deployment Personnel", "items": ["Over 20 years of experience in information technology, having consulted on, supplied, and deployed many infrastructure, server, virtualization, networking, and security solutions."] }
+        { "title": "Deployment Personnel", "items": ["Over 25 years of experience in information technology, having consulted on, supplied, and deployed many infrastructure, server, virtualization, networking, and security solutions."] }
       ]
     },
     "contact": {

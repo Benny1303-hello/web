@@ -26,7 +26,7 @@ export const metadata = {
     template: `%s | ${site.name}`,
   },
   description:
-    'TTC-Infotech - Đối tác công nghệ thông tin: phân phối thiết bị, tích hợp hệ thống và dịch vụ kỹ thuật cho doanh nghiệp trên 20 năm.',
+    'TTC-Infotech - Đối tác công nghệ thông tin: phân phối thiết bị, tích hợp hệ thống và dịch vụ kỹ thuật cho doanh nghiệp trên 25 năm.',
 };
 
 export default function RootLayout({ children }) {

@@ -56,7 +56,7 @@
   },
   "trustBadges": [
     { "title": "Phản Hồi Nhanh Chóng", "icon": "Zap", "desc": "Cam kết thời gian phản hồi khẩn cấp trong vòng một giờ hoặc ít hơn." },
-    { "title": "Uy Tín", "icon": "ShieldCheck", "desc": "Hơn 20 năm là một trong những doanh nghiệp công nghệ thông tin hàng đầu." },
+    { "title": "Uy Tín", "icon": "ShieldCheck", "desc": "Hơn 25 năm là một trong những doanh nghiệp công nghệ thông tin hàng đầu." },
     { "title": "Đảm Bảo Hài Lòng", "icon": "ThumbsUp", "desc": "Chúng tôi làm mọi thứ cần thiết để khách hàng thực sự hài lòng." }
   ],
   "stats": {
@@ -135,7 +135,7 @@
     "heading": "TTC infotech không chỉ cung cấp sản phẩm và dịch vụ CNTT – chúng tôi đồng hành cùng khách hàng để giải quyết vấn đề, tối ưu vận hành và tạo ra giá trị lâu dài",
     "items": [
       { "title": "Phản Hồi Nhanh Chóng", "icon": "Zap", "desc": "Thời gian phản hồi khẩn cấp trong một giờ hoặc ít hơn. Chúng tôi có thể truy cập từ xa để xử lý ngay nhiều sự cố mà không cần chờ kỹ thuật viên di chuyển." },
-      { "title": "Uy Tín", "icon": "ShieldCheck", "desc": "Hơn 20 năm là một trong những doanh nghiệp công nghệ thông tin hàng đầu. Thành tựu lớn nhất là số lượng khách hàng gắn bó lâu dài ngày càng tăng." },
+      { "title": "Uy Tín", "icon": "ShieldCheck", "desc": "Hơn 25 năm là một trong những doanh nghiệp công nghệ thông tin hàng đầu. Thành tựu lớn nhất là số lượng khách hàng gắn bó lâu dài ngày càng tăng." },
       { "title": "Đảm Bảo Hài Lòng", "icon": "ThumbsUp", "desc": "Chúng tôi muốn khách hàng hoàn toàn hài lòng với dịch vụ, sẵn sàng làm mọi thứ cần thiết để bạn an tâm — không rắc rối, không phiền toái." }
     ]
   },
@@ -154,7 +154,7 @@
     "cta": "Liên hệ ngay"
   },
   "footer": {
-    "description": "Đối tác công nghệ thông tin đáng tin cậy — phân phối thiết bị, tích hợp hệ thống và dịch vụ kỹ thuật cho doanh nghiệp trên 20 năm.",
+    "description": "Đối tác công nghệ thông tin đáng tin cậy — phân phối thiết bị, tích hợp hệ thống và dịch vụ kỹ thuật cho doanh nghiệp trên 25 năm.",
     "navHeading": "Công Ty Chúng Tôi",
     "servicesHeading": "Các Trung Tâm",
     "contactHeading": "Liên hệ",
@@ -189,13 +189,13 @@
       "hero": {
         "crumb": "Về chúng tôi",
         "eyebrow": "TTC-Infotech",
-        "title": "Hơn 20 năm kiến tạo nền tảng công nghệ cho doanh nghiệp Việt",
+        "title": "Hơn 25 năm kiến tạo nền tảng công nghệ cho doanh nghiệp Việt",
         "description": "Thành lập năm 1994, TTC-Infotech là một trong những công ty công nghệ thông tin hàng đầu tại Việt Nam."
       },
       "story1": {
         "eyebrow": "Câu chuyện của chúng tôi",
         "heading": "Liên minh chiến lược với các hãng công nghệ hàng đầu thế giới",
-        "desc": "Trải qua hơn 20 năm, TTC-Infotech đã xây dựng những mối quan hệ hợp tác chiến lược với các hãng tích hợp hệ thống IT hàng đầu thế giới, giúp chúng tôi mang đến cho khách hàng những hệ thống hiện đại nhất, nâng cao năng suất qua đào tạo và dịch vụ hỗ trợ kỹ thuật ổn định."
+        "desc": "Trải qua hơn 25 năm, TTC-Infotech đã xây dựng những mối quan hệ hợp tác chiến lược với các hãng tích hợp hệ thống IT hàng đầu thế giới, giúp chúng tôi mang đến cho khách hàng những hệ thống hiện đại nhất, nâng cao năng suất qua đào tạo và dịch vụ hỗ trợ kỹ thuật ổn định."
       },
       "story2": {
         "eyebrow": "Công nghệ số",
@@ -246,12 +246,12 @@
         "crumb": "Trung tâm phân phối",
         "eyebrow": "Distribution Center",
         "title": "Trung tâm phân phối công nghệ end‑to‑end của TTC-Infotech",
-        "description": "Gần 20 năm là mắt xích quan trọng trong kênh phân phối công nghệ tại Việt Nam, mang đến giải pháp tối ưu cho từng đối tác kênh phân phối."
+        "description": "Gần 25 năm là mắt xích quan trọng trong kênh phân phối công nghệ tại Việt Nam, mang đến giải pháp tối ưu cho từng đối tác kênh phân phối."
       },
       "intro": {
         "eyebrow": "Về trung tâm phân phối",
         "heading": "Một mắt xích chiến lược trong hệ thống phân phối công nghệ",
-        "desc": "Với gần 20 năm kinh nghiệm kinh doanh phân phối, TTC-Infotech hợp tác cùng nhiều hãng công nghệ hàng đầu như Schneider Electric (APC by Schneider), HPE, Microsoft và Telegartner. Là một trong những nhà phân phối công nghệ end‑to‑end hàng đầu Việt Nam, chúng tôi luôn đặt nhu cầu và mục tiêu của khách hàng làm trọng tâm, đóng vai trò đối tác chiến lược thực thụ và là mắt xích quan trọng trong kênh phân phối IT, mang đến giải pháp tối ưu cho từng đối tác kênh phân phối."
+        "desc": "Với gần 25 năm kinh nghiệm kinh doanh phân phối, TTC-Infotech hợp tác cùng nhiều hãng công nghệ hàng đầu như Schneider Electric (APC by Schneider), HPE, Microsoft và Telegartner. Là một trong những nhà phân phối công nghệ end‑to‑end hàng đầu Việt Nam, chúng tôi luôn đặt nhu cầu và mục tiêu của khách hàng làm trọng tâm, đóng vai trò đối tác chiến lược thực thụ và là mắt xích quan trọng trong kênh phân phối IT, mang đến giải pháp tối ưu cho từng đối tác kênh phân phối."
       },
       "brandsSection": {
         "eyebrow": "Danh mục phân phối",
@@ -317,7 +317,7 @@
       },
       "whyEyebrow": "Vì sao cần tích hợp hệ thống",
       "whyHeading": "Một hệ thống đồng bộ, vận hành trơn tru",
-      "whyDesc": "Tích hợp hệ thống ngày càng trở nên quan trọng vì giúp doanh nghiệp và tổ chức khai thác hiệu quả cao nhất từ hạ tầng sẵn có, tái sử dụng phần mềm cũ, tiết kiệm chi phí và triển khai đồng thời các giải pháp mới bằng cách tích hợp sản phẩm từ nhiều nhà sản xuất khác nhau. Với hơn 20 năm kinh nghiệm, đội ngũ kỹ sư TTC-Infotech đã tư vấn và triển khai các giải pháp IT toàn diện cho nhiều khách hàng, đặc biệt là các doanh nghiệp lớn thuộc lĩnh vực ngân hàng, logistics, giáo dục, sản xuất, dầu khí, năng lượng và các tập đoàn nước ngoài.",
+      "whyDesc": "Tích hợp hệ thống ngày càng trở nên quan trọng vì giúp doanh nghiệp và tổ chức khai thác hiệu quả cao nhất từ hạ tầng sẵn có, tái sử dụng phần mềm cũ, tiết kiệm chi phí và triển khai đồng thời các giải pháp mới bằng cách tích hợp sản phẩm từ nhiều nhà sản xuất khác nhau. Với hơn 25 năm kinh nghiệm, đội ngũ kỹ sư TTC-Infotech đã tư vấn và triển khai các giải pháp IT toàn diện cho nhiều khách hàng, đặc biệt là các doanh nghiệp lớn thuộc lĩnh vực ngân hàng, logistics, giáo dục, sản xuất, dầu khí, năng lượng và các tập đoàn nước ngoài.",
       "benefits": [
         "Tận dụng tối đa hiệu suất hạ tầng hiện có",
         "Tái sử dụng phần mềm và thiết bị cũ, giảm lãng phí đầu tư",
@@ -428,7 +428,7 @@
         "commitments": [
           { "title": "Hỗ Trợ Sau Triển Khai", "items": ["Hỗ trợ từ xa hoặc hỗ trợ tận nơi.", "Gói hỗ trợ 24/7.", "Gói hỗ trợ 8/5."] },
           { "title": "Hỗ Trợ Bảo Hành", "items": ["Ưu tiên bảo hành thiết bị, có thiết bị tương đương cho mượn trong thời gian bảo hành."] },
-          { "title": "Nhân Lực Triển Khai", "items": ["Hơn 20 năm kinh nghiệm trong lĩnh vực công nghệ thông tin, đã tư vấn, cung cấp và triển khai nhiều giải pháp hạ tầng, máy chủ, ảo hóa, networking và bảo mật."] }
+          { "title": "Nhân Lực Triển Khai", "items": ["Hơn 25 năm kinh nghiệm trong lĩnh vực công nghệ thông tin, đã tư vấn, cung cấp và triển khai nhiều giải pháp hạ tầng, máy chủ, ảo hóa, networking và bảo mật."] }
         ]
       },
       "firewallLoadBalancing": {
@@ -481,7 +481,7 @@
         "commitments": [
           { "title": "Hỗ Trợ Sau Triển Khai", "items": ["Hỗ trợ từ xa hoặc hỗ trợ tận nơi.", "Gói hỗ trợ 24/7.", "Gói hỗ trợ 8/5."] },
           { "title": "Hỗ Trợ Bảo Hành", "items": ["Ưu tiên bảo hành thiết bị, có thiết bị tương đương cho mượn trong thời gian bảo hành."] },
-          { "title": "Nhân Lực Triển Khai", "items": ["Hơn 20 năm kinh nghiệm trong lĩnh vực công nghệ thông tin, đã tư vấn, cung cấp và triển khai nhiều giải pháp hạ tầng, máy chủ, ảo hóa, networking và bảo mật."] }
+          { "title": "Nhân Lực Triển Khai", "items": ["Hơn 25 năm kinh nghiệm trong lĩnh vực công nghệ thông tin, đã tư vấn, cung cấp và triển khai nhiều giải pháp hạ tầng, máy chủ, ảo hóa, networking và bảo mật."] }
         ]
       },
       "centralControl": {
@@ -533,7 +533,7 @@
         "commitments": [
           { "title": "Hỗ Trợ Sau Triển Khai", "items": ["Hỗ trợ từ xa hoặc hỗ trợ tận nơi.", "Gói hỗ trợ 24/7.", "Gói hỗ trợ 8/5."] },
           { "title": "Hỗ Trợ Bảo Hành", "items": ["Ưu tiên bảo hành thiết bị, có thiết bị tương đương cho mượn trong thời gian bảo hành."] },
-          { "title": "Nhân Lực Triển Khai", "items": ["Hơn 20 năm kinh nghiệm trong lĩnh vực công nghệ thông tin, đã tư vấn, cung cấp và triển khai nhiều giải pháp hạ tầng, máy chủ, ảo hóa, networking và bảo mật."] }
+          { "title": "Nhân Lực Triển Khai", "items": ["Hơn 25 năm kinh nghiệm trong lĩnh vực công nghệ thông tin, đã tư vấn, cung cấp và triển khai nhiều giải pháp hạ tầng, máy chủ, ảo hóa, networking và bảo mật."] }
         ]
       },
       "infrastructure": {
@@ -608,13 +608,13 @@
       "hero": {
         "crumb": "Trung tâm dịch vụ",
         "eyebrow": "Service Center",
-        "title": "Trung tâm dịch vụ kỹ thuật uy tín, đồng hành 20 năm cùng doanh nghiệp",
+        "title": "Trung tâm dịch vụ kỹ thuật uy tín, đồng hành 25 năm cùng doanh nghiệp",
         "description": "Cung cấp dịch vụ bảo hành, bảo trì, sửa chữa và hỗ trợ kỹ thuật cho khách hàng doanh nghiệp và tập đoàn nước ngoài tại Việt Nam."
       },
       "intro": {
         "eyebrow": "Về Trung tâm dịch vụ",
         "heading": "Đối tác dịch vụ IT đáng tin cậy",
-        "desc": "Là một trong những trung tâm dịch vụ phục vụ khách hàng hơn 20 năm qua, Trung tâm dịch vụ TTC-Infotech cung cấp các dịch vụ bảo hành, bảo trì, sửa chữa và hỗ trợ cho khách hàng, phần lớn là các công ty và tập đoàn nước ngoài đang hoạt động tại Việt Nam. Trung tâm được Schneider (APC) ủy quyền bảo hành các sản phẩm UPS 1 pha, 3 pha, với số lượng thiết bị sẵn có giúp giải quyết bảo hành nhanh chóng, thuận tiện cho khách hàng."
+        "desc": "Là một trong những trung tâm dịch vụ phục vụ khách hàng hơn 25 năm qua, Trung tâm dịch vụ TTC-Infotech cung cấp các dịch vụ bảo hành, bảo trì, sửa chữa và hỗ trợ cho khách hàng, phần lớn là các công ty và tập đoàn nước ngoài đang hoạt động tại Việt Nam. Trung tâm được Schneider (APC) ủy quyền bảo hành các sản phẩm UPS 1 pha, 3 pha, với số lượng thiết bị sẵn có giúp giải quyết bảo hành nhanh chóng, thuận tiện cho khách hàng."
       },
       "criteriaSection": {
         "eyebrow": "Tiêu chí hoạt động",
@@ -760,7 +760,7 @@
         "overviewHeading": "Tổng quan",
         "solutionDesc": "Bảo trì định kỳ giúp doanh nghiệp phát hiện sớm các rủi ro tiềm ẩn, hạn chế sự cố phát sinh và kéo dài tuổi thọ thiết bị.",
         "overview": [
-          "TTC-Infotech cung cấp dịch vụ bảo trì hệ thống mạng và máy tính cho khách hàng doanh nghiệp trong hơn 20 năm qua. Việc kiểm tra, bảo trì định kỳ giúp phát hiện sớm các dấu hiệu bất thường trước khi chúng trở thành sự cố nghiêm trọng, từ đó giảm thiểu thời gian gián đoạn và chi phí sửa chữa phát sinh.",
+          "TTC-Infotech cung cấp dịch vụ bảo trì hệ thống mạng và máy tính cho khách hàng doanh nghiệp trong hơn 25 năm qua. Việc kiểm tra, bảo trì định kỳ giúp phát hiện sớm các dấu hiệu bất thường trước khi chúng trở thành sự cố nghiêm trọng, từ đó giảm thiểu thời gian gián đoạn và chi phí sửa chữa phát sinh.",
           "Đội ngũ kỹ sư được đào tạo và cấp chứng chỉ từ các hãng công nghệ thực hiện bảo trì theo quy trình chuyên nghiệp, hỗ trợ khách hàng với thời gian phục vụ 24/7."
         ]
       },
@@ -807,7 +807,7 @@
       "commitments": [
         { "title": "Hỗ Trợ Bảo Hành", "items": ["Ưu tiên bảo hành thiết bị, có thiết bị tương đương cho mượn trong thời gian bảo hành."] },
         { "title": "Hỗ Trợ Kỹ Thuật", "items": ["Hỗ trợ từ xa hoặc hỗ trợ tận nơi.", "Gói hỗ trợ 24/7.", "Gói hỗ trợ 8/5."] },
-        { "title": "Nhân Lực Triển Khai", "items": ["Hơn 20 năm kinh nghiệm trong lĩnh vực công nghệ thông tin, đã tư vấn, cung cấp và triển khai nhiều giải pháp hạ tầng, máy chủ, ảo hóa, networking và bảo mật."] }
+        { "title": "Nhân Lực Triển Khai", "items": ["Hơn 25 năm kinh nghiệm trong lĩnh vực công nghệ thông tin, đã tư vấn, cung cấp và triển khai nhiều giải pháp hạ tầng, máy chủ, ảo hóa, networking và bảo mật."] }
       ]
     },
     "contact": {

@@ -76,8 +76,7 @@
     "capabilities": {
       "networkConsulting": "Tư vấn & Thiết kế hệ thống mạng, máy chủ, tường lửa, wifi",
       "networkCabling": "Thi công hệ thống cáp mạng, điện thoại, camera",
-      "systemIntegration": "Tích hợp hệ thống",
-      "lanWanEmail": "Triển khai hệ thống LAN, WAN, Email",
+      "lanWanEmail": "Triển khai hệ thống mạng LAN, WAN, Email, Bảo mật",
       "maintenance": "Dịch vụ bảo trì hệ thống",
       "hardwareDistribution": "Phân phối sản phẩm APC và EATON",
       "rental": "Cho thuê máy tính, máy chủ, máy in",

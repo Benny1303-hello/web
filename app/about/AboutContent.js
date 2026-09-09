@@ -11,8 +11,10 @@ export default function AboutContent() {
   const { t } = useLanguage();
   const pillarsRaw = t('pages.about.pillars');
   const whyChooseUsRaw = t('whyChooseUs.items');
+  const setApartRaw = t('pages.about.setApart.items');
   const pillars = Array.isArray(pillarsRaw) ? pillarsRaw : [];
   const whyChooseUs = Array.isArray(whyChooseUsRaw) ? whyChooseUsRaw : [];
+  const setApart = Array.isArray(setApartRaw) ? setApartRaw : [];
 
   return (
     <>
@@ -94,6 +96,35 @@ export default function AboutContent() {
           </div>
         </div>
       </section>
+
+      {setApart.length > 0 && (
+        <section className="bg-mist-50 py-20">
+          <div className="container-page">
+            <Reveal className="mx-auto max-w-2xl text-center">
+              <h2 className="text-balance font-display text-3xl font-bold text-navy-900 md:text-4xl">
+                {t('pages.about.setApart.heading')}
+              </h2>
+            </Reveal>
+
+            <div className="mt-14 flex flex-wrap justify-center gap-6">
+              {setApart.map((item, i) => {
+                const Icon = ICONS[item.icon];
+                return (
+                  <Reveal key={item.title} delay={i * 0.1} className="w-full sm:w-[calc(50%-12px)] lg:w-[calc(25%-18px)]">
+                    <div className="h-full rounded-2xl bg-white p-8 shadow-soft ring-1 ring-black/5">
+                      <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-cyan-400 text-white">
+                        {Icon && <Icon size={20} />}
+                      </div>
+                      <h3 className="mt-4 font-display text-lg font-bold text-ink-900">{item.title}</h3>
+                      <p className="mt-3 text-sm leading-relaxed text-ink-400">{item.desc}</p>
+                    </div>
+                  </Reveal>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      )}
 
       <CtaBanner />
     </>

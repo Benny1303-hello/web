@@ -207,7 +207,16 @@
         { "title": "Mission", "icon": "Compass", "desc": "To bring a digital operating foundation to businesses, walking alongside Vietnam on its journey toward a technology-driven economy." },
         { "title": "Aspiration", "icon": "Heart", "desc": "Always putting customers' interests first, driven by the ambition to help businesses operate more efficiently and faster every day." },
         { "title": "People", "icon": "Users2", "desc": "A team that works with passion, loves technology, and continuously innovates on every project while leading by example." }
-      ]
+      ],
+      "setApart": {
+        "heading": "What Sets Us Apart?",
+        "items": [
+          { "title": "Value for Money", "icon": "Wallet", "desc": "TTC-Infotech offers its customers powerful, richly configured systems at competitive prices." },
+          { "title": "Customization", "icon": "Settings", "desc": "Every product and service we offer is customized to suit each customer's requirements." },
+          { "title": "Reliability, Service & Support", "icon": "ShieldCheck", "desc": "TTC-Infotech draws on knowledge gained from direct client contact before and after every sale to deliver award-winning reliability and tailored customer service." },
+          { "title": "Latest Technology", "icon": "Rocket", "desc": "TTC-Infotech always introduces the latest relevant technology to its customers." }
+        ]
+      }
     },
     "promotions": {
       "hero": {

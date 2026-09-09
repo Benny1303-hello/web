@@ -3,14 +3,14 @@
 import { CheckCircle2 } from 'lucide-react';
 import Reveal from '@/components/Reveal';
 import Button from '@/components/Button';
+import { companySteps } from '@/lib/content';
+import { ICONS } from '@/lib/icons';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function CompanyOverview() {
   const { t } = useLanguage();
   const pointsRaw = t('companyOverview.points');
-  const stepsRaw = t('companyOverview.steps');
   const points = Array.isArray(pointsRaw) ? pointsRaw : [];
-  const steps = Array.isArray(stepsRaw) ? stepsRaw : [];
 
   return (
     <section className="bg-mist-50 py-20">
@@ -20,15 +20,22 @@ export default function CompanyOverview() {
             <div className="absolute -inset-4 -z-10 rounded-3xl bg-gradient-to-br from-brand-500/15 to-cyan-400/15 blur-2xl" />
             <div className="rounded-3xl bg-white p-8 shadow-card ring-1 ring-black/5">
               <div className="grid grid-cols-2 gap-4">
-                {steps.map((label, i) => (
-                  <div
-                    key={label}
-                    className="flex flex-col items-center justify-center gap-2 rounded-2xl bg-mist-50 py-8 text-center ring-1 ring-black/5"
-                  >
-                    <span className="font-display text-2xl font-bold text-brand-600">0{i + 1}</span>
-                    <span className="text-sm font-medium text-ink-600">{label}</span>
-                  </div>
-                ))}
+                {companySteps.map((step) => {
+                  const Icon = ICONS[step.icon];
+                  return (
+                    <div
+                      key={step.key}
+                      className="flex flex-col items-center justify-center gap-2 rounded-2xl bg-mist-50 py-8 text-center ring-1 ring-black/5"
+                    >
+                      {Icon && (
+                        <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-cyan-400 text-white">
+                          <Icon size={22} />
+                        </span>
+                      )}
+                      <span className="text-sm font-medium text-ink-600">{t(`companyOverview.steps.${step.key}`)}</span>
+                    </div>
+                  );
+                })}
               </div>
             </div>
           </div>

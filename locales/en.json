@@ -72,7 +72,12 @@
       "Strategic alliances with leading technology vendors",
       "Proactive 24/7 technical support and monitoring"
     ],
-    "steps": ["Consult", "Distribute", "Integrate", "Operate"],
+    "steps": {
+      "consult": "Consult",
+      "distribute": "Distribute",
+      "integrate": "Integrate",
+      "operate": "Operate"
+    },
     "cta": "Learn more"
   },
   "centersSection": {

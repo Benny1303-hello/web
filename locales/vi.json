@@ -65,14 +65,19 @@
   },
   "companyOverview": {
     "eyebrow": "Tổng quan công ty",
-    "heading": "Vận hành hệ thống IT không còn là gánh nặng của riêng bạn",
+    "heading": "Đơn giản hóa IT, tối ưu vận hành, thúc đẩy tăng trưởng.",
     "description": "Tự xây dựng và vận hành phòng IT nội bộ vừa tốn thời gian vừa tốn kém. TTC-Infotech đồng hành cùng doanh nghiệp gánh vác trách nhiệm đó — một giải pháp phổ biến và hiệu quả, đặc biệt với các doanh nghiệp vừa và nhỏ.",
     "points": [
       "Đội ngũ kỹ sư giàu kinh nghiệm, chứng chỉ quốc tế",
       "Liên minh chiến lược với các hãng công nghệ hàng đầu",
       "Hỗ trợ kỹ thuật và giám sát chủ động 24/7"
     ],
-    "steps": ["Tư vấn", "Phân phối", "Tích hợp", "Vận hành"],
+    "steps": {
+      "consult": "Tư vấn",
+      "distribute": "Phân phối",
+      "integrate": "Tích hợp",
+      "operate": "Vận hành"
+    },
     "cta": "Tìm hiểu thêm"
   },
   "centersSection": {

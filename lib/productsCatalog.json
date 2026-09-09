@@ -28521,13 +28521,78 @@
       "name": "Bộ Lưu Điện (UPS) Eaton 5A700I Line Interactive/ 700VA/360W",
       "category_label": "Eaton 5A Series (Line Interactive)",
       "brand": "EATON",
+      "overview": "Eaton 5A700I UPS, 700 VA, 360 W, Line-interactive, Output: (4) NEMA Universal outlets, Tower",
       "warranty": "3 years",
-      "specs": [
+      "images": ["/products/5a700i-nema/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
         {
-          "label": "Capacity",
-          "value": "700 VA / 360 W"
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "5A700I-NEMA" },
+            { "label": "Topology", "value": "Line-interactive" },
+            { "label": "VA rating", "value": "700 VA" },
+            { "label": "Wattage", "value": "360 W" },
+            { "label": "Format", "value": "Tower" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Dimension (D x W x H)", "value": "297 x 101 x 142 mm" },
+            { "label": "Product Weight", "value": "4 kg" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input voltage range", "value": "140-300 VAC" },
+            { "label": "Frequency range", "value": "60/50 Hz (Auto sensing)" },
+            { "label": "Surge protection", "value": "Yes" },
+            { "label": "Generator compatible", "value": "Yes" },
+            { "label": "Circuit breaker", "value": "Yes" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Output voltage", "value": "230 VAC" },
+            { "label": "Output voltage reg. (Battery mode)", "value": "±10%" },
+            { "label": "Output backup socket", "value": "(4) NEMA Universal outlets" },
+            { "label": "Battery wave form", "value": "Stepped sine wave" },
+            { "label": "Transfer time", "value": "2-6ms typical, 10ms max" },
+            { "label": "Protection", "value": "PCBA current sensor (F/W protection)" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery type", "value": "12V/7Ah x1" },
+            { "label": "Floating charging voltage", "value": "13.5-13.8V" },
+            { "label": "Recharge time", "value": "4-6 hours recover to 90% capacity" },
+            { "label": "Typical battery runtime, IT load (100W)", "value": "18 min" },
+            { "label": "Typical battery runtime, 50% load", "value": "5 min" },
+            { "label": "Typical battery runtime, 75% load", "value": "1.5 min" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Indicator", "value": "LED" },
+            { "label": "On/Off switch", "value": "Yes" },
+            { "label": "Communication - USB", "value": "No" },
+            { "label": "Communication - RS232", "value": "No" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Mute by power key", "value": "Yes" },
+            { "label": "Package", "value": "Color box" }
+          ]
         }
-      ]
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "5a900i-nema",
@@ -28536,13 +28601,78 @@
       "name": "Bộ Lưu Điện (UPS) Eaton 5A900I Line Interactive/ 900VA/480W",
       "category_label": "Eaton 5A Series (Line Interactive)",
       "brand": "EATON",
+      "overview": "Eaton 5A900I UPS, 900 VA, 480 W, Line-interactive, Output: (4) NEMA Universal outlets, Tower",
       "warranty": "3 years",
-      "specs": [
+      "images": ["/products/5a900i-nema/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
         {
-          "label": "Capacity",
-          "value": "900 VA / 480 W"
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "5A900I-NEMA" },
+            { "label": "Topology", "value": "Line-interactive" },
+            { "label": "VA rating", "value": "900 VA" },
+            { "label": "Wattage", "value": "480 W" },
+            { "label": "Format", "value": "Tower" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Dimension (D x W x H)", "value": "297 x 101 x 142 mm" },
+            { "label": "Product Weight", "value": "4.7 kg" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input voltage range", "value": "140-300 VAC" },
+            { "label": "Frequency range", "value": "60/50 Hz (Auto sensing)" },
+            { "label": "Surge protection", "value": "Yes" },
+            { "label": "Generator compatible", "value": "Yes" },
+            { "label": "Circuit breaker", "value": "Yes" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Output voltage", "value": "230 VAC" },
+            { "label": "Output voltage reg. (Battery mode)", "value": "±10%" },
+            { "label": "Output backup socket", "value": "(4) NEMA Universal outlets" },
+            { "label": "Battery wave form", "value": "Stepped sine wave" },
+            { "label": "Transfer time", "value": "2-6ms typical, 10ms max" },
+            { "label": "Protection", "value": "PCBA current sensor (F/W protection)" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery type", "value": "12V/9Ah x1" },
+            { "label": "Floating charging voltage", "value": "13.5-13.8V" },
+            { "label": "Recharge time", "value": "4-6 hours recover to 90% capacity" },
+            { "label": "Typical battery runtime, IT load (100W)", "value": "30 min" },
+            { "label": "Typical battery runtime, 50% load", "value": "5 min" },
+            { "label": "Typical battery runtime, 75% load", "value": "1 min" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Indicator", "value": "LED" },
+            { "label": "On/Off switch", "value": "Yes" },
+            { "label": "Communication - USB", "value": "No" },
+            { "label": "Communication - RS232", "value": "No" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Mute by power key", "value": "Yes" },
+            { "label": "Package", "value": "Color box" }
+          ]
         }
-      ]
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "5a1200i-nema",
@@ -28551,13 +28681,78 @@
       "name": "Bộ Lưu Điện (UPS) Eaton 5A1200I Line Interactive/ 1200VA/650W",
       "category_label": "Eaton 5A Series (Line Interactive)",
       "brand": "EATON",
+      "overview": "Eaton 5A1200I UPS, 1200 VA, 650 W, Line-interactive, Output: (4) NEMA Universal outlets, Tower",
       "warranty": "3 years",
-      "specs": [
+      "images": ["/products/5a1200i-nema/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
         {
-          "label": "Capacity",
-          "value": "1200 VA / 650 W"
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "5A1200I-NEMA" },
+            { "label": "Topology", "value": "Line-interactive" },
+            { "label": "VA rating", "value": "1200 VA" },
+            { "label": "Wattage", "value": "650 W" },
+            { "label": "Format", "value": "Tower" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Dimension (D x W x H)", "value": "297 x 101 x 142 mm" },
+            { "label": "Product Weight", "value": "6.25 kg" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input voltage range", "value": "140-300 VAC" },
+            { "label": "Frequency range", "value": "60/50 Hz (Auto sensing)" },
+            { "label": "Surge protection", "value": "Yes" },
+            { "label": "Generator compatible", "value": "Yes" },
+            { "label": "Circuit breaker", "value": "Yes" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Output voltage", "value": "230 VAC" },
+            { "label": "Output voltage reg. (Battery mode)", "value": "±10%" },
+            { "label": "Output backup socket", "value": "(4) NEMA Universal outlets" },
+            { "label": "Battery wave form", "value": "Stepped sine wave" },
+            { "label": "Transfer time", "value": "2-6ms typical, 10ms max" },
+            { "label": "Protection", "value": "PCBA current sensor (F/W protection)" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery type", "value": "12V/9Ah x1" },
+            { "label": "Floating charging voltage", "value": "13.5-13.8V" },
+            { "label": "Recharge time", "value": "4-6 hours recover to 90% capacity" },
+            { "label": "Typical battery runtime, IT load (100W)", "value": "25 min" },
+            { "label": "Typical battery runtime, 50% load", "value": "4.8 min" },
+            { "label": "Typical battery runtime, 75% load", "value": "25 s" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Indicator", "value": "LED" },
+            { "label": "On/Off switch", "value": "Yes" },
+            { "label": "Communication - USB", "value": "No" },
+            { "label": "Communication - RS232", "value": "No" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Mute by power key", "value": "Yes" },
+            { "label": "Package", "value": "Color box" }
+          ]
         }
-      ]
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "5a1500i-nema",
@@ -28566,13 +28761,78 @@
       "name": "Bộ Lưu Điện (UPS) Eaton 5A1500I Line Interactive/ 1500VA/900W",
       "category_label": "Eaton 5A Series (Line Interactive)",
       "brand": "EATON",
+      "overview": "Eaton 5A1500I UPS, 1500 VA, 900 W, Line-interactive, Output: (6) NEMA Universal outlets, Tower",
       "warranty": "3 years",
-      "specs": [
+      "images": ["/products/5a1500i-nema/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
         {
-          "label": "Capacity",
-          "value": "1500 VA / 900 W"
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "5A1500I-NEMA" },
+            { "label": "Topology", "value": "Line-interactive" },
+            { "label": "VA rating", "value": "1500 VA" },
+            { "label": "Wattage", "value": "900 W" },
+            { "label": "Format", "value": "Tower" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Dimension (D x W x H)", "value": "370 x 138 x 165 mm" },
+            { "label": "Product Weight", "value": "10.85 kg" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input voltage range", "value": "140-300 VAC" },
+            { "label": "Frequency range", "value": "60/50 Hz (Auto sensing)" },
+            { "label": "Surge protection", "value": "Yes" },
+            { "label": "Generator compatible", "value": "Yes" },
+            { "label": "Circuit breaker", "value": "Yes" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Output voltage", "value": "230 VAC" },
+            { "label": "Output voltage reg. (Battery mode)", "value": "±10%" },
+            { "label": "Output backup socket", "value": "(6) NEMA Universal outlets" },
+            { "label": "Battery wave form", "value": "Stepped sine wave" },
+            { "label": "Transfer time", "value": "2-6ms typical, 10ms max" },
+            { "label": "Protection", "value": "PCBA current sensor (F/W protection)" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery type", "value": "12V/7Ah x2" },
+            { "label": "Floating charging voltage", "value": "27-27.6V" },
+            { "label": "Recharge time", "value": "4-6 hours recover to 90% capacity" },
+            { "label": "Typical battery runtime, IT load (100W)", "value": "55 min" },
+            { "label": "Typical battery runtime, 50% load", "value": "8 min" },
+            { "label": "Typical battery runtime, 75% load", "value": "3 min" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Indicator", "value": "LED" },
+            { "label": "On/Off switch", "value": "Yes" },
+            { "label": "Communication - USB", "value": "No" },
+            { "label": "Communication - RS232", "value": "No" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Mute by power key", "value": "Yes" },
+            { "label": "Package", "value": "Color box" }
+          ]
         }
-      ]
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "5a2200i-nema",
@@ -28581,13 +28841,78 @@
       "name": "Bộ Lưu Điện (UPS) Eaton 5A2200I Line Interactive/ 2200VA/1200W",
       "category_label": "Eaton 5A Series (Line Interactive)",
       "brand": "EATON",
+      "overview": "Eaton 5A2200I UPS, 2200 VA, 1200 W, Line-interactive, Output: (6) NEMA Universal outlets, Tower",
       "warranty": "3 years",
-      "specs": [
+      "images": ["/products/5a2200i-nema/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
         {
-          "label": "Capacity",
-          "value": "2200 VA / 1200 W"
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "5A2200I-NEMA" },
+            { "label": "Topology", "value": "Line-interactive" },
+            { "label": "VA rating", "value": "2200 VA" },
+            { "label": "Wattage", "value": "1200 W" },
+            { "label": "Format", "value": "Tower" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Dimension (D x W x H)", "value": "370 x 138 x 165 mm" },
+            { "label": "Product Weight", "value": "11.7 kg" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input voltage range", "value": "140-300 VAC" },
+            { "label": "Frequency range", "value": "60/50 Hz (Auto sensing)" },
+            { "label": "Surge protection", "value": "Yes" },
+            { "label": "Generator compatible", "value": "Yes" },
+            { "label": "Circuit breaker", "value": "Yes" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Output voltage", "value": "230 VAC" },
+            { "label": "Output voltage reg. (Battery mode)", "value": "±10%" },
+            { "label": "Output backup socket", "value": "(6) NEMA Universal outlets" },
+            { "label": "Battery wave form", "value": "Stepped sine wave" },
+            { "label": "Transfer time", "value": "2-6ms typical, 10ms max" },
+            { "label": "Protection", "value": "PCBA current sensor (F/W protection)" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery type", "value": "12V/9Ah x2" },
+            { "label": "Floating charging voltage", "value": "27-27.6V" },
+            { "label": "Recharge time", "value": "4-6 hours recover to 90% capacity" },
+            { "label": "Typical battery runtime, IT load (100W)", "value": "60 min" },
+            { "label": "Typical battery runtime, 50% load", "value": "8.5 min" },
+            { "label": "Typical battery runtime, 75% load", "value": "1.8 min" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Indicator", "value": "LED" },
+            { "label": "On/Off switch", "value": "Yes" },
+            { "label": "Communication - USB", "value": "No" },
+            { "label": "Communication - RS232", "value": "No" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Mute by power key", "value": "Yes" },
+            { "label": "Package", "value": "Color box" }
+          ]
         }
-      ]
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "5sc1000i",
@@ -29994,7 +30319,93 @@
       "name": "Bộ Lưu Điện (UPS) 1053T EATON IEC 1KVA 220/230/240 9A",
       "category_label": "Eaton 9A Series",
       "brand": "EATON",
-      "warranty": "3 years"
+      "overview": "Eaton 9A1000I UPS, 1000 VA, 900 W, Online double-conversion, Input: IEC C14, Output: (4) IEC 320 C13, Tower",
+      "warranty": "3 years",
+      "images": ["/products/9a1000i/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "9A1000I" },
+            { "label": "Topology", "value": "Online double-conversion" },
+            { "label": "VA rating", "value": "1000 VA" },
+            { "label": "Wattage", "value": "900 W" },
+            { "label": "Power Factor", "value": "0.9" },
+            { "label": "Format", "value": "Tower" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Dimension (D x W x H)", "value": "355 x 145 x 230 mm" },
+            { "label": "Product Weight", "value": "9.6 kg" },
+            { "label": "IP rating", "value": "IP20" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input connection", "value": "IEC C14" },
+            { "label": "Input nominal voltage", "value": "220/230/240 VAC" },
+            { "label": "Input voltage range", "value": "176-300V at 100% load, 100-300V at <40% load (no derating)" },
+            { "label": "Nominal frequency", "value": "50/60 Hz" },
+            { "label": "Frequency range", "value": "45-55 Hz (50 Hz system), 54-66 Hz (60 Hz system)" },
+            { "label": "Default input current (230V)", "value": "4.7 A" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Output connection", "value": "(4) IEC 320 C13" },
+            { "label": "Output voltage", "value": "220/230/240 VAC, ±1%" },
+            { "label": "Output frequency", "value": "50 Hz or 60 Hz, autosensing or configurable" },
+            { "label": "Voltage waveform", "value": "Sine wave" },
+            { "label": "Harmonic distortion (THDv)", "value": "<2% linear load, <6% non-linear load" },
+            { "label": "Efficiency (Normal / High Efficiency / Battery mode)", "value": "90% / up to 97% / up to 85%" },
+            { "label": "Short circuit current limitation", "value": "12 A < 7 cycles" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Internal battery", "value": "24 Vdc - 2 x 12V, 9Ah" },
+            { "label": "Battery type", "value": "Sealed, maintenance-free, valve-regulated lead-acid, 3-5 years float life at 25°C" },
+            { "label": "Runtime at 100% load (internal battery)", "value": "4 min" },
+            { "label": "Runtime at 100% load with 1 EBM", "value": "25 min" },
+            { "label": "Charging current (EBM)", "value": "1.5 A" },
+            { "label": "Extended battery capability", "value": "Up to 4 EBM (9AEBM24)" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Display", "value": "Segment LCD, red indication on warning/alarm" },
+            { "label": "Communication ports", "value": "RS232 port, USB port (not HID), EPO, Mini Slot, battery connector, circuit breaker" },
+            { "label": "Connectivity cards", "value": "NMC G1, AS400, CMC G1 (Modbus)" },
+            { "label": "Software", "value": "WinPower" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Operating temperature", "value": "0-40°C, online mode, linear derating for altitude" },
+            { "label": "Storage temperature", "value": "0-40°C with batteries, -15 to 55°C without batteries" },
+            { "label": "Relative humidity", "value": "0-95% non-condensing" },
+            { "label": "Operating altitude", "value": "Up to 3000 m (1% derating per 100m above 1000m)" },
+            { "label": "Audible noise", "value": "<50 dBA at 1 meter typical" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Standards", "value": "IEC 62040-1:2008+A1:2013, EN IEC 62040-1:2019+A11:2021, EN/IEC 62040-2 (Category C2), IEC/EN 62040-3" },
+            { "label": "Certifications", "value": "CE, KC, TISI" },
+            { "label": "EMC (Emissions)", "value": "CISPR32 Class A" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "9a2000i",
@@ -30003,7 +30414,93 @@
       "name": "Bộ Lưu Điện (UPS) 1073T EATON IEC 2KVA 220/230/240 9A",
       "category_label": "Eaton 9A Series",
       "brand": "EATON",
-      "warranty": "3 years"
+      "overview": "Eaton 9A2000I UPS, 2000 VA, 1800 W, Online double-conversion, Input: IEC C14, Output: (4) IEC 320 C13, Tower",
+      "warranty": "3 years",
+      "images": ["/products/9a2000i/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "9A2000I" },
+            { "label": "Topology", "value": "Online double-conversion" },
+            { "label": "VA rating", "value": "2000 VA" },
+            { "label": "Wattage", "value": "1800 W" },
+            { "label": "Power Factor", "value": "0.9" },
+            { "label": "Format", "value": "Tower" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Dimension (D x W x H)", "value": "400 x 190 x 325 mm" },
+            { "label": "Product Weight", "value": "17.8 kg" },
+            { "label": "IP rating", "value": "IP20" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input connection", "value": "IEC C14" },
+            { "label": "Input nominal voltage", "value": "220/230/240 VAC" },
+            { "label": "Input voltage range", "value": "176-300V at 100% load, 100-300V at <40% load (no derating)" },
+            { "label": "Nominal frequency", "value": "50/60 Hz" },
+            { "label": "Frequency range", "value": "45-55 Hz (50 Hz system), 54-66 Hz (60 Hz system)" },
+            { "label": "Default input current (230V)", "value": "9.2 A" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Output connection", "value": "(4) IEC 320 C13" },
+            { "label": "Output voltage", "value": "220/230/240 VAC, ±1%" },
+            { "label": "Output frequency", "value": "50 Hz or 60 Hz, autosensing or configurable" },
+            { "label": "Voltage waveform", "value": "Sine wave" },
+            { "label": "Harmonic distortion (THDv)", "value": "<2% linear load, <6% non-linear load" },
+            { "label": "Efficiency (Normal / High Efficiency / Battery mode)", "value": "90% / up to 97% / up to 85%" },
+            { "label": "Short circuit current limitation", "value": "26 A < 7 cycles" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Internal battery", "value": "48 Vdc - 4 x 12V, 9Ah" },
+            { "label": "Battery type", "value": "Sealed, maintenance-free, valve-regulated lead-acid, 3-5 years float life at 25°C" },
+            { "label": "Runtime at 100% load (internal battery)", "value": "4 min" },
+            { "label": "Runtime at 100% load with 1 EBM", "value": "26 min" },
+            { "label": "Charging current (EBM)", "value": "1.5 A" },
+            { "label": "Extended battery capability", "value": "Up to 4 EBM (9AEBM48)" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Display", "value": "Segment LCD, red indication on warning/alarm" },
+            { "label": "Communication ports", "value": "RS232 port, USB port (not HID), EPO, Mini Slot, battery connector, circuit breaker" },
+            { "label": "Connectivity cards", "value": "NMC G1, AS400, CMC G1 (Modbus)" },
+            { "label": "Software", "value": "WinPower" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Operating temperature", "value": "0-40°C, online mode, linear derating for altitude" },
+            { "label": "Storage temperature", "value": "0-40°C with batteries, -15 to 55°C without batteries" },
+            { "label": "Relative humidity", "value": "0-95% non-condensing" },
+            { "label": "Operating altitude", "value": "Up to 3000 m (1% derating per 100m above 1000m)" },
+            { "label": "Audible noise", "value": "<50 dBA at 1 meter typical" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Standards", "value": "IEC 62040-1:2008+A1:2013, EN IEC 62040-1:2019+A11:2021, EN/IEC 62040-2 (Category C2), IEC/EN 62040-3" },
+            { "label": "Certifications", "value": "CE, KC, TISI" },
+            { "label": "EMC (Emissions)", "value": "CISPR32 Class A" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "9a3000i",
@@ -30012,7 +30509,93 @@
       "name": "Bộ Lưu Điện (UPS) 1083T EATON IEC 3KVA 220/230/240 9A",
       "category_label": "Eaton 9A Series",
       "brand": "EATON",
-      "warranty": "3 years"
+      "overview": "Eaton 9A3000I UPS, 3000 VA, 2700 W, Online double-conversion, Input: IEC C20, Output: (6) IEC 320 C13 + (1) C19, Tower",
+      "warranty": "3 years",
+      "images": ["/products/9a3000i/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "9A3000I" },
+            { "label": "Topology", "value": "Online double-conversion" },
+            { "label": "VA rating", "value": "3000 VA" },
+            { "label": "Wattage", "value": "2700 W" },
+            { "label": "Power Factor", "value": "0.9" },
+            { "label": "Format", "value": "Tower" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Dimension (D x W x H)", "value": "400 x 190 x 325 mm" },
+            { "label": "Product Weight", "value": "23.5 kg" },
+            { "label": "IP rating", "value": "IP20" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input connection", "value": "IEC C20" },
+            { "label": "Input nominal voltage", "value": "220/230/240 VAC" },
+            { "label": "Input voltage range", "value": "176-300V at 100% load, 100-300V at <40% load (no derating)" },
+            { "label": "Nominal frequency", "value": "50/60 Hz" },
+            { "label": "Frequency range", "value": "45-55 Hz (50 Hz system), 54-66 Hz (60 Hz system)" },
+            { "label": "Default input current (230V)", "value": "14.1 A" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Output connection", "value": "(6) IEC 320 C13 + (1) C19" },
+            { "label": "Output voltage", "value": "220/230/240 VAC, ±1%" },
+            { "label": "Output frequency", "value": "50 Hz or 60 Hz, autosensing or configurable" },
+            { "label": "Voltage waveform", "value": "Sine wave" },
+            { "label": "Harmonic distortion (THDv)", "value": "<2% linear load, <6% non-linear load" },
+            { "label": "Efficiency (Normal / High Efficiency / Battery mode)", "value": "91% / up to 97% / up to 85%" },
+            { "label": "Short circuit current limitation", "value": "40 A < 7 cycles" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Internal battery", "value": "72 Vdc - 6 x 12V, 9Ah" },
+            { "label": "Battery type", "value": "Sealed, maintenance-free, valve-regulated lead-acid, 3-5 years float life at 25°C" },
+            { "label": "Runtime at 100% load (internal battery)", "value": "4 min" },
+            { "label": "Runtime at 100% load with 1 EBM", "value": "18 min" },
+            { "label": "Charging current (EBM)", "value": "1.5 A" },
+            { "label": "Extended battery capability", "value": "Up to 4 EBM (9AEBM72)" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Display", "value": "Segment LCD, red indication on warning/alarm" },
+            { "label": "Communication ports", "value": "RS232 port, USB port (not HID), EPO, Mini Slot, battery connector, circuit breaker" },
+            { "label": "Connectivity cards", "value": "NMC G1, AS400, CMC G1 (Modbus)" },
+            { "label": "Software", "value": "WinPower" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Operating temperature", "value": "0-40°C, online mode, linear derating for altitude" },
+            { "label": "Storage temperature", "value": "0-40°C with batteries, -15 to 55°C without batteries" },
+            { "label": "Relative humidity", "value": "0-95% non-condensing" },
+            { "label": "Operating altitude", "value": "Up to 3000 m (1% derating per 100m above 1000m)" },
+            { "label": "Audible noise", "value": "<50 dBA at 1 meter typical" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Standards", "value": "IEC 62040-1:2008+A1:2013, EN IEC 62040-1:2019+A11:2021, EN/IEC 62040-2 (Category C2), IEC/EN 62040-3" },
+            { "label": "Certifications", "value": "CE, KC, TISI" },
+            { "label": "EMC (Emissions)", "value": "CISPR32 Class A" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "9aebm24",
@@ -30021,7 +30604,39 @@
       "name": "ẮCQUY CHO BỘ LƯU ĐIỆN (BATTERY) BT090230 EATON W/T BAT 1K 9AEBM24 TOWER",
       "category_label": "Eaton 9A Series",
       "brand": "EATON",
-      "warranty": "3 years"
+      "overview": "Eaton 9AEBM24 extended battery module, 24 Vdc, Tower, for 9A1000I",
+      "warranty": "3 years",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Product Type", "value": "Extended Battery Module" },
+            { "label": "Format", "value": "Tower" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Dimension (D x W x H)", "value": "355 x 145 x 230 mm" },
+            { "label": "Product Weight", "value": "18.8 kg" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery configuration", "value": "24 Vdc - 3 x 2 x 12V, 3 x 9Ah" },
+            { "label": "Battery type", "value": "Sealed, maintenance-free, valve-regulated lead-acid, 3-5 years float life at 25°C" },
+            { "label": "Charging current", "value": "1.5 A" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Used with", "value": "9A1000I" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "9aebm48",
@@ -30030,7 +30645,39 @@
       "name": "ẮCQUY CHO BỘ LƯU ĐIỆN (BATTERY) BT090430 EATON W/T BAT 2K 9AEBM48 TOWER",
       "category_label": "Eaton 9A Series",
       "brand": "EATON",
-      "warranty": "3 years"
+      "overview": "Eaton 9AEBM48 extended battery module, 48 Vdc, Tower, for 9A2000I",
+      "warranty": "3 years",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Product Type", "value": "Extended Battery Module" },
+            { "label": "Format", "value": "Tower" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Dimension (D x W x H)", "value": "400 x 190 x 325 mm" },
+            { "label": "Product Weight", "value": "36.7 kg" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery configuration", "value": "48 Vdc - 3 x 4 x 12V, 3 x 9Ah" },
+            { "label": "Battery type", "value": "Sealed, maintenance-free, valve-regulated lead-acid, 3-5 years float life at 25°C" },
+            { "label": "Charging current", "value": "1.5 A" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Used with", "value": "9A2000I" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "9aebm72",
@@ -30039,7 +30686,39 @@
       "name": "ẮCQUY CHO BỘ LƯU ĐIỆN (BATTERY) BT090620 EATON W/T BAT 3K 9AEBM72 TOWER",
       "category_label": "Eaton 9A Series",
       "brand": "EATON",
-      "warranty": "3 years"
+      "overview": "Eaton 9AEBM72 extended battery module, 72 Vdc, Tower, for 9A3000I",
+      "warranty": "3 years",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Product Type", "value": "Extended Battery Module" },
+            { "label": "Format", "value": "Tower" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Dimension (D x W x H)", "value": "400 x 190 x 325 mm" },
+            { "label": "Product Weight", "value": "36.7 kg" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery configuration", "value": "72 Vdc - 2 x 6 x 12V, 2 x 9Ah" },
+            { "label": "Battery type", "value": "Sealed, maintenance-free, valve-regulated lead-acid, 3-5 years float life at 25°C" },
+            { "label": "Charging current", "value": "1.5 A" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Used with", "value": "9A3000I" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "9a1000ir",
@@ -30048,7 +30727,99 @@
       "name": "Bộ Lưu Điện (UPS) 1053R EATON IEC 1KVA 220/230/240 9A",
       "category_label": "Eaton 9A Series",
       "brand": "EATON",
-      "warranty": "3 years"
+      "overview": "Eaton 9A1000IR UPS, 1000 VA, 900 W, Online double-conversion, Input: IEC C14, Output: (4) IEC 320 C13, Rack 2U",
+      "warranty": "3 years",
+      "images": ["/products/9a1000ir/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "9A1000IR" },
+            { "label": "Topology", "value": "Online double-conversion" },
+            { "label": "VA rating", "value": "1000 VA" },
+            { "label": "Wattage", "value": "900 W" },
+            { "label": "Power Factor", "value": "0.9" },
+            { "label": "Format", "value": "Rack 2U" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Dimension (D x W x H)", "value": "435 x 438 x 86 mm" },
+            { "label": "Product Weight", "value": "12.6 kg" },
+            { "label": "IP rating", "value": "IP20" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input connection", "value": "IEC C14" },
+            { "label": "Input nominal voltage", "value": "220/230/240 VAC" },
+            { "label": "Input voltage range", "value": "176-300V at 100% load, 100-300V at <40% load (no derating)" },
+            { "label": "Nominal frequency", "value": "50/60 Hz" },
+            { "label": "Frequency range", "value": "45-55 Hz (50 Hz system), 54-66 Hz (60 Hz system)" },
+            { "label": "Default input current (230V)", "value": "4.7 A" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Output connection", "value": "(4) IEC 320 C13" },
+            { "label": "Output voltage", "value": "220/230/240 VAC, ±1%" },
+            { "label": "Output frequency", "value": "50 Hz or 60 Hz, autosensing or configurable" },
+            { "label": "Voltage waveform", "value": "Sine wave" },
+            { "label": "Harmonic distortion (THDv)", "value": "<2% linear load, <6% non-linear load" },
+            { "label": "Efficiency (Normal / High Efficiency / Battery mode)", "value": "90% / up to 97% / up to 85%" },
+            { "label": "Short circuit current limitation", "value": "12 A < 7 cycles" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Internal battery", "value": "24 Vdc - 2 x 12V, 9Ah" },
+            { "label": "Battery type", "value": "Sealed, maintenance-free, valve-regulated lead-acid, 3-5 years float life at 25°C" },
+            { "label": "Runtime at 100% load (internal battery)", "value": "4 min" },
+            { "label": "Runtime at 100% load with 1 EBM", "value": "25 min" },
+            { "label": "Charging current (EBM)", "value": "1.5 A" },
+            { "label": "Extended battery capability", "value": "Up to 4 EBM (9AEBM24R)" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Display", "value": "Segment LCD, red indication on warning/alarm" },
+            { "label": "Communication ports", "value": "RS232 port, USB port (not HID), EPO, Mini Slot, battery connector, circuit breaker" },
+            { "label": "Connectivity cards", "value": "NMC G1, AS400, CMC G1 (Modbus)" },
+            { "label": "Software", "value": "WinPower" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Operating temperature", "value": "0-40°C, online mode, linear derating for altitude" },
+            { "label": "Storage temperature", "value": "0-40°C with batteries, -15 to 55°C without batteries" },
+            { "label": "Relative humidity", "value": "0-95% non-condensing" },
+            { "label": "Operating altitude", "value": "Up to 3000 m (1% derating per 100m above 1000m)" },
+            { "label": "Audible noise", "value": "<50 dBA at 1 meter typical" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Standards", "value": "IEC 62040-1:2008+A1:2013, EN IEC 62040-1:2019+A11:2021, EN/IEC 62040-2 (Category C2), IEC/EN 62040-3" },
+            { "label": "Certifications", "value": "CE, KC, TISI" },
+            { "label": "EMC (Emissions)", "value": "CISPR32 Class A" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Rack mounting kit", "value": "Yes" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "9a2000ir",
@@ -30057,7 +30828,99 @@
       "name": "Bộ Lưu Điện (UPS) 1073R EATON IEC 2KVA 220/230/240 9A",
       "category_label": "Eaton 9A Series",
       "brand": "EATON",
-      "warranty": "3 years"
+      "overview": "Eaton 9A2000IR UPS, 2000 VA, 1800 W, Online double-conversion, Input: IEC C14, Output: (4) IEC 320 C13, Rack 2U",
+      "warranty": "3 years",
+      "images": ["/products/9a2000ir/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "9A2000IR" },
+            { "label": "Topology", "value": "Online double-conversion" },
+            { "label": "VA rating", "value": "2000 VA" },
+            { "label": "Wattage", "value": "1800 W" },
+            { "label": "Power Factor", "value": "0.9" },
+            { "label": "Format", "value": "Rack 2U" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Dimension (D x W x H)", "value": "435 x 438 x 86 mm" },
+            { "label": "Product Weight", "value": "19.3 kg" },
+            { "label": "IP rating", "value": "IP20" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input connection", "value": "IEC C14" },
+            { "label": "Input nominal voltage", "value": "220/230/240 VAC" },
+            { "label": "Input voltage range", "value": "176-300V at 100% load, 100-300V at <40% load (no derating)" },
+            { "label": "Nominal frequency", "value": "50/60 Hz" },
+            { "label": "Frequency range", "value": "45-55 Hz (50 Hz system), 54-66 Hz (60 Hz system)" },
+            { "label": "Default input current (230V)", "value": "9.2 A" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Output connection", "value": "(4) IEC 320 C13" },
+            { "label": "Output voltage", "value": "220/230/240 VAC, ±1%" },
+            { "label": "Output frequency", "value": "50 Hz or 60 Hz, autosensing or configurable" },
+            { "label": "Voltage waveform", "value": "Sine wave" },
+            { "label": "Harmonic distortion (THDv)", "value": "<2% linear load, <6% non-linear load" },
+            { "label": "Efficiency (Normal / High Efficiency / Battery mode)", "value": "90% / up to 97% / up to 85%" },
+            { "label": "Short circuit current limitation", "value": "26 A < 7 cycles" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Internal battery", "value": "48 Vdc - 4 x 12V, 9Ah" },
+            { "label": "Battery type", "value": "Sealed, maintenance-free, valve-regulated lead-acid, 3-5 years float life at 25°C" },
+            { "label": "Runtime at 100% load (internal battery)", "value": "4 min" },
+            { "label": "Runtime at 100% load with 1 EBM", "value": "18 min" },
+            { "label": "Charging current (EBM)", "value": "1.5 A" },
+            { "label": "Extended battery capability", "value": "Up to 4 EBM (9AEBM48R)" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Display", "value": "Segment LCD, red indication on warning/alarm" },
+            { "label": "Communication ports", "value": "RS232 port, USB port (not HID), EPO, Mini Slot, battery connector, circuit breaker" },
+            { "label": "Connectivity cards", "value": "NMC G1, AS400, CMC G1 (Modbus)" },
+            { "label": "Software", "value": "WinPower" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Operating temperature", "value": "0-40°C, online mode, linear derating for altitude" },
+            { "label": "Storage temperature", "value": "0-40°C with batteries, -15 to 55°C without batteries" },
+            { "label": "Relative humidity", "value": "0-95% non-condensing" },
+            { "label": "Operating altitude", "value": "Up to 3000 m (1% derating per 100m above 1000m)" },
+            { "label": "Audible noise", "value": "<50 dBA at 1 meter typical" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Standards", "value": "IEC 62040-1:2008+A1:2013, EN IEC 62040-1:2019+A11:2021, EN/IEC 62040-2 (Category C2), IEC/EN 62040-3" },
+            { "label": "Certifications", "value": "CE, KC, TISI" },
+            { "label": "EMC (Emissions)", "value": "CISPR32 Class A" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Rack mounting kit", "value": "Yes" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "9a3000ir",
@@ -30066,7 +30929,99 @@
       "name": "Bộ Lưu Điện (UPS) 1083R EATON IEC 3KVA 220/230/240 9A",
       "category_label": "Eaton 9A Series",
       "brand": "EATON",
-      "warranty": "2 years"
+      "overview": "Eaton 9A3000IR UPS, 3000 VA, 2700 W, Online double-conversion, Input: IEC C20, Output: (6) IEC 320 C13 + (1) C19, Rack 2U",
+      "warranty": "2 years",
+      "images": ["/products/9a3000ir/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "9A3000IR" },
+            { "label": "Topology", "value": "Online double-conversion" },
+            { "label": "VA rating", "value": "3000 VA" },
+            { "label": "Wattage", "value": "2700 W" },
+            { "label": "Power Factor", "value": "0.9" },
+            { "label": "Format", "value": "Rack 2U" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Dimension (D x W x H)", "value": "608 x 438 x 86 mm" },
+            { "label": "Product Weight", "value": "27.9 kg" },
+            { "label": "IP rating", "value": "IP20" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input connection", "value": "IEC C20" },
+            { "label": "Input nominal voltage", "value": "220/230/240 VAC" },
+            { "label": "Input voltage range", "value": "176-300V at 100% load, 100-300V at <40% load (no derating)" },
+            { "label": "Nominal frequency", "value": "50/60 Hz" },
+            { "label": "Frequency range", "value": "45-55 Hz (50 Hz system), 54-66 Hz (60 Hz system)" },
+            { "label": "Default input current (230V)", "value": "14.1 A" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Output connection", "value": "(6) IEC 320 C13 + (1) C19" },
+            { "label": "Output voltage", "value": "220/230/240 VAC, ±1%" },
+            { "label": "Output frequency", "value": "50 Hz or 60 Hz, autosensing or configurable" },
+            { "label": "Voltage waveform", "value": "Sine wave" },
+            { "label": "Harmonic distortion (THDv)", "value": "<2% linear load, <6% non-linear load" },
+            { "label": "Efficiency (Normal / High Efficiency / Battery mode)", "value": "91% / up to 97% / up to 85%" },
+            { "label": "Short circuit current limitation", "value": "40 A < 7 cycles" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Internal battery", "value": "72 Vdc - 6 x 12V, 9Ah" },
+            { "label": "Battery type", "value": "Sealed, maintenance-free, valve-regulated lead-acid, 3-5 years float life at 25°C" },
+            { "label": "Runtime at 100% load (internal battery)", "value": "4 min" },
+            { "label": "Runtime at 100% load with 1 EBM", "value": "19 min" },
+            { "label": "Charging current (EBM)", "value": "1.5 A" },
+            { "label": "Extended battery capability", "value": "Up to 4 EBM (9AEBM72R)" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Display", "value": "Segment LCD, red indication on warning/alarm" },
+            { "label": "Communication ports", "value": "RS232 port, USB port (not HID), EPO, Mini Slot, battery connector, circuit breaker" },
+            { "label": "Connectivity cards", "value": "NMC G1, AS400, CMC G1 (Modbus)" },
+            { "label": "Software", "value": "WinPower" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Operating temperature", "value": "0-40°C, online mode, linear derating for altitude" },
+            { "label": "Storage temperature", "value": "0-40°C with batteries, -15 to 55°C without batteries" },
+            { "label": "Relative humidity", "value": "0-95% non-condensing" },
+            { "label": "Operating altitude", "value": "Up to 3000 m (1% derating per 100m above 1000m)" },
+            { "label": "Audible noise", "value": "<50 dBA at 1 meter typical" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Standards", "value": "IEC 62040-1:2008+A1:2013, EN IEC 62040-1:2019+A11:2021, EN/IEC 62040-2 (Category C2), IEC/EN 62040-3" },
+            { "label": "Certifications", "value": "CE, KC, TISI" },
+            { "label": "EMC (Emissions)", "value": "CISPR32 Class A" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Rack mounting kit", "value": "Yes" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "9aebm24r",
@@ -30075,7 +31030,40 @@
       "name": "ẮCQUY CHO BỘ LƯU ĐIỆN (BATTERY) BT090230 EATON W/T BAT 1K 9AEBM24 RACK",
       "category_label": "Eaton 9A Series",
       "brand": "EATON",
-      "warranty": "3 years"
+      "overview": "Eaton 9AEBM24R extended battery module, 24 Vdc, Rack 2U, for 9A1000IR",
+      "warranty": "3 years",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Product Type", "value": "Extended Battery Module" },
+            { "label": "Format", "value": "Rack 2U" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Dimension (D x W x H)", "value": "435 x 438 x 86 mm" },
+            { "label": "Product Weight", "value": "21.9 kg" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery configuration", "value": "24 Vdc - 3 x 2 x 12V, 3 x 9Ah" },
+            { "label": "Battery type", "value": "Sealed, maintenance-free, valve-regulated lead-acid, 3-5 years float life at 25°C" },
+            { "label": "Charging current", "value": "1.5 A" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Used with", "value": "9A1000IR" },
+            { "label": "Rack mounting kit", "value": "Yes" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "9aebm48r",
@@ -30084,7 +31072,40 @@
       "name": "ẮCQUY CHO BỘ LƯU ĐIỆN (BATTERY) BT090420 EATON W/T BAT 2K 9AEBM48 RACK",
       "category_label": "Eaton 9A Series",
       "brand": "EATON",
-      "warranty": "3 years"
+      "overview": "Eaton 9AEBM48R extended battery module, 48 Vdc, Rack 2U, for 9A2000IR",
+      "warranty": "3 years",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Product Type", "value": "Extended Battery Module" },
+            { "label": "Format", "value": "Rack 2U" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Dimension (D x W x H)", "value": "435 x 438 x 86 mm" },
+            { "label": "Product Weight", "value": "26.8 kg" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery configuration", "value": "48 Vdc - 2 x 4 x 12V, 2 x 9Ah" },
+            { "label": "Battery type", "value": "Sealed, maintenance-free, valve-regulated lead-acid, 3-5 years float life at 25°C" },
+            { "label": "Charging current", "value": "1.5 A" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Used with", "value": "9A2000IR" },
+            { "label": "Rack mounting kit", "value": "Yes" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "9aebm72r",
@@ -30093,7 +31114,40 @@
       "name": "ẮCQUY CHO BỘ LƯU ĐIỆN (BATTERY) BT090620 EATON W/T BAT 3K 9AEBM72 RACK",
       "category_label": "Eaton 9A Series",
       "brand": "EATON",
-      "warranty": "3 years"
+      "overview": "Eaton 9AEBM72R extended battery module, 72 Vdc, Rack 2U, for 9A3000IR",
+      "warranty": "3 years",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Product Type", "value": "Extended Battery Module" },
+            { "label": "Format", "value": "Rack 2U" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Dimension (D x W x H)", "value": "608 x 438 x 86 mm" },
+            { "label": "Product Weight", "value": "38.9 kg" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery configuration", "value": "72 Vdc - 2 x 6 x 12V, 2 x 9Ah" },
+            { "label": "Battery type", "value": "Sealed, maintenance-free, valve-regulated lead-acid, 3-5 years float life at 25°C" },
+            { "label": "Charging current", "value": "1.5 A" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Used with", "value": "9A3000IR" },
+            { "label": "Rack mounting kit", "value": "Yes" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "dxrt6ki-ap2",
@@ -30102,7 +31156,88 @@
       "name": "Bộ Lưu Điện (UPS) 1112RT ETN TB 6KVA 220/220 DXRT AP2",
       "category_label": "Eaton DX RT Series",
       "brand": "EATON",
-      "warranty": "3 years"
+      "overview": "Eaton DX RT 6KI UPS, 6000 VA, 6000 W, Online double-conversion, Tower/Rack",
+      "warranty": "3 years",
+      "images": ["/products/dxrt6ki-ap2/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "DXRT6Ki" },
+            { "label": "Topology", "value": "Online double-conversion" },
+            { "label": "VA rating", "value": "6000 VA" },
+            { "label": "Wattage", "value": "6000 W" },
+            { "label": "Format", "value": "Tower / Rack" },
+            { "label": "Efficiency", "value": "Double conversion mode 95%; ECO mode 98%" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Dimension (W x D x H)", "value": "443 x 570 x 87 mm" },
+            { "label": "Product Weight", "value": "13.0 kg" },
+            { "label": "Protection level", "value": "IP20" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input voltage range", "value": "110-275 VAC" },
+            { "label": "Input frequency range", "value": "40-70 Hz" },
+            { "label": "Power factor (input)", "value": "≥ 0.995" },
+            { "label": "Harmonic distortion (linear load)", "value": "<3%" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Output power factor", "value": "1" },
+            { "label": "Output voltage", "value": "208 / 220 / 230 / 240 VAC (default 220 VAC)" },
+            { "label": "Voltage variation", "value": "±1%" },
+            { "label": "Output frequency (battery mode)", "value": "(50/60 ± 0.1) Hz" },
+            { "label": "Voltage distortion (linear load)", "value": "<1%" },
+            { "label": "Overload capacity", "value": "105-125% for 10 minutes; 125-150% for 30 seconds" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery type", "value": "Valve-regulated lead-acid, maintenance-free" },
+            { "label": "Battery voltage", "value": "192 Vdc default, 16pcs default (adjustable 192/204/216/228/240 Vdc, 20pcs optional)" },
+            { "label": "Backup time, full load", "value": "4 minutes (PF=0.9)" },
+            { "label": "Backup time, 50% load", "value": "11 minutes (PF=0.9)" },
+            { "label": "Charger current", "value": "0-4A (default 1.6A)" },
+            { "label": "Extended runtime", "value": "Supports EBM (DXRTEBM192-09-AP)" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Display", "value": "Graphical LCD + LED indicator" },
+            { "label": "Communication", "value": "Communication card slot, Dry contact, EPO port, USB port, RS232 port" },
+            { "label": "Maintenance bypass switch", "value": "Built-in" },
+            { "label": "Parallel operation", "value": "Supports up to 3 units" },
+            { "label": "Options", "value": "Rack mounting rail, EBM, PDU, Network-M3, INDGW-M2, Relay-MS cards, centralized monitoring software IPM, parallel kit" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Operating temperature", "value": "0 to 40°C" },
+            { "label": "Storage temperature", "value": "-20 to 55°C (without battery)" },
+            { "label": "Relative humidity", "value": "0-95% (no condensation)" },
+            { "label": "Operating altitude", "value": "<1000m no derating, >1000m derating 1% for every 100m" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Certifications", "value": "CE" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "dxrt10ki-ap2",
@@ -30111,7 +31246,88 @@
       "name": "Bộ Lưu Điện (UPS) 1132RT ETN TB 10KVA 220/220 DXRT AP1",
       "category_label": "Eaton DX RT Series",
       "brand": "EATON",
-      "warranty": "3 years"
+      "overview": "Eaton DX RT 10KI UPS, 10000 VA, 10000 W, Online double-conversion, Tower/Rack",
+      "warranty": "3 years",
+      "images": ["/products/dxrt10ki-ap2/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "DXRT10Ki" },
+            { "label": "Topology", "value": "Online double-conversion" },
+            { "label": "VA rating", "value": "10000 VA" },
+            { "label": "Wattage", "value": "10000 W" },
+            { "label": "Format", "value": "Tower / Rack" },
+            { "label": "Efficiency", "value": "Double conversion mode 95%; ECO mode 98%" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Dimension (W x D x H)", "value": "443 x 570 x 87 mm" },
+            { "label": "Product Weight", "value": "14.5 kg" },
+            { "label": "Protection level", "value": "IP20" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input voltage range", "value": "110-275 VAC" },
+            { "label": "Input frequency range", "value": "40-70 Hz" },
+            { "label": "Power factor (input)", "value": "≥ 0.995" },
+            { "label": "Harmonic distortion (linear load)", "value": "<3%" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Output power factor", "value": "1" },
+            { "label": "Output voltage", "value": "208 / 220 / 230 / 240 VAC (default 220 VAC)" },
+            { "label": "Voltage variation", "value": "±1%" },
+            { "label": "Output frequency (battery mode)", "value": "(50/60 ± 0.1) Hz" },
+            { "label": "Voltage distortion (linear load)", "value": "<1%" },
+            { "label": "Overload capacity", "value": "105-125% for 10 minutes; 125-150% for 30 seconds" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery type", "value": "Valve-regulated lead-acid, maintenance-free" },
+            { "label": "Battery voltage", "value": "192 Vdc default, 16pcs default (adjustable 192/204/216/228/240 Vdc, 20pcs optional)" },
+            { "label": "Backup time, full load", "value": "2 minutes (PF=0.9)" },
+            { "label": "Backup time, 50% load", "value": "8 minutes (PF=0.9)" },
+            { "label": "Charger current", "value": "0-4A (default 2A)" },
+            { "label": "Extended runtime", "value": "Supports EBM (DXRTEBM192-09-AP)" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Display", "value": "Graphical LCD + LED indicator" },
+            { "label": "Communication", "value": "Communication card slot, Dry contact, EPO port, USB port, RS232 port" },
+            { "label": "Maintenance bypass switch", "value": "Built-in" },
+            { "label": "Parallel operation", "value": "Supports up to 3 units" },
+            { "label": "Options", "value": "Rack mounting rail, EBM, PDU, Network-M3, INDGW-M2, Relay-MS cards, centralized monitoring software IPM, parallel kit" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Operating temperature", "value": "0 to 40°C" },
+            { "label": "Storage temperature", "value": "-20 to 55°C (without battery)" },
+            { "label": "Relative humidity", "value": "0-95% (no condensation)" },
+            { "label": "Operating altitude", "value": "<1000m no derating, >1000m derating 1% for every 100m" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Certifications", "value": "CE" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "dxrt6kixl-ap",
@@ -30120,7 +31336,86 @@
       "name": "Bộ Lưu Điện (UPS) 1112SRT ETN(DRG) TB 6KVA 220/220 DXRT AP",
       "category_label": "Eaton DX RT Series",
       "brand": "EATON",
-      "warranty": "3 years"
+      "overview": "Eaton DX RT 6KIXL UPS, 6000 VA, 6000 W, Online double-conversion, long-runtime, Tower/Rack",
+      "warranty": "3 years",
+      "images": ["/products/dxrt6kixl-ap/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "DXRT6KiXL" },
+            { "label": "Topology", "value": "Online double-conversion" },
+            { "label": "VA rating", "value": "6000 VA" },
+            { "label": "Wattage", "value": "6000 W" },
+            { "label": "Format", "value": "Tower / Rack" },
+            { "label": "Efficiency", "value": "Double conversion mode 95%; ECO mode 98%" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Dimension (W x D x H)", "value": "443 x 570 x 87 mm" },
+            { "label": "Product Weight", "value": "13.1 kg" },
+            { "label": "Protection level", "value": "IP20" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input voltage range", "value": "110-275 VAC" },
+            { "label": "Input frequency range", "value": "40-70 Hz" },
+            { "label": "Power factor (input)", "value": "≥ 0.995" },
+            { "label": "Harmonic distortion (linear load)", "value": "<3%" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Output power factor", "value": "1" },
+            { "label": "Output voltage", "value": "208 / 220 / 230 / 240 VAC (default 220 VAC)" },
+            { "label": "Voltage variation", "value": "±1%" },
+            { "label": "Output frequency (battery mode)", "value": "(50/60 ± 0.1) Hz" },
+            { "label": "Voltage distortion (linear load)", "value": "<1%" },
+            { "label": "Overload capacity", "value": "105-125% for 10 minutes; 125-150% for 30 seconds" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery type", "value": "Valve-regulated lead-acid, maintenance-free" },
+            { "label": "Battery voltage", "value": "192 Vdc default, 16pcs default (adjustable 192/204/216/228/240 Vdc, 20pcs optional)" },
+            { "label": "Backup time, full load / 50% load", "value": "Depends on battery configuration (extended-runtime model)" },
+            { "label": "Charger current", "value": "0-12A (default 4A)" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Display", "value": "Graphical LCD + LED indicator" },
+            { "label": "Communication", "value": "Communication card slot, Dry contact, EPO port, USB port, RS232 port" },
+            { "label": "Maintenance bypass switch", "value": "Built-in" },
+            { "label": "Parallel operation", "value": "Supports up to 3 units" },
+            { "label": "Options", "value": "Rack mounting rail, EBM, PDU, Network-M3, INDGW-M2, Relay-MS cards, centralized monitoring software IPM, parallel kit" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Operating temperature", "value": "0 to 40°C" },
+            { "label": "Storage temperature", "value": "-20 to 55°C (without battery)" },
+            { "label": "Relative humidity", "value": "0-95% (no condensation)" },
+            { "label": "Operating altitude", "value": "<1000m no derating, >1000m derating 1% for every 100m" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Certifications", "value": "CE" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "dxrt10kixl-ap",
@@ -30129,7 +31424,86 @@
       "name": "Bộ Lưu Điện (UPS) 1132SRT ETN(DRG)TB 10KVA 220/220 DXRT AP",
       "category_label": "Eaton DX RT Series",
       "brand": "EATON",
-      "warranty": "3 years"
+      "overview": "Eaton DX RT 10KIXL UPS, 10000 VA, 10000 W, Online double-conversion, long-runtime, Tower/Rack",
+      "warranty": "3 years",
+      "images": ["/products/dxrt10kixl-ap/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "DXRT10KiXL" },
+            { "label": "Topology", "value": "Online double-conversion" },
+            { "label": "VA rating", "value": "10000 VA" },
+            { "label": "Wattage", "value": "10000 W" },
+            { "label": "Format", "value": "Tower / Rack" },
+            { "label": "Efficiency", "value": "Double conversion mode 95%; ECO mode 98%" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Dimension (W x D x H)", "value": "443 x 570 x 87 mm" },
+            { "label": "Product Weight", "value": "15.0 kg" },
+            { "label": "Protection level", "value": "IP20" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Input voltage range", "value": "110-275 VAC" },
+            { "label": "Input frequency range", "value": "40-70 Hz" },
+            { "label": "Power factor (input)", "value": "≥ 0.995" },
+            { "label": "Harmonic distortion (linear load)", "value": "<3%" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Output power factor", "value": "1" },
+            { "label": "Output voltage", "value": "208 / 220 / 230 / 240 VAC (default 220 VAC)" },
+            { "label": "Voltage variation", "value": "±1%" },
+            { "label": "Output frequency (battery mode)", "value": "(50/60 ± 0.1) Hz" },
+            { "label": "Voltage distortion (linear load)", "value": "<1%" },
+            { "label": "Overload capacity", "value": "105-125% for 10 minutes; 125-150% for 30 seconds" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery type", "value": "Valve-regulated lead-acid, maintenance-free" },
+            { "label": "Battery voltage", "value": "192 Vdc default, 16pcs default (adjustable 192/204/216/228/240 Vdc, 20pcs optional)" },
+            { "label": "Backup time, full load / 50% load", "value": "Depends on battery configuration (extended-runtime model)" },
+            { "label": "Charger current", "value": "0-12A (default 4A)" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Display", "value": "Graphical LCD + LED indicator" },
+            { "label": "Communication", "value": "Communication card slot, Dry contact, EPO port, USB port, RS232 port" },
+            { "label": "Maintenance bypass switch", "value": "Built-in" },
+            { "label": "Parallel operation", "value": "Supports up to 3 units" },
+            { "label": "Options", "value": "Rack mounting rail, EBM, PDU, Network-M3, INDGW-M2, Relay-MS cards, centralized monitoring software IPM, parallel kit" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Operating temperature", "value": "0 to 40°C" },
+            { "label": "Storage temperature", "value": "-20 to 55°C (without battery)" },
+            { "label": "Relative humidity", "value": "0-95% (no condensation)" },
+            { "label": "Operating altitude", "value": "<1000m no derating, >1000m derating 1% for every 100m" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Certifications", "value": "CE" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "dxrtebm192-09-ap",
@@ -30138,7 +31512,32 @@
       "name": "ẮCQUY CHO BỘ LƯU ĐIỆN (BATTERY) BT091610 ETN(DRG) W/T BAT 6-10K DXRT AP",
       "category_label": "Eaton DX RT Series",
       "brand": "EATON",
-      "warranty": "3 years"
+      "overview": "Eaton DX RT extended battery module, 192 Vdc, Tower/Rack, for DXRT6Ki and DXRT10Ki",
+      "warranty": "3 years",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Product Type", "value": "Extended Battery Module" },
+            { "label": "Format", "value": "Tower / Rack" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery voltage", "value": "192 Vdc, 16 x 12V" },
+            { "label": "Battery capacity", "value": "9 Ah" },
+            { "label": "Battery type", "value": "Valve-regulated lead-acid, maintenance-free" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Used with", "value": "DXRT6Ki, DXRT10Ki" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "9sx15kpm",
@@ -30147,7 +31546,101 @@
       "name": "Bộ Lưu Điện (UPS ) Eaton 9SX UPS, Rack 3U, 15000VA, 15000W",
       "category_label": "Eaton 9SX Series",
       "brand": "EATON",
-      "warranty": "3 years"
+      "overview": "Eaton 9SX15KPM UPS power module, 15 kVA, 15 kW, Online double-conversion, Rack/Tower 3U, no built-in battery",
+      "warranty": "3 years",
+      "images": ["/products/9sx15kpm/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "9SX15KPM" },
+            { "label": "Topology", "value": "Online double-conversion" },
+            { "label": "VA rating", "value": "15 kVA" },
+            { "label": "Wattage", "value": "15 kW" },
+            { "label": "Max power factor", "value": "1" },
+            { "label": "Format", "value": "Rack/Tower 3U" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Dimension (H x W x D)", "value": "129 x 438 x 589 mm" },
+            { "label": "Net weight", "value": "23.7 kg" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Rated input voltage", "value": "1 phase 220/230/240V; 3 phase 380/400/415V" },
+            { "label": "Input voltage range", "value": "160-300V full load; 100-160V linear derating" },
+            { "label": "Rated input frequency", "value": "50Hz / 60Hz" },
+            { "label": "Input frequency range", "value": "40-70 Hz" },
+            { "label": "System compatibility", "value": "TN-S / IT" },
+            { "label": "Input power factor", "value": ">0.995 both 1 phase and 3 phase" },
+            { "label": "THDi", "value": "≤3% linear load; ≤5% non-linear load" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Input-output phase connection", "value": "3-1, 3-3, 1-1" },
+            { "label": "Rated output voltage", "value": "1 phase 220/230/240V; 3 phase 380/400/415V" },
+            { "label": "Rated output frequency", "value": "50Hz / 60Hz" },
+            { "label": "Rated output apparent power", "value": "15 kVA" },
+            { "label": "Rated output active power", "value": "15 kW" },
+            { "label": "Voltage variation", "value": "±1%" },
+            { "label": "THDv", "value": "≤1% linear load; ≤3% non-linear load" },
+            { "label": "Load crest ratio", "value": "≥3:1" },
+            { "label": "Output connection", "value": "Terminal block" },
+            { "label": "Overload capacity (line mode, rated voltage)", "value": "105-125%: 10 min; 125-150%: 1 min; >150%: 0.5s" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Built-in battery", "value": "None (UPS without built-in battery, requires EBM)" },
+            { "label": "EBM quantity", "value": "Maximum 6 (each EBM comes with 2 rows of 192V batteries)" },
+            { "label": "Battery voltage", "value": "±192V adjustable" },
+            { "label": "Charging current", "value": "0-13A adjustable" },
+            { "label": "Recharging time", "value": "3 hours to 90% (2 EBM)" },
+            { "label": "Standard bundle", "value": "1 power module + 2 EBM" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Display", "value": "Touchscreen color LCD (with gravity sensor)" },
+            { "label": "Connectivity port", "value": "RS232 DB9; USB 2.0 type-B; programmable dry in/out; Intelligent slot" },
+            { "label": "Parallel mode", "value": "Maximum 3 units (built-in parallel board)" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Operation temperature", "value": "0-50°C (0-40°C no derating, 40-50°C derating to 50%)" },
+            { "label": "Storage temperature", "value": "-25 to 60°C" },
+            { "label": "Relative humidity", "value": "0-95%" },
+            { "label": "Operating altitude", "value": "0-4000m (0-1000m no derating, 1000-4000m derating 1% every 100m)" },
+            { "label": "Noise", "value": "≤55dB" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Safety", "value": "CE / TLC / RCM" },
+            { "label": "Energy saving", "value": "CQC" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Efficiency, online mode", "value": "Up to 96%" },
+            { "label": "Efficiency, ECO or ESS mode", "value": "Up to 98.8%" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "9sx20kpm",
@@ -30156,7 +31649,101 @@
       "name": "Bộ Lưu Điện (UPS) Eaton 9SX UPS, Rack 3U, 20000VA, 20000W",
       "category_label": "Eaton 9SX Series",
       "brand": "EATON",
-      "warranty": "3 years"
+      "overview": "Eaton 9SX20KPM UPS power module, 20 kVA, 20 kW, Online double-conversion, Rack/Tower 3U, no built-in battery",
+      "warranty": "3 years",
+      "images": ["/products/9sx20kpm/1.jpg"],
+      "imageSource": "eaton.com",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Model Code", "value": "9SX20KPM" },
+            { "label": "Topology", "value": "Online double-conversion" },
+            { "label": "VA rating", "value": "20 kVA" },
+            { "label": "Wattage", "value": "20 kW" },
+            { "label": "Max power factor", "value": "1" },
+            { "label": "Format", "value": "Rack/Tower 3U" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Dimension (H x W x D)", "value": "129 x 438 x 589 mm" },
+            { "label": "Net weight", "value": "23.7 kg" }
+          ]
+        },
+        {
+          "group": "Input",
+          "items": [
+            { "label": "Rated input voltage", "value": "1 phase 220/230/240V; 3 phase 380/400/415V" },
+            { "label": "Input voltage range", "value": "160-300V full load; 100-160V linear derating" },
+            { "label": "Rated input frequency", "value": "50Hz / 60Hz" },
+            { "label": "Input frequency range", "value": "40-70 Hz" },
+            { "label": "System compatibility", "value": "TN-S / IT" },
+            { "label": "Input power factor", "value": ">0.995 both 1 phase and 3 phase" },
+            { "label": "THDi", "value": "≤3% linear load; ≤5% non-linear load" }
+          ]
+        },
+        {
+          "group": "Output",
+          "items": [
+            { "label": "Input-output phase connection", "value": "3-1, 3-3, 1-1" },
+            { "label": "Rated output voltage", "value": "1 phase 220/230/240V; 3 phase 380/400/415V" },
+            { "label": "Rated output frequency", "value": "50Hz / 60Hz" },
+            { "label": "Rated output apparent power", "value": "20 kVA" },
+            { "label": "Rated output active power", "value": "20 kW" },
+            { "label": "Voltage variation", "value": "±1%" },
+            { "label": "THDv", "value": "≤1% linear load; ≤3% non-linear load" },
+            { "label": "Load crest ratio", "value": "≥3:1" },
+            { "label": "Output connection", "value": "Terminal block" },
+            { "label": "Overload capacity (line mode, rated voltage)", "value": "105-125%: 10 min; 125-150%: 1 min; >150%: 0.5s" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Built-in battery", "value": "None (UPS without built-in battery, requires EBM)" },
+            { "label": "EBM quantity", "value": "Maximum 6 (each EBM comes with 2 rows of 192V batteries)" },
+            { "label": "Battery voltage", "value": "±192V adjustable" },
+            { "label": "Charging current", "value": "0-13A adjustable" },
+            { "label": "Recharging time", "value": "3 hours to 90% (2 EBM)" },
+            { "label": "Standard bundle", "value": "1 power module + 2 EBM" }
+          ]
+        },
+        {
+          "group": "Communications & Management",
+          "items": [
+            { "label": "Display", "value": "Touchscreen color LCD (with gravity sensor)" },
+            { "label": "Connectivity port", "value": "RS232 DB9; USB 2.0 type-B; programmable dry in/out; Intelligent slot" },
+            { "label": "Parallel mode", "value": "Maximum 3 units (built-in parallel board)" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Operation temperature", "value": "0-50°C (0-40°C no derating, 40-50°C derating to 50%)" },
+            { "label": "Storage temperature", "value": "-25 to 60°C" },
+            { "label": "Relative humidity", "value": "0-95%" },
+            { "label": "Operating altitude", "value": "0-4000m (0-1000m no derating, 1000-4000m derating 1% every 100m)" },
+            { "label": "Noise", "value": "≤55dB" }
+          ]
+        },
+        {
+          "group": "Conformance",
+          "items": [
+            { "label": "Safety", "value": "CE / TLC / RCM" },
+            { "label": "Energy saving", "value": "CQC" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Efficiency, online mode", "value": "Up to 96%" },
+            { "label": "Efficiency, ECO or ESS mode", "value": "Up to 98.8%" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "9sxebm384rt6u",
@@ -30165,7 +31752,38 @@
       "name": "ẮCQUY CHO BỘ LƯU ĐIỆN (BATTERY) BT09161RT EATON W/T BAT 1352L",
       "category_label": "Eaton 9SX Series",
       "brand": "EATON",
-      "warranty": "3 years"
+      "overview": "Eaton 9SX external battery module, ±192 Vdc, for 9SX15KPM and 9SX20KPM",
+      "warranty": "3 years",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Product Type", "value": "External Battery Module" },
+            { "label": "Format", "value": "Rack/Tower" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Dimension (H x W x D)", "value": "129 x 438 x 589 mm" },
+            { "label": "Net weight", "value": "103.6 kg (bundle of 2 EBM, ±192V)" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "Battery voltage", "value": "±192 Vdc adjustable" },
+            { "label": "Charging current", "value": "0-13A adjustable" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Used with", "value": "9SX15KPM, 9SX20KPM" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "9sxebm480rt6u",
@@ -30174,7 +31792,49 @@
       "name": "ẮCQUY CHO BỘ LƯU ĐIỆN (BATTERY) BT09201RT EATON W/T BAT 1352L",
       "category_label": "Eaton 9SX Series",
       "brand": "EATON",
-      "warranty": "3 years"
+      "overview": "Eaton 9SX external battery module, ±240 Vdc full string, complete pair (2 x 3RU), for 9SX15KPM and 9SX20KPM",
+      "warranty": "3 years",
+      "specGroups": [
+        {
+          "group": "Main",
+          "items": [
+            { "label": "Product Type", "value": "External Battery Module" },
+            { "label": "Format", "value": "Rack/Tower, 2 x 3RU modules (complete pair)" }
+          ]
+        },
+        {
+          "group": "Physical",
+          "items": [
+            { "label": "Dimension (H x W x D)", "value": "6U (258) x 438 x 589 mm (per complete pair)" },
+            { "label": "Net weight", "value": "124.2 kg (per complete pair)" }
+          ]
+        },
+        {
+          "group": "Batteries & Runtime",
+          "items": [
+            { "label": "DC voltage", "value": "±240 Vdc (full string)" },
+            { "label": "Battery quantity", "value": "2 x 20 x 12V/9Ah (per complete pair)" },
+            { "label": "Power connection", "value": "6-pole socket" }
+          ]
+        },
+        {
+          "group": "Environment",
+          "items": [
+            { "label": "Operating temperature", "value": "5-25°C" },
+            { "label": "Storage temperature", "value": "0-35°C" },
+            { "label": "Relative humidity", "value": "0-95%" },
+            { "label": "Operating altitude", "value": "0-4000m" },
+            { "label": "Protection level", "value": "IP20" }
+          ]
+        },
+        {
+          "group": "Complementary",
+          "items": [
+            { "label": "Used with", "value": "9SX15KPM, 9SX20KPM" }
+          ]
+        }
+      ],
+      "specSource": "eaton.com"
     },
     {
       "slug": "9sx3000ir",

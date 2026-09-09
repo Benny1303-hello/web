@@ -79,7 +79,9 @@
       "systemIntegration": "System Integration",
       "lanWanEmail": "LAN, WAN, Email Implementation",
       "maintenance": "Maintenance Services",
-      "hardwareDistribution": "Hardware Distribution and Rental"
+      "hardwareDistribution": "APC and EATON Product Distribution",
+      "rental": "Computer, Server & Printer Rental",
+      "softwareLicensing": "Microsoft and Other Vendor Software Licensing"
     },
     "cta": "Learn more"
   },

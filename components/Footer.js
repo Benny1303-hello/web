@@ -101,6 +101,24 @@ export default function Footer() {
             <li className="flex items-center gap-2">
               <Phone size={16} className="shrink-0 text-cyan-300" />
               <a href={site.phoneHref} className="transition-colors hover:text-cyan-300">{site.phone}</a>
+              <a
+                href={site.whatsapp}
+                target="_blank"
+                rel="noreferrer"
+                aria-label={t('common.whatsapp')}
+                className="text-slate-400 transition-colors hover:text-cyan-300"
+              >
+                <WhatsAppIcon width={16} height={16} />
+              </a>
+              <a
+                href={site.zalo}
+                target="_blank"
+                rel="noreferrer"
+                aria-label={t('common.zalo')}
+                className="text-slate-400 transition-colors hover:text-cyan-300"
+              >
+                <ZaloIcon width={16} height={16} />
+              </a>
             </li>
             <li className="flex items-center gap-2">
               <Mail size={16} className="shrink-0 text-cyan-300" />

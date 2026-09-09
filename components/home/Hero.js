@@ -42,10 +42,7 @@ export default function Hero() {
           <p className="mx-auto mt-6 max-w-lg text-balance text-slate-300">
             {t('hero.description')}
           </p>
-          <div className="mt-9 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Button href="/contact" variant="primary">
-              {t('hero.ctaPrimary')}
-            </Button>
+          <div className="mt-9 flex items-center justify-center">
             <Button href="/about" variant="outline" withArrow={false}>
               {t('hero.ctaSecondary')}
             </Button>

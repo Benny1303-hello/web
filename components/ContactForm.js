@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { CheckCircle2, Send, Loader2 } from 'lucide-react';
 import { site } from '@/lib/content';
+import { CLIENT_FIXABLE_ERROR_CODES } from '@/lib/contactErrors';
 import { useLanguage } from '@/context/LanguageContext';
 
 const fieldNames = ['name', 'email', 'phone', 'subject'];
@@ -97,7 +98,7 @@ export default function ContactForm() {
       {errorCode && (
         <p className="mt-4 text-sm font-medium text-red-600">
           {t(`contactForm.errors.${errorCode}`)}
-          {!['INVALID_BODY', 'MISSING_FIELDS', 'INVALID_EMAIL'].includes(errorCode) && (
+          {!CLIENT_FIXABLE_ERROR_CODES.includes(errorCode) && (
             <>
               {' '}
               {t('contactForm.errorPrefix')}{' '}

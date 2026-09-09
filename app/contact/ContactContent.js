@@ -59,7 +59,7 @@ export default function ContactContent() {
                   className="h-full min-h-[320px] w-full"
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  src="https://maps.google.com/maps?q=58%20Mac%20Dinh%20Chi%20Street%2C%20Tan%20Dinh%20Ward%2C%20Ho%20Chi%20Minh%20City%2C%20Viet%20Nam&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  src={`https://maps.google.com/maps?q=${encodeURIComponent(site.address)}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
                 />
               </div>
             </Reveal>

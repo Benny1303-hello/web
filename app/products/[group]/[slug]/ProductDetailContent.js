@@ -8,6 +8,7 @@ import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
 import CtaBanner from '@/components/CtaBanner';
 import { distributionStaff } from '@/lib/content';
+import { toTelHref } from '@/lib/phone';
 import { useLanguage } from '@/context/LanguageContext';
 
 // Spec-group category headings translated to Vietnamese; the detailed field
@@ -210,7 +211,7 @@ export default function ProductDetailContent({ product, group }) {
                       {salesTeam1Phase.map((person) => (
                         <div key={person.key} className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm">
                           <span className="font-semibold text-white">{person.name}</span>
-                          <a href={`tel:${person.phone.replace(/\s/g, '')}`} className="flex items-center gap-1.5 text-cyan-300 hover:text-cyan-200">
+                          <a href={toTelHref(person.phone)} className="flex items-center gap-1.5 text-cyan-300 hover:text-cyan-200">
                             <Phone size={14} />
                             {person.phone}
                           </a>
@@ -232,7 +233,7 @@ export default function ProductDetailContent({ product, group }) {
                       {salesTeam3Phase.map((person) => (
                         <div key={person.key} className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm">
                           <span className="font-semibold text-white">{person.name}</span>
-                          <a href={`tel:${person.phone.replace(/\s/g, '')}`} className="flex items-center gap-1.5 text-cyan-300 hover:text-cyan-200">
+                          <a href={toTelHref(person.phone)} className="flex items-center gap-1.5 text-cyan-300 hover:text-cyan-200">
                             <Phone size={14} />
                             {person.phone}
                           </a>

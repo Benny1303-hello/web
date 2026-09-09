@@ -133,9 +133,13 @@ export default function DistributionContent() {
             </h2>
           </Reveal>
 
-          <div className="mt-14 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-14 flex flex-wrap justify-center gap-8">
             {certifications.map((cert, i) => (
-              <Reveal key={cert.key} delay={i * 0.1}>
+              <Reveal
+                key={cert.key}
+                delay={i * 0.1}
+                className="w-full sm:w-[calc(50%-16px)] lg:w-[calc(33.333%-21.333px)]"
+              >
                 <div className="overflow-hidden rounded-2xl bg-white shadow-soft ring-1 ring-black/5">
                   <Image
                     src={cert.image}

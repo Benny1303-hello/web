@@ -4,6 +4,7 @@ import { Phone, Mail } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
 import CtaBanner from '@/components/CtaBanner';
+import { toTelHref } from '@/lib/phone';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function StaffDirectory({ tPrefix, groups }) {
@@ -43,7 +44,7 @@ export default function StaffDirectory({ tPrefix, groups }) {
                         </p>
                         <div className="mt-3 flex flex-col gap-1.5">
                           <a
-                            href={`tel:${contact.phone.replace(/\s/g, '')}`}
+                            href={toTelHref(contact.phone)}
                             className="flex items-center gap-2 text-sm font-semibold text-brand-600 transition-colors hover:text-brand-700"
                           >
                             <Phone size={14} />

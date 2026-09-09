@@ -23,8 +23,8 @@ export default function ServiceOfferingDetailContent({ offeringKey }) {
 
   // Tracks the background of whichever optional section rendered last, so the
   // closing "back to services" section can always alternate against it —
-  // including when none of the optional sections render at all (repair,
-  // maintenance) and the overview's bg-white would otherwise repeat.
+  // including when none of the optional sections render at all (currently
+  // only maintenance) and the overview's bg-white would otherwise repeat.
   const lastSectionIsWhite = hasClientLogos || (hasList ? hasSections : !hasSections);
   const backLinkBg = lastSectionIsWhite ? 'bg-mist-50' : 'bg-white';
 

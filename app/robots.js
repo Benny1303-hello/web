@@ -1,4 +1,4 @@
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://web-vxfh.vercel.app';
+import { site } from '@/lib/content';
 
 export default function robots() {
   return {
@@ -7,6 +7,6 @@ export default function robots() {
       allow: '/',
       disallow: '/api/',
     },
-    sitemap: `${SITE_URL}/sitemap.xml`,
+    sitemap: `${site.url}/sitemap.xml`,
   };
 }

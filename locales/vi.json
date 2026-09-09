@@ -73,11 +73,13 @@
       "Liên minh chiến lược với các hãng công nghệ hàng đầu",
       "Hỗ trợ kỹ thuật và giám sát chủ động 24/7"
     ],
-    "steps": {
-      "consult": "Tư vấn",
-      "distribute": "Phân phối",
-      "integrate": "Tích hợp",
-      "operate": "Vận hành"
+    "capabilities": {
+      "networkConsulting": "Tư vấn & Thiết kế hệ thống mạng",
+      "networkCabling": "Thiết kế & Thi công hệ thống cáp mạng",
+      "systemIntegration": "Tích hợp hệ thống",
+      "lanWanEmail": "Triển khai hệ thống LAN, WAN, Email",
+      "maintenance": "Dịch vụ bảo trì hệ thống",
+      "hardwareDistribution": "Phân phối & Cho thuê thiết bị phần cứng"
     },
     "cta": "Tìm hiểu thêm"
   },

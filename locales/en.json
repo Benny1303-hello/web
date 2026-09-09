@@ -73,11 +73,13 @@
       "Strategic alliances with leading technology vendors",
       "Proactive 24/7 technical support and monitoring"
     ],
-    "steps": {
-      "consult": "Consult",
-      "distribute": "Distribute",
-      "integrate": "Integrate",
-      "operate": "Operate"
+    "capabilities": {
+      "networkConsulting": "Network Consultancy and Design",
+      "networkCabling": "Network Cabling Design and Implementation",
+      "systemIntegration": "System Integration",
+      "lanWanEmail": "LAN, WAN, Email Implementation",
+      "maintenance": "Maintenance Services",
+      "hardwareDistribution": "Hardware Distribution and Rental"
     },
     "cta": "Learn more"
   },

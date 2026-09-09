@@ -17,6 +17,7 @@ const staticRoutes = [
   { path: '/system-integration', priority: 0.8, changeFrequency: 'monthly' },
   { path: '/system-integration/solutions', priority: 0.7, changeFrequency: 'monthly' },
   { path: '/system-integration/staff', priority: 0.4, changeFrequency: 'monthly' },
+  { path: '/promotions', priority: 0.6, changeFrequency: 'weekly' },
 ];
 
 export default function sitemap() {

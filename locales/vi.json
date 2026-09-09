@@ -41,6 +41,7 @@
     "serviceOutsourcing": "Dịch vụ Outsourcing IT",
     "servicesExtendedWarranty": "Bảo hành mở rộng",
     "servicesStaff": "Đội ngũ hỗ trợ",
+    "promotions": "Khuyến Mãi",
     "contact": "Liên hệ",
     "requestConsult": "Yêu cầu tư vấn",
     "openMenu": "Mở menu",
@@ -203,6 +204,39 @@
         { "title": "Sứ Mệnh", "icon": "Compass", "desc": "Mang đến nền tảng vận hành số cho doanh nghiệp, đồng hành cùng Việt Nam trên hành trình trở thành nền kinh tế dựa trên khoa học công nghệ." },
         { "title": "Khát Vọng", "icon": "Heart", "desc": "Luôn đặt lợi ích khách hàng lên hàng đầu, với khát khao giúp doanh nghiệp vận hành hiệu quả và nhanh chóng hơn mỗi ngày." },
         { "title": "Con Người", "icon": "Users2", "desc": "Đội ngũ làm việc bằng đam mê, yêu công nghệ và không ngừng đổi mới trong từng dự án, luôn nêu cao tinh thần dẫn dắt." }
+      ]
+    },
+    "promotions": {
+      "hero": {
+        "crumb": "Khuyến Mãi",
+        "eyebrow": "Ưu đãi dành cho đại lý",
+        "title": "Khuyến Mãi APC Smart-UPS Dành Cho Đại Lý",
+        "description": "Nhận ngay voucher mua sắm khi đặt hàng các dòng APC Smart-UPS và bình ắc quy chính hãng qua TTC-Infotech."
+      },
+      "notice": "TTC-Infotech có quyền tạm dừng chương trình khuyến mãi này bất kỳ lúc nào cho đến khi hết giá trị ưu đãi, mà không cần thông báo trước.",
+      "tiersHeading": "Ưu đãi theo dòng sản phẩm",
+      "tiers": [
+        {
+          "icon": "Gift",
+          "range": "APC Smart-UPS 1–3 KVA & Bình ắc quy (Battery)",
+          "value": "100.000₫",
+          "desc": "Tặng voucher mua sắm khi mua APC Smart-UPS công suất từ 1–3 KVA, hoặc bình ắc quy UPS."
+        },
+        {
+          "icon": "Gift",
+          "range": "APC Smart-UPS từ 5 KVA trở lên",
+          "value": "300.000₫",
+          "desc": "Tặng voucher mua sắm khi mua APC Smart-UPS công suất từ 5 KVA trở lên."
+        }
+      ],
+      "conditionsHeading": "Điều kiện & phạm vi áp dụng",
+      "conditionsDesc": "Chương trình dành riêng cho đại lý của TTC-Infotech, áp dụng khi mua các dòng APC Smart-UPS và bình ắc quy chính hãng theo bảng giá khung hiện hành.",
+      "conditionsPanelHeading": "Điều kiện áp dụng",
+      "conditions": [
+        "Áp dụng cho hàng bán theo giá khung",
+        "Nếu không nhận voucher, được trừ trực tiếp 90% giá trị khuyến mãi vào giá bán",
+        "Chương trình chỉ áp dụng cho đại lý của TTC-Infotech",
+        "TTC-Infotech có quyền dừng chương trình bất kỳ lúc nào mà không cần báo trước"
       ]
     },
     "distribution": {

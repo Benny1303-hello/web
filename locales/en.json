@@ -41,6 +41,7 @@
     "serviceOutsourcing": "IT Outsourcing",
     "servicesExtendedWarranty": "Extended Warranty",
     "servicesStaff": "Support Team",
+    "promotions": "Promotions",
     "contact": "Contact",
     "requestConsult": "Request a consultation",
     "openMenu": "Open menu",
@@ -203,6 +204,39 @@
         { "title": "Mission", "icon": "Compass", "desc": "To bring a digital operating foundation to businesses, walking alongside Vietnam on its journey toward a technology-driven economy." },
         { "title": "Aspiration", "icon": "Heart", "desc": "Always putting customers' interests first, driven by the ambition to help businesses operate more efficiently and faster every day." },
         { "title": "People", "icon": "Users2", "desc": "A team that works with passion, loves technology, and continuously innovates on every project while leading by example." }
+      ]
+    },
+    "promotions": {
+      "hero": {
+        "crumb": "Promotions",
+        "eyebrow": "Reseller offer",
+        "title": "APC Smart-UPS Promotion for Resellers",
+        "description": "Get a shopping voucher when you order genuine APC Smart-UPS units and batteries through TTC-Infotech."
+      },
+      "notice": "TTC-Infotech reserves the right to pause this promotion at any time before its allotted value is used up, without prior notice.",
+      "tiersHeading": "Offers by product tier",
+      "tiers": [
+        {
+          "icon": "Gift",
+          "range": "APC Smart-UPS 1–3 KVA & Batteries",
+          "value": "100,000₫",
+          "desc": "Get a shopping voucher when you purchase an APC Smart-UPS rated 1–3 KVA, or a UPS battery."
+        },
+        {
+          "icon": "Gift",
+          "range": "APC Smart-UPS 5 KVA and above",
+          "value": "300,000₫",
+          "desc": "Get a shopping voucher when you purchase an APC Smart-UPS rated 5 KVA or higher."
+        }
+      ],
+      "conditionsHeading": "Terms & eligibility",
+      "conditionsDesc": "This program is reserved for TTC-Infotech resellers, and applies to genuine APC Smart-UPS units and batteries purchased at current list pricing.",
+      "conditionsPanelHeading": "Terms & conditions",
+      "conditions": [
+        "Applies to items sold at list price",
+        "If you choose not to take the voucher, 90% of its value is deducted directly from the sale price instead",
+        "This program is available to TTC-Infotech resellers only",
+        "TTC-Infotech may end this program at any time without prior notice"
       ]
     },
     "distribution": {

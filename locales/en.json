@@ -179,6 +179,7 @@
       "INVALID_BODY": "The submitted data is invalid.",
       "MISSING_FIELDS": "Please fill in all required fields.",
       "INVALID_EMAIL": "The email address is invalid.",
+      "RATE_LIMITED": "You've sent too many requests. Please try again in a few minutes.",
       "SERVER_NOT_READY": "The email system isn't ready yet, please try again later.",
       "SEND_FAILED": "Failed to send the email, please try again later.",
       "UNEXPECTED": "Something went wrong, please try again later.",

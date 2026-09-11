@@ -179,6 +179,7 @@
       "INVALID_BODY": "Dữ liệu gửi lên không hợp lệ.",
       "MISSING_FIELDS": "Vui lòng điền đầy đủ thông tin bắt buộc.",
       "INVALID_EMAIL": "Địa chỉ email không hợp lệ.",
+      "RATE_LIMITED": "Bạn đã gửi quá nhiều yêu cầu. Vui lòng thử lại sau ít phút.",
       "SERVER_NOT_READY": "Hệ thống gửi email chưa sẵn sàng, vui lòng thử lại sau.",
       "SEND_FAILED": "Gửi email thất bại, vui lòng thử lại sau.",
       "UNEXPECTED": "Có lỗi xảy ra, vui lòng thử lại sau.",

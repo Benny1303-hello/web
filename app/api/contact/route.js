@@ -1,6 +1,7 @@
 import nodemailer from 'nodemailer';
 import { site } from '@/lib/content';
 import { CONTACT_ERROR_CODES } from '@/lib/contactErrors';
+import { isRateLimited, getClientIp } from '@/lib/rateLimit';
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
@@ -23,6 +24,10 @@ const transporter = smtpReady
   : null;
 
 export async function POST(request) {
+  if (isRateLimited(getClientIp(request))) {
+    return Response.json({ errorCode: CONTACT_ERROR_CODES.RATE_LIMITED }, { status: 429 });
+  }
+
   let body;
   try {
     body = await request.json();

@@ -1,10 +1,16 @@
 import { Inter, Sora } from 'next/font/google';
+import { GoogleAnalytics } from '@next/third-parties/google';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import PageTransition from '@/components/PageTransition';
 import { LanguageProvider } from '@/context/LanguageContext';
 import { site } from '@/lib/content';
+
+// Set NEXT_PUBLIC_GA_ID (a GA4 measurement id, e.g. G-XXXXXXXXXX) in Vercel to
+// turn analytics on. Left unset — in local dev, preview builds, or before the
+// property exists — nothing is injected and no request is made to Google.
+const gaId = process.env.NEXT_PUBLIC_GA_ID;
 
 const sora = Sora({
   subsets: ['latin'],
@@ -40,6 +46,7 @@ export default function RootLayout({ children }) {
           </main>
           <Footer />
         </LanguageProvider>
+        {gaId && <GoogleAnalytics gaId={gaId} />}
       </body>
     </html>
   );

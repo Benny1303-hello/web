@@ -31,6 +31,7 @@
     "solutionCentralControl": "Điều khiển tập trung",
     "solutionInfrastructure": "Dịch vụ hạ tầng IT",
     "solutionSoftware": "Cung cấp phần mềm",
+    "solutionVirtualization": "Giải pháp ảo hóa",
     "systemIntegrationStaff": "Đội ngũ kỹ sư",
     "services": "Trung tâm dịch vụ",
     "servicesAbout": "Giới thiệu Trung tâm dịch vụ",
@@ -356,7 +357,7 @@
         "crumb": "Giải pháp",
         "eyebrow": "Technology Solutions",
         "title": "Giải pháp tích hợp công nghệ cho doanh nghiệp",
-        "description": "Năm nhóm giải pháp trọng tâm giúp doanh nghiệp tối ưu chi phí đầu tư, vận hành, bảo mật và bản quyền phần mềm."
+        "description": "Sáu nhóm giải pháp trọng tâm giúp doanh nghiệp tối ưu chi phí đầu tư, vận hành, bảo mật, ảo hóa và bản quyền phần mềm."
       },
       "intro": {
         "eyebrow": "Tổng quan",
@@ -368,7 +369,8 @@
         "firewallLoadBalancing": { "title": "Giải Pháp Firewall & Cân Bằng Tải", "short": "Bảo vệ hệ thống trước các mối đe dọa từ Internet, đồng thời cân bằng tải đường truyền và website." },
         "centralControl": { "title": "Giải Pháp Điều Khiển Tập Trung", "short": "Quản lý tập trung toàn bộ máy trạm từ một hệ thống xử lý trung tâm, tăng bảo mật và giảm chi phí vận hành." },
         "infrastructure": { "title": "Dịch Vụ Hạ Tầng Công Nghệ Thông Tin", "short": "Thi công, triển khai và hỗ trợ hạ tầng nguồn điện, mạng và máy chủ toàn diện cho doanh nghiệp." },
-        "software": { "title": "Cung Cấp Phần Mềm", "short": "Kiểm tra bản quyền, tư vấn và cung cấp bản quyền phần mềm chính hãng — trọng tâm là Microsoft, bên cạnh VMware, Veeam, Adobe, AutoCAD." }
+        "software": { "title": "Cung Cấp Phần Mềm", "short": "Kiểm tra bản quyền, tư vấn và cung cấp bản quyền phần mềm chính hãng — trọng tâm là Microsoft, bên cạnh VMware, Veeam, Adobe, AutoCAD." },
+        "virtualization": { "title": "Giải Pháp Ảo Hóa", "short": "Thiết kế, triển khai và di chuyển hạ tầng ảo hóa trên nền tảng VMware và Proxmox VE, kèm so sánh để chọn phương án phù hợp." }
       }
     },
     "systemIntegrationSolutionDetail": {
@@ -714,6 +716,124 @@
           { "title": "Hỗ Trợ Kỹ Thuật", "items": ["Hỗ trợ cài đặt, kích hoạt và di chuyển phần mềm.", "Hỗ trợ từ xa hoặc hỗ trợ tận nơi."] },
           { "title": "Đối Tác Và Kinh Nghiệm", "items": ["Microsoft Silver Partner.", "Hơn 25 năm kinh nghiệm trong lĩnh vực công nghệ thông tin."] }
         ]
+      },
+      "virtualization": {
+        "hero": {
+          "crumb": "Giải pháp ảo hóa",
+          "eyebrow": "Virtualization Solutions",
+          "title": "Giải pháp ảo hóa VMware và Proxmox VE",
+          "description": "Tư vấn, thiết kế, triển khai và di chuyển hạ tầng ảo hóa trên hai nền tảng phổ biến — giúp doanh nghiệp chọn đúng phương án cho nhu cầu và ngân sách."
+        },
+        "overviewHeading": "Tổng quan",
+        "overview": "Ảo hóa giúp doanh nghiệp khai thác tối đa tài nguyên máy chủ, giảm số lượng thiết bị vật lý, tăng tính sẵn sàng và đơn giản hóa việc sao lưu, phục hồi. TTC-Infotech tư vấn và triển khai giải pháp ảo hóa trên hai nền tảng: VMware vSphere — chuẩn công nghiệp cho hạ tầng doanh nghiệp, và Proxmox VE — nền tảng mã nguồn mở giàu tính năng, linh hoạt và tối ưu chi phí bản quyền.",
+        "solutionDesc": "TTC-Infotech triển khai hạ tầng ảo hóa trên VMware và Proxmox VE, giúp doanh nghiệp chọn đúng nền tảng cho nhu cầu và ngân sách.",
+        "targetsHeading": "Mục tiêu giải pháp",
+        "targets": [
+          "Khai thác tối đa tài nguyên máy chủ, giảm số lượng thiết bị vật lý.",
+          "Tăng tính sẵn sàng và khả năng phục hồi khi có sự cố.",
+          "Tối ưu chi phí bản quyền và chi phí vận hành.",
+          "Đơn giản hóa việc quản trị, sao lưu và mở rộng hạ tầng."
+        ],
+        "sectionsHeading": "Quy trình triển khai",
+        "sections": [
+          { "title": "Khảo Sát Và Đánh Giá Hiện Trạng", "desc": "Tìm hiểu quy mô máy chủ, ứng dụng, dung lượng lưu trữ, hệ thống mạng và yêu cầu về tính sẵn sàng; đánh giá hạ tầng ảo hóa hiện có (nếu có) để xác định phương án phù hợp." },
+          { "title": "Tư Vấn Và Thiết Kế Giải Pháp", "desc": "So sánh VMware và Proxmox VE dựa trên ngân sách, quy mô, yêu cầu vận hành và định hướng dài hạn; thiết kế kiến trúc gồm số lượng máy chủ, lưu trữ, mạng, sao lưu và dự phòng." },
+          { "title": "Triển Khai, Cấu Hình Và Di Chuyển", "desc": "Cài đặt và cấu hình nền tảng, cụm sẵn sàng cao (HA), lưu trữ, mạng và sao lưu; di chuyển máy ảo và dữ liệu từ máy chủ vật lý (P2V) hoặc từ nền tảng ảo hóa khác." },
+          { "title": "Bàn Giao, Đào Tạo Và Hỗ Trợ", "desc": "Bàn giao tài liệu hướng dẫn quản trị, hướng dẫn đội ngũ vận hành và hỗ trợ kỹ thuật sau triển khai." }
+        ],
+        "categoriesHeading": "Sản phẩm và mô hình giải pháp",
+        "categoriesIntro": "Các sản phẩm và mô hình triển khai mà TTC-Infotech tư vấn, thiết kế và thực hiện trên nền tảng VMware và Proxmox VE.",
+        "categories": [
+          {
+            "icon": "Server",
+            "title": "Sản Phẩm VMware",
+            "desc": "Bộ sản phẩm ảo hóa của VMware (thuộc Broadcom) cho hạ tầng doanh nghiệp.",
+            "items": [
+              { "title": "VMware vSphere (ESXi + vCenter Server)", "desc": "Nền tảng ảo hóa máy chủ: ESXi là hypervisor cài trực tiếp lên phần cứng, vCenter Server quản lý tập trung nhiều máy chủ ESXi." },
+              { "title": "vSphere HA, DRS và vMotion", "desc": "Tính năng sẵn sàng cao, cân bằng tải tài nguyên tự động và di chuyển máy ảo giữa các máy chủ (yêu cầu vCenter)." },
+              { "title": "VMware vSAN", "desc": "Lưu trữ định nghĩa bằng phần mềm, biến ổ đĩa cục bộ của các máy chủ thành kho lưu trữ dùng chung (HCI); yêu cầu phần cứng đạt chuẩn HCL." },
+              { "title": "VMware NSX", "desc": "Ảo hóa mạng và bảo mật vi phân đoạn (micro-segmentation) cho hạ tầng ảo hóa." },
+              { "title": "VMware Aria (trước đây là vRealize)", "desc": "Giám sát, tự động hóa và quản lý hiệu năng, chi phí cho hạ tầng ảo hóa." },
+              { "title": "vSphere Tanzu (Kubernetes)", "desc": "Chạy ứng dụng container và Kubernetes trên nền hạ tầng vSphere." },
+              { "title": "VMware vSphere Foundation (VVF) và Cloud Foundation (VCF)", "desc": "Các gói thuê bao định kỳ của VMware, tính theo số lượng core CPU." }
+            ]
+          },
+          {
+            "icon": "Network",
+            "title": "Mô Hình Giải Pháp VMware",
+            "desc": "Các mô hình triển khai trên nền tảng VMware vSphere, từ quy mô nhỏ đến hạ tầng có tính sẵn sàng cao.",
+            "items": [
+              { "title": "Máy chủ ESXi đơn lẻ", "desc": "Một máy chủ vật lý chạy nhiều máy ảo (domain, file server, ứng dụng), phù hợp văn phòng và chi nhánh quy mô nhỏ." },
+              { "title": "Cụm vSphere HA với lưu trữ dùng chung", "desc": "Nhiều máy chủ ESXi do vCenter quản lý, dùng chung SAN/NAS hoặc vSAN; máy ảo tự khởi động lại trên máy chủ khác khi có sự cố." },
+              { "title": "Hạ tầng siêu hội tụ vSAN", "desc": "Gộp ổ đĩa của các máy chủ thành kho lưu trữ dùng chung, không cần thiết bị SAN riêng." },
+              { "title": "Sao lưu và phục hồi với Veeam", "desc": "Kết hợp Veeam Backup & Replication để sao lưu, nhân bản và phục hồi máy ảo nhanh chóng." },
+              { "title": "Nền tảng container với Tanzu", "desc": "Triển khai ứng dụng container và Kubernetes trên hạ tầng vSphere sẵn có." }
+            ]
+          },
+          {
+            "icon": "Server",
+            "title": "Sản Phẩm Proxmox",
+            "desc": "Bộ sản phẩm mã nguồn mở của Proxmox cho ảo hóa, sao lưu và bảo mật email.",
+            "items": [
+              { "title": "Proxmox VE (Virtual Environment)", "desc": "Nền tảng ảo hóa mã nguồn mở xây dựng trên Debian Linux, kết hợp KVM cho máy ảo và LXC cho container, quản trị bằng Web GUI, có sẵn cluster và HA." },
+              { "title": "Proxmox Backup Server (PBS)", "desc": "Giải pháp sao lưu chuyên dụng với khử trùng lặp dữ liệu cấp block, sao lưu tăng tiến và mã hóa phía client." },
+              { "title": "Proxmox Mail Gateway (PMG)", "desc": "Cổng lọc email doanh nghiệp, chống thư rác và virus trước khi thư vào hệ thống email." },
+              { "title": "Gói Subscription hỗ trợ", "desc": "Truy cập kho cập nhật chính thức (Enterprise Repository) và hỗ trợ kỹ thuật trực tiếp từ hãng, tính theo số lượng CPU socket mỗi năm." }
+            ]
+          },
+          {
+            "icon": "Network",
+            "title": "Mô Hình Giải Pháp Proxmox",
+            "desc": "Các mô hình triển khai trên nền tảng Proxmox VE, tận dụng các tính năng tích hợp sẵn.",
+            "items": [
+              { "title": "Máy chủ Proxmox VE đơn lẻ", "desc": "Một node chạy nhiều máy ảo KVM và container LXC, quản trị qua Web GUI và không tốn chi phí bản quyền phần mềm." },
+              { "title": "Cụm Proxmox HA (Cluster)", "desc": "Ghép nhiều node thành cluster, quản trị từ giao diện của bất kỳ node nào (multi-master); HA tích hợp sẵn giúp máy ảo tự chuyển sang node khác khi có sự cố." },
+              { "title": "Hạ tầng siêu hội tụ với Ceph hoặc ZFS", "desc": "Dùng Ceph hoặc ZFS tích hợp sẵn ngay trên các node để xây dựng HCI hoàn toàn bằng phần mềm, không tốn thêm chi phí bản quyền." },
+              { "title": "Sao lưu với Proxmox Backup Server", "desc": "Sao lưu khử trùng lặp, tăng tiến và mã hóa phía client với PBS; hoặc dùng công cụ VZDump tích hợp sẵn." },
+              { "title": "Máy ảo kết hợp container LXC", "desc": "Chạy máy ảo KVM cùng nhiều container LXC siêu nhẹ trên cùng một hạ tầng, tiết kiệm CPU và RAM." },
+              { "title": "Chuyển đổi từ VMware sang Proxmox VE", "desc": "Di chuyển hệ thống ảo hóa hiện có từ VMware sang Proxmox VE để tối ưu chi phí bản quyền và giảm phụ thuộc vào Broadcom." }
+            ]
+          }
+        ],
+        "comparison": {
+          "heading": "So sánh VMware và Proxmox VE",
+          "intro": "VMware (hiện thuộc Broadcom) và Proxmox VE là hai nền tảng ảo hóa doanh nghiệp hàng đầu nhưng đi theo hai triết lý thiết kế và mô hình kinh doanh hoàn toàn trái ngược. VMware tập trung vào tính tiêu chuẩn hóa và độ tin cậy cao cho các tập đoàn lớn, trong khi Proxmox VE là nền tảng mã nguồn mở giàu tính năng, linh hoạt và tối ưu chi phí.",
+          "columns": ["Tiêu chí", "VMware vSphere (ESXi + vCenter)", "Proxmox VE (PVE)"],
+          "vendorLabels": ["VMware", "Proxmox VE"],
+          "rows": [
+            { "label": "Bản chất / Kiến trúc", "col1": "Type-1 Bare-metal Hypervisor (VMkernel độc quyền)", "col2": "Type-1 Hypervisor dựa trên Linux (Debian) + KVM + LXC" },
+            { "label": "Mô hình bản quyền", "col1": "Thương mại (bắt buộc thuê bao sau khi Broadcom thâu tóm)", "col2": "Mã nguồn mở (AGPLv3), miễn phí dùng đủ tính năng; trả phí khi mua gói hỗ trợ" },
+            { "label": "Ảo hóa container", "col1": "Cần tích hợp vSphere Tanzu (Kubernetes)", "col2": "Tích hợp sẵn LXC (Linux Containers) nhẹ nhàng, hiệu năng cao" },
+            { "label": "Quản lý tập trung", "col1": "Cần cài đặt riêng vCenter Server (tốn thêm tài nguyên và chi phí)", "col2": "Tích hợp sẵn Web UI trên từng node, tự động tạo cluster khi ghép nối" },
+            { "label": "Lưu trữ (Storage)", "col1": "VMFS, NFS, iSCSI, vSAN (yêu cầu bản quyền cao cấp)", "col2": "ZFS, Ceph (SDS tích hợp sẵn), LVM, NFS, iSCSI, Directory" },
+            { "label": "Tính năng High Availability (HA)", "col1": "Cần vCenter + vSphere HA / DRS", "col2": "Tích hợp sẵn (dùng Corosync + pmxcfs)" },
+            { "label": "Sao lưu và phục hồi", "col1": "Dựa vào bên thứ ba (Veeam, Commvault, Nakivo...)", "col2": "Tích hợp sẵn VZDump hoặc kết hợp Proxmox Backup Server (PBS)" },
+            { "label": "Hệ sinh thái và hỗ trợ", "col1": "Rất lớn, chuẩn công nghiệp, hỗ trợ doanh nghiệp 24/7", "col2": "Cộng đồng mạnh, hỗ trợ chính thức qua Enterprise Subscription" }
+          ],
+          "detailsHeading": "Phân tích chi tiết",
+          "details": [
+            {
+              "title": "Kiến trúc cốt lõi và quản trị",
+              "col1": "ESXi sử dụng VMkernel riêng biệt. Việc quản trị một hoặc nhiều cụm ESXi bắt buộc phải thông qua vCenter Server — một máy chủ ảo hóa riêng chiếm dụng tài nguyên. Nếu vCenter gặp sự cố, việc quản lý tập trung sẽ bị gián đoạn dù các máy ảo vẫn chạy.",
+              "col2": "Xây dựng trên nền Debian Linux với kiến trúc multi-master: có thể truy cập giao diện Web GUI của bất kỳ node nào trong cluster để quản lý toàn bộ hệ thống. Ngoài KVM cho ảo hóa phần cứng, Proxmox hỗ trợ native LXC, cho phép chạy hàng trăm container siêu nhẹ với chi phí tài nguyên (CPU/RAM) gần như bằng không."
+            },
+            {
+              "title": "Chi phí và mô hình bản quyền",
+              "col1": "Sau khi được Broadcom thâu tóm, VMware đã ngừng bán bản quyền vĩnh viễn (Perpetual) và chuyển sang gói thuê bao định kỳ (VCF hoặc VVF) tính theo số lượng core CPU (tối thiểu 16 core/socket), khiến chi phí sở hữu (TCO) tăng vọt.",
+              "col2": "Tải về và sử dụng đầy đủ 100% tính năng mà không tốn chi phí. Bản quyền trả phí của Proxmox chỉ áp dụng khi doanh nghiệp cần truy cập kho cập nhật chính thức đã qua kiểm thử kỹ lưỡng (Enterprise Repository) và nhận hỗ trợ kỹ thuật trực tiếp từ hãng (tính theo số lượng CPU socket/năm, rẻ hơn đáng kể so với VMware)."
+            },
+            {
+              "title": "Lưu trữ và hệ sinh thái sao lưu",
+              "col1": "Dùng vSAN để biến ổ đĩa cục bộ thành SAN dùng chung, nhưng đòi hỏi thiết bị phần cứng đạt chuẩn HCL nghiêm ngặt và bản quyền đắt đỏ. Về sao lưu, VMware dựa vào hệ sinh thái bên thứ ba như Veeam Backup & Replication — chuẩn mực ngành về tốc độ và tính năng.",
+              "col2": "Tích hợp sẵn Ceph và ZFS, cho phép xây dựng hạ tầng siêu hội tụ (HCI) hoàn toàn bằng phần mềm mà không tốn thêm chi phí bản quyền. Về sao lưu, Proxmox phát triển riêng Proxmox Backup Server (PBS) — hỗ trợ khử trùng lặp dữ liệu (deduplication) ở cấp độ block, sao lưu tăng tiến (incremental) và mã hóa phía client rất hiệu quả."
+            }
+          ],
+          "guidanceHeading": "Định hướng lựa chọn",
+          "guidance": [
+            { "title": "Nên chọn VMware khi", "items": ["Hạ tầng phục vụ các ứng dụng Critical-Business của tập đoàn lớn.", "Hệ thống đã chuẩn hóa theo VMware HCL.", "Quy trình vận hành phụ thuộc chặt chẽ vào các công cụ như Veeam, vRealize (VMware Aria).", "Có ngân sách CNTT dồi dào."] },
+            { "title": "Nên chọn Proxmox khi", "items": ["Doanh nghiệp muốn tối ưu chi phí bản quyền.", "Hạ tầng vừa và nhỏ (SMB).", "Trung tâm dữ liệu muốn chuyển dịch khỏi sự phụ thuộc vào Broadcom.", "Môi trường cần sự linh hoạt giữa cả máy ảo (VM) và container."] }
+          ]
+        }
       }
     },
     "systemIntegrationStaff": {

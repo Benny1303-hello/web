@@ -31,6 +31,7 @@
     "solutionCentralControl": "Central Control",
     "solutionInfrastructure": "IT Infrastructure Services",
     "solutionSoftware": "Software Supply",
+    "solutionVirtualization": "Virtualization",
     "systemIntegrationStaff": "Engineering Team",
     "services": "Services Center",
     "servicesAbout": "About Services Center",
@@ -356,7 +357,7 @@
         "crumb": "Solutions",
         "eyebrow": "Technology Solutions",
         "title": "Technology integration solutions for your business",
-        "description": "Five core solution groups that help businesses optimize investment cost, operations, security, and software licensing."
+        "description": "Six core solution groups that help businesses optimize investment cost, operations, security, virtualization, and software licensing."
       },
       "intro": {
         "eyebrow": "Overview",
@@ -368,7 +369,8 @@
         "firewallLoadBalancing": { "title": "Firewall & Load Balancing Solution", "short": "Protect your systems from Internet threats while balancing traffic across connections and websites." },
         "centralControl": { "title": "Central Control Solution", "short": "Manage every workstation centrally from one processing system, improving security and cutting operating cost." },
         "infrastructure": { "title": "IT Infrastructure Services", "short": "Full-service power, network, and server infrastructure deployment and support for your business." },
-        "software": { "title": "Software Supply", "short": "License auditing, consulting, and supply of genuine software licenses — with a focus on Microsoft, alongside VMware, Veeam, Adobe, and AutoCAD." }
+        "software": { "title": "Software Supply", "short": "License auditing, consulting, and supply of genuine software licenses — with a focus on Microsoft, alongside VMware, Veeam, Adobe, and AutoCAD." },
+        "virtualization": { "title": "Virtualization Solutions", "short": "Design, deployment, and migration of virtualization infrastructure on VMware and Proxmox VE, with a comparison to help you choose the right option." }
       }
     },
     "systemIntegrationSolutionDetail": {
@@ -714,6 +716,124 @@
           { "title": "Technical Support", "items": ["Help with software installation, activation, and migration.", "Remote or on-site support."] },
           { "title": "Partnership and Experience", "items": ["Microsoft Silver Partner.", "Over 25 years of experience in information technology."] }
         ]
+      },
+      "virtualization": {
+        "hero": {
+          "crumb": "Virtualization",
+          "eyebrow": "Virtualization Solutions",
+          "title": "VMware and Proxmox VE virtualization solutions",
+          "description": "Consulting, design, deployment, and migration of virtualization infrastructure on two popular platforms — helping businesses choose the right option for their needs and budget."
+        },
+        "overviewHeading": "Overview",
+        "overview": "Virtualization helps businesses get the most out of their server resources, reduce the number of physical devices, increase availability, and simplify backup and recovery. TTC-Infotech advises on and deploys virtualization solutions on two platforms: VMware vSphere — the industry standard for enterprise infrastructure — and Proxmox VE — a feature-rich, flexible open-source platform that keeps licensing costs low.",
+        "solutionDesc": "TTC-Infotech deploys virtualization infrastructure on VMware and Proxmox VE, helping businesses choose the right platform for their needs and budget.",
+        "targetsHeading": "Solution Objectives",
+        "targets": [
+          "Get the most out of server resources and reduce the number of physical devices.",
+          "Increase availability and resilience when incidents occur.",
+          "Optimize licensing and operating costs.",
+          "Simplify management, backup, and scaling of the infrastructure."
+        ],
+        "sectionsHeading": "Deployment Process",
+        "sections": [
+          { "title": "Survey and Current-State Assessment", "desc": "We learn the scale of servers, applications, storage capacity, network, and availability requirements, and assess any existing virtualization infrastructure to determine the right approach." },
+          { "title": "Consulting and Solution Design", "desc": "We compare VMware and Proxmox VE against budget, scale, operating needs, and long-term direction, and design the architecture covering servers, storage, network, backup, and redundancy." },
+          { "title": "Deployment, Configuration, and Migration", "desc": "We install and configure the platform, high-availability (HA) cluster, storage, network, and backup, and migrate virtual machines and data from physical servers (P2V) or from another virtualization platform." },
+          { "title": "Handover, Training, and Support", "desc": "We hand over administration documentation, guide the operations team, and provide technical support after deployment." }
+        ],
+        "categoriesHeading": "Products and Solution Models",
+        "categoriesIntro": "The products and deployment models TTC-Infotech advises on, designs, and delivers on the VMware and Proxmox VE platforms.",
+        "categories": [
+          {
+            "icon": "Server",
+            "title": "VMware Products",
+            "desc": "VMware's (a Broadcom company) virtualization product suite for enterprise infrastructure.",
+            "items": [
+              { "title": "VMware vSphere (ESXi + vCenter Server)", "desc": "Server virtualization platform: ESXi is the hypervisor installed directly on hardware, and vCenter Server centrally manages multiple ESXi hosts." },
+              { "title": "vSphere HA, DRS, and vMotion", "desc": "High availability, automatic resource load balancing, and live migration of virtual machines between hosts (requires vCenter)." },
+              { "title": "VMware vSAN", "desc": "Software-defined storage that turns hosts' local disks into shared storage (HCI); requires hardware that meets the HCL standard." },
+              { "title": "VMware NSX", "desc": "Network virtualization and micro-segmentation security for virtualized infrastructure." },
+              { "title": "VMware Aria (formerly vRealize)", "desc": "Monitoring, automation, and performance and cost management for virtualized infrastructure." },
+              { "title": "vSphere Tanzu (Kubernetes)", "desc": "Run containerized and Kubernetes applications on vSphere infrastructure." },
+              { "title": "VMware vSphere Foundation (VVF) and Cloud Foundation (VCF)", "desc": "VMware's recurring subscription bundles, priced by the number of CPU cores." }
+            ]
+          },
+          {
+            "icon": "Network",
+            "title": "VMware Solution Models",
+            "desc": "Deployment models on VMware vSphere, from small-scale setups to high-availability infrastructure.",
+            "items": [
+              { "title": "Standalone ESXi host", "desc": "A single physical server running multiple virtual machines (domain, file server, applications), suited to small offices and branches." },
+              { "title": "vSphere HA cluster with shared storage", "desc": "Multiple ESXi hosts managed by vCenter, sharing SAN/NAS or vSAN storage; virtual machines automatically restart on another host when an issue occurs." },
+              { "title": "vSAN hyper-converged infrastructure", "desc": "Pool the hosts' disks into shared storage without a dedicated SAN device." },
+              { "title": "Backup and recovery with Veeam", "desc": "Pair with Veeam Backup & Replication to back up, replicate, and quickly restore virtual machines." },
+              { "title": "Container platform with Tanzu", "desc": "Deploy containerized and Kubernetes applications on your existing vSphere infrastructure." }
+            ]
+          },
+          {
+            "icon": "Server",
+            "title": "Proxmox Products",
+            "desc": "Proxmox's open-source product suite for virtualization, backup, and email security.",
+            "items": [
+              { "title": "Proxmox VE (Virtual Environment)", "desc": "Open-source virtualization platform built on Debian Linux, combining KVM for virtual machines and LXC for containers, managed through a Web GUI with clustering and HA built in." },
+              { "title": "Proxmox Backup Server (PBS)", "desc": "Dedicated backup solution with block-level deduplication, incremental backup, and client-side encryption." },
+              { "title": "Proxmox Mail Gateway (PMG)", "desc": "Business email gateway that filters spam and viruses before mail reaches your email system." },
+              { "title": "Support Subscription", "desc": "Access to the official Enterprise Repository and direct technical support from the vendor, priced per CPU socket per year." }
+            ]
+          },
+          {
+            "icon": "Network",
+            "title": "Proxmox Solution Models",
+            "desc": "Deployment models on Proxmox VE, taking advantage of its built-in features.",
+            "items": [
+              { "title": "Standalone Proxmox VE host", "desc": "A single node running multiple KVM virtual machines and LXC containers, managed through the Web GUI with no software licensing cost." },
+              { "title": "Proxmox HA cluster", "desc": "Join multiple nodes into a cluster, managed from the interface of any node (multi-master); built-in HA lets virtual machines move automatically to another node when an issue occurs." },
+              { "title": "Hyper-converged infrastructure with Ceph or ZFS", "desc": "Use the built-in Ceph or ZFS directly on the nodes to build HCI entirely in software, with no extra licensing cost." },
+              { "title": "Backup with Proxmox Backup Server", "desc": "Deduplicated, incremental, client-side-encrypted backup with PBS, or the built-in VZDump tool." },
+              { "title": "Virtual machines combined with LXC containers", "desc": "Run KVM virtual machines alongside many ultra-light LXC containers on the same infrastructure, saving CPU and RAM." },
+              { "title": "Migration from VMware to Proxmox VE", "desc": "Move an existing virtualization environment from VMware to Proxmox VE to optimize licensing cost and reduce dependence on Broadcom." }
+            ]
+          }
+        ],
+        "comparison": {
+          "heading": "VMware vs. Proxmox VE",
+          "intro": "VMware (now part of Broadcom) and Proxmox VE are two leading enterprise virtualization platforms, but they follow completely opposite design philosophies and business models. VMware focuses on standardization and high reliability for large enterprises, while Proxmox VE is a feature-rich, flexible open-source platform that keeps costs low.",
+          "columns": ["Criteria", "VMware vSphere (ESXi + vCenter)", "Proxmox VE (PVE)"],
+          "vendorLabels": ["VMware", "Proxmox VE"],
+          "rows": [
+            { "label": "Nature / Architecture", "col1": "Type-1 bare-metal hypervisor (proprietary VMkernel)", "col2": "Type-1 hypervisor based on Linux (Debian) + KVM + LXC" },
+            { "label": "Licensing model", "col1": "Commercial (subscription required since the Broadcom acquisition)", "col2": "Open source (AGPLv3), fully featured for free; pay only for a support plan" },
+            { "label": "Container virtualization", "col1": "Requires vSphere Tanzu (Kubernetes) integration", "col2": "Built-in LXC (Linux Containers), lightweight and high-performance" },
+            { "label": "Centralized management", "col1": "Requires a separately installed vCenter Server (extra resources and cost)", "col2": "Built-in Web UI on every node, cluster forms automatically when nodes are joined" },
+            { "label": "Storage", "col1": "VMFS, NFS, iSCSI, vSAN (requires a premium license)", "col2": "ZFS, Ceph (built-in SDS), LVM, NFS, iSCSI, Directory" },
+            { "label": "High Availability (HA)", "col1": "Requires vCenter + vSphere HA / DRS", "col2": "Built in (uses Corosync + pmxcfs)" },
+            { "label": "Backup and recovery", "col1": "Relies on third parties (Veeam, Commvault, Nakivo...)", "col2": "Built-in VZDump, or paired with Proxmox Backup Server (PBS)" },
+            { "label": "Ecosystem and support", "col1": "Very large, industry standard, 24/7 enterprise support", "col2": "Strong community, official support through Enterprise Subscription" }
+          ],
+          "detailsHeading": "Detailed Analysis",
+          "details": [
+            {
+              "title": "Core architecture and management",
+              "col1": "ESXi uses its own VMkernel. Managing one or more ESXi clusters requires vCenter Server — a dedicated virtual server that consumes resources. If vCenter fails, centralized management is interrupted even though the virtual machines keep running.",
+              "col2": "Built on Debian Linux with a multi-master architecture: you can open the Web GUI of any node in the cluster to manage the entire system. Beyond KVM for hardware virtualization, Proxmox natively supports LXC, letting you run hundreds of ultra-light containers at almost zero CPU/RAM overhead."
+            },
+            {
+              "title": "Cost and licensing model",
+              "col1": "Since the Broadcom acquisition, VMware has stopped selling perpetual licenses and moved to recurring subscription bundles (VCF or VVF) priced by the number of CPU cores (minimum 16 cores per socket), sharply raising total cost of ownership (TCO).",
+              "col2": "Download and use 100% of the features at no cost. Proxmox's paid subscription only applies when a business needs access to the thoroughly tested official update repository (Enterprise Repository) and direct technical support from the vendor (priced per CPU socket per year, significantly cheaper than VMware)."
+            },
+            {
+              "title": "Storage and backup ecosystem",
+              "col1": "Uses vSAN to turn local disks into shared SAN storage, but requires strictly HCL-compliant hardware and an expensive license. For backup, VMware relies on the third-party ecosystem such as Veeam Backup & Replication — the industry benchmark for speed and features.",
+              "col2": "Built-in Ceph and ZFS let you build hyper-converged infrastructure (HCI) entirely in software with no extra licensing cost. For backup, Proxmox developed its own Proxmox Backup Server (PBS) — with block-level data deduplication, incremental backup, and highly effective client-side encryption."
+            }
+          ],
+          "guidanceHeading": "How to Choose",
+          "guidance": [
+            { "title": "Choose VMware when", "items": ["The infrastructure runs mission-critical business applications for a large enterprise.", "The system is already standardized on the VMware HCL.", "Operations depend closely on tools such as Veeam and vRealize (VMware Aria).", "The IT budget is generous."] },
+            { "title": "Choose Proxmox when", "items": ["The business wants to optimize licensing cost.", "The infrastructure is small to medium-sized (SMB).", "The data center wants to move away from dependence on Broadcom.", "The environment needs flexibility between both virtual machines (VMs) and containers."] }
+          ]
+        }
       }
     },
     "systemIntegrationStaff": {

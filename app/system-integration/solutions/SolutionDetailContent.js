@@ -8,6 +8,7 @@ import Reveal from '@/components/Reveal';
 import CtaBanner from '@/components/CtaBanner';
 import ChecklistPanel from '@/components/ChecklistPanel';
 import CommitmentsGrid from '@/components/CommitmentsGrid';
+import VendorComparison from './VendorComparison';
 import { systemIntegrationSolutions } from '@/lib/content';
 import { ICONS } from '@/lib/icons';
 import { useLanguage } from '@/context/LanguageContext';
@@ -32,6 +33,7 @@ export default function SolutionDetailContent({ solutionKey }) {
   const commitments = t(`${base}.commitments`);
   const deploymentTable = t(`${base}.deploymentTable`);
   const closingNote = t(`${base}.closingNote`);
+  const comparison = t(`${base}.comparison`);
 
   const hasTargets = Array.isArray(targets);
   const hasSections = Array.isArray(sections);
@@ -41,12 +43,15 @@ export default function SolutionDetailContent({ solutionKey }) {
   const hasCommitments = Array.isArray(commitments);
   const hasDeploymentTable = deploymentTable && Array.isArray(deploymentTable.rows) && Array.isArray(deploymentTable.columns);
   const hasClosingNote = Array.isArray(closingNote);
+  const hasComparison =
+    comparison && typeof comparison === 'object' && Array.isArray(comparison.columns) && Array.isArray(comparison.rows);
 
   // Derived from whichever optional section actually rendered last (in render
   // order below), not a fixed flag — otherwise a solution with fewer optional
   // sections than expected gets two adjacent same-colored sections in a row.
-  const lastSectionIsWhite =
-    hasCommitments || hasDeploymentTable
+  const lastSectionIsWhite = hasComparison
+    ? true
+    : hasCommitments || hasDeploymentTable
       ? false
       : hasTable || hasClosingNote || hasServicesList
         ? true
@@ -294,6 +299,8 @@ export default function SolutionDetailContent({ solutionKey }) {
           </div>
         </section>
       )}
+
+      {hasComparison && <VendorComparison comparison={comparison} />}
 
       <section className={lastSectionIsWhite ? 'bg-mist-50 py-12' : 'bg-white pb-4'}>
         <div className="container-page text-center">

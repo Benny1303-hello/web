@@ -30,6 +30,7 @@
     "solutionFirewallLoadBalancing": "Firewall & Cân bằng tải",
     "solutionCentralControl": "Điều khiển tập trung",
     "solutionInfrastructure": "Dịch vụ hạ tầng IT",
+    "solutionSoftware": "Cung cấp phần mềm",
     "systemIntegrationStaff": "Đội ngũ kỹ sư",
     "services": "Trung tâm dịch vụ",
     "servicesAbout": "Giới thiệu Trung tâm dịch vụ",
@@ -355,7 +356,7 @@
         "crumb": "Giải pháp",
         "eyebrow": "Technology Solutions",
         "title": "Giải pháp tích hợp công nghệ cho doanh nghiệp",
-        "description": "Bốn nhóm giải pháp trọng tâm giúp doanh nghiệp tối ưu chi phí đầu tư, vận hành và bảo mật hệ thống IT."
+        "description": "Năm nhóm giải pháp trọng tâm giúp doanh nghiệp tối ưu chi phí đầu tư, vận hành, bảo mật và bản quyền phần mềm."
       },
       "intro": {
         "eyebrow": "Tổng quan",
@@ -366,7 +367,8 @@
         "smb": { "title": "Giải Pháp IT Cho Doanh Nghiệp Vừa Và Nhỏ", "short": "Tối ưu chi phí đầu tư, vận hành và bảo mật hạ tầng IT cho doanh nghiệp quy mô vừa và nhỏ." },
         "firewallLoadBalancing": { "title": "Giải Pháp Firewall & Cân Bằng Tải", "short": "Bảo vệ hệ thống trước các mối đe dọa từ Internet, đồng thời cân bằng tải đường truyền và website." },
         "centralControl": { "title": "Giải Pháp Điều Khiển Tập Trung", "short": "Quản lý tập trung toàn bộ máy trạm từ một hệ thống xử lý trung tâm, tăng bảo mật và giảm chi phí vận hành." },
-        "infrastructure": { "title": "Dịch Vụ Hạ Tầng Công Nghệ Thông Tin", "short": "Thi công, triển khai và hỗ trợ hạ tầng nguồn điện, mạng và máy chủ toàn diện cho doanh nghiệp." }
+        "infrastructure": { "title": "Dịch Vụ Hạ Tầng Công Nghệ Thông Tin", "short": "Thi công, triển khai và hỗ trợ hạ tầng nguồn điện, mạng và máy chủ toàn diện cho doanh nghiệp." },
+        "software": { "title": "Cung Cấp Phần Mềm", "short": "Kiểm tra bản quyền, tư vấn và cung cấp bản quyền phần mềm chính hãng — trọng tâm là Microsoft, bên cạnh VMware, Veeam, Adobe, AutoCAD." }
       }
     },
     "systemIntegrationSolutionDetail": {
@@ -594,6 +596,123 @@
           { "title": "Hỗ Trợ Bảo Hành", "items": ["Ưu tiên bảo hành thiết bị, có thiết bị tương đương cho mượn trong thời gian bảo hành."] },
           { "title": "Nhân Lực Triển Khai", "items": ["Ít nhất 15 năm kinh nghiệm trong lĩnh vực công nghệ thông tin.", "Ít nhất 10 năm kinh nghiệm tư vấn và triển khai hệ thống CNTT.", "Ít nhất 5 năm kinh nghiệm tư vấn và xử lý bảo mật hệ thống."] },
           { "title": "Khảo Sát Hệ Thống Hiện Có", "items": ["Đã có máy chủ lưu dữ liệu tập trung chưa?", "Đã có hệ thống sao lưu dự phòng chưa?", "Số lượng nhân viên hiện tại?", "Số lượng nhân viên kế toán?", "Số lượng nhân viên thiết kế?", "Dung lượng lưu trữ cần thiết cho mỗi nhân viên?", "Số lượng đường truyền Internet đang sử dụng?"] }
+        ]
+      },
+      "software": {
+        "hero": {
+          "crumb": "Cung cấp phần mềm",
+          "eyebrow": "Software Supply",
+          "title": "Kiểm tra, tư vấn và cung cấp bản quyền phần mềm",
+          "description": "Đồng hành cùng doanh nghiệp từ rà soát bản quyền đang sử dụng đến cung cấp bản quyền phần mềm chính hãng — trọng tâm là các giải pháp của Microsoft."
+        },
+        "imageAlt": "Microsoft Silver Partner",
+        "overviewHeading": "Tổng quan",
+        "overview": "Sử dụng phần mềm có bản quyền không chỉ giúp doanh nghiệp tuân thủ quy định về sở hữu trí tuệ, mà còn bảo đảm an toàn hệ thống nhờ các bản cập nhật bảo mật thường xuyên và sự hỗ trợ chính hãng khi có sự cố. TTC-Infotech đồng hành cùng doanh nghiệp từ khâu kiểm tra bản quyền đang sử dụng, tư vấn phương án cấp phép phù hợp cho đến cung cấp bản quyền chính hãng — trọng tâm là các phần mềm của Microsoft, bên cạnh các hãng khác như VMware, Veeam, Adobe, AutoCAD, OPC UA Wrapper...",
+        "solutionDesc": "TTC-Infotech giúp doanh nghiệp sử dụng phần mềm đúng bản quyền, đúng nhu cầu và tối ưu chi phí đầu tư.",
+        "targetsHeading": "Mục tiêu giải pháp",
+        "targets": [
+          "Bảo đảm doanh nghiệp sử dụng phần mềm có bản quyền hợp lệ, hạn chế rủi ro pháp lý.",
+          "Tối ưu chi phí bản quyền theo đúng quy mô và nhu cầu sử dụng thực tế.",
+          "Nâng cao an toàn hệ thống nhờ cập nhật bảo mật và hỗ trợ chính hãng.",
+          "Đơn giản hóa việc quản lý, gia hạn và mở rộng bản quyền khi doanh nghiệp phát triển."
+        ],
+        "sectionsHeading": "Giải pháp bản quyền phần mềm",
+        "sections": [
+          { "title": "Kiểm Tra Và Đánh Giá Bản Quyền Hiện Có", "desc": "Rà soát phần mềm đang được cài đặt và sử dụng trên máy trạm, máy chủ; đối chiếu với các giấy phép doanh nghiệp đang sở hữu để phát hiện tình trạng thiếu bản quyền, dư thừa hoặc phần mềm chưa được cấp phép hợp lệ. Kết quả được tổng hợp thành báo cáo hiện trạng để doanh nghiệp chủ động xử lý." },
+          { "title": "Tư Vấn Giải Pháp Bản Quyền Phù Hợp", "desc": "Đề xuất phương án cấp phép theo quy mô và nhu cầu thực tế: mua một lần hay thuê bao, cấp phép theo người dùng, theo thiết bị hay theo lõi (core), cùng các hình thức OEM, Retail và Volume — giúp tối ưu chi phí đầu tư trong dài hạn." },
+          { "title": "Cung Cấp Bản Quyền Chính Hãng", "desc": "Cung cấp bản quyền phần mềm chính hãng, trọng tâm là các sản phẩm của Microsoft như Windows, Office/Microsoft 365, Windows Server, SQL Server; đồng thời cung cấp bản quyền phần mềm của các hãng khác như VMware, Veeam, Adobe, AutoCAD, OPC UA Wrapper..." },
+          { "title": "Triển Khai, Kích Hoạt Và Hỗ Trợ", "desc": "Hỗ trợ cài đặt, kích hoạt và di chuyển sang phiên bản hoặc gói mới (ví dụ nâng cấp lên Windows 11, chuyển sang Microsoft 365), cùng hỗ trợ kỹ thuật trong suốt quá trình sử dụng." }
+        ],
+        "categoriesHeading": "Danh mục phần mềm Microsoft",
+        "categoriesIntro": "Các dòng sản phẩm Microsoft mà TTC-Infotech tư vấn và cung cấp bản quyền cho doanh nghiệp. Liên hệ TTC-Infotech để được tư vấn phiên bản, hình thức cấp phép và báo giá phù hợp.",
+        "categories": [
+          {
+            "icon": "Monitor",
+            "title": "Hệ Điều Hành Windows",
+            "desc": "Bản quyền hệ điều hành cho máy trạm, laptop và thiết bị chuyên dụng của doanh nghiệp.",
+            "items": [
+              { "title": "Windows 11 Pro", "desc": "Hệ điều hành cho máy tính doanh nghiệp, hỗ trợ tham gia domain, mã hóa ổ đĩa BitLocker và quản lý tập trung." },
+              { "title": "Windows 11 Enterprise", "desc": "Phiên bản dành cho tổ chức quy mô lớn, tích hợp các tính năng bảo mật và quản trị nâng cao, cấp phép theo chương trình dành cho doanh nghiệp." },
+              { "title": "Windows 11 IoT Enterprise (LTSC)", "desc": "Dành cho thiết bị chuyên dụng, máy công nghiệp, kiosk và hệ thống nhúng cần vòng đời hỗ trợ dài hạn." }
+            ]
+          },
+          {
+            "icon": "Server",
+            "title": "Máy Chủ Và Hạ Tầng",
+            "desc": "Bản quyền nền tảng máy chủ, ảo hóa và truy cập từ xa cho phòng máy chủ và trung tâm dữ liệu.",
+            "items": [
+              { "title": "Windows Server Standard", "desc": "Dành cho môi trường vật lý hoặc ảo hóa quy mô nhỏ, cấp phép theo lõi (core)." },
+              { "title": "Windows Server Datacenter", "desc": "Dành cho môi trường ảo hóa mật độ cao, không giới hạn số máy ảo trên mỗi máy chủ đã cấp phép." },
+              { "title": "Windows Server CAL (User / Device)", "desc": "Giấy phép truy cập cho người dùng hoặc thiết bị kết nối vào Windows Server." },
+              { "title": "Remote Desktop Services (RDS) CAL", "desc": "Giấy phép cho người dùng hoặc thiết bị truy cập máy tính và ứng dụng từ xa thông qua Remote Desktop Services." },
+              { "title": "System Center", "desc": "Bộ công cụ quản trị và giám sát tập trung hạ tầng máy chủ, máy trạm và ảo hóa." }
+            ]
+          },
+          {
+            "icon": "Database",
+            "title": "Cơ Sở Dữ Liệu Và Phân Tích",
+            "desc": "Bản quyền nền tảng dữ liệu cho ứng dụng doanh nghiệp, báo cáo và phân tích.",
+            "items": [
+              { "title": "SQL Server Standard", "desc": "Máy chủ cơ sở dữ liệu cho ứng dụng doanh nghiệp, cấp phép theo lõi hoặc theo mô hình Server + CAL." },
+              { "title": "SQL Server Enterprise", "desc": "Dành cho hệ thống quy mô lớn cần hiệu năng, khả năng sẵn sàng cao và tính năng nâng cao, cấp phép theo lõi." },
+              { "title": "SQL Server CAL", "desc": "Giấy phép truy cập cho người dùng hoặc thiết bị khi sử dụng mô hình Server + CAL." },
+              { "title": "Power BI Pro / Premium Per User", "desc": "Nền tảng phân tích và trực quan hóa dữ liệu, xây dựng báo cáo và dashboard cho doanh nghiệp." }
+            ]
+          },
+          {
+            "icon": "Mail",
+            "title": "Văn Phòng Và Cộng Tác",
+            "desc": "Bộ ứng dụng văn phòng, email và công cụ làm việc nhóm, theo hình thức thuê bao hoặc mua một lần.",
+            "items": [
+              { "title": "Microsoft 365 Business (Basic / Standard / Premium)", "desc": "Gói thuê bao cho doanh nghiệp vừa và nhỏ: email doanh nghiệp, Teams, lưu trữ OneDrive, ứng dụng Office và bảo mật thiết bị (gói Premium)." },
+              { "title": "Microsoft 365 Apps for business", "desc": "Bộ ứng dụng Word, Excel, PowerPoint, Outlook... cài đặt trên máy tính theo hình thức thuê bao." },
+              { "title": "Microsoft 365 E3 / E5", "desc": "Gói dành cho doanh nghiệp lớn, kết hợp ứng dụng Office, Windows Enterprise cùng các giải pháp bảo mật và tuân thủ nâng cao." },
+              { "title": "Office LTSC (Standard / Professional Plus)", "desc": "Bộ Office cấp phép theo chương trình dành cho tổ chức, dùng lâu dài không cần thuê bao." },
+              { "title": "Office Home & Business", "desc": "Bộ Office mua một lần cho từng máy tính, phù hợp cá nhân và doanh nghiệp nhỏ." },
+              { "title": "Exchange Server / Exchange Online", "desc": "Hệ thống email doanh nghiệp vận hành tại chỗ hoặc trên nền tảng đám mây." },
+              { "title": "Microsoft Teams", "desc": "Họp trực tuyến, nhắn tin và cộng tác nhóm, có sẵn trong Microsoft 365 hoặc dưới dạng gói Teams riêng." },
+              { "title": "Project và Visio", "desc": "Quản lý dự án (Project) và vẽ sơ đồ, lưu đồ, sơ đồ mạng (Visio) theo thuê bao hoặc bản dùng lâu dài." }
+            ]
+          },
+          {
+            "icon": "Cloud",
+            "title": "Đám Mây Và Bảo Mật",
+            "desc": "Dịch vụ đám mây, quản lý danh tính và bảo vệ thiết bị cho doanh nghiệp làm việc từ xa và đa thiết bị.",
+            "items": [
+              { "title": "Microsoft Azure", "desc": "Nền tảng điện toán đám mây: máy chủ ảo, lưu trữ, cơ sở dữ liệu, sao lưu và phục hồi sau sự cố." },
+              { "title": "Windows 365 / Azure Virtual Desktop", "desc": "Máy tính ảo trên đám mây giúp nhân viên làm việc từ xa an toàn trên nhiều loại thiết bị." },
+              { "title": "Microsoft Entra ID", "desc": "Quản lý danh tính và quyền truy cập, đăng nhập một lần (SSO) và xác thực đa yếu tố (MFA)." },
+              { "title": "Microsoft Intune", "desc": "Quản lý tập trung máy tính, thiết bị di động và ứng dụng của nhân viên, áp dụng chính sách bảo mật thống nhất." },
+              { "title": "Microsoft Defender", "desc": "Bảo vệ máy trạm, email và ứng dụng trước mã độc và các mối đe dọa an ninh mạng (Defender for Business, Defender for Endpoint...)." }
+            ]
+          },
+          {
+            "icon": "Briefcase",
+            "title": "Ứng Dụng Doanh Nghiệp Và Công Cụ Phát Triển",
+            "desc": "Ứng dụng quản trị, tự động hóa quy trình, trợ lý AI và công cụ dành cho lập trình viên.",
+            "items": [
+              { "title": "Dynamics 365", "desc": "Bộ ứng dụng quản trị doanh nghiệp: bán hàng, chăm sóc khách hàng, tài chính, chuỗi cung ứng (như Dynamics 365 Business Central)." },
+              { "title": "Power Platform (Power Apps, Power Automate)", "desc": "Nền tảng low-code để xây dựng ứng dụng và tự động hóa quy trình làm việc." },
+              { "title": "Microsoft 365 Copilot", "desc": "Trợ lý AI tích hợp trong Word, Excel, Outlook, Teams giúp soạn thảo, tổng hợp và phân tích nhanh hơn (gói bổ sung cho Microsoft 365)." },
+              { "title": "Visual Studio", "desc": "Bộ công cụ phát triển phần mềm cho lập trình viên, gồm các gói Professional và Enterprise theo thuê bao." }
+            ]
+          }
+        ],
+        "servicesListHeading": "Phần mềm của các hãng khác",
+        "servicesListIntro": "Bên cạnh Microsoft, TTC-Infotech còn tư vấn và cung cấp bản quyền phần mềm của nhiều hãng khác, bao gồm:",
+        "servicesList": [
+          "VMware — nền tảng ảo hóa máy chủ và trung tâm dữ liệu.",
+          "Veeam — giải pháp sao lưu, phục hồi và bảo vệ dữ liệu.",
+          "Adobe — bộ ứng dụng thiết kế, đồ họa, dựng video và tài liệu PDF (Creative Cloud, Acrobat).",
+          "AutoCAD (Autodesk) — phần mềm thiết kế kỹ thuật 2D/3D cho kiến trúc, cơ khí và xây dựng.",
+          "OPC UA Wrapper — phần mềm kết nối dữ liệu công nghiệp, chuyển đổi máy chủ OPC cổ điển sang chuẩn OPC UA.",
+          "Và nhiều phần mềm khác theo yêu cầu của doanh nghiệp."
+        ],
+        "commitmentsHeading": "Cam kết từ nhà cung cấp",
+        "commitments": [
+          { "title": "Bản Quyền Chính Hãng", "items": ["Cung cấp bản quyền phần mềm chính hãng, hợp lệ.", "Đầy đủ chứng từ, hóa đơn theo quy định."] },
+          { "title": "Hỗ Trợ Kỹ Thuật", "items": ["Hỗ trợ cài đặt, kích hoạt và di chuyển phần mềm.", "Hỗ trợ từ xa hoặc hỗ trợ tận nơi."] },
+          { "title": "Đối Tác Và Kinh Nghiệm", "items": ["Microsoft Silver Partner.", "Hơn 25 năm kinh nghiệm trong lĩnh vực công nghệ thông tin."] }
         ]
       }
     },

@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowLeft, CheckCircle2 } from 'lucide-react';
 import PageHero from '@/components/PageHero';
@@ -7,12 +8,23 @@ import Reveal from '@/components/Reveal';
 import CtaBanner from '@/components/CtaBanner';
 import ChecklistPanel from '@/components/ChecklistPanel';
 import CommitmentsGrid from '@/components/CommitmentsGrid';
+import { systemIntegrationSolutions } from '@/lib/content';
+import { ICONS } from '@/lib/icons';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function SolutionDetailContent({ solutionKey }) {
   const { t } = useLanguage();
   const base = `pages.systemIntegrationSolutionDetail.${solutionKey}`;
-  const targets = t('pages.systemIntegrationSolutionDetail.sharedTargets');
+  const image = systemIntegrationSolutions.find((item) => item.key === solutionKey)?.image;
+  const optionalText = (path) => {
+    const value = t(path);
+    return typeof value === 'string' && value !== path ? value : null;
+  };
+  const ownTargets = t(`${base}.targets`);
+  const targets = Array.isArray(ownTargets) ? ownTargets : t('pages.systemIntegrationSolutionDetail.sharedTargets');
+  const targetsHeading = optionalText(`${base}.targetsHeading`) ?? t('pages.systemIntegrationSolutionDetail.sharedTargetsHeading');
+  const categoriesHeading = optionalText(`${base}.categoriesHeading`);
+  const categoriesIntro = optionalText(`${base}.categoriesIntro`);
   const sections = t(`${base}.sections`);
   const categories = t(`${base}.categories`);
   const tableRows = t(`${base}.tableRows`);
@@ -58,9 +70,20 @@ export default function SolutionDetailContent({ solutionKey }) {
           </Reveal>
 
           <Reveal delay={0.1}>
-            {hasTargets && (
-              <ChecklistPanel heading={t('pages.systemIntegrationSolutionDetail.sharedTargetsHeading')} items={targets} />
-            )}
+            <div className="space-y-6">
+              {image && (
+                <div className="overflow-hidden rounded-3xl shadow-card ring-1 ring-black/5">
+                  <Image
+                    src={image}
+                    alt={t(`${base}.imageAlt`)}
+                    width={1200}
+                    height={800}
+                    className="h-auto w-full"
+                  />
+                </div>
+              )}
+              {hasTargets && <ChecklistPanel heading={targetsHeading} items={targets} />}
+            </div>
           </Reveal>
         </div>
       </section>
@@ -94,24 +117,46 @@ export default function SolutionDetailContent({ solutionKey }) {
               </div>
             )}
 
+            {hasCategories && categoriesHeading && (
+              <Reveal className={`mx-auto max-w-2xl text-center ${hasSections ? 'mt-20' : 'mt-12'}`}>
+                <h2 className="text-balance font-display text-3xl font-bold text-navy-900 md:text-4xl">
+                  {categoriesHeading}
+                </h2>
+                {categoriesIntro && <p className="mt-3 text-sm leading-relaxed text-ink-400">{categoriesIntro}</p>}
+              </Reveal>
+            )}
+
             {hasCategories && (
-              <div className="mx-auto mt-12 max-w-4xl space-y-10">
-                {categories.map((category, ci) => (
-                  <Reveal key={category.title} delay={ci * 0.1}>
-                    <div>
-                      <h3 className="font-display text-xl font-bold text-navy-900">{category.title}</h3>
-                      <p className="mt-2 text-sm leading-relaxed text-ink-400">{category.desc}</p>
-                      <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2">
-                        {Array.isArray(category.items) && category.items.map((item) => (
-                          <div key={item.title} className="rounded-2xl bg-white p-6 shadow-soft ring-1 ring-black/5">
-                            <h4 className="font-display text-base font-bold text-ink-900">{item.title}</h4>
-                            <p className="mt-2 text-sm leading-relaxed text-ink-400">{item.desc}</p>
-                          </div>
-                        ))}
+              <div className="mx-auto mt-12 max-w-4xl space-y-12">
+                {categories.map((category, ci) => {
+                  const CategoryIcon = category.icon ? ICONS[category.icon] : null;
+                  return (
+                    <Reveal key={category.title} delay={ci * 0.1}>
+                      <div>
+                        <div className="flex items-center gap-3">
+                          {CategoryIcon && (
+                            <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-cyan-400 text-white">
+                              <CategoryIcon size={20} />
+                            </span>
+                          )}
+                          <h3 className="font-display text-xl font-bold text-navy-900">{category.title}</h3>
+                        </div>
+                        <p className="mt-3 text-sm leading-relaxed text-ink-400">{category.desc}</p>
+                        <div className="mt-6 flex flex-wrap justify-center gap-4">
+                          {Array.isArray(category.items) && category.items.map((item) => (
+                            <div
+                              key={item.title}
+                              className="w-full rounded-2xl bg-white p-6 shadow-soft ring-1 ring-black/5 sm:w-[calc(50%-8px)]"
+                            >
+                              <h4 className="font-display text-base font-bold text-ink-900">{item.title}</h4>
+                              <p className="mt-2 text-sm leading-relaxed text-ink-400">{item.desc}</p>
+                            </div>
+                          ))}
+                        </div>
                       </div>
-                    </div>
-                  </Reveal>
-                ))}
+                    </Reveal>
+                  );
+                })}
               </div>
             )}
           </div>

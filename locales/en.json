@@ -30,6 +30,7 @@
     "solutionFirewallLoadBalancing": "Firewall & Load Balancing",
     "solutionCentralControl": "Central Control",
     "solutionInfrastructure": "IT Infrastructure Services",
+    "solutionSoftware": "Software Supply",
     "systemIntegrationStaff": "Engineering Team",
     "services": "Services Center",
     "servicesAbout": "About Services Center",
@@ -355,7 +356,7 @@
         "crumb": "Solutions",
         "eyebrow": "Technology Solutions",
         "title": "Technology integration solutions for your business",
-        "description": "Four core solution groups that help businesses optimize investment cost, operations, and IT system security."
+        "description": "Five core solution groups that help businesses optimize investment cost, operations, security, and software licensing."
       },
       "intro": {
         "eyebrow": "Overview",
@@ -366,7 +367,8 @@
         "smb": { "title": "IT Solutions for Small & Medium Businesses", "short": "Optimize investment, operating cost, and security for SME IT infrastructure." },
         "firewallLoadBalancing": { "title": "Firewall & Load Balancing Solution", "short": "Protect your systems from Internet threats while balancing traffic across connections and websites." },
         "centralControl": { "title": "Central Control Solution", "short": "Manage every workstation centrally from one processing system, improving security and cutting operating cost." },
-        "infrastructure": { "title": "IT Infrastructure Services", "short": "Full-service power, network, and server infrastructure deployment and support for your business." }
+        "infrastructure": { "title": "IT Infrastructure Services", "short": "Full-service power, network, and server infrastructure deployment and support for your business." },
+        "software": { "title": "Software Supply", "short": "License auditing, consulting, and supply of genuine software licenses — with a focus on Microsoft, alongside VMware, Veeam, Adobe, and AutoCAD." }
       }
     },
     "systemIntegrationSolutionDetail": {
@@ -594,6 +596,123 @@
           { "title": "Warranty Support", "items": ["Priority warranty service, with equivalent loaner equipment provided during the warranty period."] },
           { "title": "Deployment Personnel", "items": ["At least 15 years of experience in information technology.", "At least 10 years of experience consulting on and deploying IT systems.", "At least 5 years of experience in security consulting and remediation."] },
           { "title": "Current System Survey", "items": ["Do you already have a centralized data storage server?", "Do you already have a backup system in place?", "Current number of employees?", "Number of accounting staff?", "Number of design staff?", "Storage capacity needed per employee?", "Number of Internet lines currently in use?"] }
+        ]
+      },
+      "software": {
+        "hero": {
+          "crumb": "Software Supply",
+          "eyebrow": "Software Supply",
+          "title": "Software license auditing, consulting, and supply",
+          "description": "Partnering with businesses from reviewing the licenses already in use to supplying genuine software licenses — with a focus on Microsoft solutions."
+        },
+        "imageAlt": "Microsoft Silver Partner",
+        "overviewHeading": "Overview",
+        "overview": "Using licensed software not only helps a business comply with intellectual property regulations, but also keeps its systems safe through regular security updates and official vendor support when issues arise. TTC-Infotech works alongside businesses from auditing the licenses currently in use, to advising on the right licensing options, to supplying genuine licenses — with a focus on Microsoft software, alongside other vendors such as VMware, Veeam, Adobe, AutoCAD, OPC UA Wrapper...",
+        "solutionDesc": "TTC-Infotech helps businesses use properly licensed software that fits their needs and optimizes investment cost.",
+        "targetsHeading": "Solution Objectives",
+        "targets": [
+          "Ensure the business uses validly licensed software and limit legal risk.",
+          "Optimize licensing cost to match actual scale and usage.",
+          "Improve system safety through security updates and official vendor support.",
+          "Simplify managing, renewing, and expanding licenses as the business grows."
+        ],
+        "sectionsHeading": "Software Licensing Solutions",
+        "sections": [
+          { "title": "License Audit and Assessment", "desc": "We review the software installed and in use across workstations and servers, and compare it against the licenses the business owns to identify shortfalls, surplus, or software without valid licensing. The findings are compiled into a status report so the business can act on them proactively." },
+          { "title": "Licensing Consultation", "desc": "We recommend licensing options based on real scale and needs: one-time purchase or subscription, licensing per user, per device, or per core, plus OEM, Retail, and Volume channels — helping optimize long-term investment cost." },
+          { "title": "Genuine License Supply", "desc": "We supply genuine software licenses, focusing on Microsoft products such as Windows, Office/Microsoft 365, Windows Server, and SQL Server, as well as licenses for other vendors including VMware, Veeam, Adobe, AutoCAD, and OPC UA Wrapper..." },
+          { "title": "Deployment, Activation, and Support", "desc": "We help with installation, activation, and migration to a new version or plan (for example upgrading to Windows 11 or moving to Microsoft 365), along with technical support throughout use." }
+        ],
+        "categoriesHeading": "Microsoft Software Catalog",
+        "categoriesIntro": "The Microsoft product lines TTC-Infotech advises on and supplies licenses for. Contact TTC-Infotech for guidance on versions, licensing options, and a suitable quotation.",
+        "categories": [
+          {
+            "icon": "Monitor",
+            "title": "Windows Operating Systems",
+            "desc": "Operating system licenses for business workstations, laptops, and dedicated devices.",
+            "items": [
+              { "title": "Windows 11 Pro", "desc": "Operating system for business PCs, supporting domain join, BitLocker drive encryption, and centralized management." },
+              { "title": "Windows 11 Enterprise", "desc": "Edition for large organizations, with advanced security and management features, licensed through enterprise programs." },
+              { "title": "Windows 11 IoT Enterprise (LTSC)", "desc": "For dedicated devices, industrial machines, kiosks, and embedded systems that need a long-term support lifecycle." }
+            ]
+          },
+          {
+            "icon": "Server",
+            "title": "Servers and Infrastructure",
+            "desc": "Server platform, virtualization, and remote access licenses for server rooms and data centers.",
+            "items": [
+              { "title": "Windows Server Standard", "desc": "For physical or small-scale virtualized environments, licensed per core." },
+              { "title": "Windows Server Datacenter", "desc": "For high-density virtualized environments, with an unlimited number of virtual machines per licensed server." },
+              { "title": "Windows Server CAL (User / Device)", "desc": "Access licenses for users or devices connecting to Windows Server." },
+              { "title": "Remote Desktop Services (RDS) CAL", "desc": "Licenses for users or devices accessing desktops and applications remotely through Remote Desktop Services." },
+              { "title": "System Center", "desc": "Toolset for centralized management and monitoring of server, workstation, and virtualization infrastructure." }
+            ]
+          },
+          {
+            "icon": "Database",
+            "title": "Databases and Analytics",
+            "desc": "Data platform licenses for business applications, reporting, and analytics.",
+            "items": [
+              { "title": "SQL Server Standard", "desc": "Database server for business applications, licensed per core or under the Server + CAL model." },
+              { "title": "SQL Server Enterprise", "desc": "For large-scale systems that need performance, high availability, and advanced features, licensed per core." },
+              { "title": "SQL Server CAL", "desc": "Access licenses for users or devices under the Server + CAL model." },
+              { "title": "Power BI Pro / Premium Per User", "desc": "Data analytics and visualization platform for building reports and dashboards for the business." }
+            ]
+          },
+          {
+            "icon": "Mail",
+            "title": "Productivity and Collaboration",
+            "desc": "Office applications, email, and teamwork tools, available as subscriptions or one-time purchases.",
+            "items": [
+              { "title": "Microsoft 365 Business (Basic / Standard / Premium)", "desc": "Subscription plans for small and medium businesses: business email, Teams, OneDrive storage, Office apps, and device security (Premium plan)." },
+              { "title": "Microsoft 365 Apps for business", "desc": "Word, Excel, PowerPoint, Outlook, and more, installed on PCs on a subscription basis." },
+              { "title": "Microsoft 365 E3 / E5", "desc": "Plans for large enterprises, combining Office apps, Windows Enterprise, and advanced security and compliance solutions." },
+              { "title": "Office LTSC (Standard / Professional Plus)", "desc": "Office suite licensed through organizational programs, for long-term use without a subscription." },
+              { "title": "Office Home & Business", "desc": "One-time-purchase Office suite per computer, suited to individuals and small businesses." },
+              { "title": "Exchange Server / Exchange Online", "desc": "Business email system run on-premises or on the cloud." },
+              { "title": "Microsoft Teams", "desc": "Online meetings, messaging, and team collaboration, included in Microsoft 365 or available as a standalone Teams plan." },
+              { "title": "Project and Visio", "desc": "Project management (Project) and diagramming for flowcharts and network diagrams (Visio), as subscriptions or long-term versions." }
+            ]
+          },
+          {
+            "icon": "Cloud",
+            "title": "Cloud and Security",
+            "desc": "Cloud services, identity management, and device protection for remote and multi-device workforces.",
+            "items": [
+              { "title": "Microsoft Azure", "desc": "Cloud computing platform: virtual machines, storage, databases, backup, and disaster recovery." },
+              { "title": "Windows 365 / Azure Virtual Desktop", "desc": "Cloud-hosted virtual PCs that let employees work remotely and securely from many kinds of devices." },
+              { "title": "Microsoft Entra ID", "desc": "Identity and access management, single sign-on (SSO), and multi-factor authentication (MFA)." },
+              { "title": "Microsoft Intune", "desc": "Centralized management of employee PCs, mobile devices, and apps, with consistent security policies." },
+              { "title": "Microsoft Defender", "desc": "Protects workstations, email, and applications from malware and cyber threats (Defender for Business, Defender for Endpoint...)." }
+            ]
+          },
+          {
+            "icon": "Briefcase",
+            "title": "Business Applications and Developer Tools",
+            "desc": "Management applications, workflow automation, AI assistants, and tools for developers.",
+            "items": [
+              { "title": "Dynamics 365", "desc": "Business management application suite: sales, customer service, finance, and supply chain (such as Dynamics 365 Business Central)." },
+              { "title": "Power Platform (Power Apps, Power Automate)", "desc": "Low-code platform for building applications and automating workflows." },
+              { "title": "Microsoft 365 Copilot", "desc": "AI assistant built into Word, Excel, Outlook, and Teams to help draft, summarize, and analyze faster (an add-on for Microsoft 365)." },
+              { "title": "Visual Studio", "desc": "Software development toolset for developers, with Professional and Enterprise subscriptions." }
+            ]
+          }
+        ],
+        "servicesListHeading": "Software from Other Vendors",
+        "servicesListIntro": "Beyond Microsoft, TTC-Infotech also advises on and supplies licenses for software from many other vendors, including:",
+        "servicesList": [
+          "VMware — server and data center virtualization platform.",
+          "Veeam — data backup, recovery, and protection solutions.",
+          "Adobe — design, graphics, video editing, and PDF applications (Creative Cloud, Acrobat).",
+          "AutoCAD (Autodesk) — 2D/3D technical design software for architecture, mechanical engineering, and construction.",
+          "OPC UA Wrapper — industrial data connectivity software that converts classic OPC servers to the OPC UA standard.",
+          "And many other software products on request."
+        ],
+        "commitmentsHeading": "Our Commitments",
+        "commitments": [
+          { "title": "Genuine Licenses", "items": ["Genuine, valid software licenses.", "Complete documentation and invoices as required."] },
+          { "title": "Technical Support", "items": ["Help with software installation, activation, and migration.", "Remote or on-site support."] },
+          { "title": "Partnership and Experience", "items": ["Microsoft Silver Partner.", "Over 25 years of experience in information technology."] }
         ]
       }
     },

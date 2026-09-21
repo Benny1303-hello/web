@@ -69,7 +69,7 @@ export default function Navbar() {
         scrolled ? 'bg-navy-950/95 shadow-soft backdrop-blur' : 'bg-navy-950'
       }`}
     >
-      <div className="container-page flex h-20 items-center justify-between gap-6">
+      <div className="container-page flex h-20 items-center justify-between gap-4 2xl:gap-6">
         <Link href="/" className="flex shrink-0 items-center">
           <Image src="/logo.png" alt={site.name} width={148} height={80} className="h-12 w-auto" priority />
         </Link>
@@ -82,7 +82,7 @@ export default function Navbar() {
                 <div key={link.key} className="group relative">
                   <Link
                     href={link.href}
-                    className={`flex items-center gap-1 whitespace-nowrap px-2.5 py-2 text-sm font-medium transition-colors hover:text-cyan-300 ${
+                    className={`flex items-center gap-1 whitespace-nowrap px-2 py-2 text-sm font-medium transition-colors hover:text-cyan-300 2xl:px-2.5 ${
                       childActive ? 'text-cyan-300' : 'text-slate-200'
                     }`}
                   >
@@ -176,7 +176,7 @@ export default function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="relative whitespace-nowrap px-2.5 py-2 text-sm font-medium text-slate-200 transition-colors hover:text-cyan-300"
+                className="relative whitespace-nowrap px-2 py-2 text-sm font-medium text-slate-200 transition-colors hover:text-cyan-300 2xl:px-2.5"
               >
                 {t(`nav.${link.key}`)}
                 {active && (

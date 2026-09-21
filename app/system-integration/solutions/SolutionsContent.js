@@ -33,11 +33,15 @@ export default function SolutionsContent() {
             <p className="mt-5 leading-relaxed text-ink-400">{t('pages.systemIntegrationSolutions.intro.desc')}</p>
           </Reveal>
 
-          <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-14 flex flex-wrap justify-center gap-6">
             {systemIntegrationSolutions.map((solution, i) => {
               const Icon = ICONS[solution.icon];
               return (
-                <Reveal key={solution.key} delay={i * 0.1}>
+                <Reveal
+                  key={solution.key}
+                  delay={i * 0.1}
+                  className="w-full sm:w-[calc(50%-12px)] lg:w-[calc(25%-18px)]"
+                >
                   <Link
                     href={`/system-integration/solutions/${solution.slug}`}
                     className="group flex h-full flex-col rounded-2xl border border-black/5 bg-mist-50 p-7 transition-all duration-300 hover:-translate-y-2 hover:border-transparent hover:bg-navy-950 hover:shadow-card"

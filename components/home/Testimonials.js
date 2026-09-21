@@ -13,13 +13,16 @@ export default function Testimonials() {
   const [index, setIndex] = useState(0);
   const [paused, setPaused] = useState(false);
 
+  // `index` is a dependency so manually picking a slide restarts the timer —
+  // otherwise a click landing late in the interval shows the chosen slide for
+  // only the remainder of it before autoplay moves on.
   useEffect(() => {
     if (paused) return undefined;
     const id = setInterval(() => {
       setIndex((i) => (i + 1) % testimonials.length);
     }, 9000);
     return () => clearInterval(id);
-  }, [paused]);
+  }, [paused, index]);
 
   const go = (dir) => {
     setIndex((i) => (i + dir + testimonials.length) % testimonials.length);

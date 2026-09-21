@@ -52,7 +52,6 @@
     "tagline": "YOUR IT PARTNER",
     "subtitle": "SYSTEM INTEGRATION · DISTRIBUTION CENTER · SERVICES CENTER",
     "description": "Over 25 years partnering with Vietnamese businesses to build resilient technology infrastructure — from consulting and equipment distribution to system integration, operations, repair, and maintenance.",
-    "ctaPrimary": "Request a consultation",
     "ctaSecondary": "Learn more"
   },
   "trustBadges": [
@@ -180,6 +179,7 @@
       "INVALID_BODY": "The submitted data is invalid.",
       "MISSING_FIELDS": "Please fill in all required fields.",
       "INVALID_EMAIL": "The email address is invalid.",
+      "RATE_LIMITED": "You've sent too many requests. Please try again in a few minutes.",
       "SERVER_NOT_READY": "The email system isn't ready yet, please try again later.",
       "SEND_FAILED": "Failed to send the email, please try again later.",
       "UNEXPECTED": "Something went wrong, please try again later.",

@@ -35,9 +35,25 @@ export async function generateMetadata({ params }) {
   const { group: groupKey, slug } = await params;
   const product = findProduct(groupKey, slug);
   if (!product) return {};
+
+  const title = `${product.name} (${product.part_number})`;
+  const description = product.overview || product.name;
+  const images = Array.isArray(product.images) && product.images.length > 0 ? [product.images[0]] : undefined;
+
+  // openGraph is set explicitly because the root layout defines its own, and an
+  // inherited openGraph.title wins over this page's `title` — without this,
+  // every shared product link would preview as the generic site title.
   return {
-    title: `${product.name} (${product.part_number})`,
-    description: product.overview || product.name,
+    title,
+    description,
+    openGraph: {
+      type: 'website',
+      title,
+      description,
+      url: `${SITE_URL}/products/${groupKey}/${slug}`,
+      images,
+    },
+    twitter: { card: images ? 'summary_large_image' : 'summary', title, description, images },
   };
 }
 

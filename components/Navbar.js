@@ -63,6 +63,18 @@ export default function Navbar() {
     setOpenMobileGrandKey(null);
   }, [pathname]);
 
+  // Escape closes the mobile menu, which is what anyone navigating by keyboard
+  // expects from an expanded menu — otherwise the only way out is to find the
+  // toggle again.
+  useEffect(() => {
+    if (!open) return undefined;
+    const onKeyDown = (e) => {
+      if (e.key === 'Escape') setOpen(false);
+    };
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, [open]);
+
   return (
     <header
       className={`sticky top-0 z-50 transition-colors duration-300 ${
@@ -216,6 +228,7 @@ export default function Navbar() {
           <button
             type="button"
             aria-label={open ? t('nav.closeMenu') : t('nav.openMenu')}
+            aria-expanded={open}
             className="rounded-lg p-2 text-white"
             onClick={() => setOpen((v) => !v)}
           >

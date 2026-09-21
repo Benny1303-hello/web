@@ -22,8 +22,12 @@ function ZaloIcon(props) {
   );
 }
 
-const FOOTER_NAV_EXCLUDED_KEYS = ['distribution', 'systemIntegration', 'services'];
-const footerNavLinks = navLinks.filter((link) => !FOOTER_NAV_EXCLUDED_KEYS.includes(link.key));
+// The three centers get their own footer list below, so they're dropped from
+// this one. Derived from `centers` rather than a hardcoded key list, so
+// renaming a center's key in lib/content.js can't silently make it show up in
+// both lists.
+const centerKeys = new Set(centers.map((center) => center.key));
+const footerNavLinks = navLinks.filter((link) => !centerKeys.has(link.key));
 
 export default function Footer() {
   const { t } = useLanguage();

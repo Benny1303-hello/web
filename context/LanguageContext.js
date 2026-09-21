@@ -26,8 +26,17 @@ function interpolate(value, vars) {
 export function LanguageProvider({ children }) {
   const [language, setLanguageState] = useState(DEFAULT_LANGUAGE);
 
+  // localStorage throws instead of returning null when a browser blocks site
+  // data (private windows, "block cookies" settings), so both the read and the
+  // write below are guarded — the language toggle still works for the session,
+  // it just doesn't persist.
   useEffect(() => {
-    const stored = window.localStorage.getItem(STORAGE_KEY);
+    let stored = null;
+    try {
+      stored = window.localStorage.getItem(STORAGE_KEY);
+    } catch {
+      return;
+    }
     if (stored === 'vi' || stored === 'en') {
       setLanguageState(stored);
     }
@@ -40,7 +49,11 @@ export function LanguageProvider({ children }) {
   const setLanguage = useCallback((lang) => {
     if (lang !== 'vi' && lang !== 'en') return;
     setLanguageState(lang);
-    window.localStorage.setItem(STORAGE_KEY, lang);
+    try {
+      window.localStorage.setItem(STORAGE_KEY, lang);
+    } catch {
+      // Storage blocked — the choice just won't survive a reload.
+    }
   }, []);
 
   const t = useCallback(

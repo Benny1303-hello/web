@@ -23,7 +23,7 @@ export default function TrustStats() {
                   <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-cyan-400 text-white">
                     {Icon && <Icon size={20} />}
                   </div>
-                  <h3 className="font-display text-lg font-bold text-ink-900">{badge.title}</h3>
+                  <h2 className="font-display text-lg font-bold text-ink-900">{badge.title}</h2>
                 </div>
                 <p className="mt-3 text-sm leading-relaxed text-ink-400">{badge.desc}</p>
               </div>

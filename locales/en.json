@@ -10,7 +10,7 @@
     "contactCta": "Contact us directly",
     "items": [
       { "key": "about", "q": "What is TTC-Infotech?", "a": "TTC-Infotech is a Vietnamese IT company with over 25 years of operation, made up of three main centers: Distribution, System Integration, and Services." },
-      { "key": "brands", "q": "Which brands does the company distribute?", "a": "TTC-Infotech is an official distribution partner of APC by Schneider Electric (Elite & Premier Partner), HPE Aruba Networking, Microsoft (Managed Reseller), and Telegartner." },
+      { "key": "brands", "q": "Which brands does the company distribute?", "a": "TTC-Infotech is an official distribution partner of APC by Schneider Electric (Elite & Premier Partner) and Microsoft (Managed Reseller)." },
       { "key": "services", "q": "What services does the company offer?", "a": "TTC-Infotech offers system consulting & design, installation and deployment, repair and troubleshooting, system maintenance, IT staffing (part-time/full-time), and extended warranty." },
       { "key": "integration", "q": "Does the company do system integration or virtualization?", "a": "Yes. TTC-Infotech's System Integration Center delivers SME IT solutions, firewall & load balancing, central control, IT infrastructure, software licensing, and virtualization solutions on VMware and Proxmox VE." },
       { "key": "promotions", "q": "Does the company have any current promotions?", "a": "TTC-Infotech currently has a shopping voucher program for resellers purchasing APC Smart-UPS units — see the Promotions page in the menu for details." },

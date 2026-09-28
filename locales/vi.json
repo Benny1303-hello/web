@@ -1,4 +1,24 @@
 {
+  "faqWidget": {
+    "toggleLabel": "Hỏi đáp nhanh",
+    "title": "Hỏi đáp nhanh",
+    "subtitle": "Câu trả lời dựng sẵn cho các câu hỏi thường gặp",
+    "closeLabel": "Đóng",
+    "greeting": "Xin chào! Chọn một câu hỏi bên dưới để xem câu trả lời nhanh.",
+    "chipsLabel": "Câu hỏi thường gặp",
+    "footerNote": "Đây là hỏi đáp dựng sẵn, chưa phải trợ lý AI. Cần hỗ trợ thêm, vui lòng liên hệ trực tiếp.",
+    "contactCta": "Liên hệ trực tiếp",
+    "items": [
+      { "key": "about", "q": "TTC-Infotech là công ty gì?", "a": "TTC-Infotech là công ty công nghệ thông tin tại Việt Nam với hơn 25 năm hoạt động, gồm 3 mảng chính: Trung tâm Phân phối, Trung tâm Tích hợp hệ thống và Trung tâm Dịch vụ." },
+      { "key": "brands", "q": "Công ty phân phối những thương hiệu nào?", "a": "TTC-Infotech là đối tác phân phối chính thức của APC by Schneider Electric (Elite & Premier Partner), HPE Aruba Networking, Microsoft (Managed Reseller) và Telegartner." },
+      { "key": "services", "q": "Công ty cung cấp những dịch vụ gì?", "a": "TTC-Infotech cung cấp tư vấn & thiết kế hệ thống, triển khai lắp đặt, sửa chữa khắc phục sự cố, bảo trì hệ thống, dịch vụ Outsourcing IT và bảo hành mở rộng." },
+      { "key": "integration", "q": "Công ty có làm tích hợp hệ thống, ảo hóa không?", "a": "Có. Trung tâm Tích hợp hệ thống của TTC-Infotech triển khai giải pháp IT cho SME, Firewall & cân bằng tải, điều khiển tập trung, hạ tầng IT, cung cấp phần mềm bản quyền và giải pháp ảo hóa trên VMware, Proxmox VE." },
+      { "key": "promotions", "q": "Công ty có chương trình khuyến mãi không?", "a": "Hiện TTC-Infotech đang có chương trình tặng voucher mua sắm khi mua APC Smart-UPS dành cho đại lý — xem chi tiết tại mục Khuyến Mãi trên menu." },
+      { "key": "warranty", "q": "Công ty có bảo hành sản phẩm không?", "a": "Có. Trung tâm Dịch vụ của TTC-Infotech được Schneider (APC) ủy quyền bảo hành UPS 1 pha, 3 pha, đồng thời cung cấp dịch vụ bảo hành mở rộng cho thiết bị IT và UPS." },
+      { "key": "contact", "q": "Làm sao liên hệ với TTC-Infotech?", "a": "Bạn có thể gọi (+84) 908 161 313, email sales@ttc-infotech.com.vn, nhắn Zalo/WhatsApp, hoặc điền form tại trang Liên hệ." },
+      { "key": "address", "q": "Địa chỉ công ty ở đâu?", "a": "58 Mạc Đỉnh Chi, Phường Tân Định, Thành Phố Hồ Chí Minh, Việt Nam." }
+    ]
+  },
   "common": {
     "home": "Trang chủ",
     "learnMore": "Tìm hiểu thêm",

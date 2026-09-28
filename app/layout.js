@@ -2,6 +2,7 @@ import { Inter, Sora } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import FaqWidget from '@/components/FaqWidget';
 import PageTransition from '@/components/PageTransition';
 import { LanguageProvider } from '@/context/LanguageContext';
 import { site } from '@/lib/content';
@@ -60,6 +61,7 @@ export default function RootLayout({ children }) {
             <PageTransition>{children}</PageTransition>
           </main>
           <Footer />
+          <FaqWidget />
         </LanguageProvider>
       </body>
     </html>

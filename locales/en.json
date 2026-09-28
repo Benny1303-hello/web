@@ -11,7 +11,7 @@
     "items": [
       { "key": "about", "q": "What is TTC-Infotech?", "a": "TTC-Infotech is a Vietnamese IT company with over 25 years of operation, made up of three main centers: Distribution, System Integration, and Services." },
       { "key": "brands", "q": "Which brands does the company distribute?", "a": "TTC-Infotech is an official distribution partner of APC by Schneider Electric (Elite & Premier Partner), HPE Aruba Networking, Microsoft (Managed Reseller), and Telegartner." },
-      { "key": "services", "q": "What services does the company offer?", "a": "TTC-Infotech offers system consulting & design, installation and deployment, repair and troubleshooting, system maintenance, IT outsourcing, and extended warranty." },
+      { "key": "services", "q": "What services does the company offer?", "a": "TTC-Infotech offers system consulting & design, installation and deployment, repair and troubleshooting, system maintenance, IT staffing (part-time/full-time), and extended warranty." },
       { "key": "integration", "q": "Does the company do system integration or virtualization?", "a": "Yes. TTC-Infotech's System Integration Center delivers SME IT solutions, firewall & load balancing, central control, IT infrastructure, software licensing, and virtualization solutions on VMware and Proxmox VE." },
       { "key": "promotions", "q": "Does the company have any current promotions?", "a": "TTC-Infotech currently has a shopping voucher program for resellers purchasing APC Smart-UPS units — see the Promotions page in the menu for details." },
       { "key": "warranty", "q": "Does the company offer product warranty?", "a": "Yes. TTC-Infotech's Services Center is authorized by Schneider (APC) to handle 1-phase and 3-phase UPS warranty, and also offers extended warranty for IT equipment and UPS units." },
@@ -60,7 +60,7 @@
     "serviceInstallation": "Installation Service",
     "serviceRepair": "Repair & Troubleshooting",
     "serviceMaintenance": "Maintenance Service",
-    "serviceOutsourcing": "IT Outsourcing",
+    "serviceOutsourcing": "IT Staffing",
     "servicesExtendedWarranty": "Extended Warranty",
     "servicesStaff": "Support Team",
     "promotions": "Promotions",
@@ -911,7 +911,7 @@
         "extendedWarranty": { "title": "Extended Warranty", "desc": "Extended warranty coverage for UPS units, computers, servers, switches, firewalls, and routers." },
         "relocation": { "title": "IT System Relocation", "desc": "Safely relocating an entire IT system when a business moves offices." },
         "consulting": { "title": "Consulting & System Design", "desc": "Advising on solutions and designing systems suited to your business needs." },
-        "outsourcing": { "title": "IT Outsourcing", "desc": "Outsourced IT staffing and operations, so your business can focus on its core activities." }
+        "outsourcing": { "title": "IT Staffing", "desc": "IT staffing and operations on a Part-time or Full-time basis, so your business can focus on its core activities." }
       }
     },
     "servicesStaff": {
@@ -1184,24 +1184,48 @@
       },
       "outsourcing": {
         "hero": {
-          "crumb": "IT Outsourcing",
-          "eyebrow": "IT Outsourcing",
-          "title": "IT Outsourcing Services",
+          "crumb": "IT Staffing",
+          "eyebrow": "IT Staffing",
+          "title": "IT Staffing Services — Part-time or Full-time",
           "description": "A cost-effective way to keep your IT running smoothly without building an in-house team."
         },
         "overviewHeading": "Overview",
-        "solutionDesc": "IT outsourcing is a cost-effective solution for companies that want to streamline operations while keeping system quality high.",
+        "solutionDesc": "IT staffing is a cost-effective solution for companies that want to streamline operations while keeping system quality high.",
         "overview": [
-          "Outsourcing shifts some or all operating responsibilities from an internal team to a dedicated service provider. It lets a business significantly cut recruitment, training, and HR management costs, lighten the internal workload, and stop worrying about salary and bonus policies — freeing up resources to focus on core operations.",
-          "TTC-Infotech provides comprehensive IT outsourcing, taking on the role of an on-call team of engineers and IT professionals so you never have to consider hiring on-site IT specialists again."
+          "IT staffing shifts some or all IT operating responsibilities from an internal team to TTC-Infotech's engineering team. It lets a business significantly cut recruitment, training, and HR management costs, lighten the internal workload, and stop worrying about salary and bonus policies — freeing up resources to focus on core operations.",
+          "TTC-Infotech provides flexible IT staff on either a Part-time or Full-time basis, depending on your workload and budget, taking on the role of an on-call team of engineers and IT professionals so you never have to consider hiring on-site IT specialists again."
         ],
-        "listHeading": "Benefits of IT outsourcing",
+        "sectionsHeading": "IT Staffing Options",
+        "sections": [
+          {
+            "title": "Part-time IT Staffing",
+            "items": [
+              "Suited to small and medium businesses with a lighter IT workload.",
+              "An IT engineer works on a fixed schedule (for example, a few days a week) or an agreed number of hours.",
+              "Lower cost than full-time staffing or hiring in-house.",
+              "Still covered for issues outside the fixed schedule (remote or on-site support by agreement).",
+              "Well suited to routine maintenance, user support, and basic system monitoring."
+            ]
+          },
+          {
+            "title": "Full-time IT Staffing",
+            "items": [
+              "Suited to businesses with a heavy IT workload that need staff on-site at all times.",
+              "An IT engineer works full-time at the customer's office (resident engineer), functioning as part of the internal team.",
+              "Immediate issue resolution, with continuous system monitoring and operation during working hours.",
+              "Well suited to businesses with complex IT infrastructure or 24/7 operating requirements.",
+              "TTC-Infotech handles recruiting, training, and replacing staff as needed, so the business doesn't have to manage IT personnel records itself."
+            ]
+          }
+        ],
+        "listHeading": "Benefits of IT staffing",
         "list": [
           "Reduce recruitment costs.",
           "Reduce training costs.",
           "Reduce human resource management costs.",
           "Lessen the workload on your internal team.",
           "No more worrying about salary and bonus policies for IT staff.",
+          "Flexibly choose Part-time or Full-time to match your actual needs.",
           "Let your business focus on its core operations."
         ]
       }

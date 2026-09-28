@@ -13,6 +13,8 @@ export default function ServiceOfferingDetailContent({ offeringKey }) {
   const base = `pages.serviceOfferingDetail.${offeringKey}`;
   const overview = t(`${base}.overview`);
   const sections = t(`${base}.sections`);
+  const sectionsHeadingRaw = t(`${base}.sectionsHeading`);
+  const sectionsHeading = typeof sectionsHeadingRaw === 'string' && sectionsHeadingRaw !== `${base}.sectionsHeading` ? sectionsHeadingRaw : null;
   const listHeading = t(`${base}.listHeading`);
   const list = t(`${base}.list`);
   const hasClientLogos = t(`${base}.hasClientLogos`) === true;
@@ -57,7 +59,15 @@ export default function ServiceOfferingDetailContent({ offeringKey }) {
 
       {hasSections && (
         <section className="bg-mist-50 py-20">
-          <div className="container-page mx-auto max-w-3xl space-y-10">
+          <div className="container-page mx-auto max-w-3xl">
+            {sectionsHeading && (
+              <Reveal className="mx-auto max-w-2xl text-center">
+                <h2 className="text-balance font-display text-3xl font-bold text-navy-900 md:text-4xl">
+                  {sectionsHeading}
+                </h2>
+              </Reveal>
+            )}
+            <div className={sectionsHeading ? 'mt-12 space-y-10' : 'space-y-10'}>
             {sections.map((section, i) => {
               const hasItems = Array.isArray(section.items);
               return (
@@ -98,6 +108,7 @@ export default function ServiceOfferingDetailContent({ offeringKey }) {
                 </Reveal>
               );
             })}
+            </div>
           </div>
         </section>
       )}

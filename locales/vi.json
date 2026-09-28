@@ -11,7 +11,7 @@
     "items": [
       { "key": "about", "q": "TTC-Infotech là công ty gì?", "a": "TTC-Infotech là công ty công nghệ thông tin tại Việt Nam với hơn 25 năm hoạt động, gồm 3 mảng chính: Trung tâm Phân phối, Trung tâm Tích hợp hệ thống và Trung tâm Dịch vụ." },
       { "key": "brands", "q": "Công ty phân phối những thương hiệu nào?", "a": "TTC-Infotech là đối tác phân phối chính thức của APC by Schneider Electric (Elite & Premier Partner), HPE Aruba Networking, Microsoft (Managed Reseller) và Telegartner." },
-      { "key": "services", "q": "Công ty cung cấp những dịch vụ gì?", "a": "TTC-Infotech cung cấp tư vấn & thiết kế hệ thống, triển khai lắp đặt, sửa chữa khắc phục sự cố, bảo trì hệ thống, dịch vụ Outsourcing IT và bảo hành mở rộng." },
+      { "key": "services", "q": "Công ty cung cấp những dịch vụ gì?", "a": "TTC-Infotech cung cấp tư vấn & thiết kế hệ thống, triển khai lắp đặt, sửa chữa khắc phục sự cố, bảo trì hệ thống, cho thuê IT (part-time/full-time) và bảo hành mở rộng." },
       { "key": "integration", "q": "Công ty có làm tích hợp hệ thống, ảo hóa không?", "a": "Có. Trung tâm Tích hợp hệ thống của TTC-Infotech triển khai giải pháp IT cho SME, Firewall & cân bằng tải, điều khiển tập trung, hạ tầng IT, cung cấp phần mềm bản quyền và giải pháp ảo hóa trên VMware, Proxmox VE." },
       { "key": "promotions", "q": "Công ty có chương trình khuyến mãi không?", "a": "Hiện TTC-Infotech đang có chương trình tặng voucher mua sắm khi mua APC Smart-UPS dành cho đại lý — xem chi tiết tại mục Khuyến Mãi trên menu." },
       { "key": "warranty", "q": "Công ty có bảo hành sản phẩm không?", "a": "Có. Trung tâm Dịch vụ của TTC-Infotech được Schneider (APC) ủy quyền bảo hành UPS 1 pha, 3 pha, đồng thời cung cấp dịch vụ bảo hành mở rộng cho thiết bị IT và UPS." },
@@ -60,7 +60,7 @@
     "serviceInstallation": "Triển khai lắp đặt hệ thống",
     "serviceRepair": "Sửa chữa, khắc phục sự cố",
     "serviceMaintenance": "Bảo trì hệ thống",
-    "serviceOutsourcing": "Dịch vụ Outsourcing IT",
+    "serviceOutsourcing": "Cho thuê IT",
     "servicesExtendedWarranty": "Bảo hành mở rộng",
     "servicesStaff": "Đội ngũ hỗ trợ",
     "promotions": "Khuyến Mãi",
@@ -911,7 +911,7 @@
         "extendedWarranty": { "title": "Bảo Hành Mở Rộng", "desc": "Bảo hành mở rộng cho UPS, máy tính, máy chủ, switch, firewall, router." },
         "relocation": { "title": "Di Dời Hệ Thống IT", "desc": "Hỗ trợ di dời toàn bộ hệ thống IT an toàn khi doanh nghiệp chuyển văn phòng." },
         "consulting": { "title": "Tư Vấn & Thiết Kế Hệ Thống", "desc": "Tư vấn giải pháp và thiết kế hệ thống phù hợp với nhu cầu doanh nghiệp." },
-        "outsourcing": { "title": "Dịch Vụ Outsourcing IT", "desc": "Thuê ngoài nhân sự và vận hành CNTT, giúp doanh nghiệp tập trung vào hoạt động kinh doanh cốt lõi." }
+        "outsourcing": { "title": "Cho Thuê IT", "desc": "Cho thuê nhân sự và vận hành CNTT theo hình thức Part-time hoặc Full-time, giúp doanh nghiệp tập trung vào hoạt động kinh doanh cốt lõi." }
       }
     },
     "servicesStaff": {
@@ -1184,24 +1184,48 @@
       },
       "outsourcing": {
         "hero": {
-          "crumb": "Dịch vụ Outsourcing IT",
-          "eyebrow": "IT Outsourcing",
-          "title": "Dịch vụ Outsourcing (thuê ngoài) CNTT",
+          "crumb": "Cho thuê IT",
+          "eyebrow": "IT Staffing",
+          "title": "Dịch vụ cho thuê nhân sự IT — Part-time hoặc Full-time",
           "description": "Giải pháp tối ưu chi phí giúp doanh nghiệp vận hành CNTT hiệu quả mà không cần xây dựng đội ngũ nội bộ."
         },
         "overviewHeading": "Tổng quan",
-        "solutionDesc": "Thuê ngoài CNTT là giải pháp tối ưu chi phí cho doanh nghiệp muốn tinh gọn vận hành mà vẫn đảm bảo chất lượng hệ thống.",
+        "solutionDesc": "Cho thuê nhân sự IT là giải pháp tối ưu chi phí cho doanh nghiệp muốn tinh gọn vận hành mà vẫn đảm bảo chất lượng hệ thống.",
         "overview": [
-          "Outsourcing là hình thức chuyển giao một phần hoặc toàn bộ trách nhiệm vận hành từ bộ phận nội bộ sang một đơn vị cung cấp dịch vụ chuyên trách. Nhờ đó, doanh nghiệp có thể tiết kiệm đáng kể chi phí tuyển dụng, đào tạo và quản lý nhân sự CNTT, đồng thời giảm bớt khối lượng công việc và những vấn đề liên quan đến lương thưởng, chính sách nhân sự — để tập trung nguồn lực vào hoạt động kinh doanh cốt lõi.",
-          "TTC-Infotech cung cấp dịch vụ outsourcing CNTT toàn diện, đảm nhận vai trò của đội ngũ kỹ sư và chuyên gia CNTT thường trực, giúp khách hàng không còn phải cân nhắc tuyển dụng nhân sự IT tại chỗ."
+          "Cho thuê IT là hình thức chuyển giao một phần hoặc toàn bộ trách nhiệm vận hành CNTT từ bộ phận nội bộ sang đội ngũ kỹ sư của TTC-Infotech. Nhờ đó, doanh nghiệp có thể tiết kiệm đáng kể chi phí tuyển dụng, đào tạo và quản lý nhân sự CNTT, đồng thời giảm bớt khối lượng công việc và những vấn đề liên quan đến lương thưởng, chính sách nhân sự — để tập trung nguồn lực vào hoạt động kinh doanh cốt lõi.",
+          "TTC-Infotech cung cấp nhân sự IT linh hoạt theo hai hình thức Part-time và Full-time, tùy theo khối lượng công việc và ngân sách của doanh nghiệp, đảm nhận vai trò của đội ngũ kỹ sư và chuyên gia CNTT, giúp khách hàng không còn phải cân nhắc tuyển dụng nhân sự IT tại chỗ."
         ],
-        "listHeading": "Lợi ích khi thuê ngoài CNTT",
+        "sectionsHeading": "Hình thức thuê nhân sự IT",
+        "sections": [
+          {
+            "title": "Thuê IT Part-time",
+            "items": [
+              "Phù hợp doanh nghiệp vừa và nhỏ, khối lượng công việc IT không quá lớn.",
+              "Kỹ sư IT làm việc theo lịch cố định (ví dụ vài buổi mỗi tuần) hoặc theo số giờ đã thỏa thuận.",
+              "Chi phí thấp hơn so với thuê nhân sự Full-time hoặc tuyển dụng nội bộ.",
+              "Vẫn được hỗ trợ xử lý sự cố phát sinh ngoài lịch làm việc cố định (remote hoặc onsite theo thỏa thuận).",
+              "Phù hợp để bảo trì định kỳ, hỗ trợ người dùng và giám sát hệ thống cơ bản."
+            ]
+          },
+          {
+            "title": "Thuê IT Full-time",
+            "items": [
+              "Phù hợp doanh nghiệp có khối lượng công việc IT lớn, cần nhân sự thường trực.",
+              "Kỹ sư IT làm việc toàn thời gian tại văn phòng khách hàng (Resident Engineer), gắn bó như một thành viên trong đội ngũ nội bộ.",
+              "Xử lý sự cố ngay lập tức, giám sát và vận hành hệ thống liên tục trong giờ làm việc.",
+              "Phù hợp doanh nghiệp có hạ tầng IT phức tạp hoặc yêu cầu vận hành liên tục.",
+              "TTC-Infotech chịu trách nhiệm tuyển chọn, đào tạo và thay thế nhân sự khi cần, doanh nghiệp không phải tự quản lý hồ sơ nhân sự IT."
+            ]
+          }
+        ],
+        "listHeading": "Lợi ích khi cho thuê nhân sự IT",
         "list": [
           "Giảm chi phí tuyển dụng nhân sự.",
           "Giảm chi phí đào tạo.",
           "Giảm chi phí quản lý nhân sự.",
           "Giảm khối lượng công việc cho bộ phận nội bộ.",
           "Không phải lo về chính sách lương, thưởng cho nhân sự IT.",
+          "Linh hoạt chọn hình thức Part-time hoặc Full-time theo đúng nhu cầu thực tế.",
           "Giúp doanh nghiệp tập trung vào hoạt động kinh doanh cốt lõi."
         ]
       }

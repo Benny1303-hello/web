@@ -1031,6 +1031,155 @@
         "overview": [
           "TTC-Infotech cung cấp dịch vụ bảo trì hệ thống mạng và máy tính cho khách hàng doanh nghiệp trong hơn 25 năm qua. Việc kiểm tra, bảo trì định kỳ giúp phát hiện sớm các dấu hiệu bất thường trước khi chúng trở thành sự cố nghiêm trọng, từ đó giảm thiểu thời gian gián đoạn và chi phí sửa chữa phát sinh.",
           "Đội ngũ kỹ sư được đào tạo và cấp chứng chỉ từ các hãng công nghệ thực hiện bảo trì theo quy trình chuyên nghiệp, hỗ trợ khách hàng với thời gian phục vụ 24/7."
+        ],
+        "sections": [
+          {
+            "title": "Bảo Trì Định Kỳ Hàng Tháng",
+            "items": [
+              "Kiểm tra tổng thể hệ thống IT.",
+              "Kiểm tra tình trạng hoạt động của Server, PC, Laptop, Printer.",
+              "Kiểm tra hệ thống mạng LAN/WAN/Wi-Fi.",
+              "Kiểm tra Switch, Router, Firewall, Access Point.",
+              "Kiểm tra dung lượng ổ cứng, RAM, CPU và tài nguyên hệ thống.",
+              "Kiểm tra log và các cảnh báo lỗi.",
+              "Kiểm tra tình trạng Backup và khả năng phục hồi dữ liệu.",
+              "Kiểm tra cập nhật Windows, Firmware, Driver và phần mềm cần thiết.",
+              "Vệ sinh thiết bị IT theo định kỳ.",
+              "Kiểm tra hệ thống UPS và nguồn điện cho thiết bị IT.",
+              "Lập Monthly IT Maintenance Report."
+            ]
+          },
+          {
+            "title": "Hỗ Trợ Người Dùng – Helpdesk",
+            "items": [
+              "Tiếp nhận và xử lý yêu cầu hỗ trợ IT.",
+              "Xử lý sự cố máy tính, laptop, printer, scanner.",
+              "Cấu hình email, Outlook, Microsoft 365.",
+              "Hỗ trợ cài đặt và cấu hình phần mềm.",
+              "Hỗ trợ kết nối mạng, Wi-Fi, VPN.",
+              "Hỗ trợ xử lý lỗi Windows và các ứng dụng văn phòng.",
+              "Hỗ trợ từ xa và onsite."
+            ]
+          },
+          {
+            "title": "Bảo Trì Hệ Thống Mạng",
+            "items": [
+              "Kiểm tra và bảo trì Switch/Router/Firewall.",
+              "Kiểm tra cấu hình VLAN, DHCP, DNS.",
+              "Kiểm tra hệ thống Wi-Fi và vùng phủ sóng.",
+              "Kiểm tra tốc độ và độ ổn định mạng.",
+              "Kiểm tra Network Monitoring.",
+              "Backup cấu hình thiết bị mạng.",
+              "Xử lý sự cố mất kết nối, chập chờn, packet loss.",
+              "Quản lý hệ thống IP Address."
+            ]
+          },
+          {
+            "title": "Bảo Trì Server & Storage",
+            "items": [
+              "Kiểm tra tình trạng Server.",
+              "Kiểm tra CPU/RAM/Storage.",
+              "Kiểm tra RAID và tình trạng ổ cứng.",
+              "Kiểm tra Windows/Linux Server.",
+              "Kiểm tra Active Directory, DNS, DHCP.",
+              "Kiểm tra File Server và phân quyền.",
+              "Kiểm tra NAS/SAN/Storage.",
+              "Kiểm tra Backup Server.",
+              "Kiểm tra log và cảnh báo phần cứng/phần mềm.",
+              "Thực hiện backup cấu hình và tài liệu hệ thống."
+            ]
+          },
+          {
+            "title": "Bảo Trì An Ninh Mạng – IT Security",
+            "items": [
+              "Kiểm tra Firewall.",
+              "Kiểm tra Antivirus/Endpoint Security.",
+              "Kiểm tra tình trạng cập nhật security patch.",
+              "Kiểm tra tài khoản người dùng và quyền truy cập.",
+              "Kiểm tra các thiết bị không được phép kết nối vào mạng.",
+              "Kiểm tra các cảnh báo bảo mật.",
+              "Kiểm tra Backup và khả năng khôi phục dữ liệu.",
+              "Tư vấn các biện pháp cải thiện IT Security.",
+              "Lập IT Security / Vulnerability Report nếu nằm trong phạm vi dịch vụ."
+            ]
+          },
+          {
+            "title": "Backup & Disaster Recovery",
+            "items": [
+              "Kiểm tra lịch backup.",
+              "Kiểm tra backup thành công/thất bại.",
+              "Kiểm tra dung lượng lưu trữ backup.",
+              "Thử nghiệm restore dữ liệu định kỳ.",
+              "Kiểm tra tính toàn vẹn của dữ liệu backup.",
+              "Tư vấn phương án Disaster Recovery.",
+              "Xây dựng/cập nhật Backup & Recovery Procedure."
+            ]
+          },
+          {
+            "title": "Quản Lý Tài Sản IT – IT Asset Management",
+            "items": [
+              "Kiểm kê PC/Laptop/Server/Network Equipment.",
+              "Quản lý Serial Number, Asset Tag.",
+              "Theo dõi tình trạng thiết bị.",
+              "Theo dõi thời hạn Warranty.",
+              "Theo dõi License phần mềm.",
+              "Theo dõi vòng đời thiết bị – IT Asset Lifecycle.",
+              "Đề xuất thay thế/nâng cấp thiết bị."
+            ]
+          },
+          {
+            "title": "Bảo Trì Phần Cứng",
+            "items": [
+              "Kiểm tra phần cứng PC/Laptop.",
+              "Vệ sinh thiết bị.",
+              "Kiểm tra nguồn, RAM, HDD/SSD.",
+              "Kiểm tra Printer/Scanner.",
+              "Thay thế linh kiện khi cần.",
+              "Kiểm tra UPS và battery.",
+              "Phối hợp với hãng/nhà cung cấp khi thiết bị còn Warranty."
+            ]
+          },
+          {
+            "title": "Hỗ Trợ Onsite",
+            "paragraphs": ["Có thể xây dựng nhiều hình thức:"],
+            "items": [
+              "Onsite định kỳ: 1–2 lần/tháng.",
+              "Onsite theo yêu cầu: khi phát sinh sự cố.",
+              "Resident Engineer: kỹ sư IT làm việc thường xuyên tại khách hàng.",
+              "24×7 Support: hỗ trợ sự cố ngoài giờ.",
+              "Remote Support: hỗ trợ từ xa.",
+              "Emergency Support: hỗ trợ sự cố khẩn cấp."
+            ]
+          },
+          {
+            "title": "Báo Cáo & Quản Lý Dịch Vụ",
+            "items": [
+              "Monthly Maintenance Report.",
+              "Incident Report.",
+              "Problem Management Report.",
+              "IT Asset Report.",
+              "Network Health Report.",
+              "Backup Report.",
+              "Security Report.",
+              "SLA Performance Report.",
+              "Danh sách sự cố và tình trạng xử lý.",
+              "Đề xuất cải thiện hệ thống IT."
+            ]
+          },
+          {
+            "title": "Tư Vấn & Nâng Cấp Hạ Tầng IT",
+            "items": [
+              "Khảo sát hiện trạng IT.",
+              "Thiết kế mạng LAN/WAN/Wi-Fi.",
+              "Tư vấn Server/Storage.",
+              "Tư vấn Firewall/Security.",
+              "Tư vấn Backup/DR.",
+              "Tư vấn Cloud/Microsoft 365.",
+              "Tư vấn nâng cấp PC/Laptop.",
+              "Tư vấn thay thế thiết bị End-of-Life.",
+              "Lập kế hoạch IT Infrastructure Roadmap."
+            ]
+          }
         ]
       },
       "outsourcing": {

@@ -1031,6 +1031,155 @@
         "overview": [
           "TTC-Infotech has been providing network and computer maintenance services to business customers for over 25 years. Periodic checks catch early warning signs before they turn into serious issues, reducing both downtime and unplanned repair costs.",
           "Our vendor-trained, certified engineers follow a professional maintenance process and are available to support customers around the clock."
+        ],
+        "sections": [
+          {
+            "title": "Monthly Scheduled Maintenance",
+            "items": [
+              "Overall IT system health check.",
+              "Check the operating status of servers, PCs, laptops, and printers.",
+              "Check the LAN/WAN/Wi-Fi network.",
+              "Check switches, routers, firewalls, and access points.",
+              "Check disk space, RAM, CPU, and system resources.",
+              "Check logs and error alerts.",
+              "Check backup status and data recovery readiness.",
+              "Check Windows, firmware, driver, and required software updates.",
+              "Clean IT equipment on a regular schedule.",
+              "Check the UPS system and power supply for IT equipment.",
+              "Produce a Monthly IT Maintenance Report."
+            ]
+          },
+          {
+            "title": "User Support – Helpdesk",
+            "items": [
+              "Receive and resolve IT support requests.",
+              "Troubleshoot computers, laptops, printers, and scanners.",
+              "Configure email, Outlook, and Microsoft 365.",
+              "Help install and configure software.",
+              "Support network, Wi-Fi, and VPN connectivity.",
+              "Help resolve Windows and office application errors.",
+              "Provide remote and on-site support."
+            ]
+          },
+          {
+            "title": "Network Maintenance",
+            "items": [
+              "Check and maintain switches/routers/firewalls.",
+              "Check VLAN, DHCP, and DNS configuration.",
+              "Check the Wi-Fi system and coverage.",
+              "Check network speed and stability.",
+              "Check network monitoring.",
+              "Back up network device configurations.",
+              "Resolve connectivity loss, intermittent drops, and packet loss.",
+              "Manage the IP address system."
+            ]
+          },
+          {
+            "title": "Server & Storage Maintenance",
+            "items": [
+              "Check server status.",
+              "Check CPU/RAM/storage.",
+              "Check RAID and disk health.",
+              "Check Windows/Linux servers.",
+              "Check Active Directory, DNS, and DHCP.",
+              "Check the file server and permissions.",
+              "Check NAS/SAN/storage.",
+              "Check the backup server.",
+              "Check hardware/software logs and alerts.",
+              "Back up system configuration and documentation."
+            ]
+          },
+          {
+            "title": "Network Security Maintenance – IT Security",
+            "items": [
+              "Check the firewall.",
+              "Check antivirus/endpoint security.",
+              "Check security patch update status.",
+              "Check user accounts and access rights.",
+              "Check for unauthorized devices connected to the network.",
+              "Check security alerts.",
+              "Check backup and data recovery readiness.",
+              "Advise on IT security improvement measures.",
+              "Produce an IT Security / Vulnerability Report where included in the service scope."
+            ]
+          },
+          {
+            "title": "Backup & Disaster Recovery",
+            "items": [
+              "Check the backup schedule.",
+              "Check successful/failed backup jobs.",
+              "Check backup storage capacity.",
+              "Run periodic data restore tests.",
+              "Check the integrity of backup data.",
+              "Advise on a Disaster Recovery plan.",
+              "Build or update the Backup & Recovery Procedure."
+            ]
+          },
+          {
+            "title": "IT Asset Management",
+            "items": [
+              "Inventory PCs, laptops, servers, and network equipment.",
+              "Manage serial numbers and asset tags.",
+              "Track equipment condition.",
+              "Track warranty expiration.",
+              "Track software licenses.",
+              "Track the IT asset lifecycle.",
+              "Recommend equipment replacement/upgrades."
+            ]
+          },
+          {
+            "title": "Hardware Maintenance",
+            "items": [
+              "Check PC/laptop hardware.",
+              "Clean equipment.",
+              "Check power supply, RAM, and HDD/SSD.",
+              "Check printers/scanners.",
+              "Replace components when needed.",
+              "Check the UPS and battery.",
+              "Coordinate with the vendor/supplier while equipment is still under warranty."
+            ]
+          },
+          {
+            "title": "On-site Support",
+            "paragraphs": ["Can be structured in several ways:"],
+            "items": [
+              "Scheduled on-site visits: 1–2 times per month.",
+              "On-demand on-site visits: when an issue arises.",
+              "Resident engineer: an IT engineer working on-site with the customer regularly.",
+              "24×7 support: after-hours incident support.",
+              "Remote support.",
+              "Emergency support for urgent incidents."
+            ]
+          },
+          {
+            "title": "Reporting & Service Management",
+            "items": [
+              "Monthly Maintenance Report.",
+              "Incident Report.",
+              "Problem Management Report.",
+              "IT Asset Report.",
+              "Network Health Report.",
+              "Backup Report.",
+              "Security Report.",
+              "SLA Performance Report.",
+              "List of incidents and their resolution status.",
+              "Recommendations for IT system improvement."
+            ]
+          },
+          {
+            "title": "IT Infrastructure Consulting & Upgrades",
+            "items": [
+              "Survey the current IT setup.",
+              "Design the LAN/WAN/Wi-Fi network.",
+              "Advise on servers/storage.",
+              "Advise on firewall/security.",
+              "Advise on backup/DR.",
+              "Advise on cloud/Microsoft 365.",
+              "Advise on PC/laptop upgrades.",
+              "Advise on replacing end-of-life equipment.",
+              "Build an IT infrastructure roadmap."
+            ]
+          }
         ]
       },
       "outsourcing": {

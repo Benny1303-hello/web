@@ -62,31 +62,37 @@ export default function ServiceOfferingDetailContent({ offeringKey }) {
               const hasItems = Array.isArray(section.items);
               return (
                 <Reveal key={section.title} delay={i * 0.05}>
-                  <div className="flex items-start gap-4">
-                    {hasItems && (
-                      <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-brand-500 to-cyan-400 text-sm font-bold text-white">
-                        {i + 1}
-                      </span>
-                    )}
-                    <div className="flex-1">
-                      <h3 className="font-display text-xl font-bold text-navy-900">{section.title}</h3>
-                      <div className="mt-3 space-y-3">
-                        {Array.isArray(section.paragraphs) && section.paragraphs.map((para, pi) => (
-                          <p key={pi} className="text-sm leading-relaxed text-ink-400">
-                            {para}
-                          </p>
-                        ))}
-                      </div>
+                  <div
+                    className={
+                      hasItems ? 'rounded-2xl bg-white p-6 shadow-soft ring-1 ring-black/5 sm:p-7' : ''
+                    }
+                  >
+                    <div className="flex items-start gap-4">
                       {hasItems && (
-                        <ul className="mt-4 grid grid-cols-1 gap-x-8 gap-y-2.5 sm:grid-cols-2">
-                          {section.items.map((item) => (
-                            <li key={item} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink-600">
-                              <CheckCircle2 size={16} className="mt-0.5 shrink-0 text-brand-500" />
-                              {item}
-                            </li>
-                          ))}
-                        </ul>
+                        <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-brand-500 to-cyan-400 text-sm font-bold text-white">
+                          {i + 1}
+                        </span>
                       )}
+                      <div className="flex-1">
+                        <h3 className="font-display text-xl font-bold text-navy-900">{section.title}</h3>
+                        <div className="mt-3 space-y-3">
+                          {Array.isArray(section.paragraphs) && section.paragraphs.map((para, pi) => (
+                            <p key={pi} className="text-sm leading-relaxed text-ink-400">
+                              {para}
+                            </p>
+                          ))}
+                        </div>
+                        {hasItems && (
+                          <ul className="mt-4 grid grid-cols-1 gap-x-8 gap-y-2.5 sm:grid-cols-2">
+                            {section.items.map((item) => (
+                              <li key={item} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink-600">
+                                <CheckCircle2 size={16} className="mt-0.5 shrink-0 text-brand-500" />
+                                {item}
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </div>
                     </div>
                   </div>
                 </Reveal>

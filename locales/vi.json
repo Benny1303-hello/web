@@ -14,9 +14,16 @@
       { "key": "services", "q": "Công ty cung cấp những dịch vụ gì?", "a": "TTC-Infotech cung cấp tư vấn & thiết kế hệ thống, triển khai lắp đặt, sửa chữa khắc phục sự cố, bảo trì hệ thống, cho thuê IT (part-time/full-time) và bảo hành mở rộng." },
       { "key": "integration", "q": "Công ty có làm tích hợp hệ thống, ảo hóa không?", "a": "Có. Trung tâm Tích hợp hệ thống của TTC-Infotech triển khai giải pháp IT cho SME, Firewall & cân bằng tải, điều khiển tập trung, hạ tầng IT, cung cấp phần mềm bản quyền và giải pháp ảo hóa trên VMware, Proxmox VE." },
       { "key": "promotions", "q": "Công ty có chương trình khuyến mãi không?", "a": "Hiện TTC-Infotech đang có chương trình tặng voucher mua sắm khi mua APC Smart-UPS dành cho đại lý — xem chi tiết tại mục Khuyến Mãi trên menu." },
-      { "key": "warranty", "q": "Công ty có bảo hành sản phẩm không?", "a": "Có. Trung tâm Dịch vụ của TTC-Infotech được Schneider (APC) ủy quyền bảo hành UPS 1 pha, 3 pha, đồng thời cung cấp dịch vụ bảo hành mở rộng cho thiết bị IT và UPS." },
+      { "key": "warranty", "q": "TTC-Infotech có phải trung tâm bảo hành ủy quyền APC không?", "a": "Có. Trung tâm Dịch vụ của TTC-Infotech được Schneider (APC) ủy quyền bảo hành UPS 1 pha, 3 pha, đồng thời cung cấp dịch vụ bảo hành mở rộng cho thiết bị IT và UPS." },
       { "key": "contact", "q": "Làm sao liên hệ với TTC-Infotech?", "a": "Bạn có thể gọi (+84) 908 161 313, email sales@ttc-infotech.com.vn, nhắn Zalo/WhatsApp, hoặc điền form tại trang Liên hệ." },
-      { "key": "address", "q": "Địa chỉ công ty ở đâu?", "a": "58 Mạc Đỉnh Chi, Phường Tân Định, Thành Phố Hồ Chí Minh, Việt Nam." }
+      { "key": "address", "q": "Địa chỉ công ty ở đâu?", "a": "58 Mạc Đỉnh Chi, Phường Tân Định, Thành Phố Hồ Chí Minh, Việt Nam." },
+      { "key": "maintenanceScope", "q": "Dịch vụ bảo trì hệ thống của TTC-Infotech gồm những gì?", "a": "Bảo trì định kỳ hàng tháng, hỗ trợ người dùng (Helpdesk), bảo trì mạng, server & storage, an ninh mạng, backup & disaster recovery, quản lý tài sản IT, bảo trì phần cứng và hỗ trợ onsite theo nhiều hình thức." },
+      { "key": "itStaffing", "q": "TTC-Infotech có cho thuê nhân sự IT không?", "a": "Có. TTC-Infotech cung cấp dịch vụ cho thuê nhân sự IT theo hình thức Part-time hoặc Full-time, tùy khối lượng công việc và ngân sách của doanh nghiệp." },
+      { "key": "extendedWarrantyScope", "q": "Bảo hành mở rộng của TTC-Infotech áp dụng cho thiết bị nào?", "a": "Bảo hành mở rộng áp dụng cho UPS, máy tính, máy chủ, switch, firewall và router, giúp thiết bị được hỗ trợ lâu dài sau khi hết bảo hành từ nhà sản xuất." },
+      { "key": "repairService", "q": "TTC-Infotech có sửa chữa, khắc phục sự cố IT không?", "a": "Có. TTC-Infotech cung cấp dịch vụ sửa chữa, khắc phục sự cố cho hệ thống mạng, máy tính, máy chủ và nguồn UPS." },
+      { "key": "installationService", "q": "TTC-Infotech có triển khai lắp đặt hệ thống mới không?", "a": "Có. TTC-Infotech đồng hành từ tư vấn đến triển khai lắp đặt máy tính, máy chủ, hệ thống mạng và nguồn UPS cho doanh nghiệp." },
+      { "key": "softwareLicensing", "q": "TTC-Infotech có tư vấn bản quyền phần mềm Microsoft không?", "a": "Có. TTC-Infotech kiểm tra, tư vấn và cung cấp bản quyền phần mềm chính hãng — trọng tâm là Microsoft (Windows, Microsoft 365, Windows Server, SQL Server, Azure), bên cạnh VMware, Veeam, Adobe, AutoCAD." },
+      { "key": "virtualizationChoice", "q": "Nên chọn giải pháp ảo hóa VMware hay Proxmox?", "a": "TTC-Infotech tư vấn và triển khai cả hai nền tảng — VMware phù hợp doanh nghiệp lớn cần chuẩn hóa cao, Proxmox VE phù hợp doanh nghiệp vừa và nhỏ muốn tối ưu chi phí bản quyền." }
     ]
   },
   "common": {

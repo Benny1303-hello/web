@@ -954,7 +954,11 @@
           "Public & private cloud — cloud solutions from VMware, Microsoft, and our own private cloud service.",
           "Wired & wireless connectivity — switches, routers, and wireless solutions from Dell EMC, HPE Aruba, Cisco, and others.",
           "Network & computer system audits — checking whether your infrastructure, policies, and operations are secure and up to standard.",
-          "Office 365 — deploying Microsoft's office suite together with email and collaboration tools."
+          "Office 365 — deploying Microsoft's office suite together with email and collaboration tools.",
+          "Firewall & security consulting — assessing your infrastructure and recommending the right firewall and security solution.",
+          "PC & laptop upgrades — advising on the right specs for your team's workload and budget.",
+          "End-of-life equipment replacement — keeping your systems supported by the manufacturer and running reliably.",
+          "IT infrastructure roadmap — planning investment and upgrades in stages that match your business's growth."
         ],
         "hasClientLogos": true
       },
@@ -1165,20 +1169,6 @@
               "List of incidents and their resolution status.",
               "Recommendations for IT system improvement."
             ]
-          },
-          {
-            "title": "IT Infrastructure Consulting & Upgrades",
-            "items": [
-              "Survey the current IT setup.",
-              "Design the LAN/WAN/Wi-Fi network.",
-              "Advise on servers/storage.",
-              "Advise on firewall/security.",
-              "Advise on backup/DR.",
-              "Advise on cloud/Microsoft 365.",
-              "Advise on PC/laptop upgrades.",
-              "Advise on replacing end-of-life equipment.",
-              "Build an IT infrastructure roadmap."
-            ]
           }
         ]
       },
@@ -1199,6 +1189,7 @@
         "sections": [
           {
             "title": "Part-time IT Staffing",
+            "oneColumn": true,
             "items": [
               "Suited to small and medium businesses with a lighter IT workload.",
               "An IT engineer works on a fixed schedule (for example, a few days a week) or an agreed number of hours.",
@@ -1209,6 +1200,7 @@
           },
           {
             "title": "Full-time IT Staffing",
+            "oneColumn": true,
             "items": [
               "Suited to businesses with a heavy IT workload that need staff on-site at all times.",
               "An IT engineer works full-time at the customer's office (resident engineer), functioning as part of the internal team.",

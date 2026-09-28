@@ -93,7 +93,13 @@ export default function ServiceOfferingDetailContent({ offeringKey }) {
                           ))}
                         </div>
                         {hasItems && (
-                          <ul className="mt-4 grid grid-cols-1 gap-x-8 gap-y-2.5 sm:grid-cols-2">
+                          <ul
+                            className={
+                              section.oneColumn
+                                ? 'mt-4 space-y-2.5'
+                                : 'mt-4 grid grid-cols-1 gap-x-8 gap-y-2.5 sm:grid-cols-2'
+                            }
+                          >
                             {section.items.map((item) => (
                               <li key={item} className="flex items-start gap-2.5 text-sm leading-relaxed text-ink-600">
                                 <CheckCircle2 size={16} className="mt-0.5 shrink-0 text-brand-500" />

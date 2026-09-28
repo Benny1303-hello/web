@@ -954,7 +954,11 @@
           "Public & Private Cloud — triển khai giải pháp đám mây từ VMware, Microsoft và dịch vụ Private Cloud riêng của TTC-Infotech.",
           "Kết nối có dây & không dây — thiết bị chuyển mạch, bộ định tuyến và giải pháp không dây từ Dell EMC, HPE Aruba, Cisco...",
           "Kiểm tra hệ thống mạng & máy tính — đánh giá hạ tầng, chính sách và quy trình vận hành có đang an toàn, đúng chuẩn hay không.",
-          "Office 365 — triển khai bộ ứng dụng văn phòng Microsoft kết hợp email và các công cụ làm việc cộng tác."
+          "Office 365 — triển khai bộ ứng dụng văn phòng Microsoft kết hợp email và các công cụ làm việc cộng tác.",
+          "Tư vấn Firewall & bảo mật hệ thống — đánh giá và đề xuất giải pháp firewall, bảo mật phù hợp với hạ tầng hiện có.",
+          "Nâng cấp máy tính, laptop — tư vấn cấu hình phù hợp với nhu cầu công việc và ngân sách của doanh nghiệp.",
+          "Thay thế thiết bị hết vòng đời (End-of-Life) — đảm bảo hệ thống luôn được nhà sản xuất hỗ trợ và vận hành ổn định.",
+          "Lộ trình hạ tầng IT (IT Infrastructure Roadmap) — lập kế hoạch đầu tư và nâng cấp hệ thống theo từng giai đoạn phù hợp với sự phát triển của doanh nghiệp."
         ],
         "hasClientLogos": true
       },
@@ -1165,20 +1169,6 @@
               "Danh sách sự cố và tình trạng xử lý.",
               "Đề xuất cải thiện hệ thống IT."
             ]
-          },
-          {
-            "title": "Tư Vấn & Nâng Cấp Hạ Tầng IT",
-            "items": [
-              "Khảo sát hiện trạng IT.",
-              "Thiết kế mạng LAN/WAN/Wi-Fi.",
-              "Tư vấn Server/Storage.",
-              "Tư vấn Firewall/Security.",
-              "Tư vấn Backup/DR.",
-              "Tư vấn Cloud/Microsoft 365.",
-              "Tư vấn nâng cấp PC/Laptop.",
-              "Tư vấn thay thế thiết bị End-of-Life.",
-              "Lập kế hoạch IT Infrastructure Roadmap."
-            ]
           }
         ]
       },
@@ -1199,6 +1189,7 @@
         "sections": [
           {
             "title": "Thuê IT Part-time",
+            "oneColumn": true,
             "items": [
               "Phù hợp doanh nghiệp vừa và nhỏ, khối lượng công việc IT không quá lớn.",
               "Kỹ sư IT làm việc theo lịch cố định (ví dụ vài buổi mỗi tuần) hoặc theo số giờ đã thỏa thuận.",
@@ -1209,6 +1200,7 @@
           },
           {
             "title": "Thuê IT Full-time",
+            "oneColumn": true,
             "items": [
               "Phù hợp doanh nghiệp có khối lượng công việc IT lớn, cần nhân sự thường trực.",
               "Kỹ sư IT làm việc toàn thời gian tại văn phòng khách hàng (Resident Engineer), gắn bó như một thành viên trong đội ngũ nội bộ.",

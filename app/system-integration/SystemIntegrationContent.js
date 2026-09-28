@@ -1,12 +1,13 @@
 'use client';
 
+import Image from 'next/image';
 import { CheckCircle2 } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
 import CtaBanner from '@/components/CtaBanner';
 import ClientLogos from '@/components/ClientLogos';
 import { ICONS } from '@/lib/icons';
-import { systemIntegrationClients, systemIntegrationPartnerBrands } from '@/lib/content';
+import { systemIntegrationClients, systemIntegrationPartnerBrands, systemIntegrationPartnerLevels } from '@/lib/content';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function SystemIntegrationContent() {
@@ -104,6 +105,40 @@ export default function SystemIntegrationContent() {
               ))}
             </div>
           </Reveal>
+        </div>
+      </section>
+
+      <section className="bg-white py-20">
+        <div className="container-page">
+          <Reveal className="mx-auto max-w-2xl text-center">
+            <p className="text-xl font-bold uppercase tracking-[0.05em] text-brand-600">
+              {t('partnerLevelsSection.eyebrow')}
+            </p>
+            <h2 className="mt-3 text-balance font-display text-3xl font-bold text-navy-900 md:text-4xl">
+              {t('partnerLevelsSection.heading')}
+            </h2>
+          </Reveal>
+
+          <div className="mt-14 flex flex-wrap justify-center gap-8">
+            {systemIntegrationPartnerLevels.map((cert, i) => (
+              <Reveal
+                key={cert.key}
+                delay={i * 0.08}
+                className="w-full sm:w-[calc(50%-16px)] lg:w-[calc(33.333%-21.333px)]"
+              >
+                <div className="overflow-hidden rounded-2xl bg-white shadow-soft ring-1 ring-black/5">
+                  <Image
+                    src={cert.image}
+                    alt={t(`partnerLevels.${cert.key}`)}
+                    width={1129}
+                    height={800}
+                    className="h-auto w-full"
+                  />
+                </div>
+                <p className="mt-4 text-center text-sm font-semibold text-ink-900">{t(`partnerLevels.${cert.key}`)}</p>
+              </Reveal>
+            ))}
+          </div>
         </div>
       </section>
 

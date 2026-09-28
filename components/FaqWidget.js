@@ -11,6 +11,7 @@ export default function FaqWidget() {
   const [open, setOpen] = useState(false);
   const [log, setLog] = useState([]);
   const scrollRef = useRef(null);
+  const widgetRef = useRef(null);
 
   const itemsRaw = t('faqWidget.items');
   const items = Array.isArray(itemsRaw) ? itemsRaw : [];
@@ -24,8 +25,17 @@ export default function FaqWidget() {
     if (el) el.scrollTop = el.scrollHeight;
   }, [log, open]);
 
+  useEffect(() => {
+    if (!open) return;
+    const handlePointerDown = (e) => {
+      if (widgetRef.current && !widgetRef.current.contains(e.target)) setOpen(false);
+    };
+    document.addEventListener('mousedown', handlePointerDown);
+    return () => document.removeEventListener('mousedown', handlePointerDown);
+  }, [open]);
+
   return (
-    <div className="fixed bottom-5 right-5 z-50 flex flex-col items-end gap-3">
+    <div ref={widgetRef} className="fixed bottom-5 right-5 z-50 flex flex-col items-end gap-3">
       <AnimatePresence>
         {open && (
           <motion.div

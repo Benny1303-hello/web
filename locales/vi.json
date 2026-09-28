@@ -173,9 +173,26 @@
     "heading": "Được các hãng công nghệ hàng đầu công nhận"
   },
   "certifications": {
-    "apcElite": "APC by Schneider Electric — Elite Partner (2020)",
-    "apcPremier": "APC by Schneider Electric — Premier Partner (2019)",
-    "microsoftSilver": "Microsoft — Silver Partner"
+    "apcElite2020": "APC by Schneider Electric — Elite Partner (2020)",
+    "apcDigital2023": "Schneider Electric — Digital Service Partner Reseller (07/2022–12/2023)",
+    "apcElite2024": "APC by Schneider Electric — Elite Partner, IT Solution Provider (2024)",
+    "apcService2024": "Schneider Electric — Service Partner Reseller (2024)",
+    "apcElite2025": "APC by Schneider Electric — Elite Partner (2025)",
+    "apcService2026": "Schneider Electric — Service Partner Reseller (2026)",
+    "eaton2026": "Eaton — Authorised Reseller, Power Quality Products (2026)"
+  },
+  "partnerLevelsSection": {
+    "eyebrow": "Cấp độ đối tác",
+    "heading": "Vị thế đối tác được các hãng công nghệ hàng đầu công nhận"
+  },
+  "partnerLevels": {
+    "dell": "Dell Technologies — Gold Partner (2026)",
+    "lenovo": "Lenovo 360 — Authorized Partner (2026)",
+    "paloalto": "Palo Alto Networks — NextWave Registered Partner",
+    "hpe": "HPE — Compute, Hybrid Cloud & Networking Business Partner (FY2026)",
+    "eaton": "Eaton — Authorised Reseller, Power Quality Products (2026)",
+    "apcElite": "APC by Schneider Electric — Elite Partner (2025)",
+    "apcService": "Schneider Electric — Service Partner Reseller (2026)"
   },
   "ctaBanner": {
     "heading": "Sẵn sàng nâng cấp hạ tầng IT của doanh nghiệp bạn?",

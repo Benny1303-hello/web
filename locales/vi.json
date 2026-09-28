@@ -290,7 +290,7 @@
       "intro": {
         "eyebrow": "Về trung tâm phân phối",
         "heading": "Một mắt xích chiến lược trong hệ thống phân phối công nghệ",
-        "desc": "Với gần 25 năm kinh nghiệm kinh doanh phân phối, TTC-Infotech hợp tác cùng nhiều hãng công nghệ hàng đầu như Schneider Electric (APC by Schneider), HPE, Microsoft và Telegartner. Là một trong những nhà phân phối công nghệ end‑to‑end hàng đầu Việt Nam, chúng tôi luôn đặt nhu cầu và mục tiêu của khách hàng làm trọng tâm, đóng vai trò đối tác chiến lược thực thụ và là mắt xích quan trọng trong kênh phân phối IT, mang đến giải pháp tối ưu cho từng đối tác kênh phân phối."
+        "desc": "Với gần 25 năm kinh nghiệm kinh doanh phân phối, TTC-Infotech hợp tác cùng nhiều hãng công nghệ hàng đầu như Schneider Electric (APC by Schneider), EATON và Microsoft. Là một trong những nhà phân phối công nghệ end‑to‑end hàng đầu Việt Nam, chúng tôi luôn đặt nhu cầu và mục tiêu của khách hàng làm trọng tâm, đóng vai trò đối tác chiến lược thực thụ và là mắt xích quan trọng trong kênh phân phối IT, mang đến giải pháp tối ưu cho từng đối tác kênh phân phối."
       },
       "brandsSection": {
         "eyebrow": "Danh mục phân phối",
@@ -298,9 +298,8 @@
       },
       "brands": {
         "apc": { "name": "APC by Schneider Electric", "desc": "Elite & Premier Partner — hệ thống UPS 1 pha/3 pha, tủ rack, điều hòa chính xác và giải pháp giám sát môi trường cho trung tâm dữ liệu." },
-        "hpe": { "name": "HPE Aruba Networking", "desc": "Silver Partner — giải pháp mạng doanh nghiệp và Wifi từ Aruba Networking, thương hiệu thuộc HPE." },
-        "microsoft": { "name": "Microsoft", "desc": "Silver Partner, Managed Reseller — bản quyền phần mềm Microsoft OEM và FPP chính hãng." },
-        "telegartner": { "name": "Telegartner", "desc": "Authorized Partner — hệ thống cabling chuẩn hóa cho hạ tầng mạng doanh nghiệp." }
+        "eaton": { "name": "EATON", "desc": "Nhà phân phối UPS Eaton, thanh nguồn phân phối điện cho CNTT (PDU) và giải pháp làm mát trung tâm dữ liệu." },
+        "microsoft": { "name": "Microsoft", "desc": "Silver Partner, Managed Reseller — bản quyền phần mềm Microsoft OEM và FPP chính hãng." }
       },
       "valuesSection": {
         "eyebrow": "Giá trị dành cho đối tác",

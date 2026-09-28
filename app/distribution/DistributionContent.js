@@ -61,11 +61,11 @@ export default function DistributionContent() {
             </h2>
           </Reveal>
 
-          <div className="mt-14 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-14 flex flex-wrap justify-center gap-6">
             {distributionBrands.map((brand, i) => {
               const Icon = ICONS[brand.icon];
               return (
-                <Reveal key={brand.key} delay={i * 0.08}>
+                <Reveal key={brand.key} delay={i * 0.08} className="w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]">
                   <div className="h-full rounded-2xl bg-white p-7 shadow-soft ring-1 ring-black/5">
                     <div className="flex items-center gap-3">
                       <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-cyan-400 text-white">

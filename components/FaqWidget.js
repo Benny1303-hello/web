@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { MessageCircleQuestion, X, Bot } from 'lucide-react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { site } from '@/lib/content';
@@ -10,6 +10,7 @@ export default function FaqWidget() {
   const { t } = useLanguage();
   const [open, setOpen] = useState(false);
   const [log, setLog] = useState([]);
+  const scrollRef = useRef(null);
 
   const itemsRaw = t('faqWidget.items');
   const items = Array.isArray(itemsRaw) ? itemsRaw : [];
@@ -17,6 +18,11 @@ export default function FaqWidget() {
   const handleAsk = (item) => {
     setLog((prev) => [...prev, { type: 'user', text: item.q }, { type: 'bot', text: item.a }]);
   };
+
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (el) el.scrollTop = el.scrollHeight;
+  }, [log, open]);
 
   return (
     <div className="fixed bottom-5 right-5 z-50 flex flex-col items-end gap-3">
@@ -49,7 +55,7 @@ export default function FaqWidget() {
               </button>
             </div>
 
-            <div className="flex-1 space-y-3 overflow-y-auto bg-mist-50 px-4 py-4">
+            <div ref={scrollRef} className="flex-1 space-y-3 overflow-y-auto bg-mist-50 px-4 py-4">
               <div className="flex items-start gap-2">
                 <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-brand-500 to-cyan-400 text-white">
                   <Bot size={14} />

@@ -32,6 +32,11 @@ const SPEC_GROUP_LABELS_VI = {
   'Packing Units': 'Đóng gói',
   'Offer Sustainability': 'Phát triển bền vững',
   'Contractual warranty': 'Bảo hành',
+  Licensing: 'Thông tin bản quyền',
+  'Key Features': 'Tính năng nổi bật',
+  'Included Apps & Services': 'Ứng dụng & dịch vụ bao gồm',
+  Security: 'Bảo mật',
+  'Included Apps': 'Ứng dụng bao gồm',
 };
 
 export default function ProductDetailContent({ product, group }) {

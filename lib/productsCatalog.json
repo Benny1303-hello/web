@@ -36767,7 +36767,11 @@
             }
           ]
         }
-      ]
+      ],
+      "images": [
+        "/products/windows-server/1.jpg"
+      ],
+      "imageSource": "microsoft.com"
     },
     {
       "brand": "Microsoft",
@@ -36812,7 +36816,11 @@
             }
           ]
         }
-      ]
+      ],
+      "images": [
+        "/products/windows-server/1.jpg"
+      ],
+      "imageSource": "microsoft.com"
     },
     {
       "brand": "Microsoft",
@@ -36853,7 +36861,11 @@
             }
           ]
         }
-      ]
+      ],
+      "images": [
+        "/products/windows/1.jpg"
+      ],
+      "imageSource": "microsoft.com"
     },
     {
       "brand": "Microsoft",
@@ -36902,7 +36914,11 @@
             }
           ]
         }
-      ]
+      ],
+      "images": [
+        "/products/windows/1.jpg"
+      ],
+      "imageSource": "microsoft.com"
     },
     {
       "brand": "Microsoft",
@@ -36943,7 +36959,11 @@
             }
           ]
         }
-      ]
+      ],
+      "images": [
+        "/products/windows/1.jpg"
+      ],
+      "imageSource": "microsoft.com"
     },
     {
       "brand": "Microsoft",
@@ -36979,7 +36999,11 @@
             }
           ]
         }
-      ]
+      ],
+      "images": [
+        "/products/microsoft-365/1.jpg"
+      ],
+      "imageSource": "microsoft.com"
     },
     {
       "brand": "Microsoft",
@@ -37011,7 +37035,11 @@
             }
           ]
         }
-      ]
+      ],
+      "images": [
+        "/products/microsoft-365/1.jpg"
+      ],
+      "imageSource": "microsoft.com"
     },
     {
       "brand": "Microsoft",
@@ -37052,7 +37080,11 @@
             }
           ]
         }
-      ]
+      ],
+      "images": [
+        "/products/microsoft-365/1.jpg"
+      ],
+      "imageSource": "microsoft.com"
     },
     {
       "brand": "Microsoft",
@@ -37084,7 +37116,11 @@
             }
           ]
         }
-      ]
+      ],
+      "images": [
+        "/products/microsoft-365/1.jpg"
+      ],
+      "imageSource": "microsoft.com"
     },
     {
       "brand": "Microsoft",
@@ -37121,7 +37157,11 @@
             }
           ]
         }
-      ]
+      ],
+      "images": [
+        "/products/office/1.jpg"
+      ],
+      "imageSource": "microsoft.com"
     },
     {
       "brand": "Microsoft",
@@ -37154,7 +37194,11 @@
             }
           ]
         }
-      ]
+      ],
+      "images": [
+        "/products/office/1.jpg"
+      ],
+      "imageSource": "microsoft.com"
     },
     {
       "brand": "Microsoft",
@@ -37187,7 +37231,11 @@
             }
           ]
         }
-      ]
+      ],
+      "images": [
+        "/products/office/1.jpg"
+      ],
+      "imageSource": "microsoft.com"
     },
     {
       "brand": "Microsoft",
@@ -37220,7 +37268,11 @@
             }
           ]
         }
-      ]
+      ],
+      "images": [
+        "/products/sql-server/1.jpg"
+      ],
+      "imageSource": "microsoft.com"
     },
     {
       "brand": "Microsoft",
@@ -37253,7 +37305,11 @@
             }
           ]
         }
-      ]
+      ],
+      "images": [
+        "/products/sql-server/1.jpg"
+      ],
+      "imageSource": "microsoft.com"
     }
   ]
 }

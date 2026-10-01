@@ -36763,7 +36763,7 @@
             },
             {
               "label": "Hotpatching",
-              "value": "Included"
+              "value": "Included at no extra cost (requires Azure Arc connection)"
             }
           ]
         }
@@ -36812,7 +36812,7 @@
             },
             {
               "label": "Hotpatching",
-              "value": "Included"
+              "value": "Included at no extra cost (requires Azure Arc connection)"
             }
           ]
         }
@@ -37170,7 +37170,7 @@
       "part_number": "Office Home & Business 2024",
       "name": "Như Office Home, bổ sung Outlook",
       "category_label": "Office cho gia đình & doanh nghiệp nhỏ",
-      "overview": "Phù hợp doanh nghiệp nhỏ. Phiên bản phổ biến nhất cho doanh nghiệp nhỏ tại Việt Nam — đầy đủ Word, Excel, PowerPoint, Outlook và OneNote.",
+      "overview": "Phù hợp doanh nghiệp nhỏ. Bản quyền mua một lần, đầy đủ Word, Excel, PowerPoint, Outlook và OneNote.",
       "specGroups": [
         {
           "group": "Included Apps",
@@ -37213,8 +37213,12 @@
           "group": "Included Apps",
           "items": [
             {
-              "label": "Word, Excel, PowerPoint, Outlook, OneNote, Access, Publisher",
+              "label": "Word, Excel, PowerPoint, Outlook, OneNote, Access",
               "value": "Included"
+            },
+            {
+              "label": "Publisher",
+              "value": "Not included"
             }
           ]
         },

@@ -4,7 +4,7 @@ import productsCatalog from '@/lib/productsCatalog.json';
 
 export const metadata = {
   title: vi.pages.products.hero.crumb,
-  description: 'Danh mục sản phẩm TTC-Infotech phân phối: UPS, tủ rack, hạ tầng mạng, giám sát an ninh và nhiều thiết bị chính hãng khác.',
+  description: 'Danh mục sản phẩm TTC-Infotech phân phối: UPS, tủ rack và phụ kiện APC, EATON cùng bản quyền phần mềm Microsoft chính hãng.',
 };
 
 export default function ProductsPage() {

@@ -42,8 +42,18 @@ const SPEC_GROUP_LABELS_VI = {
 export default function ProductDetailContent({ product, group }) {
   const { t, language } = useLanguage();
   const salesTeam = distributionStaff.find((g) => g.groupKey === 'sales')?.members || [];
-  const salesTeam1Phase = salesTeam.filter((person) => person.phase === '1');
-  const salesTeam3Phase = salesTeam.filter((person) => person.phase === '3');
+  // The sales team splits UPS work by 1-phase vs 3-phase; that split means
+  // nothing for a software licence, so those pages list the team under one
+  // heading-less group instead of labelling Microsoft products "1 phase".
+  const splitByPhase = product.brand !== 'Microsoft';
+  const contactGroups = (
+    splitByPhase
+      ? [
+          { key: '1', heading: t('productCatalog.contact1Phase'), members: salesTeam.filter((p) => p.phase === '1') },
+          { key: '3', heading: t('productCatalog.contact3Phase'), members: salesTeam.filter((p) => p.phase === '3') },
+        ]
+      : [{ key: 'all', heading: null, members: salesTeam }]
+  ).filter((g) => g.members.length > 0);
   const images = Array.isArray(product.images) ? product.images : [];
   const [activeImage, setActiveImage] = useState(images[0]);
   const [openGroups, setOpenGroups] = useState(() => new Set([0]));
@@ -207,13 +217,13 @@ export default function ProductDetailContent({ product, group }) {
               <h3 className="font-display text-base font-bold">{t('productCatalog.contactHeading')}</h3>
               <p className="mt-1 text-sm text-slate-300">{t('productCatalog.contactDesc')}</p>
               <div className="mt-4 space-y-5">
-                {salesTeam1Phase.length > 0 && (
-                  <div>
-                    <p className="text-xs font-semibold uppercase tracking-wide text-cyan-300">
-                      {t('productCatalog.contact1Phase')}
-                    </p>
-                    <div className="mt-2 space-y-3">
-                      {salesTeam1Phase.map((person) => (
+                {contactGroups.map((contactGroup) => (
+                  <div key={contactGroup.key}>
+                    {contactGroup.heading && (
+                      <p className="text-xs font-semibold uppercase tracking-wide text-cyan-300">{contactGroup.heading}</p>
+                    )}
+                    <div className={contactGroup.heading ? 'mt-2 space-y-3' : 'space-y-3'}>
+                      {contactGroup.members.map((person) => (
                         <div key={person.key} className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm">
                           <span className="font-semibold text-white">{person.name}</span>
                           <a href={toTelHref(person.phone)} className="flex items-center gap-1.5 text-cyan-300 hover:text-cyan-200">
@@ -228,29 +238,7 @@ export default function ProductDetailContent({ product, group }) {
                       ))}
                     </div>
                   </div>
-                )}
-                {salesTeam3Phase.length > 0 && (
-                  <div>
-                    <p className="text-xs font-semibold uppercase tracking-wide text-cyan-300">
-                      {t('productCatalog.contact3Phase')}
-                    </p>
-                    <div className="mt-2 space-y-3">
-                      {salesTeam3Phase.map((person) => (
-                        <div key={person.key} className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm">
-                          <span className="font-semibold text-white">{person.name}</span>
-                          <a href={toTelHref(person.phone)} className="flex items-center gap-1.5 text-cyan-300 hover:text-cyan-200">
-                            <Phone size={14} />
-                            {person.phone}
-                          </a>
-                          <a href={`mailto:${person.email}`} className="flex items-center gap-1.5 text-slate-300 hover:text-white">
-                            <Mail size={14} />
-                            {person.email}
-                          </a>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                )}
+                ))}
               </div>
             </div>
           </Reveal>

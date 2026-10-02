@@ -4,11 +4,13 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { CheckCircle2, Send, Loader2 } from 'lucide-react';
 import { site } from '@/lib/content';
-import { CLIENT_FIXABLE_ERROR_CODES } from '@/lib/contactErrors';
+import { CLIENT_FIXABLE_ERROR_CODES, CONTACT_FIELD_MAX_LENGTHS } from '@/lib/contactErrors';
 import { useLanguage } from '@/context/LanguageContext';
 
 const fieldNames = ['name', 'email', 'phone', 'subject'];
-const fieldTypes = { name: 'text', email: 'email', phone: 'text', subject: 'text' };
+const fieldTypes = { name: 'text', email: 'email', phone: 'tel', subject: 'text' };
+// Lets the browser autofill the visitor's saved name/email/phone.
+const fieldAutoComplete = { name: 'name', email: 'email', phone: 'tel', subject: 'off' };
 
 export default function ContactForm() {
   const { t } = useLanguage();
@@ -69,6 +71,8 @@ export default function ContactForm() {
               id={name}
               name={name}
               type={fieldTypes[name]}
+              autoComplete={fieldAutoComplete[name]}
+              maxLength={CONTACT_FIELD_MAX_LENGTHS[name]}
               required
               placeholder={t(`contactForm.fields.${name}.placeholder`)}
               value={values[name]}
@@ -86,6 +90,7 @@ export default function ContactForm() {
             id="message"
             name="message"
             rows={4}
+            maxLength={CONTACT_FIELD_MAX_LENGTHS.message}
             required
             placeholder={t('contactForm.fields.message.placeholder')}
             value={values.message}

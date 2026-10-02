@@ -1,6 +1,6 @@
 import nodemailer from 'nodemailer';
 import { site } from '@/lib/content';
-import { CONTACT_ERROR_CODES } from '@/lib/contactErrors';
+import { CONTACT_ERROR_CODES, CONTACT_FIELD_MAX_LENGTHS } from '@/lib/contactErrors';
 import { isRateLimited, getClientIp } from '@/lib/rateLimit';
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -35,13 +35,26 @@ export async function POST(request) {
     return Response.json({ errorCode: CONTACT_ERROR_CODES.INVALID_BODY }, { status: 400 });
   }
 
-  const { name, email, phone, subject, message } = body ?? {};
+  // A non-string field (e.g. `{"name": 5}`) would otherwise throw on `.trim()`
+  // and surface as an unhandled 500 instead of a clean 400.
+  const fields = {};
+  for (const [key, maxLength] of Object.entries(CONTACT_FIELD_MAX_LENGTHS)) {
+    const value = body?.[key];
+    if (value !== undefined && value !== null && typeof value !== 'string') {
+      return Response.json({ errorCode: CONTACT_ERROR_CODES.INVALID_BODY }, { status: 400 });
+    }
+    fields[key] = (value ?? '').trim();
+    if (fields[key].length > maxLength) {
+      return Response.json({ errorCode: CONTACT_ERROR_CODES.INVALID_BODY }, { status: 400 });
+    }
+  }
+  const { name, email, phone, subject, message } = fields;
 
-  if (!name?.trim() || !email?.trim() || !phone?.trim() || !subject?.trim() || !message?.trim()) {
+  if (!name || !email || !phone || !subject || !message) {
     return Response.json({ errorCode: CONTACT_ERROR_CODES.MISSING_FIELDS }, { status: 400 });
   }
 
-  if (!EMAIL_RE.test(email.trim())) {
+  if (!EMAIL_RE.test(email)) {
     return Response.json({ errorCode: CONTACT_ERROR_CODES.INVALID_EMAIL }, { status: 400 });
   }
 
@@ -54,16 +67,16 @@ export async function POST(request) {
     await transporter.sendMail({
       from: `TTC-Infotech Website <${process.env.SMTP_USER}>`,
       to: site.email,
-      replyTo: email.trim(),
-      subject: `Yêu cầu liên hệ mới - ${subject.trim()}`,
+      replyTo: email,
+      subject: `Yêu cầu liên hệ mới - ${subject}`,
       text: [
-        `Họ và tên: ${name.trim()}`,
-        `Email: ${email.trim()}`,
-        `Số điện thoại: ${phone.trim()}`,
-        `Chủ đề: ${subject.trim()}`,
+        `Họ và tên: ${name}`,
+        `Email: ${email}`,
+        `Số điện thoại: ${phone}`,
+        `Chủ đề: ${subject}`,
         '',
         'Nội dung:',
-        message.trim(),
+        message,
       ].join('\n'),
     });
 

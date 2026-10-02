@@ -1,6 +1,6 @@
 'use client';
 
-import { Fragment, useEffect, useState } from 'react';
+import { Fragment, useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
@@ -11,9 +11,18 @@ import { useLanguage } from '@/context/LanguageContext';
 
 const LANGUAGES = ['vi', 'en'];
 
-function hasActiveDescendant(item, pathname) {
-  if (item.href === pathname) return true;
-  return item.children?.some((child) => hasActiveDescendant(child, pathname)) ?? false;
+// An item is active on its own page, on any page nested under it (a product
+// detail page lights up its group), or when a descendant is active. Two cases
+// are excluded: an item whose href repeats its parent's (the APC/EATON/
+// Microsoft brand rows all point at /products, so on /products itself all
+// three would light up at once), and prefix matching for an "About" leaf that
+// shares its parent's href (otherwise /services/staff would also highlight
+// the /services "About" row).
+function isActive(item, pathname, parentHref) {
+  if (item.children?.some((child) => isActive(child, pathname, item.href))) return true;
+  const sharesParentHref = item.href === parentHref;
+  if (pathname === item.href) return !(item.children && sharesParentHref);
+  return !sharesParentHref && item.href !== '/' && pathname.startsWith(`${item.href}/`);
 }
 
 function LanguageSwitcher({ className = '' }) {
@@ -46,6 +55,7 @@ export default function Navbar() {
   const [openMobileKey, setOpenMobileKey] = useState(null);
   const [openMobileSubKey, setOpenMobileSubKey] = useState(null);
   const [openMobileGrandKey, setOpenMobileGrandKey] = useState(null);
+  const desktopNavRef = useRef(null);
   const pathname = usePathname();
   const { t } = useLanguage();
 
@@ -61,6 +71,10 @@ export default function Navbar() {
     setOpenMobileKey(null);
     setOpenMobileSubKey(null);
     setOpenMobileGrandKey(null);
+    // The desktop dropdowns also open on focus (for keyboard users), so the
+    // link just clicked would otherwise keep its dropdown open after the new
+    // page loads, until the visitor clicks somewhere else.
+    if (desktopNavRef.current?.contains(document.activeElement)) document.activeElement.blur();
   }, [pathname]);
 
   // Escape closes the mobile menu, which is what anyone navigating by keyboard
@@ -86,10 +100,10 @@ export default function Navbar() {
           <Image src="/logo.png" alt={site.name} width={148} height={80} className="h-12 w-auto" priority />
         </Link>
 
-        <nav className="hidden items-center xl:flex">
+        <nav ref={desktopNavRef} className="hidden items-center xl:flex">
           {navLinks.map((link) => {
             if (link.children) {
-              const childActive = link.children.some((child) => hasActiveDescendant(child, pathname));
+              const childActive = isActive(link, pathname);
               return (
                 <div key={link.key} className="group relative">
                   <Link
@@ -99,17 +113,17 @@ export default function Navbar() {
                     }`}
                   >
                     {t(`nav.${link.key}`)}
-                    <ChevronDown size={14} className="transition-transform duration-200 group-hover:rotate-180" />
+                    <ChevronDown size={14} className="transition-transform duration-200 group-hover:rotate-180 group-focus-within:rotate-180" />
                   </Link>
 
-                  <div className="invisible absolute left-0 top-full z-50 w-60 translate-y-1 rounded-xl bg-white p-2 opacity-0 shadow-card ring-1 ring-black/5 transition-all duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
+                  <div className="invisible absolute left-0 top-full z-50 w-60 translate-y-1 rounded-xl bg-white p-2 opacity-0 shadow-card ring-1 ring-black/5 transition-all duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:visible group-focus-within:translate-y-0 group-focus-within:opacity-100">
                     {link.children.map((child) =>
                       child.children ? (
                         <div key={child.key} className="group/nested relative">
                           <Link
                             href={child.href}
                             className={`flex items-center justify-between gap-2 rounded-lg px-3 py-2.5 text-sm font-medium transition-colors ${
-                              hasActiveDescendant(child, pathname)
+                              isActive(child, pathname, link.href)
                                 ? 'bg-mist-50 text-brand-600'
                                 : 'text-ink-700 hover:bg-mist-50 hover:text-brand-600'
                             }`}
@@ -118,14 +132,14 @@ export default function Navbar() {
                             <ChevronRight size={14} className="shrink-0" />
                           </Link>
 
-                          <div className="invisible absolute left-full top-0 z-50 ml-1 w-60 rounded-xl bg-white p-2 opacity-0 shadow-card ring-1 ring-black/5 transition-all duration-200 group-hover/nested:visible group-hover/nested:opacity-100">
+                          <div className="invisible absolute left-full top-0 z-50 ml-1 w-60 rounded-xl bg-white p-2 opacity-0 shadow-card ring-1 ring-black/5 transition-all duration-200 group-hover/nested:visible group-hover/nested:opacity-100 group-focus-within/nested:visible group-focus-within/nested:opacity-100">
                             {child.children.map((grandchild) =>
                               grandchild.children ? (
                                 <div key={grandchild.key} className="group/nested2 relative">
                                   <Link
                                     href={grandchild.href}
                                     className={`flex items-center justify-between gap-2 rounded-lg px-3 py-2.5 text-sm font-medium transition-colors ${
-                                      hasActiveDescendant(grandchild, pathname)
+                                      isActive(grandchild, pathname, child.href)
                                         ? 'bg-mist-50 text-brand-600'
                                         : 'text-ink-700 hover:bg-mist-50 hover:text-brand-600'
                                     }`}
@@ -134,13 +148,13 @@ export default function Navbar() {
                                     <ChevronRight size={14} className="shrink-0" />
                                   </Link>
 
-                                  <div className="invisible absolute left-full top-0 z-50 ml-1 w-60 rounded-xl bg-white p-2 opacity-0 shadow-card ring-1 ring-black/5 transition-all duration-200 group-hover/nested2:visible group-hover/nested2:opacity-100">
+                                  <div className="invisible absolute left-full top-0 z-50 ml-1 w-60 rounded-xl bg-white p-2 opacity-0 shadow-card ring-1 ring-black/5 transition-all duration-200 group-hover/nested2:visible group-hover/nested2:opacity-100 group-focus-within/nested2:visible group-focus-within/nested2:opacity-100">
                                     {grandchild.children.map((greatGrandchild) => (
                                       <Link
                                         key={greatGrandchild.href}
                                         href={greatGrandchild.href}
                                         className={`block rounded-lg px-3 py-2.5 text-sm font-medium transition-colors ${
-                                          pathname === greatGrandchild.href
+                                          isActive(greatGrandchild, pathname, grandchild.href)
                                             ? 'bg-mist-50 text-brand-600'
                                             : 'text-ink-700 hover:bg-mist-50 hover:text-brand-600'
                                         }`}
@@ -155,7 +169,7 @@ export default function Navbar() {
                                   key={grandchild.href}
                                   href={grandchild.href}
                                   className={`block rounded-lg px-3 py-2.5 text-sm font-medium transition-colors ${
-                                    pathname === grandchild.href
+                                    isActive(grandchild, pathname, child.href)
                                       ? 'bg-mist-50 text-brand-600'
                                       : 'text-ink-700 hover:bg-mist-50 hover:text-brand-600'
                                   }`}
@@ -171,7 +185,7 @@ export default function Navbar() {
                           key={child.href}
                           href={child.href}
                           className={`block rounded-lg px-3 py-2.5 text-sm font-medium transition-colors ${
-                            pathname === child.href ? 'bg-mist-50 text-brand-600' : 'text-ink-700 hover:bg-mist-50 hover:text-brand-600'
+                            isActive(child, pathname, link.href) ? 'bg-mist-50 text-brand-600' : 'text-ink-700 hover:bg-mist-50 hover:text-brand-600'
                           }`}
                         >
                           {t(`nav.${child.key}`)}
@@ -249,7 +263,7 @@ export default function Navbar() {
             <div className="container-page flex flex-col gap-1 py-4">
               {navLinks.map((link) => {
                 if (link.children) {
-                  const childActive = link.children.some((child) => hasActiveDescendant(child, pathname));
+                  const childActive = isActive(link, pathname);
                   const submenuOpen = openMobileKey === link.key;
                   return (
                     <div key={link.key}>
@@ -282,7 +296,7 @@ export default function Navbar() {
                           {link.children.map((child) => {
                             if (child.children) {
                               const subOpen = openMobileSubKey === child.key;
-                              const grandchildActive = child.children.some((c) => hasActiveDescendant(c, pathname));
+                              const grandchildActive = isActive(child, pathname, link.href);
                               return (
                                 <div key={child.key}>
                                   <div
@@ -311,9 +325,7 @@ export default function Navbar() {
                                       {child.children.map((grandchild) => {
                                         if (grandchild.children) {
                                           const grandOpen = openMobileGrandKey === grandchild.key;
-                                          const greatGrandchildActive = grandchild.children.some(
-                                            (g) => g.href === pathname
-                                          );
+                                          const greatGrandchildActive = isActive(grandchild, pathname, child.href);
                                           return (
                                             <div key={grandchild.key}>
                                               <div
@@ -346,7 +358,7 @@ export default function Navbar() {
                                                       key={greatGrandchild.href}
                                                       href={greatGrandchild.href}
                                                       className={`rounded-lg px-3 py-2.5 text-sm font-medium transition-colors ${
-                                                        pathname === greatGrandchild.href
+                                                        isActive(greatGrandchild, pathname, grandchild.href)
                                                           ? 'text-cyan-300'
                                                           : 'text-slate-300 hover:bg-white/5 hover:text-white'
                                                       }`}
@@ -365,7 +377,7 @@ export default function Navbar() {
                                             key={grandchild.href}
                                             href={grandchild.href}
                                             className={`rounded-lg px-3 py-2.5 text-sm font-medium transition-colors ${
-                                              pathname === grandchild.href
+                                              isActive(grandchild, pathname, child.href)
                                                 ? 'text-cyan-300'
                                                 : 'text-slate-300 hover:bg-white/5 hover:text-white'
                                             }`}
@@ -385,7 +397,7 @@ export default function Navbar() {
                                 key={child.href}
                                 href={child.href}
                                 className={`rounded-lg px-3 py-2.5 text-sm font-medium transition-colors ${
-                                  pathname === child.href
+                                  isActive(child, pathname, link.href)
                                     ? 'text-cyan-300'
                                     : 'text-slate-300 hover:bg-white/5 hover:text-white'
                                 }`}

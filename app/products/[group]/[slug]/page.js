@@ -16,9 +16,8 @@ function buildProductJsonLd(product, groupKey, slug) {
     sku: product.part_number,
     description: product.overview || product.name,
     category: product.category_label,
-    // Falls back to APC (every product today is APC) — reads product.brand
-    // so a future non-APC vendor import (HPE, Microsoft, Telegartner) isn't
-    // silently mislabeled once that field is populated.
+    // EATON and Microsoft entries carry an explicit `brand`; the original APC
+    // import never set one, so a missing brand means APC.
     brand: { '@type': 'Brand', name: product.brand || 'APC' },
     url: `${SITE_URL}/products/${groupKey}/${slug}`,
     ...(Array.isArray(product.images) && product.images.length > 0

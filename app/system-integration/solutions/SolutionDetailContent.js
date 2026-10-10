@@ -46,16 +46,29 @@ export default function SolutionDetailContent({ solutionKey }) {
   const hasComparison =
     comparison && typeof comparison === 'object' && Array.isArray(comparison.columns) && Array.isArray(comparison.rows);
 
-  // Derived from whichever optional section actually rendered last (in render
-  // order below), not a fixed flag — otherwise a solution with fewer optional
-  // sections than expected gets two adjacent same-colored sections in a row.
-  const lastSectionIsWhite = hasComparison
-    ? true
-    : hasCommitments || hasDeploymentTable
-      ? false
-      : hasTable || hasClosingNote || hasServicesList
-        ? true
-        : !(hasSections || hasCategories);
+  // The alternating white/mist stripe of EVERY section is derived from its
+  // position among the sections that actually render, so a solution with fewer
+  // optional sections than expected can never get two adjacent same-colored
+  // sections with no visible break. Hardcoding each background off its own flag
+  // left two such pairs reachable: servicesList and table were both bg-white
+  // (adjacent whenever a solution has both), and either one sat directly under
+  // the always-white overview whenever a solution had no sections/categories.
+  // This list is also the single source of the render order below, replacing a
+  // ternary chain that had to be kept in sync with the JSX by hand.
+  // ServiceOfferingDetailContent derives its stripes the same way.
+  const stripes = [
+    'overview',
+    (hasSections || hasCategories) && 'sectionsCategories',
+    hasServicesList && 'servicesList',
+    hasTable && 'table',
+    !hasTable && hasClosingNote && 'closingNote',
+    (hasCommitments || hasDeploymentTable) && 'commitments',
+  ].filter(Boolean);
+  const stripeBg = (name) => (stripes.indexOf(name) % 2 === 0 ? 'bg-white' : 'bg-mist-50');
+  // VendorComparison brings its own white background, so when it renders it is
+  // the last stripe no matter what preceded it.
+  const lastSectionIsWhite =
+    hasComparison || stripeBg(stripes[stripes.length - 1]) === 'bg-white';
 
   return (
     <>
@@ -66,7 +79,7 @@ export default function SolutionDetailContent({ solutionKey }) {
         description={t(`${base}.hero.description`)}
       />
 
-      <section className="bg-white py-20">
+      <section className={`${stripeBg('overview')} py-20`}>
         <div className="container-page grid grid-cols-1 gap-14 lg:grid-cols-2">
           <Reveal>
             <p className="text-xl font-bold uppercase tracking-[0.05em] text-brand-600">{t(`${base}.overviewHeading`)}</p>
@@ -94,7 +107,7 @@ export default function SolutionDetailContent({ solutionKey }) {
       </section>
 
       {(hasSections || hasCategories) && (
-        <section className="bg-mist-50 py-20">
+        <section className={`${stripeBg('sectionsCategories')} py-20`}>
           <div className="container-page">
             <Reveal className="mx-auto max-w-2xl text-center">
               <h2 className="text-balance font-display text-3xl font-bold text-navy-900 md:text-4xl">
@@ -169,7 +182,7 @@ export default function SolutionDetailContent({ solutionKey }) {
       )}
 
       {hasServicesList && (
-        <section className="bg-white py-20">
+        <section className={`${stripeBg('servicesList')} py-20`}>
           <div className="container-page">
             <Reveal className="mx-auto max-w-2xl text-center">
               <h2 className="text-balance font-display text-3xl font-bold text-navy-900 md:text-4xl">
@@ -193,7 +206,7 @@ export default function SolutionDetailContent({ solutionKey }) {
       )}
 
       {hasTable && (
-        <section className="bg-white py-20">
+        <section className={`${stripeBg('table')} py-20`}>
           <div className="container-page">
             <Reveal className="mx-auto max-w-2xl text-center">
               <h2 className="text-balance font-display text-3xl font-bold text-navy-900 md:text-4xl">
@@ -235,7 +248,7 @@ export default function SolutionDetailContent({ solutionKey }) {
       )}
 
       {!hasTable && hasClosingNote && (
-        <section className="bg-white py-20">
+        <section className={`${stripeBg('closingNote')} py-20`}>
           <div className="container-page">
             <Reveal className="mx-auto max-w-3xl space-y-3">
               {closingNote.map((note, i) => (
@@ -247,7 +260,7 @@ export default function SolutionDetailContent({ solutionKey }) {
       )}
 
       {(hasCommitments || hasDeploymentTable) && (
-        <section className="bg-mist-50 py-20">
+        <section className={`${stripeBg('commitments')} py-20`}>
           <div className="container-page">
             <Reveal className="mx-auto max-w-2xl text-center">
               <h2 className="text-balance font-display text-3xl font-bold text-navy-900 md:text-4xl">

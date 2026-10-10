@@ -12,3 +12,4 @@ npm-debug.log*
 # Raw extracted supplier price data (wholesale/dealer pricing — must never
 # reach the public repo). Produced by the product-excel-extract skill.
 data/product-imports/
+graphify-out/

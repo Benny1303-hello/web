@@ -71,7 +71,13 @@ export default async function ProductDetailPage({ params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }}
       />
-      <ProductDetailContent product={product} group={group} />
+      {/* Keyed by slug so React remounts on a different product instead of
+          reconciling into the same instance. ProductDetailContent seeds
+          `activeImage` with useState(images[0]), which only reads its initial
+          value — navigating straight from one product to another inside this
+          same [slug] segment would otherwise keep showing the previous
+          product's photo above the new product's thumbnails. */}
+      <ProductDetailContent key={`${groupKey}/${slug}`} product={product} group={group} />
     </>
   );
 }

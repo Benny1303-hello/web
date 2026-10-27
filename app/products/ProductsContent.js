@@ -130,7 +130,7 @@ export default function ProductsContent({ groups, searchIndex, countByGroup, bra
               {t('pages.products.ctaHeading')}
             </h2>
             <p className="max-w-xl text-balance leading-relaxed text-ink-400">{t('pages.products.ctaDesc')}</p>
-            <Button href="/contact" variant="primary">
+            <Button href="/staff" variant="primary">
               {t('pages.products.ctaButton')}
             </Button>
           </Reveal>

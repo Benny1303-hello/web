@@ -12,6 +12,7 @@ export default function FaqWidget() {
   const [log, setLog] = useState([]);
   const scrollRef = useRef(null);
   const widgetRef = useRef(null);
+  const lastAnswerRef = useRef(null);
 
   const itemsRaw = t('faqWidget.items');
   const items = Array.isArray(itemsRaw) ? itemsRaw : [];
@@ -22,7 +23,11 @@ export default function FaqWidget() {
 
   useEffect(() => {
     const el = scrollRef.current;
-    if (el) el.scrollTop = el.scrollHeight;
+    if (!el) return;
+    // Anchor on the top of the latest answer so it is read from its first line, rather
+    // than being scrolled to the bottom and cut off when the chat area is short.
+    const answer = lastAnswerRef.current;
+    el.scrollTop = answer ? Math.max(answer.offsetTop - 8, 0) : 0;
   }, [log, open]);
 
   useEffect(() => {
@@ -43,7 +48,7 @@ export default function FaqWidget() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 16, scale: 0.96 }}
             transition={{ duration: 0.2, ease: [0.22, 1, 0.36, 1] }}
-            className="flex h-[min(560px,calc(100vh-140px))] w-[min(360px,calc(100vw-2.5rem))] flex-col overflow-hidden rounded-2xl bg-white shadow-card ring-1 ring-black/10"
+            className="flex h-[min(560px,calc(100dvh-120px))] w-[min(360px,calc(100vw-2.5rem))] flex-col overflow-hidden rounded-2xl bg-white shadow-card ring-1 ring-black/10"
           >
             <div className="flex shrink-0 items-center justify-between gap-3 bg-navy-950 px-5 py-4 text-white">
               <div className="flex items-center gap-2.5">
@@ -65,7 +70,7 @@ export default function FaqWidget() {
               </button>
             </div>
 
-            <div ref={scrollRef} className="flex-1 space-y-3 overflow-y-auto bg-mist-50 px-4 py-4">
+            <div ref={scrollRef} className="relative min-h-[200px] flex-1 space-y-3 overflow-y-auto bg-mist-50 px-4 py-4">
               <div className="flex items-start gap-2">
                 <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-brand-500 to-cyan-400 text-white">
                   <Bot size={14} />
@@ -83,7 +88,7 @@ export default function FaqWidget() {
                     </p>
                   </div>
                 ) : (
-                  <div key={i} className="flex items-start gap-2">
+                  <div key={i} ref={i === log.length - 1 ? lastAnswerRef : null} className="flex items-start gap-2">
                     <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-brand-500 to-cyan-400 text-white">
                       <Bot size={14} />
                     </span>
@@ -95,9 +100,9 @@ export default function FaqWidget() {
               )}
             </div>
 
-            <div className="shrink-0 border-t border-black/5 bg-white px-4 py-3.5">
-              <p className="mb-2 text-[11px] font-bold uppercase tracking-widest text-ink-400">{t('faqWidget.chipsLabel')}</p>
-              <div className="flex max-h-28 flex-wrap gap-2 overflow-y-auto">
+            <div className="shrink-0 border-t border-black/5 bg-white px-4 py-3">
+              <p className="mb-1.5 text-[11px] font-bold uppercase tracking-widest text-ink-400">{t('faqWidget.chipsLabel')}</p>
+              <div className="flex max-h-20 flex-wrap gap-2 overflow-y-auto">
                 {items.map((item) => (
                   <button
                     key={item.key}
@@ -109,7 +114,7 @@ export default function FaqWidget() {
                   </button>
                 ))}
               </div>
-              <p className="mt-3 text-[11px] leading-relaxed text-ink-400">
+              <p className="mt-2 text-[11px] leading-snug text-ink-400">
                 {t('faqWidget.footerNote')}{' '}
                 <a href={site.phoneHref} className="font-semibold text-brand-600 hover:underline">
                   {t('faqWidget.contactCta')}

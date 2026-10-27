@@ -4,7 +4,8 @@ import { Phone, Mail } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
 import CtaBanner from '@/components/CtaBanner';
-import { toTelHref } from '@/lib/phone';
+import ZaloIcon from '@/components/ZaloIcon';
+import { toTelHref, toZaloHref } from '@/lib/phone';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function StaffDirectory({ tPrefix, groups }) {
@@ -43,13 +44,24 @@ export default function StaffDirectory({ tPrefix, groups }) {
                           {t(`${tPrefix}.staffRoles.${contact.key}`)}
                         </p>
                         <div className="mt-3 flex flex-col gap-1.5">
-                          <a
-                            href={toTelHref(contact.phone)}
-                            className="flex items-center gap-2 text-sm font-semibold text-brand-600 transition-colors hover:text-brand-700"
-                          >
-                            <Phone size={14} />
-                            {contact.phone}
-                          </a>
+                          <div className="flex items-center gap-2 text-sm font-semibold">
+                            <a
+                              href={toZaloHref(contact.phone)}
+                              target="_blank"
+                              rel="noreferrer"
+                              aria-label={`${t('common.zalo')} ${contact.name}`}
+                              className="text-brand-600 transition-colors hover:text-brand-700"
+                            >
+                              <ZaloIcon width={16} height={16} />
+                            </a>
+                            <a
+                              href={toTelHref(contact.phone)}
+                              className="flex items-center gap-2 text-brand-600 transition-colors hover:text-brand-700"
+                            >
+                              <Phone size={14} />
+                              {contact.phone}
+                            </a>
+                          </div>
                           {contact.email && (
                             <a
                               href={`mailto:${contact.email}`}

@@ -1,6 +1,6 @@
 'use client';
 
-import { Mail, MapPin, Phone } from 'lucide-react';
+import { Facebook, Mail, MapPin, Phone } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
 import ContactForm from '@/components/ContactForm';
@@ -45,6 +45,24 @@ export default function ContactContent() {
                   </div>
                 </a>
               </Reveal>
+            ))}
+          </div>
+
+          <div className="mt-6 flex flex-wrap items-center gap-3">
+            {[
+              { key: 'facebook', href: site.facebook, icon: Facebook },
+              { key: 'zalo', href: site.zalo },
+            ].map((s) => (
+              <a
+                key={s.key}
+                href={s.href}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 rounded-full bg-mist-50 px-4 py-2 text-sm font-semibold text-ink-900 ring-1 ring-black/5 transition-colors hover:text-brand-600"
+              >
+                {s.icon && <s.icon size={16} />}
+                {t(`common.${s.key}`)}
+              </a>
             ))}
           </div>
 

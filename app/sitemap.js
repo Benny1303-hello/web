@@ -1,5 +1,5 @@
 import productsCatalog from '@/lib/productsCatalog.json';
-import { site, serviceOfferings, systemIntegrationSolutions } from '@/lib/content';
+import { site, productBrands, serviceOfferings, systemIntegrationSolutions } from '@/lib/content';
 
 const SITE_URL = site.url;
 
@@ -37,6 +37,13 @@ export default function sitemap() {
     priority: 0.7,
   }));
 
+  const productBrandEntries = productBrands.map((brand) => ({
+    url: `${SITE_URL}/products/brand/${brand.key}`,
+    lastModified: now,
+    changeFrequency: 'weekly',
+    priority: 0.8,
+  }));
+
   const productDetailEntries = productsCatalog.products.map((product) => ({
     url: `${SITE_URL}/products/${product.group}/${product.slug}`,
     lastModified: now,
@@ -60,6 +67,7 @@ export default function sitemap() {
 
   return [
     ...staticEntries,
+    ...productBrandEntries,
     ...productGroupEntries,
     ...productDetailEntries,
     ...serviceDetailEntries,

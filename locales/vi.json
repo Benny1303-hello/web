@@ -1306,6 +1306,11 @@
     "partNumberLabel": "Mã sản phẩm",
     "searchPlaceholder": "Tìm theo mã sản phẩm hoặc tên...",
     "searchNoResults": "Không tìm thấy sản phẩm phù hợp.",
-    "searchMoreResults": "và {n} kết quả khác..."
+    "searchMoreResults": "và {n} kết quả khác...",
+    "brands": {
+      "apc": { "desc": "Bộ lưu điện UPS, phụ kiện & bình ắc quy UPS, tủ rack và phụ kiện APC." },
+      "eaton": { "desc": "Bộ lưu điện UPS Eaton cùng phụ kiện & bình ắc quy mở rộng chính hãng." },
+      "microsoft": { "desc": "Bản quyền phần mềm Microsoft chính hãng: Windows Server, Windows, Microsoft 365, Office và SQL Server." }
+    }
   }
 }

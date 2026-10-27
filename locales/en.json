@@ -1306,6 +1306,11 @@
     "partNumberLabel": "Part number",
     "searchPlaceholder": "Search by part number or name...",
     "searchNoResults": "No matching products found.",
-    "searchMoreResults": "and {n} more results..."
+    "searchMoreResults": "and {n} more results...",
+    "brands": {
+      "apc": { "desc": "APC UPS, UPS accessories and batteries, and racks with accessories." },
+      "eaton": { "desc": "Eaton UPS with genuine extended battery modules and accessories." },
+      "microsoft": { "desc": "Genuine Microsoft software licenses: Windows Server, Windows, Microsoft 365, Office and SQL Server." }
+    }
   }
 }

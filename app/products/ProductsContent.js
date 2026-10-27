@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from 'react';
 import Link from 'next/link';
-import { ArrowRight } from 'lucide-react';
+import { ArrowLeft, ArrowRight } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
 import Button from '@/components/Button';
@@ -13,7 +13,7 @@ import { useLanguage } from '@/context/LanguageContext';
 
 const MAX_SEARCH_RESULTS = 8;
 
-export default function ProductsContent({ groups, searchIndex, countByGroup }) {
+export default function ProductsContent({ groups, searchIndex, countByGroup, brand }) {
   const { t } = useLanguage();
   const [query, setQuery] = useState('');
 
@@ -28,14 +28,23 @@ export default function ProductsContent({ groups, searchIndex, countByGroup }) {
   return (
     <>
       <PageHero
-        crumb={t('pages.products.hero.crumb')}
+        crumb={brand ? brand.name : t('pages.products.hero.crumb')}
         eyebrow={t('pages.products.hero.eyebrow')}
-        title={t('pages.products.hero.title')}
-        description={t('pages.products.hero.description')}
+        title={brand ? brand.name : t('pages.products.hero.title')}
+        description={brand ? t(`productCatalog.brands.${brand.key}.desc`) : t('pages.products.hero.description')}
       />
 
       <section className="bg-white pt-16">
         <div className="container-page">
+          {brand && (
+            <Link
+              href="/products"
+              className="mb-8 inline-flex items-center gap-2 text-sm font-semibold text-brand-600 transition-colors hover:text-brand-700"
+            >
+              <ArrowLeft size={16} />
+              {t('productCatalog.backToGroups')}
+            </Link>
+          )}
           <Reveal className="relative mx-auto max-w-xl">
             <ProductSearchInput value={query} onChange={setQuery} placeholder={t('productCatalog.searchPlaceholder')} />
 

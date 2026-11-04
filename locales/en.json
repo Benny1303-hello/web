@@ -894,9 +894,6 @@
       },
       "contactEyebrow": "Consulting enquiries",
       "contactHeading": "Our engineers are ready to advise on your solution",
-      "staffGroups": {
-        "consulting": "Consulting & Solution Deployment"
-      },
       "staffRoles": {
         "giang": "Design consulting for 1-phase and 3-phase UPS systems, server room environment monitoring",
         "duc": "Design consulting for network, server, security, virtualization, and wireless network solutions"

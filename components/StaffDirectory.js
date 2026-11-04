@@ -8,7 +8,7 @@ import ZaloIcon from '@/components/ZaloIcon';
 import { toTelHref, toZaloHref } from '@/lib/phone';
 import { useLanguage } from '@/context/LanguageContext';
 
-export default function StaffDirectory({ tPrefix, groups }) {
+export default function StaffDirectory({ tPrefix, groups, showGroupHeadings = true }) {
   const { t } = useLanguage();
 
   return (
@@ -32,9 +32,11 @@ export default function StaffDirectory({ tPrefix, groups }) {
           <div className="mx-auto mt-12 max-w-4xl space-y-12">
             {groups.map((group) => (
               <div key={group.groupKey}>
-                <h3 className="mb-5 font-display text-lg font-bold text-navy-900">
-                  {t(`${tPrefix}.staffGroups.${group.groupKey}`)}
-                </h3>
+                {showGroupHeadings && (
+                  <h3 className="mb-5 font-display text-lg font-bold text-navy-900">
+                    {t(`${tPrefix}.staffGroups.${group.groupKey}`)}
+                  </h3>
+                )}
                 <div className="flex flex-wrap justify-center gap-4">
                   {group.members.map((contact, i) => (
                     <Reveal key={contact.key} delay={i * 0.06} className="w-full sm:w-[calc(50%-8px)]">

@@ -33,9 +33,9 @@ export default function Testimonials() {
   return (
     <section className="bg-navy-950 py-20 text-white">
       <div className="container-page">
-        <Reveal className="mx-auto max-w-2xl text-center">
-          <p className="text-xl font-bold uppercase tracking-[0.05em] text-cyan-300">{t('testimonials.eyebrow')}</p>
-          <h2 className="mt-3 text-balance font-display text-3xl font-bold md:text-4xl">
+        <Reveal className="mx-auto max-w-5xl text-center">
+          <p className="text-xl font-bold uppercase tracking-[0.05em] text-cyan-300 md:text-lg lg:text-xl">{t('testimonials.eyebrow')}</p>
+          <h2 className="mx-auto mt-3 max-w-2xl text-balance font-display text-3xl font-bold md:text-4xl">
             {t('testimonials.heading')}
           </h2>
         </Reveal>

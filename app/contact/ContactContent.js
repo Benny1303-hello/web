@@ -4,6 +4,8 @@ import { Facebook, Mail, MapPin, Phone } from 'lucide-react';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
 import ContactForm from '@/components/ContactForm';
+import ZaloIcon from '@/components/ZaloIcon';
+import WhatsAppIcon from '@/components/WhatsAppIcon';
 import { site } from '@/lib/content';
 import { useLanguage } from '@/context/LanguageContext';
 
@@ -51,7 +53,8 @@ export default function ContactContent() {
           <div className="mt-6 flex flex-wrap items-center gap-3">
             {[
               { key: 'facebook', href: site.facebook, icon: Facebook },
-              { key: 'zalo', href: site.zalo },
+              { key: 'zalo', href: site.zalo, icon: ZaloIcon },
+              { key: 'whatsapp', href: site.whatsapp, icon: WhatsAppIcon },
             ].map((s) => (
               <a
                 key={s.key}
@@ -60,7 +63,7 @@ export default function ContactContent() {
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 rounded-full bg-mist-50 px-4 py-2 text-sm font-semibold text-ink-900 ring-1 ring-black/5 transition-colors hover:text-brand-600"
               >
-                {s.icon && <s.icon size={16} />}
+                <s.icon width={16} height={16} />
                 {t(`common.${s.key}`)}
               </a>
             ))}

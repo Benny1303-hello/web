@@ -10,9 +10,9 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <CentersGrid />
       <TrustStats />
       <CompanyOverview />
-      <CentersGrid />
       <Testimonials />
       <PartnersMarquee />
       <CtaBanner />

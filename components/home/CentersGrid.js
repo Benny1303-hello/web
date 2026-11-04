@@ -13,9 +13,11 @@ export default function CentersGrid() {
   return (
     <section className="bg-white py-20">
       <div className="container-page">
-        <Reveal className="mx-auto max-w-2xl text-center">
-          <p className="text-xl font-bold uppercase tracking-[0.05em] text-brand-600">{t('centersSection.eyebrow')}</p>
-          <h2 className="mt-3 text-balance font-display text-3xl font-bold text-navy-900 md:text-4xl">
+        <Reveal className="mx-auto max-w-5xl text-center">
+          <p className="font-display text-4xl font-extrabold uppercase tracking-[0.05em] text-brand-600 md:text-5xl">
+            {t('centersSection.eyebrow')}
+          </p>
+          <h2 className="mt-4 text-balance font-display text-lg font-semibold text-navy-900 md:text-xl lg:text-2xl">
             {t('centersSection.heading')}
           </h2>
         </Reveal>

@@ -50,7 +50,7 @@ export default function ContactContent() {
             ))}
           </div>
 
-          <div className="mt-6 flex flex-wrap items-center gap-3">
+          <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
             {[
               { key: 'facebook', href: site.facebook, icon: Facebook },
               { key: 'zalo', href: site.zalo, icon: ZaloIcon },

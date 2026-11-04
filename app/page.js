@@ -11,8 +11,8 @@ export default function HomePage() {
     <>
       <Hero />
       <CentersGrid />
-      <TrustStats />
       <CompanyOverview />
+      <TrustStats />
       <Testimonials />
       <PartnersMarquee />
       <CtaBanner />

@@ -1,11 +1,20 @@
 'use client';
 
-import { ArrowRight } from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
+import { ChevronRight } from 'lucide-react';
 import Reveal from '@/components/Reveal';
 import { centers } from '@/lib/content';
-import { ICONS } from '@/lib/icons';
 import { useLanguage } from '@/context/LanguageContext';
+
+// Photo per center, looked up by the center's own key so adding a center in
+// lib/content.js without a photo degrades to a plain tile instead of
+// mismatching by position.
+const CENTER_IMAGES = {
+  distribution: '/hero/slide-distribution.jpg',
+  systemIntegration: '/hero/slide-system-integration.jpg',
+  services: '/hero/slide-services.jpg',
+};
 
 export default function CentersGrid() {
   const { t } = useLanguage();
@@ -22,30 +31,39 @@ export default function CentersGrid() {
           </h2>
         </Reveal>
 
-        <div className="mt-14 grid grid-cols-1 gap-6 md:grid-cols-3">
+        {/* Flex-wrap with per-item widths (not a grid) so a leftover row stays
+            centred if the number of centers ever changes. */}
+        <div className="mt-14 flex flex-wrap justify-center gap-6">
           {centers.map((center, i) => {
-            const Icon = ICONS[center.icon];
+            const image = CENTER_IMAGES[center.key];
             return (
-              <Reveal key={center.slug} delay={i * 0.1}>
+              <Reveal
+                key={center.slug}
+                delay={i * 0.1}
+                className="w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]"
+              >
                 <Link
                   href={center.href ?? `/${center.slug}`}
-                  className="group flex h-full flex-col rounded-2xl border border-black/5 bg-mist-50 p-8 transition-all duration-300 hover:-translate-y-2 hover:border-transparent hover:bg-navy-950 hover:shadow-card"
+                  className="group relative flex h-80 flex-col justify-end overflow-hidden rounded-2xl bg-navy-900 text-white shadow-soft transition-shadow duration-300 hover:shadow-card"
                 >
-                  <div className="flex items-center gap-3">
-                    <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500 to-cyan-400 text-white transition-transform duration-300 group-hover:scale-110">
-                      {Icon && <Icon size={22} />}
-                    </div>
-                    <h3 className="font-display text-xl font-bold text-ink-900 transition-colors group-hover:text-white">
-                      {t(`centers.${center.key}.title`)}
-                    </h3>
+                  {image && (
+                    <Image
+                      src={image}
+                      alt=""
+                      fill
+                      sizes="(min-width: 1024px) 380px, (min-width: 640px) 50vw, 100vw"
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                  )}
+                  <div className="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/45 to-navy-950/0" />
+                  <div className="relative p-6">
+                    <h3 className="font-display text-xl font-bold">{t(`centers.${center.key}.title`)}</h3>
+                    <p className="mt-2 text-sm leading-relaxed text-slate-200">{t(`centers.${center.key}.short`)}</p>
+                    <span className="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-cyan-300">
+                      {t('centersSection.viewMore')}
+                      <ChevronRight size={16} className="transition-transform duration-200 group-hover:translate-x-1" />
+                    </span>
                   </div>
-                  <p className="mt-3 flex-1 text-sm leading-relaxed text-ink-400 transition-colors group-hover:text-slate-300">
-                    {t(`centers.${center.key}.short`)}
-                  </p>
-                  <span className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-brand-600 transition-colors group-hover:text-cyan-300">
-                    {t('centersSection.viewMore')}
-                    <ArrowRight size={16} className="transition-transform duration-300 group-hover:translate-x-1" />
-                  </span>
                 </Link>
               </Reveal>
             );

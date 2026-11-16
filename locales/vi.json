@@ -1,4 +1,9 @@
 {
+  "announcementPopup": {
+    "label": "Thông báo",
+    "close": "Đóng",
+    "viewOnFacebook": "Xem trên Facebook"
+  },
   "faqWidget": {
     "toggleLabel": "Hỏi đáp nhanh",
     "title": "Hỏi đáp nhanh",

@@ -1,4 +1,9 @@
 {
+  "announcementPopup": {
+    "label": "Announcement",
+    "close": "Close",
+    "viewOnFacebook": "View on Facebook"
+  },
   "faqWidget": {
     "toggleLabel": "Quick FAQ",
     "title": "Quick FAQ",

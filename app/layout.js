@@ -5,6 +5,7 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FaqWidget from '@/components/FaqWidget';
+import AnnouncementPopup from '@/components/AnnouncementPopup';
 import PageTransition from '@/components/PageTransition';
 import { LanguageProvider } from '@/context/LanguageContext';
 import { site } from '@/lib/content';
@@ -64,6 +65,7 @@ export default function RootLayout({ children }) {
           </main>
           <Footer />
           <FaqWidget />
+          <AnnouncementPopup />
         </LanguageProvider>
         <Analytics />
         <Script

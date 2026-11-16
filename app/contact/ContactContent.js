@@ -1,6 +1,7 @@
 'use client';
 
 import { Facebook, Mail, MapPin, Phone } from 'lucide-react';
+import FacebookPagePlugin from '@/components/FacebookPagePlugin';
 import PageHero from '@/components/PageHero';
 import Reveal from '@/components/Reveal';
 import ContactForm from '@/components/ContactForm';
@@ -10,7 +11,7 @@ import { site } from '@/lib/content';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function ContactContent() {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
   const cards = [
     { icon: MapPin, key: 'address', value: t('pages.contact.addressValue'), href: site.mapHref },
@@ -85,6 +86,34 @@ export default function ContactContent() {
               </div>
             </Reveal>
           </div>
+        </div>
+      </section>
+
+      <section className="bg-mist-50 py-20">
+        <div className="container-page flex flex-col items-center gap-10 lg:flex-row lg:justify-between">
+          <Reveal className="max-w-xl text-center lg:text-left">
+            <p className="text-sm font-semibold uppercase tracking-wider text-brand-500">
+              {t('pages.contact.facebook.eyebrow')}
+            </p>
+            <h2 className="mt-3 text-balance font-display text-3xl font-bold text-ink-900 md:text-4xl">
+              {t('pages.contact.facebook.title')}
+            </h2>
+            <p className="mt-4 text-ink-400">{t('pages.contact.facebook.description')}</p>
+            <a
+              href={site.facebook}
+              target="_blank"
+              rel="noreferrer"
+              className="mt-6 inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-brand-500 to-cyan-400 px-7 py-3 text-sm font-semibold text-navy-950 shadow-glow transition-transform duration-200 hover:scale-105 active:scale-95"
+            >
+              <Facebook size={16} />
+              {t('pages.contact.facebook.cta')}
+            </a>
+          </Reveal>
+          <FacebookPagePlugin
+            pageUrl={site.facebook}
+            title={t('pages.contact.facebook.frameTitle')}
+            locale={language === 'en' ? 'en_US' : 'vi_VN'}
+          />
         </div>
       </section>
     </>

@@ -1278,7 +1278,14 @@
         "phone": "Phone",
         "email": "Email"
       },
-      "addressValue": "58 Mac Dinh Chi Street, Tan Dinh Ward, Ho Chi Minh City, Viet Nam"
+      "addressValue": "58 Mac Dinh Chi Street, Tan Dinh Ward, Ho Chi Minh City, Viet Nam",
+      "facebook": {
+        "eyebrow": "Fan page",
+        "title": "Follow TTC-Infotech on Facebook",
+        "description": "Get the latest announcements and news from TTC-Infotech on our official fan page.",
+        "cta": "Open fan page",
+        "frameTitle": "TTC-Infotech Facebook fan page"
+      }
     }
   },
   "productCatalog": {

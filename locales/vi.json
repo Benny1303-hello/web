@@ -1278,7 +1278,14 @@
         "phone": "Điện Thoại",
         "email": "Email"
       },
-      "addressValue": "58 Mạc Đỉnh Chi, Phường Tân Định, Thành Phố Hồ Chí Minh, Việt Nam"
+      "addressValue": "58 Mạc Đỉnh Chi, Phường Tân Định, Thành Phố Hồ Chí Minh, Việt Nam",
+      "facebook": {
+        "eyebrow": "Fan page",
+        "title": "Theo dõi TTC-Infotech trên Facebook",
+        "description": "Cập nhật thông báo và tin tức mới nhất từ TTC-Infotech trên fan page chính thức của chúng tôi.",
+        "cta": "Mở fan page",
+        "frameTitle": "Fan page Facebook của TTC-Infotech"
+      }
     }
   },
   "productCatalog": {

@@ -13,8 +13,8 @@ export default function HomePage() {
       <CentersGrid />
       <CompanyOverview />
       <TrustStats />
-      <Testimonials />
       <PartnersMarquee />
+      <Testimonials />
       <CtaBanner />
     </>
   );

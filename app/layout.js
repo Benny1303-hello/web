@@ -1,4 +1,4 @@
-import { Inter, Sora } from 'next/font/google';
+import { Nunito } from 'next/font/google';
 import Script from 'next/script';
 import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
@@ -10,17 +10,11 @@ import PageTransition from '@/components/PageTransition';
 import { LanguageProvider } from '@/context/LanguageContext';
 import { site } from '@/lib/content';
 
-const sora = Sora({
-  subsets: ['latin'],
-  weight: ['600', '700', '800'],
-  variable: '--font-sora',
-  display: 'swap',
-});
-
-const inter = Inter({
-  subsets: ['latin'],
-  weight: ['400', '500', '600'],
-  variable: '--font-inter',
+// One rounded family for headings and body, with the Vietnamese subset so
+// diacritics come from the same font instead of a system fallback.
+const nunito = Nunito({
+  subsets: ['latin', 'vietnamese'],
+  variable: '--font-display',
   display: 'swap',
 });
 
@@ -56,7 +50,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="vi" className={`${sora.variable} ${inter.variable}`}>
+    <html lang="vi" className={nunito.variable}>
       <body className="font-body antialiased">
         <LanguageProvider>
           <Navbar />

@@ -39,8 +39,8 @@ module.exports = {
         },
       },
       fontFamily: {
-        display: ['var(--font-sora)', 'sans-serif'],
-        body: ['var(--font-inter)', 'sans-serif'],
+        display: ['var(--font-display)', 'sans-serif'],
+        body: ['var(--font-display)', 'sans-serif'],
       },
       backgroundImage: {
         'hero-mesh':
